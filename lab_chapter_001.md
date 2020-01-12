@@ -2,11 +2,13 @@ Lab #1
 ==========
 
 <dl>
+  <head>
   <style>
   h3 {
       margin: 0;
   }
   </style>
+  </head>
 </dl>
 
 ### Ojective: <br> 
