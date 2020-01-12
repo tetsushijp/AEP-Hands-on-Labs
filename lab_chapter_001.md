@@ -9,13 +9,11 @@ Lab #1
 | Est Time      | 3 mins         | 
 
 <dl>
-  <div align="right>
+  <div align="right">      
      helloo
   </div>
 </dl>
 
-      
-  <ta
 
 
 https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
