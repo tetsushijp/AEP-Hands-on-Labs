@@ -14,7 +14,7 @@ Lab #1
 #### begin
 
 
-![alt text](https://github.com/adobe/AEP-Hands-on-Labs/assests/images/left_hand_nav_menu_identities.png "Identities")
+![alt text](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/assets/images/left_hand_nav_menu_identities.png?raw=true "Identities")
 
 
 |   |   |
