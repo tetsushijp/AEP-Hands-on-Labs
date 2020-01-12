@@ -1,6 +1,12 @@
 Lab #1
 ==========
 
+(setq markdown-xhtml-header-content
+      "<style type='text/css'>
+a { text-decoration: none; }
+a:hover { text-decoration: underline; }
+</style>")
+
 <dl>
   <head>
   <style>
