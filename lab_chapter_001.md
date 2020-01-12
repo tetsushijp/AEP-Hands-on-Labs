@@ -1,6 +1,12 @@
 Lab #1
 ==========
 
+<style>
+h3 {
+    margin: 0;
+}
+</style>
+           
 ### Ojective: <br> 
            to do something cool ish
 
