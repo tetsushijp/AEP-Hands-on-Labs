@@ -1,6 +1,7 @@
 Lab #1
 ==========
 
+| hi | there |
 | --- | --- |
 | Lab #         | 1.1            | 
 | Est Time      | 3 mins         | 
