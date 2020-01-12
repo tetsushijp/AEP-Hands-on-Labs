@@ -1,6 +1,17 @@
 Lab #1
 ==========
 
+### Ojective: 
+#### to do something cool ish
+
+### Prerequisites:
+#### shhhhhhhhhhhhhhtuff
+ - 1
+ - 2
+ - 3
+
+### Instructions
+#### begin
 
 |   |   |
 | --- | --- |
