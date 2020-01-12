@@ -25,6 +25,37 @@ cell  cell      row
 column spanning spans
 =============== =====
 
+
+<table>
+
+
+
+
+
+<thead valign="bottom">
+<tr><th colspan="2">Table Headings</th>
+<th>Here</th>
+</tr>
+<tr><th>Sub</th>
+<th>Headings</th>
+<th>Too</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr><td colspan="2">column spanning</td>
+<td>no</td>
+</tr>
+<tr><td>cell</td>
+<td>cell</td>
+<td>row</td>
+</tr>
+<tr><td colspan="2">column spanning</td>
+<td>spans</td>
+</tr>
+</tbody>
+</table>
+
+
 https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 hello there
