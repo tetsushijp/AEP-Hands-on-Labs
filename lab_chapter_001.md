@@ -31,7 +31,7 @@ column spanning spans
 
 
 
-
+<table>
 <thead valign="bottom">
 <tr><th colspan="2">Table Headings</th>
 <th>Here</th>
