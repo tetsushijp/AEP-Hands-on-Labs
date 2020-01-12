@@ -1,12 +1,14 @@
 Lab #1
 ==========
 
-<style>
-h3 {
-    margin: 0;
-}
-</style>
-           
+<dl>
+  <style>
+  h3 {
+      margin: 0;
+  }
+  </style>
+</dl>
+
 ### Ojective: <br> 
            to do something cool ish
 
