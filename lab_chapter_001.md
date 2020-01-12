@@ -1,7 +1,7 @@
 Lab #1
 ==========
 
-### Ojective: 
+### Ojective: <br> 
            to do something cool ish
 
 ### Prerequisites:
