@@ -13,6 +13,10 @@ Lab #1
 ### Instructions
 #### begin
 
+
+![alt text](https://github.com/adobe/AEP-Hands-on-Labs/assests/images/left_hand_nav_menu_identities.png "Identities")
+
+
 |   |   |
 | --- | --- |
 | Lab #         | 1.1            | 
