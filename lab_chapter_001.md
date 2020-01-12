@@ -14,7 +14,16 @@ Lab #1
   </div>
 </dl>
 
-
+===== ========= =====
+Table Headings  Here
+--------------- -----
+Sub   Headings  Too
+===== ========= =====
+column spanning no
+--------------- -----
+cell  cell      row
+column spanning spans
+=============== =====
 
 https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
