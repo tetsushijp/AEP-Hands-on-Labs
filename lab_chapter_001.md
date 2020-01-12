@@ -9,10 +9,8 @@ Lab #1
 | Est Time      | 3 mins         | 
 
 <dl>
-  <div>
-    <span align="right">
-      helloo
-    </span>
+  <div align="right>
+     helloo
   </div>
 </dl>
 
