@@ -83,7 +83,7 @@ column spanning spans
 </div>
 
 <div align="right">
-<td style="border: none;">
+<td style="border: none;" valign="top">
 
 <table>
 <tbody valign="top">
