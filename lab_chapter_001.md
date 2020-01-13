@@ -472,10 +472,15 @@ Lab 15.1 - Deep Dive \[Query Serive\] - Simple commands within PSQL
 Quick Command Guide:
 -----------------
 ```\dt``` or ```\d``` listing all dataset tables
+
 ```\dt <table_name>``` list details of dataset table
+
 ```\a``` toggle from aligned to non-aligned format
+
 ```\o``` output format (I'll need to check this out)
+
 ```\q``` or ```quit``` exits the commandline
+
 
 
 4. Go here to find more: 
