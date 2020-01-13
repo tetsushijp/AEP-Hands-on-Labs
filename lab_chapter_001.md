@@ -68,26 +68,14 @@ column spanning spans
 <tr style="border: none;">
 <div align="left">
 <td width="600" style="border: none;">
+
 <table>
-<thead valign="bottom">
-<tr><th colspan="2">Table Headings</th>
-<th>Here</th>
-</tr>
-<tr><th>Sub</th>
-<th>Headings</th>
-<th>Too</th>
-</tr>
-</thead>
 <tbody valign="top">
-<tr><td colspan="2">column spanning</td>
-<td>no</td>
+<tr width="500"><td><h2>Objective:</h2></td>
+<td>aslkj asdlkj aslkjd asldkjl aslkdj alskdjl aslkj laskjd alskj aslkdj aslkjd aslkdj asldkjlasljkdlaksjdlkasjd asldjkasd asdlkjasd klasjd alkjasdl asdlkj asdl asdjlk asdl kjas dlll kjasd  aslkj  lkajsd lkjasd  lkasjdl kjalskdja s</td>
 </tr>
-<tr><td>cell</td>
-<td>cell</td>
-<td>row</td>
-</tr>
-<tr><td colspan="2">column spanning</td>
-<td>spans</td>
+<tr width="500"><td><h2>Pre-requisitis:</h2></td>
+<td>aslkj asdlkj aslkjd asldkjl aslkdj alskdjl aslkj laskjd alskj aslkdj aslkjd aslkdj asldkjlasljkdlaksjdlkasjd asldjkasd asdlkjasd klasjd alkjasdl asdlkj asdl asdjlk asdl kjas dlll kjasd  aslkj  lkajsd lkjasd  lkasjdl kjalskdja s</td>
 </tr>
 </tbody>
 </table>
