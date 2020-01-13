@@ -74,7 +74,7 @@ column spanning spans
       <tr width="500"><td><h3>Objective:</h3></td>
 <td>aslkj asdlkj aslkjd asldkjl aslkdj alskdjl aslkj laskjd alskj aslkdj aslkjd aslkdj asldkjlasljkdlaksjdlkasjd asldjkasd asdlkjasd klasjd alkjasdl asdlkj asdl asdjlk asdl kjas dlll kjasd  aslkj  lkajsd lkjasd  lkasjdl kjalskdja s</td>
 </tr>
-<tr width="500"><td><h2>Prerequisites:</h2></td>
+<tr width="500"><td><h3>Prerequisites:</h3></td>
 <td>none</td>
 </tr>
 </tbody>
@@ -88,7 +88,7 @@ column spanning spans
 <table>
 <tbody valign="top">
       <tr>
-            <td>Section</td>
+            <td valign="middle">Section</td>
             <td><img src="https://github.com/adobe/AEP-Hands-on-Labs/blob/master/assets/images/left_hand_nav_menu_identities.png?raw=true" alt="Identities"></td>
       </tr>
       <tr>
