@@ -92,12 +92,12 @@ column spanning spans
             <td valign="middle" height="70"><img src="https://github.com/adobe/AEP-Hands-on-Labs/blob/master/assets/images/left_hand_nav_menu_identities.png?raw=true" alt="Identities"></td>
       </tr>
       <tr>
-            <td height="70">version</td>
-            <td height="70">1.0.1</td>
+            <td valign="middle" height="70">version</td>
+            <td valign="middle" height="70">1.0.1</td>
       </tr>
       <tr>
-            <td height="70">date</td>
-            <td height="70">2020-01-06</td>
+            <td valign="middle" height="70">date</td>
+            <td valign="middle" height="70">2020-01-06</td>
       </tr>
 </tbody>
 </table>
