@@ -9,13 +9,13 @@ Lab 7.1 - Profile Attribute Segmentation
 <table>
 <tbody valign="top">
       <tr width="500">
-            <td><h3>Objective:</h3></td>
-            <td>In this lab, you will learn how to create a segment based on a profile attribute/characteristic that has been mapped within unified profile
+            <td valign="top"><h3>Objective:</h3></td>
+            <td valign="top">In this lab, you will learn how to create a segment based on a profile attribute/characteristic that has been mapped within unified profile
             </td>
      </tr>
      <tr width="500">
-           <td><h3>Prerequisites:</h3></td>
-           <td>none</td>
+           <td valign="top"><h3>Prerequisites:</h3></td>
+           <td valign="top">none</td>
      </tr>
 </tbody>
 </table>
@@ -64,7 +64,7 @@ NOTE: Estimate link may not show results if attribute or selection is statistica
 <br>
 
 
-Lab 7.1 - Profile Experience Event Segmentation
+Lab 7.2 - Profile Experience Event Segmentation
 ==========
 <table style="border-collapse: collapse; border: none;" class="tab" cellspacing="0" cellpadding="0">
 
@@ -75,12 +75,12 @@ Lab 7.1 - Profile Experience Event Segmentation
 <table>
 <tbody valign="top">
       <tr width="500">
-            <td><h3>Objective:</h3></td>
-            <td>Like the prior lab, this will build a customer segment but now based on the unified experience event data (from EE Schemas/Datasets) that are streaming into plartform</td>
+            <td valign="top"><h3>Objective:</h3></td>
+            <td valign="top">Similar to the prior lab, in this lab you will build a customer segment based on the unified experience event data (from EE Schemas/Datasets) that are streaming into plartform</td>
      </tr>
      <tr width="500">
-           <td><h3>Prerequisites:</h3></td>
-           <td>none</td>
+           <td valign="top"><h3>Prerequisites:</h3></td>
+           <td valign="top">none</td>
      </tr>
 </tbody>
 </table>
