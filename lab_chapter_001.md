@@ -15,7 +15,7 @@ Lab 1.1 - Ingestion - Simple CSV Ingestion
      </tr>
      <tr width="500">
            <td valign="top"><h3>Prerequisites:</h3></td>
-           <td valign="top">download "simple_csv_example.csv" file</td>
+           <td valign="top"><li>download "simple_csv_example.csv" file</li></td>
      </tr>
 </tbody>
 </table>
@@ -81,9 +81,9 @@ Lab 1.2 - Ingestion - CSV to XMD Mapping
      </tr>
      <tr width="500">
            <td valign="top"><h3>Prerequisites:</h3></td>
-           <td valign="top"><li>downloaded "csv_to_xdm_mapping.csv" file</li>
-                            <li>schema in plaace (we'll use "Student Performance Profile")</li>
-                            <li>dataset in plaace (we'll use "Student Performance dataset")</li>
+           <td valign="top"><li>download "csv_to_xdm_mapping.csv" file</li>
+                            <li>schema in place</li>
+                            <li>dataset in place</li>
            </td>
      </tr>
 </tbody>
@@ -155,8 +155,8 @@ Lab 2.1 - Dataset - Adding data via JSON
      <tr width="500">
            <td valign="top"><h3>Prerequisites:</h3></td>
            <td valign="top"><li>downloaded "ad_hoc_json_upload.json" file</li>
-                            <li>schema in plaace (we'll use "Student Performance Profile")</li>
-                            <li>dataset in plaace (we'll use "Student Performance Dataset")</li>
+                            <li>schema in place</li>
+                            <li>dataset in place</li>
            </td>
      </tr>
 </tbody>
@@ -237,7 +237,7 @@ Lab 7.1 - Segmentation - Profile Attribute Segmentation
 <tbody valign="top">
       <tr>
             <td valign="middle" height="70"><b>section</b></td>
-            <td valign="middle" height="70"><img src="https://github.com/adobe/AEP-Hands-on-Labs/blob/master/assets/images/left_hand_nav_menu_identities.png?raw=true" alt="Identities"></td>
+            <td valign="middle" height="70"><img src="https://github.com/adobe/AEP-Hands-on-Labs/blob/master/assets/images/left_hand_nav_menu_segments.png?raw=true" alt="Segments"></td>
       </tr>
       <tr>
             <td valign="middle" height="70"><b>version</b></td>
@@ -302,7 +302,7 @@ Lab 7.2 - Segmentation - Profile Experience Event Segmentation
 <tbody valign="top">
       <tr>
             <td valign="middle" height="70"><b>section</b></td>
-            <td valign="middle" height="70"><img src="https://github.com/adobe/AEP-Hands-on-Labs/blob/master/assets/images/left_hand_nav_menu_identities.png?raw=true" alt="Identities"></td>
+            <td valign="middle" height="70"><img src="https://github.com/adobe/AEP-Hands-on-Labs/blob/master/assets/images/left_hand_nav_menu_segments.png?raw=true" alt="Segments"></td>
       </tr>
       <tr>
             <td valign="middle" height="70"><b>version</b></td>
