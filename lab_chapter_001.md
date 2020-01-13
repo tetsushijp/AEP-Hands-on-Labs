@@ -74,11 +74,11 @@ Lab 7.2 - Profile Experience Event Segmentation
 <td width="600" style="border: none;">
 <table>
 <tbody valign="top">
-      <tr width="500" height="300">
+      <tr width="500">
             <td valign="top"><h3>Objective:</h3></td>
             <td valign="top">Similar to the prior lab, in this lab you will build a customer segment based on the unified experience event data (from EE Schemas/Datasets) that are streaming into plartform</td>
      </tr>
-     <tr width="500" height="300">
+     <tr width="500">
            <td valign="top"><h3>Prerequisites:</h3></td>
            <td valign="top">none</td>
      </tr>
