@@ -59,7 +59,7 @@ column spanning spans
 
 <tr>
 <div align="left">
-<td>
+<td width="600">
 <table>
 <thead valign="bottom">
 <tr><th colspan="2">Table Headings</th>
