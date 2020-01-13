@@ -1,67 +1,3 @@
-<dl>
-<style>
-.tab {border-collapse:collapse;}
-.tab .first {border-bottom:1px solid #EEE;}
-.tab .second {border-top:1px solid #CCC;box-shadow: inset 0 1px 0 #CCC;}​
-</style>
-</dl>
-      
-Lab #1
-==========
-
-(setq markdown-xhtml-header-content
-      "<style type='text/css'>
-a { text-decoration: none; }
-a:hover { text-decoration: underline; }
-</style>")
-
-<dl>
-  <head>
-  <style>
-  h3 { margin: 0; }
-  </style>
-  </head>
-</dl>
-
-### Ojective: <br> 
-           to do something cool ish
-
-### Prerequisites:
-#### shhhhhhhhhhhhhhtuff
- - 1
- - 2
- - 3
-
-### Instructions
-#### begin
-
-
-![alt text](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/assets/images/left_hand_nav_menu_identities.png?raw=true "Identities")
-
-
-|   |   |
-| --- | --- |
-| Lab #         | 1.1            | 
-| Version       | 1.0.1.20200112 | 
-| Est Time      | 3 mins         | 
-
-<dl>
-  <div align="right">      
-     helloo
-  </div>
-</dl>
-
-===== ========= =====
-Table Headings  Here
---------------- -----
-Sub   Headings  Too
-===== ========= =====
-column spanning no
---------------- -----
-cell  cell      row
-column spanning spans
-=============== =====
-
 Lab #1
 ==========
 <table style="border-collapse: collapse; border: none;" class="tab" cellspacing="0" cellpadding="0">
@@ -106,6 +42,9 @@ Lab #1
 </table>
 </td>
 </div>
+
+</tr>
+</table>
 
 Instructions:
 -----------------
