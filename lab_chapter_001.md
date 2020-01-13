@@ -76,12 +76,12 @@ Lab 1.2 - Ingestion - CSV to XMD Mapping
 <tbody valign="top">
       <tr width="500">
             <td valign="top"><h3>Objective:</h3></td>
-            <td valign="top">This lab will show you how to add CSV data to the AEP datasets in a manner that will be usable (or conformed) to either the user Profile or Experience Event schema.
+            <td valign="top"><br>This lab will show you how to add CSV data to the AEP datasets in a manner that will be usable (or conformed) to either the user Profile or Experience Event schema.
             </td>
      </tr>
      <tr width="500">
            <td valign="top"><h3>Prerequisites:</h3></td>
-           <td valign="top"><li>download "csv_to_xdm_mapping.csv" file</li>
+           <td valign="top"><br><li>download "csv_to_xdm_mapping.csv" file</li>
                             <li>schema in place</li>
                             <li>dataset in place</li>
            </td>
@@ -149,12 +149,12 @@ Lab 2.1 - Dataset - Adding data via JSON
 <tbody valign="top">
       <tr width="500">
             <td valign="top"><h3>Objective:</h3></td>
-            <td valign="top">Provided if a dataset is already in place, AEP allows for data architects to add/upload either Parquet files or JSON files directly to the dataset.
+            <td valign="top"><br>Provided if a dataset is already in place, AEP allows for data architects to add/upload either Parquet files or JSON files directly to the dataset.
             </td>
      </tr>
      <tr width="500">
            <td valign="top"><h3>Prerequisites:</h3></td>
-           <td valign="top"><li>downloaded "ad_hoc_json_upload.json" file</li>
+           <td valign="top"><br><li>downloaded "ad_hoc_json_upload.json" file</li>
                             <li>schema in place</li>
                             <li>dataset in place</li>
            </td>
@@ -218,12 +218,12 @@ Lab 7.1 - Segmentation - Profile Attribute Segmentation
 <tbody valign="top">
       <tr width="500">
             <td valign="top"><h3>Objective:</h3></td>
-            <td valign="top">In this lab, you will learn how to create a segment based on a profile attribute/characteristic that has been mapped within unified profile
+            <td valign="top"><br>In this lab, you will learn how to create a segment based on a profile attribute/characteristic that has been mapped within unified profile
             </td>
      </tr>
      <tr width="500">
            <td valign="top"><h3>Prerequisites:</h3></td>
-           <td valign="top">none</td>
+           <td valign="top"><br>none</td>
      </tr>
 </tbody>
 </table>
@@ -284,11 +284,11 @@ Lab 7.2 - Segmentation - Profile Experience Event Segmentation
 <tbody valign="top">
       <tr width="500">
             <td valign="top"><h3>Objective:</h3></td>
-            <td valign="top">Similar to the prior lab, in this lab you will build a customer segment based on the unified experience event data (from EE Schemas/Datasets) that are streaming into plartform</td>
+            <td valign="top"><br>Similar to the prior lab, in this lab you will build a customer segment based on the unified experience event data (from EE Schemas/Datasets) that are streaming into plartform</td>
      </tr>
      <tr width="500">
            <td valign="top"><h3>Prerequisites:</h3></td>
-           <td valign="top">none</td>
+           <td valign="top"><br>none</td>
      </tr>
 </tbody>
 </table>
