@@ -1,4 +1,4 @@
-Lab #1.1
+Lab 1.1 - Ingestion
 ==========
 <table style="border-collapse: collapse; border: none;" class="tab" cellspacing="0" cellpadding="0">
 
@@ -54,7 +54,7 @@ Instructions:
 
 
 
-Lab #1.2
+Lab 1.2 - Dataset
 ==========
 <table style="border-collapse: collapse; border: none;" class="tab" cellspacing="0" cellpadding="0">
 
