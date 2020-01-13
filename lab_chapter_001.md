@@ -195,7 +195,7 @@ Instructions:
 2. Select the dataset named "Student Performance Dataset"
 3. On the lower right-hand menu, click the "Drag and drop file(s) or Browse" area
 ```
-    NOTE: Once you select the file in this interface, AEP immediates attempts to ingest it--
+    WARNING: Once you select the file in this interface, AEP immediates attempts to ingest it--
     there isn't a seperate initiation or confirmation page/button.
 ```     
 4. Upload and processing should begin (I usually click in-and-out of a different batch to have the current batch update its progess -- I believe there's an AJAX call updating in the browser UI)
