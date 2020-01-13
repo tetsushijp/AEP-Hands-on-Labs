@@ -114,22 +114,22 @@ Lab 7.1 - Profile Experience Event Segmentation
 
 Instructions:
 -----------------
-1.In the left navigation, select ‘Events’ under ‘Fields’
-2.Select ‘XDM ExperienceEvent’ under ‘Browse Classes’
-3.Select ‘Experience’ under ‘Events > XDM ExperienceEvent’
-4.Select ‘Analytics’ under ‘Events > XDMExperienceEvent > Experience’
-5.Expand ‘Event 1 to 100’
-6.Expand ‘Account Creation: Step 1 (event33)’
-7.Drag the field to the Segment Canvas
-8.Modify the condition for this field to ‘exists’
-9.In the left navigation, click on ‘Event 1 to 11’
-10.Click on ‘Account Creation: Step 2 (event34)’
-11.Drag the field to the Segment Canvas to the right of the existing event
-12.Modify the condition for this field to ‘exists’
-13.Expand ‘Event 1 to 100’
-14.Click on ‘Accounts Created’
-15.Drag the field to the Segment Canvas to the right of the second event
-16.Modify the condition for this field to ‘does not exist’
+1. In the left navigation, select ‘Events’ under ‘Fields’
+2. Select ‘XDM ExperienceEvent’ under ‘Browse Classes’
+3. Select ‘Experience’ under ‘Events > XDM ExperienceEvent’
+4. Select ‘Analytics’ under ‘Events > XDMExperienceEvent > Experience’
+5. Expand ‘Event 1 to 100’
+6. Expand ‘Account Creation: Step 1 (event33)’
+7. Drag the field to the Segment Canvas
+8. Modify the condition for this field to ‘exists’
+9. In the left navigation, click on ‘Event 1 to 11’
+10. Click on ‘Account Creation: Step 2 (event34)’
+11. Drag the field to the Segment Canvas to the right of the existing event
+12. Modify the condition for this field to ‘exists’
+13. Expand ‘Event 1 to 100’
+14. Click on ‘Accounts Created’
+15. Drag the field to the Segment Canvas to the right of the second event
+16. Modify the condition for this field to ‘does not exist’
 17. In the Segment properties pane, select the ‘Refresh estimate’ link
 18. Please do not save you segment
 
