@@ -89,7 +89,7 @@ column spanning spans
 <tbody valign="top">
       <tr>
             <td>Section</td>
-            <td><img source="https://github.com/adobe/AEP-Hands-on-Labs/blob/master/assets/images/left_hand_nav_menu_identities.png?raw=true"></td>
+            <td><img src="https://github.com/adobe/AEP-Hands-on-Labs/blob/master/assets/images/left_hand_nav_menu_identities.png?raw=true" alt="Identities"></td>
       </tr>
       <tr>
             <td>version</td>
