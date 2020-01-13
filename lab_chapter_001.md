@@ -55,7 +55,7 @@ column spanning spans
 =============== =====
 
 
-<table>
+<table style="border: none;">
 
 <tr>
 <div align="left">
