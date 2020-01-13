@@ -71,7 +71,7 @@ column spanning spans
 <td width="600" style="border: none;">
 <table>
 <tbody valign="top">
-<tr width="500"><td><h2>Objective:</h2></td>
+      <tr width="500"><td><font size="20"><b>Objective:</b></font></td>
 <td>aslkj asdlkj aslkjd asldkjl aslkdj alskdjl aslkj laskjd alskj aslkdj aslkjd aslkdj asldkjlasljkdlaksjdlkasjd asldjkasd asdlkjasd klasjd alkjasdl asdlkj asdl asdjlk asdl kjas dlll kjasd  aslkj  lkajsd lkjasd  lkasjdl kjalskdja s</td>
 </tr>
 <tr width="500"><td><h2>Prerequisites:</h2></td>
