@@ -57,9 +57,9 @@ column spanning spans
 
 <table>
 
-
-
-
+<tr>
+<div align="left">
+<td>
 <table>
 <thead valign="bottom">
 <tr><th colspan="2">Table Headings</th>
@@ -83,6 +83,37 @@ column spanning spans
 </tr>
 </tbody>
 </table>
+</td>
+</div>
+
+<div align="right">
+<td>
+<table>
+<thead valign="bottom">
+<tr><th colspan="2">Table Headings</th>
+<th>Here</th>
+</tr>
+<tr><th>Sub</th>
+<th>Headings</th>
+<th>Too</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr><td colspan="2">column spanning</td>
+<td>no</td>
+</tr>
+<tr><td>cell</td>
+<td>cell</td>
+<td>row</td>
+</tr>
+<tr><td colspan="2">column spanning</td>
+<td>spans</td>
+</tr>
+</tbody>
+</table>
+</td>
+</div>
+
 
 
 https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
