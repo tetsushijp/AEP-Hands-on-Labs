@@ -10,12 +10,12 @@ Lab 1.1 - Ingestion - Simple CSV Ingestion
 <tbody valign="top">
       <tr width="500">
             <td valign="top"><h3>Objective:</h3></td>
-            <td valign="top"><br><br>There are several ways to push up CSV data into AEP.  This lab will walk-through the "simple" approach-- please note though, this creates a schema that is non-standard or conforment to AEP
+            <td valign="top"><br>There are several ways to push up CSV data into AEP.  This lab will walk-through the "simple" approach-- please note though, this creates a schema that is non-standard or conforment to AEP
             </td>
      </tr>
      <tr width="500">
            <td valign="top"><h3>Prerequisites:</h3></td>
-           <td valign="top"><br><br><li>download "simple_csv_example.csv" file</li></td>
+           <td valign="top"><br><li>download "simple_csv_example.csv" file</li></td>
      </tr>
 </tbody>
 </table>
