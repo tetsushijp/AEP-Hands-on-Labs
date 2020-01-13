@@ -55,11 +55,11 @@ column spanning spans
 =============== =====
 
 
-<table style="border: none;">
+<table style="border-collapse: collapse; border: none;">
 
-<tr>
+<tr style="border: none;">
 <div align="left">
-<td width="600">
+<td width="600" style="border: none;">
 <table>
 <thead valign="bottom">
 <tr><th colspan="2">Table Headings</th>
@@ -87,7 +87,7 @@ column spanning spans
 </div>
 
 <div align="right">
-<td>
+<td style="border: none;">
 <table>
 <thead valign="bottom">
 <tr><th colspan="2">Table Headings</th>
