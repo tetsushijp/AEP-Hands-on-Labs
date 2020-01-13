@@ -1,3 +1,11 @@
+<dl>
+<style>
+.tab {border-collapse:collapse;}
+.tab .first {border-bottom:1px solid #EEE;}
+.tab .second {border-top:1px solid #CCC;box-shadow: inset 0 1px 0 #CCC;}​
+</style>
+</dl>
+      
 Lab #1
 ==========
 
@@ -55,7 +63,7 @@ column spanning spans
 =============== =====
 
 
-<table style="border-collapse: collapse; border: none;">
+<table style="border-collapse: collapse; border: none;" class="tab" cellspacing="0" cellpadding="0">
 
 <tr style="border: none;">
 <div align="left">
