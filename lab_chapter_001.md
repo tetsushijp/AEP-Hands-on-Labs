@@ -81,9 +81,9 @@ Lab 1.2 - Ingestion - CSV to XMD Mapping
      </tr>
      <tr width="500">
            <td valign="top"><h3>Prerequisites:</h3></td>
-           <td valign="top"><li>downloaded "csv_to_xdm_mapping.csv" file<li>
-                            <li>schema in plaace (we'll use "Student Performance Profile")<li>
-                            <li>dataset in plaace (we'll use "Student Performance dataset")<li>
+           <td valign="top"><li>downloaded "csv_to_xdm_mapping.csv" file</li>
+                            <li>schema in plaace (we'll use "Student Performance Profile")</li>
+                            <li>dataset in plaace (we'll use "Student Performance dataset")</li>
            </td>
      </tr>
 </tbody>
@@ -154,9 +154,9 @@ Lab 2.1 - Dataset - Adding data via JSON
      </tr>
      <tr width="500">
            <td valign="top"><h3>Prerequisites:</h3></td>
-           <td valign="top"><li>downloaded "ad_hoc_json_upload.json" file<li>
-                            <li>schema in plaace (we'll use "Student Performance Profile")<li>
-                            <li>dataset in plaace (we'll use "Student Performance Dataset")<li>
+           <td valign="top"><li>downloaded "ad_hoc_json_upload.json" file</li>
+                            <li>schema in plaace (we'll use "Student Performance Profile")</li>
+                            <li>dataset in plaace (we'll use "Student Performance Dataset")</li>
            </td>
      </tr>
 </tbody>
