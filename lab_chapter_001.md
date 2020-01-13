@@ -87,15 +87,15 @@ column spanning spans
 
 <table>
 <tbody valign="top">
-      <tr>
+      <tr height="30">
             <td valign="middle">Section</td>
-            <td><img src="https://github.com/adobe/AEP-Hands-on-Labs/blob/master/assets/images/left_hand_nav_menu_identities.png?raw=true" alt="Identities"></td>
+            <td valign="middle"><img src="https://github.com/adobe/AEP-Hands-on-Labs/blob/master/assets/images/left_hand_nav_menu_identities.png?raw=true" alt="Identities"></td>
       </tr>
-      <tr>
+      <tr height="30">
             <td>version</td>
             <td>1.0.1</td>
       </tr>
-      <tr>
+      <tr height="30">
             <td>date</td>
             <td>2020-01-06</td>
       </tr>
