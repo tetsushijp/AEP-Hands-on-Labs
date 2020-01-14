@@ -1,4 +1,4 @@
-Lab 7.1 - Segmentation - Profile Attribute Segmentation
+Lab 6.1 - Segmentation - Profile Attribute Segmentation
 ==========
 <table style="border-collapse: collapse; border: none;" class="tab" cellspacing="0" cellpadding="0">
 
@@ -64,7 +64,7 @@ NOTE: Estimate link may not show results if attribute or selection is statistica
 <br>
 
 
-Lab 7.2 - Segmentation - Profile Experience Event Segmentation
+Lab 6.2 - Segmentation - Profile Experience Event Segmentation
 ==========
 <table style="border-collapse: collapse; border: none;" class="tab" cellspacing="0" cellpadding="0">
 
