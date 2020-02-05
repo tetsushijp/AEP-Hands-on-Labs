@@ -81,7 +81,7 @@ Lab 1.2 - Ingestion - CSV to XMD Mapping
      </tr>
      <tr width="500">
            <td valign="top"><h3>Prerequisites:</h3></td>
-           <td valign="top"><br><li>download "csv_to_xdm_mapping.csv" file</li>
+           <td valign="top"><br><li>download "crm_data.csv" file</li>
                             <li>schema in place</li>
                             <li>dataset in place</li>
            </td>
