@@ -126,7 +126,7 @@ Instructions:
    - Mapping
    - Ingest
 4. Select CSV file for upload
-5. Select "Branch Activity Dataset"
+5. Select "CRM Batch Data Dataset"
 6. This is where mapping is needed, the system will assume certain values...
     Please WAIT HERE as a class - we'll work through this section together
 7. Once done, hit submit and wait for ingestion process to complete
