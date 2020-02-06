@@ -1,4 +1,4 @@
-# Exercise 7.3 - Queries, queries, queries,... and churn analysis
+# Exercise  - Queries, queries, queries,... and Data analysis
 
 ## Objective
 
@@ -12,7 +12,7 @@ In this exercises you will write queries to analyse product views, product funne
 
 All queries listed in this chapter will be executed in your **PSQL command-line interface**. You should copy (CTRL-c) the statement blocks indicated with **SQL** and paste (CTRL-v)them in the **PSQL command-line interface**. The **Query Result** blocks show the pasted SQL statement and the associated query result.
 
-## Exercise 7.3.1
+## Exercise 1
 
 Write basic queries for data analysis
 
@@ -27,10 +27,10 @@ How many product views do we have on a daily basis?
 ```sql
 select date_format( timestamp , 'yyyy-MM-dd') AS Day,
        count(*) AS productViews
-from   emea_ee_dataset_api
-where  _experienceplatform.brand.brandName like 'Luma Telco'
-and    _experienceplatform.productData.productInteraction = 'productView'
+from   fsi_demo_data_postvalues
+where  web.webPageDetails.pageViews.value = '1.0'
 group by Day
+order by day desc
 limit 10;
 ```
 
@@ -39,18 +39,20 @@ Copy the statement above and execute it in your **PSQL command-line interface**.
 **Query Result**
 
 ```text
-all=> 
-all=> select date_format( timestamp , 'yyyy-MM-dd') AS Day,
-all->        count(*) AS productViews
-all-> from   emea_ee_dataset_api
-all-> where  _experienceplatform.brand.brandName like 'Luma Telco'
-all-> and    _experienceplatform.productData.productInteraction = 'productView'
-all-> group by Day
 all-> limit 10;
-    Day     | productViews 
+    Day     | productViews
 ------------+--------------
- 2019-06-16 |         2260
-(1 row)
+ 2020-02-06 |        16320
+ 2020-02-05 |        20822
+ 2020-02-04 |        20773
+ 2020-02-03 |        30356
+ 2020-02-02 |        20708
+ 2020-02-01 |        11211
+ 2020-01-31 |        11212
+ 2020-01-30 |        20636
+ 2020-01-29 |        20735
+ 2020-01-28 |        20818
+(10 rows)
 
 all=> 
 ```
@@ -62,11 +64,10 @@ What are the top 5 products viewed?
 **SQL**
 
 ```sql
-select _experienceplatform.productData.productName, count(*)
-from   emea_ee_dataset_api
-where  _experienceplatform.brand.brandName like 'Luma Telco'
-and    _experienceplatform.productData.productInteraction = 'productView'
-group  by _experienceplatform.productData.productName
+select web.webPageDetails.name, count(*)
+from   fsi_demo_data_postvalues
+where  web.webPageDetails.pageViews.value = '1.0'
+group  by web.webPageDetails.name
 order  by 2 desc
 limit 5;
 ```
@@ -76,21 +77,16 @@ Copy the statement above and execute it in your **PSQL command-line interface**.
 **Query Result**
 
 ```text
-all=> 
-all=> select _experienceplatform.productData.productName, count(*)
-all-> from   emea_ee_dataset_api
-all-> where  _experienceplatform.brand.brandName like 'Luma Telco'
-all-> and    _experienceplatform.productData.productInteraction = 'productView'
-all-> group  by _experienceplatform.productData.productName
-all-> order  by 2 desc
 all-> limit 5;
-              productname              | count(1) 
----------------------------------------+----------
- Google Pixel XL 32GB Black Smartphone |      871
- Samsung Galaxy S7 32GB Black          |      482
- Samsung Galaxy S8                     |      457
- SIM Only                              |      450
-(4 rows)
+prod:all-> limit 5;
+       name        | count(1)
+-------------------+----------
+ home              |   680022
+ purchase: step 1  |   478634
+ purchase: step 2  |   347305
+ app: launch       |   324601
+ voice: app launch |   318831
+(5 rows)
 
 all=>  
 ```
