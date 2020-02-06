@@ -612,11 +612,3 @@ all-> and    l.ecid = e._experienceplatform.identification.ecid;
 -- More  --
 ```
 
-In the next exercise you will persist your query (also known as **create table as select** or **CTAS**) as a new dataset that you will use in Microsoft Power BI.
-
-Next Step: [Exercise 4 - Power BI/Tableau](../exercises/4-power-bi.md)
-
-[Go Back to Module 7](../README.md)
-
-[Go Back to All Modules](../../../README.md)
-
