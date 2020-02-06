@@ -7,7 +7,7 @@ Lab Attendee Download Packages
 | Attendee 001  | [ZIP](https://raw.githubusercontent.com/adobe/AEP-Hands-on-Labs/edit/master/labs/fsi/assets/001_fsi.zip)  |  [GZ](https://raw.githubusercontent.com/adobe/AEP-Hands-on-Labs/edit/master/labs/fsi/assets/001_fsi.tar.gz)  |
 | Attendee 002  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/edit/master/labs/fsi/assets/002_fsi.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/edit/master/labs/fsi/assets/002_fsi.tar.gz)  |
 | Attendee 003  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/edit/master/labs/fsi/assets/003_fsi.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/edit/master/labs/fsi/assets/003_fsi.tar.gz)  |
-| Attendee 004  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/edit/master/labs/fsi/assets/004_fsi.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/edit/master/labs/fsi/assets/004_fsi.tar.gz)  |
+| Attendee 004  | <a href="assets/004_fsi.zip" download="004_fsi.zip">ZIP</a> |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/edit/master/labs/fsi/assets/004_fsi.tar.gz)  |
 | Attendee 005  | [ZIP](assets/005_fsi.zip)  |  [GZ](assets/005_fsi.tar.gz)  |
 | Attendee 006  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/edit/master/labs/fsi/assets/006_fsi.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/edit/master/labs/fsi/assets/006_fsi.tar.gz)  |
 | Attendee 007  | <a id="raw-url" href="https://github.com/adobe/AEP-Hands-on-Labs/edit/master/labs/fsi/assets/007_fsi.zip">ZIP</a>  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/edit/master/labs/fsi/assets/007_fsi.tar.gz)  |
