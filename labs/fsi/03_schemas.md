@@ -71,16 +71,15 @@ Instructions:
       
     For Refference Order Details mixin had the following fields.
    
-    Order Details Mixin
-        Order ID - String
-        Product SKU - String
-        Product Category- String
-        Purchase Amount - Decimal
-        Currency Type - String
-        Product Name - String
+    Order Details Mixin 
+      Order ID - String
+      Product SKU - String
+      Product Category- String
+      Purchase Amount - Decimal
+      Currency Type - String
+      Product Name - String
     
     and, Identities has the fields below
-    
       CRMID - String
       emailID - String
         
