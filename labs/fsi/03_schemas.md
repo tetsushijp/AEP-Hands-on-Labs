@@ -66,22 +66,22 @@ Instructions:
 10. Here's where you can build your own Mixin or use a prior/similar Mixin object that conforms to your data.
 11. Click on a  "Adobe" pre-built Mixin and select the "Preview mixin structure" option on the right-hand side to see it's contents
 12. Add in two pre built mixins
-      Order Details Mixin
-      and, Identities Mixin
+      - Order Details Mixin, and 
+      - Identities Mixin
       
     For Refference Order Details mixin had the following fields.
    
     Order Details Mixin 
-      Order ID - String
-      Product SKU - String
-      Product Category- String
-      Purchase Amount - Decimal
-      Currency Type - String
-      Product Name - String
+      - Order ID - String
+      - Product SKU - String
+      - Product Category- String
+      - Purchase Amount - Decimal
+      - Currency Type - String
+      - Product Name - String
     
     and, Identities has the fields below
-      CRMID - String
-      emailID - String
+      - CRMID - String
+      - emailID - String
         
 13. In this lab, we'll also create a new Mixin from scratch.  Click "Create new mixin" on the very top
 14. Display name is "Transaction Details Mixin 001 <your-initials>"
