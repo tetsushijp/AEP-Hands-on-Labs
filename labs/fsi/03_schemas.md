@@ -87,8 +87,8 @@ Instructions:
 14. Display name is "Transaction Details Mixin 001 <your-initials>"
 15. Notice that "timestamp" is a required field appended to the base level of the schema-- this is intentional since this is where each timestamp needs to be provided for each record
 16. In the left-hand schema composition menu, click on your newly create Mixin (it should be highlighted now)
-17. ***Finally the good stuff*** here's where we add items/fields to the schema that correspond to the file or table we'll be pushing up into AEP
-18. You have the "option" to create an Object data-type where other values/data-fields are children to the Object. This object heirarchy could help keep certain aspects of the data better organized and menued-- but this isn't a requirement.For this lab, you'll create a new top level object called "Transaction Details", here's how
+17. ***Finally the good stuff*** here's where we add items/fields to the schema that corresponds to the file or table we'll be pushing up into AEP
+18. You have the "option" to create an Object data-type where other values/data-fields are children to the Object. This object hierarchy could help keep certain aspects of the data better organized and menued-- but this isn't a requirement.For this lab, you'll create a new top level object called "Transaction Details", here's how
 
 19. Click "Add Field"
 20. Rename to "Transaction Details"
