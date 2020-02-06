@@ -1,4 +1,4 @@
-Lab 2.1 - Build a Transactions schema (ExperienceEvent)
+Lab  - Build a Transactions schema (ExperienceEvent)
 ==========
 <table style="border-collapse: collapse; border: none;" class="tab" cellspacing="0" cellpadding="0">
 
