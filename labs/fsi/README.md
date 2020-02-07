@@ -10,8 +10,8 @@ Please download your own attendee [lab content/uploads here](https://github.com/
 
 ## Lab Agenda
 
- - Ingestion("https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/Foundation%20Ingestion.md")
- - two
- - three
+ - Ingestion(https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/Foundations%20Ingestion.md)
+ - Dataset(https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/Foundations%20Datasets.md)
+ - Schemas(https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/Foundations%20Schemas.md)
 
 bye
