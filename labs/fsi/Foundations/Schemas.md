@@ -93,14 +93,14 @@ Instructions:
 19. Click "Add Field"
 20. Keep the Field Name as "transactionDetails" and Display name as "Transaction Details"
 21. On data-type dropdown, select "Object"
-22. Scroll to the very bottom and hit save
+22. Scroll to the very bottom and hit Apply
 23. From that object, select "Add Field" -- before you do that, please review the raw data first before you create these new fields
     
     Below is a reference on the transaction details mixin
     
     Transaction Details
-        - Transaction ID - String
-        - Branch ID - String
+      - Transaction ID - String
+      - Branch ID - String
  24. Congratulations!!! you have constructed your schema.
 <br>
 <br>
