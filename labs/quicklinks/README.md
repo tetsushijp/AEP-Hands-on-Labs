@@ -15,6 +15,4 @@
  - [Examples #1](https://www.adobe.io/apis/experienceplatform/home/query-service/sql-reference.html#!api-specification/markdown/narrative/technical_overview/query-service/sql/prepared-statements.md)
  - [Examples #2](https://www.adobe.io/apis/experienceplatform/home/query-service/sample-queries.html#!api-specification/markdown/narrative/technical_overview/query-service/sample-queries-and-troubleshooting/adobe-analytics-queries.md)
 
-RETURN TO AGENDA LINK
-
 
