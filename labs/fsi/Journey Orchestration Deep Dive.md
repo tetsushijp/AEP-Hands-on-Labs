@@ -31,5 +31,3 @@ In this exercise, you'll combine events, data sources and actions into an intell
 ### [Exercise 5 - Trigger your Orchestrated Customer Journey](./Journey Orchestraction - Deep Dive ex5.md)
 
 In this exercise, you'll trigger your specific Orchestrated Journey. 
-
-
