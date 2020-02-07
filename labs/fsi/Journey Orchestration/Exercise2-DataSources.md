@@ -1,4 +1,4 @@
-## Exercise 12.2 - Define an External Data Source
+## Exercise 2 - Define an External Data Source
 
 In this exercise, you'll create a custom External Data Source by making use of Journey Orchestration in combination with Adobe Experience Platform
 
@@ -42,7 +42,7 @@ As a Name for the Data Source, use **weatherApiemailAddress** and replace **emai
 
 Set Description to: **Access to the Open Weather Map**.
 
-The URL for the Open Weather Map API is: ``http://api.openweathermap.org/data/2.5/weather?units=metric``
+The URL for the Open Weather Map API is: ``http://api.openweathermap.org/data/2.5/weather``
 
 ![Demo](./images/dsname.png)
 
@@ -54,7 +54,7 @@ Use these variables:
 |:-----------------------:| :-----------------------|
 | Type            |**API key**            |
 | Name           | **APPID**         |
-| Value           | **your API Key**         |
+| Value           | **4ca8c0b493237afd3bed3e70f399b795**         |
 | Location           | **Query Parameter**         |
 
 ![Demo](./images/dsauth.png)
@@ -71,59 +71,60 @@ In order to match the expected API Request, configure your FieldGroup as follows
 
 **IMPORTANT** 
 
-The Field group name has to be unique, please use this naming convention: **WeatherByCityLdap** so in this case, the name should be **WeatherByCityVangeluw**
+The Field group name has to be unique, please use this naming convention: **WeatherByZipemailAddress** so in this case, the name should be **WeatherByZipPuchadha**
 
 ![Demo](./images/fg1.png)
 
 For the Response Payload, you need to paste an example of the Response that will be sent by the Weather API.
 
-You can find the expected API JSON Response on the API Documentation page [here](https://openweathermap.org/current).
+You can find the expected API JSON Response on the API Documentation page [here](https://openweathermap.org/current#zip).
 
-![Demo](./images/owmapi1.png)
 
 Or you can copy the JSON Response from here:
 
-``
-{"coord": { "lon": 139,"lat": 35},
+```json
+{
+  "coord": {"lon": -122.08,"lat": 37.39},
   "weather": [
     {
       "id": 800,
       "main": "Clear",
       "description": "clear sky",
-      "icon": "01n"
+      "icon": "01d"
     }
   ],
   "base": "stations",
   "main": {
-    "temp": 281.52,
-    "feels_like": 278.99,
-    "temp_min": 280.15,
-    "temp_max": 283.71,
-    "pressure": 1016,
-    "humidity": 93
+    "temp": 282.55,
+    "feels_like": 281.86,
+    "temp_min": 280.37,
+    "temp_max": 284.26,
+    "pressure": 1023,
+    "humidity": 100
   },
+  "visibility": 16093,
   "wind": {
-    "speed": 0.47,
-    "deg": 107.538
+    "speed": 1.5,
+    "deg": 350
   },
   "clouds": {
-    "all": 2
+    "all": 1
   },
-  "dt": 1560350192,
+  "dt": 1560350645,
   "sys": {
-    "type": 3,
-    "id": 2019346,
-    "message": 0.0065,
-    "country": "JP",
-    "sunrise": 1560281377,
-    "sunset": 1560333478
+    "type": 1,
+    "id": 5122,
+    "message": 0.0139,
+    "country": "US",
+    "sunrise": 1560343627,
+    "sunset": 1560396563
   },
-  "timezone": 32400,
-  "id": 1851632,
-  "name": "Shuzenji",
+  "timezone": -25200,
+  "id": 420006353,
+  "name": "Mountain View",
   "cod": 200
 }
-``
+```
 
 Copy the above JSON Response to your clipboard, then go to your custom Data Source configuration screen.
 
