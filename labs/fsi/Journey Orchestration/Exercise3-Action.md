@@ -116,5 +116,5 @@ You've now defined Events, Data Sources and Actions - let's consolidate all of t
 
 ---
 
-Next Step: [Exercise 14 - Design a trigger-based Customer Journey](./Exercise4-Journey.md)
+Next Step: [Exercise 4 - Design a trigger-based Customer Journey](./Exercise4-Journey.md)
 
