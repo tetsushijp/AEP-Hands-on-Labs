@@ -91,15 +91,17 @@ Instructions:
 18. You have the "option" to create an Object data-type where other values/data-fields are children to the Object. This object hierarchy could help keep certain aspects of the data better organized and menued-- but this isn't a requirement.For this lab, you'll create a new top level object called "Transaction Details", here's how
 
 19. Click "Add Field"
-20. Keep the Field Name as "transactionDetails" and Display name as "Transaction Details"
+20. Input "transactionDetails" as Field Name and "Transaction Details" as Display name. 
 21. On data-type dropdown, select "Object"
 22. Scroll to the very bottom and hit Apply
-23. Within the Structure view of that object, select "Add Field" and add the fields listed below
-    Below is a reference on the transaction details mixin
+23. Within the Structure view click "+Add Field" next to the "transactionDetails" object to and add fields to the Object.
+    Below is a reference on fields we will be adding
+    
     Transaction Details
     |Field name| Display Name|Data Type|
     |transactionID| Transaction ID|String|
     |branchID| Branch ID|String|
+    
  24. Hit Save
  25. Congratulations!!! you have constructed your schema.
 <br>
