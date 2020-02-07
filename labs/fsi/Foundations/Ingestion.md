@@ -57,6 +57,7 @@ go to https://platform.adobe.com/home
 2. Select "Map CSV to XDM schema"
 3. The next workflow sequence will be:
    - Add Data
+      hit Next
    - Destination
    - Mapping
    - Ingest
