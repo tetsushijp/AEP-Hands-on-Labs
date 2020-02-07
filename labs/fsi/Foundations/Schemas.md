@@ -99,8 +99,8 @@ Instructions:
     Below is a reference on the transaction details mixin
     
     Transaction Details
-      - Transaction ID - String
-      - Branch ID - String
+      - transactionID - Transactions ID - String
+      - branchID - Brand ID - String
  24. Congratulations!!! you have constructed your schema.
 <br>
 <br>
