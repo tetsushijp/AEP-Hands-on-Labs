@@ -14,8 +14,9 @@
 ## Query Service
  - [Examples #1](https://www.adobe.io/apis/experienceplatform/home/query-service/sql-reference.html#!api-specification/markdown/narrative/technical_overview/query-service/sql/prepared-statements.md)
  - [Examples #2](https://www.adobe.io/apis/experienceplatform/home/query-service/sample-queries.html#!api-specification/markdown/narrative/technical_overview/query-service/sample-queries-and-troubleshooting/adobe-analytics-queries.md)
- - [Query Syntax](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/acp_connectors_overview/analytics_mapping_fields.md)
- - [Query API](https://www.adobe.io/apis/experienceplatform/home/api-reference.html#/Query-Templates/create_query_template)
+ - [Query Reference](https://www.adobe.io/apis/experienceplatform/home/query-service/sql-reference.html)
+ - [Query Syntax](https://www.adobe.io/apis/experienceplatform/home/query-service/sql-reference.html#!api-specification/markdown/narrative/technical_overview/query-service/sql/syntax.md)
+ - [Query API](https://www.adobe.io/apis/experienceplatform/home/api-reference.html#!acpdr/swagger-specs/qs-api.yaml)
 
 ## DSW
  - [Examples #1](https://www.adobe.io/apis/experienceplatform/home/tutorials/data-science-workspace/dsw-tutorials/dsw-all-tutorials.html#!api-specification/markdown/narrative/tutorials/dsw/author_a_model/create_a_recipe_using_jupyter_notebooks/create_a_recipe_using_jupyter_notebooks.md)
