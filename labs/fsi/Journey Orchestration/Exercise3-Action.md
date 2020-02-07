@@ -33,8 +33,6 @@ You'll define 2 actions:
 
 Nexmo is a 3rd party provider of SMS Messages. It has an easy-to-use API and we'll use Journey Orchestration to trigger their API.
 
-![Demo](./images/nexmo.png)
-
 Click ``Add`` to start adding your action.
 
 ![Demo](./images/add.png)
@@ -45,7 +43,7 @@ You'll see an empty Action popup.
 
 As a Name for the Action, use **smsNexmoemailAddress** and replace **emailAddress** with your LDAP. In this example, the Action Name is **smsNexmoPuchadha**.
 
-Set Description to: **Send SMS using Twilio**.
+Set Description to: **Send SMS using Nexmo**.
 
 ![Demo](./images/nexmoname.png)
 
