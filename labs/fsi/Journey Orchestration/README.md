@@ -16,7 +16,7 @@ We also understand that context greatly impacts a customer's interest, so we wan
 
 In this exercise, you'll learn how to define a custom event using Journey Orchestration.
 
-### [Exercise 2 - Define an External Data Source](./Exercise2-DataSource.md)
+### [Exercise 2 - Define an External Data Source](./Exercise2-DataSources.md)
 
 In this exercise, you'll learn how to configure an external Data Source using Journey Orchestration.
 
