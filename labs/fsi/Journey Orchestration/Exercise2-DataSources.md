@@ -63,7 +63,6 @@ In our case, we want to use the ZipCode to request the Current Weather for that 
 
 ![Demo](./images/fg.png)
 
-![Demo](./images/owmapi.png)
 
 In order to match the expected API Request, configure your FieldGroup as follows:
 
@@ -76,7 +75,6 @@ The Field group name has to be unique, please use this naming convention: **Weat
 For the Response Payload, you need to paste an example of the Response that will be sent by the Weather API.
 
 You can find the expected API JSON Response on the API Documentation page [here](https://openweathermap.org/current#zip).
-
 
 Or you can copy the JSON Response from here:
 
@@ -123,8 +121,6 @@ Or you can copy the JSON Response from here:
   "cod": 200
 }
 ```
-
-Copy the above JSON Response to your clipboard, then go to your custom Data Source configuration screen.
 
 Click the ``Edit Payload``-icon.
 
