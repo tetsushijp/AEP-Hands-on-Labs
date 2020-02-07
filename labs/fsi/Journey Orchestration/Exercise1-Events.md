@@ -104,4 +104,4 @@ As discussed in the use-case description, we then need to provide contextual pro
 
 ---
 
-Next Step: [Exercise 2 - Define an External Data Source](./Journey_Orchestraction-DeepDive_ex2.md)
+Next Step: [Exercise 2 - Define an External Data Source](./Exercise2-DataSources.md)
