@@ -101,7 +101,8 @@ Instructions:
     Transaction Details
       - transactionID - Transactions ID - String
       - branchID - Brand ID - String
- 24. Congratulations!!! you have constructed your schema.
+ 24. Hit Save
+ 25. Congratulations!!! you have constructed your schema.
 <br>
 <br>
 <br>
