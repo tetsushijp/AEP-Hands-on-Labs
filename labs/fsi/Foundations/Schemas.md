@@ -67,7 +67,7 @@ Instructions:
 11. Click on a  "Adobe" pre-built Mixin and select the "Preview mixin structure" option on the right-hand side to see it's contents
 12. Add in two pre built mixins
       - Order Details Mixin, and 
-      - Identities Mixin
+      - identities
       
     For Refference Order Details mixin had the following fields.
    
@@ -84,7 +84,7 @@ Instructions:
       - emailID - String
         
 13. In this lab, we'll also create a new Mixin from scratch.  Click "Create new mixin" on the very top
-14. Display name is "Transaction Details Mixin 001 <your-initials>"
+14. Display name is "Transactions Details Mixin 001 <your-initials>"
 15. Notice that "timestamp" is a required field appended to the base level of the schema-- this is intentional since this is where each timestamp needs to be provided for each record
 16. In the left-hand schema composition menu, click on your newly create Mixin (it should be highlighted now)
 17. ***Finally the good stuff*** here's where we add items/fields to the schema that corresponds to the file or table we'll be pushing up into AEP
