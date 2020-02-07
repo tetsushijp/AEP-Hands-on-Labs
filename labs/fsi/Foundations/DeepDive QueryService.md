@@ -3,7 +3,7 @@
 ## Objective
 
 - Write queries for data analyses
-- Write SQL queries combining online, callcenter and loyalty data avialable in Adobe Experience Platform
+- Write SQL queries combining web site and CRM data avialable in Adobe Experience Platform
 - Learn about Adobe Defined Functions
 
 ## Lesson Context
@@ -234,7 +234,7 @@ select * from (
               OVER(PARTITION BY endUserIDs._experience.mcid.id
                   ORDER BY timestamp
                   ROWS BETWEEN CURRENT ROW AND UNBOUNDED FOLLOWING)
-              AS contact_callcenter_after_seconds
+              AS contact_us_after_seconds
        from   fsi_demo_data_postvalues
        where  web.webPageDetails.name in ('help', 'contact us')
 	   
@@ -242,7 +242,7 @@ select * from (
 where r.webPage = 'help' 
 and  contact_callcenter_after_seconds is not null
 and ecid IS NOT NULL
-order by contact_callcenter_after_seconds desc
+order by contact_us_after_seconds desc
 limit 15;
 ```
 
@@ -252,7 +252,7 @@ Copy the statement above and execute it in your **PSQL command-line interface**.
 
 ```text
 prod:all-> limit 15;
-                  ecid                  | webPage | contact_callcenter_after_seconds
+                  ecid                  | webPage | contact_us_after_seconds
 ----------------------------------------+---------+----------------------------------
  65139124502948298803156531614258643756 | help    |                              -30
  66649610981445196224711646938596094441 | help    |                              -32
@@ -288,7 +288,7 @@ select distinct crm._adobeamericaspot1.crmid,
        r.countrycode,
        r.lat as latitude,
        r.lon as longitude,
-       r.contact_callcenter_after_seconds as seconds_to_contact_callcenter       
+       r.contact_us_after_seconds as seconds_to_contact_us       
 from (
        select endUserIDs._experience.mcid.id ecid,
 			_experience.analytics.customDimensions.eVars.eVar9 as crmid,
@@ -301,15 +301,15 @@ from (
               OVER(PARTITION BY endUserIDs._experience.mcid.id
                   ORDER BY timestamp
                   ROWS BETWEEN CURRENT ROW AND UNBOUNDED FOLLOWING)
-              AS contact_callcenter_after_seconds
+              AS contact_us_after_seconds
        from   fsi_demo_data_postvalues
        where  web.webPageDetails.name in ('help', 'contact us')
 ) r
 , crm_dataset crm
 where crm._adobeamericaspot1.crmid = r.crmid
 and r.webPage = 'help'
-and  contact_callcenter_after_seconds is not null
-order by seconds_to_contact_callcenter desc
+and  contact_us_after_seconds is not null
+order by seconds_to_contact_us desc
 limit 15;
 ```
 
@@ -319,7 +319,7 @@ Copy the statement above and execute it in your **PSQL command-line interface**.
 
 ```text
  prod:all-> limit 15;
-      crmid       |        city         | countrycode |      latitude       |      longitude      | seconds_to_contact_callcenter
+      crmid       |        city         | countrycode |      latitude       |      longitude      | seconds_to_contact_us
 ------------------+---------------------+-------------+---------------------+---------------------+-------------------------------
  crmid:2133727185 | monterrey           | MX          |  25.667099999999998 | -100.33699999999999 |                            -1
  crmid:8254082663 | perth               | AU          |            -31.9472 |             115.863 |                           -16
