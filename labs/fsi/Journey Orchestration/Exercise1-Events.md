@@ -49,7 +49,7 @@ Let's go back to our Event configuration in Journey Orchestration.
 
 ![Demo](./images/evschema.png)
 
-In our use-case, we want to listen to a Sign up Event, so select the Schema ``web_event_schema v.1`` .
+In our use case, we want to listen for a Sign up Event. This event is part of the ``web_event_schema v.1`` schema. Select this from the list.
 
 ![Demo](./images/evschema1.png)
 
@@ -62,14 +62,14 @@ You'll then see a popup-window with a Schema Hierarchy that allows you to select
 
 ![Demo](./images/popup.png)
 
-Fields like the ECID and the Orchestration eventID are required and as such preselected.
-However, a marketeer needs to have flexible access to all data points that provide context to a Journey. So you can select the following additional fields.
-Once that's done, click ``OK``.
+Fields such as the ECID and the Orchestration eventID are required, and as such, preselected.
+However, a marketeer needs to have flexible access to all data points that provide context to a Journey. So you can select additional fields.
+Once you are finished reviewing the fields, select ``OK``.
 
 ![Demo](./images/popupok.png)
 
-Journey Orchestration also needs an Identifier to identify the customer. Since Journey Orchestration is linked to Adobe Experience Platform, the Primary Identifier of a Schema is automatically taken as the Identifier for the Journey. 
-The Primary Identifier will also automatically take into account the full Identity Graph of Adobe Experience Platform and will link all behaviour across all available identities, devices and channels to the same profile, so that Journey Orchestration is contextual, relevant and consistent.
+Journey Orchestration also needs an Identifier to identify the customer. Since Journey Orchestration is linked to Adobe Experience Platform, the Primary Identifier of a schema is automatically used as the identifier for the Journey. 
+The Primary Identifier will also automatically use the full Identity Graph of the Adobe Experience Platform and link all behavior across all available identities, devices and channels to the same profile. The result is that Journey Orchestration is contextual, relevant and consistent.
 
 ![Demo](./images/eventidentifier.png)
 
