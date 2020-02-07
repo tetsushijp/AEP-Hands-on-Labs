@@ -132,5 +132,6 @@ Quick Command Guide:
 
 ```\q``` or ```quit``` exits the commandline
 
-BACK LINK HERE
+
+Return to [Lab Agenda Directory](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/README.md#lab-agenda)
 
