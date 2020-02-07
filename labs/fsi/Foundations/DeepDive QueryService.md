@@ -309,7 +309,7 @@ from (
 where crm._adobeamericaspot1.crmid = r.crmid
 and r.webPage = 'help'
 and  contact_callcenter_after_seconds is not null
-order by contact_callcenter_after_seconds desc
+order by seconds_to_contact_callcenter desc
 limit 15;
 ```
 
