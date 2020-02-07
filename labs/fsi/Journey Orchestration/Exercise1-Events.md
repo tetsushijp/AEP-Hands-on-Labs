@@ -73,11 +73,13 @@ The Primary Identifier will also automatically take into account the full Identi
 
 ![Demo](./images/eventidentifier.png)
 
+Click ``Save`` to save your custom event.
+
+![Demo](./images/save.png)
+
 Finally, you need to recover the ``Orchestration eventID`` for your custom event. 
 
 Open your event again by clicking it in the list of events.
-
-![Demo](./images/eventlist1.png)
 
 On your Event, click on the ``View Payload``-icon next to ``Fields``.
 
@@ -93,11 +95,9 @@ Scroll down in the ``Payload`` until you see the line ``eventID``.
 
 Write down the ``eventID`` as you'll need it in the last exercise to test your configuration.
 
-In this example, the ``eventID`` is ``780733565e9819142b46f7e920256891caeb0dbed3cf654af956a6dfe7486125``.
+In this example, the ``eventID`` is ``e133bb4d5075fe9e0356b2136d6413c723d05d146831c6d165d70a5a0dc4a6b8``.
 
-Click ``Save`` to save your custom event.
 
-![Demo](./images/save.png)
 You've now defined the event that will trigger the Journey we're building. Once the Journey is triggered, the geofence-fields like City, Country, Name, Latitude and Longitude will be made available to the Journey.
 
 As discussed in the use-case description, we then need to provide contextual promotions that depend on the weather. In order to get weather information, we'll need to define an external data sources that will provide us with the weather information for that location. We'll use the ``OpenWeather``-service to provide us what that information, as part of exercise 2.
