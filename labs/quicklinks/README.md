@@ -6,7 +6,7 @@
 ### API + POSTMAN
  - [Postman API Collection](https://github.com/adobe/experience-platform-postman-samples/tree/master/apis/experience-platform)
     This contains a list of Postman API calls against within AEP
- - [API Stuff](https://www.adobe.io/apis/experienceplatform/home/api-reference.html#/acpdr/swagger-specs)
+ - [API Libraries](https://www.adobe.io/apis/experienceplatform/home/api-reference.html#/acpdr/swagger-specs)
  
 ### XDM
  - [XDM Github](https://github.com/adobe/xdm/tree/master/docs/reference/content)
