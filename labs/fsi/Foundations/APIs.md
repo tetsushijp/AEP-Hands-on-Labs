@@ -120,4 +120,4 @@ Please don't create new inlets -- lets use th same one as a class
 <br>
 <br>
 
-Return LINK
+Return to [Lab Agenda Directory](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/README.md#lab-agenda)
