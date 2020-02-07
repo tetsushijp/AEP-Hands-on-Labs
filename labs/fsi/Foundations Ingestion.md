@@ -69,4 +69,4 @@ Instructions:
 <br>
 <br>
 
-Return back to Lab Agenda:[click here](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/README.md#lab-agenda)
+Return back to Lab Agenda: [click here](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/README.md#lab-agenda)
