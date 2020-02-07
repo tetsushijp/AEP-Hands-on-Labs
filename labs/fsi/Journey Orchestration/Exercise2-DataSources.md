@@ -57,11 +57,11 @@ Use these variables:
 
 ![Demo](./images/dsauth.png)
 
-Finally, you need to define a ``FieldGroup``, which is basically the request you'll be sending to the Weather API. In our case, we want to use the name of the City to request the Current Weather for that City.
+Finally, you need to define a ``FieldGroup``, which is the request you'll be sending to the Weather API. 
+
+In our case, we want to use the ZipCode to request the Current Weather for that Zip.
 
 ![Demo](./images/fg.png)
-
-According to the Weather API Documentation, we need to send a parameter ``q=City``.
 
 ![Demo](./images/owmapi.png)
 
