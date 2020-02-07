@@ -1,4 +1,4 @@
-Lab 7.1 - Show adobe.io developer setup (as a class)
+Lab - Show adobe.io developer setup (as a class)
 ==========
 <table style="border-collapse: collapse; border: none;" class="tab" cellspacing="0" cellpadding="0">
 
@@ -57,7 +57,7 @@ Instructions:
 
 
 
-Lab 7.2 - Stitch customer data together
+Lab 2 - Stitch customer data together
 ==========
 <table style="border-collapse: collapse; border: none;" class="tab" cellspacing="0" cellpadding="0">
 
