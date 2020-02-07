@@ -36,9 +36,7 @@ We will use ``Open Weather Map``-service. For reference you can go to [https://o
 
 Back to ``Journey Orchestration``, to your empty ``External Data Source``-popup.
  
-![Demo](./images/emptyds.png)
-
-As a Name for the Data Source, use **weatherApiemailAddress** and replace **emailAddress** with your emailAddress. In this example, the Data Source Name is **weatherApiPuchadha**.
+Name the Data Source, use **weatherApiemailAddress** and replace **emailAddress** with your emailAddress. In this example, the Data Source Name is **weatherApiPuchadha**.
 
 Set Description to: **Access to the Open Weather Map**.
 
