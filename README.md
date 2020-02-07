@@ -36,4 +36,4 @@ Additional quick links to documentation can also be found here:
 
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for more information.
 
-* = *HOL buildout in-progress*
+\* = *HOL buildout in-progress*
