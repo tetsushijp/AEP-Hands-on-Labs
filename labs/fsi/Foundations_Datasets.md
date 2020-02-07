@@ -58,4 +58,4 @@ Instructions:
 <br>
 <br>
 <br>
-Return to __Lab Agenda Directory__ : [click here](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/README.md#lab-agenda)
+Return to [Lab Agenda Directory](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/README.md#lab-agenda)
