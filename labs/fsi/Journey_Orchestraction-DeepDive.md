@@ -12,22 +12,22 @@ We also understand that context greatly impacts a customer's interest, so we wan
 
 ## Lab Content
 
-### [Exercise 1 - Define an Event](./Journey Orchestraction - Deep Dive ex1.md)
+### [Exercise 1 - Define an Event](./Journey_Orchestraction-DeepDive_ex1.md)
 
 In this exercise, you'll learn how to define a custom event using Journey Orchestration.
 
-### [Exercise 2 - Define an External Data Source](./Journey Orchestraction - Deep Dive ex2.md)
+### [Exercise 2 - Define an External Data Source](./Journey_Orchestraction-DeepDive_ex2.md)
 
 In this exercise, you'll learn how to configure an external Data Source using Journey Orchestration.
 
-### [Exercise 3 - Define a Custom Action](./Journey Orchestraction - Deep Dive ex3.md)
+### [Exercise 3 - Define a Custom Action](./Journey_Orchestraction-DeepDive_.md)
 
 In this exercise, you'll learn how to define an external Action using Journey Orchestration.
 
-### [Exercise 4 - Design a trigger-based Customer Journey](./Journey Orchestraction - Deep Dive ex4.md)
+### [Exercise 4 - Design a trigger-based Customer Journey](./Journey_Orchestraction-DeepDive_ex4.md)
 
 In this exercise, you'll combine events, data sources and actions into an intelligent and contextual Journey. 
 
-### [Exercise 5 - Trigger your Orchestrated Customer Journey](./Journey Orchestraction - Deep Dive ex5.md)
+### [Exercise 5 - Trigger your Orchestrated Customer Journey](./Journey_Orchestraction-DeepDive_ex5.md)
 
 In this exercise, you'll trigger your specific Orchestrated Journey. 
