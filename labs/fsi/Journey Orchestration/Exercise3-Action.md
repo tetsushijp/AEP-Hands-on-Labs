@@ -41,18 +41,18 @@ You'll see an empty Action popup.
 
 ![Demo](./images/emptyact.png)
 
-As a Name for the Action, use **smsNexmoemailAddress** and replace **emailAddress** with your LDAP. In this example, the Action Name is **smsNexmoPuchadha**.
+As a Name for the Action, use **smsNexmo{emailAddress}** and replace **{emailAddress}** with your your email name. E.g. **smsNexmoPuchadha**.
 
-Set Description to: **Send SMS using Nexmo**.
+Add the Description: **Send SMS using Nexmo**.
 
 ![Demo](./images/nexmoname.png)
 
-For the ``URL Configuration``, use this:
+For the ``URL Configuration``, copy and paste this URL:
 
 * URL: ``https://rest.nexmo.com/sms/json``
 * Method: ``POST``
 
-You don't need to change the Header Fields.
+Do not change the Header Fields.
 
 ![Demo](./images/nexmourl.png)
 
@@ -72,7 +72,7 @@ You'll then see an empty popup-window.
 
 ![Demo](./images/nexmomsgpopup.png)
 
-Copy the below text and paste it in the empty popup-window.
+Copy and paste the JSON below into the popup-window.
 
 ```json
 {
