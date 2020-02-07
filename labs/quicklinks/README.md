@@ -1,6 +1,5 @@
-# Quick links into AEP areas...
 
-## General
+## General AEP Areas
  - [AEP Overview](https://www.adobe.io/apis/experienceplatform/home/overview.html)
 
 ## API + POSTMAN
