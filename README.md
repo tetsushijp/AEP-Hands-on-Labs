@@ -22,11 +22,11 @@ potential feature creep.
 The lab content is designed to cater to different industry verticals:
 
  - [Retail](https://github.com/adobe/AEP-Hands-on-Labs/tree/master/labs/retail/)
- - [Travel & Hospitality](https://github.com/adobe/AEP-Hands-on-Labs/tree/master/labs/travel/)
+ - [Travel & Hospitality](https://github.com/adobe/AEP-Hands-on-Labs/tree/master/labs/travel/) *buildout in-progress*
  - [FSI](https://github.com/adobe/AEP-Hands-on-Labs/tree/master/labs/fsi/)
- - [Media & Entertainment](https://github.com/adobe/AEP-Hands-on-Labs/tree/master/labs/media/)
- - [Auto](https://github.com/adobe/AEP-Hands-on-Labs/tree/master/labs/auto/)
- - [High Tech](https://github.com/adobe/AEP-Hands-on-Labs/tree/master/labs/tech/)
+ - [Media & Entertainment](https://github.com/adobe/AEP-Hands-on-Labs/tree/master/labs/media/) *buildout in-progress*
+ - [Auto](https://github.com/adobe/AEP-Hands-on-Labs/tree/master/labs/auto/) *buildout in-progress*
+ - [High Tech](https://github.com/adobe/AEP-Hands-on-Labs/tree/master/labs/tech/) *buildout in-progress*
 
 Additional quick links to documentation can also be found here:
 
