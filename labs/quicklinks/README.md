@@ -15,4 +15,5 @@
  - [Examples #1](https://www.adobe.io/apis/experienceplatform/home/query-service/sql-reference.html#!api-specification/markdown/narrative/technical_overview/query-service/sql/prepared-statements.md)
  - [Examples #2](https://www.adobe.io/apis/experienceplatform/home/query-service/sample-queries.html#!api-specification/markdown/narrative/technical_overview/query-service/sample-queries-and-troubleshooting/adobe-analytics-queries.md)
 
-
+## DSW
+ - [Examples #1](https://www.adobe.io/apis/experienceplatform/home/tutorials/data-science-workspace/dsw-tutorials/dsw-all-tutorials.html#!api-specification/markdown/narrative/tutorials/dsw/author_a_model/create_a_recipe_using_jupyter_notebooks/create_a_recipe_using_jupyter_notebooks.md)
