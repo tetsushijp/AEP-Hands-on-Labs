@@ -2,15 +2,7 @@
 
 In this exercise, you'll create 2 custom Actions by making use of Journey Orchestration in combination with Adobe Experience Platform
 
-The URL to login to Journey Orchestration is: [https://experience.adobe.com/#/@experienceplatform/home](https://experience.adobe.com/#/@experienceplatform/home)
-
-**Attention!**
-
-Everyone will have a number assigned to you for these exercises. As part of this exercise you'll need to specify your number when you:
-
-  * Define your action
-
-Go to [https://experience.adobe.com/#/@experienceplatform/home](https://experience.adobe.com/#/@experienceplatform/home)
+Go to [https://experience.adobe.com/#/@adobeamericaspot1/home](https://experience.adobe.com/#/@adobeamericaspot1/home)
 
 You'll see the ``Adobe Experience Cloud``-homepage.
 
@@ -51,15 +43,12 @@ You'll see an empty Action popup.
 
 ![Demo](./images/emptyact.png)
 
-As a Name for the Action, use **smsNexmoLdap** and replace **Ldap** with your LDAP. In this example, the Action Name is **smsNexmoVangeluw**.
+As a Name for the Action, use **smsNexmoemailAddress** and replace **emailAddress** with your LDAP. In this example, the Action Name is **smsNexmoPuchadha**.
 
-Set Description to: **Send SMS using Nexmo**.
-
-![Demo](./images/twilioname.png)
 
 For the ``URL Configuration``, use this:
 
-* URL: ``https://l1uikl5kog.execute-api.us-west-2.amazonaws.com/prod/``
+* URL: ``https://rest.nexmo.com/sms/json``
 * Method: ``POST``
 
 You don't need to change the Header Fields.
