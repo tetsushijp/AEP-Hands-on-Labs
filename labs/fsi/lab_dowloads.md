@@ -38,17 +38,58 @@ File Notes
 
 
 
+
 Preview: CRM data
 -----------------------------
 
 | Number     | Header  | Example Data  |
 |------------|---|---|
-| 1  | sdf  |  sdf  |
-| 2  | sdf  |  sdf  |
-| 3  | sdf  |  sdf  |
-| 4  | sdf  |  sdf  |
-| 5  | sdf  |  sdf  |
-| 6  | sdf  |  sdf  |
-| 7  | sdf  |  sdf  |
-| 8  | sdf  |  sdf  |
-| 9  | sdf  |  sdf  |
+| 1  | crmid  |  crmid:3572904408  |
+| 2  | email  |  leese1838@yahoo.com  |
+| 3  | first_name  |  Roscoe |
+| 4  | last_name  |  Lawrence  |
+| 5  | gender  |  female  |
+| 6  | mobile telephone  |  531-075-8094  |
+| 7  | city  |  Wauwatosa  |
+| 8  | country  |  United States  |
+| 9  | zip  |  88430  |
+| 10  | state  |  Hawaii  |
+| 11  | street address  |  744 Fratessa  |
+| 12  | birthday  |  8/17/1972  |
+
+
+
+
+
+Preview: Investment data
+-----------------------------
+
+| Number     | Header  | Example Data  |
+|------------|---|---|
+| 1  | id  |  82eb8fe8-492b-11ea-aea9-b88a60e194fb-1 |
+| 2  | timestamp  |  2020-01-31T21:42:10.000Z  |
+| 3  | crmid  |  crmid:6799807695 |
+| 4  | orderid  |  82eb8fe8-492b-11ea-aea9-b88a60e194fb  |
+| 5  | prod_sku  |  prd1155  |
+| 6  | prod_name  |  CDs: 5 year  |
+| 7  | prod_category  |  Investment  |
+| 8  | prod_ownership |  Personal  |
+| 9  | purchase_amt  |  224295.53  |
+| 10  | units  | 1 |
+| 11  | currency_type  |  USD |
+| 12  | branchid  |  branchid:11054  |
+
+
+Preview: Propensity data
+-----------------------------
+
+| Number     | Header  | Example Data  |  Notes |
+|------------|---|---|---|
+| 1  | id  |  82e99428-492b-11ea-b88f-b88a60e194fb-1-ps | unique row |
+| 2  | crmid  |  crmid:8019712410  | unique account ID |
+| 3  | propensity_score_credit_cards  |  3 | scored 0-10 (10 is highest) |
+| 4  | suggested_credit_card  |  Dividend Card | next best credit card to show |
+| 5  | propensity_score_loan |  4 | scored 0-10 (10 is highest) |
+| 6  | suggested_loan |  Auto Loan  | next best loan type to show |
+
+
