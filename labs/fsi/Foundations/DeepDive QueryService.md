@@ -91,39 +91,6 @@ prod:all-> limit 5;
 all=>  
 ```
 
-### Product Interaction funnel, from viewing to buying
-
-**SQL**
-
-```sql
-select _experienceplatform.productData.productInteraction, count(*)
-from   emea_ee_dataset_api
-where  _experienceplatform.brand.brandName like 'Luma Telco'
-and    _experienceplatform.productData.productInteraction is not null
-group  by _experienceplatform.productData.productInteraction;
-```
-
-Copy the statement above and execute it in your **PSQL command-line interface**.
-
-**Query Result**
-
-```text
-all=> 
-all=> select _experienceplatform.productData.productInteraction, count(*)
-all-> from   emea_ee_dataset_api
-all-> where  _experienceplatform.brand.brandName like 'Luma Telco'
-all-> and    _experienceplatform.productData.productInteraction is not null
-all-> group  by _experienceplatform.productData.productInteraction;
-
- productinteraction | count(1) 
---------------------+----------
- productView        |     2260
- productAddToCart   |      554
- productPurchase    |      251
-(3 rows)
-
-all=>  
-```
 
 
 ### Identify visitors (CRM ID and email address) who are looking for help (visit page => help)
