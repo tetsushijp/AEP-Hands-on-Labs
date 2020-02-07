@@ -113,7 +113,7 @@ Instructions:
 2. Instructor will walk-through the API calls
 
 ```
-Please don't create new inlets -- lets use th same one as a class
+Please don't create new inlets -- lets use the same one as a class
 ```
 
 <br>
