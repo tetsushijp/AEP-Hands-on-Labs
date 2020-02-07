@@ -22,11 +22,11 @@ potential feature creep.
 The lab content is designed to cater to different industry verticals:
 
  - [Retail](https://github.com/adobe/AEP-Hands-on-Labs/tree/master/labs/retail/)
- - [Travel & Hospitality](https://github.com/adobe/AEP-Hands-on-Labs/tree/master/labs/travel/) *buildout in-progress*
+ - [Travel & Hospitality](https://github.com/adobe/AEP-Hands-on-Labs/tree/master/labs/travel/) *
  - [FSI](https://github.com/adobe/AEP-Hands-on-Labs/tree/master/labs/fsi/)
- - [Media & Entertainment](https://github.com/adobe/AEP-Hands-on-Labs/tree/master/labs/media/) *buildout in-progress*
- - [Auto](https://github.com/adobe/AEP-Hands-on-Labs/tree/master/labs/auto/) *buildout in-progress*
- - [High Tech](https://github.com/adobe/AEP-Hands-on-Labs/tree/master/labs/tech/) *buildout in-progress*
+ - [Media & Entertainment](https://github.com/adobe/AEP-Hands-on-Labs/tree/master/labs/media/) *
+ - [Auto](https://github.com/adobe/AEP-Hands-on-Labs/tree/master/labs/auto/) *
+ - [High Tech](https://github.com/adobe/AEP-Hands-on-Labs/tree/master/labs/tech/) *
 
 Additional quick links to documentation can also be found here:
 
@@ -35,3 +35,5 @@ Additional quick links to documentation can also be found here:
 ### Licensing
 
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for more information.
+
+* = *HOL buildout in-progress*
