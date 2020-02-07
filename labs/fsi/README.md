@@ -15,7 +15,6 @@ Please download your own attendee [lab content/uploads here](https://github.com/
  - [Schemas](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/Foundations/Schemas.md)
  - [Profiles & Indentities](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/Foundations/Profiles.md)
  - [Segments](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/Foundations/Segments.md)
- - [QueryService](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/Foundations/QueryService.md)
+ - [Query Service](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/Foundations/QueryService.md)
  - [APIs](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/Foundations/APIs.md)
  
-bye
