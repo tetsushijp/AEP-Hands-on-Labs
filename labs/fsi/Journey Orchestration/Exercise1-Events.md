@@ -32,7 +32,7 @@ You'll see an empty event popup.
 
 ![Demo](./images/emptyevent.png)
 
-As a Name for the Event, use **webSignUp<<emailAddress>>** and replace **emailAddress** with first part of you email address. In this example, the Event Name is **webSignUpPuchadha**.
+As a Name for the Event, use **webSignUpemailAddress** and replace **emailAddress** with first part of you email address. In this example, the Event Name is **webSignUpPuchadha**.
 
 Set Description to: **Website Sign up Event - Puchadha**.
 
@@ -45,39 +45,11 @@ Next, you need to select a Schema. All Schemas that are shown here, are Adobe Ex
 You'll notice that not all Schemas are shown. There are many more Schemas available in Adobe Experience Platform.
 To show up in this list, a Schema needs to have a very specific Mixin linked to it. The Mixin that is needed to show up here is called ``Orchestration eventID``.
 
-Let's have a quick look how these Schemas are defined in Adobe Experience Platform.
-
-Log in to Adobe Experience Platform by going to this URL: [https://platform.adobe.com](https://platform.adobe.com)
-
-After logging in, you'll land on the homepage of Adobe Experience Platform.
-
-![Data Ingestion](./images/home.png)
-
-In the left menu, go to ``Schemas``.
-
-![Data Ingestion](./images/menuschemas.png)
-
-In ``Schemas``, go to ``Browse`` to see the list of available Schemas.
-
-![Data Ingestion](./images/schemas.png)
-
-Open the Schema ``Location Service Geofence Schema``.
-
-After opening the Schema, you'll see that the Mixin ``Orchestration eventID`` is part of the Schema.
-
-![Data Ingestion](./images/schemageo.png)
-
-This Mixin only has one field, ``_experience.campaign.orchestration.eventID``.
-
-![Data Ingestion](./images/eventidmixin.png)
-
-Once this Mixin and this specific field are part of a Schema, that Schema will be available for usage by Journey Orchestration.
-
 Let's go back to our Event configuration in Journey Orchestration.
 
 ![Demo](./images/evschema.png)
 
-In our use-case, we want to listen to a Geofence Event to understand if a customer is in a specific location, so now, select the Schema ``Location Service Geofence Schema v.1`` as the Schema for your Event.
+In our use-case, we want to listen to a Sign up Event, so select the Schema ``web_event_schema v.1`` .
 
 ![Demo](./images/evschema1.png)
 
@@ -91,17 +63,7 @@ You'll then see a popup-window with a Schema Hierarchy that allows you to select
 ![Demo](./images/popup.png)
 
 Fields like the ECID and the Orchestration eventID are required and as such preselected.
-However, a marketeer needs to have flexible access to all data points that provide context to a Journey. So let's make sure to select the following fields as a minimum as well:
-
-* locationService
-  * currentPoiCity
-  * currentPoiCountry
-  * currentPoiLat
-  * currentPoiLon
-  * currentPoiName
-
-![Demo](./images/popupls.png)
-
+However, a marketeer needs to have flexible access to all data points that provide context to a Journey. So you can select the following additional fields.
 Once that's done, click ``OK``.
 
 ![Demo](./images/popupok.png)
