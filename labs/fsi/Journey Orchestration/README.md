@@ -27,7 +27,3 @@ In this exercise, you'll learn how to define an external Action using Journey Or
 ### [Exercise 4 - Design a Event-based Customer Journey](./Exercise4-Journey.md)
 
 In this exercise, you'll combine events, data sources and actions into an intelligent and contextual Journey. 
-
-### [Exercise 5 - Trigger your Orchestrated Customer Journey](./Exercise5-TriggerAJourney.md)
-
-In this exercise, you'll trigger your specific Orchestrated Journey. 
