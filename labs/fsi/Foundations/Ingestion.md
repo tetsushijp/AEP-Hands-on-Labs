@@ -52,6 +52,7 @@ Lab 1.1 - Ingestion - CSV to XMD Mapping
 
 Instructions:
 -----------------
+go to https://platform.adobe.com/home
 1. In the left-hand menu, navigate to "Workflows"
 2. Select "Map CSV to XDM schema"
 3. The next workflow sequence will be:
