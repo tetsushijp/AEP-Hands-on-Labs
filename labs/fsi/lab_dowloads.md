@@ -87,9 +87,9 @@ Preview: Propensity data
 |------------|---|---|---|
 | 1  | id  |  82e99428-492b-11ea-b88f-b88a60e194fb-1-ps | unique row |
 | 2  | crmid  |  crmid:8019712410  | unique account ID |
-| 3  | propensity_score_credit_cards  |  3 | scored 0-10 (10 is highest) |
-| 4  | suggested_credit_card  |  Dividend Card | next best credit card to show |
-| 5  | propensity_score_loan |  4 | scored 0-10 (10 is highest) |
-| 6  | suggested_loan |  Auto Loan  | next best loan type to show |
+| 3  | propensity score credit cards  |  3 | 0-10 (10 is highest) |
+| 4  | suggested credit card  |  Dividend Card | next best offer |
+| 5  | propensity score_loan |  4 | 0-10 (10 is highest) |
+| 6  | suggested loan |  Auto Loan  | next best offer |
 
 
