@@ -1,6 +1,22 @@
 ## Show links here...
 
- - 1
- - 2
- - 3
+### General
+ - [AEP Overview](https://www.adobe.io/apis/experienceplatform/home/overview.html)
+
+### API + POSTMAN
+ - [Postman API Collection](https://github.com/adobe/experience-platform-postman-samples/tree/master/apis/experience-platform)
+    This contains a list of Postman API calls against within AEP
+ - [API Stuff](https://www.adobe.io/apis/experienceplatform/home/api-reference.html#/acpdr/swagger-specs)
  
+### XDM
+ - [XDM Github](https://github.com/adobe/xdm/tree/master/docs/reference/content)
+ - [XDM General Mappings](https://www.adobe.io/apis/experienceplatform/home/xdm/xdmservices.html#!api-specification/markdown/narrative/technical_overview/schema_registry/schema_composition/xdm_field_dictionary.md)
+ - [XDM Adobe Web Analytics Mappings](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/acp_connectors_overview/analytics_mapping_fields.md)
+ 
+### Query Service
+ - [Examples #1](https://www.adobe.io/apis/experienceplatform/home/query-service/sql-reference.html#!api-specification/markdown/narrative/technical_overview/query-service/sql/prepared-statements.md)
+ - [Examples #2](https://www.adobe.io/apis/experienceplatform/home/query-service/sample-queries.html#!api-specification/markdown/narrative/technical_overview/query-service/sample-queries-and-troubleshooting/adobe-analytics-queries.md)
+
+RETURN TO AGENDA LINK
+
+
