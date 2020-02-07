@@ -36,7 +36,7 @@ We will use ``Open Weather Map``-service. For reference you can go to [https://o
 
 Back to ``Journey Orchestration``, to your empty ``External Data Source``-popup.
  
-Name the Data Source, use **weatherApiemailAddress** and replace **emailAddress** with your emailAddress. In this example, the Data Source Name is **weatherApiPuchadha**.
+Name the Data Source, use **weatherApi{emailAddress}** and replace **emailAddress** with your email address name. E.g. **weatherApiPuchadha**.
 
 Set Description to: **Access to the Open Weather Map**.
 
@@ -44,9 +44,8 @@ The URL for the Open Weather Map API is: ``http://api.openweathermap.org/data/2.
 
 ![Demo](./images/dsname.png)
 
-Next, you need to select the Authentication to use. 
-
-Use these variables:
+Next, you need to select the Authentication to use. Select from the 'Type' dropd-down.
+Use the following values for the fields:
 
 | Field               | Value              |
 |:-----------------------:| :-----------------------|
