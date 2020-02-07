@@ -11,10 +11,9 @@ Please download your own attendee [lab content/uploads here](https://github.com/
 ## Lab Agenda
 
  - [Ingestion](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/Foundations/Ingestion.md)
- - [Datasets](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/Foundations/Datasets.md)
  - [Schemas](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/Foundations/Schemas.md)
+ - [Datasets](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/Foundations/Datasets.md)
  - [Profiles & Indentities](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/Foundations/Profiles.md)
  - [Segments](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/Foundations/Segments.md)
  - [Query Service](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/Foundations/QueryService.md)
  - [APIs](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/Foundations/APIs.md)
- 
