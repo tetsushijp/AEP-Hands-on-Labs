@@ -32,9 +32,9 @@ You'll see an empty event popup.
 
 ![Demo](./images/emptyevent.png)
 
-As a Name for the Event, use **webSignUpemailAddress** and replace **emailAddress** with first part of you email address. In this example, the Event Name is **webSignUpPuchadha**.
+As a Name for the Event, use **webSignUp{emailAddress}** and replace **{emailAddress}** with your email address name. E.g. **webSignUpPuchadha**.
 
-Set Description to: **Website Sign up Event - Puchadha**.
+Set Description to: **Website Sign up Event - {your email name}**
 
 ![Demo](./images/evname.png)
 
