@@ -1,4 +1,4 @@
-Lab - Show adobe.io developer setup (as a class)
+Lab 1 - Show adobe.io developer setup (as a class)
 ==========
 <table style="border-collapse: collapse; border: none;" class="tab" cellspacing="0" cellpadding="0">
 
