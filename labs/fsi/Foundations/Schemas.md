@@ -53,18 +53,23 @@ Before be begin go to [https://platform.adobe.com/home](https://platform.adobe.c
 Instructions:
 -----------------
 1. In the left-hand menu, navigate to "Schemas"
+
       ![Demo](./images/schemahome.png)
       
 2. Click "Create Schema" on the top right
+
       ![Demo](./images/schemacreate.png)
       
 3. Click on "Untitled Schema" in the structure view
+
       ![Demo](./images/schemaname.png)
       
 4. In the right-hand menu, name it "Transactions Schema <your-assigned-number>" (Description is optional)
+      
       ![Demo](./images/schemaname1.png)
       
 5. In the left-hand schema composition menu, click on the "Assign" button across from Class
+
       ![Demo](./images/schemaclassassign.png)
       
       Here's where you can choose your base level schema behavior:
@@ -76,6 +81,7 @@ Instructions:
       Note: There are other classes avaiable out of the box that represent specific objects needed for Experience Modeling.
 
 6. In this example, choose "XDM ExperienceEvent" and click "Assign class"
+
       ![Demo](./images/schemaclass1.png)
       
 7. In the left-hand schema composition menu, click on the class "XDM ExperienceEvent"
