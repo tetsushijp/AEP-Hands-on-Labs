@@ -34,7 +34,7 @@ Lab  - Build a Transactions schema (ExperienceEvent)
       </tr>
       <tr>
             <td valign="middle" height="70"><b>version</b></td>
-            <td valign="middle" height="70">1.0.1</td>
+            <td valign="middle" height="70">1.0.10</td>
       </tr>
       <tr>
             <td valign="middle" height="70"><b>date</b></td>
