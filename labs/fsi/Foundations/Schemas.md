@@ -90,7 +90,7 @@ Instructions:
       ![Demo](./images/schemaclass.png)
       
       
-      Note: There are other classes avaiable out of the box that represent specific objects needed for Experience Modeling.
+      Note: There are other classes available out of the box that represent specific objects needed for Experience Modeling.
 
 6. In this example, choose "XDM ExperienceEvent" and click "Assign class"
 
@@ -106,7 +106,7 @@ Instructions:
       
       Here's where you can build your own Mixin or use a prior/similar Mixin object that conforms to your data.
       
-8. There are many out of the box Mixins already avaiable. 
+8. There are many out of the box Mixins already available. 
 
 
       ![Demo](./images/schemamixinpreview.png)
@@ -178,13 +178,13 @@ Instructions:
 ![Demo](./images/schemamixin9.png)
 
 
-15. Notice that on the Structure view an +Add Field appears next to the Schema name, Click it to start adding fields 
+15. Notice that on the Structure view a '+Add Field' appears next to the Schema name, Click it to start adding fields 
 
 
 ![Demo](./images/schemamixin10.png)
 
 
-16. On the Field Properties panel to the right add the follwoing 
+16. On the Field Properties panel to the right add the following  
       FieldName = transactionDetails
       Description = Transaction Details
       Type = Object
@@ -193,7 +193,7 @@ Instructions:
 ![Demo](./images/schemamixin11.png)
 
 
-Scrool down and hit Apply
+Scroll  down and hit Apply
 
 
 ![Demo](./images/schemaapply.png)
@@ -205,7 +205,7 @@ Scrool down and hit Apply
 ![Demo](./images/schemamixin12.png)
 
 
-18. On the Field Properties panel to the right add the follwoing 
+18. On the Field Properties panel to the right add the following  
       FieldName = transactionID
       Description = Transaction ID
       Type = String
@@ -214,7 +214,7 @@ Scrool down and hit Apply
 ![Demo](./images/schemamixin13.png)
 
 
-Scrool down and hit Apply
+Scroll down and hit Apply
 
 
 ![Demo](./images/schemaapply.png)
@@ -226,7 +226,7 @@ Scrool down and hit Apply
 ![Demo](./images/schemamixin12.png)
 
 
-20. On the Field Properties panel to the right add the follwoing 
+20. On the Field Properties panel to the right add the following  
       FieldName = branchID
       Description = Branch ID
       Type = String
@@ -235,13 +235,13 @@ Scrool down and hit Apply
 ![Demo](./images/schemamixin14.png)
 
 
-Scrool down and hit Apply
+Scroll down and hit Apply
 
 
 ![Demo](./images/schemaapply.png)
     
     
- 21. We are done with modeling the schema. To Save your work hit Save. Make sure that you schema structure looks like the one in the screenshot below
+ 21. We are done with modeling the schema. To Save your work hit Save on the top right corner. Make sure that your schema structure looks like the one in the screenshot below
  
  
  ![Demo](./images/schemafinal.png)
