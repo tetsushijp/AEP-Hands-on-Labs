@@ -108,32 +108,41 @@ Instructions:
       - identities
       
       Search for 'Order Details Mixin' Select the mixin and hit Assign Mixin
+      
             ![Demo](./images/schemamixin1.png)
       
       Your schema will now have the Order details object and all of the fields within this object
+      
              ![Demo](./images/schemamixin2.png)
              
       Hit +Add to go back to the Mixin list
+      
             ![Demo](./images/schemamixin3.png)
              
       And, repeat the steps for 'identities' mixin
+      
              ![Demo](./images/schemamixin4.png)
              
         
 12. Now, we'll also create a new Mixin from scratch. Go back and hit the +Add button on the left panel.
+
       ![Demo](./images/schemamixin6.png)
       
 13. Click "Create new mixin" on the very top
+
       ![Demo](./images/schemamixin7.png)
       
 13. Display name is "Transactions Details Mixin <your-assigned-number>" and then hit 'Add Mixin'
+      
 ![Demo](./images/schemamixin8.png)
      
      
 15. In the left-hand schema composition menu, click on your newly create Mixin (it should be highlighted now)
+
 ![Demo](./images/schemamixin9.png)
 
 16. Notice that on the Structure view an +Add Field appears next to the Schema name, Click it to start adding fields 
+
 ![Demo](./images/schemamixin10.png)
 
 17. On the Field Properties panel to the right add the follwoing 
@@ -179,8 +188,11 @@ Scrool down and hit Apply
 ![Demo](./images/schemaapply.png)
     
  23. We are done with modeling the schema. To Save your work hit Save. Make sure that you schema structure looks like the one in the screenshot below
+ 
  ![Demo](./images/schemafinal.png)
+ 
  24. Congratulations!!! you have constructed your schema.
+ 
 <br>
 <br>
 <br>
