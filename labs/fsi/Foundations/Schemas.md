@@ -54,51 +54,71 @@ Instructions:
 -----------------
 1. In the left-hand menu, navigate to "Schemas"
 
+
       ![Demo](./images/schemahome.png)
+      
       
 2. Click "Create Schema" on the top right
 
+
       ![Demo](./images/schemacreate.png)
+      
       
 3. Click on "Untitled Schema" in the structure view
 
+
       ![Demo](./images/schemaname.png)
+      
       
 4. In the right-hand menu, name it "Transactions Schema <your-assigned-number>" (Description is optional)
       
+      
       ![Demo](./images/schemaname1.png)
+      
       
 5. In the left-hand schema composition menu, click on the "Assign" button across from Class
 
+
       ![Demo](./images/schemaclassassign.png)
+      
       
       Here's where you can choose your base level schema behavior:
      - Time-based Events (ExperienceEvent)
      - Customer Snapshots (Profile)
      
+     
       ![Demo](./images/schemaclass.png)
+      
       
       Note: There are other classes avaiable out of the box that represent specific objects needed for Experience Modeling.
 
 6. In this example, choose "XDM ExperienceEvent" and click "Assign class"
 
+
       ![Demo](./images/schemaclass1.png)
       
-8. Now, click on the "Add" button across from "Mixins" on the left panel
+      
+7. Now, click on the "Add" button across from "Mixins" on the left panel
+
 
       ![Demo](./images/schemamixin.png)
       
+      
       Here's where you can build your own Mixin or use a prior/similar Mixin object that conforms to your data.
       
-10. There are many out of the box Mixins already avaiable. 
+8. There are many out of the box Mixins already avaiable. 
+
 
       ![Demo](./images/schemamixinpreview.png)
       
      Click on an Adobe pre-built Mixin and hit the "Preview mixin structure" option on the right-hand side to see it's contents of a Mixin
       
+      
       ![Demo](./images/schemamixinpreview1.png)
     
-11. Hit Back to get back to the list of Mixins. 
+    
+9. Hit Back to get back to the list of Mixins. 
+
 
       ![Demo](./images/schemamixinback.png)
       
