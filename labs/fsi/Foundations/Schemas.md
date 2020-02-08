@@ -131,25 +131,25 @@ Instructions:
       Search for 'Order Details Mixin' Select the mixin and hit Assign Mixin
       
       
-            ![Demo](./images/schemamixin1.png)
+     ![Demo](./images/schemamixin1.png)
       
       
       Your schema will now have the Order details object and all of the fields within this object
       
       
-             ![Demo](./images/schemamixin2.png)
+       ![Demo](./images/schemamixin2.png)
              
              
       Hit +Add to go back to the Mixin list
       
       
-            ![Demo](./images/schemamixin3.png)
+       ![Demo](./images/schemamixin3.png)
              
              
       And, repeat the steps for 'identities' mixin
       
       
-             ![Demo](./images/schemamixin4.png)
+       ![Demo](./images/schemamixin4.png)
              
              
         
