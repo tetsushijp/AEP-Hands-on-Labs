@@ -135,11 +135,11 @@ Click ``Advanced Mode``.
 
 ![Demo](./images/jo8.png)
 
-You'll then see the ``Advanced Editor`` which allows code entry. Paste it in ``##{weatherApiPuchadha.WeatherByZipemailAddress.weather.main} == 'Rain'`` (replace emailAddress)
+You'll then see the ``Advanced Editor`` which allows code entry. Paste it in ``#{weatherApiPuchadha.WeatherByZipemailAddress.weather.main} == 'Clear'`` (replace emailAddress)
 
 You'll then see this.
 
-![Demo](./images/jo10.png)
+![Demo](./images/jo14.png)
 
 In order to retrieve the temperature as part of this Condition, you need to provide the zipCode in which the customer currently is.
 The ``zipCode`` needs to be linked to the dynamic parameter ``zip``.
@@ -161,54 +161,27 @@ Click ``OK``.
 ![Demo](./images/jook.png)
 
 
-Rename the path from path1 to 'Raining'
+Rename the path from path1 to 'Clear'
 
-![Demo](./images/jopath1name.png)
+![Demo](./images/jopath2name.png)
+
+Hit Ok on the top right 
+
+
+![Demo](./images/joocok.png)
+
+
 Next, we will be adding in Actions.
 
-#### Path 1
+#### Add Actions for Raining Path
 
-For each of the temperature contexts, we'll attempt to send an SMS Message to our customer. We can only send an SMS if we have a Mobile Number available for a customer, so we'll first have to verify that we do.
-
-Let's focus on ``Path1``.
-
-![Demo](./images/p1steps.png)
-
-Let's take another ``Condition``-element and drag it as indicated in the screenshot above. We'll verify if for this customer, we have a mobile number available.
- 
-![Demo](./images/joa1.png)
-
-Click on the ``Edit``-icon for the Expression for Path1.
-
-![Demo](./images/joa2.png)
-
-In the Data Sources, navigate to ``ExperiencePlatformDataSource.ProfileFieldGroup.profile.mobilePhone.number``. You're now reading the mobile phone number directly from Adobe Experience Platform's Real-time Customer Profile.
-
-![Demo](./images/joa3.png)
-
-Select the field ``Number``, then drag and drop it to the Condition Canvas.
-
-Select the operator ``is not empty``.
-
-![Demo](./images/joa4.png)
-
-Click ``Accept``.
-
-![Demo](./images/joa5.png)
-
-You'll then see this:
-
-![Demo](./images/joa6.png)
-
-Click ``OK``.
-
-![Demo](./images/joa7.png)
+W'll attempt to send an SMS Message to our customer.
 
 Your Journey will then look like this. Click on ``Actions`` as indicated in the screenshot.
 
 ![Demo](./images/joa8.png)
 
-Select the smsTwilioLdap - action (verify your LDAP), then drag and drop it after the condition you just added.
+Select the smsNexmoemailAddress - action (your emailAddress), then drag and drop it after the condition you just added.
 
 ![Demo](./images/joa9.png)
 
@@ -220,7 +193,7 @@ Navigate to the ``Action Parameters``.
 
 ![Demo](./images/joa11.png)
 
-Click on the ``Edit``-icon for the Action Paramater ``TEXTMESSAGE``.
+Click on the ``Edit``-icon for the Action Paramater ``Mobile PhoneNumber``.
 
 ![Demo](./images/joa12.png)
 
@@ -230,13 +203,14 @@ In the popup you'll see, click on ``Advanced Mode``.
 
 Select the below code, copy it and paste it in the ``Advanced Mode Editor``.
 
-``"Brrrr..." + #{ExperiencePlatformDataSource.ProfileFieldGroup.profile.person.name.firstName} + " It's freezing. 20% discount on Jackets today!"``
+``#{ExperiencePlatform.ProfileFieldGroup.profile.mobilePhone.number}``
+
 
 ![Demo](./images/joa14.png)
 
 Click ``OK``.
 
-Click on the ``Edit``-icon for the Action Paramater ``MOBILENR``.
+Click on the ``Edit``-icon for the Action Paramater ``Message``.
 
 ![Demo](./images/joa15.png)
 
@@ -250,19 +224,25 @@ In the popup you'll see, click on ``Advanced Mode``.
 
 Paste this code in the ``Advanced Mode Editor``. Click ``OK``.
 
-``substr(#{ExperiencePlatformDataSource.ProfileFieldGroup.profile.mobilePhone.number}, 0, 12)``
+``"Hi "+ #{ExperiencePlatform.ProfileFieldGroup.profile.person.name.firstName}
++" don't let it rain on your investments, chat with our Advisors now."``
 
 ![Demo](./images/joa16.png)
 
 Click ``OK``.
 
+![Demo](./images/joocok.png)
+
+
+Click ``OK``.
+
 ![Demo](./images/joa17.png)
 
-In the left menu, go back to ``Actions``, select the Action ``textSlackLdap``, then drag and drop it after the ``smsTwilioLdap``-Action (Replace Ldap by your LDAP).
+In the left menu, go back to ``Actions``, select the Action ``slackNotification``, then drag and drop it after the ``smsNexmoemailAddress``-Action (Replace emailAddress).
 
 ![Demo](./images/joa18.png)
 
-Go to ``Action Parameters`` and click the ``Edit``-icon for the parameter ``TEXTTOSLACK``.
+Go to ``Action Parameters`` and click the ``Edit``-icon for the parameter ``Message``.
 
 ![Demo](./images/joa19.png)
 
@@ -272,7 +252,8 @@ In the popup-window, click ``Advanced Mode``.
 
 Select the below code, copy it and paste it in the ``Advanced Mode Editor``.
 
-``"Brrrr..." + #{ExperiencePlatformDataSource.ProfileFieldGroup.profile.person.name.firstName} + " It's freezing. 20% discount on Jackets today!"``
+``"Hi "+ #{ExperiencePlatform.ProfileFieldGroup.profile.person.name.firstName}
++" don't let it rain on your investments, chat with our Advisors now."``
 
 ![Demo](./images/joa21.png)
 
@@ -288,51 +269,17 @@ In the left menu, go to ``Orchestration``, select ``End``, then drag and drop ``
 
 ![Demo](./images/joa23.png)
 
-#### Path 2
+#### Add Actions for Clear Path
 
-For each of the temperature contexts, we'll attempt to send an SMS Message to our customer. We can only send an SMS if we have a Mobile Number available for a customer, so we'll first have to verify that we do.
-
-Let's focus on ``Path2``.
-
-![Demo](./images/p2steps.png)
-
-Let's take another ``Condition``-element and drag it as indicated in the screenshot above. We'll verify if for this customer, we have a mobile number available.
- 
-![Demo](./images/jop1.png)
-
-Click on the ``Edit``-icon for the Expression for Path1.
-
-![Demo](./images/joa2.png)
-
-In the Data Sources, navigate to ``ExperiencePlatform.ProfileFieldGroup.profile.mobilePhone.number``. You're now reading the mobile phone number directly from Adobe Experience Platform's Real-time Customer Profile.
-
-![Demo](./images/joa3.png)
-
-Select the field ``Number``, then drag and drop it to the Condition Canvas.
-
-Select the operator ``is not empty``.
-
-![Demo](./images/joa4.png)
-
-Click ``Accept``.
-
-![Demo](./images/joa5.png)
-
-You'll then see this:
-
-![Demo](./images/joa6.png)
-
-Click ``OK``.
-
-![Demo](./images/joa7.png)
+We'll attempt to send an SMS Message to our customer.
 
 Your Journey will then look like this. Click on ``Actions`` as indicated in the screenshot.
 
-![Demo](./images/jop8.png)
+![Demo](./images/joa8.png)
 
-Select the smsTwilioLdap - action (verify your LDAP), then drag and drop it after the condition you just added.
+Select the smsNexmoemailAddress - action (your emailAddress), then drag and drop it after the condition you just added.
 
-![Demo](./images/jop9.png)
+![Demo](./images/joa9.png)
 
 You'll see a popup.
 
@@ -342,23 +289,26 @@ Navigate to the ``Action Parameters``.
 
 ![Demo](./images/joa11.png)
 
-Click on the ``Edit``-icon for the Action Paramater ``TEXTMESSAGE``.
+Click on the ``Edit``-icon for the Action Paramater ``Mobile PhoneNumber``.
 
 ![Demo](./images/joa12.png)
 
 In the popup you'll see, click on ``Advanced Mode``.
 
+![Demo](./images/jo8.png)
+
 Select the below code, copy it and paste it in the ``Advanced Mode Editor``.
 
-``"What a nice spring weather, " + #{ExperiencePlatformDataSource.ProfileFieldGroup.profile.person.name.firstName} + " 20% discount on Sweaters today!"``
+``#{ExperiencePlatform.ProfileFieldGroup.profile.mobilePhone.number}``
 
-![Demo](./images/jop14.png)
+
+![Demo](./images/joa14.png)
 
 Click ``OK``.
 
-Click on the ``Edit``-icon for the Action Paramater ``MOBILENR``.
+Click on the ``Edit``-icon for the Action Paramater ``Message``.
 
-![Demo](./images/jop15.png)
+![Demo](./images/joa15.png)
 
 You'll see a popup with the ``Simple Mode Editor``.
 
@@ -370,19 +320,25 @@ In the popup you'll see, click on ``Advanced Mode``.
 
 Paste this code in the ``Advanced Mode Editor``. Click ``OK``.
 
-``substr(#{ExperiencePlatformDataSource.ProfileFieldGroup.profile.mobilePhone.number}, 0, 12)``
+``"Hi "+ #{ExperiencePlatform.ProfileFieldGroup.profile.person.name.firstName}
++" don't let it rain on your investments, chat with our Advisors now."``
 
 ![Demo](./images/joa16.png)
 
 Click ``OK``.
 
-![Demo](./images/jop17.png)
+![Demo](./images/joocok.png)
 
-In the left menu, go back to ``Actions``, select the Action ``textSlackLdap``, then drag and drop it after the ``smsTwilioLdap``-Action. (Replace Ldap by your LDAP)
 
-![Demo](./images/jop18.png)
+Click ``OK``.
 
-Go to ``Action Parameters`` and click the ``Edit``-icon for the parameter ``TEXTTOSLACK``.
+![Demo](./images/joa17.png)
+
+In the left menu, go back to ``Actions``, select the Action ``slackNotification``, then drag and drop it after the ``smsNexmoemailAddress``-Action (Replace emailAddress).
+
+![Demo](./images/joa18.png)
+
+Go to ``Action Parameters`` and click the ``Edit``-icon for the parameter ``Message``.
 
 ![Demo](./images/joa19.png)
 
@@ -392,39 +348,10 @@ In the popup-window, click ``Advanced Mode``.
 
 Select the below code, copy it and paste it in the ``Advanced Mode Editor``.
 
-``"What a nice spring weather, " + #{ExperiencePlatformDataSource.ProfileFieldGroup.profile.person.name.firstName} + " 20% discount on Sweaters today!"``
+``"Hi "+ #{ExperiencePlatform.ProfileFieldGroup.profile.person.name.firstName}
++" don't let it rain on your investments, chat with our Advisors now."``
 
-![Demo](./images/jop21.png)
-
-Click ``OK``.
-
-![Demo](./images/jop22.png)
-
-In the left menu, go to ``Orchestration``, select ``End``, then drag and drop ``End`` after the ``textSlackLdap``-Action.
-
-![Demo](./images/jop23.png)
-
-Click ``OK``.
-
-![Demo](./images/jod17.png)
-
-In the left menu, go back to ``Actions``, select the Action ``textSlackLdap``, then drag and drop it after the ``smsTwilioLdap``-Action.
-
-![Demo](./images/jod18.png)
-
-Go to ``Action Parameters`` and click the ``Edit``-icon for the parameter ``TEXTTOSLACK``.
-
-![Demo](./images/jod19.png)
-
-In the popup-window, click ``Advanced Mode``.
-
-![Demo](./images/joa20.png)
-
-Select the below code, copy it and paste it in the ``Advanced Mode Editor``.
-
-``"So warm, " + #{ExperiencePlatformDataSource.ProfileFieldGroup.profile.person.name.firstName} + "! 20% discount on Swimming Trunks today!"``
-
-![Demo](./images/jod21.png)
+![Demo](./images/joa21.png)
 
 Click ``OK``.
 
@@ -432,11 +359,11 @@ Click ``OK``.
 
 Click ``OK``.
 
-![Demo](./images/jod22.png)
+![Demo](./images/joa22.png)
 
 In the left menu, go to ``Orchestration``, select ``End``, then drag and drop ``End`` after the ``textSlackLdap``-Action.
 
-![Demo](./images/jod23.png)
+![Demo](./images/joa23.png)
 
 Your Journey is now fully configured.
 
