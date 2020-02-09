@@ -34,7 +34,7 @@ Click ``OK``.
 
 ![Demo](./images/jonameok.png)
 
-On the left side of your screen, have a look at ``Events``. You should see your previously create Event in that list. Select it, then drag and drop it on the Journey Canvas.
+On the left side of your screen, have a look at ``Events``. You should see your previously create Event on that list. Select it, then drag and drop it on the Journey Canvas.
 
 ![Demo](./images/joevents.png)
 
@@ -141,7 +141,7 @@ You'll then see this.
 
 ![Demo](./images/jo14.png)
 
-In order to retrieve the temperature as part of this Condition, you need to provide the zipCode in which the customer currently is.
+To retrieve the temperature as part of this Condition, you need to provide the zipCode in which the customer currently is.
 The ``zipCode`` needs to be linked to the dynamic parameter ``zip``.
 
 Click the field ``dynamic val: zip`` as indicated in the screenshot.
@@ -175,7 +175,7 @@ Next, we will be adding in Actions.
 
 #### Add Actions for Raining Path
 
-W'll attempt to send an SMS Message to our customer.
+We'll attempt to send an SMS message to our customer.
 
 Your Journey will then look like this. Click on ``Actions`` as indicated in the screenshot.
 
@@ -193,15 +193,15 @@ Navigate to the ``Action Parameters``.
 
 ![Demo](./images/joa11.png)
 
-Click on the ``Edit``-icon for the Action Paramater ``Mobile PhoneNumber``.
+Click on the ``Edit``-icon for the Action Parameter ``Mobile PhoneNumber``.
 
 ![Demo](./images/joa12.png)
 
-In the popup you'll see, click on ``Advanced Mode``.
+In the popup, you'll see, click on ``Advanced Mode``.
 
 ![Demo](./images/jo8.png)
 
-Select the below code, copy it and paste it in the ``Advanced Mode Editor``.
+Select the below code, copy it, and paste it in the ``Advanced Mode Editor``.
 
 ``#{ExperiencePlatform.ProfileFieldGroup.profile.mobilePhone.number}``
 
@@ -210,7 +210,7 @@ Select the below code, copy it and paste it in the ``Advanced Mode Editor``.
 
 Click ``OK``.
 
-Click on the ``Edit``-icon for the Action Paramater ``Message``.
+Click on the ``Edit``-icon for the Action Parameter ``Message``.
 
 ![Demo](./images/joa15.png)
 
@@ -218,7 +218,7 @@ You'll see a popup with the ``Simple Mode Editor``.
 
 ![Demo](./images/joasm.png)
 
-In the popup you'll see, click on ``Advanced Mode``.
+In the popup, you'll see, click on ``Advanced Mode``.
 
 ![Demo](./images/jo8.png)
 
@@ -246,11 +246,11 @@ Go to ``Action Parameters`` and click the ``Edit``-icon for the parameter ``Mess
 
 ![Demo](./images/joa19.png)
 
-In the popup-window, click ``Advanced Mode``.
+In the popup window, click ``Advanced Mode``.
 
 ![Demo](./images/joa20.png)
 
-Select the below code, copy it and paste it in the ``Advanced Mode Editor``.
+Select the below code, copy it, and paste it in the ``Advanced Mode Editor``.
 
 ``"Hi "+ #{ExperiencePlatform.ProfileFieldGroup.profile.person.name.firstName}
 +" don't let it rain on your investments, chat with our Advisors now."``
@@ -269,17 +269,18 @@ In the left menu, go to ``Orchestration``, select ``End``, then drag and drop ``
 
 ![Demo](./images/joa23.png)
 
-#### Add Actions for Clear Path
 
-We'll attempt to send an SMS Message to our customer.
+#### Add Actions for Clear Weather Path
+
+We'll attempt to send an SMS message to our customer.
 
 Your Journey will then look like this. Click on ``Actions`` as indicated in the screenshot.
 
-![Demo](./images/joa8.png)
+![Demo](./images/joapath21.png)
 
 Select the smsNexmoemailAddress - action (your emailAddress), then drag and drop it after the condition you just added.
 
-![Demo](./images/joa9.png)
+![Demo](./images/joapath22.png)
 
 You'll see a popup.
 
@@ -289,15 +290,15 @@ Navigate to the ``Action Parameters``.
 
 ![Demo](./images/joa11.png)
 
-Click on the ``Edit``-icon for the Action Paramater ``Mobile PhoneNumber``.
+Click on the ``Edit``-icon for the Action Parameter ``Mobile PhoneNumber``.
 
 ![Demo](./images/joa12.png)
 
-In the popup you'll see, click on ``Advanced Mode``.
+In the popup, you'll see, click on ``Advanced Mode``.
 
 ![Demo](./images/jo8.png)
 
-Select the below code, copy it and paste it in the ``Advanced Mode Editor``.
+Select the below code, copy it, and paste it in the ``Advanced Mode Editor``.
 
 ``#{ExperiencePlatform.ProfileFieldGroup.profile.mobilePhone.number}``
 
@@ -306,7 +307,7 @@ Select the below code, copy it and paste it in the ``Advanced Mode Editor``.
 
 Click ``OK``.
 
-Click on the ``Edit``-icon for the Action Paramater ``Message``.
+Click on the ``Edit``-icon for the Action Parameter ``Message``.
 
 ![Demo](./images/joa15.png)
 
@@ -314,16 +315,16 @@ You'll see a popup with the ``Simple Mode Editor``.
 
 ![Demo](./images/joasm.png)
 
-In the popup you'll see, click on ``Advanced Mode``.
+In the popup, you'll see, click on ``Advanced Mode``.
 
 ![Demo](./images/jo8.png)
 
 Paste this code in the ``Advanced Mode Editor``. Click ``OK``.
 
 ``"Hi "+ #{ExperiencePlatform.ProfileFieldGroup.profile.person.name.firstName}
-+" don't let it rain on your investments, chat with our Advisors now."``
++" have a clear path to Retirement, chat with our Advisors now."``
 
-![Demo](./images/joa16.png)
+![Demo](./images/joapath216.png)
 
 Click ``OK``.
 
@@ -332,26 +333,26 @@ Click ``OK``.
 
 Click ``OK``.
 
-![Demo](./images/joa17.png)
+![Demo](./images/joapath217.png)
 
 In the left menu, go back to ``Actions``, select the Action ``slackNotification``, then drag and drop it after the ``smsNexmoemailAddress``-Action (Replace emailAddress).
 
-![Demo](./images/joa18.png)
+![Demo](./images/joapath218.png)
 
 Go to ``Action Parameters`` and click the ``Edit``-icon for the parameter ``Message``.
 
 ![Demo](./images/joa19.png)
 
-In the popup-window, click ``Advanced Mode``.
+In the popup window, click ``Advanced Mode``.
 
 ![Demo](./images/joa20.png)
 
-Select the below code, copy it and paste it in the ``Advanced Mode Editor``.
+Select the below code, copy it, and paste it in the ``Advanced Mode Editor``.
 
 ``"Hi "+ #{ExperiencePlatform.ProfileFieldGroup.profile.person.name.firstName}
-+" don't let it rain on your investments, chat with our Advisors now."``
++" have a clear path to Retirement, chat with our Advisors now."``
 
-![Demo](./images/joa21.png)
+![Demo](./images/joapath221.png)
 
 Click ``OK``.
 
@@ -359,17 +360,17 @@ Click ``OK``.
 
 Click ``OK``.
 
-![Demo](./images/joa22.png)
+![Demo](./images/joapath222.png)
 
 In the left menu, go to ``Orchestration``, select ``End``, then drag and drop ``End`` after the ``textSlackLdap``-Action.
 
-![Demo](./images/joa23.png)
+![Demo](./images/joapath223.png)
 
 Your Journey is now fully configured.
 
 ![Demo](./images/jodone.png)
 
-Click ``Pubish``.
+Click ``Publish``.
 
 ![Demo](./images/jopublish.png)
 
@@ -382,6 +383,3 @@ Your Journey is now published.
 ![Demo](./images/jopublish2.png)
 
 ---
-
-Next Step: [Exercise 5 - Trigger your Orchestrated Customer Journey](./ex5.md)
-
