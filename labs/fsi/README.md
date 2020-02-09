@@ -10,6 +10,7 @@ Please download your own attendee [lab content/uploads here](https://github.com/
 
 ## Lab Agenda
 
+### Adobe Experience Platform - Foundations
  - [Ingestion](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/Foundations/Ingestion.md)
  - [Schemas](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/Foundations/Schemas.md)
  - [Datasets](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/Foundations/Datasets.md)
@@ -17,6 +18,12 @@ Please download your own attendee [lab content/uploads here](https://github.com/
  - [Segments](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/Foundations/Segments.md)
  - [Query Service](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/Foundations/DeepDive%20QueryService.md)
  - [APIs](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/Foundations/APIs.md)
+
+### Adobe Experience Platform - Journey Orchestration
+ - [Events](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/Journey%20Orchestration/Exercise1-Events.md)
+ - [Data Sources](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/Journey%20Orchestration/Exercise2-DataSources.md)
+ - [Actions](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/Journey%20Orchestration/Exercise3-Action.md)
+ - [Journeys](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/Journey%20Orchestration/Exercise4-Journey.md)
 
 ## QuickLinks
 
