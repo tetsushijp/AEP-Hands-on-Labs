@@ -54,7 +54,7 @@ Before be begin go to [https://platform.adobe.com/home](https://platform.adobe.c
 Instructions:
 -----------------
 
-We will be creating a dataset for the schema we created in the previous excersise. Please follow the steps below
+We will be creating a dataset for the schema we created in the previous exercise. Please follow the steps below
 1. In the left-hand menu, navigate to "Datasets"
 
 
@@ -67,7 +67,7 @@ We will be creating a dataset for the schema we created in the previous excersis
       ![Demo](./images/datasetcreate.png)
       
       
-3. Since we will be creating the dataset from a schema definition please select 'Ceate dataset from schema'
+3. Since we will be creating the dataset from a schema definition please select ''Create dataset from schema'
 
 
       ![Demo](./images/datasetcreate2.png)
@@ -91,21 +91,21 @@ We will be creating a dataset for the schema we created in the previous excersis
       ![Demo](./images/datasetfinish.png) 
 
 
-5. We have sucessfully created the dataset, but this dataset has not ingested an data. We will now import a file into this dataset. This time we will import a JSON file and it will simply need to be draged and dropped into the dataset. 
+5. We have successfully created the dataset, but this dataset has not ingested data. We will now import a file into this dataset. This time we will import a JSON file and it will simply need to be dragged and dropped into the dataset. 
 
-On the right panel scroll down untill you see the 'Add data' section
+On the right panel scroll down until you see the 'Add data' section
 
 
 ![Demo](./images/datasetadddata.png) 
 
 
-6. From the lab files you downloaded, drag and drop the 'transactions_data_xxx.json' file in to the 'Add Data' sections. You will now see a batch with a 'Loading' status
+6. From the lab files you downloaded, drag and drop the 'transactions_data_xxx.json' file into the 'Add Data' sections. You will now see a batch with a 'Loading' status
 
 
 ![Demo](./images/datasetbatch.png) 
 
 
-7. Adobe Experience Platform will perform the XDM mapping and convertion for JSON format to parquet and make this data available on the data lake and the profile store. This process usually takes a few mins. 
+7. Adobe Experience Platform will perform the XDM mapping and conversion for JSON format to parquet and make this data available on the data lake and the profile store. This process usually takes a few mins. 
 
 Once your batch status is 'Success', you can preview the data by hitting the 'Preview Dataset' button on the top right corner.
 
@@ -113,7 +113,7 @@ Once your batch status is 'Success', you can preview the data by hitting the 'Pr
 ![Demo](./images/datasetpreview.png)
 
 
-8. Congratulations !!! you are done with the Dataset excersise.
+8. Congratulations !!! you are done with the Dataset exercise.
 
 
 <br>
