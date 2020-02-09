@@ -133,10 +133,5 @@ Before you hit send, click on the API body and make sure you add the CRMID and e
 
 12. With that, Congratulations !! you have completed the API exercise.
 
-```
-
-<br>
-<br>
-<br>
 
 Return to [Lab Agenda Directory](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/README.md#lab-agenda)
