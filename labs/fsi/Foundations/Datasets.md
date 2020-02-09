@@ -96,13 +96,13 @@ We will be creating a dataset for the schema we created in the previous excersis
 On the right panel scroll down untill you see the 'Add data' section
 
 
-![Demo](./datasetadddata.png) 
+![Demo](./images/datasetadddata.png) 
 
 
 6. From the lab files you downloaded, drag and drop the 'transactions_data_xxx.json' file in to the 'Add Data' sections. You will now see a batch with a 'Loading' status
 
 
-![Demo](./datasetbatch.png) 
+![Demo](./images/datasetbatch.png) 
 
 
 7. Adobe Experience Platform will perform the XDM mapping and convertion for JSON format to parquet and make this data available on the data lake and the profile store. This process usually takes a few mins. 
@@ -110,7 +110,7 @@ On the right panel scroll down untill you see the 'Add data' section
 Once your batch status is 'Success', you can preview the data by hitting the 'Preview Dataset' button on the top right corner.
 
 
-![Demo](./datasetpreview.png)
+![Demo](./images/datasetpreview.png)
 
 
 8. Congratulations !!! you are done with the Dataset excersise.
