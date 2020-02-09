@@ -116,7 +116,7 @@ Next, we'll add the 2nd condition.
 
 After having added the first condition, you'll see this screen.
 
-![Demo](./images/jo13.png)
+![Demo](./images/jo2.png)
 
 Click ``Add Path``.
 
