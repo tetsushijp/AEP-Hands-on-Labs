@@ -80,13 +80,7 @@ Click ``Advanced Mode``.
 
 ![Demo](./images/jo8.png)
 
-You'll then see the ``Advanced Editor`` which allows code entry.
-
-![Demo](./images/jo9.png)
-
-Select the below code and paste it in the ``Advanced Editor``.
-
-``##{weatherApiPuchadha.WeatherByZipemailAddress.weather.main} == 'Rain'`` (replace emailAddress)
+You'll then see the ``Advanced Editor`` which allows code entry. Paste it in ``##{weatherApiPuchadha.WeatherByZipemailAddress.weather.main} == 'Rain'`` (replace emailAddress)
 
 You'll then see this.
 
@@ -122,15 +116,15 @@ Next, we'll add the 2nd condition.
 
 After having added the first condition, you'll see this screen.
 
-![Demo](./images/joc2.png)
+![Demo](./images/jo13.png)
 
 Click ``Add Path``.
 
 ![Demo](./images/joadd.png)
 
-Click on the ``Edit``-icon for the expression of Path2.
+Click on the ``Edit``-icon for the expression of Path1.
 
-![Demo](./images/joc6.png)
+![Demo](./images/jo6.png)
 
 You'll then see an empty ``Simple Editor``-screen.
 
@@ -141,39 +135,36 @@ Click ``Advanced Mode``.
 
 ![Demo](./images/jo8.png)
 
-You'll then see the ``Advanced Editor`` which allows code entry.
-
-![Demo](./images/jo9.png)
-
-Select the below code and paste it in the ``Advanced Editor``.
-
-``#{weatherApiLdap.WeatherByCityLdap.main.temp} > 10 and #{weatherApiLdap.WeatherByCityLdap.main.temp} <= 25`` (Replace Ldap by your LDAP)
+You'll then see the ``Advanced Editor`` which allows code entry. Paste it in ``##{weatherApiPuchadha.WeatherByZipemailAddress.weather.main} == 'Rain'`` (replace emailAddress)
 
 You'll then see this.
 
-![Demo](./images/joc10.png)
+![Demo](./images/jo10.png)
 
-In order to retrieve the temperature as part of this Condition, you need to provide the city in which the customer currently is.
-The ``City`` needs to be linked to the dynamic parameter ``q``, just like we saw previously in the Open Weather API Documentation.
+In order to retrieve the temperature as part of this Condition, you need to provide the zipCode in which the customer currently is.
+The ``zipCode`` needs to be linked to the dynamic parameter ``zip``.
 
-Click the field ``dynamic val: q`` as indicated in the screenshot.
+Click the field ``dynamic val: zip`` as indicated in the screenshot.
 
-![Demo](./images/joc11.png)
+![Demo](./images/jo11.png)
 
-You then need to find the field that contains the current city of the customer in one of the available Data Sources. 
+You then need to find the field that contains the current zip code of the customer in the AEP Data Sources. Here we are leveraging the unified profile data in AEP to get the profiles zip code.
 
-![Demo](./images/joc12.png)
+You can navigate the field structure from the panel or simply paste the expression below into the expression text box.
+``#{ExperiencePlatform.ProfileFieldGroup.profile.homeAddress.postalCode}`` 
 
-You can find the field by navigating to ``geofenceEntryLdap._experienceplatform.locationService.currentPoiCity`` (Replace Ldap by your LDAP). By clicking that field, it will be added as the dynamic value for the parameter ``q``. This field will be populated by f.i. the geolocation-service that you've implemented in your Mobile App.
+![Demo](./images/jo12.png)
 
-![Demo](./images/joc13.png)
 
 Click ``OK``.
 
 ![Demo](./images/jook.png)
 
-Next, we'll add the 3nd condition.
 
+Rename the path from path1 to 'Raining'
+
+![Demo](./images/jopath1name.png)
+Next, we will be adding in Actions.
 
 #### Path 1
 
