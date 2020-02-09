@@ -15,7 +15,7 @@ Lab - Using Data Ingestion API to Stitch customer data.
      </tr>
      <tr width="500">
            <td valign="top"><h3>Prerequisites:</h3></td>
-           <td valign="top"><br>download JSON collection from [here](URLTOJSON)
+           <td valign="top"><br>download JSON collection and envirnoment (Shared via Email)
            </td>
      </tr>
 </tbody>
@@ -50,11 +50,89 @@ Lab - Using Data Ingestion API to Stitch customer data.
 
 Instructions:
 -----------------
-1. Open the Postman Collection
-2. Instructor will walk-through the API calls
+1. Open the Postman
 
-```
-Please don't create new inlets -- lets use the same one as a class
+
+     ![Demo](./images/postmanhome.png)
+
+
+2. Click on Import 
+
+
+     ![Demo](./images/postmanimport.png)
+
+
+3. Then drag an drop 'AEP - HandonLabs.postman_environment.json' and AEP - HandsOnLabs Collection.json' files
+
+
+     ![Demo](./images/postmanimport1.png)
+     
+     
+4. Select 'AEP - HandsOnLabs' environment.
+
+
+     ![Demo](./images/postmanenv.png)
+     
+     
+5. Click on the 'AEP - HandsOnLabs Collection' and open 'Step 1 : List all data inlet'.
+
+This API call will list all of the HTTPS API endpoint on our instance. These endpoints are allowed to stream in data into AEP. 
+
+
+![Demo](./images/postmanstep1.png)
+    
+    
+6. Hit Send
+
+
+![Demo](./images/postmansend.png)
+
+
+On the API response, you will see the details for all data inlets
+
+
+![Demo](./images/postmanstep1response.png)
+
+
+7. Click and open 'Step 2: Listing of tenant Schemas' and hit Send
+This API call will get all the schemas in the instance. note we restrict the properties that are returned from the API call to make the repose more manageable to read.
+Try to search for the schema you created during the schema excises.
+
+
+![Demo](./images/postmanstep2.png)
+
+
+8. Next, click and open 'Step 3a - GET Profile by CRMID' and add in the entityId parameter entry the CRMID provided to you in class
+
+
+![Demo](./images/postmanstep3.png)
+
+
+This API call is part of the profile API and will return the profile object associated with an identity. 
+
+
+9. Next, click and open 'Step 3b - GET Profile by emailID' and add in the entityId parameter entry the emailID provided to you in class
+
+
+![Demo](./images/postmanstep3b.png)
+
+
+10. Next, click and open 'Step 4 : Call Data inlet'. This API call is where we will stitch the profile fragments for the CRMID and email address, effectively stitching them into one unified profile, notice that all profile attributes will merge.
+
+Before you hit send, click on the API body and make sure you add the CRMID and emailID from previous steps
+
+
+![Demo](./images/postmanstep4.png)
+
+
+11. Finally, to view the stitched profile data click and open 'Step 5 - UPS - GET Profile by CRMID' add in the CRMID provided and hit send.
+
+
+![Demo](./images/postmanstep5.png)
+
+
+12. With that, Congratulations !! you have completed the API exercise.
+
 ```
 
 <br>
