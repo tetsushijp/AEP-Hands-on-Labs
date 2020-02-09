@@ -15,7 +15,7 @@ Please download your own attendee [lab content/uploads here](https://github.com/
  - [Datasets](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/Foundations/Datasets.md)
  - [Profiles & Indentities](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/Foundations/Profiles.md)
  - [Segments](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/Foundations/Segments.md)
- - [Query Service](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/Foundations/QueryService.md)
+ - [Query Service](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/Foundations/DeepDive%20QueryService.md)
  - [APIs](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/Foundations/APIs.md)
 
 ## QuickLinks
