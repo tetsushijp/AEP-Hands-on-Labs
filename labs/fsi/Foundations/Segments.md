@@ -49,15 +49,19 @@ Lab 6.1 - Segmentation - Profile Attribute Segmentation
 
 Instructions:
 -----------------
-1. In the left navigation, select ‘Attributes’ under ‘Fields’
-2. Select ‘XDM Indvidual Profile’ under ‘Browse Attributes’
-3. Select ‘Adobeamericaspot 2’ under ‘Attributes’ > ‘XDM Individual Profile’
-4. Expand the ‘Student’ object
-5. Once the fields display, drag ‘jobTitle’ over to the Segment Canvas.
-6. Finish creating the segment where ‘jobTitle’ contains ‘manager’
-7. In the Segment properties pane, select the ‘Refresh estimate’ link
-8. Please do not save your segment
-
+<ol>
+      <li>In the left navigation, select 'Segments' if you are not already there.</li>
+<li>In the upper right corner, select 'Create Segment'.</li>
+<li>In the right pane within the 'Create Segment' interface, enter the segment name 'Female Segment' following by your Student Number (e.g. 'Female Segment 001'). Enter the same value in the Description field.</li>
+<li>If the 'Streaming' toggle is not active, activate it.</li>
+<li>In the left pane, drill down the 'XDM Individual Profile' under Attributes by clicking on it.</li>
+<li>Scroll the resulting list until you locate 'Person'.</li>
+<li>Click on 'Person' to expand the object. This will display information at the field level. One of the fields you should see is 'Gender'.</li>
+<li>Drag 'Gender' over to the segment builder area.</li>
+<li>Click on the list arrow to the right of 'Gender' equals and select 'Female'.</li>
+<li>In the Segment properties pane, select the ‘Refresh estimate’ link.</li>
+<li>Save your segment</li>
+</ol>
 NOTE: Estimate link may not show results if attribute or selection is statistically small and not recognized across datset scans 
 <br>
 <br>
@@ -114,26 +118,32 @@ Lab 6.2 - Segmentation - Profile Experience Event Segmentation
 
 Instructions:
 -----------------
-1. In the left navigation, select ‘Events’ under ‘Fields’
-2. Select ‘XDM ExperienceEvent’ under ‘Browse Classes’
-3. Select ‘Experience’ under ‘Events > XDM ExperienceEvent’
-4. Select ‘Analytics’ under ‘Events > XDMExperienceEvent > Experience’
-5. Expand ‘Event 1 to 100’
-6. Expand ‘Account Creation: Step 1 (event33)’
-7. Drag the field to the Segment Canvas
-8. Modify the condition for this field to ‘exists’
-9. In the left navigation, click on ‘Event 1 to 11’
-10. Click on ‘Account Creation: Step 2 (event34)’
-11. Drag the field to the Segment Canvas to the right of the existing event
-12. Modify the condition for this field to ‘exists’
-13. Expand ‘Event 1 to 100’
-14. Click on ‘Accounts Created’
-15. Drag the field to the Segment Canvas to the right of the second event
-16. Modify the condition for this field to ‘does not exist’
-17. In the Segment properties pane, select the ‘Refresh estimate’ link
-18. Please do not save you segment
-
-
+<ol>
+ <li>In the left navigation, select 'Segments' if you are not already there.</li>
+<li>In the upper right corner, select 'Create Segment'.</li>
+<li>In the right pane within the 'Create Segment' interface, enter the segment name 'Account Creation Abandon' following by your Student Number (e.g. 'Account Creation Abandon 001'). Enter the same value in the Description field.</li>
+<li>If the 'Streaming' toggle is not active, activate it.</li>
+<li>In the left pane, drill down the 'XDM ExperienceEvent' under Evemts by clicking on it.</li>
+<li>Scroll the resulting list until you locate 'Experience'.</li>
+<li>Click on 'Experience' to expand the object. </li>
+<li>Click on 'Analytics' to expand the object</li>
+<li>Click on 'Event 1 to 100' to expand the object.</li>
+<li>Click on 'Account Creation: Step 1'. This will display the field value for this event.</li>
+<li>Drag the field to the Segment Canvas.</li>   
+<li>In the left pane, click on the 'Event 1 to 100' link to display the event list again</li>
+<li>Click on 'Account Creation: Step 2'. This will display the field value for this event.</li>     
+<li>Drag the field to the right of the existing event in the Segment Canvas.</li>
+<li>In the left pane, click on the 'Event 1 to 100' link to display the event list again</li>
+<li>Click on 'Account Creation: Step 3'. This will display the field value for this event.</li>     
+<li>Drag the field to the right of the last (second) event in the Segment Canvas.</li>
+<li>You should now see three events positioned horizontally in the Segment Canvas. We're going to configure each event with a rule next.</li>
+<li>Click on the leftmost event. You will see the rule editor activate below. Enter '1' in the Number field to modify the condition.</li>
+<li>Click on the middle event. You will see the rule editor activate below. Enter '1' in the Number field to modify the condition.</li>
+<li>Click on the last event. Click on the arrow to the right of 'equals' and select 'does not exist' from the list to modify the condition.</li>
+<li>In the Segment properties pane, select the ‘Refresh estimate’ link.</li>
+<li>Save your segment</li>
+</ol>    
+ 
 <br>
 <br>
 <br>
