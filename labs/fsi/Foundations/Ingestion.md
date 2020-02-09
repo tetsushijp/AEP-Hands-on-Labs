@@ -53,19 +53,73 @@ Lab 1.1 - Ingestion - CSV to XMD Mapping
 Instructions:
 -----------------
 go to https://platform.adobe.com/home
+
 1. In the left-hand menu, navigate to "Workflows"
-2. Select "Map CSV to XDM schema"
-3. The next workflow sequence will be:
-   - Add Data
-      hit Next
-   - Destination
-   - Mapping
-   - Ingest
-4. Select CSV file for upload
-5. Select "CRM_Dataset"
-6. This is where mapping is needed, the system will assume certain values...
-    Please WAIT HERE as a class - we'll work through this section together
-7. Once done, hit submit and wait for ingestion process to complete
+
+
+      ![Demo](./images/ingestionhome.png)
+
+
+2. We will be ingesting an adhoc CSV file. Please select "Map CSV to XDM schema"
+
+
+      ![Demo](./images/ingestcsvtoxdm.png)
+      
+      
+3. Hit Launch to start the workflow
+
+
+      ![Demo](./images/ingestcsvtoxdmlaunch.png)
+
+
+4. First step in the workflow is to Add data. 
+
+
+      ![Demo](./images/ingestionadddata.png)
+      
+
+5. Drag and drop the 'crm_data_xxx.csv' file profiled in the lab downloads. Within a few seconds you will see a preview of the data. Hit 'Next' 
+
+
+      ![Demo](./images/ingestionadddata1.png)
+      
+      
+6. The next step is to select a Destination for this data. Search for 'CRM_dataset' , select it and hit Next 
+
+
+      ![Demo](./images/ingestiondestination.png)
+      
+      
+7. Next, we need to map the CSV file fields to the XDM fields in the schema. The mapper tried to parse and map fields however there are some that were not mapped or are mis mapped. We will make corrections.
+
+
+
+      ![Demo](./images/ingestionmapper.png)
+      
+
+8. To re map a field click the  ![Demo](./images/remap.png) icon to open the schema. Remapping the list is left as a excersise for the participant.
+
+Once corrected the mappings should like shown in the screenshot below. Once you have verified that the mappings are correct, hit Next.
+
+
+![Demo](./images/ingestionmapper1.png)
+
+
+9. Finally, we are ready to ingest the data. Hit 'Ingest' 
+
+
+![Demo](./images/ingestioningest.png)
+
+
+10. After a few mins, Adobe Experience Platform will start the workflow of converting the CSV file data to XDM format. This process takes a few mins. once completed hit the 'Finish' to complete the workflow.
+
+
+![Demo](./images/ingestionfinish.png)
+
+
+
+11. Congratulation !! we have imported an adhoc file into platform.
+
  
 <br>
 <br>
