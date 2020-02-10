@@ -17,7 +17,7 @@ excerises and lab content.  This repo will hold
 It is also a good idea to declare what are _not_ goals of the project to prevent
 potential feature creep.
 
-### Usage
+## Usage
 
 The lab content is designed to cater to different industry verticals:
 
@@ -36,4 +36,4 @@ Additional quick links to documentation can also be found here:
 
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for more information.
 
-\* = *HOL buildout in-progress*
+\* = *HOL buildout in-progress* (reach out to domccorm@adobe.com for more info)
