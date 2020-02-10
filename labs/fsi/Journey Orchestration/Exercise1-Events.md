@@ -32,6 +32,13 @@ You'll see an empty event popup.
 
 ![Demo](./images/emptyevent.png)
 
+
+<!---
+![Demo](./images/emptyevent.png)
+--->
+
+<kbd><img src="./images/emptyevent.png"  /></kdb>
+
 As a Name for the Event, use **webSignUp{emailAddress}** and replace **{emailAddress}** with your email address name. E.g. **webSignUpPuchadha**.
 
 Set Description to: **Website Sign up Event - {your email name}**
@@ -56,11 +63,21 @@ To show up in this list, a Schema needs to have a very specific Mixin linked to 
 
 Let's go back to our Event configuration in Journey Orchestration.
 
+<!---
 ![Demo](./images/evschema.png)
+--->
+
+<kbd><img src="./images/evschema.png"  /></kdb>
+
 
 In our use case, we want to listen for a Sign up Event. This event is part of the ``web_event_schema v.1`` schema. Select this from the list.
 
+<!---
 ![Demo](./images/evschema1.png)
+--->
+
+<kbd><img src="./images/evschema1.png"  /></kdb>
+
 
 Journey Orchestration will then automatically select some required fields, but you can edit the fields that are made available to Journey Orchestration.
 Click the ``pencil``-icon to edit the fields.
