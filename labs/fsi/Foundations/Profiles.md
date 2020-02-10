@@ -1,4 +1,4 @@
-Lab 5.1 - Profiles - Profile Review
+Lab 5.1 - Profiles - UPS Review
 ==========
 <table style="border-collapse: collapse; border: none;" class="tab" cellspacing="0" cellpadding="0">
 
@@ -52,4 +52,4 @@ Instructions:
 
 1. Click into the Unified Profiles
 
-LINK BACK
+Return to [Lab Agenda Directory](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/README.md#lab-agenda)
