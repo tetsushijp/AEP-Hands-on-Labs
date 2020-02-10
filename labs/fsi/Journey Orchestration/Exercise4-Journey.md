@@ -22,13 +22,22 @@ Click ``Create`` to start creating your Journey.
 
 You'll then see a new, blank Journey.
 
+<!---
 ![Demo](./images/jonew.png)
+--->
+
+<kbd><img src="./images/jonew.png"  /></kdb>
 
 You should first name your Journey.
 
 As a Name for the Journey, use **Website Registration Journey emailAddress** and replace **emailAddress** with LDAP. In this example, the Journey Name is **Website Registration Journey puchadha**. No other values must be set at this moment.
 
+<!---
 ![Demo](./images/joname.png)
+--->
+
+<kbd><img src="./images/joname.png"  /></kdb>
+
 
 Click ``OK``.
 
@@ -52,7 +61,11 @@ You now see ``Orchestration``-capabilities.
 
 Select ``Condition``, then drag and drop it on the Journey Canvas.
 
+<!---
 ![Demo](./images/jo4.png)
+--->
+
+<kbd><img src="./images/jo4.png"  /></kdb>
 
 You now have to define 2 conditions: 
 
@@ -65,11 +78,21 @@ Let's define the first condition.
 
 Click on the ``Condition``.
 
+<!---
 ![Demo](./images/jo5.png)
+--->
+
+<kbd><img src="./images/jo5.png"  /></kdb>
+
 
 Click on the ``Edit``-icon for the expression of Path1.
 
+<!---
 ![Demo](./images/jo6.png)
+--->
+
+<kbd><img src="./images/jo6.png"  /></kdb>
+
 
 You'll then see an empty ``Simple Editor``-screen.
 
@@ -91,7 +114,11 @@ The ``zipCode`` needs to be linked to the dynamic parameter ``zip``.
 
 Click the field ``dynamic val: zip`` as indicated in the screenshot.
 
+<!---
 ![Demo](./images/jo11.png)
+--->
+
+<kbd><img src="./images/jo11.png"  /></kdb>
 
 You then need to find the field that contains the current zip code of the customer in the AEP Data Sources. Here we are leveraging the unified profile data in AEP to get the profiles zip code.
 
@@ -108,7 +135,12 @@ Click ``OK``.
 
 Rename the path from path1 to 'Raining'
 
+<!---
 ![Demo](./images/jopath1name.png)
+--->
+
+<kbd><img src="./images/jopath1name.png"  /></kdb>
+
 
 Next, we'll add the 2nd condition.
 
@@ -116,7 +148,12 @@ Next, we'll add the 2nd condition.
 
 After having added the first condition, you'll see this screen.
 
+<!---
 ![Demo](./images/joc2.png)
+--->
+
+<kbd><img src="./images/joc2.png"  /></kdb>
+
 
 Click ``Add Path``.
 
@@ -124,7 +161,11 @@ Click ``Add Path``.
 
 Click on the ``Edit``-icon for the expression of Path1.
 
+<!---
 ![Demo](./images/jo6.png)
+--->
+
+<kbd><img src="./images/jo6.png"  /></kdb>
 
 You'll then see an empty ``Simple Editor``-screen.
 
@@ -163,7 +204,12 @@ Click ``OK``.
 
 Rename the path from path1 to 'Clear'
 
+<!---
 ![Demo](./images/jopath2name.png)
+--->
+
+<kbd><img src="./images/jopath2name.png"  /></kdb>
+
 
 Hit Ok on the top right 
 
@@ -187,11 +233,21 @@ Select the smsNexmoemailAddress - action (your emailAddress), then drag and drop
 
 You'll see a popup.
 
+<!---
 ![Demo](./images/joa10.png)
+--->
+
+<kbd><img src="./images/joa10.png"  /></kdb>
+
 
 Navigate to the ``Action Parameters``.
 
+<!---
 ![Demo](./images/joa11.png)
+--->
+
+<kbd><img src="./images/joa11.png"  /></kdb>
+
 
 Click on the ``Edit``-icon for the Action Parameter ``Mobile PhoneNumber``.
 
@@ -212,7 +268,12 @@ Click ``OK``.
 
 Click on the ``Edit``-icon for the Action Parameter ``Message``.
 
+<!---
 ![Demo](./images/joa15.png)
+--->
+
+<kbd><img src="./images/joa15.png"  /></kdb>
+
 
 You'll see a popup with the ``Simple Mode Editor``.
 
@@ -236,7 +297,11 @@ Click ``OK``.
 
 Click ``OK``.
 
+<!---
 ![Demo](./images/joa17.png)
+--->
+
+<kbd><img src="./images/joa17.png"  /></kdb>
 
 In the left menu, go back to ``Actions``, select the Action ``slackNotification``, then drag and drop it after the ``smsNexmoemailAddress``-Action (Replace emailAddress).
 
@@ -244,7 +309,12 @@ In the left menu, go back to ``Actions``, select the Action ``slackNotification`
 
 Go to ``Action Parameters`` and click the ``Edit``-icon for the parameter ``Message``.
 
+<!---
 ![Demo](./images/joa19.png)
+--->
+
+<kbd><img src="./images/joa19.png"  /></kdb>
+
 
 In the popup window, click ``Advanced Mode``.
 
@@ -263,11 +333,19 @@ Click ``OK``.
 
 Click ``OK``.
 
+<!---
 ![Demo](./images/joa22.png)
+--->
+
+<kbd><img src="./images/joa22.png"  /></kdb>
 
 In the left menu, go to ``Orchestration``, select ``End``, then drag and drop ``End`` after the ``textSlackLdap``-Action.
 
+<!---
 ![Demo](./images/joa23.png)
+--->
+
+<kbd><img src="./images/joa23.png"  /></kdb>
 
 
 #### Add Actions for Clear Weather Path
@@ -276,19 +354,36 @@ We'll attempt to send an SMS message to our customer.
 
 Your Journey will then look like this. Click on ``Actions`` as indicated in the screenshot.
 
+
 ![Demo](./images/joapath21.png)
+
 
 Select the smsNexmoemailAddress - action (your emailAddress), then drag and drop it after the condition you just added.
 
+<!---
 ![Demo](./images/joapath22.png)
+--->
+
+<kbd><img src="./images/joapath22.png"  /></kdb>
+
 
 You'll see a popup.
 
+<!---
 ![Demo](./images/joa10.png)
+--->
+
+<kbd><img src="./images/joa10.png"  /></kdb>
+
 
 Navigate to the ``Action Parameters``.
 
+<!---
 ![Demo](./images/joa11.png)
+--->
+
+<kbd><img src="./images/joa11.png"  /></kdb>
+
 
 Click on the ``Edit``-icon for the Action Parameter ``Mobile PhoneNumber``.
 
@@ -307,9 +402,15 @@ Select the below code, copy it, and paste it in the ``Advanced Mode Editor``.
 
 Click ``OK``.
 
+![Demo](./images/joaok.png)
+
 Click on the ``Edit``-icon for the Action Parameter ``Message``.
 
+<!---
 ![Demo](./images/joa15.png)
+--->
+
+<kbd><img src="./images/joa15.png"  /></kdb>
 
 You'll see a popup with the ``Simple Mode Editor``.
 
@@ -333,15 +434,29 @@ Click ``OK``.
 
 Click ``OK``.
 
+<!---
 ![Demo](./images/joapath217.png)
+--->
+
+<kbd><img src="./images/joapath217.png"  /></kdb>
+
 
 In the left menu, go back to ``Actions``, select the Action ``slackNotification``, then drag and drop it after the ``smsNexmoemailAddress``-Action (Replace emailAddress).
 
+<!---
 ![Demo](./images/joapath218.png)
+--->
+
+<kbd><img src="./images/joapath218.png"  /></kdb>
 
 Go to ``Action Parameters`` and click the ``Edit``-icon for the parameter ``Message``.
 
+<!---
 ![Demo](./images/joa19.png)
+--->
+
+<kbd><img src="./images/joa19.png"  /></kdb>
+
 
 In the popup window, click ``Advanced Mode``.
 
@@ -360,11 +475,20 @@ Click ``OK``.
 
 Click ``OK``.
 
+<!---
 ![Demo](./images/joapath222.png)
+--->
+
+<kbd><img src="./images/joapath222.png"  /></kdb>
+
 
 In the left menu, go to ``Orchestration``, select ``End``, then drag and drop ``End`` after the ``textSlackLdap``-Action.
 
+<!---
 ![Demo](./images/joapath223.png)
+--->
+
+<kbd><img src="./images/joapath223.png"  /></kdb>
 
 Your Journey is now fully configured.
 
