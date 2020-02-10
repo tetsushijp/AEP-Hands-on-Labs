@@ -36,11 +36,11 @@ As a Name for the Event, use **webSignUp{emailAddress}** and replace **{emailAdd
 
 Set Description to: **Website Sign up Event - {your email name}**
 
-[//]: <> (![Demo](./images/evname.png))
+<!---
+![Demo](./images/evname.png)
+--->
 
-<kbd>
-<img src="./images/evname.png">
-</kdb>
+<kbd><img src="./images/evname.png"  /></kdb>
 
 Next, you need to select a Schema. All Schemas that are shown here, are Adobe Experience Platform Schemas.
 
