@@ -67,7 +67,13 @@ Instructions:
 3. Click on "Untitled Schema" in the structure view
 
 
-      ![Demo](./images/schemaname.png)
+<!---
+![Demo](./images/schemaname.png)
+--->
+
+<kbd><img src="./images/schemaname.png"  /></kdb>
+
+
       
       
 4. In the right-hand menu, name it "Transactions Schema <your-assigned-number>" (Description is optional)
@@ -79,12 +85,17 @@ Instructions:
 5. In the left-hand schema composition menu, click on the "Assign" button across from Class
 
 
-      ![Demo](./images/schemaclassassign.png)
+    <!---
+    ![Demo](./images/schemaclassassign.png)
+    --->
+
+    <kbd><img src="./images/schemaclassassign.png"  /></kdb>
+
       
       
-      Here's where you can choose your base level schema behavior:
-     - Time-based Events (ExperienceEvent)
-     - Customer Snapshots (Profile)
+    Here's where you can choose your base level schema behavior:
+    - Time-based Events (ExperienceEvent)
+    - Customer Snapshots (Profile)
      
      
       ![Demo](./images/schemaclass.png)
@@ -101,7 +112,12 @@ Instructions:
 7. Now, click on the "Add" button across from "Mixins" on the left panel
 
 
-      ![Demo](./images/schemamixin.png)
+    <!---
+    ![Demo](./images/schemamixin.png)
+    --->
+
+    <kbd><img src="./images/schemamixin.png"  /></kdb>
+
       
       
       Here's where you can build your own Mixin or use a prior/similar Mixin object that conforms to your data.
@@ -136,14 +152,22 @@ Instructions:
       
       Your schema will now have the Order details object and all of the fields within this object
       
-      
-       ![Demo](./images/schemamixin2.png)
+      <!---
+      ![Demo](./images/schemamixin2.png)
+      --->
+
+      <kbd><img src="./images/schemamixin2.png"  /></kdb>
              
              
       Hit +Add to go back to the Mixin list
       
       
+       <!---
        ![Demo](./images/schemamixin3.png)
+       --->
+
+       <kbd><img src="./images/schemamixin3.png"  /></kdb>     
+      
              
              
       And, repeat the steps for 'identities' mixin
@@ -155,8 +179,12 @@ Instructions:
         
 11. Now, we'll also create a new Mixin from scratch. Go back and hit the +Add button on the left panel.
 
+       <!---
+       ![Demo](./images/schemamixin6.png)
+       --->
 
-      ![Demo](./images/schemamixin6.png)
+       <kbd><img src="./images/schemamixin6.png"  /></kdb>    
+       
       
       
 12. Click "Create new mixin" on the very top
@@ -175,13 +203,21 @@ Instructions:
 14. In the left-hand schema composition menu, click on your newly create Mixin (it should be highlighted now)
 
 
+<!---
 ![Demo](./images/schemamixin9.png)
+--->
 
+<kbd><img src="./images/schemamixin9.png"  /></kdb>   
+       
 
 15. Notice that on the Structure view a '+Add Field' appears next to the Schema name, Click it to start adding fields 
 
 
+<!---
 ![Demo](./images/schemamixin10.png)
+--->
+
+<kbd><img src="./images/schemamixin10.png"  /></kdb>   
 
 
 16. On the Field Properties panel to the right add the following  
@@ -201,8 +237,12 @@ Scroll  down and hit Apply
 
 17. Next, we will be adding fields to the 'transactionDetails' object Click "+Add Field" next to this object
 
-
+<!---
 ![Demo](./images/schemamixin12.png)
+--->
+
+<kbd><img src="./images/schemamixin12.png"  /></kdb>   
+
 
 
 18. On the Field Properties panel to the right add the following  
@@ -222,8 +262,12 @@ Scroll down and hit Apply
 
 19. We will be adding one more field  to the 'transactionDetails' object Click "+Add Field" next to this object
 
-
+<!---
 ![Demo](./images/schemamixin12.png)
+--->
+
+<kbd><img src="./images/schemamixin12.png"  /></kdb>
+
 
 
 20. On the Field Properties panel to the right add the following  
@@ -243,8 +287,13 @@ Scroll down and hit Apply
     
  21. We are done with modeling the schema. To Save your work hit Save on the top right corner. Make sure that your schema structure looks like the one in the screenshot below
  
- 
- ![Demo](./images/schemafinal.png)
+
+<!---
+![Demo](./images/schemafinal.png)
+--->
+
+<kbd><img src="./images/schemafinal.png"  /></kdb>
+
  
  
  22. Congratulations!!! you have constructed your schema.
