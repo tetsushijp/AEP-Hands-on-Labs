@@ -22,7 +22,13 @@ In the menu, click on ``Actions``.
 
 You'll then see the ``Actions``-list.
 
+
+<!---
 ![Demo](./images/acthome.png)
+--->
+
+<kbd><img src="./images/acthome.png"  /></kdb>
+
 
 You'll define 2 actions:
 
@@ -39,13 +45,22 @@ Click ``Add`` to start adding your action.
 
 You'll see an empty Action popup.
 
+<!---
 ![Demo](./images/emptyact.png)
+--->
+
+<kbd><img src="./images/emptyact.png"  /></kdb>
+
 
 As a Name for the Action, use **smsNexmo{emailAddress}** and replace **{emailAddress}** with your your email name. E.g. **smsNexmoPuchadha**.
 
 Add the Description: **Send SMS using Nexmo**.
 
+<!---
 ![Demo](./images/nexmoname.png)
+--->
+
+<kbd><img src="./images/nexmoname.png"  /></kdb>
 
 For the ``URL Configuration``, copy and paste this URL:
 
@@ -54,19 +69,32 @@ For the ``URL Configuration``, copy and paste this URL:
 
 Do not change the Header Fields.
 
+
+<!---
 ![Demo](./images/nexmourl.png)
+--->
+
+<kbd><img src="./images/nexmourl.png"  /></kdb>
 
 (For transparency, we're using an AWS API Gateway and AWS Lambda function that sits behind the above URL to handle the authentication and sending of SMSs to Nexmo.)
 
 ``Authentication`` should be set to ``No Authentication``.
 
+<!---
 ![Demo](./images/nexmoauth.png)
+--->
+
+<kbd><img src="./images/nexmoauth.png"  /></kdb>
 
 For the ``Message Parameters``, you need to define which fields should be sent towards Nexmo. Logically, we want Journey Orchestration and Adobe Experience Platform to be the brain of personalization, so the SMS Message Text and the Mobile Number to send the SMS towards should be defined by Journey Orchestration and then sent to Nexmo for execution.
 
 So for the ``Message Parameters``, click the ``Edit Payload``-icon.
 
+<!---
 ![Demo](./images/nexmomsgp.png)
+--->
+
+<kbd><img src="./images/nexmomsgp.png"  /></kdb>
 
 You'll then see an empty popup-window. 
 
@@ -103,7 +131,11 @@ Click ``Save``.
 
 Scroll up and click ``Save`` one more time to save your custom Action.
 
+<!---
 ![Demo](./images/nexmomsgpopup3.png)
+--->
+
+<kbd><img src="./images/nexmomsgpopup3.png"  /></kdb>
 
 Your custom Action is now part of the ``Actions``-list.
 
