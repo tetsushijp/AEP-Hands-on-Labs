@@ -44,7 +44,12 @@ Set Description to: **Website Sign up Event - {your email name}**
 
 Next, you need to select a Schema. All Schemas that are shown here, are Adobe Experience Platform Schemas.
 
+<!---
 ![Demo](./images/evschema.png)
+--->
+
+<kbd><img src="./images/evschema.png"  /></kdb>
+
 
 You'll notice that not all Schemas are shown. There are many more Schemas available in Adobe Experience Platform.
 To show up in this list, a Schema needs to have a very specific Mixin linked to it. The Mixin that is needed to show up here is called ``Orchestration eventID``.
