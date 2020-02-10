@@ -182,7 +182,8 @@ Your Data Source has now been created successfully and is part of the ``Data Sou
 
 <kbd><img src="./images/dslist.png"  /></kdb>
 
----
+
+
 
 Next Step: [Exercise 3 - Define a Custom Action](./Exercise3-Action.md)
 
