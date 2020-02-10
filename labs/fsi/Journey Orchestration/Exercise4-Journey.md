@@ -103,7 +103,7 @@ Click ``Advanced Mode``.
 
 ![Demo](./images/jo8.png)
 
-You'll then see the ``Advanced Editor`` which allows code entry. Paste it in ``##{weatherApiPuchadha.WeatherByZipemailAddress.weather.main} == 'Rain'`` (replace emailAddress)
+You'll then see the ``Advanced Editor`` which allows code entry. Paste it in ``##{weatherApiemailAddress.WeatherByZipemailAddress.weather.main} == 'Rain'`` (replace emailAddress)
 
 You'll then see this.
 
@@ -176,7 +176,7 @@ Click ``Advanced Mode``.
 
 ![Demo](./images/jo8.png)
 
-You'll then see the ``Advanced Editor`` which allows code entry. Paste it in ``#{weatherApiPuchadha.WeatherByZipemailAddress.weather.main} == 'Clear'`` (replace emailAddress)
+You'll then see the ``Advanced Editor`` which allows code entry. Paste it in ``#{weatherApiemailAddress.WeatherByZipemailAddress.weather.main} == 'Clear'`` (replace emailAddress)
 
 You'll then see this.
 
