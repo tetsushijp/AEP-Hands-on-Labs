@@ -340,7 +340,7 @@ Select the below code, copy it, and paste it in the ``Advanced Mode Editor``.
 
 Click ``OK``.
 
-![Demo](./images/joaok.png)
+![Demo](./images/joocok.png)
 
 Click ``OK``.
 
