@@ -176,7 +176,11 @@ Your custom Data Source configuration is now complete. Scroll up and click ``Sav
 
 Your Data Source has now been created successfully and is part of the ``Data Sources``-list.
 
+<!---
 ![Demo](./images/dslist.png)
+--->
+
+<kbd><img src="./images/dslist.png"  /></kdb>
 
 ---
 
