@@ -187,7 +187,12 @@ The ``zipCode`` needs to be linked to the dynamic parameter ``zip``.
 
 Click the field ``dynamic val: zip`` as indicated in the screenshot.
 
+<!---
 ![Demo](./images/jo11.png)
+--->
+
+<kbd><img src="./images/jo11.png"  /></kdb>
+
 
 You then need to find the field that contains the current zip code of the customer in the AEP Data Sources. Here we are leveraging the unified profile data in AEP to get the profiles zip code.
 
