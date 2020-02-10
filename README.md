@@ -32,7 +32,7 @@ Additional quick links to documentation can also be found here:
 
  - [QuickLinks](https://github.com/adobe/AEP-Hands-on-Labs/tree/master/labs/quicklinks/README.md)
 
-### Licensing
+## Licensing
 
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for more information.
 
