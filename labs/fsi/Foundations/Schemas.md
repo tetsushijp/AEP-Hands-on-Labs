@@ -67,11 +67,11 @@ Instructions:
 3. Click on "Untitled Schema" in the structure view
 
 
-<!---
-![Demo](./images/schemaname.png)
---->
+    <!---
+    ![Demo](./images/schemaname.png)
+    --->
 
-<kbd><img src="./images/schemaname.png"  /></kdb>
+    <kbd><img src="./images/schemaname.png"  /></kdb>
 
 
       
@@ -196,28 +196,28 @@ Instructions:
 13. Display name is "Transactions Details Mixin <your-assigned-number>" and then hit 'Add Mixin'
       
       
-![Demo](./images/schemamixin8.png)
+    ![Demo](./images/schemamixin8.png)
      
      
      
 14. In the left-hand schema composition menu, click on your newly create Mixin (it should be highlighted now)
 
 
-<!---
-![Demo](./images/schemamixin9.png)
---->
+    <!---
+    ![Demo](./images/schemamixin9.png)
+    --->
 
-<kbd><img src="./images/schemamixin9.png"  /></kdb>   
+    <kbd><img src="./images/schemamixin9.png"  /></kdb>   
        
 
 15. Notice that on the Structure view a '+Add Field' appears next to the Schema name, Click it to start adding fields 
 
 
-<!---
-![Demo](./images/schemamixin10.png)
---->
+    <!---
+    ![Demo](./images/schemamixin10.png)
+    --->
 
-<kbd><img src="./images/schemamixin10.png"  /></kdb>   
+    <kbd><img src="./images/schemamixin10.png"  /></kdb>   
 
 
 16. On the Field Properties panel to the right add the following  
@@ -226,22 +226,22 @@ Instructions:
       Type = Object
 
 
-![Demo](./images/schemamixin11.png)
+    ![Demo](./images/schemamixin11.png)
 
 
-Scroll  down and hit Apply
+    Scroll  down and hit Apply
 
 
-![Demo](./images/schemaapply.png)
+    ![Demo](./images/schemaapply.png)
 
 
 17. Next, we will be adding fields to the 'transactionDetails' object Click "+Add Field" next to this object
 
-<!---
-![Demo](./images/schemamixin12.png)
---->
+    <!---
+    ![Demo](./images/schemamixin12.png)
+    --->
 
-<kbd><img src="./images/schemamixin12.png"  /></kdb>   
+    <kbd><img src="./images/schemamixin12.png"  /></kdb>   
 
 
 
@@ -251,22 +251,22 @@ Scroll  down and hit Apply
       Type = String
 
 
-![Demo](./images/schemamixin13.png)
+     ![Demo](./images/schemamixin13.png)
 
 
-Scroll down and hit Apply
+     Scroll down and hit Apply
 
 
-![Demo](./images/schemaapply.png)
+    ![Demo](./images/schemaapply.png)
 
 
 19. We will be adding one more field  to the 'transactionDetails' object Click "+Add Field" next to this object
 
-<!---
-![Demo](./images/schemamixin12.png)
---->
+    <!---
+    ![Demo](./images/schemamixin12.png)
+    --->
 
-<kbd><img src="./images/schemamixin12.png"  /></kdb>
+    <kbd><img src="./images/schemamixin12.png"  /></kdb>
 
 
 
@@ -276,23 +276,23 @@ Scroll down and hit Apply
       Type = String
 
 
-![Demo](./images/schemamixin14.png)
+    ![Demo](./images/schemamixin14.png)
 
 
-Scroll down and hit Apply
+    Scroll down and hit Apply
 
 
-![Demo](./images/schemaapply.png)
+    ![Demo](./images/schemaapply.png)
     
     
  21. We are done with modeling the schema. To Save your work hit Save on the top right corner. Make sure that your schema structure looks like the one in the screenshot below
  
 
-<!---
-![Demo](./images/schemafinal.png)
---->
+    <!---
+    ![Demo](./images/schemafinal.png)
+    --->
 
-<kbd><img src="./images/schemafinal.png"  /></kdb>
+    <kbd><img src="./images/schemafinal.png"  /></kdb>
 
  
  
