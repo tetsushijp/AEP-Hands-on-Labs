@@ -310,7 +310,13 @@ Click ``OK``.
 
 In the left menu, go back to ``Actions``, select the Action ``slackNotification``, then drag and drop it after the ``smsNexmoemailAddress``-Action (Replace emailAddress).
 
+
+<!---
 ![Demo](./images/joa18.png)
+--->
+
+<kbd><img src="./images/joa18.png"  /></kdb>
+
 
 Go to ``Action Parameters`` and click the ``Edit``-icon for the parameter ``Message``.
 
