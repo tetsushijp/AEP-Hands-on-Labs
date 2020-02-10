@@ -61,7 +61,7 @@ Preview: CRM data
 
 
 
-Preview: Investment data
+Preview: Transactions data
 -----------------------------
 
 | Number     | Header  | Example Data  |
