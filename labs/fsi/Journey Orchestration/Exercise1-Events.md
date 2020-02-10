@@ -30,9 +30,6 @@ Click ``Add`` to start adding your event.
 
 You'll see an empty event popup.
 
-![Demo](./images/emptyevent.png)
-
-
 <!---
 ![Demo](./images/emptyevent.png)
 --->
@@ -97,7 +94,11 @@ Once you are finished reviewing the fields, select ``OK``.
 Journey Orchestration also needs an Identifier to identify the customer. Since Journey Orchestration is linked to Adobe Experience Platform, the Primary Identifier of a schema is automatically used as the identifier for the Journey. 
 The Primary Identifier will also automatically use the full Identity Graph of the Adobe Experience Platform and link all behavior across all available identities, devices and channels to the same profile. The result is that Journey Orchestration is contextual, relevant and consistent.
 
+<!---
 ![Demo](./images/eventidentifier.png)
+--->
+
+<kbd><img src="./images/eventidentifier.png"  /></kdb>
 
 Click ``Save`` to save your custom event.
 
