@@ -22,7 +22,11 @@ In the menu, click on ``Data Sources``.
 
 You'll then see the ``Data Sources``-list.
 
+<!---
 ![Demo](./images/dshome.png)
+--->
+
+<kbd><img src="./images/dshome.png"  /></kdb>
 
 Click ``Add`` to start adding your data source.
 
@@ -30,7 +34,11 @@ Click ``Add`` to start adding your data source.
 
 You'll see an empty data source popup.
 
+<!---
 ![Demo](./images/emptyds.png)
+--->
+
+<kbd><img src="./images/emptyds.png"  /></kdb>
 
 We will use ``Open Weather Map``-service. For reference you can go to [https://openweathermap.org/](https://openweathermap.org/).
 
@@ -42,7 +50,11 @@ Set Description to: **Access to the Open Weather Map**.
 
 The URL for the Open Weather Map API is: ``http://api.openweathermap.org/data/2.5/weather``
 
+<!---
 ![Demo](./images/dsname.png)
+--->
+
+<kbd><img src="./images/dsname.png"  /></kdb>
 
 Next, you need to select the Authentication to use. Select from the 'Type' dropd-down.
 Use the following values for the fields:
@@ -54,13 +66,22 @@ Use the following values for the fields:
 | Value           | **4ca8c0b493237afd3bed3e70f399b795**         |
 | Location           | **Query Parameter**         |
 
+
+<!---
 ![Demo](./images/dsauth.png)
+--->
+
+<kbd><img src="./images/dsauth.png"  /></kdb>
 
 Finally, you need to define a ``FieldGroup``, which is the request you'll be sending to the Weather API. 
 
 In our case, we want to use the ZipCode to request the Current Weather for that Zip.
 
+<!---
 ![Demo](./images/fg.png)
+--->
+
+<kbd><img src="./images/fg.png"  /></kdb>
 
 
 In order to match the expected API Request, configure your FieldGroup as follows:
@@ -69,7 +90,11 @@ In order to match the expected API Request, configure your FieldGroup as follows
 
 The Field group name has to be unique, please use this naming convention: **WeatherByZipemailAddress** so in this case, the name should be **WeatherByZipPuchadha**
 
+<!---
 ![Demo](./images/fg1.png)
+--->
+
+<kbd><img src="./images/fg1.png"  /></kdb>
 
 For the Response Payload, you need to paste an example of the Response that will be sent by the Weather API.
 
@@ -123,7 +148,11 @@ Or you can copy the JSON Response from here:
 
 Click the ``Edit Payload``-icon.
 
+<!---
 ![Demo](./images/owmapi2.png)
+--->
+
+<kbd><img src="./images/owmapi2.png"  /></kdb>
 
 You'll see a popup where you now have to paste the above JSON Reponse.
 
@@ -139,7 +168,11 @@ Click ``Save``.
 
 Your custom Data Source configuration is now complete. Scroll up and click ``Save``.
 
+<!---
 ![Demo](./images/dssave2.png)
+--->
+
+<kbd><img src="./images/dssave2.png"  /></kdb>
 
 Your Data Source has now been created successfully and is part of the ``Data Sources``-list.
 
