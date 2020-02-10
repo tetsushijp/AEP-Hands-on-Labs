@@ -288,11 +288,10 @@ Instructions:
  21. We are done with modeling the schema. To Save your work hit Save on the top right corner. Make sure that your schema structure looks like the one in the screenshot below
  
 
-    <!---
-    ![Demo](./images/schemafinal.png)
-    --->
-
-    <kbd><img src="./images/schemafinal.png"  /></kdb>
+     <!---
+     ![Demo](./images/schemafinal.png)
+     --->
+     <kbd><img src="./images/schemafinal.png"  /></kdb>
 
  
  
