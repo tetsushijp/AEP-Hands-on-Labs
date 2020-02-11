@@ -1,5 +1,7 @@
-## List of Unlinked Profiles
-----------------------------------------
+List of Unlinked Profiles
+========================================
+
+In the API lab, you will be linking these values together
 
 | Attendee #     | crmid  | email  |
 |------------|---|---|
@@ -28,6 +30,3 @@
 | attendee 023 | crmid:9628294032 | sylvin1913@live.com |
 | attendee 024 | crmid:2494690236 | locust1876@outlook.com |
 | attendee 025 | crmid:3030150274 | closterium1937@live.com |
-
-
-In the API lab, you will be linking these values together
