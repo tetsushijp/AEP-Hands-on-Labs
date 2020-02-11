@@ -64,4 +64,6 @@ Instructions:
 <li>Go back to the ‘Find a Profile’ view in Experience Platform.</li>
 <li>Select the ECID Namespace and paste the value copied in the step above to view your Profile.</li>
 </ol>
+
+
 Return to [Lab Agenda Directory](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/README.md#lab-agenda)
