@@ -93,24 +93,28 @@ We will be creating a dataset for the schema we created in the previous exercise
 
 5. We have successfully created the dataset, but this dataset has not ingested data. We will now import a file into this dataset. This time we will import a JSON file and it will simply need to be dragged and dropped into the dataset. 
 
-On the right panel scroll down until you see the 'Add data' section
+    On the right panel scroll down until you see the 'Add data' section
 
 
-![Demo](./images/datasetadddata.png) 
+    ![Demo](./images/datasetadddata.png) 
 
 
 6. From the lab files you downloaded, drag and drop the 'transactions_data_xxx.json' file into the 'Add Data' sections. You will now see a batch with a 'Loading' status
 
 
-![Demo](./images/datasetbatch.png) 
+    <!---
+    ![Demo](./images/datasetbatch.png)
+    --->
+
+    <kbd><img src="./images/datasetbatch.png"  /></kdb>
 
 
 7. Adobe Experience Platform will perform the XDM mapping and conversion for JSON format to parquet and make this data available on the data lake and the profile store. This process usually takes a few mins. 
 
-Once your batch status is 'Success', you can preview the data by hitting the 'Preview Dataset' button on the top right corner.
+    Once your batch status is 'Success', you can preview the data by hitting the 'Preview Dataset' button on the top right corner.
 
 
-![Demo](./images/datasetpreview.png)
+    ![Demo](./images/datasetpreview.png)
 
 
 8. Congratulations !!! you are done with the Dataset exercise.
