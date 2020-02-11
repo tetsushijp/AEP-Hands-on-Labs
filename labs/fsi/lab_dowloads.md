@@ -93,3 +93,6 @@ Preview: Propensity data
 | 6  | suggested loan |  Auto Loan  | next best offer |
 
 
+Unlinked Profile IDs
+----------------------------
+Here's a list of [Unlinked Profile IDs](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/fsi/unlinked_fsi.md)
