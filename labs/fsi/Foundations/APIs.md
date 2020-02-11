@@ -129,7 +129,7 @@ Instructions:
 
 
 
-8. Next, click and open 'Step 3a - GET Profile by CRMID' and add in the entityId parameter entry the CRMID provided to you in class
+8. Next, click and open 'Step 3a - GET Profile by CRMID' and add in the entityId parameter entry the CRMID aassigned to your attendee ID [here](https://raw.githubusercontent.com/adobe/AEP-Hands-on-Labs/master/labs/fsi/unlinked_fsi.md).
 
     <!---
     ![Demo](./images/postmanstep3.png)
@@ -142,8 +142,7 @@ Instructions:
     This API call is part of the profile API and will return the profile object associated with an identity. 
 
 
-9. Next, click and open 'Step 3b - GET Profile by emailID' and add in the entityId parameter entry the emailID provided to you in class
-
+9. Next, click and open 'Step 3b - GET Profile by emailID' and add in the entityId parameter entry the emailID aassigned to your attendee ID [here](https://raw.githubusercontent.com/adobe/AEP-Hands-on-Labs/master/labs/fsi/unlinked_fsi.md).
     <!---
     ![Demo](./images/postmanstep3b.png)
     --->
