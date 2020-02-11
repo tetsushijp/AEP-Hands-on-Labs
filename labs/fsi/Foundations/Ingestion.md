@@ -99,22 +99,22 @@ go to https://platform.adobe.com/home
 
 8. To re map a field click the  ![Demo](./images/remap.png) icon to open the schema. Remapping the list is left as a excersise for the participant.
 
-Once corrected the mappings should like shown in the screenshot below. Once you have verified that the mappings are correct, hit Next.
+    Once corrected the mappings should like shown in the screenshot below. Once you have verified that the mappings are correct, hit Next.
 
 
-![Demo](./images/ingestionmapper1.png)
+    ![Demo](./images/ingestionmapper1.png)
 
 
 9. Finally, we are ready to ingest the data. Hit 'Ingest' 
 
 
-![Demo](./images/ingestioningest.png)
+    ![Demo](./images/ingestioningest.png)
 
 
 10. After a few mins, Adobe Experience Platform will start the workflow of converting the CSV file data to XDM format. This process takes a few mins. once completed hit the 'Finish' to complete the workflow.
 
 
-![Demo](./images/ingestionfinish.png)
+    ![Demo](./images/ingestionfinish.png)
 
 
 
