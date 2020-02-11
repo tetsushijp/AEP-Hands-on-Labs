@@ -120,4 +120,4 @@ Preview: Propensity data
 Unlinked Profiles
 ----------------------------
 
-Here's the list of ![Unlinked Profiles](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/unlinked_fsi.md)
+Here's the list of [Unlinked Profiles](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/unlinked_fsi.md)
