@@ -30,3 +30,7 @@ In the API lab, you will be linking these values together
 | attendee 023 | crmid:9628294032 | sylvin1913@live.com |
 | attendee 024 | crmid:2494690236 | locust1876@outlook.com |
 | attendee 025 | crmid:3030150274 | closterium1937@live.com |
+
+Notes
+========================================
+In the API lab, you will be linking these values together which will merge the identities together.
