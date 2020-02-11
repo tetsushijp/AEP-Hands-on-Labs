@@ -58,7 +58,12 @@ Preview: CRM data
 | 12  | birthday  |  8/17/1972  |
 
 
+Preview: Transactions data JSON
+-----------------------------
 
+```json
+{"_id": "a11c7f74-4c74-11ea-9249-b88a60e194fb-1", "timestamp": "2020-01-25T16:17:48.000Z", "eventType": "transaction", "_adobeamericaspot1": {"CRMID": "crmid:7638102025", "orderDetails": {"currencyType": "USD", "orderID": "a11c7f74-4c74-11ea-9249-b88a60e194fb", "productCategory": "Retirement", "productName": "401k", "productSKU": "prd1175", "purchaseAmount": "121659.53"}, "transactionDetails": {"branchID": "branchid:11134", "transactionID": "a11c7f74-4c74-11ea-9249-b88a60e194fb"}}}
+```
 
 
 Preview: Transactions data
