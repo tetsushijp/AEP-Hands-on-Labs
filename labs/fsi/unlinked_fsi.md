@@ -1,8 +1,6 @@
 List of Unlinked Profiles
 ========================================
 
-In the API lab, you will be linking these values together
-
 | Attendee #     | crmid  | email  |
 |------------|---|---|
 | attendee 001 | crmid:4842116368 | boilerman1813@live.com |
@@ -34,3 +32,4 @@ In the API lab, you will be linking these values together
 Notes
 ========================================
 In the API lab, you will be linking these values together which will merge the identities together.
+Please make sure you only stitch **your** attendee number or ask your HOL leader for more information.
