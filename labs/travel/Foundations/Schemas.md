@@ -301,14 +301,14 @@ Instructions:
       Type = String
 
 
-    ![Demo](./images/schemamixin14.png)
+    ![Demo](./images/schemamixin15.png)
 
 
     Scroll down and hit Apply
 
 
     ![Demo](./images/schemaapply.png)
-    
+
 23. We are done with modeling the schema. To Save your work hit Save on the top right corner. Make sure that your schema structure looks like the one in the screenshot below
  
 
