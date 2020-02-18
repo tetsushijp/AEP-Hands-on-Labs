@@ -1,6 +1,6 @@
-# FSI Hands-On-Lab
+# Travel and Hospitality Hands-On-Lab
 
-Welcome to the FSI HOL front page.
+Welcome to the Travel and Hospitality HOL front page.
 
 ## First thing first...
 
