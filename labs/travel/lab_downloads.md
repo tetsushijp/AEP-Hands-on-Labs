@@ -62,46 +62,63 @@ Preview: Booking data JSON
 -----------------------------
 
 ```json
-{ 
-    "_id":"a11c7f74-4c74-11ea-9249-b88a60e194fb-1",
-    "timestamp":"2020-01-25T16:17:48.000Z",
-    "eventType":"transaction",
-    "_adobeamericaspot1":{ 
-        "CRMID":"crmid:7638102025",
-        "orderDetails":{ 
-            "currencyType":"USD",
-            "orderID":"a11c7f74-4c74-11ea-9249-b88a60e194fb",
-            "productCategory":"Retirement",
-            "productName":"401k",
-            "productSKU":"prd1175",
-            "purchaseAmount":"121659.53"
-        },
-        "transactionDetails":{ 
-            "branchID":"branchid:11134",
-            "transactionID":"a11c7f74-4c74-11ea-9249-b88a60e194fb"
-        }
+{
+  "_id": "orderid:470548",
+  "timestamp": "2020-01-08T23:11:07.000Z",
+  "eventType": "transaction",
+  "_adobeamericaspot3": {
+    "CRMID": "crmid:5898381041",
+    "orderDetails": {
+      "orderID": "orderid:470548",
+      "reservationid": "YFN-QYRH",
+      "orderType": "service desk",
+      "hotelSKU": "prd1085",
+      "hotelCheckInUnix": "1578697867",
+      "hotelCheckOutUnix": "1578870667",
+      "hotelCheckInTS": "2020-01-10T23:11:07+00:00",
+      "hotelCheckOutTS": "2020-01-12T23:11:07+00:00",
+      "hotelChain": "Grandeur Hotels",
+      "hotelName": "Grandeur Hotels: Saint Petersburg",
+      "hotelLocation": "Saint Petersburg",
+      "hotelRoomType": "standard",
+      "hotelRoomCount": "1",
+      "hotelGuestAdultCount": "1",
+      "hotelGuestChildCount": "0",
+      "hotelNightCount": "2",
+      "hotelRoomPrice": "187.55",
+      "hotelFinalPrice": "375.1"
     }
+  }
 }
 ```
 
 
-Preview: Transactions data
+Preview: Bookings data
 -----------------------------
 
 | Number     | Header  | Example Data  |
 |------------|---|---|
-| 1  | id  |  82eb8fe8-492b-11ea-aea9-b88a60e194fb-1 |
-| 2  | timestamp  |  2020-01-31T21:42:10.000Z  |
-| 3  | crmid  |  crmid:6799807695 |
-| 4  | orderid  |  82eb8fe8-492b-11ea-aea9-b88a60e194fb  |
-| 5  | prod_sku  |  prd1155  |
-| 6  | prod_name  |  CDs: 5 year  |
-| 7  | prod_category  |  Investment  |
-| 8  | prod_ownership |  Personal  |
-| 9  | purchase_amt  |  224295.53  |
-| 10  | units  | 1 |
-| 11  | currency_type  |  USD |
-| 12  | branchid  |  branchid:11054  |
+| 1 | id	| orderid:323451 |
+| 2 | reservationid	| W4A-XR20 |
+| 3 | orderid	| orderid:323451 |
+| 4 | crmid	| crmid:7386299961 |
+| 5 | timestamp	| 2019-12-13T02:26:57.000Z |
+| 6 | orderType	| website |
+| 7 | productsku	| prd1134 |
+| 8 | hotelCheckInUnix	| 1576290417 |
+| 9 | hotelCheckOutUnix	| 1576376817 |
+| 10 | hotelCheckInTS	| 2019-12-14T02:26:57+00:00 |
+| 11 | hotelCheckOutTS	| 2019-12-15T02:26:57+00:00 |
+| 12 | hotelName	| Restful Nights: Montreal |
+| 13 | hotelChain	| Restful Nights |
+| 14 | hotelLocation	| Montreal |
+| 15 | hotelRoomType	| standard |
+| 16 | hotelRoomCount	| 1 |
+| 17 | hotelGuestAdultCount	| 1 |
+| 18 | hotelGuestChildCount	| 0 |
+| 19 | hotelNightCount	| 1 |
+| 20 | hotelRoomPrice	| 171.35 |
+| 21 | hotelFinalPrice	| 171.35 |
 
 
 Preview: Propensity data
@@ -109,7 +126,7 @@ Preview: Propensity data
 
 | Number     | Header  | Example Data  |  Notes |
 |------------|---|---|---|
-| 1  | id  |  82e99428-492b-11ea-b88f-b88a60e194fb-1-ps | unique row |
+| 1  | id  |  orderid:323451 | unique row |
 | 2  | crmid  |  crmid:8019712410  | unique account ID |
 | 3  | propensity score room upgrade  |  3 | 0-10 (10 is highest) |
 | 4  | propensity score extended nights |  4 | 0-10 (10 is highest) |
