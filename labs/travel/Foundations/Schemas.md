@@ -76,7 +76,7 @@ Instructions:
 
       
       
-4. In the right-hand menu, name it "Transactions Schema <your-assigned-number>" (Description is optional)
+4. In the right-hand menu, name it "Bookings Schema <your-assigned-number>" (Description is optional)
       
       
       ![Demo](./images/schemaname1.png)
@@ -141,10 +141,10 @@ Instructions:
       
 10. In this lab we will be adding two pre built mixins listed below
 
-      - Order Details Mixin, and 
+      - Booking Details Mixin, and 
       - identities
       
-      Search for 'Order Details Mixin' Select the mixin and hit Assign Mixin
+      Search for 'Booking Details Mixin' Select the mixin and hit Assign Mixin
       
       
      ![Demo](./images/schemamixin1.png)
@@ -193,7 +193,7 @@ Instructions:
       ![Demo](./images/schemamixin7.png)
       
       
-13. Display name is "Transactions Details Mixin <your-assigned-number>" and then hit 'Add Mixin'
+13. Display name is "Booking Details Mixin <your-assigned-number>" and then hit 'Add Mixin'
       
       
     ![Demo](./images/schemamixin8.png)
@@ -221,8 +221,8 @@ Instructions:
 
 
 16. On the Field Properties panel to the right add the following  
-      FieldName = transactionDetails
-      Description = Transaction Details
+      FieldName = orderDetails
+      Description = Order Details
       Type = Object
 
 
@@ -235,7 +235,7 @@ Instructions:
     ![Demo](./images/schemaapply.png)
 
 
-17. Next, we will be adding fields to the 'transactionDetails' object Click "+Add Field" next to this object
+17. Next, we will be adding fields to the 'orderDetails' object Click "+Add Field" next to this object
 
     <!---
     ![Demo](./images/schemamixin12.png)
@@ -246,8 +246,8 @@ Instructions:
 
 
 18. On the Field Properties panel to the right add the following  
-      FieldName = transactionID
-      Description = Transaction ID
+      FieldName = orderID
+      Description = Order ID
       Type = String
 
 
@@ -260,7 +260,7 @@ Instructions:
     ![Demo](./images/schemaapply.png)
 
 
-19. We will be adding one more field  to the 'transactionDetails' object Click "+Add Field" next to this object
+19. We will be adding one more field  to the 'orderDetails' object Click "+Add Field" next to this object
 
     <!---
     ![Demo](./images/schemamixin12.png)
@@ -271,8 +271,33 @@ Instructions:
 
 
 20. On the Field Properties panel to the right add the following  
-      FieldName = branchID
-      Description = Branch ID
+      FieldName = reservationid
+      Description = Reservation ID
+      Type = String
+
+
+    ![Demo](./images/schemamixin14.png)
+
+
+    Scroll down and hit Apply
+
+
+    ![Demo](./images/schemaapply.png)
+
+    
+21. We will be adding one more field  to the 'orderDetails' object Click "+Add Field" next to this object
+
+    <!---
+    ![Demo](./images/schemamixin12.png)
+    --->
+
+    <kbd><img src="./images/schemamixin12.png"  /></kdb>
+
+
+
+22. On the Field Properties panel to the right add the following  
+      FieldName = orderType
+      Description = Order Type
       Type = String
 
 
@@ -284,8 +309,7 @@ Instructions:
 
     ![Demo](./images/schemaapply.png)
     
-    
- 21. We are done with modeling the schema. To Save your work hit Save on the top right corner. Make sure that your schema structure looks like the one in the screenshot below
+23. We are done with modeling the schema. To Save your work hit Save on the top right corner. Make sure that your schema structure looks like the one in the screenshot below
  
 
      <!---
@@ -295,7 +319,7 @@ Instructions:
 
  
  
- 22. Congratulations!!! you have constructed your schema.
+ 24. Congratulations!!! you have constructed your schema.
  
 <br>
 <br>
