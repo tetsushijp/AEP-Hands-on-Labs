@@ -75,7 +75,7 @@ How many product views do we have on a daily basis?
 ```sql
 select date_format( timestamp , 'yyyy-MM-dd') AS Day,
        count(*) AS productViews
-from   fsi_demo_data_postvalues
+from   travel_demo_data_midvalues
 where  web.webPageDetails.pageViews.value = '1.0'
 group by Day
 order by day desc
@@ -90,30 +90,30 @@ Copy the statement above and execute it in your **PSQL command-line interface**.
 all-> limit 10;
     Day     | productViews
 ------------+--------------
- 2020-02-06 |        16320
- 2020-02-05 |        20822
- 2020-02-04 |        20773
- 2020-02-03 |        30356
- 2020-02-02 |        20708
- 2020-02-01 |        11211
- 2020-01-31 |        11212
- 2020-01-30 |        20636
- 2020-01-29 |        20735
- 2020-01-28 |        20818
+ 2020-02-18 |        40791
+ 2020-02-17 |        29814
+ 2020-02-16 |         3482
+ 2020-02-15 |        59161
+ 2020-02-14 |        44334
+ 2020-02-13 |        60469
+ 2020-02-12 |        59922
+ 2020-02-11 |        60461
+ 2020-02-10 |        75166
+ 2020-02-09 |       102264
 (10 rows)
 
 all=> 
 ```
 
-### Top 5 products viewed
+### Top 5 pages viewed
 
-What are the top 5 products viewed?
+What are the top 5 pages viewed?
 
 **SQL**
 
 ```sql
 select web.webPageDetails.name, count(*)
-from   fsi_demo_data_postvalues
+from   travel_demo_data_midvalues
 where  web.webPageDetails.pageViews.value = '1.0'
 group  by web.webPageDetails.name
 order  by 2 desc
@@ -127,13 +127,13 @@ Copy the statement above and execute it in your **PSQL command-line interface**.
 ```text
 all-> limit 5;
 prod:all-> limit 5;
-       name        | count(1)
--------------------+----------
- home              |   680022
- purchase: step 1  |   478634
- purchase: step 2  |   347305
- app: launch       |   324601
- voice: app launch |   318831
+         name          | count(1)
+-----------------------+----------
+ home                  |    59777
+ OptinToLoyaltyProgram |    37338
+ LoyaltyProgramPage    |    35502
+ purchase: step 1      |    33348
+ ViewProductDetailPage |    30345
 (5 rows)
 
 all=>  
@@ -146,13 +146,14 @@ all=>
 **SQL**
 
 ```sql
-select distinct _experience.analytics.customDimensions.eVars.eVar9, crm._adobeamericaspot1.emailId as emailAddress
-from   fsi_demo_data_postvalues aa,
-crm_dataset crm
-where crm._adobeamericaspot1.CRMID = aa._experience.analytics.customDimensions.eVars.eVar9
+select distinct _experience.analytics.customDimensions.eVars.eVar9, crm._adobeamericaspot3.Email as emailAddress
+from   travel_demo_data_midvalues
+ aa,
+profile_dataset crm
+where crm._adobeamericaspot3.CRMID = aa._experience.analytics.customDimensions.eVars.eVar9
 and web.webPageDetails.name = 'help' 
 and _experience.analytics.customDimensions.eVars.eVar9 IS NOT NULL
-limit 10;;
+limit 10;
 ```
 
 Copy the statement above and execute it in your **PSQL command-line interface**.
@@ -227,10 +228,12 @@ FROM
                              ORDER BY timestamp 
                              ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW) 
                   AS session
-            from   fsi_demo_data_postvalues a
+            from   travel_demo_data_midvalues
+ a
             where  a.endUserIDs._experience.mcid.id in ( 
                 select b.endUserIDs._experience.mcid.id
-                from   fsi_demo_data_postvalues b
+                from   travel_demo_data_midvalues
+ b
                 where web.webPageDetails.name = 'help' 
 				and b.endUserIDs._experience.mcid.id IS NOT NULL
             )
@@ -249,18 +252,18 @@ Copy the statement above and execute it in your **PSQL command-line interface**.
 
 ```text
 prod:all-> LIMIT 10;
- webPage |         webPage_2          | webPage_3 |  webPage_4   | journeys
----------+----------------------------+-----------+--------------+----------
- home    | edit account details       | help      | home         |       17
- home    | search results             | help      | home         |       17
- home    | no location search results | help      |              |       12
- home    | feedback                   | help      | home         |       10
- home    | edit account details       | help      | subscription |        9
- home    | no location search results | help      | home         |        8
- home    | edit account details       | help      | articles     |        7
- home    | feedback                   | help      |              |        6
- home    | search results             | help      | subscription |        6
- home    | blogs                      | help      |              |        6
+         webPage         |        webPage_2        | webPage_3 |        webPage_4        | journeys
+-------------------------+-------------------------+-----------+-------------------------+----------
+ home                    | search results          | help      |                         |        8
+ home                    | feedback                | help      |                         |        3
+ home                    | edit account details    | help      |                         |        3
+ home                    | search results          | help      | articles                |        2
+ home                    | update info             | help      | service: service41      |        1
+ home                    | location search results | help      |                         |        1
+ home                    | search results          | help      | help: helpid1046        |        1
+ download: downloadid100 | subscription            | help      | download: downloadid149 |        1
+ home                    | feedback                | help      | about us                |        1
+ events                  | event details           | help      | service: service24      |        1
 (10 rows)     
 
 all=> 
@@ -283,12 +286,13 @@ select * from (
                   ORDER BY timestamp
                   ROWS BETWEEN CURRENT ROW AND UNBOUNDED FOLLOWING)
               AS contact_us_after_seconds
-       from   fsi_demo_data_postvalues
+       from   travel_demo_data_midvalues
+
        where  web.webPageDetails.name in ('help', 'contact us')
 	   
 ) r
 where r.webPage = 'help' 
-and  contact_callcenter_after_seconds is not null
+and  contact_us_after_seconds is not null
 and ecid IS NOT NULL
 order by contact_us_after_seconds desc
 limit 15;
@@ -301,24 +305,22 @@ Copy the statement above and execute it in your **PSQL command-line interface**.
 ```text
 prod:all-> limit 15;
                   ecid                  | webPage | contact_us_after_seconds
-----------------------------------------+---------+----------------------------------
- 65139124502948298803156531614258643756 | help    |                              -30
- 66649610981445196224711646938596094441 | help    |                              -32
- 68027651042594513463568912382624709949 | help    |                              -32
- 76019626396529976292754170790284444840 | help    |                              -33
- 75424204192345402470780614687917362522 | help    |                              -34
- 76661521527769628166173448974936881688 | help    |                              -35
- 91245401846255640644822288611808489972 | help    |                              -35
- 69677910881601865524265215490043957204 | help    |                              -35
- 70659556872747905387373988802185902326 | help    |                              -35
- 63393373519022880338680665558865694006 | help    |                              -38
- 89306763251445058691877169000356427088 | help    |                              -38
- 68237579106120709922948600328313093565 | help    |                              -39
- 90099710327187435702263514843195947829 | help    |                              -40
- 71546782836375830748486573904035494034 | help    |                              -40
- 86442452057742483562513748727810666739 | help    |                              -41
-(15 rows)
-
+----------------------------------------+---------+--------------------------
+ 63823469114126614642345387152201006684 | help    |                      -90
+ 80754420904774428733506250839143369594 | help    |                      -90
+ 88377604148053432058816409689492601363 | help    |                      -97
+ 74984852109255501757734972488849276412 | help    |                     -116
+ 82687578684200753625403502085298173658 | help    |                     -201
+ 60824733890573918241826149831006075370 | help    |                     -873
+ 83087872889918868816169465668534057534 | help    |                   -13225
+ 64901031099876963442816840090228734226 | help    |                   -24569
+ 55022787637403064897181537130490186992 | help    |                   -47743
+ 72553521774911701091274051601998328318 | help    |                  -324629
+ 69409466322272568198835567698333577467 | help    |                  -381146
+ 77778980049255480192820597476957991241 | help    |                  -389988
+ 46681180103771127030304438795340301462 | help    |                  -390858
+ 50028126323920080091412027150929606017 | help    |                  -445806
+ 57977164580347900913210460396295142277 | help    |                  -635993
 
 all=> 
 ```
@@ -331,7 +333,7 @@ Lets include the geographical info, like longitude, lattitude, city, countrycode
 **SQL**
 
 ```sql
-select distinct crm._adobeamericaspot1.crmid,
+select distinct crm._adobeamericaspot3.crmid,
        r.city,
        r.countrycode,
        r.lat as latitude,
@@ -350,11 +352,12 @@ from (
                   ORDER BY timestamp
                   ROWS BETWEEN CURRENT ROW AND UNBOUNDED FOLLOWING)
               AS contact_us_after_seconds
-       from   fsi_demo_data_postvalues
+       from   travel_demo_data_midvalues
+
        where  web.webPageDetails.name in ('help', 'contact us')
 ) r
-, crm_dataset crm
-where crm._adobeamericaspot1.crmid = r.crmid
+, profile_dataset crm
+where crm._adobeamericaspot3.crmid = r.crmid
 and r.webPage = 'help'
 and  contact_us_after_seconds is not null
 order by seconds_to_contact_us desc

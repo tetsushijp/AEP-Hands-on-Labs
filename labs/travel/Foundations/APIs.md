@@ -65,7 +65,7 @@ Instructions:
      ![Demo](./images/postmanimport.png)
 
 
-3. Then drag an drop 'AEP - HandonLabs.postman_environment.json' and AEP - HandsOnLabs Collection.json' files
+3. Then drag an drop 'AEP - Hands On Labs- POT 3.postman_environment.json' and 'AEP - HandsOnLabs Collection.postman_collection.json' files
 
     <!---
     ![Demo](./images/postmanimport1.png)
@@ -74,7 +74,7 @@ Instructions:
     <kbd><img src="./images/postmanimport1.png"  /></kdb>
      
      
-4. Select 'AEP - HandsOnLabs' environment.
+4. Select 'AEP - Hands On Labs- POT 3' environment.
 
 
     <!---
