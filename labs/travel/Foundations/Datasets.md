@@ -73,13 +73,13 @@ We will be creating a dataset for the schema we created in the previous exercise
       ![Demo](./images/datasetcreate2.png)
  
  
-4. On the Select Schema page search for "Transactions Schema <your-assigned-number>" then select the schema and hit Next
+4. On the Select Schema page search for "Bookings Schema <your-assigned-number>" then select the schema and hit Next
       
       
       ![Demo](./images/datasetschema.png)
       
       
-3. Next, to configure the dataset we need to give it a name. Please name your dataset "Transactions Dataset <your-assigned-number>' and give it the same description 
+3. Next, to configure the dataset we need to give it a name. Please name your dataset "Bookings Dataset <your-assigned-number>' and give it the same description 
       
       
       ![Demo](./images/datasetname.png) 
@@ -99,7 +99,7 @@ We will be creating a dataset for the schema we created in the previous exercise
     ![Demo](./images/datasetadddata.png) 
 
 
-6. From the lab files you downloaded, drag and drop the 'transactions_data_xxx.json' file into the 'Add Data' sections. You will now see a batch with a 'Loading' status
+6. From the lab files you downloaded, drag and drop the 'bookings_data_xxx.json' file into the 'Add Data' sections. You will now see a batch with a 'Loading' status
 
 
     <!---
@@ -109,7 +109,7 @@ We will be creating a dataset for the schema we created in the previous exercise
     <kbd><img src="./images/datasetbatch.png"  /></kdb>
 
 
-7. Adobe Experience Platform will perform the XDM mapping and conversion for JSON format to parquet and make this data available on the data lake and the profile store. This process usually takes a few mins. 
+7. Adobe Experience Platform will perform the XDM mapping and conversion for JSON format to parquet and make this data available on the data lake and the profile store. Refresh the screen This process only takes afew seconds.
 
     Once your batch status is 'Success', you can preview the data by hitting the 'Preview Dataset' button on the top right corner.
 
