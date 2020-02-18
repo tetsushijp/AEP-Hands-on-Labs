@@ -1,4 +1,4 @@
-ist of Unlinked Profiles
+List of Unlinked Profiles
 ========================================
 
 | Attendee #     | crmid  | email  |
