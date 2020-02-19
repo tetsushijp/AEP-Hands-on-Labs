@@ -52,7 +52,8 @@ Lab 1.1 - Ingestion - CSV to XMD Mapping
 
 Instructions:
 -----------------
-go to https://platform.adobe.com/home
+
+Go to https://platform.adobe.com/home
 
 1. In the left-hand menu, navigate to "Workflows"
 
@@ -84,7 +85,7 @@ go to https://platform.adobe.com/home
       ![Demo](./images/ingestionadddata1.png)
       
       
-6. The next step is to select a Destination for this data. Search for 'CRM_dataset' , select it and hit Next 
+6. The next step is to select a Destination for this data. Search for 'Profile Dataset' , select it and hit Next 
 
 
       ![Demo](./images/ingestiondestination.png)

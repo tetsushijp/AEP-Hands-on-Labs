@@ -73,7 +73,7 @@ We will be creating a dataset for the schema we created in the previous exercise
       ![Demo](./images/datasetcreate2.png)
  
  
-4. On the Select Schema page search for "Bookings Schema <your-assigned-number>" then select the schema and hit Next
+4. On the Select Schema page search for "Bookings Schema &lt;your-assigned-number>" then select the schema and hit Next
       
       
       ![Demo](./images/datasetschema.png)
@@ -99,7 +99,7 @@ We will be creating a dataset for the schema we created in the previous exercise
     ![Demo](./images/datasetadddata.png) 
 
 
-6. From the lab files you downloaded, drag and drop the 'bookings_data_xxx.json' file into the 'Add Data' sections. You will now see a batch with a 'Loading' status
+6. From the lab files you downloaded, drag and drop the 'bookings_data_&lt;your-assigned-number>.json' file into the 'Add Data' sections. You will now see a batch with a 'Loading' status
 
 
     <!---
