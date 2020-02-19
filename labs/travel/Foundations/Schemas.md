@@ -193,7 +193,7 @@ Instructions:
       ![Demo](./images/schemamixin7.png)
       
       
-13. Display name is "Booking Details Mixin &lt;your-assigned-number>" and then hit 'Add Mixin'
+13. Display name is "Order Details Mixin &lt;your-assigned-number>" and then hit 'Add Mixin'
       
       
     ![Demo](./images/schemamixin8.png)
