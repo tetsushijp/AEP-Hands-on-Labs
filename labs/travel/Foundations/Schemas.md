@@ -76,7 +76,7 @@ Instructions:
 
       
       
-4. In the right-hand menu, name it "Bookings Schema <your-assigned-number>" (Description is optional)
+4. In the right-hand menu, name it "Bookings Schema &lt;your-assigned-number>" (Description is optional)
       
       
       ![Demo](./images/schemaname1.png)
