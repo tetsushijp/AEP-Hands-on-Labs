@@ -121,9 +121,9 @@ Instructions:
 <ol>
  <li>In the left navigation, select 'Segments' if you are not already there.</li>
 <li>In the upper right corner, select 'Create Segment'.</li>
-<li>In the right pane within the 'Create Segment' interface, enter the segment name 'Account Creation Abandon' following by your Student Number (e.g. 'Account Creation Abandon 001'). Enter the same value in the Description field.</li>
+<li>In the right pane within the 'Create Segment' interface, enter the segment name 'Account Creation Abandon' followed by your Student Number (e.g. 'Account Creation Abandon 001'). Enter the same value in the Description field.</li>
 <li>If the 'Streaming' toggle is not active, activate it.</li>
-<li>In the left pane, drill down the 'XDM ExperienceEvent' under Evemts by clicking on it.</li>
+<li>In the left pane, drill down the 'XDM ExperienceEvent' under Events by clicking on it.</li>
 <li>Scroll the resulting list until you locate 'Experience'.</li>
 <li>Click on 'Experience' to expand the object. </li>
 <li>Click on 'Analytics' to expand the object</li>
