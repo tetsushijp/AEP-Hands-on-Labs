@@ -27,4 +27,4 @@ Please download your own attendee [lab content/uploads here](https://github.com/
 
 ## QuickLinks
 
- - [QuickLinks](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/quicklinks/README.md)
+ - [QuickLinks](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/quicklinks/quicklinks_travel.md)
