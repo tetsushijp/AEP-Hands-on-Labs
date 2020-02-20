@@ -63,30 +63,32 @@ Preview: Booking data JSON
 
 ```json
 {
-  "_id": "orderid:470548",
-  "timestamp": "2020-01-08T23:11:07.000Z",
+  "_id": "a9825fb6-53cb-11ea-8004-b88a60e194fb",
+  "timestamp": "2019-12-04T04:58:48.000Z",
   "eventType": "transaction",
   "_adobeamericaspot3": {
-    "CRMID": "crmid:5898381041",
-    "orderDetails": {
-      "orderID": "orderid:470548",
-      "reservationid": "YFN-QYRH",
-      "orderType": "service desk",
-      "hotelSKU": "prd1085",
-      "hotelCheckInUnix": "1578697867",
-      "hotelCheckOutUnix": "1578870667",
-      "hotelCheckInTS": "2020-01-10T23:11:07+00:00",
-      "hotelCheckOutTS": "2020-01-12T23:11:07+00:00",
+    "CRMID": "crmid:9805866820",
+    "bookingDetails": {
+      "hotelSKU": "prd1025",
+      "hotelCheckInUnix": "1577681928",
+      "hotelCheckOutUnix": "1578027528",
+      "hotelCheckInTS": "2019-12-30T04:58:48+00:00",
+      "hotelCheckOutTS": "2020-01-03T04:58:48+00:00",
       "hotelChain": "Grandeur Hotels",
-      "hotelName": "Grandeur Hotels: Saint Petersburg",
-      "hotelLocation": "Saint Petersburg",
+      "hotelName": "Grandeur Hotels: Detroit",
+      "hotelLocation": "Detroit",
       "hotelRoomType": "standard",
       "hotelRoomCount": "1",
       "hotelGuestAdultCount": "1",
       "hotelGuestChildCount": "0",
-      "hotelNightCount": "2",
-      "hotelRoomPrice": "187.55",
-      "hotelFinalPrice": "375.1"
+      "hotelNightCount": "4",
+      "hotelRoomPrice": "135.52",
+      "hotelFinalPrice": "542.08"
+    },
+    "orderDetails": {
+      "orderID": "orderid:467812",
+      "reservationid": "FEA-OL9U",
+      "orderType": "service desk"
     }
   }
 }
@@ -98,7 +100,7 @@ Preview: Bookings data
 
 | Number     | Header  | Example Data  |
 |------------|---|---|
-| 1 | id	| orderid:323451 |
+| 1 | id	| 0123f54c-53c9-11ea-bb46-b88a60e194fb |
 | 2 | reservationid	| W4A-XR20 |
 | 3 | orderid	| orderid:323451 |
 | 4 | crmid	| crmid:7386299961 |
@@ -126,7 +128,7 @@ Preview: Propensity data
 
 | Number     | Header  | Example Data  |  Notes |
 |------------|---|---|---|
-| 1  | id  |  orderid:323451 | unique row |
+| 1  | id  |  01706742-53c9-11ea-a979-b88a60e194fb | unique row |
 | 2  | crmid  |  crmid:8019712410  | unique account ID |
 | 3  | propensity score room upgrade  |  3 | 0-10 (10 is highest) |
 | 4  | propensity score extended nights |  4 | 0-10 (10 is highest) |
