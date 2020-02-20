@@ -48,7 +48,7 @@ Lab  - Build a Bookings schema (ExperienceEvent)
 </tr>
 </table>
 
-Before be begin go to [https://platform.adobe.com/home](https://platform.adobe.com/home). Follow the instructions detailed below.
+Before we begin go to [https://platform.adobe.com/home](https://platform.adobe.com/home). Follow the instructions detailed below.
 
 Instructions:
 -----------------
@@ -187,7 +187,7 @@ Instructions:
        
       
       
-12. Click "Create new mixin" on the very top
+12. Select "Create new mixin" on the very top
 
 
       ![Demo](./images/schemamixin7.png)
