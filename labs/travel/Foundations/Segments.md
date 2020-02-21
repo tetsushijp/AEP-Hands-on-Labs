@@ -1,4 +1,4 @@
-Lab 6.1 - Segmentation - Profile Attribute Segmentation
+Lab 6.1 - Segmentation - Simple ExperienceEvent Segmentation
 ==========
 <table style="border-collapse: collapse; border: none;" class="tab" cellspacing="0" cellpadding="0">
 
@@ -10,7 +10,8 @@ Lab 6.1 - Segmentation - Profile Attribute Segmentation
 <tbody valign="top">
       <tr width="500">
             <td valign="top"><h3>Objective:</h3></td>
-            <td valign="top"><br>In this lab, you will learn how to create a segment based on a profile attribute/characteristic that has been mapped within unified profile
+            <td valign="top"><br>In this exercise, we’ll create a basic segment using a single field in Call Center ExperienceEvent.</br>
+      <br>On an ongoing basis, a hotelier wants to create a basic segment for customers who make a booking with a Call Center representative. This segment will be added to other segments for other marketing events.</br>
             </td>
      </tr>
      <tr width="500">
@@ -47,12 +48,13 @@ Lab 6.1 - Segmentation - Profile Attribute Segmentation
 </tr>
 </table>
 
-Instructions:
+Exercise #1 Instructions:
 -----------------
 <ol>
-      <li>In the left navigation, select 'Segments' if you are not already there.</li>
-<li>In the upper right corner, select 'Create Segment'.</li>
-<li>In the right pane within the 'Create Segment' interface, enter the segment name 'Female Segment' following by your Student Number (e.g. 'Female Segment 001'). Enter the same value in the Description field.</li>
+      <li>Navigate to Segment Builder in the left navigation</li>
+<li>Click the gear icon to the right of Fields in the left pane</li>
+<li>Verify ‘Show full XDM schema’ is selected, and if not, select it</li>
+     ![Demo](./images/segment_gear.png) 
 <li>If the 'Streaming' toggle is not active, activate it.</li>
 <li>In the left pane, drill down the 'XDM Individual Profile' under Attributes by clicking on it.</li>
 <li>Scroll the resulting list until you locate 'Person'.</li>
