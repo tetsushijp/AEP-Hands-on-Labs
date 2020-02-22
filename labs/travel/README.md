@@ -16,8 +16,11 @@ Please download your own attendee [lab content/uploads here](https://github.com/
  - [Ingestion](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/travel/Foundations/Ingestion.md)
  - [Profiles & Identities](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/travel/Foundations/Profiles.md)
  - [Segments](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/travel/Foundations/Segments.md)
- - [Query Service](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/travel/Foundations/DeepDive%20QueryService.md)
+  - [Query Service](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/travel/Foundations/DeepDive%20QueryService.md)
  - [APIs](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/travel/Foundations/APIs.md)
+
+### Adobe Experience Platform - RTCDP
+- [Activate Segment](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/travel/Foundations/Destinations.md)
 
 ### Adobe Experience Platform - Journey Orchestration
  - [Events](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/travel/Journey%20Orchestration/Exercise1-Events.md)
