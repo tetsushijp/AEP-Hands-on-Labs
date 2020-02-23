@@ -1,3 +1,4 @@
+Lab  - Activation of Segments to a Destination (ExperienceEvent)
 
 <table style="border-collapse: collapse; border: none;" class="tab" cellspacing="0" cellpadding="0">
 
@@ -51,21 +52,19 @@ Instructions:
 1.	In the left navigation of AEP, select Destinations > Browse.
 2.	Click ‘DSS SFMC S3 Destination’. 
 
-
-      ![Demo](./images/destinations_travel_browse.png)
+![Demo](./images/destinations_travel_browse.png)
 
 3.	Once you select the destination, click on ‘Edit Activation’. This takes you to the Activate flow.
 
- ![Demo](./images/destinations_travel_destination_edit.png)
+![Demo](./images/destinations_travel_destination_edit.png)
  
- 4.	In Activate destination wizard, on the Select Segments page, select your version of the “Email Channel Online Reservation Abandoners” segment you created in the previous lab if it exists; otherwise, select any version of this segment.
-   
-  ![Demo](./images/destinations_travel_activate flow_1.png)
+4.	In Activate destination wizard, on the Select Segments page, select your version of the “Email Channel Online Reservation Abandoners” segment you created in the previous lab if it exists; otherwise, select any version of this segment.
+![Demo](./images/destinations_travel_activate flow_1.png)
  
 5.	Select Next in the upper top corner of the workflow
 6.	This step only applies for segments mapped to email marketing destinations.
 
- ![Demo](./images/destinations_travel_activate flow_2.png)
+![Demo](./images/destinations_travel_activate flow_2.png)
 
 7.	Click on ‘Add new field’ at the bottom
 8.	Enter ‘homeAddress.stateProvince’
