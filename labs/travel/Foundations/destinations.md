@@ -60,12 +60,12 @@ Instructions:
  
 4.	In Activate destination wizard, on the Select Segments page, select your version of the “Email Channel Online Reservation Abandoners” segment you created in the previous lab if it exists; otherwise, select any version of this segment.
 
-![Demo](./images/destinations_travel_activate flow_1.png)
+![Demo](./images/destinations_travel_activate_flow_1.png)
  
 5.	Select Next in the upper top corner of the workflow
 6.	This step only applies for segments mapped to email marketing destinations.
 
-![Demo](./images/destinations_travel_activate flow_2.png)
+![Demo](./images/destinations_travel_activate_flow_2.png)
 
 7.	Click on ‘Add new field’ at the bottom
 8.	Enter ‘homeAddress.stateProvince’
