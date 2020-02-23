@@ -1,4 +1,4 @@
-Lab - Segmentation - Simple ExperienceEvent Segmentation
+Lab 1 - Segmentation - Simple ExperienceEvent Segmentation
 ==========
 <table style="border-collapse: collapse; border: none;" class="tab" cellspacing="0" cellpadding="0">
 
@@ -82,7 +82,7 @@ NOTE: Estimate link may not show results if qualified profiles are statistically
 <br>
 
 
-Lab 6.2 - Segmentation - Multi-Entity Sequential Segmentation
+Lab 2 - Segmentation - Multi-Entity Sequential Segmentation
 ==========
 <table style="border-collapse: collapse; border: none;" class="tab" cellspacing="0" cellpadding="0">
 
@@ -192,7 +192,7 @@ Instructions:
 <br>
 <br>
 
-Lab 6.3 - Segmentation - Dynamic Segmentation
+Lab 3 - Segmentation - Dynamic Segmentation
 ==========
 <table style="border-collapse: collapse; border: none;" class="tab" cellspacing="0" cellpadding="0">
 
