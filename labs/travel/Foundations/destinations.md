@@ -1,5 +1,5 @@
 Lab  - Activation of Segments to a Destination (ExperienceEvent)
-
+==========
 <table style="border-collapse: collapse; border: none;" class="tab" cellspacing="0" cellpadding="0">
 
 <tr style="border: none;">
@@ -59,6 +59,7 @@ Instructions:
 ![Demo](./images/destinations_travel_destination_edit.png)
  
 4.	In Activate destination wizard, on the Select Segments page, select your version of the “Email Channel Online Reservation Abandoners” segment you created in the previous lab if it exists; otherwise, select any version of this segment.
+
 ![Demo](./images/destinations_travel_activate flow_1.png)
  
 5.	Select Next in the upper top corner of the workflow
