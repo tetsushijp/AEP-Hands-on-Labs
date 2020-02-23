@@ -1,4 +1,4 @@
-Lab 6.1 - Segmentation - Simple ExperienceEvent Segmentation
+Lab - Segmentation - Simple ExperienceEvent Segmentation
 ==========
 <table style="border-collapse: collapse; border: none;" class="tab" cellspacing="0" cellpadding="0">
 
