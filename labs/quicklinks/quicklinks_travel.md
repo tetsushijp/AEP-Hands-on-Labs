@@ -5,6 +5,7 @@
 ## API + POSTMAN
  - [Postman API Collection](https://github.com/adobe/experience-platform-postman-samples/tree/master/apis/experience-platform)
  - [API Libraries](https://www.adobe.io/apis/experienceplatform/home/api-reference.html#/acpdr/swagger-specs)
+ - [API Console Setup](https://www.adobe.io/apis/experienceplatform/home/tutorials/alltutorials.html#!api-specification/markdown/narrative/tutorials/authenticate_to_acp_tutorial/authenticate_to_acp_tutorial.md)
  
 ## XDM
  - [XDM Github](https://github.com/adobe/xdm/tree/master/docs/reference/content)
