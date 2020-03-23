@@ -75,7 +75,7 @@ How many product views do we have on a daily basis?
 ```sql
 select date_format( timestamp , 'yyyy-MM-dd') AS Day,
        count(*) AS productViews
-from   fsi_demo_data_postvalues
+from   fsi_demo_data_midvalues
 where  web.webPageDetails.pageViews.value = '1.0'
 group by Day
 order by day desc
@@ -113,7 +113,7 @@ What are the top 5 products viewed?
 
 ```sql
 select web.webPageDetails.name, count(*)
-from   fsi_demo_data_postvalues
+from   fsi_demo_data_midvalues
 where  web.webPageDetails.pageViews.value = '1.0'
 group  by web.webPageDetails.name
 order  by 2 desc
@@ -147,7 +147,7 @@ all=>
 
 ```sql
 select distinct _experience.analytics.customDimensions.eVars.eVar9, crm._adobeamericaspot1.emailId as emailAddress
-from   fsi_demo_data_postvalues aa,
+from   fsi_demo_data_midvalues aa,
 crm_dataset crm
 where crm._adobeamericaspot1.CRMID = aa._experience.analytics.customDimensions.eVars.eVar9
 and web.webPageDetails.name = 'help' 
@@ -227,10 +227,10 @@ FROM
                              ORDER BY timestamp 
                              ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW) 
                   AS session
-            from   fsi_demo_data_postvalues a
+            from   fsi_demo_data_midvalues a
             where  a.endUserIDs._experience.mcid.id in ( 
                 select b.endUserIDs._experience.mcid.id
-                from   fsi_demo_data_postvalues b
+                from   fsi_demo_data_midvalues b
                 where web.webPageDetails.name = 'help' 
 				and b.endUserIDs._experience.mcid.id IS NOT NULL
             )
@@ -283,7 +283,7 @@ select * from (
                   ORDER BY timestamp
                   ROWS BETWEEN CURRENT ROW AND UNBOUNDED FOLLOWING)
               AS contact_us_after_seconds
-       from   fsi_demo_data_postvalues
+       from   fsi_demo_data_midvalues
        where  web.webPageDetails.name in ('help', 'contact us')
 	   
 ) r
@@ -350,7 +350,7 @@ from (
                   ORDER BY timestamp
                   ROWS BETWEEN CURRENT ROW AND UNBOUNDED FOLLOWING)
               AS contact_us_after_seconds
-       from   fsi_demo_data_postvalues
+       from   fsi_demo_data_midvalues
        where  web.webPageDetails.name in ('help', 'contact us')
 ) r
 , crm_dataset crm
