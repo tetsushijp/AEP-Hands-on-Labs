@@ -79,7 +79,8 @@ Preview: Order data JSON
         "productSubCategory": "Men: Clothing",
         "productSalePrice": "284.5",
         "productMarginPrice": "156.48",
-        "productTotalPrice": "569.0"
+        "productTotalPrice": "569.0",
+        "productFlag": 1
       },
       {
         "productSKUCount": "2",
@@ -90,16 +91,19 @@ Preview: Order data JSON
         "productSubCategory": "Women: Clothing",
         "productSalePrice": "438.95",
         "productMarginPrice": "280.93",
-        "productTotalPrice": "1755.8"
+        "productTotalPrice": "1755.8",
+        "productFlag": 1
       }
     ],
     "orderDetails": {
       "orderID": "orderid:247282",
-      "orderSKUcount": "2"
+      "orderSKUcount": "2",
+      "orderFlag": 1,
     },
     "storeDetails": {
       "storeID": "store:352",
-      "storeClerkID": "clerkid:35244"
+      "storeClerkID": "clerkid:35244",
+      "storeZIP": "06880"
     }
   }
 }
