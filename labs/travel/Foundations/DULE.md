@@ -11,7 +11,7 @@ Lab 5.1 - DULE - new content still in progress
       <tr width="500">
             <td valign="top"><h3>Objective:</h3>
             </td>
-            <td valign="top"><br>This lab will be created soon
+            <td valign="top"><br>This lab will be show you how to apply a data usage labels to datasets and fields.
             </td>
      </tr>
      <tr width="500">
