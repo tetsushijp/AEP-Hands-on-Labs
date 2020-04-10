@@ -1,4 +1,4 @@
-Lab  - Build a Orders schema (ExperienceEvent)
+Lab  - Build an Orders schema (ExperienceEvent)
 ==========
 <table style="border-collapse: collapse; border: none;" class="tab" cellspacing="0" cellpadding="0">
 
