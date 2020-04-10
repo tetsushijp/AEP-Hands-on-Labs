@@ -1,4 +1,4 @@
-Lab 5.1 - DULE - Apply Data Usage Label to Dataset Field and Create Data Usage Policy
+Lab 5.1 - DULE - Apply Data Usage Label and Create Custom Data Usage Policy
 ==========
 <table style="border-collapse: collapse; border: none;" class="tab" cellspacing="0" cellpadding="0">
 
@@ -11,7 +11,7 @@ Lab 5.1 - DULE - Apply Data Usage Label to Dataset Field and Create Data Usage P
       <tr width="500">
             <td valign="top"><h3>Objective:</h3>
             </td>
-            <td valign="top"><br>This lab will be show you how to apply a data usage labels to a dataset field, create a data usage policy
+            <td valign="top"><br>This lab will be show you how to apply a data usage labels to a dataset field, and create a custom data usage policy.
             </td>
      </tr>
      <tr width="500">
@@ -64,9 +64,28 @@ Instructions:
 3. In the Edit governance labels overlay, expand "IDENTITY LABELS". Select "I1" and click the "Save changes" button.
 
       ![Demo](./images/datausagelabel3.png)
+      
+Congratulations, you applied your first data usage label to a dataset field. Simple, right?
+      
+4. In the left-hand menu, navigate to Policies. Verify you're on the "Browse" tab. Click "+ Create policy" in top right corner.
 
-Congratulations, you applied a data usage label to a dataset field and created a customer data usage policy.
+      ![Demo](./images/datausagepolicy1.png)
+      
+5. Under the Policy details, enter name "Custom policy". Under Select governance labels, select "I1". On the right-hand side, make sure "Contains all of the labels" radio button is selected. Click "Next" button in the top right corner.
+      
+      ![Demo](./images/datausagepolicy2.png)
 
+6. You should now be on the Select marketing actions step. Select "Export to Third Party". Click "Next" button in the top right corner.
+
+      ![Demo](./images/datausagepolicy3.png)
+
+7. Review the policy and click "Finish"
+
+      ![Demo](./images/datausagepolicy4.png)
+
+
+      
+Congratulations, you created a custom data usage policy.
 <br>
 <br>
 <br>
