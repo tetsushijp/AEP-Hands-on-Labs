@@ -58,7 +58,7 @@ Instructions:
       ![Demo](./images/schemahome.png)
       -->
       
-      <kbd><img src="./images/schemacreate.png"  /></kbd> 
+      <kbd><img src="./images/schemahome.png"  /></kbd> 
       
 2. Click "Create Schema" on the top right
 
