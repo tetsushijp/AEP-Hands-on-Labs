@@ -1,8 +1,21 @@
-Preview: CRM data
+CRM Data
 -----------------------------
 
-| Number     | FieldName  | DataType  | Mixin | Example | Definition |
-|------------|---|---|---|---|---|
+| Number | FieldName  | DataType  | Mixin            | Example          | Definition                           |
+|--------|------------|-----------|------------------|------------------|--------------------------------------|
+| 1      | crmid      | string    | identification   | crmid:3572904408 | account ID for the user              |
+| 2      | email  |  leese1838@yahoo.com  |
+| 3      | first_name  |  Roscoe |
+| 4      | last_name  |  Lawrence  |
+| 5      | gender  |  female  |
+| 6      | mobile telephone  |  531-075-8094  |
+| 7      | city  |  Wauwatosa  |
+| 8      | country  |  United States  |
+| 9      | zip  |  88430  |
+| 10     | state  |  Hawaii  |
+| 11     | street address  |  744 Fratessa  |
+| 12     | birthday  |  8/17/1972  |
+| 13     | historicalpoints  |  504  |
 
 
 
