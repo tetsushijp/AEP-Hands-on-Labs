@@ -54,18 +54,21 @@ Instructions:
 -----------------
 1. In the left-hand menu, navigate to "Schemas"
 
-
+      <!--
       ![Demo](./images/schemahome.png)
+      -->
       
+      <kbd><img src="./images/schemacreate.png"  /></kbd> 
       
 2. Click "Create Schema" on the top right
 
-
+      <!--
       ![Demo](./images/schemacreate.png)
+      -->
       
+      <kbd><img src="./images/schemacreate.png"  /></kbd>
       
 3. Click on "Untitled Schema" in the structure view
-
 
     <!---
     ![Demo](./images/schemaname.png)
@@ -78,9 +81,12 @@ Instructions:
       
 4. In the right-hand menu, name it "Bookings Schema &lt;your-assigned-number>" (Description is optional)
       
-      
+      <!--
       ![Demo](./images/schemaname1.png)
+      -->
       
+      <kbd><img src="./images/schemaname1.png"  /></kdb>
+
       
 5. In the left-hand schema composition menu, click on the "Assign" button across from Class
 
@@ -97,17 +103,22 @@ Instructions:
     - Time-based Events (ExperienceEvent)
     - Customer Snapshots (Profile)
      
-     
+      <!--
       ![Demo](./images/schemaclass.png)
+      -->
       
-      
+      <kbd><img src="./images/schemaclass.png"  /></kdb>
+
+
       Note: There are other classes available out of the box that represent specific objects needed for Experience Modeling.
 
 6. In this example, choose "XDM ExperienceEvent" and click "Assign class"
 
-
+      <!--
       ![Demo](./images/schemaclass1.png)
-      
+      -->
+       <kbd><img src="./images/schemaclass1.png"  /></kdb>
+       
       
 7. Now, click on the "Add" button across from "Mixins" on the left panel
 
@@ -124,19 +135,24 @@ Instructions:
       
 8. There are many out of the box Mixins already available. 
 
-
+      <!--
       ![Demo](./images/schemamixinpreview.png)
+      -->
+      <kbd><img src="./images/schemamixinpreview.png"  /></kdb>
       
      Click on an Adobe pre-built Mixin and hit the "Preview mixin structure" option on the right-hand side to see it's contents of a Mixin
       
-      
+      <!--
       ![Demo](./images/schemamixinpreview1.png)
-    
+      -->
+      <kbd><img src="./images/schemamixinpreview1.png"  /></kdb>
     
 9. Hit Back to get back to the list of Mixins. 
 
-
+      <!--
       ![Demo](./images/schemamixinback.png)
+      -->
+      <kbd><img src="./images/schemamixinback.png"  /></kdb>
       
       
 10. In this lab we will be adding two pre built mixins listed below
@@ -146,9 +162,10 @@ Instructions:
       
       Search for 'Booking Details Mixin' Select the mixin and hit Assign Mixin
       
-      
+     <!-- 
      ![Demo](./images/schemamixin1.png)
-      
+     -->
+      <kbd><img src="./images/schemamixin1.png"  /></kdb>
       
       Your schema will now have the Order details object and all of the fields within this object
       
@@ -189,16 +206,18 @@ Instructions:
       
 12. Select "Create new mixin" on the very top
 
-
+      <!--
       ![Demo](./images/schemamixin7.png)
+      -->
+      <kbd><img src="./images/schemamixin7.png"  /></kdb>    
       
       
 13. Display name is "Order Details Mixin &lt;your-assigned-number>" and then hit 'Add Mixin'
       
-      
+    <!--  
     ![Demo](./images/schemamixin8.png)
-     
-     
+    --> 
+    <kbd><img src="./images/schemamixin8.png"  /></kdb>     
      
 14. In the left-hand schema composition menu, click on your newly create Mixin (it should be highlighted now)
 
@@ -225,15 +244,17 @@ Instructions:
       Description = Order Details
       Type = Object
 
-
+    <!--  
     ![Demo](./images/schemamixin11.png)
-
+    -->
+    <kbd><img src="./images/schemamixin11.png"  /></kdb>    
 
     Scroll  down and hit Apply
 
-
+    <!--  
     ![Demo](./images/schemaapply.png)
-
+    -->
+    <kbd><img src="./images/schemaapply.png"  /></kdb>    
 
 17. Next, we will be adding fields to the 'orderDetails' object Click "+Add Field" next to this object
 
@@ -250,17 +271,20 @@ Instructions:
       Description = Order ID
       Type = String
 
-
+     <!-- 
      ![Demo](./images/schemamixin13.png)
-
+     -->
+     <kbd><img src="./images/schemamixin13.png"  /></kdb>   
 
      Scroll down and hit Apply
 
-
+    <!--  
     ![Demo](./images/schemaapply.png)
+    -->
+    <kbd><img src="./images/schemaapply.png"  /></kdb>   
+    
 
-
-19. We will be adding one more field  to the 'orderDetails' object Click "+Add Field" next to this object
+19. We will be adding one more field to the 'orderDetails' object. Click "+Add Field" next to this object
 
     <!---
     ![Demo](./images/schemamixin12.png)
@@ -275,15 +299,17 @@ Instructions:
       Description = Reservation ID
       Type = String
 
-
+    <!--  
     ![Demo](./images/schemamixin14.png)
-
+    -->
+    <kbd><img src="./images/schemamixin14.png"  /></kdb>
 
     Scroll down and hit Apply
 
-
+    <!--  
     ![Demo](./images/schemaapply.png)
-
+    -->
+    <kbd><img src="./images/schemaapply.png"  /></kdb>
     
 21. We will be adding one more field  to the 'orderDetails' object Click "+Add Field" next to this object
 
@@ -300,15 +326,18 @@ Instructions:
       Description = Order Type
       Type = String
 
-
+    <!--  
     ![Demo](./images/schemamixin15.png)
-
+    -->
+    <kbd><img src="./images/schemamixin15.png"  /></kdb>
 
     Scroll down and hit Apply
 
-
+    <!--  
     ![Demo](./images/schemaapply.png)
-
+    -->
+    <kbd><img src="./images/schemaapply.png"  /></kdb>
+    
 23. We are done with modeling the schema. To Save your work hit Save on the top right corner. Make sure that your schema structure looks like the one in the screenshot below
  
 
