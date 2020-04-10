@@ -272,7 +272,7 @@ Instructions:
     -->
     <kbd><img src="./images/schemaapply.png"  /></kdb>    
 
-17. Next, we will be adding fields to the 'orderDetails' object Click "+Add Field" next to this object
+17. Next, we will be adding fields to the 'orderDetails' object. Click "+Add Field" next to this object
 
     <!---
     ![Demo](./images/schemamixin12.png)
@@ -300,7 +300,7 @@ Instructions:
     <kbd><img src="./images/schemaapply.png"  /></kdb>   
     
 
-19. We will be adding three more fields to the 'orderDetials' object.  Click "+Add Field" next to the object.
+19. We will be adding three more fields to the 'orderDetials' object.  Click "+Add Field" next to the object
 
     <!---
     ![Demo](./images/schemamixin12.png)
@@ -392,7 +392,7 @@ Instructions:
 
  
  
- 26. Congratulations!!! you have constructed your schema.
+ 26. Congratulations!!! You have constructed your schema.
  
 <br>
 <br>
