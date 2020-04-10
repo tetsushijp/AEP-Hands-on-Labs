@@ -300,7 +300,7 @@ Instructions:
     <kbd><img src="./images/schemaapply.png"  /></kdb>   
     
 
-19. We will be adding one more field to the 'orderDetails' object. Click "+Add Field" next to this object
+19. We will be adding three more fields to the 'orderDetials' object.  Click "+Add Field" next to the object.
 
     <!---
     ![Demo](./images/schemamixin12.png)
@@ -311,39 +311,12 @@ Instructions:
 
 
 20. On the Field Properties panel to the right add the following  
-      FieldName = reservationid
-      Description = Reservation ID
-      Type = String
-
-    <!--  
-    ![Demo](./images/schemamixin14.png)
-    -->
-    <kbd><img src="./images/schemamixin14.png"  /></kdb>
-
-    Scroll down and hit Apply
-
-    <!--  
-    ![Demo](./images/schemaapply.png)
-    -->
-    <kbd><img src="./images/schemaapply.png"  /></kdb>
-    
-21. We will be adding one more field  to the 'orderDetails' object Click "+Add Field" next to this object
-
-    <!---
-    ![Demo](./images/schemamixin12.png)
-    --->
-
-    <kbd><img src="./images/schemamixin12.png"  /></kdb>
-
-
-
-22. On the Field Properties panel to the right add the following  
       FieldName = orderType
       Description = Order Type
       Type = String
 
     <!--  
-    ![Demo](./images/schemamixin15.png)
+    ![Demo](./images/schemamixin14.png)
     -->
     <kbd><img src="./images/schemamixin15.png"  /></kdb>
 
@@ -354,7 +327,62 @@ Instructions:
     -->
     <kbd><img src="./images/schemaapply.png"  /></kdb>
     
-23. We are done with modeling the schema. To Save your work hit Save on the top right corner. Make sure that your schema structure looks like the one in the screenshot below
+21. Click "+Add Field" next to the 'orderDetails' object.
+
+    <!---
+    ![Demo](./images/schemamixin12.png)
+    --->
+
+    <kbd><img src="./images/schemamixin12.png"  /></kdb>
+
+
+
+22. On the Field Properties panel to the right add the following  
+      FieldName = orderFlag
+      Description = Order Flag
+      Type = Integer
+
+    <!--  
+    ![Demo](./images/schemamixin15.png)
+    -->
+    <kbd><img src="./images/schemamixin21.png"  /></kdb>
+
+    Scroll down and hit Apply
+
+    <!--  
+    ![Demo](./images/schemaapply.png)
+    -->
+    <kbd><img src="./images/schemaapply.png"  /></kdb>
+    
+23. Click "+Add Field" next to the 'orderDetails' object.
+
+    <!---
+    ![Demo](./images/schemamixin12.png)
+    --->
+
+    <kbd><img src="./images/schemamixin12.png"  /></kdb>
+
+
+
+24. On the Field Properties panel to the right add the following  
+      FieldName = orderSKUcount
+      Description = Order SKU Count
+      Type = Integer
+
+    <!--  
+    ![Demo](./images/schemamixin15.png)
+    -->
+    <kbd><img src="./images/schemamixin22.png"  /></kdb>
+
+    Scroll down and hit Apply
+
+    <!--  
+    ![Demo](./images/schemaapply.png)
+    -->
+    <kbd><img src="./images/schemaapply.png"  /></kdb>
+    
+    
+25. We are done with modeling the schema. To Save your work hit Save on the top right corner. Make sure that your schema structure looks like the one in the screenshot below
  
 
      <!---
@@ -364,7 +392,7 @@ Instructions:
 
  
  
- 24. Congratulations!!! you have constructed your schema.
+ 26. Congratulations!!! you have constructed your schema.
  
 <br>
 <br>
