@@ -156,19 +156,21 @@ Instructions:
       <kbd><img src="./images/schemamixinback.png"  /></kdb>
       
       
-10. In this lab we will be adding two pre built mixins listed below
+10. In this lab we will be adding three pre-built mixins listed below
 
-      - Booking Details Mixin, and 
-      - identities
-      
-      Search for 'Booking Details Mixin' Select the mixin and hit Assign Mixin
+      - Product Details Mixin EE,
+      - Store Details Mixin EE,
+      - Identities Mixin
+     
+     
+      Search for 'Product Details Mixin EE'. Select the mixin and hit Assign Mixin
       
      <!-- 
      ![Demo](./images/schemamixin1.png)
      -->
       <kbd><img src="./images/schemamixin1.png"  /></kdb>
       
-      Your schema will now have the Order details object and all of the fields within this object
+      Your schema will now have the Product Details Mixin EE object and all of the fields within this object
       
       <!---
       ![Demo](./images/schemamixin2.png)
@@ -187,13 +189,26 @@ Instructions:
        <kbd><img src="./images/schemamixin3.png"  /></kdb>     
       
              
-             
-      And, repeat the steps for 'identities' mixin
+      Search for 'Store Details Mixin EE'. Select the mixin and hit Assign Mixin   
+       
+      <kbd><img src="./images/schemamixin16.png"  /></kdb>
       
+      Your schema will now have the Store Details Mixin EE object and all of the fields within this object
       
-       ![Demo](./images/schemamixin4.png)
+      <kbd><img src="./images/schemamixin17.png"  /></kdb>
+      
+      Hit +Add to go back to the Mixin list
+      
+      <kbd><img src="./images/schemamixin18.png"  /></kdb>     
              
-             
+      And, repeat the steps for the Identities mixin.  Search for 'Identities Mixin EE'. Select the mixin and hit Assign Mixin 
+                        
+       <kbd><img src="./images/schemamixin19.png"  /></kdb>     
+       
+      Your schema will now have the Identities Mixin EE object and all of the fields within this object
+      
+      <kbd><img src="./images/schemamixin20.png"  /></kdb>
+      
         
 11. Now, we'll also create a new Mixin from scratch. Go back and hit the +Add button on the left panel.
 
@@ -213,7 +228,7 @@ Instructions:
       <kbd><img src="./images/schemamixin7.png"  /></kdb>    
       
       
-13. Display name is "Order Details Mixin &lt;your-assigned-number>" and then hit 'Add Mixin'
+13. Display name is "Order Details Mixin EE &lt;your-assigned-number>" and then hit 'Add Mixin'
       
     <!--  
     ![Demo](./images/schemamixin8.png)
