@@ -1,4 +1,4 @@
-Lab 5.1 - DULE - new content still in progress
+Lab 5.1 - DULE - Apply Data Usage Label to Dataset Field and Create Data Usage Policy
 ==========
 <table style="border-collapse: collapse; border: none;" class="tab" cellspacing="0" cellpadding="0">
 
@@ -11,7 +11,7 @@ Lab 5.1 - DULE - new content still in progress
       <tr width="500">
             <td valign="top"><h3>Objective:</h3>
             </td>
-            <td valign="top"><br>This lab will be show you how to apply a data usage labels to a dataset field.
+            <td valign="top"><br>This lab will be show you how to apply a data usage labels to a dataset field, create a data usage policy
             </td>
      </tr>
      <tr width="500">
@@ -64,6 +64,8 @@ Instructions:
 3. In the Edit governance labels overlay, expand "IDENTITY LABELS". Select "I1" and click the "Save changes" button.
 
       ![Demo](./images/datausagelabel3.png)
+
+Congratulations, you applied a data usage label to a dataset field and created a customer data usage policy.
 
 <br>
 <br>
