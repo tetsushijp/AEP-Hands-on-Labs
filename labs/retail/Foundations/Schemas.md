@@ -210,7 +210,7 @@ Instructions:
       <kbd><img src="./images/schemamixin20.png"  /></kdb>
       
         
-11. Now, we'll also create a new Mixin from scratch. Go back and hit the +Add button on the left panel.
+11. Now, we'll create a new Mixin from scratch. Go back and hit the +Add button on the left panel.
 
        <!---
        ![Demo](./images/schemamixin6.png)
@@ -256,9 +256,9 @@ Instructions:
 
 
 16. On the Field Properties panel to the right add the following  
-      FieldName = orderDetails
-      Description = Order Details
-      Type = Object
+      - FieldName = orderDetails
+      - Description = Order Details
+      - Type = Object
 
     <!--  
     ![Demo](./images/schemamixin11.png)
@@ -283,9 +283,9 @@ Instructions:
 
 
 18. On the Field Properties panel to the right add the following  
-      FieldName = orderID
-      Description = Order ID
-      Type = String
+      - FieldName = orderID
+      - Description = Order ID
+      - Type = String
 
      <!-- 
      ![Demo](./images/schemamixin13.png)
@@ -311,9 +311,9 @@ Instructions:
 
 
 20. On the Field Properties panel to the right add the following  
-      FieldName = orderType
-      Description = Order Type
-      Type = String
+      - FieldName = orderType
+      - Description = Order Type
+      - Type = String
 
     <!--  
     ![Demo](./images/schemamixin14.png)
@@ -338,9 +338,9 @@ Instructions:
 
 
 22. On the Field Properties panel to the right add the following  
-      FieldName = orderFlag
-      Description = Order Flag
-      Type = Integer
+      - FieldName = orderFlag
+      - Description = Order Flag
+      - Type = Integer
 
     <!--  
     ![Demo](./images/schemamixin15.png)
@@ -365,9 +365,9 @@ Instructions:
 
 
 24. On the Field Properties panel to the right add the following  
-      FieldName = orderSKUcount
-      Description = Order SKU Count
-      Type = Integer
+      - FieldName = orderSKUcount
+      - Description = Order SKU Count
+      - Type = Integer
 
     <!--  
     ![Demo](./images/schemamixin15.png)
