@@ -11,7 +11,7 @@ Lab 5.1 - DULE - new content still in progress
       <tr width="500">
             <td valign="top"><h3>Objective:</h3>
             </td>
-            <td valign="top"><br>This lab will be show you how to apply a data usage labels to datasets and fields.
+            <td valign="top"><br>This lab will be show you how to apply a data usage labels to a dataset field.
             </td>
      </tr>
      <tr width="500">
@@ -49,10 +49,22 @@ Lab 5.1 - DULE - new content still in progress
 </tr>
 </table>
 
+Before we begin go to [https://platform.adobe.com/home](https://platform.adobe.com/home). Follow the instructions detailed below.
+
 Instructions:
 -----------------
-1. New content will come here soon
- 
+1. In the left-hand menu, navigate to "Datasets". Verify you're on the "Browse" tab. Scroll down and select the "Profile Dataset" dataset.
+
+      ![Demo](./images/datausagelabel1.png)
+
+2. Click "Data governance" tab. Select "address" in the FIELD NAME list. Click "Edit governance labels".
+
+      ![Demo](./images/datausagelabel2.png)
+
+3. In the Edit governance labels overlay, expand "IDENTITY LABELS". Select "I1" and click the "Save changes" button.
+
+      ![Demo](./images/datausagelabel3.png)
+
 <br>
 <br>
 <br>
