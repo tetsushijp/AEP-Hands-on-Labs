@@ -39,7 +39,7 @@ Lab 5.1 - DULE - Apply Data Usage Label and Create Custom Data Usage Policy
       </tr>
       <tr>
             <td valign="middle" height="70"><b>date</b></td>
-            <td valign="middle" height="70">2020-01-06</td>
+            <td valign="middle" height="70">2020-04-10</td>
       </tr>
 </tbody>
 </table>
