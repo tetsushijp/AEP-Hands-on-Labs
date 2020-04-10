@@ -75,14 +75,13 @@ Congratulations, you applied your first data usage label to a dataset field. Sim
       
       ![Demo](./images/datausagepolicy2.png)
 
-6. You should now be on the Select marketing actions step. Select "Export to Third Party". Click "Next" button in the top right corner.
+6. Select "Export to Third Party". Click "Next" button in the top right corner.
 
       ![Demo](./images/datausagepolicy3.png)
 
 7. Review the policy and click "Finish"
 
       ![Demo](./images/datausagepolicy4.png)
-
 
       
 Congratulations, you created a custom data usage policy.
