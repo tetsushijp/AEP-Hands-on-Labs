@@ -117,7 +117,8 @@ Instructions:
       <!--
       ![Demo](./images/schemaclass1.png)
       -->
-       <kbd><img src="./images/schemaclass1.png"  /></kdb>
+      
+      <kbd><img src="./images/schemaclass1.png"  /></kdb>
        
       
 7. Now, click on the "Add" button across from "Mixins" on the left panel
