@@ -60,7 +60,7 @@ We will be creating a dataset for the schema we created in the previous exercise
       <!--
       ![Demo](./images/datasetshome.png)
       -->
-       <kbd><img src="./images/datasetshome.png"  /></kbd>
+      <kbd><img src="./images/datasetshome.png"  /></kbd>
       
 2. Hit +Create Dataset 
 
@@ -74,7 +74,7 @@ We will be creating a dataset for the schema we created in the previous exercise
       <!--
       ![Demo](./images/datasetcreate2.png)
       -->
-       <kbd><img src="./images/datasetcreate2.png"  /></kbd>
+      <kbd><img src="./images/datasetcreate2.png"  /></kbd>
  
 4. On the Select Schema page search for "Orders Schema &lt;your-assigned-number>" then select the schema and hit Next
       
