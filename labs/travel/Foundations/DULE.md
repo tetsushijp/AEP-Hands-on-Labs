@@ -16,7 +16,7 @@ Lab 5.1 - DULE - Apply Data Usage Label and Create Custom Data Usage Policy
      </tr>
      <tr width="500">
            <td valign="top"><h3>Prerequisites:</h3></td>
-           <td valign="top"><br><li>none</li>
+           <td valign="top"><br><li>dataset in place</li>
            </td>
      </tr>
 </tbody>
