@@ -1,4 +1,4 @@
-# Travel and Hospitality Hands-On-Lab
+# Travel and Hospitality Hands-On Lab
 
 Welcome to the Travel and Hospitality HOL front page.
 
