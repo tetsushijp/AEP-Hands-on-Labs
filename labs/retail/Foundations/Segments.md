@@ -11,7 +11,7 @@ Lab 1 - Segmentation - Simple ExperienceEvent Segmentation
       <tr width="500">
             <td valign="top"><h3>Objective:</h3></td>
             <td valign="top"><br>In this exercise, we’ll create a basic segment using a single field in Call Center ExperienceEvent.</br>
-      <br>On an ongoing basis, a hotelier wants to create a basic segment for customers who make a booking with a Call Center representative. This segment will be added to other segments for other marketing events.</br>
+      <br>On an ongoing basis, a retailer wants to create a basic segment for customers who place an order with a Call Center representative. This segment will be added to other segments for other marketing events.</br>
             </td>
      </tr>
      <tr width="500">
@@ -51,30 +51,68 @@ Lab 1 - Segmentation - Simple ExperienceEvent Segmentation
 Instructions:
 -----------------
 1.	Navigate to Segment Builder in the left navigation
-2.	Click the gear icon to the right of Fields in the left pane
-3.	Verify ‘Show full XDM schema’ is selected, and if not, select it
 
+      <kbd><img src="./images/segmenthome.png"  /></kbd>
+
+2.    Click "Create segment" on the top right.
+
+      <kbd><img src="./images/createsegment.png"  /></kbd>
+
+3.	Click the gear icon to the right of Fields in the left pane
+
+      <kbd><img src="./images/segmentfieldsgear.png"  /></kbd>
+
+4.	Verify ‘Show full XDM schema’ is selected, and if not, select it
+      <!--
       ![Demo](./images/segment_gear.png)
+      -->
+      
+      <kbd><img src="./images/segment_gear.png"  /></kbd>
+      
+5.	Click on the gear icon again to hide the setting
 
-4.	Click on the gear icon again to hide the setting
-5.	Select ‘Events’ under Fields
-6.	Click on ‘XDM ExperienceEvent’ under Browse Classes
-7.	Click on ‘Adobeamericaspot 3’ to expand the objects below that namespace
-8.	Click on ‘Call Details’
-9.	Drag the ‘Call Selected Reason’ field over to the Segment canvas
+      <kbd><img src="./images/segmentfieldsgearclose.png"  /></kbd>
 
-![Demo](./images/segment_travel_callselectedreason.png)
+6.	Select ‘Events’ under Fields
 
-10.	In the text box to the right of equals, type “Reservation Place Booking” and press ‘Enter’
+      <kbd><img src="./images/segmentevents.png"  /></kbd>
 
-![Demo](./images/segment_travel_reservationbooking.png)
+7.	Click on ‘XDM ExperienceEvent’ under Browse Classes
 
-11.	Ensure ‘Streaming’ is enabled in the right pane
-12.	Enter the segment name “Call Center Reservation Booking” followed by your Student ID (e.g. “Call Center “Reservation Booking 005”
-13.	Enter the same value as the description
-14.	Save the Segment
+      <kbd><img src="./images/segment_xdm_ee.png"  /></kbd>
+      
+8.	Click on ‘Adobeamericaspot 5’ to expand the objects below that namespace
+      
+      <kbd><img src="./images/segment_xdm_pot5.png"  /></kbd>
 
-![Demo](./images/segment_travel_reservationbookingsave.png)
+9.	Click on ‘Call Details’
+      <!--
+      <kbd><img src="./images/datasetshome.png"  /></kbd>      
+      -->
+
+10.	Drag the ‘Call Selected Reason’ field over to the Segment canvas
+      <!--
+      ![Demo](./images/segment_travel_callselectedreason.png)
+      -->
+      
+      <kbd><img src="./images/segment_travel_callselectedreason.png"  /></kbd>    
+      
+11.	In the text box to the right of equals, type “Place Order” and press ‘Enter’
+      <!--
+      ![Demo](./images/segment_travel_reservationbooking.png)
+      -->
+      
+      <kbd><img src="./images/segment_travel_reservationbooking.png"  /></kbd>  
+
+12.	Ensure ‘Streaming’ is enabled in the right pane
+13.	Enter the segment name “Call Center Order” followed by your Student ID (e.g. “Call Center “Order 005”
+14.	Enter the same value as the description
+15.	Save the Segment
+      <!--
+      ![Demo](./images/segment_travel_reservationbookingsave.png)
+      -->
+      
+      <kbd><img src="./images/segment_travel_reservationbookingsave.png"  /></kbd>  
       
 NOTE: Estimate link may not show results if qualified profiles are statistically small and not recognized across datset scans 
 <br>
