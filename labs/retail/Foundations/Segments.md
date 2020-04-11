@@ -105,7 +105,7 @@ Instructions:
       <kbd><img src="./images/segment_travel_reservationbooking.png"  /></kbd>  
 
 12.	Ensure ‘Streaming’ is enabled in the right pane
-13.	Enter the segment name “Call Center Order” followed by your Student ID (e.g. “Call Center “Order 005”
+13.	Enter the segment name “Call Center Order” followed by your Student ID (e.g. “Call Center “Order 005”)
 14.	Enter the same value as the description
 15.	Save the Segment
       <!--
@@ -133,7 +133,7 @@ Lab 2 - Segmentation - Multi-Entity Sequential Segmentation
       <tr width="500">
             <td valign="top"><h3>Objective:</h3></td>
             <td valign="top"><br>In this exercise, we’ll create a segment using both a Profile Attribute and ExperienceEvents using a Sequential Segment that compares multiple event conditions</br>
-      <br>This month, a hotelier wants to email a spa package offer to existing female customers who have viewed or begun an online booking for their Lily Suites property but have not booked the property after an hour of either online event.</br></td>
+      <br>This month, a retailer wants to email a promotional discount offer to existing female customers who have viewed or begun an online order for their premier product but have not ordered the item after an hour of either online event.</br></td>
      </tr>
      <tr width="500">
            <td valign="top"><h3>Prerequisites:</h3></td>
@@ -172,59 +172,95 @@ Lab 2 - Segmentation - Multi-Entity Sequential Segmentation
 Instructions:
 -----------------
 1.	Navigate to Segment Builder in the left navigation
-2.	Click the gear icon to the right of Fields in the left pane
-3.	Verify ‘Show full XDM schema’ is selected
-4.	Click on the gear icon again to hide the setting
-5.	Select ‘Attributes’ under Fields
-6.	Click on the ‘XDM Individual Profile’ object under Browse Attributes
-7.	Click on ‘Person’ 
-8.	Drag the ‘Gender’ field to the Segment canvas
-9.	Start entering ‘Female’ in the text box and when the value displays, select it and press Enter. The ‘Gender’ field is an enum field to limit the values stored in that field.
 
-![Demo](./images/segment_travel_me_gender.png)
+      <kbd><img src="./images/segmenthome.png"  /></kbd>
 
-10.	Next, select ‘Events’ under Fields in the left pane
-11.	Under ‘Event Types’ locate the ‘Product Views’ event and drag that to the segment canvas below the Profile attribute just added
-12.	Under ‘Events’ in the left pane, locate ‘Checkouts’ and drag that to the segment canvas below the ‘Product Views’ event so that they are vertically stacked.
-13.	Update the operator to ‘Or’ between ‘Product Views’ and ‘Checkouts’
+2.    Click "Create segment" on the top right.
 
-![Demo](./images/segment_travel_me_prodviewcheckout.png)
+      <kbd><img src="./images/createsegment.png"  /></kbd>
+      
+      
+3.	Click the gear icon to the right of Fields in the left pane
 
-14.	Under ‘Events in the left pane, locate ‘Purchases’ and drag that to the segment canvas to the right of the ‘Product Views’ and ‘Purchase’ events
+      <kbd><img src="./images/segmentfieldsgear.png"  /></kbd>
 
-![Demo](./images/segment_travel_me_purchase.png)
+4.	Verify ‘Show full XDM schema’ is selected and if not, select it
 
-15.	Click on ‘Product Views’ in the segment canvas. A container will appear below to Include and XDM ExperienceEvent
-16.	In the left pane, click on ‘XDM ExperienceEvent’ and ‘Product list items’ in the resulting display
-17.	Select the ‘SKU’ field and drag that into the ‘XDM ExperienceEvent’ container for ‘Product Views’
-18.	Enter ‘prd1030’ in the text box to the right of SKU = and press ‘Enter’
+      <kbd><img src="./images/segment_gear.png"  /></kbd>
 
-![Demo](./images/segment_travel_me_pvsku.png)
+5.	Click on the gear icon again to hide the setting
+    
+      <kbd><img src="./images/segmentfieldsgearclose.png"  /></kbd>
 
-19.	Click on ‘Checkouts’ in the segment canvas. A container will appear below to Include and XDM ExperienceEvent
-20.	In the left pane, click on ‘XDM ExperienceEvent’ and ‘Product list items’ in the resulting display
-21.	Select the ‘SKU’ field and drag that into the ‘XDM ExperienceEvent’ container for ‘Checkouts’
-22.	Enter ‘prd1030’ in the text box to the right of SKU = and press ‘Enter’
-23.	Click on ‘Purchases’ in the segment canvas. A container will appear below to Include and XDM ExperienceEvent
-24.	In the left pane, click on ‘XDM ExperienceEvent’ and ‘Product list items’ in the resulting display
-25.	Select the ‘SKU’ field and drag that into the ‘XDM ExperienceEvent’ container for ‘Purchases’
-26.	Enter ‘prd1030’ in the text box to the right of SKU = and press ‘Enter’
-27.	Change the container operator to ‘Exclude’ for ‘Purchases’
+6.	Select ‘Attributes’ under Fields
+7.	Click on the ‘XDM Individual Profile’ object under Browse Attributes
+8.	Click on ‘Person’ 
+9.	Drag the ‘Gender’ field to the Segment canvas
+10.	Start entering ‘Female’ in the text box and when the value displays, select it and press Enter. The ‘Gender’ field is an enum field to limit the values stored in that field.
+      <!--
+      ![Demo](./images/segment_travel_me_gender.png)
+      -->
+     
+     <kbd><img src="./images/segment_travel_me_gender.png"  /></kbd>
+      
+11.	Next, select ‘Events’ under Fields in the left pane
+12.	Under ‘Event Types’ locate the ‘Product Views’ event and drag that to the segment canvas below the Profile attribute just added
+13.	Under ‘Events’ in the left pane, locate ‘Checkouts’ and drag that to the segment canvas below the ‘Product Views’ event so that they are vertically stacked.
+14.	Update the operator to ‘Or’ between ‘Product Views’ and ‘Checkouts’
+      <!--
+      ![Demo](./images/segment_travel_me_prodviewcheckout.png)
+      -->
+      <kbd><img src="./images/segment_travel_me_prodviewcheckout.png"  /></kbd>
+      
+15.	Under ‘Events in the left pane, locate ‘Purchases’ and drag that to the segment canvas to the right of the ‘Product Views’ and ‘Purchase’ events
+      <!--
+      ![Demo](./images/segment_travel_me_purchase.png)
+      -->
+            
+       <kbd><img src="./images/segment_travel_me_purchase.png"  /></kbd>
+            
+16.	Click on ‘Product Views’ in the segment canvas. A container will appear below to Include and XDM ExperienceEvent
+17.	In the left pane, click on ‘XDM ExperienceEvent’ and ‘Product list items’ in the resulting display
+18.	Select the ‘SKU’ field and drag that into the ‘XDM ExperienceEvent’ container for ‘Product Views’
+19.	Enter ‘prd1030’ in the text box to the right of SKU = and press ‘Enter’
+      <!--
+      ![Demo](./images/segment_travel_me_pvsku.png)
+      -->
+      <kbd><img src="./images/segment_travel_me_pvsku.png"  /></kbd>
 
-![Demo](./images/segment_travel_me_purchasesku.png)
-
-28.	At the top of the ‘Events’ canvas, update the time value to ‘This month’
-29.	In the middle, update the time value to ‘After 1 Hour’ between the ‘Product Views’ and ‘Checkouts’ and ‘Purchases’.
-
-![Demo](./images/segment_travel_me_purchasetime.png)
-
-30.	Ensure ‘Streaming’ is enabled in the right pane
-31.	Enter the segment name “Lily Suites High Intent Female Bookers” followed by your Student ID (e.g. “Lily Suites High Intent Female Bookers 005”
-32.	Enter the same value as the description
-33.	Save the Segment
-
-![Demo](./images/segment_travel_me_save.png)
-
+20.	Click on ‘Checkouts’ in the segment canvas. A container will appear below to Include and XDM ExperienceEvent
+21.	In the left pane, click on ‘XDM ExperienceEvent’ and ‘Product list items’ in the resulting display
+22.	Select the ‘SKU’ field and drag that into the ‘XDM ExperienceEvent’ container for ‘Checkouts’
+23.	Enter ‘prd1030’ in the text box to the right of SKU = and press ‘Enter’
+24.	Click on ‘Purchases’ in the segment canvas. A container will appear below to Include and XDM ExperienceEvent
+25.	In the left pane, click on ‘XDM ExperienceEvent’ and ‘Product list items’ in the resulting display
+26.	Select the ‘SKU’ field and drag that into the ‘XDM ExperienceEvent’ container for ‘Purchases’
+27.	Enter ‘prd1030’ in the text box to the right of SKU = and press ‘Enter’
+28.	Change the container operator to ‘Exclude’ for ‘Purchases’
+      <!--
+      ![Demo](./images/segment_travel_me_purchasesku.png)
+      -->
+      
+      <kbd><img src="./images/segment_travel_me_purchasesku.png"  /></kbd>
+            
+29.	At the top of the ‘Events’ canvas, update the time value to ‘This month’
+30.	In the middle, update the time value to ‘After 1 Hour’ between the ‘Product Views’ and ‘Checkouts’ and ‘Purchases’.
+      <!--
+      ![Demo](./images/segment_travel_me_purchasetime.png)
+      -->
+      
+      <kbd><img src="./images/segment_travel_me_purchasetime.png"  /></kbd>      
+      
+31.	Ensure ‘Streaming’ is enabled in the right pane
+32.	Enter the segment name “Lily Suites High Intent Female Bookers” followed by your Student ID (e.g. “Lily Suites High Intent Female Bookers 005”
+33.	Enter the same value as the description
+34.	Save the Segment
+      <!--
+      ![Demo](./images/segment_travel_me_save.png)
+      -->
+      
+      <kbd><img src="./images/segment_travel_me_save.png"  /></kbd>       
+      
  
 <br>
 <br>
@@ -243,7 +279,7 @@ Lab 3 - Segmentation - Dynamic Segmentation
       <tr width="500">
             <td valign="top"><h3>Objective:</h3></td>
             <td valign="top"><br>In this exercise, we’ll create a segment using Commerce ExperienceEvents and dynamic segmentation. Dynamic segmentation solves the scalability problems marketers traditionally face when building segments for marketing campaigns or other use cases where setting up multiple variations of the same segment was required.</br>
-      <br>On an ongoing basis, a hotelier wants to remarket to customers who have clicked through an email offer to any property, started the booking online within 3 days, but have not booked the hotel room within 1 day.</br></td>
+      <br>On an ongoing basis, a retailer wants to remarket to customers who have clicked through an email offer for an item, started the order online in the last 3 days, but have not ordered the item within 1 day.</br></td>
      </tr>
      <tr width="500">
            <td valign="top"><h3>Prerequisites:</h3></td>
