@@ -252,7 +252,7 @@ Instructions:
       <kbd><img src="./images/segment_travel_me_purchasetime.png"  /></kbd>      
       
 31.	Ensure ‘Streaming’ is enabled in the right pane
-32.	Enter the segment name “Lily Suites High Intent Female Bookers” followed by your Student ID (e.g. “Lily Suites High Intent Female Bookers 005”
+32.	Enter the segment name “Premier Product High Intent Female Purchasers” followed by your Student ID (e.g. “Premier Product High Intent Female Purchasers 005”)
 33.	Enter the same value as the description
 34.	Save the Segment
       <!--
@@ -317,52 +317,92 @@ Lab 3 - Segmentation - Dynamic Segmentation
 
 Instructions:
 -----------------
-
 1.	Navigate to Segment Builder in the left navigation
-2.	Click the gear icon to the right of Fields in the left pane
-3.	Verify ‘Show full XDM schema’ is selected
-4.	Click on the gear icon again to hide the setting
-5.	In the left pane, select ‘Events’ under Fields
-6.	In the search box, enter ‘Marketing Channel’
 
-![Demo](./images/segments_travel_dyn_mchannel.png)
+      <kbd><img src="./images/segmenthome.png"  /></kbd>
 
-7.	Under ‘Browse Classes’, drag ‘Marketing Channel (eVar1)’ to the segment canvas.
-8.	In the left pane, clear out the Search box
-9.	Under ‘Event Types’, locate ‘Checkouts, and drag this to the segment canvas to the right of the ‘Any’ event
-10.	In the left pane, locate ‘Purchases’ and drag this to the segment canvas to the right of the ‘Checkouts’ event.
-11.	Click on ‘Any’ in the segment canvas
-12.	Type ‘Email’ in the text box to the right of ‘Marketing Channel (eVar1)’ equals and press Enter
+2.    Click "Create segment" on the top right.
 
-![Demo](./images/segments_travel_dyn_mchannel_email.png)
+      <kbd><img src="./images/createsegment.png"  /></kbd>
 
-13.	Click on ‘Checkouts in the segment canvas
-14.	In the left pane, click on ‘XDM ExperienceEvent’ and ‘Product list items’ in the resulting display
-15.	Select the ‘SKU’ field and drag that into the ‘XDM ExperienceEvent’ container for ‘Checkouts’
-16.	Change the operator to “exists”
+3.	Click the gear icon to the right of Fields in the left pane
 
-![Demo](./images/segments_travel_dyn_prodlistitemmenu.png)
-![Demo](./images/segments_travel_dyn_skuexists.png)
+      <kbd><img src="./images/segmentfieldsgear.png"  /></kbd>
 
-17.	In the left pane, click on ‘XDM ExperienceEvent’ and ‘Product list items’ in the resulting display
-18.	Select the ‘SKU’ field and drag that into the ‘XDM ExperienceEvent’ container for ‘Purchases’
-19.	In the left pane, click on the Events link. You should see ‘Browse Classes’, ‘Event Types’ and ‘Browse Variables’ sections appear
+4.	Verify ‘Show full XDM schema’ is selected, and if not, select it
+      <!--
+      ![Demo](./images/segment_gear.png)
+      -->
+      
+      <kbd><img src="./images/segment_gear.png"  /></kbd>
+      
+5.	Click on the gear icon again to hide the setting
 
-![Demo](./images/segments_travel_dyn_browsevarmenu.png)
+      <kbd><img src="./images/segmentfieldsgearclose.png"  /></kbd>
 
-20.	Locate ‘Checkouts1 | Product list items1’ and drag this to the right of ‘SKU equals’ in the ‘XDM Event Container’. Release one the dynamic variable is positioned over the second box displays and drop. The resulting statement should be ‘SKU equals Checkouts1 | Product list items1 XDM ExperienceEvent > Product list items > SKU’
+6.	Select ‘Events’ under Fields
+
+      <kbd><img src="./images/segmentevents.png"  /></kbd>
+      
+7.	In the search box, enter ‘Marketing Channel’
+      <!--
+      ![Demo](./images/segments_travel_dyn_mchannel.png)
+      -->
+      
+      <kbd><img src="./images/segments_travel_dyn_mchannel.png"  /></kbd>      
+            
+8.	Under ‘Browse Classes’, drag ‘Marketing Channel (eVar1)’ to the segment canvas.
+9.	In the left pane, clear out the Search box
+10.	Under ‘Event Types’, locate ‘Checkouts, and drag this to the segment canvas to the right of the ‘Any’ event
+11.	In the left pane, locate ‘Purchases’ and drag this to the segment canvas to the right of the ‘Checkouts’ event.
+12.	Click on ‘Any’ in the segment canvas
+13.	Type ‘Email’ in the text box to the right of ‘Marketing Channel (eVar1)’ equals and press Enter
+      <!--
+      ![Demo](./images/segments_travel_dyn_mchannel_email.png)
+      -->
+      
+      <kbd><img src="./images/segments_travel_dyn_mchannel_email.png"  /></kbd>       
+          
+14.	Click on ‘Checkouts in the segment canvas
+15.	In the left pane, click on ‘XDM ExperienceEvent’ and ‘Product list items’ in the resulting display
+16.	Select the ‘SKU’ field and drag that into the ‘XDM ExperienceEvent’ container for ‘Checkouts’
+17.	Change the operator to “exists”
+      <!--
+      ![Demo](./images/segments_travel_dyn_prodlistitemmenu.png)
+      -->
+      
+      <kbd><img src="./images/segments_travel_dyn_prodlistitemmenu.png"  /></kbd>          
+      
+      <!--
+      ![Demo](./images/segments_travel_dyn_skuexists.png)
+      -->
+      <kbd><img src="./images/segments_travel_dyn_skuexists.png"  /></kbd>          
+
+18.	In the left pane, click on ‘XDM ExperienceEvent’ and ‘Product list items’ in the resulting display
+19.	Select the ‘SKU’ field and drag that into the ‘XDM ExperienceEvent’ container for ‘Purchases’
+20.	In the left pane, click on the Events link. You should see ‘Browse Classes’, ‘Event Types’ and ‘Browse Variables’ sections appear
+      <!--
+      ![Demo](./images/segments_travel_dyn_browsevarmenu.png)
+      -->
+      
+      <kbd><img src="./images/segments_travel_dyn_browsevarmenu.png"  /></kbd>  
+      
+21.	Locate ‘Checkouts1 | Product list items1’ and drag this to the right of ‘SKU equals’ in the ‘XDM Event Container’. Release one the dynamic variable is positioned over the second box displays and drop. The resulting statement should be ‘SKU equals Checkouts1 | Product list items1 XDM ExperienceEvent > Product list items > SKU’
 
 
-21.	Change the ‘XDM ExperienceEvent’ container for ‘Purchases1’ to ‘Exclude’
+22.	Change the ‘XDM ExperienceEvent’ container for ‘Purchases1’ to ‘Exclude’
+      <!--
+      ![Demo](./images/segments_travel_dyn_skuexists.png)
+      -->
 
-![Demo](./images/segments_travel_dyn_skuexists.png)
-
-22.	In the segment canvas, update the time value between ‘Any’ and ‘Checkouts’ to ‘Within 3 days’
-23.	Next, update the time value between ‘’Any’ and ‘Purchases’ to ‘Within 1 day’
-34.	Ensure ‘Streaming’ is enabled in the right pane
-35.	Enter the segment name “Email Channel Online Reservation Abandoners” followed by your Student ID (e.g. “Email Channel Online Reservation Abandoners 005”
-36.	Enter the same value as the description
-24.	Save the Segment
+      <kbd><img src="./images/segments_travel_dyn_skuexists.png"  /></kbd>  
+      
+23.	In the segment canvas, update the time value between ‘Any’ and ‘Checkouts’ to ‘Within 3 days’
+24.	Next, update the time value between ‘’Any’ and ‘Purchases’ to ‘Within 1 day’
+25.	Ensure ‘Streaming’ is enabled in the right pane
+26.	Enter the segment name “Email Channel Online Order Abandoners” followed by your Student ID (e.g. “Email Channel Online Order Abandoners 005”)
+27.	Enter the same value as the description
+28.	Save the Segment
 
 
 
