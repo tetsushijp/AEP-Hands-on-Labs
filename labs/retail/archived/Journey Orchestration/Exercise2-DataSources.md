@@ -2,25 +2,25 @@
 
 In this exercise, you'll create a custom External Data Source by making use of Journey Orchestration in combination with Adobe Experience Platform
 
-Go to [https://experience.adobe.com/#/@adobeamericaspot1/home](https://experience.adobe.com/#/@adobeamericaspot1/home)
+Go to [https://experience.adobe.com/#/@adobeamericaspot1/home](https://experience.adobe.com/#/@adobeamericaspot5/home)
 
-You'll see the ``Adobe Experience Cloud``-homepage.
+You'll see the `Adobe Experience Cloud`-homepage.
 
 ![Demo](./images/aec.png)
 
-Click on ``Journey Orchestration``.
- 
+Click on `Journey Orchestration`.
+
 ![Demo](./images/aecjo.png)
 
-Next, you'll see the ``Journey Orchestration``-homepage.
+Next, you'll see the `Journey Orchestration`-homepage.
 
 ![Demo](./images/aecjoh.png)
 
-In the menu, click on ``Data Sources``.
+In the menu, click on `Data Sources`.
 
 ![Demo](./images/menudatasources.png)
 
-You'll then see the ``Data Sources``-list.
+You'll then see the `Data Sources`-list.
 
 <!---
 ![Demo](./images/dshome.png)
@@ -28,7 +28,7 @@ You'll then see the ``Data Sources``-list.
 
 <kbd><img src="./images/dshome.png"  /></kdb>
 
-Click ``Add`` to start adding your data source.
+Click `Add` to start adding your data source.
 
 ![Demo](./images/add.png)
 
@@ -40,15 +40,15 @@ You'll see an empty data source popup.
 
 <kbd><img src="./images/emptyds.png"  /></kdb>
 
-We will use ``Open Weather Map``-service. For reference you can go to [https://openweathermap.org/](https://openweathermap.org/).
+We will use `Open Weather Map`-service. For reference you can go to [https://openweathermap.org/](https://openweathermap.org/).
 
-Back to ``Journey Orchestration``, to your empty ``External Data Source``-popup.
- 
+Back to `Journey Orchestration`, to your empty `External Data Source`-popup.
+
 Name the Data Source, use **weatherApi{emailAddress}** and replace **emailAddress** with your email address name. E.g. **weatherApiPuchadha**.
 
 Set Description to: **Access to the Open Weather Map**.
 
-The URL for the Open Weather Map API is: ``http://api.openweathermap.org/data/2.5/weather``
+The URL for the Open Weather Map API is: `http://api.openweathermap.org/data/2.5/weather`
 
 <!---
 ![Demo](./images/dsname.png)
@@ -59,13 +59,12 @@ The URL for the Open Weather Map API is: ``http://api.openweathermap.org/data/2.
 Next, you need to select the Authentication to use. Select from the 'Type' dropd-down.
 Use the following values for the fields:
 
-| Field               | Value              |
-|:-----------------------:| :-----------------------|
-| Type            |**API key**            |
-| Name           | **APPID**         |
-| Value           | **4ca8c0b493237afd3bed3e70f399b795**         |
-| Location           | **Query Parameter**         |
-
+|  Field   | Value                                |
+| :------: | :----------------------------------- |
+|   Type   | **API key**                          |
+|   Name   | **APPID**                            |
+|  Value   | **4ca8c0b493237afd3bed3e70f399b795** |
+| Location | **Query Parameter**                  |
 
 <!---
 ![Demo](./images/dsauth.png)
@@ -73,7 +72,7 @@ Use the following values for the fields:
 
 <kbd><img src="./images/dsauth.png"  /></kdb>
 
-Finally, you need to define a ``FieldGroup``, which is the request you'll be sending to the Weather API. 
+Finally, you need to define a `FieldGroup`, which is the request you'll be sending to the Weather API.
 
 In our case, we want to use the ZipCode to request the Current Weather for that Zip.
 
@@ -83,10 +82,9 @@ In our case, we want to use the ZipCode to request the Current Weather for that 
 
 <kbd><img src="./images/fg.png"  /></kdb>
 
-
 In order to match the expected API Request, configure your FieldGroup as follows:
 
-**IMPORTANT** 
+**IMPORTANT**
 
 The Field group name has to be unique, please use this naming convention: **WeatherByZipemailAddress** so in this case, the name should be **WeatherByZipPuchadha**
 
@@ -104,7 +102,7 @@ Or you can copy the JSON Response from here:
 
 ```json
 {
-  "coord": {"lon": -122.08,"lat": 37.39},
+  "coord": { "lon": -122.08, "lat": 37.39 },
   "weather": [
     {
       "id": 800,
@@ -146,7 +144,7 @@ Or you can copy the JSON Response from here:
 }
 ```
 
-Click the ``Edit Payload``-icon.
+Click the `Edit Payload`-icon.
 
 <!---
 ![Demo](./images/owmapi2.png)
@@ -162,11 +160,11 @@ Paste your JSON Response.
 
 ![Demo](./images/owmapi4.png)
 
-Click ``Save``.
+Click `Save`.
 
 ![Demo](./images/dssave.png)
 
-Your custom Data Source configuration is now complete. Scroll up and click ``Save``.
+Your custom Data Source configuration is now complete. Scroll up and click `Save`.
 
 <!---
 ![Demo](./images/dssave2.png)
@@ -174,7 +172,7 @@ Your custom Data Source configuration is now complete. Scroll up and click ``Sav
 
 <kbd><img src="./images/dssave2.png"  /></kdb>
 
-Your Data Source has now been created successfully and is part of the ``Data Sources``-list.
+Your Data Source has now been created successfully and is part of the `Data Sources`-list.
 
 <!---
 ![Demo](./images/dslist.png)
@@ -182,8 +180,4 @@ Your Data Source has now been created successfully and is part of the ``Data Sou
 
 <kbd><img src="./images/dslist.png"  /></kdb>
 
-
-
-
 Next Step: [Exercise 3 - Define a Custom Action](./Exercise3-Action.md)
-
