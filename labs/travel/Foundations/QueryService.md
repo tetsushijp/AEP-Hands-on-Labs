@@ -1,4 +1,4 @@
-Lab 8.1 - Pull Top Cities
+Lab - Pull Top Cities
 ==========
 <table style="border-collapse: collapse; border: none;" class="tab" cellspacing="0" cellpadding="0">
 
@@ -70,7 +70,7 @@ LIMIT  10;
 
 
 
-Lab 8.2 - Simple commands within PSQL
+Lab - Simple commands within PSQL
 ==========
 <table style="border-collapse: collapse; border: none;" class="tab" cellspacing="0" cellpadding="0">
 
