@@ -85,34 +85,39 @@ Instructions:
       
       <kbd><img src="./images/segment_xdm_pot5.png"  /></kbd>
 
-9.	Click on ‘Call Details’
-      <!--
-      <kbd><img src="./images/datasetshome.png"  /></kbd>      
-      -->
+9.	Click on ‘callcenterDetails’
+   
+      <kbd><img src="./images/segment_xdm_calldetails.png"  /></kbd>      
 
-10.	Drag the ‘Call Selected Reason’ field over to the Segment canvas
+10.	Drag the ‘callSelectedReason’ field over to the Segment canvas
       <!--
       ![Demo](./images/segment_travel_callselectedreason.png)
       -->
       
-      <kbd><img src="./images/segment_travel_callselectedreason.png"  /></kbd>    
+      <kbd><img src="./images/segment_retail_callselectedreason.png"  /></kbd>    
       
 11.	In the text box to the right of equals, type “Place Order” and press ‘Enter’
       <!--
       ![Demo](./images/segment_travel_reservationbooking.png)
       -->
       
-      <kbd><img src="./images/segment_travel_reservationbooking.png"  /></kbd>  
+      <kbd><img src="./images/segment_retail_placeorder.png"  /></kbd>  
 
 12.	Ensure ‘Streaming’ is enabled in the right pane
-13.	Enter the segment name “Call Center Order” followed by your Student ID (e.g. “Call Center “Order 005”)
-14.	Enter the same value as the description
-15.	Save the Segment
+
+      <kbd><img src="./images/segment_retail_streaming.png"  /></kbd>  
+
+13.	Enter the segment name “Call Center Order” followed by your Student ID (e.g. “Call Center Order 025”)
+	<br>Enter the same value as the description
+      
+      <kbd><img src="./images/segment_retail_segmentname.png"  /></kbd>       
+           
+14.	Save the Segment
       <!--
       ![Demo](./images/segment_travel_reservationbookingsave.png)
       -->
       
-      <kbd><img src="./images/segment_travel_reservationbookingsave.png"  /></kbd>  
+      <kbd><img src="./images/segment_retail_ordersave.png"  /></kbd>  
       
 NOTE: Estimate link may not show results if qualified profiles are statistically small and not recognized across datset scans 
 <br>
