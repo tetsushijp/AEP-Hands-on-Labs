@@ -1,4 +1,4 @@
-Lab 5.1 - DULE - Apply Data Usage Label and Create Custom Data Usage Policy
+Lab - DULE - Apply Data Usage Label and Create Custom Data Usage Policy
 ==========
 <table style="border-collapse: collapse; border: none;" class="tab" cellspacing="0" cellpadding="0">
 
