@@ -1,4 +1,4 @@
-Lab 2.1 - Construct a Dataset from Schema
+Lab - Construct a Dataset from Schema
 ==========
 <table style="border-collapse: collapse; border: none;" class="tab" cellspacing="0" cellpadding="0">
 
