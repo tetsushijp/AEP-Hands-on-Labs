@@ -82,7 +82,7 @@ NOTE: Estimate link may not show results if qualified profiles are statistically
 <br>
 
 
-Lab 2 - Segmentation - Multi-Entity Sequential Segmentation
+Lab - Segmentation - Multi-Entity Sequential Segmentation
 ==========
 <table style="border-collapse: collapse; border: none;" class="tab" cellspacing="0" cellpadding="0">
 
