@@ -192,7 +192,7 @@ Instructions:
 <br>
 <br>
 
-Lab 3 - Segmentation - Dynamic Segmentation
+Lab - Segmentation - Dynamic Segmentation
 ==========
 <table style="border-collapse: collapse; border: none;" class="tab" cellspacing="0" cellpadding="0">
 
