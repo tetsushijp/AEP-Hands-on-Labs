@@ -1,4 +1,4 @@
-Lab 5.1 - Profiles - UPS Review
+Lab - Profiles - UPS Review
 ==========
 <table style="border-collapse: collapse; border: none;" class="tab" cellspacing="0" cellpadding="0">
 
