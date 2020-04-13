@@ -65,7 +65,7 @@ Instructions:
      ![Demo](./images/postmanimport.png)
 
 
-3. Then drag an drop 'AEP - Hands On Labs- POT 3.postman_environment.json' and 'AEP - HandsOnLabs Collection.postman_collection.json' files
+3. Then drag an drop 'AEP - Hands On Labs- POT 5.postman_environment.json' and 'AEP - HandsOnLabs Collection.postman_collection.json' files
 
     <!---
     ![Demo](./images/postmanimport1.png)
@@ -74,7 +74,7 @@ Instructions:
     <kbd><img src="./images/postmanimport1.png"  /></kdb>
      
      
-4. Select 'AEP - Hands On Labs- POT 3' environment.
+4. Select 'AEP - Hands On Labs- POT 5' environment.
 
 
     <!---
@@ -176,4 +176,4 @@ Instructions:
 12. With that, Congratulations !! you have completed the API exercise.
 
 
-Return to [Lab Agenda Directory](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/travel/README.md#lab-agenda)
+Return to [Lab Agenda Directory](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/README.md#lab-agenda)
