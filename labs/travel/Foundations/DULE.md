@@ -31,7 +31,8 @@ Lab - DULE - Apply Data Usage Label and Create Custom Data Usage Policy
 <tbody valign="top">
       <tr>
             <td valign="middle" height="70"><b>section</b></td>
-            <td valign="middle" height="70"><img src="https://github.com/adobe/AEP-Hands-on-Labs/blob/master/assets/images/left_hand_nav_menu_datasets.png?raw=true" alt="Datasets"></td>
+            <td valign="middle" height="70"><img src="https://github.com/adobe/AEP-Hands-on-Labs/blob/master/assets/images/left_hand_nav_menu_datasets.png?raw=true" alt="Datasets">
+            <img src="https://github.com/adobe/AEP-Hands-on-Labs/blob/master/assets/images/left_hand_nav_menu_policies.png?raw=true" alt="Policies"></td>
       </tr>
       <tr>
             <td valign="middle" height="70"><b>version</b></td>
@@ -71,7 +72,7 @@ Congratulations, you applied your first data usage label to a dataset field. Sim
 
       ![Demo](./images/datausagepolicy1.png)
       
-5. Under the Policy details, enter name "Custom policy". Under Select governance labels, select "I1". On the right-hand side, make sure "Contains all of the labels" radio button is selected. Click "Next" button in the top right corner.
+5. Under the Policy details, enter name "Custom Policy". Under Select governance labels, select "I1". On the right-hand side, make sure "Contains all of the labels" radio button is selected. Click "Next" button in the top right corner.
       
       ![Demo](./images/datausagepolicy2.png)
 
