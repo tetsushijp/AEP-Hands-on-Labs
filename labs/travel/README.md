@@ -12,8 +12,8 @@ Please download your own attendee [lab content/uploads here](https://github.com/
 
 ### Adobe Experience Platform - Foundations
  - [Ingestion](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/travel/Foundations/Ingestion.md)
- - [Schemas](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/travel/Foundations/Schemas.md)
  - [Datasets](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/travel/Foundations/Datasets.md)
+ - [Schemas](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/travel/Foundations/Schemas.md)
  - [Profiles & Identities](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/travel/Foundations/Profiles.md)
  - [Segments](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/travel/Foundations/Segments.md)
  - [Query Service](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/travel/Foundations/DeepDive%20QueryService.md)
