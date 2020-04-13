@@ -56,15 +56,15 @@ Instructions:
 -----------------
 1. In the left-hand menu, navigate to "Datasets". Verify you're on the "Browse" tab. Scroll down and select the "CRM Profile Dataset" dataset.
 
-      ![Demo](./images/datausagelabel1.png)
+      ![Demo](./images/datausagelabel-1.png)
 
 2. Click "Data governance" tab. Select "address" in the FIELD NAME list. Click "Edit governance labels".
 
-      ![Demo](./images/datausagelabel2.png)
+      ![Demo](./images/datausagelabel-2.png)
 
 3. In the Edit governance labels overlay, expand "IDENTITY LABELS". Select "I1" and click the "Save changes" button.
 
-      ![Demo](./images/datausagelabel3.png)
+      ![Demo](./images/datausagelabel-3.png)
       
 Congratulations, you applied your first data usage label to a dataset field. Simple, right?
       
