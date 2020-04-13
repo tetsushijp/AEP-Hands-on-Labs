@@ -439,7 +439,7 @@ Instructions:
 
 	<kbd><img src="./images/segments_retail_events_any.png"  /></kbd> 
 
-13.	Type ‘Email’ in the text box to the right of ‘Marketing Channel (eVar1)’ equals and press Enter
+13.	Type ‘Email’ in the text box to the right of ‘eVar1’ equals and press Enter
       <!--
       ![Demo](./images/segments_travel_dyn_mchannel_email.png)
       -->
