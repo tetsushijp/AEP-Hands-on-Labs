@@ -496,7 +496,7 @@ Instructions:
 
 The resulting statement should be ‘SKU equals Checkouts1 | Product list items1 SKU XDM ExperienceEvent > Product list items > SKU’
 
-        <kbd><img src="./images/segments_retail_xdm_purchase_dyn_checkoutsku.png"  /></kbd> 
+   <kbd><img src="./images/segments_retail_xdm_purchase_dyn_checkoutsku.png"  /></kbd> 
 
 22.	Change the ‘XDM ExperienceEvent’ container for ‘Purchases1’ to ‘Exclude’
       <!--
