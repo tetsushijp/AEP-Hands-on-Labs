@@ -229,12 +229,10 @@ FROM
                              ORDER BY timestamp 
                              ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW) 
                   AS session
-            from   travel_demo_data_midvalues
- a
+            from   travel_demo_data_midvalues AS a
             where  a.endUserIDs._experience.mcid.id in ( 
                 select b.endUserIDs._experience.mcid.id
-                from   travel_demo_data_midvalues
- b
+                from   travel_demo_data_midvalues AS b
                 where web.webPageDetails.name = 'help' 
 				and b.endUserIDs._experience.mcid.id IS NOT NULL
             )
