@@ -425,7 +425,7 @@ Instructions:
 
 9.	In the left pane, clear out the Search box
 
-	<kbd><img src="./images/segments_retail_evar1_clear.png"  /></kbd> 
+	<kbd><img src="./images/segments_retail_serach_evar1_clear.png"  /></kbd> 
 
 10.	Under ‘Event Types’, locate ‘Checkouts, and drag this to the segment canvas to the right of the ‘Any’ event
 
