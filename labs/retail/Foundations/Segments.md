@@ -245,51 +245,63 @@ Instructions:
             
        <kbd><img src="./images/segment_travel_me_purchase.png"  /></kbd>
             
-16.	Click on ‘Product Views’ in the segment canvas. A container will appear below to Include and XDM ExperienceEvent
+16.	Click on ‘Product Views’ in the segment canvas. A container will appear below to Include a XDM ExperienceEvent
 
 	<kbd><img src="./images/segment_prodview_container.png"  /></kbd>
 
-17.	In the left pane, search for "sku". In the Browse Classes container, select "productSKU" and drag it into the ‘XDM ExperienceEvent’ container for ‘Product Views’
+17.	In the left pane, click on ‘XDM ExperienceEvent’ and ‘Product list items’ in the resulting display
+
+	<kbd><img src="./images/segment_xdm_prodlist.png"  /></kbd>
+
+18.	Select the 'SKU' field and drag it into the ‘XDM ExperienceEvent’ container for ‘Product Views’
 
 	<kbd><img src="./images/segment_xdm_prodsku.png"  /></kbd>
 
-18.	Enter ‘prd1030’ in the text box to the right of productSKU = and press ‘Enter’
+19.	Enter ‘prd1030’ in the text box to the right of productSKU = and press ‘Enter’
       <!--
       ![Demo](./images/segment_travel_me_pvsku.png)
       -->
       
-	<kbd><img src="./images/segment_xdm_prodsku_value.png"  /></kbd>
+	<kbd><img src="./images/segment_travel_me_pvsku.png"  /></kbd>
 
-19.	Click on ‘Checkouts’ in the segment canvas. A container will appear below to Include and XDM ExperienceEvent
+20.	Click on ‘Checkouts’ in the segment canvas. A container will appear below to Include a XDM ExperienceEvent
 
 	<kbd><img src="./images/segment_xdm_checkout_container.png"  /></kbd>
 
-20.	In the left pane, search for "sku". In the Browse Classes container, select "productSKU" and drag it into the ‘XDM ExperienceEvent’ container for ‘Checkouts’
+20.	In the left pane, click on ‘XDM ExperienceEvent’ and ‘Product list items’ in the resulting display
+
+	<kbd><img src="./images/segment_xdm_prodlist.png"  /></kbd>
+
+21.	Select the 'SKU' field and drag it into the ‘XDM ExperienceEvent’ container for ‘Product Views’
 
 	<kbd><img src="./images/segment_xdm_checkout_prodsku.png"  /></kbd>
 
-21.	Enter ‘prd1030’ in the text box to the right of prodSKU = and press ‘Enter’
+22.	Enter ‘prd1030’ in the text box to the right of prodSKU = and press ‘Enter’
 
 	<kbd><img src="./images/segment_xdm_checkout_prodsku_value.png"  /></kbd>
 
-22.	Click on ‘Purchases’ in the segment canvas. A container will appear below to Include and XDM ExperienceEvent
+23.	Click on ‘Purchases’ in the segment canvas. A container will appear below to Include a XDM ExperienceEvent
 
 	<kbd><img src="./images/segment_xdm_purchase_container.png"  /></kbd>
 
-23.	In the left pane, search for "sku". In the Browse Classes container, select "productSKU" and drag it into the ‘XDM ExperienceEvent’ container for ‘Purchases’
+23.	In the left pane, click on ‘XDM ExperienceEvent’ and ‘Product list items’ in the resulting display
 
-	<kbd><img src="./images/segment_xdm_purchase_container_sku.png"  /></kbd>
+	<kbd><img src="./images/segment_xdm_prodlist.png"  /></kbd>
 
-24.	Enter ‘prd1030’ in the text box to the right of SKU = and press ‘Enter’
+24.	Select the 'SKU' field and drag it into the ‘XDM ExperienceEvent’ container for ‘Product Views’
+
+	<kbd><img src="./images/segment_xdm_purchase_prodsku.png"  /></kbd>
+
+25.	Enter ‘prd1030’ in the text box to the right of SKU = and press ‘Enter’
 
 	<kbd><img src="./images/segment_xdm_purchase_container_sku_value.png"  /></kbd>
 
-25.	Change the container operator to ‘Exclude’ for ‘Purchases’
+26.	Change the container operator to ‘Exclude’ for ‘Purchases’
       <!--
       ![Demo](./images/segment_travel_me_purchasesku.png)
       -->
       
-      <kbd><img src="./images/segment_xdm_purchase_container_exclude.png"  /></kbd>
+      <kbd><img src="./images/segment_travel_me_purchasesku.png"  /></kbd>
             
 26.	At the top of the ‘Events’ canvas, update the time value to ‘This month’
 	
