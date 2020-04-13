@@ -53,7 +53,7 @@ Before we begin go to [https://platform.adobe.com/home](https://platform.adobe.c
 
 Instructions:
 -----------------
-1. In the left-hand menu, navigate to "Datasets". Verify you're on the "Browse" tab. Scroll down and select the "Profile Dataset" dataset.
+1. In the left-hand menu, navigate to "Datasets". Verify you're on the "Browse" tab. Scroll down and select the "CRM Profile Dataset" dataset.
 
       ![Demo](./images/datausagelabel1.png)
 
