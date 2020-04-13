@@ -11,7 +11,7 @@ Lab - DULE - Apply Data Usage Label and Create Custom Data Usage Policy
       <tr width="500">
             <td valign="top"><h3>Objective:</h3>
             </td>
-            <td valign="top"><br>This lab will show you how to apply a data usage labels to a dataset field and create a custom data usage policy.
+            <td valign="top"><br>This lab will show you how to apply a data usage labels to a dataset field and create a custom data usage policy. <br>
             </td>
      </tr>
      <tr width="500">
