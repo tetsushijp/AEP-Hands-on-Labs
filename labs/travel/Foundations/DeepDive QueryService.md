@@ -146,7 +146,7 @@ all=>
 **SQL**
 
 ```sql
-select distinct _experience.analytics.customDimensions.eVars.eVar9, crm._adobeamericaspot3.Email as emailAddress
+select distinct _experience.analytics.customDimensions.eVars.eVar9, crm._adobeamericaspot3.identification.Email as emailAddress
 from   travel_demo_data_midvalues
  aa,
 profile_dataset crm
