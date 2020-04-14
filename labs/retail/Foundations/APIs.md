@@ -1,5 +1,5 @@
-Lab - Using Data Ingestion API to Stitch customer data.
-==========
+# Lab - Using Data Ingestion API to Stitch customer data.
+
 <table style="border-collapse: collapse; border: none;" class="tab" cellspacing="0" cellpadding="0">
 
 <tr style="border: none;">
@@ -48,32 +48,29 @@ Lab - Using Data Ingestion API to Stitch customer data.
 </tr>
 </table>
 
-Instructions:
------------------
+## Instructions:
+
 1. Open the Postman
 
-    <!---
-    ![Demo](./images/postmanhome.png)
-    --->
+   <!---
+   ![Demo](./images/postmanhome.png)
+   --->
 
-    <kbd><img src="./images/postmanhome.png"  /></kdb>
+   <kbd><img src="./images/postmanhome.png"  /></kdb>
 
-
-2. Click on Import 
+2) Click on Import
 
 
      ![Demo](./images/postmanimport.png)
 
-
 3. Then drag an drop 'AEP - Hands On Labs- POT 5.postman_environment.json' and 'AEP - HandsOnLabs Collection.postman_collection.json' files
 
-    <!---
-    ![Demo](./images/postmanimport1.png)
-    --->
+   <!---
+   ![Demo](./images/postmanimport1.png)
+   --->
 
-    <kbd><img src="./images/postmanimport1.png"  /></kdb>
-     
-     
+   <kbd><img src="./images/postmanimport1.png"  /></kdb>
+
 4. Select 'AEP - Hands On Labs- POT 5' environment.
 
 
@@ -82,38 +79,37 @@ Instructions:
     --->
 
     <kbd><img src="./images/postmanenv.png"  /></kdb>
-    
-     
-     
+
+
+
+
 5. Click on the 'AEP - HandsOnLabs Collection' and open 'Step 1 : List all data inlet'.
 
-    This API call will list all of the HTTPS API endpoint on our instance. These endpoints are allowed to stream in data into AEP. 
+   This API call will list all of the HTTPS API endpoint on our instance. These endpoints are allowed to stream in data into AEP.
 
-    <!---
-    ![Demo](./images/postmanstep1.png)
-    --->
+   <!---
+   ![Demo](./images/postmanstep1.png)
+   --->
 
-    <kbd><img src="./images/postmanstep1.png"  /></kdb>
-    
-    
+   <kbd><img src="./images/postmanstep1.png"  /></kdb>
+
 6. Hit Send
 
-    <!---
-    ![Demo](./images/postmansend.png)
-    --->
+   <!---
+   ![Demo](./images/postmansend.png)
+   --->
 
-    <kbd><img src="./images/postmansend.png"  /></kdb>
+   <kbd><img src="./images/postmansend.png"  /></kdb>
 
-    On the API response, you will see the details for all data inlets
+   On the API response, you will see the details for all data inlets
 
-    <!---
-    ![Demo](./images/postmanstep1response.png)
-    --->
+   <!---
+   ![Demo](./images/postmanstep1response.png)
+   --->
 
-    <kbd><img src="./images/postmanstep1response.png"  /></kdb>
+   <kbd><img src="./images/postmanstep1response.png"  /></kdb>
 
-
-7. Click and open 'Step 2: Listing of tenant Schemas' and hit Send
+7) Click and open 'Step 2: Listing of tenant Schemas' and hit Send
 
 
     This API call will get all the schemas in the instance. note we restrict the properties that are returned from the API call to make the repose more manageable to read.
@@ -127,30 +123,25 @@ Instructions:
 
     <kbd><img src="./images/postmanstep2.png"  /></kdb>
 
+8. Next, click and open 'Step 3a - GET Profile by CRMID' and add in the entityId parameter entry the CRMID aassigned to your attendee ID [here](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/unlinked.md).
+
+   <!---
+   ![Demo](./images/postmanstep3.png)
+   --->
+
+   <kbd><img src="./images/postmanstep3.png"  /></kdb>
 
 
-8. Next, click and open 'Step 3a - GET Profile by CRMID' and add in the entityId parameter entry the CRMID aassigned to your attendee ID [here](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/travel/unlinked_travel.md).
+    This API call is part of the profile API and will return the profile object associated with an identity.
 
-    <!---
-    ![Demo](./images/postmanstep3.png)
-    --->
+9. Next, click and open 'Step 3b - GET Profile by emailID' and add in the entityId parameter entry the emailID aassigned to your attendee ID [here](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/unlinked.md).
+   <!---
+   ![Demo](./images/postmanstep3b.png)
+   --->
 
-    <kbd><img src="./images/postmanstep3.png"  /></kdb>
+   <kbd><img src="./images/postmanstep3b.png"  /></kdb>
 
-
-
-    This API call is part of the profile API and will return the profile object associated with an identity. 
-
-
-9. Next, click and open 'Step 3b - GET Profile by emailID' and add in the entityId parameter entry the emailID aassigned to your attendee ID [here](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/travel/unlinked_travel.md).
-    <!---
-    ![Demo](./images/postmanstep3b.png)
-    --->
-
-    <kbd><img src="./images/postmanstep3b.png"  /></kdb>
-
-
-10. Next, click and open 'Step 4 : Call Data inlet'
+10) Next, click and open 'Step 4 : Call Data inlet'
 
     This API call is where we will stitch the profile fragments for the CRMID and email address, effectively stitching them into one unified profile, notice that all profile attributes will merge.
 
@@ -162,7 +153,6 @@ Instructions:
 
     <kbd><img src="./images/postmanstep4.png"  /></kdb>
 
-
 11. Finally, to view the stitched profile data click and open 'Step 5 - UPS - GET Profile by CRMID' add in the CRMID provided and hit send.
 
     <!---
@@ -171,9 +161,6 @@ Instructions:
 
     <kbd><img src="./images/postmanstep5.png"  /></kdb>
 
-
-
-12. With that, Congratulations !! you have completed the API exercise.
-
+12) With that, Congratulations !! you have completed the API exercise.
 
 Return to [Lab Agenda Directory](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/README.md#lab-agenda)
