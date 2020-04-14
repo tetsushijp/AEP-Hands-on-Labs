@@ -147,7 +147,7 @@ all=>
 select distinct _experience.analytics.customDimensions.eVars.eVar9, crm._adobeamericaspot3.Email as emailAddress
 from   retail_demo_data_midvalues
  aa,
-profile_dataset crm
+crm_profile_dataset crm
 where crm._adobeamericaspot3.CRMID = aa._experience.analytics.customDimensions.eVars.eVar9
 and web.webPageDetails.name = 'help'
 and _experience.analytics.customDimensions.eVars.eVar9 IS NOT NULL
@@ -351,7 +351,7 @@ from (
 
        where  web.webPageDetails.name in ('help', 'contact us')
 ) r
-, profile_dataset crm
+, crm_profile_dataset crm
 where crm._adobeamericaspot3.crmid = r.crmid
 and r.webPage = 'help'
 and  contact_us_after_seconds is not null
