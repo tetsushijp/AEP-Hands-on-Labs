@@ -11,7 +11,7 @@ Lab - DULE - Apply Data Usage Label and Create Custom Data Usage Policy
       <tr width="500">
             <td valign="top"><h3>Objective:</h3>
             </td>
-            <td valign="top"><br>This lab will be show you how to apply a data usage labels to a dataset field, and create a custom data usage policy.
+            <td valign="top"><br>This lab will show you how to apply a data usage labels to a dataset field and create a custom data usage policy.
             </td>
      </tr>
      <tr width="500">
@@ -31,7 +31,8 @@ Lab - DULE - Apply Data Usage Label and Create Custom Data Usage Policy
 <tbody valign="top">
       <tr>
             <td valign="middle" height="70"><b>section</b></td>
-            <td valign="middle" height="70"><img src="https://github.com/adobe/AEP-Hands-on-Labs/blob/master/assets/images/left_hand_nav_menu_identities.png?raw=true" alt="Identities"></td>
+            <td valign="middle" height="70"><img src="https://github.com/adobe/AEP-Hands-on-Labs/blob/master/assets/images/left_hand_nav_menu_datasets.png?raw=true" alt="Datasets">
+            <img src="https://github.com/adobe/AEP-Hands-on-Labs/blob/master/assets/images/left_hand_nav_menu_policies.png?raw=true" alt="Policies"></td>
       </tr>
       <tr>
             <td valign="middle" height="70"><b>version</b></td>
@@ -53,17 +54,17 @@ Before we begin go to [https://platform.adobe.com/home](https://platform.adobe.c
 
 Instructions:
 -----------------
-1. In the left-hand menu, navigate to "Datasets". Verify you're on the "Browse" tab. Scroll down and select the "Profile Dataset" dataset.
+1. In the left-hand menu, navigate to "Datasets". Verify you're on the "Browse" tab. Scroll down and select the "CRM Profile Dataset" dataset.
 
-      ![Demo](./images/datausagelabel1.png)
+      ![Demo](./images/datausagelabel-1.png)
 
 2. Click "Data governance" tab. Select "address" in the FIELD NAME list. Click "Edit governance labels".
 
-      ![Demo](./images/datausagelabel2.png)
+      ![Demo](./images/datausagelabel-2.png)
 
 3. In the Edit governance labels overlay, expand "IDENTITY LABELS". Select "I1" and click the "Save changes" button.
 
-      ![Demo](./images/datausagelabel3.png)
+      ![Demo](./images/datausagelabel-3.png)
       
 Congratulations, you applied your first data usage label to a dataset field. Simple, right?
       
@@ -71,7 +72,7 @@ Congratulations, you applied your first data usage label to a dataset field. Sim
 
       ![Demo](./images/datausagepolicy1.png)
       
-5. Under the Policy details, enter name "Custom policy". Under Select governance labels, select "I1". On the right-hand side, make sure "Contains all of the labels" radio button is selected. Click "Next" button in the top right corner.
+5. Under the Policy details, enter name "Custom Policy". Under Select governance labels, select "I1". On the right-hand side, make sure "Contains all of the labels" radio button is selected. Click "Next" button in the top right corner.
       
       ![Demo](./images/datausagepolicy2.png)
 

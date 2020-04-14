@@ -146,14 +146,17 @@ all=>
 **SQL**
 
 ```sql
-select distinct _experience.analytics.customDimensions.eVars.eVar9, crm._adobeamericaspot3.Email as emailAddress
-from   travel_demo_data_midvalues
- aa,
-profile_dataset crm
-where crm._adobeamericaspot3.CRMID = aa._experience.analytics.customDimensions.eVars.eVar9
-and web.webPageDetails.name = 'help' 
-and _experience.analytics.customDimensions.eVars.eVar9 IS NOT NULL
-limit 10;
+SELECT DISTINCT
+   rd._adobeamericaspot3.identification.CRMID AS CRMIDs,
+   crm._adobeamericaspot3.identification.Email as emailAddress
+FROM
+   reduced_web_ee_dataset AS rd,
+   crm_profile_dataset AS crm
+WHERE
+   crm._adobeamericaspot3.identification.CRMID = rd._adobeamericaspot3.identification.CRMID
+AND rd._adobeamericaspot3.webDetails.webPagename = 'help' 
+AND rd._adobeamericaspot3.identification.CRMID IS NOT NULL
+LIMIT 10;
 ```
 
 Copy the statement above and execute it in your **PSQL command-line interface**.
@@ -162,7 +165,7 @@ Copy the statement above and execute it in your **PSQL command-line interface**.
 
 ```text
 prod:all-> limit 10;
-      evar9       |      emailAddress
+     CRMIDs       |      emailAddress
 ------------------+-------------------------
  crmid:8969702846 | deceive2058@yahoo.com
  crmid:1704313209 | barbi1937@live.com
@@ -226,12 +229,10 @@ FROM
                              ORDER BY timestamp 
                              ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW) 
                   AS session
-            from   travel_demo_data_midvalues
- a
+            from   travel_demo_data_midvalues AS a
             where  a.endUserIDs._experience.mcid.id in ( 
                 select b.endUserIDs._experience.mcid.id
-                from   travel_demo_data_midvalues
- b
+                from   travel_demo_data_midvalues AS b
                 where web.webPageDetails.name = 'help' 
 				and b.endUserIDs._experience.mcid.id IS NOT NULL
             )
