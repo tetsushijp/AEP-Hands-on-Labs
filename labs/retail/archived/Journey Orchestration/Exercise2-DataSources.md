@@ -86,7 +86,7 @@ In order to match the expected API Request, configure your FieldGroup as follows
 
 **IMPORTANT**
 
-The Field group name has to be unique, please use this naming convention: **WeatherByZipemailAddress** so in this case, the name should be **WeatherByZipPuchadha**
+The Field group name has to be unique, please rename fieldGroup and use this naming convention: **WeatherByZipemailAddress** so in this case, the name should be **WeatherByZipPuchadha**
 
 <!---
 ![Demo](./images/fg1.png)

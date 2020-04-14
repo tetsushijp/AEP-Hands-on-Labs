@@ -28,10 +28,7 @@ You'll then see the `Actions`-list.
 
 <kbd><img src="./images/acthome.png"  /></kdb>
 
-You'll define 2 actions:
-
-- 1 Action that sends an SMS using an external application, Nexmo
-- 1 Action that sends a text to a Slack channel
+You'll define an actions that sends an SMS using an external application, Nexmo
 
 ### Action: Send SMS using Nexmo
 
