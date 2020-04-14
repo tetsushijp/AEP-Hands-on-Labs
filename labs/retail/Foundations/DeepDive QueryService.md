@@ -144,11 +144,11 @@ all=>
 **SQL**
 
 ```sql
-select distinct _experience.analytics.customDimensions.eVars.eVar9, crm._adobeamericaspot3.Email as emailAddress
+select distinct _experience.analytics.customDimensions.eVars.eVar9, crm._adobeamericaspot5.Email as emailAddress
 from   retail_demo_data_midvalues
  aa,
-profile_dataset crm
-where crm._adobeamericaspot3.CRMID = aa._experience.analytics.customDimensions.eVars.eVar9
+crm_profile_dataset crm
+where crm._adobeamericaspot5.CRMID = aa._experience.analytics.customDimensions.eVars.eVar9
 and web.webPageDetails.name = 'help'
 and _experience.analytics.customDimensions.eVars.eVar9 IS NOT NULL
 limit 10;
@@ -328,7 +328,7 @@ Lets include the geographical info, like longitude, lattitude, city, countrycode
 **SQL**
 
 ```sql
-select distinct crm._adobeamericaspot3.crmid,
+select distinct crm._adobeamericaspot5.crmid,
        r.city,
        r.countrycode,
        r.lat as latitude,
@@ -351,8 +351,8 @@ from (
 
        where  web.webPageDetails.name in ('help', 'contact us')
 ) r
-, profile_dataset crm
-where crm._adobeamericaspot3.crmid = r.crmid
+, crm_profile_dataset crm
+where crm._adobeamericaspot5.crmid = r.crmid
 and r.webPage = 'help'
 and  contact_us_after_seconds is not null
 order by seconds_to_contact_us desc
