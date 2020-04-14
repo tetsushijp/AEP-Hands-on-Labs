@@ -1,4 +1,4 @@
-# Exercise  - Queries, queries, queries,... and Data analysis
+# Exercise - Queries, queries, queries,... and Data analysis
 
 <table style="border-collapse: collapse; border: none;" class="tab" cellspacing="0" cellpadding="0">
 
@@ -68,14 +68,14 @@ Write basic queries for data analysis
 
 Data captured in Adobe Experience Platform is time stamped. The "timestamp" attribute allows you to analyse data over time.
 
-How many product views do we have on a daily basis? 
+How many product views do we have on a daily basis?
 
 **SQL**
 
 ```sql
 select date_format( timestamp , 'yyyy-MM-dd') AS Day,
        count(*) AS productViews
-from   travel_demo_data_midvalues
+from   retail_demo_data_midvalues
 where  web.webPageDetails.pageViews.value = '1.0'
 group by Day
 order by day desc
@@ -102,7 +102,7 @@ all-> limit 10;
  2020-02-09 |       102264
 (10 rows)
 
-all=> 
+all=>
 ```
 
 ### Top 5 pages viewed
@@ -113,7 +113,7 @@ What are the top 5 pages viewed?
 
 ```sql
 select web.webPageDetails.name, count(*)
-from   travel_demo_data_midvalues
+from   retail_demo_data_midvalues
 where  web.webPageDetails.pageViews.value = '1.0'
 group  by web.webPageDetails.name
 order  by 2 desc
@@ -136,10 +136,8 @@ prod:all-> limit 5;
  ViewProductDetailPage |    30345
 (5 rows)
 
-all=>  
+all=>
 ```
-
-
 
 ### Identify visitors (CRM ID and email address) who are looking for help (visit page => help)
 
@@ -147,11 +145,11 @@ all=>
 
 ```sql
 select distinct _experience.analytics.customDimensions.eVars.eVar9, crm._adobeamericaspot3.Email as emailAddress
-from   travel_demo_data_midvalues
+from   retail_demo_data_midvalues
  aa,
 profile_dataset crm
 where crm._adobeamericaspot3.CRMID = aa._experience.analytics.customDimensions.eVars.eVar9
-and web.webPageDetails.name = 'help' 
+and web.webPageDetails.name = 'help'
 and _experience.analytics.customDimensions.eVars.eVar9 IS NOT NULL
 limit 10;
 ```
@@ -169,10 +167,10 @@ prod:all-> limit 10;
  crmid:2032196723 | sebasic1955@outlook.com
  crmid:6341221130 | larding1999@outlook.com
 (4 rows)
-all=> 
+all=>
 ```
 
-In the next set of queries we will extend the above query, in order to get a complete view on the customers and their behavior that have been visiting the "Cancel Service" page. You will learn how to use the Adobe Defined Function to sessionize information, identify the sequence and timiong of events. 
+In the next set of queries we will extend the above query, in order to get a complete view on the customers and their behavior that have been visiting the "Cancel Service" page. You will learn how to use the Adobe Defined Function to sessionize information, identify the sequence and timiong of events.
 
 The majority of the business logic requires gathering the touchpoints for a customer and ordering them by time. This support is provided by Spark SQL in the form of window functions. Window functions are part of standard SQL and are supported by many other SQL engines.
 
@@ -191,7 +189,7 @@ With this query you will discover the first two Adobe Defined Functions **SESS_T
 **SQL**
 
 ```sql
-SELECT 
+SELECT
   webPage,
   webPage_2,
   webPage_3,
@@ -221,18 +219,18 @@ FROM
             select a.endUserIDs._experience.mcid.id as ecid,
                    a.timestamp,
                    web.webPageDetails.name as webPage,
-                    SESS_TIMEOUT(timestamp, 60 * 30) 
+                    SESS_TIMEOUT(timestamp, 60 * 30)
                        OVER (PARTITION BY a.endUserIDs._experience.mcid.id
-                             ORDER BY timestamp 
-                             ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW) 
+                             ORDER BY timestamp
+                             ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW)
                   AS session
-            from   travel_demo_data_midvalues
+            from   retail_demo_data_midvalues
  a
-            where  a.endUserIDs._experience.mcid.id in ( 
+            where  a.endUserIDs._experience.mcid.id in (
                 select b.endUserIDs._experience.mcid.id
-                from   travel_demo_data_midvalues
+                from   retail_demo_data_midvalues
  b
-                where web.webPageDetails.name = 'help' 
+                where web.webPageDetails.name = 'help'
 				and b.endUserIDs._experience.mcid.id IS NOT NULL
             )
         )
@@ -262,14 +260,14 @@ prod:all-> LIMIT 10;
  download: downloadid100 | subscription            | help      | download: downloadid149 |        1
  home                    | feedback                | help      | about us                |        1
  events                  | event details           | help      | service: service24      |        1
-(10 rows)     
+(10 rows)
 
-all=> 
+all=>
 ```
 
 ### How much time do we have before a visitor calls the call center after visiting the "help" Page?
 
-To answer this kind of query will we will use ``TIME_BETWEEN_NEXT_MATCH()`` Adobe Defined Function.
+To answer this kind of query will we will use `TIME_BETWEEN_NEXT_MATCH()` Adobe Defined Function.
 
 > Time-between previous or next match functions provide a new dimension, which measures the time that has elapsed since a particular incident.
 
@@ -284,12 +282,12 @@ select * from (
                   ORDER BY timestamp
                   ROWS BETWEEN CURRENT ROW AND UNBOUNDED FOLLOWING)
               AS contact_us_after_seconds
-       from   travel_demo_data_midvalues
+       from   retail_demo_data_midvalues
 
        where  web.webPageDetails.name in ('help', 'contact us')
-	   
+
 ) r
-where r.webPage = 'help' 
+where r.webPage = 'help'
 and  contact_us_after_seconds is not null
 and ecid IS NOT NULL
 order by contact_us_after_seconds desc
@@ -320,9 +318,8 @@ prod:all-> limit 15;
  50028126323920080091412027150929606017 | help    |                  -445806
  57977164580347900913210460396295142277 | help    |                  -635993
 
-all=> 
+all=>
 ```
-
 
 ### What region are customers visiting from?
 
@@ -336,7 +333,7 @@ select distinct crm._adobeamericaspot3.crmid,
        r.countrycode,
        r.lat as latitude,
        r.lon as longitude,
-       r.contact_us_after_seconds as seconds_to_contact_us       
+       r.contact_us_after_seconds as seconds_to_contact_us
 from (
        select endUserIDs._experience.mcid.id ecid,
 			_experience.analytics.customDimensions.eVars.eVar9 as crmid,
@@ -350,7 +347,7 @@ from (
                   ORDER BY timestamp
                   ROWS BETWEEN CURRENT ROW AND UNBOUNDED FOLLOWING)
               AS contact_us_after_seconds
-       from   travel_demo_data_midvalues
+       from   retail_demo_data_midvalues
 
        where  web.webPageDetails.name in ('help', 'contact us')
 ) r
@@ -387,9 +384,7 @@ Copy the statement above and execute it in your **PSQL command-line interface**.
  crmid:2257033580 | budapest            | HU          |             47.4966 |             19.0114 |                           -67
 (15 rows)
 
-all=> 
+all=>
 ```
 
-
 Return to [Lab Agenda Directory](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/README.md#lab-agenda)
-
