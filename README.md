@@ -1,11 +1,11 @@
-# AEP Hands-on-Labs
+# AEP Hands-on Labs
 
 This repository contains matertials for the AEP Hands-on-Labs (HOLs) including excerises, downloads
 and other such assets to help deliver a more customized lab experience. 
 
 ## PROJECT NAME: AEP Hands-on Labs
 
-Hands-On-Labs (HOLs) are consultant lead sessions to get in-tool access and exercises within AEP.
+Hands-on Labs (HOLs) are consultant lead sessions to get in-tool access and exercises within AEP.
 
 ## Goals
 
