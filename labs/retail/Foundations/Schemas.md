@@ -155,18 +155,12 @@ Instructions:
       ![Demo](./images/schemamixin2.png)
       --->
 
-      <kbd><img src="./images/schemamixin2.png"  /></kdb>
-             
+      <kbd><img src="./images/schemamixin2.png"  /></kdb>          
              
       Hit +Add to go back to the Mixin list
-      
-      
-       <!---
-       ![Demo](./images/schemamixin3.png)
-       --->
-
+     
       <kbd><img src="./images/schemamixin3.png"  /></kdb>     
-      
+    
              
       Search for 'Store Details Mixin EE'. Select the mixin and hit Assign Mixin   
        
