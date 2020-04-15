@@ -2,127 +2,142 @@
 
 In this exercise, you'll create a custom Event by making use of Journey Orchestration in combination with Adobe Experience Platform.
 
-Go to [https://experience.adobe.com/#/@adobeamericaspot5/home](https://experience.adobe.com/#/@adobeamericaspot5/home)
+1. Go to [https://experience.adobe.com/#/@adobeamericaspot5/home](https://experience.adobe.com/#/@adobeamericaspot5/home)
 
-You'll see the `Adobe Experience Cloud`-homepage.
+   You'll see the `Adobe Experience Cloud`-homepage.
 
-![Demo](./images/aec.png)
 
-Click on `Journey Orchestration`.
+    ![Demo](./images/aec.png)
 
-![Demo](./images/aecjo.png)
+2. Click on `Journey Orchestration`.
 
-Next, you'll see the `Journey Orchestration`-homepage.
 
-![Demo](./images/aecjoh.png)
+    ![Demo](./images/aecjo.png)
 
-In the menu, click on `Events`.
 
-![Demo](./images/menuevents.png)
+    Next, you'll see the `Journey Orchestration`-homepage.
 
-You'll then see the `Events`-list.
 
-![Demo](./images/eventshome.png)
+    ![Demo](./images/aecjoh.png)
 
-Click `Add` to start adding your event.
+3. In the menu, click on `Events`.
 
-![Demo](./images/add.png)
 
-You'll see an empty event popup.
+    ![Demo](./images/menuevents.png)
 
-<!---
-![Demo](./images/emptyevent.png)
---->
 
-<kbd><img src="./images/emptyevent.png"  /></kdb>
+    You'll then see the `Events`-list.
 
-As a Name for the Event, use **webSignUp{emailAddress}** and replace **{emailAddress}** with your email address name. E.g. **webSignUpPuchadha**.
 
-Set Description to: **Website Sign up Event - {your email name}**
+    ![Demo](./images/eventshome.png)
 
-<!---
-![Demo](./images/evname.png)
---->
+4. Click `Add` to start adding your event.
 
-<kbd><img src="./images/evname.png"  /></kdb>
 
-Next, you need to select a Schema. All Schemas that are shown here, are Adobe Experience Platform Schemas.
+    ![Demo](./images/add.png)
 
-<!---
-![Demo](./images/evschema.png)
---->
 
-<kbd><img src="./images/evschema.png"  /></kdb>
+    You'll see an empty event popup.
 
-To show up in this list, a Schema needs to have a very specific Mixin linked to it. The Mixin that is needed to show up here is called `Orchestration eventID`.
+    <!---
+    ![Demo](./images/emptyevent.png)
+    --->
 
-Let's go back to our Event configuration in Journey Orchestration.
+    <kbd><img src="./images/emptyevent.png"  /></kdb>
 
-<!---
-![Demo](./images/evschema.png)
---->
+5. Name the Event **webSignUp{emailAddress}** and replace **{emailAddress}** with your email address name. E.g. **webSignUpPuchadha**.
 
-<kbd><img src="./images/evschema.png"  /></kdb>
+   Set Description to: **Website Sign up Event - {your email name}**
 
-In our use case, we want to listen for a Sign up Event. This event is part of the `Website interactions EE v.1` schema. Select this from the list.
+   <!---
+   ![Demo](./images/evname.png)
+   --->
 
-<!---
-![Demo](./images/evschema1.png)
---->
 
-<kbd><img src="./images/evschema1.png"  /></kdb>
+    <kbd><img src="./images/evname.png"  /></kdb>
 
-Journey Orchestration will then automatically select some required fields, but you can edit the fields that are made available to Journey Orchestration.
-Click the `pencil`-icon to edit the fields.
+6. Next, you need to select a Schema. All Schemas that are shown here, are Adobe Experience Platform Schemas.
 
-![Demo](./images/editfields.png)
+   <!---
+   ![Demo](./images/evschema.png)
+   --->
 
-You'll then see a popup-window with a Schema Hierarchy that allows you to select fields.
+   <kbd><img src="./images/evschema.png"  /></kdb>
 
-![Demo](./images/popup.png)
 
-Fields such as the ECID and the Orchestration eventID are required, and as such, preselected.
-However, a marketeer needs to have flexible access to all data points that provide context to a Journey. So you can select additional fields.
-Once you are finished reviewing the fields, select `OK`.
+    To show up in this list, a Schema needs to have a very specific Mixin linked to it. The Mixin that is needed to show up here is called `Orchestration eventID`.
 
-![Demo](./images/popupok.png)
 
-Journey Orchestration also needs an Identifier to identify the customer. Since Journey Orchestration is linked to Adobe Experience Platform, the Primary Identifier of a schema is automatically used as the identifier for the Journey.
-The Primary Identifier will also automatically use the full Identity Graph of the Adobe Experience Platform and link all behavior across all available identities, devices and channels to the same profile. The result is that Journey Orchestration is contextual, relevant and consistent.
+    In our use case, we want to listen for a Sign up Event. This event is part of the `Website interactions EE v.1` schema. Select this from the list.
 
-<!---
-![Demo](./images/eventidentifier.png)
---->
+    <!---
+    ![Demo](./images/evschema1.png)
+    --->
 
-<kbd><img src="./images/eventidentifier.png"  /></kdb>
+    <kbd><img src="./images/evschema1.png"  /></kdb>
 
-Click `Save` to save your custom event.
+7. Journey Orchestration will then automatically select some required fields, but you can edit the fields that are made available to Journey Orchestration.
 
-![Demo](./images/save.png)
 
-Finally, you need to recover the `Orchestration eventID` for your custom event.
+    ![Demo](./images/editfields.png)
 
-Open your event again by clicking it in the list of events.
+8. Click the `pencil`-icon to edit the fields.
+   You'll then see a popup-window with a Schema Hierarchy that allows you to select fields.
 
-On your Event, click on the `View Payload`-icon next to `Fields`.
 
-![Demo](./images/fieldseye.png)
+    ![Demo](./images/popup.png)
 
-Clicking the `View Payload`-icon opens up a sample XDM payload for this event.
 
-![Demo](./images/fieldseyepayload.png)
+    Fields such as the ECID and the Orchestration eventID are required, and as such, preselected.
+    However, a marketeer needs to have flexible access to all data points that provide context to a Journey. So you can select additional fields.
+    Once you are finished reviewing the fields, select `OK`.
 
-Scroll down in the `Payload` until you see the line `eventID`.
 
-![Demo](./images/fieldseyepayloadev.png)
+    ![Demo](./images/popupok.png)
 
-Write down the `eventID` as you'll need it in the last exercise to test your configuration.
 
-In this example, the `eventID` is `e133bb4d5075fe9e0356b2136d6413c723d05d146831c6d165d70a5a0dc4a6b8`.
+    Journey Orchestration also needs an Identifier to identify the customer. Since Journey Orchestration is linked to Adobe Experience Platform, the Primary Identifier of a schema is automatically used as the identifier for the Journey.
+    The Primary Identifier will also automatically use the full Identity Graph of the Adobe Experience Platform and link all behavior across all available identities, devices and channels to the same profile. The result is that Journey Orchestration is contextual, relevant and consistent.
 
-You've now defined the event that will trigger the Journey we're building. Once the Journey is triggered, the geofence-fields like City, Country, Name, Latitude and Longitude will be made available to the Journey.
+    <!---
+    ![Demo](./images/eventidentifier.png)
+    --->
 
-As discussed in the use-case description, we then need to provide contextual promotions that depend on the weather. In order to get weather information, we'll need to define an external data sources that will provide us with the weather information for that location. We'll use the `OpenWeather`-service to provide us what that information, as part of exercise 2.
+
+    <kbd><img src="./images/eventidentifier.png"  /></kdb>
+
+9. Click `Save` to save your custom event.
+
+
+    ![Demo](./images/save.png)
+
+10. Finally, you need to recover the `Orchestration eventID` for your custom event.
+
+    Open your event again by clicking it in the list of events.
+
+    On your Event, click on the `View Payload`-icon next to `Fields`.
+
+
+    ![Demo](./images/fieldseye.png)
+
+10. Clicking the `View Payload`-icon opens up a sample XDM payload for this event.
+
+
+    ![Demo](./images/fieldseyepayload.png)
+
+
+    Scroll down in the `Payload` until you see the line `eventID`.
+
+
+    ![Demo](./images/fieldseyepayloadev.png)
+
+11. Note down the `eventID` as you'll need it in the last exercise to test your configuration.
+
+    In this example, the `eventID` is `e133bb4d5075fe9e0356b2136d6413c723d05d146831c6d165d70a5a0dc4a6b8`.
+
+    You've now defined the event that will trigger the Journey we're building. Once the Journey is triggered, the geofence-fields like City, Country, Name, Latitude and Longitude will be made available to the Journey.
+
+    As discussed in the use-case description, we then need to provide contextual promotions that depend on the weather. In order to get weather information, we'll need to define an external data sources that will provide us with the weather information for that location. We'll use the `OpenWeather`-service to provide us what that information, as part of exercise 2.
 
 ---
 
