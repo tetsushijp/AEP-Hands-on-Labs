@@ -144,19 +144,14 @@ all=>
 **SQL**
 
 ```sql
-<<<<<<< HEAD
-select distinct _experience.analytics.customDimensions.eVars.eVar9, crm._adobeamericaspot5.Email as emailAddress
-from   retail_demo_data_midvalues
- aa,
+select 
+_experience.analytics.customDimensions.eVars.eVar9, 
+_adobeamericaspot5.identification.Email as Email_Address
+from   
+retail_demo_data_midvalues aa,
 crm_profile_dataset crm
-where crm._adobeamericaspot5.CRMID = aa._experience.analytics.customDimensions.eVars.eVar9
-=======
-select distinct _experience.analytics.customDimensions.eVars.eVar9, crm._adobeamericaspot5.identification.Email as emailAddress
-from   retail_demo_data_midvalues
- aa,
-crm_profile_dataset crm
-where crm._adobeamericaspot5.identification.CRMID = aa._experience.analytics.customDimensions.eVars.eVar9
->>>>>>> c3121680da70c8410a2bb813d2aff91fbab3a473
+where 
+crm._adobeamericaspot5.identification.CRMID = aa._experience.analytics.customDimensions.eVars.eVar9
 and web.webPageDetails.name = 'help'
 and _experience.analytics.customDimensions.eVars.eVar9 IS NOT NULL
 limit 10;
@@ -336,11 +331,7 @@ Lets include the geographical info, like longitude, lattitude, city, countrycode
 **SQL**
 
 ```sql
-<<<<<<< HEAD
-select distinct crm._adobeamericaspot5.crmid,
-=======
 select distinct crm._adobeamericaspot5.identification.crmid,
->>>>>>> c3121680da70c8410a2bb813d2aff91fbab3a473
        r.city,
        r.countrycode,
        r.lat as latitude,
@@ -364,11 +355,7 @@ from (
        where  web.webPageDetails.name in ('help', 'contact us')
 ) r
 , crm_profile_dataset crm
-<<<<<<< HEAD
-where crm._adobeamericaspot5.crmid = r.crmid
-=======
 where crm._adobeamericaspot5.identification.crmid = r.crmid
->>>>>>> c3121680da70c8410a2bb813d2aff91fbab3a473
 and r.webPage = 'help'
 and  contact_us_after_seconds is not null
 order by seconds_to_contact_us desc
