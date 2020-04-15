@@ -2,13 +2,13 @@
 
 In this exercise, you'll create a custom External Data Source by making use of Journey Orchestration in combination with Adobe Experience Platform
 
-### 1. Go to [https://experience.adobe.com/#/@adobeamericaspot5/home](https://experience.adobe.com/#/@adobeamericaspot5/home)
+1. Go to [https://experience.adobe.com/#/@adobeamericaspot5/home](https://experience.adobe.com/#/@adobeamericaspot5/home)
 
    You'll see the `Adobe Experience Cloud`-homepage.
 
    ![Demo](./images/aec.png)
 
-### 2. Click on `Journey Orchestration`.
+2. Click on `Journey Orchestration`.
 
    ![Demo](./images/aecjo.png)
 
@@ -16,7 +16,7 @@ In this exercise, you'll create a custom External Data Source by making use of J
 
    ![Demo](./images/aecjoh.png)
 
-### 3. In the menu, click on `Data Sources`.
+3. In the menu, click on `Data Sources`.
 
    ![Demo](./images/menudatasources.png)
 
@@ -28,7 +28,7 @@ In this exercise, you'll create a custom External Data Source by making use of J
 
    <kbd><img src="./images/dshome.png"  /></kdb>
 
-### 4. Click `Add` to start adding your data source.
+4. Click `Add` to start adding your data source.
 
    ![Demo](./images/add.png)
 
@@ -40,7 +40,7 @@ In this exercise, you'll create a custom External Data Source by making use of J
 
    <kbd><img src="./images/emptyds.png"  /></kdb>
 
-### 5. We will use `Open Weather Map`-service. For reference you can go to [https://openweathermap.org/](https://openweathermap.org/).
+5. We will use `Open Weather Map`-service. For reference you can go to [https://openweathermap.org/](https://openweathermap.org/).
 
    Back to `Journey Orchestration`, to your empty `External Data Source`-popup.
 
@@ -56,7 +56,7 @@ In this exercise, you'll create a custom External Data Source by making use of J
 
    <kbd><img src="./images/dsname.png"  /></kdb>
 
-### 6. Next, you need to select the Authentication to use. Select from the 'Type' dropd-down.
+6. Next, you need to select the Authentication to use. Select from the 'Type' dropd-down.
 
    Use the following values for the fields:
 
@@ -73,7 +73,7 @@ In this exercise, you'll create a custom External Data Source by making use of J
 
    <kbd><img src="./images/dsauth.png"  /></kdb>
 
-### 7. Finally, you need to define a `FieldGroup`, which is the request you'll be sending to the Weather API.
+7. Finally, you need to define a `FieldGroup`, which is the request you'll be sending to the Weather API.
 
    In our case, we want to use the ZipCode to request the Current Weather for that Zip.
 
@@ -95,7 +95,7 @@ In this exercise, you'll create a custom External Data Source by making use of J
 
    <kbd><img src="./images/fg1.png"  /></kdb>
 
-### 8. For the Response Payload, you need to paste an example of the Response that will be sent by the Weather API.
+8. For the Response Payload, you need to paste an example of the Response that will be sent by the Weather API.
 
    You can find the expected API JSON Response on the API Documentation page [here](https://openweathermap.org/current#zip).
 
@@ -147,7 +147,7 @@ In this exercise, you'll create a custom External Data Source by making use of J
 
 ```
 
-### 9. Click the `Edit Payload`-icon.
+9. Click the `Edit Payload`-icon.
 
       <!---
       ![Demo](./images/owmapi2.png)
@@ -163,7 +163,7 @@ In this exercise, you'll create a custom External Data Source by making use of J
 
     ![Demo](./images/owmapi4.png)
 
-### 10. Click `Save`.
+10. Click `Save`.
 
     ![Demo](./images/dssave.png)
 
