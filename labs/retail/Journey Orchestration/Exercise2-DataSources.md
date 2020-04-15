@@ -145,23 +145,21 @@ In this exercise, you'll create a custom External Data Source by making use of J
    }
    ```
 
-```
-
 9. Click the `Edit Payload`-icon.
 
-      <!---
-      ![Demo](./images/owmapi2.png)
-      --->
+     <!---
+     ![Demo](./images/owmapi2.png)
+     --->
 
-    <kbd><img src="./images/owmapi2.png"  /></kdb>
+   <kbd><img src="./images/owmapi2.png"  /></kdb>
 
-    You'll see a popup where you now have to paste the above JSON Reponse.
+   You'll see a popup where you now have to paste the above JSON Reponse.
 
-    ![Demo](./images/owmapi3.png)
+   ![Demo](./images/owmapi3.png)
 
-    Paste your JSON Response.
+   Paste your JSON Response.
 
-    ![Demo](./images/owmapi4.png)
+   ![Demo](./images/owmapi4.png)
 
 10. Click `Save`.
 
@@ -184,4 +182,7 @@ In this exercise, you'll create a custom External Data Source by making use of J
     <kbd><img src="./images/dslist.png"  /></kdb>
 
 Next Step: [Exercise 3 - Define a Custom Action](./Exercise3-Action.md)
+
+```
+
 ```

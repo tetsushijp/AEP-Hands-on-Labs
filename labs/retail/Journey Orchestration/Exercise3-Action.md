@@ -2,138 +2,134 @@
 
 In this exercise, you'll create 2 custom Actions by making use of Journey Orchestration in combination with Adobe Experience Platform
 
-Go to [https://experience.adobe.com/#/@adobeamericaspot5/home](https://experience.adobe.com/#/@adobeamericaspot5/home)
+1. Go to [https://experience.adobe.com/#/@adobeamericaspot5/home](https://experience.adobe.com/#/@adobeamericaspot5/home)
 
-You'll see the `Adobe Experience Cloud`-homepage.
+   You'll see the `Adobe Experience Cloud`-homepage.
 
-![Demo](./images/aec.png)
+   ![Demo](./images/aec.png)
 
-Click on `Journey Orchestration`.
+2. Click on `Journey Orchestration`.
 
-![Demo](./images/aecjo.png)
+   ![Demo](./images/aecjo.png)
 
-Next, you'll see the `Journey Orchestration`-homepage.
+   Next, you'll see the `Journey Orchestration`-homepage.
 
-![Demo](./images/aecjoh.png)
+   ![Demo](./images/aecjoh.png)
 
-In the menu, click on `Actions`.
+3. In the menu, click on `Actions`.
 
-![Demo](./images/menuactions.png)
+   ![Demo](./images/menuactions.png)
 
-You'll then see the `Actions`-list.
+   You'll then see the `Actions`-list.
 
-<!---
-![Demo](./images/acthome.png)
---->
+   <!---
+   ![Demo](./images/acthome.png)
+   --->
 
-<kbd><img src="./images/acthome.png"  /></kdb>
+   <kbd><img src="./images/acthome.png"  /></kdb>
 
-You'll define an actions that sends an SMS using an external application, Nexmo
+4. We will define an actions that sends an SMS using an external application, Nexmo
 
-### Action: Send SMS using Nexmo
+   ### Action: Send SMS using Nexmo
 
-Nexmo is a 3rd party provider of SMS Messages. It has an easy-to-use API and we'll use Journey Orchestration to trigger their API.
+   Nexmo is a 3rd party provider of SMS Messages. It has an easy-to-use API and we'll use Journey Orchestration to trigger their API.
 
-Click `Add` to start adding your action.
+5. Click `Add` to start adding your action.
 
-![Demo](./images/add.png)
+   ![Demo](./images/add.png)
 
-You'll see an empty Action popup.
+   You'll see an empty Action popup.
 
-<!---
-![Demo](./images/emptyact.png)
---->
+   <!---
+   ![Demo](./images/emptyact.png)
+   --->
 
-<kbd><img src="./images/emptyact.png"  /></kdb>
+   <kbd><img src="./images/emptyact.png"  /></kdb>
 
-As a Name for the Action, use **smsNexmo{emailAddress}** and replace **{emailAddress}** with your your email name. E.g. **smsNexmoPuchadha**.
+6. Name the Action, use **smsNexmo{emailAddress}** and replace **{emailAddress}** with your your email name. E.g. **smsNexmoPuchadha**.
 
-Add the Description: **Send SMS using Nexmo**.
+   Add the Description: **Send SMS using Nexmo**.
 
-<!---
-![Demo](./images/nexmoname.png)
---->
+   <!---
+   ![Demo](./images/nexmoname.png)
+   --->
 
-<kbd><img src="./images/nexmoname.png"  /></kdb>
+   <kbd><img src="./images/nexmoname.png"  /></kdb>
 
-For the `URL Configuration`, copy and paste this URL:
+7. For the `URL Configuration`, copy and paste this URL:
 
-- URL: `https://rest.nexmo.com/sms/json`
-- Method: `POST`
+   - URL: `https://rest.nexmo.com/sms/json`
+   - Method: `POST`
 
-Do not change the Header Fields.
+   Do not change the Header Fields.
 
-<!---
-![Demo](./images/nexmourl.png)
---->
+   <!---
+   ![Demo](./images/nexmourl.png)
+   --->
 
-<kbd><img src="./images/nexmourl.png"  /></kdb>
+   <kbd><img src="./images/nexmourl.png"  /></kdb>
 
-(For transparency, we're using an AWS API Gateway and AWS Lambda function that sits behind the above URL to handle the authentication and sending of SMSs to Nexmo.)
+8. `Authentication` should be set to `No Authentication`.
 
-`Authentication` should be set to `No Authentication`.
+   <!---
+   ![Demo](./images/nexmoauth.png)
+   --->
 
-<!---
-![Demo](./images/nexmoauth.png)
---->
+   <kbd><img src="./images/nexmoauth.png"  /></kdb>
 
-<kbd><img src="./images/nexmoauth.png"  /></kdb>
+9. So for the `Message Parameters`, click the `Edit Payload`-icon.
 
-For the `Message Parameters`, you need to define which fields should be sent towards Nexmo. Logically, we want Journey Orchestration and Adobe Experience Platform to be the brain of personalization, so the SMS Message Text and the Mobile Number to send the SMS towards should be defined by Journey Orchestration and then sent to Nexmo for execution.
+   <!---
+   ![Demo](./images/nexmomsgp.png)
+   --->
 
-So for the `Message Parameters`, click the `Edit Payload`-icon.
+   <kbd><img src="./images/nexmomsgp.png"  /></kdb>
 
-<!---
-![Demo](./images/nexmomsgp.png)
---->
+   You'll then see an empty popup-window.
 
-<kbd><img src="./images/nexmomsgp.png"  /></kdb>
+   ![Demo](./images/nexmomsgpopup.png)
 
-You'll then see an empty popup-window.
+   Copy and paste the JSON below into the popup-window.
 
-![Demo](./images/nexmomsgpopup.png)
+   ```json
+   {
+     "to": {
+       "toBeMapped": true,
+       "dataType": "string",
+       "label": "Mobile Number"
+     },
+     "text": {
+       "toBeMapped": true,
+       "dataType": "string",
+       "label": "Message"
+     },
+     "api_key": "api_key",
+     "api_secret": "api_secret",
+     "from": "14155041161"
+   }
+   ```
 
-Copy and paste the JSON below into the popup-window.
+   The api_key and api_secret values will be provided seperately
 
-```json
-{
-  "to": {
-    "toBeMapped": true,
-    "dataType": "string",
-    "label": "Mobile Number"
-  },
-  "text": {
-    "toBeMapped": true,
-    "dataType": "string",
-    "label": "Message"
-  },
-  "api_key": "api_key",
-  "api_secret": "api_secret",
-  "from": "14155041161"
-}
-```
+   ![Demo](./images/nexmomsgpopup1.png)
 
-The api_key and api_secret values will be provided seperately
+10. Click `Save`.
 
-![Demo](./images/nexmomsgpopup1.png)
+    ![Demo](./images/nexmomsgpopup2.png)
 
-Click `Save`.
+    Scroll up and click `Save` one more time to save your custom Action.
 
-![Demo](./images/nexmomsgpopup2.png)
+    <!---
+    ![Demo](./images/nexmomsgpopup3.png)
+    --->
 
-Scroll up and click `Save` one more time to save your custom Action.
+    <kbd><img src="./images/nexmomsgpopup3.png"  /></kdb>
 
-<!---
-![Demo](./images/nexmomsgpopup3.png)
---->
+    Your custom Action is now part of the `Actions`-list.
 
-<kbd><img src="./images/nexmomsgpopup3.png"  /></kdb>
+    ![Demo](./images/nexmodone.png)
 
-Your custom Action is now part of the `Actions`-list.
-
-![Demo](./images/nexmodone.png)
-
-Let's define your second action now.
+    Let's define your second action now.
 
 You've now defined Events, Data Sources and Actions - let's consolidate all of that in 1 Orchestrated Journey.
 
