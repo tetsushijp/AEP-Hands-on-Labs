@@ -185,19 +185,12 @@ Instructions:
         
 9. Now, we'll create a new Mixin from scratch. Go back and hit the +Add button on the left panel.
 
-       <!---
-       ![Demo](./images/schemamixin6.png)
-       --->
-
       <kbd><img src="./images/schemamixin6.png"  /></kdb>    
        
       
-      
 10. Select "Create new mixin" on the very top
 
-      <!--
-      ![Demo](./images/schemamixin7.png)
-      -->
+
       <kbd><img src="./images/schemamixin7.png"  /></kdb>    
       
       
