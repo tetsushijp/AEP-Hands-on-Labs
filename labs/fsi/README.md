@@ -1,4 +1,4 @@
-# FSI Hands-nn Lab
+# FSI Hands-on Lab
 
 Welcome to the FSI HOL front page.
 
