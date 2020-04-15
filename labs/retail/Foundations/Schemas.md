@@ -165,7 +165,7 @@ Instructions:
        ![Demo](./images/schemamixin3.png)
        --->
 
-       <kbd><img src="./images/schemamixin3.png"  /></kdb>     
+      <kbd><img src="./images/schemamixin3.png"  /></kdb>     
       
              
       Search for 'Store Details Mixin EE'. Select the mixin and hit Assign Mixin   
@@ -182,7 +182,7 @@ Instructions:
              
       And, repeat the steps for the Identities Mixin EE.  Search for 'Identities Mixin EE'. Select the mixin and hit Assign Mixin 
                         
-       <kbd><img src="./images/schemamixin19.png"  /></kdb>     
+      <kbd><img src="./images/schemamixin19.png"  /></kdb>     
        
       Your schema will now have the Identities Mixin EE object and all of the fields within this object
       
@@ -195,7 +195,7 @@ Instructions:
        ![Demo](./images/schemamixin6.png)
        --->
 
-       <kbd><img src="./images/schemamixin6.png"  /></kdb>    
+      <kbd><img src="./images/schemamixin6.png"  /></kdb>    
        
       
       
