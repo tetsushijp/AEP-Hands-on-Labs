@@ -363,7 +363,7 @@ Instructions:
 
 24.  Save your schema. hit Save on the top right corner.
 
-      <kbd><img src="./images/segment_retail_ordersave.png.png"  /></kdb>
+      <kbd><img src="./images/segment_retail_ordersave.png"  /></kdb>
  
 25. Congratulations!!! You have constructed your schema.
  
