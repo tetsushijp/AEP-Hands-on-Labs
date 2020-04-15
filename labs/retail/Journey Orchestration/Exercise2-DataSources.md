@@ -145,8 +145,6 @@ In this exercise, you'll create a custom External Data Source by making use of J
    }
    ```
 
-```
-
 9. Click the `Edit Payload`-icon.
 
       <!---
