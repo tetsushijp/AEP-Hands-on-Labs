@@ -83,7 +83,7 @@ We will be creating a dataset for the schema we created in the previous exercise
       -->
       <kbd><img src="./images/datasetschema.png"  /></kbd>
       
-5. Next, to configure the dataset we need to give it a name. Please name your dataset "Bookings Dataset <your-assigned-number>' and give it the same description 
+5. Next, to configure the dataset we need to give it a name. Please name your dataset "Orders Dataset <your-assigned-number>' and give it the same description 
       
       <!--
       ![Demo](./images/datasetname.png) 
