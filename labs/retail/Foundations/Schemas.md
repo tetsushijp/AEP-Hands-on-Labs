@@ -133,34 +133,13 @@ Instructions:
       
       
       Here's where you can build your own Mixin or use a prior/similar Mixin object that conforms to your data.
+           
       
-8. There are many out of the box Mixins already available. 
-
-      <!--
-      ![Demo](./images/schemamixinpreview.png)
-      -->
-      <kbd><img src="./images/schemamixinpreview.png"  /></kdb>
-      
-     Click on an Adobe pre-built Mixin and hit the "Preview mixin structure" option on the right-hand side to see it's contents of a Mixin
-      
-      <!--
-      ![Demo](./images/schemamixinpreview1.png)
-      -->
-      <kbd><img src="./images/schemamixinpreview1.png"  /></kdb>
-    
-9. Hit Back to get back to the list of Mixins. 
-
-      <!--
-      ![Demo](./images/schemamixinback.png)
-      -->
-      <kbd><img src="./images/schemamixinback.png"  /></kdb>
-      
-      
-10. In this lab we will be adding three pre-built mixins listed below
+8. In this lab we will be adding three pre-built mixins listed below
 
       - Product Details Mixin EE,
       - Store Details Mixin EE,
-      - Identities Mixin
+      - Identities Mixin EE
      
      
       Search for 'Product Details Mixin EE'. Select the mixin and hit Assign Mixin
@@ -201,7 +180,7 @@ Instructions:
       
       <kbd><img src="./images/schemamixin18.png"  /></kdb>     
              
-      And, repeat the steps for the Identities mixin.  Search for 'Identities Mixin EE'. Select the mixin and hit Assign Mixin 
+      And, repeat the steps for the Identities Mixin EE.  Search for 'Identities Mixin EE'. Select the mixin and hit Assign Mixin 
                         
        <kbd><img src="./images/schemamixin19.png"  /></kdb>     
        
@@ -210,7 +189,7 @@ Instructions:
       <kbd><img src="./images/schemamixin20.png"  /></kdb>
       
         
-11. Now, we'll create a new Mixin from scratch. Go back and hit the +Add button on the left panel.
+9. Now, we'll create a new Mixin from scratch. Go back and hit the +Add button on the left panel.
 
        <!---
        ![Demo](./images/schemamixin6.png)
@@ -220,7 +199,7 @@ Instructions:
        
       
       
-12. Select "Create new mixin" on the very top
+10. Select "Create new mixin" on the very top
 
       <!--
       ![Demo](./images/schemamixin7.png)
@@ -228,14 +207,14 @@ Instructions:
       <kbd><img src="./images/schemamixin7.png"  /></kdb>    
       
       
-13. Display name is "Order Details Mixin EE &lt;your-assigned-number>" and then hit 'Add Mixin'
+11. Display name is "Order Details Mixin EE &lt;your-assigned-number>" and then hit 'Add Mixin'
       
     <!--  
     ![Demo](./images/schemamixin8.png)
     --> 
     <kbd><img src="./images/schemamixin8.png"  /></kdb>     
      
-14. In the left-hand schema composition menu, click on your newly create Mixin (it should be highlighted now)
+12. In the left-hand schema composition menu, click on your newly create Mixin (it should be highlighted now)
 
 
     <!---
@@ -245,7 +224,7 @@ Instructions:
     <kbd><img src="./images/schemamixin9.png"  /></kdb>   
        
 
-15. Notice that on the Structure view a '+Add Field' appears next to the Schema name, Click it to start adding fields 
+13. Notice that on the Structure view a '+Add Field' appears next to the Schema name, Click it to start adding fields 
 
 
     <!---
@@ -255,7 +234,7 @@ Instructions:
     <kbd><img src="./images/schemamixin10.png"  /></kdb>   
 
 
-16. On the Field Properties panel to the right add the following  
+14. On the Field Properties panel to the right add the following  
       - FieldName = orderDetails
       - Description = Order Details
       - Type = Object
@@ -272,7 +251,7 @@ Instructions:
     -->
     <kbd><img src="./images/schemaapply.png"  /></kdb>    
 
-17. Next, we will be adding fields to the 'orderDetails' object. Click "+Add Field" next to this object
+15. Next, we will be adding fields to the 'orderDetails' object. Click "+Add Field" next to this object
 
     <!---
     ![Demo](./images/schemamixin12.png)
@@ -280,9 +259,7 @@ Instructions:
 
     <kbd><img src="./images/schemamixin12.png"  /></kdb>   
 
-
-
-18. On the Field Properties panel to the right add the following  
+16. On the Field Properties panel to the right add the following  
       - FieldName = orderID
       - Description = Order ID
       - Type = String
@@ -297,10 +274,9 @@ Instructions:
     <!--  
     ![Demo](./images/schemaapply.png)
     -->
-    <kbd><img src="./images/schemaapply.png"  /></kdb>   
-    
+    <kbd><img src="./images/schemaapply.png"  /></kdb>    
 
-19. We will be adding three more fields to the 'orderDetials' object.  Click "+Add Field" next to the object
+17. We will be adding three more fields to the 'orderDetials' object.  Click "+Add Field" next to the object
 
     <!---
     ![Demo](./images/schemamixin12.png)
@@ -308,9 +284,7 @@ Instructions:
 
     <kbd><img src="./images/schemamixin12.png"  /></kdb>
 
-
-
-20. On the Field Properties panel to the right add the following  
+18. On the Field Properties panel to the right add the following  
       - FieldName = orderType
       - Description = Order Type
       - Type = String
@@ -319,6 +293,31 @@ Instructions:
     ![Demo](./images/schemamixin14.png)
     -->
     <kbd><img src="./images/schemamixin15.png"  /></kdb>
+
+    Scroll down and hit Apply
+
+    <!--  
+    ![Demo](./images/schemaapply.png)
+    -->
+    <kbd><img src="./images/schemaapply.png"  /></kdb>
+    
+19. Click "+Add Field" next to the 'orderDetails' object.
+
+    <!---
+    ![Demo](./images/schemamixin12.png)
+    --->
+
+    <kbd><img src="./images/schemamixin12.png"  /></kdb>
+
+20. On the Field Properties panel to the right add the following  
+      - FieldName = orderFlag
+      - Description = Order Flag
+      - Type = Integer
+
+    <!--  
+    ![Demo](./images/schemamixin15.png)
+    -->
+    <kbd><img src="./images/schemamixin21.png"  /></kdb>
 
     Scroll down and hit Apply
 
@@ -338,33 +337,6 @@ Instructions:
 
 
 22. On the Field Properties panel to the right add the following  
-      - FieldName = orderFlag
-      - Description = Order Flag
-      - Type = Integer
-
-    <!--  
-    ![Demo](./images/schemamixin15.png)
-    -->
-    <kbd><img src="./images/schemamixin21.png"  /></kdb>
-
-    Scroll down and hit Apply
-
-    <!--  
-    ![Demo](./images/schemaapply.png)
-    -->
-    <kbd><img src="./images/schemaapply.png"  /></kdb>
-    
-23. Click "+Add Field" next to the 'orderDetails' object.
-
-    <!---
-    ![Demo](./images/schemamixin12.png)
-    --->
-
-    <kbd><img src="./images/schemamixin12.png"  /></kdb>
-
-
-
-24. On the Field Properties panel to the right add the following  
       - FieldName = orderSKUcount
       - Description = Order SKU Count
       - Type = Integer
@@ -382,17 +354,18 @@ Instructions:
     <kbd><img src="./images/schemaapply.png"  /></kdb>
     
     
-25. We are done with modeling the schema. To Save your work hit Save on the top right corner. Make sure that your schema structure looks like the one in the screenshot below
+23. We are done with modeling the schema. Make sure that your schema structure looks like the one in the screenshot below
  
-
      <!---
      ![Demo](./images/schemafinal.png)
      --->
      <kbd><img src="./images/schemafinal.png"  /></kdb>
 
+24.  Save your schema. hit Save on the top right corner.
+
+      <kbd><img src="./images/segment_retail_ordersave.png.png"  /></kdb>
  
- 
- 26. Congratulations!!! You have constructed your schema.
+25. Congratulations!!! You have constructed your schema.
  
 <br>
 <br>
