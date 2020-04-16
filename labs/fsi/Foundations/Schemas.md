@@ -141,16 +141,16 @@ Instructions:
       
 10. In this lab we will be adding two pre built mixins listed below
 
-      - Order Details Mixin, and 
+      - Transaction Details Mixin, and 
       - identities
       
-      Search for 'Order Details Mixin' Select the mixin and hit Assign Mixin
+      Search for 'Transaction Details Mixin' Select the mixin and hit Assign Mixin
       
       
      ![Demo](./images/schemamixin1.png)
       
       
-      Your schema will now have the Order details object and all of the fields within this object
+      Your schema will now have the Transaction details object and all of the fields within this object
       
       <!---
       ![Demo](./images/schemamixin2.png)
