@@ -13,6 +13,7 @@ Please download your own attendee [lab content/uploads here](https://github.com/
 ### Adobe Experience Platform - Foundations
  - [Schemas](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/Foundations/Schemas.md)
  - [Datasets](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/Foundations/Datasets.md)
+ - [DULE](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/Foundations/DULE.md)
  - [Profiles & Identities](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/Foundations/Profiles.md)
  - [Segments](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/Foundations/Segments.md)
   - [Query Service](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/Foundations/DeepDive%20QueryService.md)
