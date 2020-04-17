@@ -4,31 +4,31 @@ Lab Attendee Download Packages
 
 | User     | ZIP  | GZ  |
 |------------|---|---|
-| Attendee 001  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/fsi/assets/001_fsi.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/fsi/assets/001_fsi.tar.gz)  |
-| Attendee 002  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/fsi/assets/002_fsi.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/fsi/assets/002_fsi.tar.gz)  |
-| Attendee 003  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/edit/master/labs/fsi/assets/003_fsi.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/fsi/assets/003_fsi.tar.gz)  |
-| Attendee 004  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/fsi/assets/004_fsi.zip) |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/fsi/assets/004_fsi.tar.gz)  |
-| Attendee 005  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/fsi/assets/005_fsi.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/fsi/assets/005_fsi.tar.gz)  |
-| Attendee 006  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/fsi/assets/006_fsi.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/fsi/assets/006_fsi.tar.gz)  |
-| Attendee 007  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/fsi/assets/007_fsi.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/fsi/assets/005_fsi.tar.gz)  |
-| Attendee 008  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/fsi/assets/008_fsi.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/fsi/assets/008_fsi.tar.gz)  |
-| Attendee 009  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/fsi/assets/009_fsi.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/fsi/assets/009_fsi.tar.gz)  |
-| Attendee 010  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/fsi/assets/010_fsi.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/fsi/assets/010_fsi.tar.gz)  |
-| Attendee 011  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/fsi/assets/011_fsi.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/fsi/assets/011_fsi.tar.gz)  |
-| Attendee 012  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/fsi/assets/012_fsi.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/fsi/assets/012_fsi.tar.gz)  |
-| Attendee 013  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/fsi/assets/013_fsi.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/fsi/assets/013_fsi.tar.gz)  |
-| Attendee 014  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/fsi/assets/014_fsi.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/fsi/assets/014_fsi.tar.gz)  |
-| Attendee 015  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/fsi/assets/015_fsi.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/fsi/assets/015_fsi.tar.gz)  |
-| Attendee 016  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/fsi/assets/016_fsi.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/fsi/assets/016_fsi.tar.gz)  |
-| Attendee 017  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/fsi/assets/017_fsi.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/fsi/assets/017_fsi.tar.gz)  |
-| Attendee 018  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/fsi/assets/018_fsi.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/fsi/assets/018_fsi.tar.gz)  |
-| Attendee 019  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/fsi/assets/019_fsi.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/fsi/assets/019_fsi.tar.gz)  |
-| Attendee 020  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/fsi/assets/020_fsi.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/fsi/assets/020_fsi.tar.gz)  |
-| Attendee 021  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/fsi/assets/021_fsi.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/fsi/assets/021_fsi.tar.gz)  |
-| Attendee 022  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/fsi/assets/022_fsi.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/fsi/assets/022_fsi.tar.gz)  |
-| Attendee 023  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/fsi/assets/023_fsi.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/fsi/assets/023_fsi.tar.gz)  |
-| Attendee 024  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/fsi/assets/024_fsi.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/fsi/assets/024_fsi.tar.gz)  |
-| Attendee 025  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/fsi/assets/025_fsi.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/fsi/assets/025_fsi.tar.gz)  |
+| Attendee 001  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/001_media.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/001_media.tar.gz)  |
+| Attendee 002  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/002_media.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/002_media.tar.gz)  |
+| Attendee 003  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/edit/master/labs/media/assets/003_media.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/003_media.tar.gz)  |
+| Attendee 004  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/004_media.zip) |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/004_media.tar.gz)  |
+| Attendee 005  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/005_media.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/005_media.tar.gz)  |
+| Attendee 006  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/006_media.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/006_media.tar.gz)  |
+| Attendee 007  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/007_media.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/005_media.tar.gz)  |
+| Attendee 008  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/008_media.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/008_media.tar.gz)  |
+| Attendee 009  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/009_media.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/009_media.tar.gz)  |
+| Attendee 010  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/010_media.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/010_media.tar.gz)  |
+| Attendee 011  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/011_media.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/011_media.tar.gz)  |
+| Attendee 012  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/012_media.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/012_media.tar.gz)  |
+| Attendee 013  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/013_media.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/013_media.tar.gz)  |
+| Attendee 014  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/014_media.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/014_media.tar.gz)  |
+| Attendee 015  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/015_media.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/015_media.tar.gz)  |
+| Attendee 016  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/016_media.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/016_media.tar.gz)  |
+| Attendee 017  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/017_media.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/017_media.tar.gz)  |
+| Attendee 018  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/018_media.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/018_media.tar.gz)  |
+| Attendee 019  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/019_media.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/019_media.tar.gz)  |
+| Attendee 020  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/020_media.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/020_media.tar.gz)  |
+| Attendee 021  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/021_media.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/021_media.tar.gz)  |
+| Attendee 022  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/022_media.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/022_media.tar.gz)  |
+| Attendee 023  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/023_media.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/023_media.tar.gz)  |
+| Attendee 024  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/024_media.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/024_media.tar.gz)  |
+| Attendee 025  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/025_media.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/025_media.tar.gz)  |
 
 
 
@@ -120,4 +120,4 @@ Preview: Propensity data
 Unlinked Profiles
 ----------------------------
 
-Here's the list of [Unlinked Profiles](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/unlinked_fsi.md)
+Here's the list of [Unlinked Profiles](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/media/unlinked_media.md)
