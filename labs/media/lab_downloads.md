@@ -1,0 +1,156 @@
+Lab Attendee Download Packages
+====================================
+
+
+| User     | ZIP  | GZ  |
+|------------|---|---|
+| Attendee 001  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/retail/assets/001_retail.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/retail/assets/001_retail.tar.gz)  |
+| Attendee 002  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/retail/assets/002_retail.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/retail/assets/002_retail.tar.gz)  |
+| Attendee 003  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/retail/assets/003_retail.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/retail/assets/003_retail.tar.gz)  |
+| Attendee 004  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/retail/assets/004_retail.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/retail/assets/004_retail.tar.gz)  |
+| Attendee 005  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/retail/assets/005_retail.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/retail/assets/005_retail.tar.gz)  |
+| Attendee 006  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/retail/assets/006_retail.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/retail/assets/006_retail.tar.gz)  |
+| Attendee 007  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/retail/assets/007_retail.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/retail/assets/005_retail.tar.gz)  |
+| Attendee 008  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/retail/assets/008_retail.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/retail/assets/008_retail.tar.gz)  |
+| Attendee 009  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/retail/assets/009_retail.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/retail/assets/009_retail.tar.gz)  |
+| Attendee 010  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/retail/assets/010_retail.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/retail/assets/010_retail.tar.gz)  |
+| Attendee 011  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/retail/assets/011_retail.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/retail/assets/011_retail.tar.gz)  |
+| Attendee 012  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/retail/assets/012_retail.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/retail/assets/012_retail.tar.gz)  |
+| Attendee 013  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/retail/assets/013_retail.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/retail/assets/013_retail.tar.gz)  |
+| Attendee 014  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/retail/assets/014_retail.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/retail/assets/014_retail.tar.gz)  |
+| Attendee 015  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/retail/assets/015_retail.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/retail/assets/015_retail.tar.gz)  |
+| Attendee 016  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/retail/assets/016_retail.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/retail/assets/016_retail.tar.gz)  |
+| Attendee 017  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/retail/assets/017_retail.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/retail/assets/017_retail.tar.gz)  |
+| Attendee 018  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/retail/assets/018_retail.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/retail/assets/018_retail.tar.gz)  |
+| Attendee 019  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/retail/assets/019_retail.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/retail/assets/019_retail.tar.gz)  |
+| Attendee 020  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/retail/assets/020_retail.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/retail/assets/020_retail.tar.gz)  |
+| Attendee 021  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/retail/assets/021_retail.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/retail/assets/021_retail.tar.gz)  |
+| Attendee 022  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/retail/assets/022_retail.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/retail/assets/022_retail.tar.gz)  |
+| Attendee 023  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/retail/assets/023_retail.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/retail/assets/023_retail.tar.gz)  |
+| Attendee 024  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/retail/assets/024_retail.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/retail/assets/024_retail.tar.gz)  |
+| Attendee 025  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/retail/assets/025_retail.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/retail/assets/025_retail.tar.gz)  |
+
+
+
+File Notes
+----------------------------
+ - lab files will be refreshed on a monthly basis
+
+
+
+
+Preview: CRM data
+-----------------------------
+
+| Number     | Header  | Example Data  |
+|------------|---|---|
+| 1  | crmid  |  crmid:3572904408  |
+| 2  | email  |  leese1838@yahoo.com  |
+| 3  | first_name  |  Roscoe |
+| 4  | last_name  |  Lawrence  |
+| 5  | gender  |  female  |
+| 6  | mobile telephone  |  531-075-8094  |
+| 7  | city  |  Wauwatosa  |
+| 8  | country  |  United States  |
+| 9  | zip  |  88430  |
+| 10  | state  |  Hawaii  |
+| 11  | street address  |  744 Fratessa  |
+| 12  | birthday  |  8/17/1972  |
+| 13  | historicalpoints  |  504  |
+
+Preview: Order data JSON
+-----------------------------
+
+```json
+{
+  "_id": "3f91922c-78f6-11ea-ba64-b88a60e194fb",
+  "timestamp": "2020-03-13 00:25:20",
+  "eventType": "transaction",
+  "_adobeamericaspot5": {
+    "transactionFlag": "1",
+    "CRMID": "crmid:1603337965",
+    "productDetails": [
+      {
+        "productSKUCount": "1",
+        "productUnitsCount": "2",
+        "productSKU": "prd1111",
+        "productName": "Graduate Tailored Leg Das Denim Pant",
+        "productCategory": "Men",
+        "productSubCategory": "Men: Clothing",
+        "productSalePrice": "284.5",
+        "productMarginPrice": "156.48",
+        "productTotalPrice": "569.0",
+        "productFlag": 1
+      },
+      {
+        "productSKUCount": "2",
+        "productUnitsCount": "4",
+        "productSKU": "prd1122",
+        "productName": "High-Waist Boot Cut Pant",
+        "productCategory": "Women",
+        "productSubCategory": "Women: Clothing",
+        "productSalePrice": "438.95",
+        "productMarginPrice": "280.93",
+        "productTotalPrice": "1755.8",
+        "productFlag": 1
+      }
+    ],
+    "orderDetails": {
+      "orderID": "orderid:247282",
+      "orderSKUcount": "2",
+      "orderFlag": 1,
+    },
+    "storeDetails": {
+      "storeID": "store:352",
+      "storeClerkID": "clerkid:35244",
+      "storeZIP": "06880"
+    }
+  }
+}
+```
+
+
+Preview: Bookings data
+-----------------------------
+
+| Number     | Header  | Example Data  |
+|------------|---|---|
+| 1 | id	| 0123f54c-53c9-11ea-bb46-b88a60e194fb |
+| 2 | reservationid	| W4A-XR20 |
+| 3 | orderid	| orderid:323451 |
+| 4 | crmid	| crmid:7386299961 |
+| 5 | timestamp	| 2019-12-13T02:26:57.000Z |
+| 6 | orderType	| website |
+| 7 | productsku	| prd1134 |
+| 8 | hotelCheckInUnix	| 1576290417 |
+| 9 | hotelCheckOutUnix	| 1576376817 |
+| 10 | hotelCheckInTS	| 2019-12-14T02:26:57+00:00 |
+| 11 | hotelCheckOutTS	| 2019-12-15T02:26:57+00:00 |
+| 12 | hotelName	| Restful Nights: Montreal |
+| 13 | hotelChain	| Restful Nights |
+| 14 | hotelLocation	| Montreal |
+| 15 | hotelRoomType	| standard |
+| 16 | hotelRoomCount	| 1 |
+| 17 | hotelGuestAdultCount	| 1 |
+| 18 | hotelGuestChildCount	| 0 |
+| 19 | hotelNightCount	| 1 |
+| 20 | hotelRoomPrice	| 171.35 |
+| 21 | hotelFinalPrice	| 171.35 |
+
+
+Preview: Propensity data
+-----------------------------
+
+| Number     | Header  | Example Data  |  Notes |
+|------------|---|---|---|
+| 1  | id  |  01706742-53c9-11ea-a979-b88a60e194fb | unique row |
+| 2  | crmid  |  crmid:8019712410  | unique account ID |
+| 3  | propensity score room upgrade  |  3 | 0-10 (10 is highest) |
+| 4  | propensity score extended nights |  4 | 0-10 (10 is highest) |
+
+
+
+Unlinked Profiles
+----------------------------
+
+Here's the list of [Unlinked Profiles](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/unlinked_travel.md)
