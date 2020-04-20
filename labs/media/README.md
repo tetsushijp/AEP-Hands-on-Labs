@@ -11,22 +11,22 @@ Please download your own attendee [lab content/uploads here](https://github.com/
 ## Lab Agenda
 
 ### Adobe Experience Platform - Foundations
- - [Schemas](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/Foundations/Schemas.md)
- - [Datasets](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/Foundations/Datasets.md)
- - [DULE](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/Foundations/DULE.md)
- - [Profiles & Identities](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/Foundations/Profiles.md)
- - [Segments](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/Foundations/Segments.md)
-  - [Query Service](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/Foundations/DeepDive%20QueryService.md)
- - [APIs](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/Foundations/APIs.md)
+ - [Schemas](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/media/Foundations/Schemas.md)
+ - [Datasets](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/media/Foundations/Datasets.md)
+ - [DULE](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/media/Foundations/DULE.md)
+ - [Profiles & Identities](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/media/Foundations/Profiles.md)
+ - [Segments](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/media/Foundations/Segments.md)
+  - [Query Service](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/media/Foundations/DeepDive%20QueryService.md)
+ - [APIs](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/media/Foundations/APIs.md)
 
 ### Adobe Experience Platform - RTCDP
-- [Activate Segment](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/Foundations/destinations.md)
+- [Activate Segment](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/media/Foundations/destinations.md)
 
 ### Adobe Experience Platform - Journey Orchestration
- - [Events](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/Journey%20Orchestration/Exercise1-Events.md)
- - [Data Sources](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/Journey%20Orchestration/Exercise2-DataSources.md)
- - [Actions](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/Journey%20Orchestration/Exercise3-Action.md)
- - [Journeys](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/Journey%20Orchestration/Exercise4-Journey.md)
+ - [Events](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/media/Journey%20Orchestration/Exercise1-Events.md)
+ - [Data Sources](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/media/Journey%20Orchestration/Exercise2-DataSources.md)
+ - [Actions](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/media/Journey%20Orchestration/Exercise3-Action.md)
+ - [Journeys](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/media/Journey%20Orchestration/Exercise4-Journey.md)
 
 ## QuickLinks
 
