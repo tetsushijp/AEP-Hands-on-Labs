@@ -4,7 +4,7 @@ Welcome to the Retail HOL front page.
 
 ## First thing first...
 
-Please download your own attendee [lab content/uploads here](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/lab_downloads.md)
+Please download your own attendee [lab content/uploads here](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/media/lab_downloads.md)
 
 *PLEASE NOTE: Your HOL consultant will assign your attendee number during the session or in your pre-prerequisites email*
 
