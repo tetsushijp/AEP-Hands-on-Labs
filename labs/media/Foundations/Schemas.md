@@ -79,7 +79,7 @@ Instructions:
 
       
       
-4. In the right-hand menu, name it "Orders Schema &lt;your-assigned-number>" (Description is optional)
+4. In the right-hand menu, name it "Subscription Schema &lt;your-assigned-number>" (Description is optional)
       
       <!--
       ![Demo](./images/schemaname1.png)
@@ -135,21 +135,19 @@ Instructions:
       Here's where you can build your own Mixin or use a prior/similar Mixin object that conforms to your data.
            
       
-8. In this lab we will be adding three pre-built mixins listed below
+8. In this lab we will be adding two pre-built mixins listed below
 
-      - Product Details Mixin EE,
-      - Store Details Mixin EE,
+      - Subscription Details Mixin EE,
       - Identities Mixin EE
      
-     
-      Search for 'Product Details Mixin EE'. Select the mixin and hit Assign Mixin
+      Search for 'Subscription Details Mixin EE'. Select the mixin and hit Assign Mixin
       
      <!-- 
      ![Demo](./images/schemamixin1.png)
      -->
       <kbd><img src="./images/schemamixin1.png"  /></kdb>
       
-      Your schema will now have the Product Details Mixin EE object and all of the fields within this object
+      Your schema will now have the Subscription Details Mixin EE object and all of the fields within this object
       
       <!---
       ![Demo](./images/schemamixin2.png)
@@ -159,21 +157,8 @@ Instructions:
              
       Hit +Add to go back to the Mixin list
      
-      <kbd><img src="./images/schemamixin3.png"  /></kdb>     
-    
-             
-      Search for 'Store Details Mixin EE'. Select the mixin and hit Assign Mixin   
-       
-      <kbd><img src="./images/schemamixin16.png"  /></kdb>
-      
-      Your schema will now have the Store Details Mixin EE object and all of the fields within this object
-      
-      <kbd><img src="./images/schemamixin17.png"  /></kdb>
-      
-      Hit +Add to go back to the Mixin list
-      
-      <kbd><img src="./images/schemamixin18.png"  /></kdb>     
-             
+      <kbd><img src="./images/schemamixin3.png"  /></kdb>            
+                 
       And, repeat the steps for the Identities Mixin EE.  Search for 'Identities Mixin EE'. Select the mixin and hit Assign Mixin 
                         
       <kbd><img src="./images/schemamixin19.png"  /></kdb>     
