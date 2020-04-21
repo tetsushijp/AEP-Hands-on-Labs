@@ -179,7 +179,7 @@ Instructions:
       <kbd><img src="./images/schemamixin7.png"  /></kdb>    
       
       
-11. Display name is "Order Details Mixin EE &lt;your-assigned-number>" and then hit 'Add Mixin'
+11. Display name is "Account Details Mixin EE &lt;your-assigned-number>" and then hit 'Add Mixin'
       
     <!--  
     ![Demo](./images/schemamixin8.png)
@@ -207,8 +207,8 @@ Instructions:
 
 
 14. On the Field Properties panel to the right add the following  
-      - FieldName = orderDetails
-      - Description = Order Details
+      - FieldName = accountDetails
+      - Description = Account Details
       - Type = Object
 
     <!--  
@@ -223,7 +223,7 @@ Instructions:
     -->
     <kbd><img src="./images/schemaapply.png"  /></kdb>    
 
-15. Next, we will be adding fields to the 'orderDetails' object. Click "+Add Field" next to this object
+15. Next, we will be adding fields to the 'accountDetails' object. Click "+Add Field" next to this object
 
     <!---
     ![Demo](./images/schemamixin12.png)
@@ -232,14 +232,14 @@ Instructions:
     <kbd><img src="./images/schemamixin12.png"  /></kdb>   
 
 16. On the Field Properties panel to the right add the following  
-      - FieldName = orderID
-      - Description = Order ID
+      - FieldName = accountCurrentContractMonth
+      - Description = Account Current Contract Month
       - Type = String
 
      <!-- 
      ![Demo](./images/schemamixin13.png)
      -->
-     <kbd><img src="./images/schemamixin13.png"  /></kdb>   
+     <kbd><img src="./images/schemamixin15.png"  /></kdb>   
 
      Scroll down and hit Apply
 
@@ -248,7 +248,7 @@ Instructions:
     -->
     <kbd><img src="./images/schemaapply.png"  /></kdb>    
 
-17. We will be adding three more fields to the 'orderDetials' object.  Click "+Add Field" next to the object
+17. We will be adding two more fields to the 'orderDetails' object.  Click "+Add Field" next to the object
 
     <!---
     ![Demo](./images/schemamixin12.png)
@@ -257,37 +257,12 @@ Instructions:
     <kbd><img src="./images/schemamixin12.png"  /></kdb>
 
 18. On the Field Properties panel to the right add the following  
-      - FieldName = orderType
-      - Description = Order Type
+      - FieldName = accountOriginChannel
+      - Description = Account Origin Channel
       - Type = String
 
     <!--  
     ![Demo](./images/schemamixin14.png)
-    -->
-    <kbd><img src="./images/schemamixin15.png"  /></kdb>
-
-    Scroll down and hit Apply
-
-    <!--  
-    ![Demo](./images/schemaapply.png)
-    -->
-    <kbd><img src="./images/schemaapply.png"  /></kdb>
-    
-19. Click "+Add Field" next to the 'orderDetails' object.
-
-    <!---
-    ![Demo](./images/schemamixin12.png)
-    --->
-
-    <kbd><img src="./images/schemamixin12.png"  /></kdb>
-
-20. On the Field Properties panel to the right add the following  
-      - FieldName = orderFlag
-      - Description = Order Flag
-      - Type = Integer
-
-    <!--  
-    ![Demo](./images/schemamixin15.png)
     -->
     <kbd><img src="./images/schemamixin21.png"  /></kdb>
 
@@ -298,7 +273,7 @@ Instructions:
     -->
     <kbd><img src="./images/schemaapply.png"  /></kdb>
     
-21. Click "+Add Field" next to the 'orderDetails' object.
+19. Click "+Add Field" next to the 'accountDetails' object.
 
     <!---
     ![Demo](./images/schemamixin12.png)
@@ -306,12 +281,10 @@ Instructions:
 
     <kbd><img src="./images/schemamixin12.png"  /></kdb>
 
-
-
-22. On the Field Properties panel to the right add the following  
-      - FieldName = orderSKUcount
-      - Description = Order SKU Count
-      - Type = Integer
+20. On the Field Properties panel to the right add the following  
+      - FieldName = accountStatus
+      - Description = Account Status
+      - Type = String
 
     <!--  
     ![Demo](./images/schemamixin15.png)
@@ -326,18 +299,18 @@ Instructions:
     <kbd><img src="./images/schemaapply.png"  /></kdb>
     
     
-23. We are done with modeling the schema. Make sure that your schema structure looks like the one in the screenshot below
+21. We are done with modeling the schema. Make sure that your schema structure looks like the one in the screenshot below
  
      <!---
      ![Demo](./images/schemafinal.png)
      --->
      <kbd><img src="./images/schemafinal.png"  /></kdb>
 
-24.  Save your schema. hit Save on the top right corner.
+22.  Save your schema. hit Save on the top right corner.
 
       <kbd><img src="./images/segment_retail_ordersave.png"  /></kdb>
  
-25. Congratulations!!! You have constructed your schema.
+23. Congratulations!!! You have constructed your schema.
  
 <br>
 <br>
