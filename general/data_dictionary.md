@@ -1,7 +1,7 @@
 
 THIS SECTION IS NOT YET DONE -- but this gives you a picture of the data dictionary page for the marketer....
  
-Welcome Marketer / DBarchitect / Soon-To-Be AEPgenius...
+Welcome Marketer / DBarchitect / Soon-To-Be AEP Genius...
 -----------------------------
 You are wearing many hats at a leading Media Company, likely not too dissimalar to your day-to-day responsibilites today.  You've been tasked to both deploy and understand how to build out the upon your AEP deployment.  This guide/document here (meant to be reviewed before your HOL session) will give you a detailed look and analysis of the data you're currently loading into your system.
 
@@ -19,7 +19,9 @@ The data below is what has already been loaded in your system.  Please (blah bla
 CRM Data - version 001 - removed define column (I sort of like this)
 -----------------------------
 
- - please note the supperscripts for clicks to links 
+ - please note the supperscripts for clicks to links, I'm digging that
+ 
+ 
 
 | Number | FieldName         | DataType<sup>[info](#here)</sup>  | Mixin + Path <sup>[info](#here)</sup> | Example | 
 |--------|-------------------|-----------------------|---------------------------------------|---------------------|
@@ -39,6 +41,12 @@ CRM Data - version 001 - removed define column (I sort of like this)
 
 
 
+
+CRM Data - version 002 - added Notes column (small links would go here to "more info about X")
+-----------------------------
+
+
+
 | Number | FieldName         | DataType<sup>[info](#here)</sup>  | Mixin + Path <sup>[info](#here)</sup> | Example | Notes |
 |--------|-------------------|-----------------------|---------------------------------------|---------------------|-----|
 | 01     | crmid             |  string               | {{tenantid}}.identification.CRMID     | crmid:3572904408    |  -  |
@@ -54,6 +62,10 @@ CRM Data - version 001 - removed define column (I sort of like this)
 | 11     | street_address    |  string               | homeAddress.street1                   | 744 Fratessa        |  -  |
 | 12     | birthday          |  string (date)        | person.birthDate                      | 8/17/1972           |  -  |
 | 13     | genre<sup>1</sup> |  string               | interestProfileDetails.interestGenre  | Sci-Fi              | [1](https://google.com)|
+
+
+CRM Data - version 001 - this would be the "extra notes" area -- help explaining stuff (when needed)
+-----------------------------
 
 
 <table>
@@ -89,6 +101,9 @@ bundles will be included unless the locale: section is set above.</td>
 </table>
 
 
+CRM Data - version 003 - junky old version -- table overflowing is annoying
+-----------------------------
+
 
 
 | Number | FieldName         | DataType              | Mixin + Path                          | Example             | Definition (when nessacary)          |
@@ -110,43 +125,6 @@ bundles will be included unless the locale: section is set above.</td>
 
 
 
-
-
-
-CRM Data
------------------------------
-
-| Number | FieldName  | DataType  | Mixin            | Example          | Definition                           |
-|--------|------------|-----------|------------------|------------------|--------------------------------------|
-| 1      | crmid      | string    | identification   | crmid:3572904408 | account ID for the user              |
-| 2      | email  |  leese1838@yahoo.com  |
-| 3      | first_name  |  Roscoe |
-| 4      | last_name  |  Lawrence  |
-| 5      | gender  |  female  |
-| 6      | mobile telephone  |  531-075-8094  |
-| 7      | city  |  Wauwatosa  |
-| 8      | country  |  United States  |
-| 9      | zip  |  88430  |
-| 10     | state  |  Hawaii  |
-| 11     | street address  |  744 Fratessa  |
-| 12     | birthday  |  8/17/1972  |
-| 13     | historicalpoints  |  504  |
-
-
-
-| 1  | crmid  |  crmid:3572904408  |
-| 2  | email  |  leese1838@yahoo.com  |
-| 3  | first_name  |  Roscoe |
-| 4  | last_name  |  Lawrence  |
-| 5  | gender  |  female  |
-| 6  | mobile telephone  |  531-075-8094  |
-| 7  | city  |  Wauwatosa  |
-| 8  | country  |  United States  |
-| 9  | zip  |  88430  |
-| 10  | state  |  Hawaii  |
-| 11  | street address  |  744 Fratessa  |
-| 12  | birthday  |  8/17/1972  |
-| 13  | historicalpoints  |  504  |
 
 Preview: Order data JSON
 -----------------------------
@@ -198,3 +176,13 @@ Preview: Order data JSON
   }
 }
 ```
+
+
+Doug Notes:
+ - The above examples would be for each data source (not shown yet, its being drafted right now)
+ - I'd add the "id" , "eventtype" and "timestamp" as built-ins to the schema
+ - I'm gonna add schema and mixin screenshots to show how things are composed
+ - I'm going to explain the Mixin + Path with a screenshot (so it helps show what that means)
+ - I'm going to add the real mixin, schema and dataset names and IDs -- helpful for query service
+ 
+ **Pulkit -- please let me know what else you think would be rad here!**
