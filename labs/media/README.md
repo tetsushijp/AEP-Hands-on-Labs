@@ -1,6 +1,6 @@
-# Retail Hands-On-Lab
+# Media Hands-On-Lab
 
-Welcome to the Retail HOL front page.
+Welcome to the Media HOL front page.
 
 ## First thing first...
 
