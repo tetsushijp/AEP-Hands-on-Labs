@@ -1,6 +1,6 @@
 
 
-| Number | FieldName         | DataType<sup>[info](#here)</sup>  | Mixin + Path <sup>[info](#here)</sup> | Example             | Definition |
+| Number | FieldName         | DataType<sup>[info](#here)</sup>  | Mixin + Path <sup>[info](#here)</sup> | Example | 
 |--------|-------------------|-----------------------|---------------------------------------|---------------------|
 | 01     | crmid             |  string               | {{tenantid}}.identification.CRMID     | crmid:3572904408    |
 | 02     | email             |  string               | {{tenantid}}.identification.Email     | leese1838@yahoo.com |
