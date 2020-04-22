@@ -1,4 +1,25 @@
 
+THIS SECTION IS NOT YET DONE -- but this gives you a picture of the data dictionary page for the marketer....
+ 
+Welcome Marketer / DBarchitect / Soon-To-Be AEPgenius...
+-----------------------------
+You are wearing many hats at a leading Media Company, likely not too dissimalar to your day-to-day responsibilites today.  You've been tasked to both deploy and understand how to build out the upon your AEP deployment.  This guide/document here (meant to be reviewed before your HOL session) will give you a detailed look and analysis of the data you're currently loading into your system.
+
+OBJECTIVES:
+==============
+  - Become familiar with the data sources
+  - Understand mixins + schemas
+  - New insights into your deployment
+  
+SOURCES:
+=================
+The data below is what has already been loaded in your system.  Please (blah blah blah blah)...
+
+
+CRM Data - version 001 - removed define column (I sort of like this)
+-----------------------------
+
+ - please note the supperscripts for clicks to links 
 
 | Number | FieldName         | DataType<sup>[info](#here)</sup>  | Mixin + Path <sup>[info](#here)</sup> | Example | 
 |--------|-------------------|-----------------------|---------------------------------------|---------------------|
