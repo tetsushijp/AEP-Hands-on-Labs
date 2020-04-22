@@ -76,14 +76,14 @@ We will be creating a dataset for the schema we created in the previous exercise
       -->
       <kbd><img src="./images/datasetcreate2.png"  /></kbd>
  
-4. On the Select Schema page search for "Orders Schema &lt;your-assigned-number>" then select the schema and hit Next
+4. On the Select Schema page search for "Subscription Schema &lt;your-assigned-number>" then select the schema and hit Next
       
       <!--
       ![Demo](./images/datasetschema.png)
       -->
       <kbd><img src="./images/datasetschema.png"  /></kbd>
       
-5. Next, to configure the dataset we need to give it a name. Please name your dataset "Orders Dataset <your-assigned-number>' and give it the same description 
+5. Next, to configure the dataset we need to give it a name. Please name your dataset "Subscription Dataset <your-assigned-number>' and give it the same description 
       
       <!--
       ![Demo](./images/datasetname.png) 
@@ -106,7 +106,7 @@ We will be creating a dataset for the schema we created in the previous exercise
     -->
     <kbd><img src="./images/datasetadddata.png"  /></kbd> 
 
-8. From the lab files you downloaded, drag and drop the 'orders_data_&lt;your-assigned-number>.json' file into the 'Add Data' sections. You will now see a batch with a 'Loading' status
+8. From the lab files you downloaded, drag and drop the 'subscription_data_&lt;your-assigned-number>.json' file into the 'Add Data' sections. You will now see a batch with a 'Loading' status
 
 
     <!---
@@ -133,6 +133,6 @@ We will be creating a dataset for the schema we created in the previous exercise
 <br>
 <br>
 
-Return to [Lab Agenda Directory](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/README.md#lab-agenda)
+Return to [Lab Agenda Directory](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/media/README.md#lab-agenda)
 
 
