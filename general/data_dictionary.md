@@ -15,7 +15,7 @@
 | 10     | state             |  string               | homeAddress.stateProvince             | Hawaii              |  -         |
 | 11     | street_address    |  string               | homeAddress.street1                   | 744 Fratessa        |  -         |
 | 12     | birthday          |  string (date)        | person.birthDate                      | 8/17/1972           |  -         |
-| 13     | genre             |  string               | interestProfileDetails.interestGenre  | Sci-Fi              | genre(https://google.com)   |
+| 13     | genre<sup>1</sup> |  string               | interestProfileDetails.interestGenre  | Sci-Fi              | [1](https://google.com)   |
 
 
 <table>
