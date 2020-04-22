@@ -138,7 +138,7 @@ Lab 2 - Segmentation - Multi-Entity Sequential Segmentation
       <tr width="500">
             <td valign="top"><h3>Objective:</h3></td>
             <td valign="top"><br>In this exercise, we’ll create a segment using both a Profile Attribute and ExperienceEvents using a Sequential Segment that compares multiple event conditions</br>
-      <br>This month, a retailer wants to email a promotional discount offer to existing female customers who have viewed or begun an online order for their premier product but have not ordered the item after an hour of either online event.</br></td>
+      <br>A marketer wants to email a promotional discount offer to existing customers who have viewed or started an online upgrade for the Premium Plan product but have not completed the subscription after an hour of either online event during their birthday month.</br></td>
      </tr>
      <tr width="500">
            <td valign="top"><h3>Prerequisites:</h3></td>
@@ -347,7 +347,7 @@ Lab 3 - Segmentation - Dynamic Segmentation
       <tr width="500">
             <td valign="top"><h3>Objective:</h3></td>
             <td valign="top"><br>In this exercise, we’ll create a segment using Commerce ExperienceEvents and dynamic segmentation. Dynamic segmentation solves the scalability problems marketers traditionally face when building segments for marketing campaigns or other use cases where setting up multiple variations of the same segment was required.</br>
-      <br>On an ongoing basis, a retailer wants to remarket to customers who have clicked through an email offer for an item, started the order online in the last 3 days, but have not ordered the item within 1 day.</br></td>
+      <br>On an ongoing basis, a marketer wants to remarket to customers who have clicked through an email offer for an item, started the subscription online in the last 3 days, but have not completed the subscription within 1 day.</br></td>
      </tr>
      <tr width="500">
            <td valign="top"><h3>Prerequisites:</h3></td>
