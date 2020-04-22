@@ -11,7 +11,7 @@ Lab 1 - Segmentation - Simple ExperienceEvent Segmentation
       <tr width="500">
             <td valign="top"><h3>Objective:</h3></td>
             <td valign="top"><br>In this exercise, we’ll create a basic segment using a single field in Call Center ExperienceEvent.</br>
-      <br>On an ongoing basis, a retailer wants to create a basic segment for customers who place an order with a Call Center representative. This segment will be added to other segments for other marketing events.</br>
+      <br>On an ongoing basis, a marketer wants to create a basic segment for customers who cancel their subscription with a Call Center representative. </br>
             </td>
      </tr>
      <tr width="500">
@@ -81,9 +81,9 @@ Instructions:
 
       <kbd><img src="./images/segment_xdm_ee.png"  /></kbd>
       
-8.	Click on ‘Adobeamericaspot 5’ to expand the objects below that namespace
+8.	Click on ‘Adobeamericaspot 2’ to expand the objects below that namespace
       
-      <kbd><img src="./images/segment_xdm_pot5.png"  /></kbd>
+      <kbd><img src="./images/segment_xdm_pot2.png"  /></kbd>
 
 9.	Click on ‘callcenterDetails’
    
@@ -94,23 +94,23 @@ Instructions:
       ![Demo](./images/segment_travel_callselectedreason.png)
       -->
       
-      <kbd><img src="./images/segment_retail_callselectedreason.png"  /></kbd>    
+      <kbd><img src="./images/segment_media_callselectedreason.png"  /></kbd>    
       
-11.	In the text box to the right of equals, type “Place Order” and press ‘Enter’
+11.	In the text box to the right of equals, type “Subscription Cancellation” and press ‘Enter’
       <!--
       ![Demo](./images/segment_travel_reservationbooking.png)
       -->
       
-      <kbd><img src="./images/segment_retail_placeorder.png"  /></kbd>  
+      <kbd><img src="./images/segment_media_subscription_cancel.png"  /></kbd>  
 
 12.	Ensure ‘Streaming’ is enabled in the right pane
 
       <kbd><img src="./images/segment_retail_streaming.png"  /></kbd>  
 
-13.	Enter the segment name “Call Center Order” followed by your Student ID (e.g. “Call Center Order 025”)
+13.	Enter the segment name “Call Center Cancellation” followed by your Student ID (e.g. “Call Center Cancellation 025”)
 	<br>Enter the same value as the description
       
-      <kbd><img src="./images/segment_retail_segmentname.png"  /></kbd>       
+      <kbd><img src="./images/segment_media_segmentname.png"  /></kbd>       
            
 14.	Save the Segment
       <!--
