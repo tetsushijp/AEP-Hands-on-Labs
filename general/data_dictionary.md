@@ -1,3 +1,27 @@
+
+
+| Number | FieldName         | DataType              | Mixin + Path                          | Example             | Definition (when nessacary)          |
+|--------|-------------------|-----------------------|---------------------------------------|---------------------|--------------------------------------|
+| 01     | crmid             |  string               | {{tenantid}}.identification.CRMID     | crmid:3572904408    |  -                                   |
+| 02     | email             |  string               | {{tenantid}}.identification.Email     | leese1838@yahoo.com |  -                                   |
+| 03     | first_name        |  string               | person.name.firstName                 | Roscoe              |  -                                   |
+| 04     | last_name         |  string               | person.name.lastName                  | Lawrence            |  -                                   |
+| 05     | gender            |  enum (string)        | person.gender                         | female              |  -                                   |
+| 06     | mobile_telephone  |  string               | mobilePhone.number                    | 531-075-8094        |  -                                   |
+| 07     | city              |  string               | homeAddress.city                      | Wauwatosa           |  -                                   |
+| 08     | country           |  string               | homeAddress.country                   | United States       |  -                                   |
+| 09     | zip               |  string               | homeAddress.postalCode                | 88430               |  -                                   |
+| 10     | state             |  string               | homeAddress.stateProvince             | Hawaii              |  -                                   |
+| 11     | street_address    |  string               | homeAddress.street1                   | 744 Fratessa        |  -                                   |
+| 12     | birthday          |  string (date)        | person.birthDate                      | 8/17/1972           |  -                                   |
+| 13     | genre             |  string               | interestProfileDetails.interestGenre  | Sci-Fi              |  what TV genre the customer likes    |
+
+
+
+
+
+
+
 CRM Data
 -----------------------------
 
