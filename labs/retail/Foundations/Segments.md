@@ -11,7 +11,7 @@ Lab 1 - Segmentation - Simple ExperienceEvent Segmentation
       <tr width="500">
             <td valign="top"><h3>Objective:</h3></td>
             <td valign="top"><br>In this exercise, we’ll create a basic segment using a single field in Call Center ExperienceEvent.</br>
-      <br>On an ongoing basis, a marketer wants to create a basic segment for customers who cancel their subscription with a Call Center representative. </br>
+      <br>On an ongoing basis, a retailer wants to create a basic segment for customers who place an order with a Call Center representative. This segment will be added to other segments for other marketing events.</br>
             </td>
      </tr>
      <tr width="500">
