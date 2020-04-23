@@ -211,14 +211,11 @@ Instructions:
 
 9.	Drag the ‘Birth date’ field to the Segment canvas
 
-	<kbd><img src="./images/segmentattributes_xdm_person_gender.png"  /></kbd>
+	<kbd><img src="./images/segmentattributes_xdm_person_bday.png"  /></kbd>
 
-10.	Start entering ‘Female’ in the text box and when the value displays, select it and press Enter. The ‘Gender’ field is an enum field to limit the values stored in that field.
-      <!--
-      ![Demo](./images/segment_travel_me_gender.png)
-      -->
-     
-     <kbd><img src="./images/segment_travel_me_gender.png"  /></kbd>
+10.	Configure the attribute to "During the month of" <current month> of <current year>.   
+          
+     <kbd><img src="./images/segment_media_bday_attribute.png"  /></kbd>
       
 11.	Next, select ‘Events’ under Fields in the left pane
 
@@ -236,14 +233,11 @@ Instructions:
       <!--
       ![Demo](./images/segment_travel_me_prodviewcheckout.png)
       -->
-      <kbd><img src="./images/segment_travel_me_prodviewcheckout.png"  /></kbd>
+      <kbd><img src="./images/segment_media_prodviewcheckout.png"  /></kbd>
       
 15.	Under ‘Events in the left pane, locate ‘Purchases’ and drag that to the segment canvas to the right of the ‘Product Views’ and ‘Purchase’ events
-      <!--
-      ![Demo](./images/segment_travel_me_purchase.png)
-      -->
-            
-       <kbd><img src="./images/segment_travel_me_purchase.png"  /></kbd>
+                 
+       <kbd><img src="./images/segment_media_purchase.png"  /></kbd>
             
 16.	Click on ‘Product Views’ in the segment canvas. A container will appear below to Include a XDM ExperienceEvent
 
@@ -257,72 +251,68 @@ Instructions:
 
 	<kbd><img src="./images/segment_xdm_prodsku.png"  /></kbd>
 
-19.	Enter ‘prd1030’ in the text box to the right of productSKU = and press ‘Enter’
+19.	Enter ‘prd1030’ in the text box to the right of SKU = and press ‘Enter’
       <!--
       ![Demo](./images/segment_travel_me_pvsku.png)
       -->
       
-	<kbd><img src="./images/segment_travel_me_pvsku.png"  /></kbd>
+	<kbd><img src="./images/segment_media_pvsku.png"  /></kbd>
 
 20.	Click on ‘Checkouts’ in the segment canvas. A container will appear below to Include a XDM ExperienceEvent
 
 	<kbd><img src="./images/segment_xdm_checkout_container.png"  /></kbd>
 
-20.	In the left pane, click on ‘XDM ExperienceEvent’ and ‘Product list items’ in the resulting display
+21.	In the left pane, click on ‘XDM ExperienceEvent’ and ‘Product list items’ in the resulting display
 
 	<kbd><img src="./images/segment_xdm_prodlist.png"  /></kbd>
 
-21.	Select the 'SKU' field and drag it into the ‘XDM ExperienceEvent’ container for ‘Product Views’
+22.	Select the 'SKU' field and drag it into the ‘XDM ExperienceEvent’ container for ‘Checkouts’
 
 	<kbd><img src="./images/segment_xdm_checkout_prodsku.png"  /></kbd>
 
-22.	Enter ‘prd1030’ in the text box to the right of prodSKU = and press ‘Enter’
+23.	Enter ‘prd1030’ in the text box to the right of prodSKU = and press ‘Enter’
 
 	<kbd><img src="./images/segment_xdm_checkout_prodsku_value.png"  /></kbd>
 
-23.	Click on ‘Purchases’ in the segment canvas. A container will appear below to Include a XDM ExperienceEvent
+24.	Click on ‘Purchases’ in the segment canvas. A container will appear below to Include a XDM ExperienceEvent
 
 	<kbd><img src="./images/segment_xdm_purchase_container.png"  /></kbd>
 
-23.	In the left pane, click on ‘XDM ExperienceEvent’ and ‘Product list items’ in the resulting display
+25.	In the left pane, click on ‘XDM ExperienceEvent’ and ‘Product list items’ in the resulting display
 
 	<kbd><img src="./images/segment_xdm_prodlist.png"  /></kbd>
 
-24.	Select the 'SKU' field and drag it into the ‘XDM ExperienceEvent’ container for ‘Product Views’
+26.	Select the 'SKU' field and drag it into the ‘XDM ExperienceEvent’ container for ‘Purchases’
 
 	<kbd><img src="./images/segment_xdm_purchase_prodsku.png"  /></kbd>
 
-25.	Enter ‘prd1030’ in the text box to the right of SKU = and press ‘Enter’
+27.	Enter ‘prd1030’ in the text box to the right of SKU = and press ‘Enter’
 
 	<kbd><img src="./images/segment_xdm_purchase_container_sku_value.png"  /></kbd>
 
-26.	Change the container operator to ‘Exclude’ for ‘Purchases’
+28.	Change the container operator to ‘Exclude’ for ‘Purchases’
       <!--
       ![Demo](./images/segment_travel_me_purchasesku.png)
       -->
       
-      <kbd><img src="./images/segment_travel_me_purchasesku.png"  /></kbd>
+      <kbd><img src="./images/segment_media_excludepurchase.png"  /></kbd>
             
-26.	At the top of the ‘Events’ canvas, update the time value to ‘This month’
+29.	At the top of the ‘Events’ canvas, update the time value to ‘This month’
 	
 	<kbd><img src="./images/segment_events_container_month.png"  /></kbd>
 
-27.	In the middle, update the time value to ‘After 1 Hour’ between the ‘Product Views’ or ‘Checkouts’ and ‘Purchases’.
+30.	In the middle, update the time value to ‘After 1 Hour’ between the ‘Product Views’ or ‘Checkouts’ and ‘Purchases’.
       <!--
       ![Demo](./images/segment_travel_me_purchasetime.png)
       -->
       
       <kbd><img src="./images/segment_events_purchasetime.png"  /></kbd>      
       
-28.	Ensure ‘Streaming’ is enabled in the right pane
-
-	<kbd><img src="./images/segment_properties_streaming.png"  /></kbd> 
-	
-29.	Enter the segment name “Premium Plan High Intent Bday Promo” followed by your Student ID (e.g. “Premium Plan High Intent Bday Promo 025”).  Enter the same value as the description
+31.	Enter the segment name “Premium Plan High Intent Bday Promo” followed by your Student ID (e.g. “Premium Plan High Intent Bday Promo 025”).  Enter the same value as the description
 
 	<kbd><img src="./images/segment_properties_name.png"  /></kbd>
 
-30.	Save the Segment
+32.	Save the Segment
       <!--
       ![Demo](./images/segment_travel_me_save.png)
       -->
@@ -513,15 +503,11 @@ The resulting statement should be ‘SKU equals Checkouts1 | Product list items1
 
 	<kbd><img src="./images/segments_retail_event_time2.png"  /></kbd> 
 
-25.	Ensure ‘Streaming’ is enabled in the right pane
-
-	<kbd><img src="./images/segment_properties_streaming.png"  /></kbd>
-
-26.	Enter the segment name “Email Channel Online Order Abandoners” followed by your Student ID (e.g. “Email Channel Online Order Abandoners 025”).  Enter the same value as the description
+25.	Enter the segment name “Email Channel Online Order Abandoners” followed by your Student ID (e.g. “Email Channel Online Order Abandoners 025”).  Enter the same value as the description
 
 	<kbd><img src="./images/segment_properties_name3.png"  /></kbd>
 	
-27.	Save the Segment
+26.	Save the Segment
 
 	<kbd><img src="./images/segment_retail_ordersave.png"  /></kbd>   
 
