@@ -209,7 +209,7 @@ Instructions:
 
 	<kbd><img src="./images/segmentattributes_xdm_person.png"  /></kbd>
 
-9.	Drag the ‘Gender’ field to the Segment canvas
+9.	Drag the ‘Birth date’ field to the Segment canvas
 
 	<kbd><img src="./images/segmentattributes_xdm_person_gender.png"  /></kbd>
 
@@ -318,7 +318,7 @@ Instructions:
 
 	<kbd><img src="./images/segment_properties_streaming.png"  /></kbd> 
 	
-29.	Enter the segment name “Premier Product High Intent Female Purchasers” followed by your Student ID (e.g. “Premier Product High Intent Female Purchasers 005”).  Enter the same value as the description
+29.	Enter the segment name “Premium Plan High Intent Bday Promo” followed by your Student ID (e.g. “Premium Plan High Intent Bday Promo 025”).  Enter the same value as the description
 
 	<kbd><img src="./images/segment_properties_name.png"  /></kbd>
 
