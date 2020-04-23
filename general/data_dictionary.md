@@ -16,6 +16,7 @@ SOURCES:
 The data below is what has already been loaded in your system.  Please (blah blah blah blah)...
 
 
+
 CRM Data - version 001 - removed define column (I sort of like this)
 -----------------------------
 
@@ -415,6 +416,26 @@ bff3bc24-84d8-11ea-8079-b88a60e194fb,call - Payment Question,2020-03-23T13:12:02
 ...
 ```
 
+XDM - Data Type Definitions
+------------------------------
+
+
+| XDM type  | Range                                                     | JSON Schema type | JSON Schema format |
+| --------- | --------------------------------------------------------- | ---------------- | ------------------ |
+| string    | unlimited                                                 | string           |                    |
+| number    | ±2.23×10^308 to ±1.80×10^308 (IEEE 64-bit floating point) | number           |                    |
+| long      | (-2^53 + 1) - (2^53 - 1) (54-bit signed integer\*)        | integer          |                    |
+| int       | -2^31 - 2^31 (32-bit signed integer)                      | integer          |                    |
+| short     | -2^15 - 2^15 (16-bit signed integer)                      | integer          |                    |
+| byte      | -2^7 - 2^7 (8-bit signed integer)                         | integer          |                    |
+| boolean   | { true, false }                                           | boolean          |                    |
+| date      | n/a                                                       | string           | date\*\*           |
+| date-time | n/a                                                       | string           | date-time\*\*      |
+| map       | n/a                                                       | object           |                    |
+
+
+
+For more info, please look (here)[https://github.com/adobe/xdm/blob/master/docs/data_types.md]
 
 Doug Notes:
  - The above examples would be for each data source (not shown yet, its being drafted right now)
