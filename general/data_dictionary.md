@@ -3,13 +3,13 @@ THIS SECTION IS NOT YET DONE -- but this gives you a picture of the data diction
  
 Welcome Marketer / DBarchitect / Soon-To-Be AEP Genius...
 -----------------------------
-You are wearing many hats at a leading Media Company, likely not too dissimalar to your day-to-day responsibilites today.  You've been tasked to both deploy and understand how to build out the upon your AEP deployment.  This guide/document here (meant to be reviewed before your HOL session) will give you a detailed look and analysis of the data you're currently loading into your system.
+You are wearing many hats at a leading Media Company, likely not too dissimalar to your day-to-day responsibilites in the real world.  You've been tasked to both deploy and understand how to build out the upon your AEP deployment -- the deployment has already started so the system should be considered ".  This guide/document here (meant to be reviewed before your HOL session) will give you a detailed look and analysis of the data you're currently loading into your system.
 
 OBJECTIVES:
 ==============
   - Become familiar with the data sources
   - Understand mixins + schemas
-  - New insights into your deployment
+  - Gain new insights into your HOL deployment with AEP
   
 SOURCES:
 =================
@@ -101,29 +101,6 @@ bundles will be included unless the locale: section is set above.</td>
 </table>
 
 
-CRM Data - version 003 - junky old version -- table overflowing is annoying
------------------------------
-
-
-
-| Number | FieldName         | DataType              | Mixin + Path                          | Example             | Definition (when nessacary)          |
-|--------|-------------------|-----------------------|---------------------------------------|---------------------|--------------------------------------|
-| 01     | crmid             |  string               | {{tenantid}}.identification.CRMID     | crmid:3572904408    |  -                                   |
-| 02     | email             |  string               | {{tenantid}}.identification.Email     | leese1838@yahoo.com |  -                                   |
-| 03     | first_name        |  string               | person.name.firstName                 | Roscoe              |  -                                   |
-| 04     | last_name         |  string               | person.name.lastName                  | Lawrence            |  -                                   |
-| 05     | gender            |  enum (string)        | person.gender                         | female              |  -                                   |
-| 06     | mobile_telephone  |  string               | mobilePhone.number                    | 531-075-8094        |  -                                   |
-| 07     | city              |  string               | homeAddress.city                      | Wauwatosa           |  -                                   |
-| 08     | country           |  string               | homeAddress.country                   | United States       |  -                                   |
-| 09     | zip               |  string               | homeAddress.postalCode                | 88430               |  -                                   |
-| 10     | state             |  string               | homeAddress.stateProvince             | Hawaii              |  -                                   |
-| 11     | street_address    |  string               | homeAddress.street1                   | 744 Fratessa        |  -                                   |
-| 12     | birthday          |  string (date)        | person.birthDate                      | 8/17/1972           |  -                                   |
-| 13     | genre             |  string               | interestProfileDetails.interestGenre  | Sci-Fi              |  what TV genre the customer likes    |
-
-
-
 
 
 Preview: Order data JSON
@@ -175,6 +152,257 @@ Preview: Order data JSON
     }
   }
 }
+```
+
+
+
+Subscription Data
+-----------------------------------
+
+--Info--
+This has some data aBOUT X Y Z
+
+--Table--
+
+--JSON Preview--
+
+```json
+{
+  "_id": "c263737f-84d8-11ea-8271-b88a60e194fb",
+  "timestamp": "2020-03-17T06:11:13.000Z",
+  "eventType": "subscription - website",
+  "_adobeamericaspot2": {
+    "identification": {
+      "CRMID": "crmid:9999463"
+    },
+    "subscriptionDetails": {
+      "subscriptionID": "subscriptionid:852331",
+      "subscriptionSKU": "prd1004",
+      "subscriptionName": "Live Streaming Plan: Month-to-Month",
+      "subscriptionType": "Live Streaming Plan",
+      "subscriptionLength": "Month-to-Month",
+      "subscriptionPayment": "Mastercard",
+      "subscriptionMethod": "website",
+      "subscriptionAmount": 277.8,
+      "subscriptionFlag": 1
+    },
+    "accountDetails": {
+      "accountCurrentContractMonth": "7",
+      "accountOriginChannel": "website",
+      "accountStatus": "renewed"
+    }
+  }
+}
+```
+
+
+
+--CSV Preview--
+
+```
+id,eventtype,subscriptionid,crmid,timestamp,accountstatus,subscriptionsku,subscriptionname,subscriptiontype,subscriptionlength,subscriptionpayment,subscriptionmethod,subscriptionamount,subscriptionflag,accountcurrentcontractmonth,accountoriginchannel
+c2632694-84d8-11ea-9d0a-b88a60e194fb,subscription - website,subscriptionid:587524,crmid:9999463,2020-03-28T00:15:33.000Z,renewed,prd1118,Basic Plan: Annual,Basic Plan,Annual,Visa,website,452.25,1,16,website
+c263737f-84d8-11ea-8271-b88a60e194fb,subscription - website,subscriptionid:852331,crmid:9999463,2020-03-17T06:11:13.000Z,renewed,prd1004,Live Streaming Plan: Month-to-Month,Live Streaming Plan,Month-to-Month,Mastercard,website,277.8,1,7,website
+...
+```
+
+
+CRM Data
+-----------------------------------
+
+--Info--
+This has some data aBOUT X Y Z
+
+--Table--
+
+--JSON Preview--
+
+```json
+{
+  "_id": "d369d2b4-84d8-11ea-ac05-b88a60e194fb",
+  "_adobeamericaspot2": {
+    "identification": {
+      "CRMID": "crmid:9994161",
+      "Email": "macrobiotus1938@gmail.aephandson.com"
+    },
+    "interestProfileDetails": {
+      "interestGenre": "Action"
+    }
+  },
+  "personalEmail": {
+    "address": "macrobiotus1938@gmail.aephandson.com"
+  },
+  "person": {
+    "name": {
+      "firstName": "Shenika",
+      "lastName": "Caldwell"
+    },
+    "gender": "female",
+    "birthDate": "1955-12-15"
+  },
+  "mobilePhone": {
+    "number": "725-328-9492"
+  },
+  "homeAddress": {
+    "city": "Dolton",
+    "country": "United States",
+    "postalCode": "71523",
+    "stateProvince": "Missouri",
+    "street1": "866 Taraval"
+  }
+}
+
+
+```
+
+--CSV Preview--
+
+```
+crmid,email,first_name,last_name,gender,mobile_telephone,city,country,zip,state,street_address,birthday,genre
+crmid:9999463,deceive1927@outlook.aephandson.com,Porfirio,Morris,male,248-153-0606,Burton,United States,45224,Kansas,891 Essex,1943-08-21,Fantasy
+crmid:9999425,barite2000@yandex.aephandson.com,Leo,Dejesus,,847-223-9855,Melbourne,United States,74642,Iowa,803 Kamille,1989-12-15,Comedy
+...
+```
+
+
+Reduced Web Data
+-----------------------------------
+
+--Info--
+This has some data aBOUT X Y Z
+
+--Table--
+
+--JSON Preview--
+
+```json
+
+{
+  "_id": "485ee26b-84d9-11ea-b95a-b88a60e194fb",
+  "timestamp": "2020-03-30T07:29:59.000Z",
+  "eventType": "web - pageview",
+  "_adobeamericaspot2": {
+    "identification": {
+      "CRMID": "",
+      "Cookie": "497A76D0301EB581-44F48C9F3F294CF4",
+      "CRMIDCombo": "crmid:[497A76D0301EB581]"
+    },
+    "webProductDetails": [
+      {
+        "webProductSKU": "prd1188",
+        "webProductName": "Premium Plan: Month-to-Month",
+        "webProductType": "Premium Plan",
+        "webProductLength": "Month-to-Month",
+        "webProductFlag": 1
+      }
+    ],
+    "webDetails": {
+      "webFlag": 1,
+      "webHitID": "2F40CFFB85158000-401286A4671D62F9",
+      "webPagename": "purchase: step 2",
+      "webUserPersona": "persona3",
+      "webUserTier": "persona3"
+    }
+  },
+  "placeContext": {
+    "geo": {
+      "postalCode": "35410",
+      "_schema": {
+        "latitude": "38.32",
+        "longitude": "27.13"
+      }
+    }
+  }
+}
+
+
+```
+
+
+
+Propensity Data
+-----------------------------------
+
+--Info--
+This has some data aBOUT X Y Z
+
+--Table--
+
+--JSON Preview--
+
+```json
+{
+  "_id": "c2640fb6-84d8-11ea-8a50-b88a60e194fb",
+  "timestamp": "2020-03-31T06:19:47.000Z",
+  "_adobeamericaspot2": {
+    "identification": {
+      "CRMID": "crmid:9991105"
+    },
+    "propensityProfileDetails": {
+      "propensityPremium": 7,
+      "propensityHighSpeed": 5
+    }
+  }
+}
+```
+
+
+--CSV Preview--
+
+```
+id,crmid,propensity_premium,propensity_high_speed
+c263737e-84d8-11ea-b522-b88a60e194fb,crmid:9999463,2,7
+c2639a8c-84d8-11ea-ac72-b88a60e194fb,crmid:9999463,7,4
+...
+```
+
+
+
+
+Call Center Data
+-----------------------------------
+
+--Info--
+This has some data aBOUT X Y Z
+
+--Table--
+
+--JSON Preview--
+
+```json
+{
+  "_id": "bff3bc24-84d8-11ea-8079-b88a60e194fb",
+  "timestamp": "2020-03-23T13:12:02.000Z",
+  "eventType": "call - Payment Question",
+  "_adobeamericaspot2": {
+    "identification": {
+      "CRMID": "crmid:8127612"
+    },
+    "callCenterDetails": {
+      "callAgentID": "agentid:451",
+      "callCenterName": "callcenter:4",
+      "callEndtime": "2020-03-23T13:05:31.000Z",
+      "callFlag": 1,
+      "callID": "372889423",
+      "callLength": 42,
+      "callSelectedReason": "Payment Question",
+      "callStarttime": "2020-03-23T13:12:02.000Z",
+      "callSurveyScore": "9"
+    }
+  }
+}
+```
+
+
+--CSV Preview--
+
+
+```
+id,eventtype,callstarttime,crmid,callid,callcentername,callagentid,callselectedreason,calllength,callendtime,callsurveyscore,callflag
+bff31e58-84d8-11ea-86ac-b88a60e194fb,call - Subscription Open,2020-03-16T16:05:21.000Z,crmid:1199216,743688988,callcenter:4,agentid:447,Subscription Open,489,2020-03-16T16:05:36.000Z,,1
+bff394b0-84d8-11ea-8d79-b88a60e194fb,call - Website Issue,2020-03-26T19:46:04.000Z,crmid:8420927,893399706,callcenter:6,agentid:617,Website Issue,568,2020-03-26T19:51:17.000Z,,1
+bff3bc24-84d8-11ea-8079-b88a60e194fb,call - Payment Question,2020-03-23T13:12:02.000Z,crmid:8127612,372889423,callcenter:4,agentid:451,Payment Question,-42,2020-03-23T13:05:31.000Z,9,1
+...
 ```
 
 
