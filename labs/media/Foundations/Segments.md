@@ -503,7 +503,7 @@ The resulting statement should be ‘SKU equals Checkouts1 | Product list items1
 
 	<kbd><img src="./images/segments_retail_event_time2.png"  /></kbd> 
 
-25.	Enter the segment name “Email Channel Online Order Abandoners” followed by your Student ID (e.g. “Email Channel Online Order Abandoners 025”).  Enter the same value as the description
+25.	Enter the segment name “Email Channel Online Subscription Abandoners” followed by your Student ID (e.g. “Email Channel Online Subscription Abandoners 025”).  Enter the same value as the description
 
 	<kbd><img src="./images/segment_properties_name3.png"  /></kbd>
 	
