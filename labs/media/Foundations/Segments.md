@@ -103,16 +103,12 @@ Instructions:
       
       <kbd><img src="./images/segment_media_subscription_cancel.png"  /></kbd>  
 
-12.	Ensure ‘Streaming’ is enabled in the right pane
-
-      <kbd><img src="./images/segment_retail_streaming.png"  /></kbd>  
-
-13.	Enter the segment name “Call Center Cancellation” followed by your Student ID (e.g. “Call Center Cancellation 025”)
+12.	Enter the segment name “Call Center Cancellation” followed by your Student ID (e.g. “Call Center Cancellation 025”)
 	<br>Enter the same value as the description
       
       <kbd><img src="./images/segment_media_segmentname.png"  /></kbd>       
            
-14.	Save the Segment
+13.	Save the Segment
       <!--
       ![Demo](./images/segment_travel_reservationbookingsave.png)
       -->
