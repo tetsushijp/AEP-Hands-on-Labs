@@ -146,12 +146,12 @@ all=>
 ```sql
 select 
 _experience.analytics.customDimensions.eVars.eVar9, 
-_adobeamericaspot5.identification.Email as Email_Address
+_adobeamericaspot2.identification.Email as Email_Address
 from   
 media_demo_data_midvalues aa,
 crm_profile_dataset crm
 where 
-crm._adobeamericaspot5.identification.CRMID = aa._experience.analytics.customDimensions.eVars.eVar9
+crm._adobeamericaspot2.identification.CRMID = aa._experience.analytics.customDimensions.eVars.eVar9
 and web.webPageDetails.name = 'help'
 and _experience.analytics.customDimensions.eVars.eVar9 IS NOT NULL
 limit 10;
@@ -331,7 +331,7 @@ Lets include the geographical info, like longitude, lattitude, city, countrycode
 **SQL**
 
 ```sql
-select distinct crm._adobeamericaspot5.identification.crmid,
+select distinct crm._adobeamericaspot2.identification.crmid,
        r.city,
        r.countrycode,
        r.lat as latitude,
@@ -355,7 +355,7 @@ from (
        where  web.webPageDetails.name in ('help', 'contact us')
 ) r
 , crm_profile_dataset crm
-where crm._adobeamericaspot5.identification.crmid = r.crmid
+where crm._adobeamericaspot2.identification.crmid = r.crmid
 and r.webPage = 'help'
 and  contact_us_after_seconds is not null
 order by seconds_to_contact_us desc
@@ -390,4 +390,4 @@ Copy the statement above and execute it in your **PSQL command-line interface**.
 all=>
 ```
 
-Return to [Lab Agenda Directory](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/media/README.md#lab-agenda)
+Return to [Lab Agenda Directory](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/README.md#lab-agenda)
