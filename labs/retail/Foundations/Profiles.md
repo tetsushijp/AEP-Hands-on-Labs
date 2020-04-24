@@ -56,7 +56,7 @@ Instructions:
       <li>After logging in, you'll land on the homepage of Adobe Experience Platform.</li>
 <li>In the menu on the left side, go to Profiles.</li>
 <li>Click on Find a Profile. By clicking on "Find a Profile", a popup appears in which a namespace and an ID can be entered.</li>
-<li>Next, go to https://americaspot5-publish.adobedemo.com/content/varawat/ey-project/language-masters/en.html in a browser.</li>
+<li>Next, go to https://americaspot2-publish.adobedemo.com/content/telus/language-masters/en.html in a browser.</li>
 <li>In the left margin, click on the “person” icon. This will display the X-ray panel from this website.</li>
 <li>Expand the Real-time Customer Profile section. </li>
 <li>Observe the identities and their linkage to a namespace.</li>
@@ -66,4 +66,4 @@ Instructions:
 </ol>
 
 
-Return to [Lab Agenda Directory](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/README.md#lab-agenda)
+Return to [Lab Agenda Directory](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/media/README.md#lab-agenda)
