@@ -248,7 +248,7 @@ Instructions:
     -->
     <kbd><img src="./images/schemaapply.png"  /></kdb>    
 
-17. We will be adding two more fields to the 'orderDetails' object.  Click "+Add Field" next to the object
+17. We will be adding two more fields to the 'accountDetails' object.  Click "+Add Field" next to the object
 
     <!---
     ![Demo](./images/schemamixin12.png)
