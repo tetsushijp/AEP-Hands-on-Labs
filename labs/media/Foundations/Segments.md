@@ -511,6 +511,6 @@ The resulting statement should be ‘SKU equals Checkouts1 | Product list items1
 <br>
 <br>
 
-Return to [Lab Agenda Directory](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/README.md#lab-agenda)
+Return to [Lab Agenda Directory](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/media/README.md#lab-agenda)
  
  
