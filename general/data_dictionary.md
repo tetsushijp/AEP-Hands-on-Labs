@@ -1,5 +1,5 @@
  
-Welcome Marketer / DBarchitect / Soon-To-Be AEP Genius...
+Welcome Marketer / DBA / Soon-To-Be AEP Genius...
 =============================
 __\[The scene opens...\]__
 Imagine that you're wearing many hats at a leading Media Company, likely not too dissimalar from your day-to-day responsibilites in the real world.  You've been tasked to both deploy and understand how to build out the upon your AEP deployment -- the deployment has already started so the system should be considered ".  This guide/document here (meant to be reviewed before your HOL session) will give you a detailed look and analysis of the data you're currently loading into your system.
@@ -20,11 +20,25 @@ The data below is what has already been loaded in your system.  Please click on 
   4. Call Center
   5. Transactions
   
-QUICK DATASET TUTORIAL
+QUICK DATASET/SCHEMA TUTORIAL
 ============================
-Understanding the dataset and schema is a central concept within AEP -- let me provide a quick overview.
+Understanding the dataset and schema is a central concept within AEP -- let me provide a quick overview (this will also be covered in class during the Schema chapter/section).
 
-
+  1. There are 2 essential classes that define schemas/dataset, they are (1) Profile and (2) Experience Event -- here's a breif overview shown below
+      (pic here)
+  2. Your above datasets fall into these metioned categories in this manner
+      (pic here)
+  3. As an example, let's explore the Call Center dataset to see it's parts + components.  Here's a screen shot of the full schema
+     (pic here)
+  4. Please notice that there are 3 different "Mixins" that help contruct parts/sections of the complete schema.  
+     (pic here)
+  5. The mixins should be thought of as re-usable schema components (typically assigned as objects) that are groupings of similar/related fields.  This "piece" can be reimplemented in other schemas as to (a) reduced level of effort and work as well as (b) give more meaningful structure to your schema and where items are grouped together
+     (pic here)
+     
+   NOTE: ANY mixin changes/saves will be duplicated/mirrored out to all instances where its utilized,  please look below as an example:
+     
+  6. Notice that within the mix ==name here== there are different data types used.  There are basic data types and more complex data types.. More info can be found here
+  7. Now that the schema is in place, it's ready to recieve data 
 
 
 CRM Data - version 002 - added Notes column (small links would go here to "more info about X")
