@@ -99,7 +99,7 @@ In this exercise, you'll create an Orchestrated Journey by making use of Journey
 
     ![Demo](./images/jo8.png)
 
-    You'll then see the `Advanced Editor` which allows code entry. Paste it in `##{weatherApiemailAddress.WeatherByZipemailAddress.weather.main} == 'Rain'` (replace emailAddress)
+    You'll then see the `Advanced Editor` which allows code entry. Paste it in `#{weatherApiemailAddress.WeatherByZipemailAddress.weather.main} == 'Rain'` (replace emailAddress)
 
     You'll then see this.
 
