@@ -1,44 +1,28 @@
-
-THIS SECTION IS NOT YET DONE -- but this gives you a picture of the data dictionary page for the marketer....
  
 Welcome Marketer / DBarchitect / Soon-To-Be AEP Genius...
------------------------------
-You are wearing many hats at a leading Media Company, likely not too dissimalar to your day-to-day responsibilites in the real world.  You've been tasked to both deploy and understand how to build out the upon your AEP deployment -- the deployment has already started so the system should be considered ".  This guide/document here (meant to be reviewed before your HOL session) will give you a detailed look and analysis of the data you're currently loading into your system.
+=============================
+__\[The scene opens...\]__
+Imagine that you're wearing many hats at a leading Media Company, likely not too dissimalar from your day-to-day responsibilites in the real world.  You've been tasked to both deploy and understand how to build out the upon your AEP deployment -- the deployment has already started so the system should be considered ".  This guide/document here (meant to be reviewed before your HOL session) will give you a detailed look and analysis of the data you're currently loading into your system.
 
 OBJECTIVES:
 ==============
   - Become familiar with the data sources
   - Understand mixins + schemas
-  - Gain new insights into your HOL deployment with AEP
+  - Gain new insights into your HOL deployment within AEP
   
-SOURCES:
+YOUR HOL DATA SOURCES:
 =================
-The data below is what has already been loaded in your system.  Please (blah blah blah blah)...
+The data below is what has already been loaded in your system.  Please click on each to review the contents and data dictionary:
 
-
-
-CRM Data - version 001 - removed define column (I sort of like this)
------------------------------
-
- - please note the supperscripts for clicks to links, I'm digging that
- 
- 
-
-| Number | FieldName         | DataType<sup>[info](#here)</sup>  | Mixin + Path <sup>[info](#here)</sup> | Example | 
-|--------|-------------------|-----------------------|---------------------------------------|---------------------|
-| 01     | crmid             |  string               | {{tenantid}}.identification.CRMID     | crmid:3572904408    |
-| 02     | email             |  string               | {{tenantid}}.identification.Email     | leese1838@yahoo.com |
-| 03     | first_name        |  string               | person.name.firstName                 | Roscoe              |
-| 04     | last_name         |  string               | person.name.lastName                  | Lawrence            |
-| 05     | gender            |  enum (string)        | person.gender                         | female              |
-| 06     | mobile_telephone  |  string               | mobilePhone.number                    | 531-075-8094        |
-| 07     | city              |  string               | homeAddress.city                      | Wauwatosa           |
-| 08     | country           |  string               | homeAddress.country                   | United States       |
-| 09     | zip               |  string               | homeAddress.postalCode                | 88430               |
-| 10     | state             |  string               | homeAddress.stateProvince             | Hawaii              |
-| 11     | street_address    |  string               | homeAddress.street1                   | 744 Fratessa        |
-| 12     | birthday          |  string (date)        | person.birthDate                      | 8/17/1972           |
-| 13     | genre<sup>1</sup> |  string               | interestProfileDetails.interestGenre  | Sci-Fi              |
+  1. CRM
+  2. Propensity
+  3. Reduced Web
+  4. Call Center
+  5. Transactions
+  
+QUICK DATASET TUTORIAL
+============================
+Understanding the dataset and schema is a central concept within AEP -- let me provide a quick overview.
 
 
 
