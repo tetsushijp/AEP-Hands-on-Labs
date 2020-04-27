@@ -24,24 +24,29 @@ QUICK DATASET/SCHEMA TUTORIAL
 ============================
 Understanding the dataset and schema is a central concept within AEP -- let me provide a quick overview (this will also be covered in class during the Schema chapter/section).
 
-  1. There are 2 essential classes that define schemas/dataset, they are (1) Profile and (2) Experience Event -- here's a breif overview shown below
+  1. From an 80,000 ft view, here is a diagram that defines the components/parts of schemas within AEP:
   
-  <kbd><img src="./images/001_dataset_and_schemas.png"  /></kbd>
+       <kbd><img src="./images/001_dataset_and_schemas.png"  /></kbd>
 
-  2. Your above datasets fall into these metioned categories in this manner
+  2. There are 2 essential behaviors (that are also defines as classes) that define schemas/dataset, they are (1) Profile and (2) Experience Event -- here's a breif overview shown below
+  
+       <kbd><img src="./images/001_dataset_and_schemas.png"  /></kbd>
+
+  3. Your above datasets fall into these metioned categories in this manner
       (pic here)
-  3. As an example, let's explore the Call Center dataset to see it's parts + components.  Here's a screen shot of the full schema
+  4. As an example, let's explore the Call Center dataset to see it's parts + components.  Here's a screen shot of the full schema
      (pic here)
-  4. Please notice that there are 3 different "Mixins" that help contruct parts/sections of the complete schema.  
+  5. Please notice that there are 3 different "Mixins" that help contruct parts/sections of the complete schema.  
      (pic here)
-  5. The mixins should be thought of as re-usable schema components (typically assigned as objects) that are groupings of similar/related fields.  This "piece" can be reimplemented in other schemas as to (a) reduced level of effort and work as well as (b) give more meaningful structure to your schema and where items are grouped together
+  6. The mixins should be thought of as re-usable schema components (typically assigned as objects) that are groupings of similar/related fields.  This "piece" can be reimplemented in other schemas as to (a) reduced level of effort and work as well as (b) give more meaningful structure to your schema and where items are grouped together
      (pic here)
      
    NOTE: ANY mixin changes/saves will be duplicated/mirrored out to all instances where its utilized,  please look below as an example:
      
-  6. Notice that within the mix ==name here== there are different data types used.  There are basic data types and more complex data types.. More info can be found here
-  7. Now that the schema is in place, it's ready to recieve data 
-
+  7. Notice that within the mix ==name here== there are different data types used.  There are basic data types and more complex data types.. More info can be found here
+  8. Now that the schema is in place, it's ready to recieve data as a dataset (there's a few ways to send/land the data into a dataset- JSON, Parquet, CSV and API to name a few).  Here's a way to conceptualize the relationship between schema and datsets:
+  
+   <kbd><img src="./images/001_dataset_and_schemas.png"  /></kbd>
 
 CRM Data - version 002 - added Notes column (small links would go here to "more info about X")
 -----------------------------
