@@ -171,6 +171,24 @@ This has some data aBOUT X Y Z
 
 #### Table
 
+
+
+| Number | FieldName                   | DataType<sup>[info](#here)</sup>  | Mixin          | Example | Notes |
+|--------|-----------------------------|-----------------------|----------------------------|---------------------|-----|
+| 01     | CRMID                       |  string               | identification             | crmid:3572904408      |  -  |
+| 02     | subscriptionID              |  string               | subscriptionDetails        | subscriptionid:852331 |  -  |
+| 03     | subscriptionSKU             |  string               | subscriptionDetails        | prd1004               |  -  |
+| 04     | subscriptionName            |  string               | subscriptionDetails        | Live Streaming Plan: Month-to-Month             |  -  |
+| 05     | subscriptionType            |  enum (string)        | subscriptionDetails        | Live Streaming Plan   |  -  |
+| 06     | subscriptionLength          |  string               | subscriptionDetails        | Month-to-Month        |  -  |
+| 07     | subscriptionPayment         |  string               | subscriptionDetails        | Mastercard            |  -  |
+| 08     | subscriptionMethod          |  string               | subscriptionDetails        | website               |  -  |
+| 09     | subscriptionAmount          |  string               | subscriptionDetails        | 277.80                |  -  |
+| 10     | subscriptionFlag            |  string               | subscriptionDetails        | 1                     |  -  |
+| 11     | accountCurrentContractMonth |  string               | homeAddress.street1        | 7                     |  -  |
+| 12     | accountOriginChannel        |  string (date)        | person.birthDate           | website               |  -  |
+| 13     | accountStatus               |  string               | subscriptionDetails        | renewed               | [1](https://google.com)|
+
 #### JSON Preview
 
 ```json
