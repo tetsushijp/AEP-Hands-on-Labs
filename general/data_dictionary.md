@@ -25,7 +25,8 @@ QUICK DATASET/SCHEMA TUTORIAL
 Understanding the dataset and schema is a central concept within AEP -- let me provide a quick overview (this will also be covered in class during the Schema chapter/section).
 
   1. There are 2 essential classes that define schemas/dataset, they are (1) Profile and (2) Experience Event -- here's a breif overview shown below
-      (pic here)
+      ![alt text](../images/001_dataset_and_schemas.png "Logo Title Text 1")
+
   2. Your above datasets fall into these metioned categories in this manner
       (pic here)
   3. As an example, let's explore the Call Center dataset to see it's parts + components.  Here's a screen shot of the full schema
