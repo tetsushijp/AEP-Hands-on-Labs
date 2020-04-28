@@ -112,10 +112,10 @@
 7) Click and open 'Step 2: Listing of tenant Schemas' and hit Send
 
 
-    This API call will get all the schemas in the instance. note we restrict the properties that are returned from the API call to make the repose more manageable to read.
+    This API call will get all the schemas in the instance. Note we restrict the properties that are returned from the API call to make the response more manageable to read.
 
 
-    Try to search for the schema you created during the schema excises.
+    Try to search for the schema you created during the schema exercises.
 
     <!---
     ![Demo](./images/postmanstep2.png)
