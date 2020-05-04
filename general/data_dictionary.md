@@ -37,7 +37,20 @@ Understanding the dataset and schema is a central concept within AEP -- let me p
   4. As an example, let's explore the Call Center dataset to see it's parts + components.  Here's a screen shot of the full schema
      (pic here)
   5. Please notice that there are 3 different "Mixins" that help contruct parts/sections of the complete schema.  
-     (pic here)
+     
+       Mixin #1
+       NAME:  Identification Mixin EE
+       PURPOSE: A collection of all IDs/values related to a users identification (there could be many ways to link)
+     
+       <kbd><img src="./images/Mixin_FSI_EE_CUSTOM_identification.png"  /></kbd>
+     
+ 
+       Mixin #2
+       NAME:  Identification Mixin EE
+       PURPOSE: A collection of all IDs/values related to a users identification (there could be many ways to link)
+     
+     <kbd><img src="./images/Mixin_FSI_EE_CUSTOM_identification.png"  /></kbd>
+     
   6. The mixins should be thought of as re-usable schema components (typically assigned as objects) that are groupings of similar/related fields.  This "piece" can be reimplemented in other schemas as to (a) reduced level of effort and work as well as (b) give more meaningful structure to your schema and where items are grouped together
      (pic here)
      
