@@ -95,15 +95,15 @@ In this exercise, you'll create a custom Event by making use of Journey Orchestr
 
     ![Demo](./images/popupok.png)
 
-9.Journey Orchestration also needs an Identifier to identify the customer. Since Journey Orchestration is linked to Adobe Experience Platform, all Identity Namespace will be displayed. We will be selecting ECID.
+9. Journey Orchestration also needs an Identifier to identify the customer. Since Journey Orchestration is linked to Adobe Experience Platform, all Identity Namespace will be displayed. We will be selecting ECID.
 
-    <kbd><img src="./images/eventidentifierdropdown.png"  /></kdb>
+   <kbd><img src="./images/eventidentifierdropdown.png"  /></kdb>
 
-    The Identifier will also automatically use the full Identity Graph of the Adobe Experience Platform and link all behavior across all available identities, devices and channels to the same profile. The result is that Journey Orchestration is contextual, relevant and consistent.
+   The Identifier will also automatically use the full Identity Graph of the Adobe Experience Platform and link all behavior across all available identities, devices and channels to the same profile. The result is that Journey Orchestration is contextual, relevant and consistent.
 
-    <!---
-    ![Demo](./images/eventidentifier.png)
-    --->
+   <!---
+   ![Demo](./images/eventidentifier.png)
+   --->
 
 
     <kbd><img src="./images/eventidentifier.png"  /></kdb>
@@ -113,7 +113,7 @@ In this exercise, you'll create a custom Event by making use of Journey Orchestr
 
     ![Demo](./images/save.png)
 
-10. Finally, you need to recover the `Orchestration eventID` for your custom event.
+11. Finally, you need to recover the `Orchestration eventID` for your custom event.
 
     Open your event again by clicking it in the list of events.
 
@@ -122,7 +122,7 @@ In this exercise, you'll create a custom Event by making use of Journey Orchestr
 
     ![Demo](./images/fieldseye.png)
 
-11. Clicking the `View Payload`-icon opens up a sample XDM payload for this event.
+12. Clicking the `View Payload`-icon opens up a sample XDM payload for this event.
 
 
     ![Demo](./images/fieldseyepayload.png)
@@ -133,13 +133,11 @@ In this exercise, you'll create a custom Event by making use of Journey Orchestr
 
     ![Demo](./images/fieldseyepayloadev.png)
 
-12. Note down the `eventID` as you'll need it in the last exercise to test your configuration.
+13. Note down the `eventID` as you'll need it in the last exercise to test your configuration.
 
     In this example, the `eventID` is `e133bb4d5075fe9e0356b2136d6413c723d05d146831c6d165d70a5a0dc4a6b8`.
 
     You've now defined the event that will trigger the Journey we're building. Once the Journey is triggered, the geofence-fields like City, Country, Name, Latitude and Longitude will be made available to the Journey.
-
-    As discussed in the use-case description, we then need to provide contextual promotions that depend on the weather. In order to get weather information, we'll need to define an external data sources that will provide us with the weather information for that location. We'll use the `OpenWeather`-service to provide us what that information, as part of exercise 2.
 
 ---
 

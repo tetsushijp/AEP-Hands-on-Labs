@@ -259,7 +259,7 @@ In this exercise, you'll create an Orchestrated Journey by making use of Journey
     ![Demo](./images/jopath1name.png)
     --->
 
-    <kbd><img src="./images/jopropscrpathname..png"  /></kdb>
+    <kbd><img src="./images/jopropscrpathname.png"  /></kdb>
 
 36. Next, check the other cases checkbox. This will add a fallback path if none of the previous paths are true for the profile. label this Path `low propensity to subscribe`
     <!---

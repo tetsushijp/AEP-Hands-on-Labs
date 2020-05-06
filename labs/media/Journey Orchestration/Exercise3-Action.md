@@ -131,7 +131,7 @@ In this exercise, you'll create 2 custom Actions by making use of Journey Orches
 
     Let's define your second action now.
 
-You've now defined Events, Data Sources and Actions - let's consolidate all of that in 1 Orchestrated Journey.
+You've now defined Events, Data Sources and Actions - let's consolidate all of that in one Orchestrated Journey.
 
 ---
 
