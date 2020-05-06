@@ -45,9 +45,9 @@ In this exercise, you'll create a custom Event by making use of Journey Orchestr
 
     <kbd><img src="./images/emptyevent.png"  /></kdb>
 
-5. Name the Event **webSignUp{emailAddress}** and replace **{emailAddress}** with your email address name. E.g. **webSignUpPuchadha**.
+5. Name the Event **subscriptionPageView{emailAddress}** and replace **{emailAddress}** with your email address name. E.g. **subscriptionPageViewPuchadha**.
 
-   Set Description to: **Website Sign up Event - {your email name}**
+   Set Description to: **Subscription Page View Event - {your email name}**
 
    <!---
    ![Demo](./images/evname.png)
@@ -95,9 +95,11 @@ In this exercise, you'll create a custom Event by making use of Journey Orchestr
 
     ![Demo](./images/popupok.png)
 
+9.Journey Orchestration also needs an Identifier to identify the customer. Since Journey Orchestration is linked to Adobe Experience Platform, all Identity Namespace will be displayed. We will be selecting ECID.
 
-    Journey Orchestration also needs an Identifier to identify the customer. Since Journey Orchestration is linked to Adobe Experience Platform, the Primary Identifier of a schema is automatically used as the identifier for the Journey.
-    The Primary Identifier will also automatically use the full Identity Graph of the Adobe Experience Platform and link all behavior across all available identities, devices and channels to the same profile. The result is that Journey Orchestration is contextual, relevant and consistent.
+    <kbd><img src="./images/eventidentifierdropdown.png"  /></kdb>
+
+    The Identifier will also automatically use the full Identity Graph of the Adobe Experience Platform and link all behavior across all available identities, devices and channels to the same profile. The result is that Journey Orchestration is contextual, relevant and consistent.
 
     <!---
     ![Demo](./images/eventidentifier.png)
@@ -106,7 +108,7 @@ In this exercise, you'll create a custom Event by making use of Journey Orchestr
 
     <kbd><img src="./images/eventidentifier.png"  /></kdb>
 
-9. Click `Save` to save your custom event.
+10. Click `Save` to save your custom event.
 
 
     ![Demo](./images/save.png)

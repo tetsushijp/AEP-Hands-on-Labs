@@ -40,15 +40,15 @@ In this exercise, you'll create a custom External Data Source by making use of J
 
    <kbd><img src="./images/emptyds.png"  /></kdb>
 
-5. We will use `Open Weather Map`-service. For reference you can go to [https://openweathermap.org/](https://openweathermap.org/).
+5. We will use an API endpoint to retrive a customer's likelyhood to subscribe. This service will take in an ECID value and respond with a propensity score between 1 - 10, 1 being the least likey and 10 being the most likely to convert.
 
    Back to `Journey Orchestration`, to your empty `External Data Source`-popup.
 
-   Name the Data Source, use **weatherApi{emailAddress}** and replace **emailAddress** with your email address name. E.g. **weatherApiPuchadha**.
+   Name the Data Source, use **getPropensityScore{emailAddress}** and replace **emailAddress** with your email address name. E.g. **getPropensityScorePuchadha**.
 
-   Set Description to: **Access to the Open Weather Map**.
+   Set Description to: **Access to the Propensity Scores**.
 
-   The URL for the Open Weather Map API is: `http://api.openweathermap.org/data/2.5/weather`
+   The URL for to get scores is: `https://adobeamericaspot2.adobeioruntime.net/api/v1/web/aep-hol-0.0.1/getScore`
 
      <!---
      ![Demo](./images/dsname.png)
@@ -56,16 +56,7 @@ In this exercise, you'll create a custom External Data Source by making use of J
 
    <kbd><img src="./images/dsname.png"  /></kdb>
 
-6. Next, you need to select the Authentication to use. Select from the 'Type' dropd-down.
-
-   Use the following values for the fields:
-
-   |  Field   | Value                                |
-   | :------: | :----------------------------------- |
-   |   Type   | **API key**                          |
-   |   Name   | **APPID**                            |
-   |  Value   | **4ca8c0b493237afd3bed3e70f399b795** |
-   | Location | **Query Parameter**                  |
+6. Next, you need to select the Authentication to use. Select 'No authentication' from the 'Type' drop-down.
 
      <!---
      ![Demo](./images/dsauth.png)
@@ -75,7 +66,7 @@ In this exercise, you'll create a custom External Data Source by making use of J
 
 7. Finally, you need to define a `FieldGroup`, which is the request you'll be sending to the Weather API.
 
-   In our case, we want to use the ZipCode to request the Current Weather for that Zip.
+   In our case, we want to use a customerID to request score for a specific profile.
 
      <!---
      ![Demo](./images/fg.png)
@@ -87,61 +78,23 @@ In this exercise, you'll create a custom External Data Source by making use of J
 
    **IMPORTANT**
 
-   The Field group name has to be unique, please rename fieldGroup and use this naming convention: **WeatherByZipemailAddress** so in this case, the name should be **WeatherByZipPuchadha**
+   The Field group name has to be unique, please rename fieldGroup and use this naming convention: **propensityScoreemailAddress** so in this case, the name should be **propensityScorePuchadha**
+
+For Cache Duration select 10 mins.
+
+Dynamic Values, is where we allow parameter inputs we will be passing in a customerID to this data source add 'customerID'
 
      <!---
      ![Demo](./images/fg1.png)
      --->
 
-   <kbd><img src="./images/fg1.png"  /></kdb>
+<kbd><img src="./images/fg1.png"  /></kdb>
 
-8. For the Response Payload, you need to paste an example of the Response that will be sent by the Weather API.
-
-   You can find the expected API JSON Response on the API Documentation page [here](https://openweathermap.org/current#zip).
-
-   Or you can copy the JSON Response from here:
+8. For the Response Payload, you need to paste an example of the Response that will be sent by the API copy the JSON Response below here:
 
    ```json
    {
-     "coord": { "lon": -122.08, "lat": 37.39 },
-     "weather": [
-       {
-         "id": 800,
-         "main": "Clear",
-         "description": "clear sky",
-         "icon": "01d"
-       }
-     ],
-     "base": "stations",
-     "main": {
-       "temp": 282.55,
-       "feels_like": 281.86,
-       "temp_min": 280.37,
-       "temp_max": 284.26,
-       "pressure": 1023,
-       "humidity": 100
-     },
-     "visibility": 16093,
-     "wind": {
-       "speed": 1.5,
-       "deg": 350
-     },
-     "clouds": {
-       "all": 1
-     },
-     "dt": 1560350645,
-     "sys": {
-       "type": 1,
-       "id": 5122,
-       "message": 0.0139,
-       "country": "US",
-       "sunrise": 1560343627,
-       "sunset": 1560396563
-     },
-     "timezone": -25200,
-     "id": 420006353,
-     "name": "Mountain View",
-     "cod": 200
+     "propensityScore": 10
    }
    ```
 
@@ -151,15 +104,15 @@ In this exercise, you'll create a custom External Data Source by making use of J
      ![Demo](./images/owmapi2.png)
      --->
 
-   <kbd><img src="./images/owmapi2.png"  /></kdb>
+   <kbd><img src="./images/dsapipayload.png"  /></kdb>
 
    You'll see a popup where you now have to paste the above JSON Reponse.
 
-   ![Demo](./images/owmapi3.png)
+   ![Demo](./images/dsapipayload3.png)
 
    Paste your JSON Response.
 
-   ![Demo](./images/owmapi4.png)
+   ![Demo](./images/dsapipayload4.png)
 
 10. Click `Save`.
 

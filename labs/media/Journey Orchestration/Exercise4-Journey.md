@@ -28,7 +28,7 @@ In this exercise, you'll create an Orchestrated Journey by making use of Journey
 
    <kbd><img src="./images/jonew.png"  /></kdb>
 
-4. Name the Journey **Website Registration Journey emailAddress** and replace **emailAddress** with LDAP. In this example, the Journey Name is **Website Registration Journey puchadha**. No other values must be set at this moment.
+4. Name the Journey **Subscription Page Abandonment emailAddress** and replace **emailAddress** with LDAP. In this example, the Journey Name is **Subscription Page Abandonment puchadha**. No other values must be set at this moment.
 
    <!---
    ![Demo](./images/joname.png)
@@ -56,7 +56,7 @@ In this exercise, you'll create an Orchestrated Journey by making use of Journey
 
    ![Demo](./images/jo3.png)
 
-7. Select `Condition`, then drag and drop it on the Journey Canvas.
+7. Select `Wait`, then drag and drop it on the Journey Canvas, and update Amount of time tp 10 minutes.
 
    <!---
    ![Demo](./images/jo4.png)
@@ -64,22 +64,13 @@ In this exercise, you'll create an Orchestrated Journey by making use of Journey
 
    <kbd><img src="./images/jo4.png"  /></kdb>
 
-8. You now have to define 2 conditions:
+8. Click `OK`.
 
-   - It's Raining
-   - It's Clear
+   ![Demo](./images/jowaitok.png)
 
-   Let's define the first condition.
+9. Select `Condition`, then drag and drop it on the Journey Canvas.
 
-9. Click on the `Condition`.
-
-   #### Condition 1: It's Raining
-
-   <!---
-   ![Demo](./images/jo5.png)
-   --->
-
-   <kbd><img src="./images/jo5.png"  /></kdb>
+   ![Demo](./images/jocond1.png)
 
 10. Click on the `Edit`-icon for the expression of Path1.
 
@@ -99,35 +90,17 @@ In this exercise, you'll create an Orchestrated Journey by making use of Journey
 
     ![Demo](./images/jo8.png)
 
-    You'll then see the `Advanced Editor` which allows code entry. Paste it in `#{weatherApiemailAddress.WeatherByZipemailAddress.weather.main} == 'Rain'` (replace emailAddress)
+    You'll then see the `Advanced Editor` which allows code entry. Paste it in `count(#{ExperiencePlatform.ExperienceEvents.experienceevent.all(currentDataPackField.eventType =="subcribed" and currentDataPackField.timestamp > nowWithDelta(-1, "days"))._id}) > 0`
 
     You'll then see this.
 
     ![Demo](./images/jo10.png)
 
-12. In order to retrieve the temperature as part of this Condition, you need to provide the zipCode in which the customer currently is.
-    The `zipCode` needs to be linked to the dynamic parameter `zip`.
-
-    Click the field `dynamic val: zip` as indicated in the screenshot.
-
-    <!---
-    ![Demo](./images/jo11.png)
-    --->
-
-    <kbd><img src="./images/jo11.png"  /></kdb>
-
-    You then need to find the field that contains the current zip code of the customer in the AEP Data Sources. Here we are leveraging the unified profile data in AEP to get the profiles zip code.
-
-    You can navigate the field structure from the panel or simply paste the expression below into the expression text box.
-    `#{ExperiencePlatform.ProfileFieldGroup.profile.homeAddress.postalCode}`
-
-    ![Demo](./images/jo12.png)
-
-13. Click `OK`.
+12. Click `OK`.
 
     ![Demo](./images/jook.png)
 
-14. Rename the path from path1 to 'Raining'
+13. Rename the path from path1 to 'subscribed'
 
     <!---
     ![Demo](./images/jopath1name.png)
@@ -135,83 +108,24 @@ In this exercise, you'll create an Orchestrated Journey by making use of Journey
 
     <kbd><img src="./images/jopath1name.png"  /></kdb>
 
-15. Next, we'll add the 2nd condition.
-
-    #### Condition 2: Its Clear
-
-    After having added the first condition, you'll see this screen.
-
+14. Next, check the other cases checkbox. This will add a fallback path if none of the previous paths are true for the profile. label this Path `did not subscribe`
     <!---
     ![Demo](./images/joc2.png)
     --->
 
     <kbd><img src="./images/joc2.png"  /></kdb>
 
-16. Click `Add Path`.
-
-    ![Demo](./images/joadd.png)
-
-17. Click on the `Edit`-icon for the expression of Path1.
-
-    <!---
-    ![Demo](./images/jo6.png)
-    --->
-
-    <kbd><img src="./images/jo6.png"  /></kdb>
-
-    You'll then see an empty `Simple Editor`-screen.
-
-    ![Demo](./images/jo7.png)
-
-    Our query will be a bit more advanced, so we'll need the `Advanced Mode`.
-
-18. Click `Advanced Mode`.
-
-    ![Demo](./images/jo8.png)
-
-    You'll then see the `Advanced Editor` which allows code entry. Paste it in `#{weatherApiemailAddress.WeatherByZipemailAddress.weather.main} == 'Clear'` (replace emailAddress)
-
-    You'll then see this.
-
-    ![Demo](./images/jo14.png)
-
-19. To retrieve the temperature as part of this Condition, you need to provide the zipCode in which the customer currently is.
-    The `zipCode` needs to be linked to the dynamic parameter `zip`.
-
-    Click the field `dynamic val: zip` as indicated in the screenshot.
-
-    <!---
-    ![Demo](./images/jo11.png)
-    --->
-
-    <kbd><img src="./images/jo11.png"  /></kdb>
-
-    You then need to find the field that contains the current zip code of the customer in the AEP Data Sources. Here we are leveraging the unified profile data in AEP to get the profiles zip code.
-
-    You can navigate the field structure from the panel or simply paste the expression below into the expression text box.
-    `#{ExperiencePlatform.ProfileFieldGroup.profile.homeAddress.postalCode}`
-
-    ![Demo](./images/jo12.png)
-
-20. Click `OK`.
+15. Click `OK`.
 
     ![Demo](./images/jook.png)
 
-21. Rename the path from path1 to 'Clear'
+16. Drag and drop the end activity for the subscribed path. We wont be communicating to profiles that have converted.
 
-    <!---
-    ![Demo](./images/jopath2name.png)
-    --->
+    <kbd><img src="./images/joc1end.png"  /></kdb>
 
-    <kbd><img src="./images/jopath2name.png"  /></kdb>
+17. Next, we will be adding in Actions
 
-    Hit Ok on the top right
-
-    ![Demo](./images/joocok.png)
-
-22. Next, we will be adding in Actions.
-
-    #### Add Actions for Raining Path
+    #### Add Actions for did not subscribe Path
 
     We'll attempt to send an SMS message to our customer.
 
@@ -219,7 +133,7 @@ In this exercise, you'll create an Orchestrated Journey by making use of Journey
 
     ![Demo](./images/joa8.png)
 
-23. Click on `Actions` as indicated in the screenshot.
+18. Click on `Actions` as indicated in the screenshot.
 
     Select the smsNexmoemailAddress - action (your emailAddress), then drag and drop it after the condition you just added.
 
@@ -233,7 +147,7 @@ In this exercise, you'll create an Orchestrated Journey by making use of Journey
 
     <kbd><img src="./images/joa10.png"  /></kdb>
 
-24. Navigate to the `Action Parameters`.
+19. Navigate to the `Action Parameters`.
 
     <!---
     ![Demo](./images/joa11.png)
@@ -241,7 +155,7 @@ In this exercise, you'll create an Orchestrated Journey by making use of Journey
 
     <kbd><img src="./images/joa11.png"  /></kdb>
 
-25. Click on the `Edit`-icon for the Action Parameter `Mobile PhoneNumber`.
+20. Click on the `Edit`-icon for the Action Parameter `Mobile PhoneNumber`.
 
     ![Demo](./images/joa12.png)
 
@@ -255,9 +169,9 @@ In this exercise, you'll create an Orchestrated Journey by making use of Journey
 
     ![Demo](./images/joa14.png)
 
-26. Click `OK`.
+21. Click `OK`.
 
-27. Click on the `Edit`-icon for the Action Parameter `Message`.
+22. Click on the `Edit`-icon for the Action Parameter `Message`.
 
     <!---
     ![Demo](./images/joa15.png)
@@ -273,17 +187,17 @@ In this exercise, you'll create an Orchestrated Journey by making use of Journey
 
     ![Demo](./images/jo8.png)
 
-28. Paste this code in the `Advanced Mode Editor`. Click `OK`.
+23. Paste this code in the `Advanced Mode Editor`. Click `OK`.
 
-    `"Hi "+ #{ExperiencePlatform.ProfileFieldGroup.profile.person.name.firstName} +" don't let the rains ruin your day get our subscription today."`
+    `"Hi "+ #{ExperiencePlatform.ProfileFieldGroup.profile.person.name.firstName} +", dont miss out on exclusive offers on your subscribtion."`
 
     ![Demo](./images/joa16.png)
 
-29. Click `OK`.
+24. Click `OK`.
 
     ![Demo](./images/joocok.png)
 
-30. Click `OK`.
+25. Click `OK`.
 
     <!---
     ![Demo](./images/joa17.png)
@@ -291,7 +205,78 @@ In this exercise, you'll create an Orchestrated Journey by making use of Journey
 
     <kbd><img src="./images/joa17.png"  /></kdb>
 
-31. In the left menu, go back to `Actions`, select the Action `slackNotification`, then drag and drop it after the `smsNexmoemailAddress`-Action (Replace emailAddress).
+26. Select `Wait`, then drag and drop it on the Journey Canvas, and update Amount of time to 30 minutes.
+
+   <!---
+   ![Demo](./images/jo4.png)
+   --->
+
+<kbd><img src="./images/jowait2.png"  /></kdb>
+
+28. Click `OK`.
+
+    ![Demo](./images/jowaitok.png)
+
+29. Select `Condition`, then drag and drop it on the Journey Canvas.
+
+    ![Demo](./images/jocond2.png)
+
+30. Click on the `Edit`-icon for the expression of Path1.
+
+    <kbd><img src="./images/jo6.png"  /></kdb>
+
+    You'll then see an empty `Simple Editor`-screen.
+
+    ![Demo](./images/jo7.png)
+
+    Our query will be a bit more advanced, so we'll need the `Advanced Mode`.
+
+31. Click `Advanced Mode`.
+
+    ![Demo](./images/jo8.png)
+
+    You'll then see the `Advanced Editor` which allows code entry. Paste it in `#{getPropensityScoreemailAddress.propensityScoreemailAddress.propensityScore} >= 6` (replace emailAddress)
+
+    You'll then see this.
+
+    ![Demo](./images/jocond2exp.png)
+
+32. Click the dynamic val :customerID in the top rigth. This is the place where we will pass in the customerID value to retrive the score
+
+    ![Demo](./images/jocond2expdyval.png)
+
+33. Pass in the ECID value by copy pasting this expression it in `@{subscriptionPageViewPuchadha._adobeamericaspot2.identification.ECID}`
+
+    ![Demo](./images/jocond2expdyval2.png)
+
+34. Click `OK`.
+
+    ![Demo](./images/jook.png)
+
+35. Rename the path from path1 to 'likely to subscribe'
+
+    <!---
+    ![Demo](./images/jopath1name.png)
+    --->
+
+    <kbd><img src="./images/jopropscrpathname..png"  /></kdb>
+
+36. Next, check the other cases checkbox. This will add a fallback path if none of the previous paths are true for the profile. label this Path `low propensity to subscribe`
+    <!---
+    ![Demo](./images/joc2.png)
+    --->
+
+    <kbd><img src="./images/jopropscrpathname2.png"  /></kdb>
+
+37. Click `OK`.
+
+    ![Demo](./images/jook.png)
+
+38. Drag and drop the end activity for the subscribed path. We wont be communicating to profiles that have converted.
+
+    <kbd><img src="./images/jopropscrpathnameend.png"  /></kdb>
+
+39. In the left menu, go back to `Actions`, select the Action `slackNotification`, then drag and drop it after
 
     <!---
     ![Demo](./images/joa18.png)
@@ -299,7 +284,7 @@ In this exercise, you'll create an Orchestrated Journey by making use of Journey
 
     <kbd><img src="./images/joa18.png"  /></kdb>
 
-32. Go to `Action Parameters` and click the `Edit`-icon for the parameter `Message`.
+40. Go to `Action Parameters` and click the `Edit`-icon for the parameter `Message`.
 
     <!---
     ![Demo](./images/joa19.png)
@@ -311,17 +296,17 @@ In this exercise, you'll create an Orchestrated Journey by making use of Journey
 
     ![Demo](./images/joa20.png)
 
-33. Select the below code, copy it, and paste it in the `Advanced Mode Editor`.
+41. Select the below code, copy it, and paste it in the `Advanced Mode Editor`.
 
-    `"Hi "+ #{ExperiencePlatform.ProfileFieldGroup.profile.person.name.firstName} +" take advantage of the nations fastest mobile internet plans."`
+    `@{subscriptionPageViewPuchadha._adobeamericaspot2.identification.ECID} + "Likely to suncscribe. Place an Outbound call to - " + #{ExperiencePlatform.ProfileFieldGroup.profile.homePhone.number}`
 
     ![Demo](./images/joa21.png)
 
-34. Click `OK`.
+42. Click `OK`.
 
     ![Demo](./images/joocok.png)
 
-35. Click `OK`.
+43. Click `OK`.
 
     <!---
     ![Demo](./images/joa22.png)
@@ -329,137 +314,7 @@ In this exercise, you'll create an Orchestrated Journey by making use of Journey
 
     <kbd><img src="./images/joa22.png"  /></kdb>
 
-36. In the left menu, go to `Orchestration`, select `End`, then drag and drop `End` after the `textSlackLdap`-Action.
-
-<!---
-    ![Demo](./images/joa23.png)
-    --->
-
-    <kbd><img src="./images/joa23.png"  /></kdb>
-
-#### Add Actions for Clear Weather Path
-
-37. We'll attempt to send an SMS message to our customer.
-
-    Your Journey will then look like this. Click on `Actions` as indicated in the screenshot.
-
-    ![Demo](./images/joapath21.png)
-
-38. Select the smsNexmoemailAddress - action (your emailAddress), then drag and drop it after the condition you just added.
-
-    <!---
-    ![Demo](./images/joapath22.png)
-    --->
-
-    <kbd><img src="./images/joapath22.png"  /></kdb>
-
-    You'll see a popup.
-
-    <!---
-    ![Demo](./images/joa10.png)
-    --->
-
-    <kbd><img src="./images/joa10.png"  /></kdb>
-
-39. Navigate to the `Action Parameters`.
-
-    <!---
-    ![Demo](./images/joa11.png)
-    --->
-
-    <kbd><img src="./images/joa11.png"  /></kdb>
-
-40. Click on the `Edit`-icon for the Action Parameter `Mobile PhoneNumber`.
-
-    ![Demo](./images/joa12.png)
-
-    In the popup, you'll see, click on `Advanced Mode`.
-
-    ![Demo](./images/jo8.png)
-
-41. Select the below code, copy it, and paste it in the `Advanced Mode Editor`.
-
-    `#{ExperiencePlatform.ProfileFieldGroup.profile.mobilePhone.number}`
-
-    ![Demo](./images/joa14.png)
-
-42. Click `OK`.
-
-    ![Demo](./images/joaok.png)
-
-43. Click on the `Edit`-icon for the Action Parameter `Message`.
-
-    <!---
-    ![Demo](./images/joa15.png)
-    --->
-
-    <kbd><img src="./images/joa15.png"  /></kdb>
-
-    You'll see a popup with the `Simple Mode Editor`.
-
-    ![Demo](./images/joasm.png)
-
-    In the popup, you'll see, click on `Advanced Mode`.
-
-    ![Demo](./images/jo8.png)
-
-44. Paste this code in the `Advanced Mode Editor`. Click `OK`.
-
-    `"Hi "+ #{ExperiencePlatform.ProfileFieldGroup.profile.person.name.firstName} +" take advantage of the nations fastest mobile internet plans."`
-
-    ![Demo](./images/joapath216.png)
-
-45. Click `OK`.
-
-    ![Demo](./images/joocok.png)
-
-46. Click `OK`.
-
-    <!---
-    ![Demo](./images/joapath217.png)
-    --->
-
-    <kbd><img src="./images/joapath217.png"  /></kdb>
-
-47. In the left menu, go back to `Actions`, select the Action `slackNotification`, then drag and drop it after the `smsNexmoemailAddress`-Action (Replace emailAddress).
-
-    <!---
-    ![Demo](./images/joapath218.png)
-    --->
-
-    <kbd><img src="./images/joapath218.png"  /></kdb>
-
-48. Go to `Action Parameters` and click the `Edit`-icon for the parameter `Message`.
-
-    <!---
-    ![Demo](./images/joa19.png)
-    --->
-
-    <kbd><img src="./images/joa19.png"  /></kdb>
-
-49. In the popup window, click `Advanced Mode`.
-
-    ![Demo](./images/joa20.png)
-
-    Select the below code, copy it, and paste it in the `Advanced Mode Editor`.
-
-    `"Hi "+ #{ExperiencePlatform.ProfileFieldGroup.profile.person.name.firstName} +" have a clear path to Retirement, chat with our Advisors now."`
-
-    ![Demo](./images/joapath221.png)
-
-50. Click `OK`.
-
-    ![Demo](./images/joaok.png)
-
-51. Click `OK`.
-
-    <!---
-    ![Demo](./images/joapath222.png)
-    --->
-
-    <kbd><img src="./images/joapath222.png"  /></kdb>
-
-52. In the left menu, go to `Orchestration`, select `End`, then drag and drop `End` after the `textSlackLdap`-Action.
+44. In the left menu, go to `Orchestration`, select `End`, then drag and drop `End` after the `SlackMessase`-Action.
 
     <!---
     ![Demo](./images/joapath223.png)
@@ -471,11 +326,11 @@ In this exercise, you'll create an Orchestrated Journey by making use of Journey
 
     ![Demo](./images/jodone.png)
 
-53. Click `Publish`.
+45. Click `Publish`.
 
     ![Demo](./images/jopublish.png)
 
-54. Click `Publish`.
+46. Click `Publish`.
 
     ![Demo](./images/jopublish1.png)
 
