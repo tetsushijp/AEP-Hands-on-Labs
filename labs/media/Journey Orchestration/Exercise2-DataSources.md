@@ -80,9 +80,9 @@ In this exercise, you'll create a custom External Data Source by making use of J
 
    The Field group name has to be unique, please rename fieldGroup and use this naming convention: **propensityScoreemailAddress** so in this case, the name should be **propensityScorePuchadha**
 
-For Cache Duration select 10 mins.
+   For Cache Duration select 10 mins.
 
-Dynamic Values, is where we allow parameter inputs we will be passing in a customerID to this data source add 'customerID'
+   Dynamic Values, is where we allow parameter inputs we will be passing in a customerID to this data source add 'customerID'
 
      <!---
      ![Demo](./images/fg1.png)
