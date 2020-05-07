@@ -64,7 +64,7 @@ In this exercise, you'll create a custom External Data Source by making use of J
 
    <kbd><img src="./images/dsauth.png"  /></kdb>
 
-7. Finally, you need to define a `FieldGroup`, which is the request you'll be sending to the Weather API.
+7. Finally, you need to define a `FieldGroup`, which contains the fields you'll be GETting from the scores API call.
 
    In our case, we want to use a customerID to request score for a specific profile.
 
