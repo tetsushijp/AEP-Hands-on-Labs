@@ -51,7 +51,7 @@ For today’s lab, we will be using 8 datasets from 8 different data sources:
 
 ### Customer Journey Analytics workflow
 
-![cja-steps](assets/cja-steps.gif)
+![Demo](images/cja-steps.gif)
 
 Step 1: The schemas for the data sources  has already been set up in your AEP org. We will begin the lab with step 2 from above steps.
 
