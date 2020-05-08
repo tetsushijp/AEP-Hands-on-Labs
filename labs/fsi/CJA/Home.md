@@ -154,7 +154,7 @@ Create datasets for CRM, POS, and Tracking Code lookup schemas.
 
 ### Exercise 1.3
 
-Now that you've created datasets, take a few minutes to explore AEP! At a high level checkout the various sections in AEP the Datasets, Schemas, Queries, Segments etc. Try opening some of the schemas for the datasets we will be using in our lab by searching for the keyword "Summit CJA" in schemas section. You can see the schema structure, field names and datatypes!
+Now that you've created datasets, take a few minutes to explore AEP. At a high level checkout the various sections in AEP the Datasets, Schemas, Queries, Segments etc. Try opening some of the schemas for the datasets we will be using in our lab by searching for the keyword "Summit CJA" in schemas section. You can see the schema structure, field names and datatypes.
 
 In our next lesson we will dive into setting up CJA components.
 
