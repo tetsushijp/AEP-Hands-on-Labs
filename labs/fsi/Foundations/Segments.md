@@ -80,7 +80,7 @@ Lab 6.2 - Segmentation - Profile Experience Event Segmentation
 <tbody valign="top">
       <tr width="500">
             <td valign="top"><h3>Objective:</h3></td>
-            <td valign="top"><br>Similar to the prior lab, in this lab you will build a customer segment based on the unified experience event data (from EE Schemas/Datasets) that are streaming into plartform</td>
+            <td valign="top"><br>Similar to the prior lab, in this lab you will build a customer segment based on the unified experience event data (from EE Schemas/Datasets) that are streaming into platform</td>
      </tr>
      <tr width="500">
            <td valign="top"><h3>Prerequisites:</h3></td>
