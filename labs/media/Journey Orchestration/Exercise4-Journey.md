@@ -298,7 +298,7 @@ In this exercise, you'll create an Orchestrated Journey by making use of Journey
 
 41. Select the below code, copy it, and paste it in the `Advanced Mode Editor`.
 
-    `@{subscriptionPageViewPuchadha._adobeamericaspot2.identification.ECID} + "Likely to suncscribe. Place an Outbound call to - " + #{ExperiencePlatform.ProfileFieldGroup.profile.homePhone.number}`
+    `Likely to subcscribe. Place an Outbound call to - " + #{ExperiencePlatform.ProfileFieldGroup.profile.mobilePhone.number}`
 
     ![Demo](./images/joa21.png)
 
