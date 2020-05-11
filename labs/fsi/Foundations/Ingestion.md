@@ -40,7 +40,7 @@ Lab - Ingestion - CSV to XDM Mapping
       </tr>
       <tr>
             <td valign="middle" height="70"><b>date</b></td>
-            <td valign="middle" height="70">2020-01-06</td>
+            <td valign="middle" height="70">2020-05-11</td>
       </tr>
 </tbody>
 </table>
@@ -99,26 +99,26 @@ Go to https://platform.adobe.com/home
 
 8. To remap a field click the ![Demo](./images/remap.png) icon to open the schema. Remapping the list is left as a exercise for the participant.
 
-    Once corrected, the mappings should match the screenshot below. Once you have verified that the mappings are correct, hit Next.
+Once corrected, the mappings should match the screenshot below. Once you have verified that the mappings are correct, click "Next".
 
 
     ![Demo](./images/ingestionmapper2.png)
 
 
-9. Finally, we are ready to ingest the data. Hit 'Ingest' 
+9. Finally, we are ready to ingest the data. Click "Ingest".
 
 
     ![Demo](./images/ingestioningest.png)
 
 
-10. After a few mins, Adobe Experience Platform will start the workflow of converting the CSV file data to XDM format. This process takes a few mins. once completed hit the 'Finish' to complete the workflow.
+10. Adobe Experience Platform will start the workflow of converting the CSV file data to XDM format. This process takes a few minutes. Once completed, click "Finish" to complete the workflow.
 
 
     ![Demo](./images/ingestionfinish.png)
 
 
 
-11. Congratulation !! we have imported an adhoc file into platform.
+11. Congratulations! You have imported an adhoc file into Adove Experience Platform.
 
  
 <br>
