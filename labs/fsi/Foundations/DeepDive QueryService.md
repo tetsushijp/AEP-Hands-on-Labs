@@ -1,4 +1,4 @@
-# Exercise  - Queries, queries, queries,... and Data analysis
+# Exercise  - Queries, queries, queries...and Data analysis
 
 <table style="border-collapse: collapse; border: none;" class="tab" cellspacing="0" cellpadding="0">
 
@@ -324,7 +324,7 @@ all=>
 ```
 
 
-### From what region do the visit us?
+### What region are customers visiting from?
 
 Lets include the geographical info, like longitude, lattitude, city, countrycode, captured by the Adobe Experience Platform in order to get some geographical insights about churning customers.
 
