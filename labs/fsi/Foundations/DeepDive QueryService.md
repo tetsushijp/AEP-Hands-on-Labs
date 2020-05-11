@@ -288,7 +288,7 @@ select * from (
 	   
 ) r
 where r.webPage = 'help' 
-and  contact_callcenter_after_seconds is not null
+and  contact_us_after_seconds is not null
 and ecid IS NOT NULL
 order by contact_us_after_seconds desc
 limit 15;
