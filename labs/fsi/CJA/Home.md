@@ -23,142 +23,34 @@ This lab will show you how to ingest data into Adobe Experience Platform and use
 ### Key Takeaways
 
 * Understand concepts of CJA.
-* Ingest data into Adobe Experience Platform.
+* Ingest data into Adobe Experience Platform
 * Import ingested datasets into CJA
 * Create Connections and data views in CJA
 * Analyze data in CJA by creating projects and workspaces
 
 ### Prerequisites
 
-* High-level understanding of the Adobe Experience Platform.
-* Basic knowledge Adobe Analytics
+* High-level understanding of the Adobe Experience Platform
+* Basic knowledge of Adobe Analytics
 * Basic knowledge of Analysis Workspace in Adobe Analytics
 
 ### Background
 
 Customer Journey Analytics is an Analytics capability that lets you use the power of Analysis Workspace with data from Adobe Experience Platform. It can break down, filter, query, and visualize years' worth of data, and is combined with Platform's ability to hold all kinds of data schemas and types. Using the Experience Data Model (XDM) , data can be uniformly represented and organized, ready for combination and exploration.Experience Query Services in AEP allows you to use SQL-compatible tools and frameworks to query and manipulate all your data.This data can then be imported into CJA for further analysis.
 
-For today’s lab, we will be using 8 datasets from 8 different data sources:
+For today’s lab, we will be using 3 datasets from 3 different data sources:
 
-1. Online – Adobe Analytics
-2. CRM Data
-3. POS aka Offline Purchase Data
-4. Email Data
-5. Ad Impressions Data
-6. Call Center Data
-7. Survey Data
-8. Marketing Channel Lookup
+1. Reduced Web EE Dataset
+2. Call Center EE Dataset
+3. CRM Data
 
 ### Customer Journey Analytics workflow
 
 ![Demo](images/cja-steps.gif)
 
-Step 1: The schemas for the data sources  has already been set up in your AEP org. We will begin the lab with step 2 from above steps.
+The schemas and datasets for the data sources have already been set up. These steps were covered in the Foundations session. We will begin this lab with step 3 from above steps.
 
-# Lesson 1 - AEP Dataset Creation
-
-## Objective
-
-1. Create datasets in AEP
-
-## Lesson Context
-
-First we must create datasets that we plan to import into CJA for customer journey analysis. In the interest of time we will be creating 3 of them today while the rest of the datasets are already set up and ready for you to use.
-
-### Exercise 1.1
-
-1. Login to your lab machine with the following credentials
-    * Username: *L765*
-    * Password: *summit2019*
-
-2. Open your web browser and navigate to AEP Home Page
-
-    * [https://platform.adobe.com/](https://platform.adobe.com/)
-
-   You will be directed to the sign in page as shown below 
-   ![aep-sign-in-page](assets/l729/aep-sign-in-page.gif)
-3. Login with below credentials when prompted.
-
-    - Username: *admin*
-    - Password: *admin*
-
-4. You will see the below Home Page.
-   ![aep-home-page](assets/l729/aep-home-page.gif)
-
-5. Explore Schemas: Now Click on the "Schemas" tab to explore a few of them.
-
-    ![schema-exploration](assets/l729/schema-exploration.gif)
-
-    - Search for the word "Summit CJA"
-    - You will see a list of schemas we have created for various data sources
-    - Click on schema for "Summit CJA Lab CRM Demo Data" and view it  
-    - Click on cancel to go back to schemas and look for "Summit CJA Lab POS" schema and view its fields
-    - Click on cancel to go back to schemas and look for "Summit CJA Tracking Code Lookup" schema and view its fields
-
-### Exercise 1.2
-
-Create datasets for CRM, POS, and Tracking Code lookup schemas.
-
-#### CRM dataset
-
-1. Navigate to the "Dataset" section in AEP.(Click on "Dataset" on the left side). Then Click on "Create Dataset" button on the top right corner.
-
-   ![aep-dataset-section](assets/l729/aep-dataset-section.gif)
-2. Click on "Create Dataset from schema" button
-
-      ![aep-dataset-creation1](assets/l729/aep-dataset-creation1.gif)
-
-3. Search for "Summit CJA Lab CRM" in the search box.Then select the schema and hit "Next" as shown below.
-   ![aep-dataset-creation2](assets/l729/aep-dataset-creation2.gif)
-
-4. Assign a name to your dataset as shown below. Prepend your *username* to the dataset name and click on "Finish" at the top right had corner.
-   ![aep-dataset-creation3](assets/l729/aep-dataset-creation3.gif)
-
-5. You will see the below screen:
-   ![aep-dataset-creation4](assets/l729/aep-dataset-creation4.gif)
-
-#### POS  dataset
-
-1. Navigate to the "Dataset" section in AEP.(Click on "Dataset" on the left side). Then Click on "Create Dataset" button on the top right corner.
-
-   ![aep-dataset-section](assets/l729/aep-dataset-section.gif)
-2. Click on "Create Dataset from schema" button
-
-      ![aep-dataset-creation1](assets/l729/aep-dataset-creation1.gif)
-
-3. Search for "Summit CJA Lab POS" in the search box.Then select the schema and hit "Next" as shown below.
-   ![aep-dataset-creation2-pos](assets/l729/aep-dataset-creation2-pos.gif)
-
-4. Assign a name to your dataset as shown below. Prepend your *username* to the dataset name and click on "Finish" at the top right had corner.
-   ![aep-dataset-creation3-pos](assets/l729/aep-dataset-creation3-pos.gif)
-
-5. You will see the below screen:
-   ![aep-dataset-creation4-pos](assets/l729/aep-dataset-creation4-pos.gif)
-
-#### Tracking Code lookup dataset
-
-1. Navigate to the "Dataset" section in AEP.(CLick on "Dataset" on the left side). Then Click on "Create Dataset" button on the top right corner.
-   ![aep-dataset-section](assets/l729/aep-dataset-section.gif)
-
-2. Click on "Create Dataset from schema" button
-      ![aep-dataset-creation1](assets/l729/aep-dataset-creation1.gif)
-
-3. Search for "Summit CJA Lab Tracking Code" in the search box.Then select the schema and hit "Next" as shown below.
-   ![aep-dataset-creation2-lookup](assets/l729/aep-dataset-creation2-lookup.gif)
-
-4. Assign a name to your dataset as shown below. Prepend your *username* to the dataset name and click on "Finish" at the top right had corner.
-   ![aep-dataset-creation3-lookup](assets/l729/aep-dataset-creation3-lookup.gif)
-
-5. You will see the below screen:
-   ![aep-dataset-creation4-lookup](assets/l729/aep-dataset-creation4-lookup.gif)
-
-### Exercise 1.3
-
-Now that you've created datasets, take a few minutes to explore AEP. At a high level checkout the various sections in AEP the Datasets, Schemas, Queries, Segments etc. Try opening some of the schemas for the datasets we will be using in our lab by searching for the keyword "Summit CJA" in schemas section. You can see the schema structure, field names and datatypes.
-
-In our next lesson we will dive into setting up CJA components.
-
-# Lesson 2 - CJA Setup
+# Lesson 1 - CJA Setup
 
 ## Objective
 
@@ -167,7 +59,7 @@ In our next lesson we will dive into setting up CJA components.
 
 ## Lesson Context
 
-In this lesson we will get started with CJA.We will understand how to import the datasets available in AEP into CJA  by creating data connections, data views.
+In this lesson we will get started with CJA. We will understand how to import the datasets available in AEP into CJA by creating data connections and data views.
 
 ### Exercise 2.1
 
@@ -177,7 +69,7 @@ Getting Started in CJA
  [http://analytics.adobe.com/](http://analytics.adobe.com/)
 
    You should see the screen as below
-   ![cja-home-screen](assets/l729/cja-home-screen.gif)
+   ![Demo](images/cja-home-screen.png)
 
 ### Exercise 2.2
 
