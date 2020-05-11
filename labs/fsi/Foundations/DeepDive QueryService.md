@@ -66,7 +66,7 @@ Write basic queries for data analysis
 
 ### Timestamp
 
-Data captured in Adobe Experience Platform is time stamped. The "timestamp" attribute allows you to analyse data over time.
+Data captured in Adobe Experience Platform is time stamped. The "timestamp" attribute allows you to analyze data over time.
 
 How many product views do we have on a daily basis? 
 
