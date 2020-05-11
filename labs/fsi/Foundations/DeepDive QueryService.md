@@ -152,7 +152,7 @@ crm_dataset crm
 where crm._adobeamericaspot1.CRMID = aa._experience.analytics.customDimensions.eVars.eVar9
 and web.webPageDetails.name = 'help' 
 and _experience.analytics.customDimensions.eVars.eVar9 IS NOT NULL
-limit 10;;
+limit 10;
 ```
 
 Copy the statement above and execute it in your **PSQL command-line interface**.
