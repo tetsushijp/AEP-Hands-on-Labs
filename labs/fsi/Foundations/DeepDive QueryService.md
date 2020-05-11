@@ -10,7 +10,7 @@
 <tbody valign="top">
       <tr width="500">
             <td valign="top"><h3>Objective:</h3></td>
-            <td valign="top"><br>This will show a quick example of top cities in SQL
+            <td valign="top"><br>This will show examples of querying AEP data lake.
             </td>
      </tr>
      <tr width="500">
