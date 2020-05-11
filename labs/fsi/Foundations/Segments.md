@@ -89,7 +89,7 @@ Instructions:
 
 10.	Drag the ‘callSelectedReason’ field over to the Segment canvas
             
-      <kbd><img src="./images/segment_media_callselectedreason.png"  /></kbd>    
+      <kbd><img src="./images/segment_fsi_callselectedreason.png"  /></kbd>    
       
 11.	In the text box to the right of equals, type “Account Security Issue” and press ‘Enter’
            
