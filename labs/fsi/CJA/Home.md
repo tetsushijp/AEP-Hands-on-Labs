@@ -4,8 +4,7 @@
 ## Table of Contents
 
 * [Lab Overview](#lab-overview)
-* [Lesson 1 - AEP Dataset Creation](#lesson-1---AEP-Data-Creation)
-* [Lesson 2 - CJA Setup](#lesson-2---CJA-Setup)
+* [Lesson 1 - CJA Setup](#lesson-1---CJA-Setup)
 * [Lesson 3 - AEP Data Ingestion](#lesson-3---AEP-Data-Ingestion)
 * [Lesson 4 - Introduction to the Cross Channel Data View](#lesson-4---Introduction-to-the-Cross-Channel-Data-View)
 * [Lesson 5 - Flow Analysis](#lesson-5---flow-analysis)
@@ -22,9 +21,7 @@ This lab will show you how to ingest data into Adobe Experience Platform and use
 
 ### Key Takeaways
 
-* Understand concepts of CJA.
-* Ingest data into Adobe Experience Platform
-* Import ingested datasets into CJA
+* Understand concepts of CJA
 * Create Connections and data views in CJA
 * Analyze data in CJA by creating projects and workspaces
 
@@ -75,27 +72,25 @@ Getting Started in CJA
 
 Creating Connection
 
-1. Click on Connections and select Create new connection.
-   ![cja-create-connection-1](assets/l729/cja-create-connection-1.gif)
+1. Click on "Connections" tab then click on the blue "Create new connection" button.
+   ![Demo](images/cja-create-connection1.png)
 
-2. Search for “LabInstructor” in the search bar and select all the 5 datasets named as Email,Survey,Ad Impressions,Analytics,Call Center , then select all and click on "Add". Then search for your username and select the 3 datasets you created in Lesson 1 i.e. "your_username Summit CJA lab CRM data","your_username Summit CJA lab POS data","your_username Summit CJA lab Tracking Code data" and click on Add as shown below.
-    ![cja-create-connection-2](assets/l729/cja-create-connection-2.gif)
-    ![cja-create-connection-22](assets/l729/cja-create-connection-22.gif)
+2. Check the box next to the "Reduced Web EE Dataset", "Call Center EE Dataset" and "CRM Profile Dataset" dataset then click the blue "Add" button.
+   ![Demo](images/cja-create-connection2.png)
 
-3. For each dataset, click on it and scroll through the right hand section. You will see the Person IDs from the right rail as per the below table. These assigned Person ID's  are the only Identity columns in the datasets and hence were picked by CJA automatically.
+3. For each dataset, click on it and verify the correct "Person ID" is set as per the below table.
 
     | Dataset | Person ID |
     | ------- | --------- |
-    | Survey      | customer_id        |
-    | Ad  Impressions      | ad_cookie_id        |
-    | Email      | Customer ID        |
-    | Call Center      | Customer ID        |
-    | Analytics      | Stitched ID        |
-    | POS      | Customer ID         |
-    | CRM      | Customer ID         |
+    | Reduced Web EE Dataset      | CRMIDCombo        |
+    | Call Center EE Dataset      | CRMID        |
+    | CRM Profile Dataset      | CRMID        |
 
-   ![cja-create-connection-3](assets/l729/create-connection-person-id.gif)
- Note if the datasets have more than one identity we need to go through each dataset and select the appropriate ID as "Person ID"
+   ![Demo](images/cja-create-connection3-1.png)
+   ![Demo](images/cja-create-connection3-2.png)
+   ![Demo](images/cja-create-connection3-3.png)
+
+ Note: if datasets have more than one identity you need to go through each dataset and select the appropriate ID as "Person ID".
 
 4. For the "Tracking Code dataset" we need to assign a matching key as this is a lookup dataset. Click on Tracking code dataset and in the right rail select the "tracking_code" field from the drop down as shown below.
    ![cja-create-connection-trackingcode1](assets/l729/cja-create-connection-trackingcode1.gif)
