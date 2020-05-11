@@ -63,7 +63,7 @@ Getting Started in CJA
 
 ### Exercise 1.2
 
-Creating Connection
+Creating a Connection
 
 1. Click on "Connections" tab then click on the "Create new connection" button.
    ![Demo](images/cja-create-connection1.png)
@@ -90,7 +90,7 @@ Creating Connection
 
 ### Exercise 1.3
 
-Creating Data view
+Creating a Data View
 
 1. Click "Data Views" in the top navigation then click "+ Add" near the top.
    ![Demo](images/cja-create-dataview1.png)
