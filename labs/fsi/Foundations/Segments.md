@@ -10,7 +10,9 @@ Lab 6.1 - Segmentation - Profile Attribute Segmentation
 <tbody valign="top">
       <tr width="500">
             <td valign="top"><h3>Objective:</h3></td>
-            <td valign="top"><br>In this lab, you will learn how to create a segment based on a profile attribute/characteristic that has been mapped within unified profile
+            <td valign="top"><br>In this exercise, we’ll create a basic segment using a single field in Call Center ExperienceEvent.
+</br>
+<br>A marketer wants to create a basic segment for customers who report Account security issues with a Call Center representative.</br>
             </td>
      </tr>
      <tr width="500">
@@ -49,20 +51,60 @@ Lab 6.1 - Segmentation - Profile Attribute Segmentation
 
 Instructions:
 -----------------
-<ol>
-      <li>In the left navigation, select 'Segments' if you are not already there.</li>
-<li>In the upper right corner, select 'Create Segment'.</li>
-<li>In the right pane within the 'Create Segment' interface, enter the segment name 'Female Segment' following by your Student Number (e.g. 'Female Segment 001'). Enter the same value in the Description field.</li>
-<li>If the 'Streaming' toggle is not active, activate it.</li>
-<li>In the left pane, drill down the 'XDM Individual Profile' under Attributes by clicking on it.</li>
-<li>Scroll the resulting list until you locate 'Person'.</li>
-<li>Click on 'Person' to expand the object. This will display information at the field level. One of the fields you should see is 'Gender'.</li>
-<li>Drag 'Gender' over to the segment builder area.</li>
-<li>Click on the list arrow to the right of 'Gender' equals and select 'Female'.</li>
-<li>In the Segment properties pane, select the ‘Refresh estimate’ link.</li>
-<li>Save your segment</li>
-</ol>
-NOTE: Estimate link may not show results if attribute or selection is statistically small and not recognized across datset scans 
+1.	Navigate to Segment Builder in the left navigation
+
+      <kbd><img src="./images/segmenthome.png"  /></kbd>
+
+2.    Click "Create segment" on the top right.
+
+      <kbd><img src="./images/createsegment.png"  /></kbd>
+
+3.	Click the gear icon to the right of Fields in the left pane
+
+      <kbd><img src="./images/segmentfieldsgear.png"  /></kbd>
+
+4.	Verify ‘Show full XDM schema’ is selected, and if not, select it
+           
+      <kbd><img src="./images/segment_gear.png"  /></kbd>
+      
+5.	Click on the gear icon again to hide the setting
+
+      <kbd><img src="./images/segmentfieldsgearclose.png"  /></kbd>
+
+6.	Select ‘Events’ under Fields
+
+      <kbd><img src="./images/segmentevents.png"  /></kbd>
+
+7.	Click on ‘XDM ExperienceEvent’ under Browse Classes
+
+      <kbd><img src="./images/segment_xdm_ee.png"  /></kbd>
+      
+8.	Click on ‘Adobeamericaspot 1’ to expand the objects below that namespace
+      
+      <kbd><img src="./images/segment_xdm_pot1.png"  /></kbd>
+
+9.	Click on ‘callcenterDetails’
+   
+      <kbd><img src="./images/segment_xdm_calldetails.png"  /></kbd>      
+
+10.	Drag the ‘callSelectedReason’ field over to the Segment canvas
+            
+      <kbd><img src="./images/segment_media_callselectedreason.png"  /></kbd>    
+      
+11.	In the text box to the right of equals, type “Account Security Issue” and press ‘Enter’
+           
+      <kbd><img src="./images/segment_fsi_account_security_issue.png"  /></kbd>  
+
+12.	Enter the segment name “Call Center Account Security” followed by your Student ID (e.g. “Call Center Account Security 025”)
+	<br>Enter the same value as the description
+      
+      <kbd><img src="./images/segment_fsi_segmentname.png"  /></kbd>       
+           
+13.	Save the Segment
+           
+      <kbd><img src="./images/segment_fsi_save.png"  /></kbd>  
+      
+NOTE: Estimate link may not show results if qualified profiles are statistically small and not recognized across datset scans 
 <br>
 <br>
 <br>
