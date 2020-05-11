@@ -1,5 +1,5 @@
 
-# L729 - Paint a Holistic Picture of the Customer Journey
+# Customer Journey Analytics
 
 ## Table of Contents
 
@@ -49,9 +49,9 @@ The schemas and datasets for the data sources have already been set up. These st
 
 ## Lesson Context
 
-In this lesson we will get started with CJA. We will understand how to import the datasets available in AEP into CJA by creating data connections and data views.
+In this lesson, we will get started with CJA. We will understand how to import the datasets available in AEP into CJA by creating data connections and data views.
 
-### Exercise 2.1
+### Exercise 1.1
 
 Getting Started in CJA
 
@@ -61,7 +61,7 @@ Getting Started in CJA
    You should see the screen as below
    ![Demo](images/cja-home-screen.png)
 
-### Exercise 2.2
+### Exercise 1.2
 
 Creating Connection
 
@@ -88,7 +88,7 @@ Creating Connection
 4. Name your connection (HOL CJA Connection *attendee number*). Click the "Save" button instead of the "Save & create a data view" button by clicking the down icon.
    ![Demo](images/cja-create-connection4.png)
 
-### Exercise 2.3
+### Exercise 1.3
 
 Creating Data view
 
