@@ -56,7 +56,7 @@
 
 ## Lesson Context
 
-In this exercises you will write queries to analyse product views, product funnels, churn etc.
+In this exercises you will write queries to analyze product views, product funnels, churn etc.
 
 All queries listed in this chapter will be executed in your **PSQL command-line interface**. You should copy (CTRL-c) the statement blocks indicated with **SQL** and paste (CTRL-v)them in the **PSQL command-line interface**. The **Query Result** blocks show the pasted SQL statement and the associated query result.
 
