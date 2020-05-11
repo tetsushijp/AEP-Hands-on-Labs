@@ -105,9 +105,9 @@ all-> limit 10;
 all=> 
 ```
 
-### Top 5 products viewed
+### Top 5 pages viewed
 
-What are the top 5 products viewed?
+What are the top 5 pages viewed?
 
 **SQL**
 
