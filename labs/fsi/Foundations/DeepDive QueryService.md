@@ -171,7 +171,7 @@ prod:all-> limit 10;
 all=> 
 ```
 
-In the next set of queries we will extend the above query, in order to get a complete view on the customers and their behavior that have been visiting the "Cancel Service" page. You will learn how to use the Adobe Defined Function to sessionize information, identify the sequence and timiong of events. 
+In the next set of queries we will extend the above query, in order to get a complete view on the customers and their behavior that have been visiting the "help" page. You will learn how to use the Adobe Defined Function to sessionize information, identify the sequence and timing of events. 
 
 ## Exercise 2
 
