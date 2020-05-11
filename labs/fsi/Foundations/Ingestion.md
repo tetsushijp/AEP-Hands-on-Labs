@@ -52,21 +52,21 @@ Lab - Ingestion - CSV to XDM Mapping
 
 Instructions:
 -----------------
-go to https://platform.adobe.com/home
+Go to https://platform.adobe.com/home
 
-1. In the left-hand menu, navigate to "Workflows"
+1. In the left-hand menu, navigate to "Workflows".
 
 
       ![Demo](./images/ingestionhome.png)
 
 
-2. We will be ingesting an adhoc CSV file. Please select "Map CSV to XDM schema"
+2. We will be ingesting an ad hoc CSV file. Please select "Map CSV to XDM schema".
 
 
       ![Demo](./images/ingestcsvtoxdm.png)
       
       
-3. Hit Launch to start the workflow
+3. Click "Launch" to start the workflow.
 
 
       ![Demo](./images/ingestcsvtoxdmlaunch.png)
@@ -78,13 +78,13 @@ go to https://platform.adobe.com/home
       ![Demo](./images/ingestionadddata.png)
       
 
-5. Drag and drop the 'crm_data_xxx.csv' file profiled in the lab downloads. Within a few seconds you will see a preview of the data. Hit 'Next' 
+5. Drag and drop the 'crm_data_xxx.csv' file profiled in the lab downloads. Within a few seconds you will see a preview of the data. Click "Next". 
 
 
       ![Demo](./images/ingestionadddata1.png)
       
       
-6. The next step is to select a Destination for this data. Search for 'CRM_dataset' , select it and hit Next 
+6. The next step is to select a Destination for this data. Search for "CRM Profile Dataset" , select it and click "Next".
 
 
       ![Demo](./images/ingestiondestination.png)
@@ -97,12 +97,12 @@ go to https://platform.adobe.com/home
       ![Demo](./images/ingestionmapper.png)
       
 
-8. To re map a field click the  ![Demo](./images/remap.png) icon to open the schema. Remapping the list is left as a excersise for the participant.
+8. To remap a field click the ![Demo](./images/remap.png) icon to open the schema. Remapping the list is left as a exercise for the participant.
 
-    Once corrected the mappings should like shown in the screenshot below. Once you have verified that the mappings are correct, hit Next.
+    Once corrected, the mappings should match the screenshot below. Once you have verified that the mappings are correct, hit Next.
 
 
-    ![Demo](./images/ingestionmapper1.png)
+    ![Demo](./images/ingestionmapper2.png)
 
 
 9. Finally, we are ready to ingest the data. Hit 'Ingest' 
