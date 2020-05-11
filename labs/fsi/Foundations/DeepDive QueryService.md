@@ -51,7 +51,7 @@
 ## Objective
 
 - Write queries for data analyses
-- Write SQL queries combining web site and CRM data avialable in Adobe Experience Platform
+- Write SQL queries combining web site and CRM data available in Adobe Experience Platform
 - Learn about Adobe Defined Functions
 
 ## Lesson Context
