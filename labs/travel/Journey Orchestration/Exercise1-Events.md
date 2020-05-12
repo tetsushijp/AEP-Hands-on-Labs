@@ -2,7 +2,7 @@
 
 In this exercise, you'll create a custom Event by making use of Journey Orchestration in combination with Adobe Experience Platform.
 
-1. Go to [https://experience.adobe.com/#/@adobeamericaspot5/home](https://experience.adobe.com/#/@adobeamericaspot5/home)
+1. Go to [https://experience.adobe.com/#/@adobeamericaspot3/home](https://experience.adobe.com/#/@adobeamericaspot3/home)
 
    You'll see the `Adobe Experience Cloud`-homepage.
 
