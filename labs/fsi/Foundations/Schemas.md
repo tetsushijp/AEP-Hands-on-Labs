@@ -203,7 +203,7 @@ Go to [https://platform.adobe.com/home](https://platform.adobe.com/home). Follow
     Type = String
 
 
-    ![Demo](./images/6.png)
+    ![Demo](./images/schemamixin15.png)
 
 
     Scroll down and hit Apply
