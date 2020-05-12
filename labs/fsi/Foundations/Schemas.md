@@ -48,7 +48,7 @@ Lab  - Build a Transactions schema (ExperienceEvent)
 </tr>
 </table>
 
-Before be begin go to [https://platform.adobe.com/home](https://platform.adobe.com/home). Follow the instructions detailed below.
+Go to [https://platform.adobe.com/home](https://platform.adobe.com/home). Follow the instructions detailed below.
 
 Instructions:
 -----------------
