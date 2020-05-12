@@ -102,21 +102,19 @@ Go to [https://platform.adobe.com/home](https://platform.adobe.com/home). Follow
    - Identities Mixin EE
    - Transaction Details Mixin EE
 
-   Search for 'Identities Mixin EE'. Select the mixin and click "Assign Mixin".
+   Search for 'Transaction Details Mixin EE'. Select the mixin and click "Assign Mixin".
 
    Your schema will now have the identification object and all of the fields within this object.
 
-
       <kbd><img src="./images/schemamixin2.png"  /></kdb>
 
-
       Hit +Add to go back to the Mixin list
-
-       <kbd><img src="./images/schemamixin3.png"  /></kdb>
+      
+      <kbd><img src="./images/schemamixin3.png"  /></kdb>
 
       Repeat the steps for 'Identities Mixin EE' mixin
 
-       ![Demo](./images/schemamixin4.png)
+      ![Demo](./images/schemamixin4.png)
 
 9. Now, we'll also create a new Mixin from scratch. Go back and hit the +Add button on the left panel.
 
