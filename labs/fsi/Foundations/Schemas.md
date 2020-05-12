@@ -139,18 +139,18 @@ Instructions:
       ![Demo](./images/schemamixinback.png)
       
       
-10. In this lab we will be adding two pre built mixins listed below
+10. In this lab, we will be adding two pre-built mixins listed below:
 
-      - Transaction Details Mixin, and 
-      - identities
+      - Transaction Details Mixin EE, and 
+      - Identities Mixin EE
       
-      Search for 'Transaction Details Mixin' Select the mixin and hit Assign Mixin
+      Search for 'Transaction Details Mixin EE'. Select the mixin and click "Assign Mixin".
       
       
      ![Demo](./images/schemamixin1.png)
       
       
-      Your schema will now have the Transaction details object and all of the fields within this object
+      Your schema will now have the transactionDetails object and all of the fields within this object.
       
       <!---
       ![Demo](./images/schemamixin2.png)
@@ -170,7 +170,7 @@ Instructions:
       
              
              
-      And, repeat the steps for 'identities' mixin
+      Repeat the steps for 'Identities Mixin EE' mixin
       
       
        ![Demo](./images/schemamixin4.png)
@@ -187,13 +187,13 @@ Instructions:
        
       
       
-12. Click "Create new mixin" on the very top
+12. Click "Create new mixin" at the top.
 
 
       ![Demo](./images/schemamixin7.png)
       
       
-13. Display name is "Transactions Details Mixin <your-assigned-number>" and then hit 'Add Mixin'
+13. Enter "Transactions Details Mixin <your-assigned-number>" as the "Display name" and click "Add Mixin".
       
       
     ![Demo](./images/schemamixin8.png)
