@@ -139,14 +139,14 @@ Instructions:
       ![Demo](./images/schemamixinback.png)
       
       
-10. In this lab, we will be adding one pre-built mixins listed below:
+10. In this lab, we will be adding two pre-built mixins listed below:
 
+      - Transaction Details Mixin EE
       - Identities Mixin EE
       
-      Search for 'Identities Mixin EE'. Select the mixin and click "Assign Mixin".
+      Search for 'Transaction Details Mixin EE'. Select the mixin and click "Assign Mixin".
             
-      Your schema will now have the identification object and all of the fields within this object.
-
+      Your schema will now have the transactionDetails object and all of the fields within this object.
 
       <kbd><img src="./images/schemamixin2.png"  /></kdb>
              
