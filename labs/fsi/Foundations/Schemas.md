@@ -10,7 +10,7 @@
 <tbody valign="top">
       <tr width="500">
             <td valign="top"><h3>Objective:</h3></td>
-            <td valign="top"><br>This long lab will show you how to construct 
+            <td valign="top"><br>This  lab will show you how to construct an XDM schema
             </td>
      </tr>
      <tr width="500">
@@ -102,21 +102,19 @@ Go to [https://platform.adobe.com/home](https://platform.adobe.com/home). Follow
    - Identities Mixin EE
    - Transaction Details Mixin EE
 
-   Search for 'Identities Mixin EE'. Select the mixin and click "Assign Mixin".
+   Search for 'Transaction Details Mixin EE'. Select the mixin and click "Assign Mixin".
 
    Your schema will now have the identification object and all of the fields within this object.
 
+   <kbd><img src="./images/schemamixin2.png"  /></kdb>
 
-      <kbd><img src="./images/schemamixin2.png"  /></kdb>
+   Hit +Add to go back to the Mixin list
 
+   <kbd><img src="./images/schemamixin3.png"  /></kdb>
 
-      Hit +Add to go back to the Mixin list
+   Repeat the steps for 'Identities Mixin EE' mixin
 
-       <kbd><img src="./images/schemamixin3.png"  /></kdb>
-
-      Repeat the steps for 'Identities Mixin EE' mixin
-
-       ![Demo](./images/schemamixin4.png)
+   ![Demo](./images/schemamixin4.png)
 
 9. Now, we'll also create a new Mixin from scratch. Go back and hit the +Add button on the left panel.
 
@@ -139,17 +137,10 @@ Go to [https://platform.adobe.com/home](https://platform.adobe.com/home). Follow
 
     <kbd><img src="./images/schemamixin10.png"  /></kdb>
 
-<<<<<<< HEAD
 14. On the Field Properties panel to the right add the following  
      FieldName = orderDetails
     Description = Order Details
     Type = Object
-=======
-16. On the Field Properties panel to the right add the following:
-      - FieldName = orderDetails
-      - Description = Order Details
-      - Type = Object
->>>>>>> 3a3782ec01be6f7badaa45c9a2414f970eb86f68
 
 
     ![Demo](./images/schemamixin11.png)
@@ -164,17 +155,10 @@ Go to [https://platform.adobe.com/home](https://platform.adobe.com/home). Follow
 
     <kbd><img src="./images/schemamixin12.png"  /></kdb>
 
-<<<<<<< HEAD
 16. On the Field Properties panel to the right add the following  
     FieldName = orderFlag
     Description = Order Flag
     Type = Integer
-=======
-18) On the Field Properties panel to the right, add the following:
-      - FieldName = orderFlag
-      - Description = Order Flag
-      - Type = Integer
->>>>>>> 3a3782ec01be6f7badaa45c9a2414f970eb86f68
 
 
      ![Demo](./images/schemamixin13.png)
