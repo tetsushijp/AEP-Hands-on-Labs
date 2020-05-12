@@ -50,7 +50,7 @@
 
 ## Objective
 
-- Write queries for data analyses
+- Write queries for data analysis
 - Write SQL queries combining web site and CRM data available in Adobe Experience Platform
 - Learn about Adobe Defined Functions
 
