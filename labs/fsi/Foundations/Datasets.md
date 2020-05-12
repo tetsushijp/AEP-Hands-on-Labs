@@ -73,13 +73,13 @@ We will be creating a dataset for the schema we created in the previous exercise
       ![Demo](./images/datasetcreate2.png)
  
  
-4. On the Select Schema page search for "Transactions Schema <your-assigned-number>" then select the schema and hit Next
+4. On the "Select schema" page, search for "Transactions Schema [your-assigned-number]" then select the schema and click "Next".
       
       
       ![Demo](./images/datasetschema.png)
       
       
-3. Next, to configure the dataset we need to give it a name. Please name your dataset "Transactions Dataset <your-assigned-number>' and give it the same description 
+3. Next, to configure the dataset we need to give it a name. Please name your dataset "Transactions Dataset [your-assigned-number]' and give it the same description 
       
       
       ![Demo](./images/datasetname.png) 
