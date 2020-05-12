@@ -10,7 +10,7 @@
 <tbody valign="top">
       <tr width="500">
             <td valign="top"><h3>Objective:</h3></td>
-            <td valign="top"><br>This long lab will show you how to construct 
+            <td valign="top"><br>This  lab will show you how to construct an XDM schema
             </td>
      </tr>
      <tr width="500">
