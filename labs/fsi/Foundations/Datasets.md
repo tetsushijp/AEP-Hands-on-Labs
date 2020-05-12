@@ -73,7 +73,7 @@ We will be creating a dataset for the schema we created in the previous exercise
       ![Demo](./images/datasetcreate2.png)
  
  
-4. On the "Select schema" page, search for "Transactions Schema [your-assigned-number]" then select the schema you created in the schema exercise and click "Next".
+4. On the "Select schema" page, search for "Transactions Schema [your-assigned-number]" then select the schema and click "Next".
       
       
       ![Demo](./images/datasetschema.png)
