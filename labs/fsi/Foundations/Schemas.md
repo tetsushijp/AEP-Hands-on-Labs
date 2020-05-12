@@ -1,5 +1,5 @@
-Lab  - Build a Transactions schema (ExperienceEvent)
-==========
+# Lab - Build a Transactions schema (ExperienceEvent)
+
 <table style="border-collapse: collapse; border: none;" class="tab" cellspacing="0" cellpadding="0">
 
 <tr style="border: none;">
@@ -50,172 +50,103 @@ Lab  - Build a Transactions schema (ExperienceEvent)
 
 Go to [https://platform.adobe.com/home](https://platform.adobe.com/home). Follow the instructions detailed below.
 
-Instructions:
------------------
+## Instructions:
+
 1. In the left-hand menu, navigate to "Schemas"
 
 
       ![Demo](./images/schemahome.png)
-      
-      
+
 2. Click "Create Schema" on the top right
 
 
       ![Demo](./images/schemacreate.png)
-      
-      
+
 3. Click on "Untitled Schema" in the structure view
 
 
-    <!---
-    ![Demo](./images/schemaname.png)
-    --->
-
     <kbd><img src="./images/schemaname.png"  /></kdb>
 
-
-      
-      
 4. In the right-hand menu, name it "Transactions Schema [your-assigned-number]" (Description is optional)
-      
-      
-      ![Demo](./images/schemaname1.png)
-      
-      
+   ![Demo](./images/schemaname1.png)
 5. In the left-hand schema composition menu, click on the "Assign" button across from Class
 
+   <kbd><img src="./images/schemaclassassign.png"  /></kdb>
 
-    <!---
-    ![Demo](./images/schemaclassassign.png)
-    --->
 
-    <kbd><img src="./images/schemaclassassign.png"  /></kdb>
-
-      
-      
     Here's where you can choose your base level schema behavior:
     - Time-based Events (ExperienceEvent)
     - Customer Snapshots (Profile)
-     
-     
+
+
       ![Demo](./images/schemaclass.png)
-      
-      
+
+
       Note: There are other classes available out of the box that represent specific objects needed for Experience Modeling.
 
 6. In this example, choose "XDM ExperienceEvent" and click "Assign class"
 
 
       ![Demo](./images/schemaclass1.png)
-      
-      
+
 7. Now, click on the "Add" button across from "Mixins" on the left panel
 
 
-    <!---
-    ![Demo](./images/schemamixin.png)
-    --->
-
     <kbd><img src="./images/schemamixin.png"  /></kdb>
 
-      
-      
+
       Here's where you can build your own Mixin or use a prior/similar Mixin object that conforms to your data.
-      
-8. There are many out of the box Mixins already available. 
 
+8. In this lab, we will be adding two pre-built mixins listed below:
 
-      ![Demo](./images/schemamixinpreview.png)
-      
-     Click on an Adobe pre-built Mixin and hit the "Preview mixin structure" option on the right-hand side to see it's contents of a Mixin
-      
-      
-      ![Demo](./images/schemamixinpreview1.png)
-    
-    
-9. Hit Back to get back to the list of Mixins. 
+   - Identities Mixin EE
+   - Transaction Details Mixin EE
 
+   Search for 'Identities Mixin EE'. Select the mixin and click "Assign Mixin".
 
-      ![Demo](./images/schemamixinback.png)
-      
-      
-10. In this lab, we will be adding one pre-built mixins listed below:
-
-      - Identities Mixin EE
-      
-      Search for 'Identities Mixin EE'. Select the mixin and click "Assign Mixin".
-            
-      Your schema will now have the identification object and all of the fields within this object.
+   Your schema will now have the identification object and all of the fields within this object.
 
 
       <kbd><img src="./images/schemamixin2.png"  /></kdb>
-             
-             
+
+
       Hit +Add to go back to the Mixin list
-      
-      
-       <!---
-       ![Demo](./images/schemamixin3.png)
-       --->
 
-       <kbd><img src="./images/schemamixin3.png"  /></kdb>     
-      
-             
-             
+
+       <kbd><img src="./images/schemamixin3.png"  /></kdb>
+
+
+
       Repeat the steps for 'Identities Mixin EE' mixin
-      
-      
+
+
        ![Demo](./images/schemamixin4.png)
-             
-             
-        
-11. Now, we'll also create a new Mixin from scratch. Go back and hit the +Add button on the left panel.
 
-       <!---
-       ![Demo](./images/schemamixin6.png)
-       --->
+9. Now, we'll also create a new Mixin from scratch. Go back and hit the +Add button on the left panel.
 
-       <kbd><img src="./images/schemamixin6.png"  /></kdb>    
-       
-      
-      
-12. Click "Create new mixin" at the top.
+   <kbd><img src="./images/schemamixin6.png"  /></kdb>
+
+10. Click "Create new mixin" at the top.
 
 
       ![Demo](./images/schemamixin7.png)
-      
-      
-13. Enter "Transactions Details Mixin [your-assigned-number]" as the "Display name" and click "Add Mixin".
-      
-      
+
+13. Enter "Order Details Mixin EE [your-assigned-number]" as the "Display name" and click "Add Mixin".
     ![Demo](./images/schemamixin8.png)
-     
-     
-     
 14. In the left-hand schema composition menu, click on your newly create Mixin (it should be highlighted now)
 
 
-    <!---
-    ![Demo](./images/schemamixin9.png)
-    --->
+    <kbd><img src="./images/schemamixin9.png"  /></kdb>
 
-    <kbd><img src="./images/schemamixin9.png"  /></kdb>   
-       
-
-15. Notice that on the Structure view a '+Add Field' appears next to the Schema name, Click it to start adding fields 
+15. Notice that on the Structure view a '+Add Field' appears next to the Schema name, Click it to start adding fields
 
 
-    <!---
-    ![Demo](./images/schemamixin10.png)
-    --->
-
-    <kbd><img src="./images/schemamixin10.png"  /></kdb>   
-
+    <kbd><img src="./images/schemamixin10.png"  /></kdb>
 
 16. On the Field Properties panel to the right add the following  
-      FieldName = transactionDetails
-      Description = Transaction Details
-      Type = Object
+     FieldName = orderDetails
+    Description = Order Details
+    Type = Object
 
 
     ![Demo](./images/schemamixin11.png)
@@ -226,21 +157,14 @@ Instructions:
 
     ![Demo](./images/schemaapply.png)
 
+17. Next, we will be adding fields to the 'orderDetails' object Click "+Add Field" next to this object
 
-17. Next, we will be adding fields to the 'transactionDetails' object Click "+Add Field" next to this object
+    <kbd><img src="./images/schemamixin12.png"  /></kdb>
 
-    <!---
-    ![Demo](./images/schemamixin12.png)
-    --->
-
-    <kbd><img src="./images/schemamixin12.png"  /></kdb>   
-
-
-
-18. On the Field Properties panel to the right add the following  
-      FieldName = transactionID
-      Description = Transaction ID
-      Type = String
+18) On the Field Properties panel to the right add the following  
+     FieldName = orderFlag
+    Description = Order Flag
+    Type = Integer
 
 
      ![Demo](./images/schemamixin13.png)
@@ -251,22 +175,15 @@ Instructions:
 
     ![Demo](./images/schemaapply.png)
 
+19. We will be adding one more field to the 'orderDetails' object Click "+Add Field" next to this object
 
-19. We will be adding one more field to the 'transactionDetails' object Click "+Add Field" next to this object
-
-    <!---
-    ![Demo](./images/schemamixin12.png)
-    --->
 
     <kbd><img src="./images/schemamixin12.png"  /></kdb>
 
-
-
 20. On the Field Properties panel to the right add the following  
-      FieldName = branchID
-      Description = Branch ID
-      Type = String
-
+     FieldName = orderID
+    Description = Order ID
+    Type = String
 
     ![Demo](./images/schemamixin14.png)
 
@@ -275,24 +192,33 @@ Instructions:
 
 
     ![Demo](./images/schemaapply.png)
-    
-    
- 21. We are done with modeling the schema. To Save your work hit Save on the top right corner. Make sure that your schema structure looks like the one in the screenshot below
- 
 
-     <!---
-     ![Demo](./images/schemafinal.png)
-     --->
-     <kbd><img src="./images/schemafinal.png"  /></kdb>
+19. Next, We will be adding our final field to the 'orderDetails' object Click "+Add Field" next to this object
 
- 
- 
- 22. Congratulations!!! you have constructed your schema.
- 
+    <kbd><img src="./images/schemamixin15.png"  /></kdb>
+
+20. On the Field Properties panel to the right add the following  
+     FieldName = orderType
+    Description = Order Type
+    Type = String
+
+
+    ![Demo](./images/6.png)
+
+
+    Scroll down and hit Apply
+
+
+    ![Demo](./images/schemaapply.png)
+
+21. We are done with modeling the schema. To Save your work hit Save on the top right corner. Make sure that your schema structure looks like the one in the screenshot below
+
+    <kbd><img src="./images/schemafinal.png"  /></kdb>
+
+22. Congratulations!!! you have constructed your schema.
+
 <br>
 <br>
 <br>
-
 
 Return to [Lab Agenda Directory](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/README.md#lab-agenda)
-
