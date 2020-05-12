@@ -10,7 +10,7 @@ Lab - Using Data Ingestion API to Stitch customer data.
 <tbody valign="top">
       <tr width="500">
             <td valign="top"><h3>Objective:</h3></td>
-            <td valign="top"><br>This will show how AEP API calls will stich different identities together 
+            <td valign="top"><br>This will show how AEP API calls will stitch different identities together 
             </td>
      </tr>
      <tr width="500">
