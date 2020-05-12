@@ -10,12 +10,12 @@ Lab - Using Data Ingestion API to Stitch customer data.
 <tbody valign="top">
       <tr width="500">
             <td valign="top"><h3>Objective:</h3></td>
-            <td valign="top"><br>This will show how AEP API calls will stich different identities together 
+            <td valign="top"><br>This will show how AEP API calls will stitch different identities together 
             </td>
      </tr>
      <tr width="500">
            <td valign="top"><h3>Prerequisites:</h3></td>
-           <td valign="top"><br>download JSON collection and envirnoment (Shared via Email)
+           <td valign="top"><br>Download JSON collection and environment (Shared via Email)
            </td>
      </tr>
 </tbody>
@@ -116,10 +116,10 @@ Instructions:
 7. Click and open 'Step 2: Listing of tenant Schemas' and hit Send
 
 
-    This API call will get all the schemas in the instance. note we restrict the properties that are returned from the API call to make the repose more manageable to read.
+    This API call will get all the schemas in the instance. Note we restrict the properties that are returned from the API call to make the response more manageable to read.
 
 
-    Try to search for the schema you created during the schema excises.
+    Try to find the schema you created during the schema exercise.
 
     <!---
     ![Demo](./images/postmanstep2.png)
@@ -129,7 +129,7 @@ Instructions:
 
 
 
-8. Next, click and open 'Step 3a - GET Profile by CRMID' and add in the entityId parameter entry the CRMID aassigned to your attendee ID [here](https://raw.githubusercontent.com/adobe/AEP-Hands-on-Labs/master/labs/fsi/unlinked_fsi.md).
+8. Next, click and open 'Step 3a - GET Profile by CRMID' and add in the entityId parameter entry the CRMID assigned to your attendee ID [here](https://raw.githubusercontent.com/adobe/AEP-Hands-on-Labs/master/labs/fsi/unlinked_fsi.md).
 
     <!---
     ![Demo](./images/postmanstep3.png)

@@ -112,13 +112,9 @@ Go to [https://platform.adobe.com/home](https://platform.adobe.com/home). Follow
 
       Hit +Add to go back to the Mixin list
 
-
        <kbd><img src="./images/schemamixin3.png"  /></kdb>
 
-
-
       Repeat the steps for 'Identities Mixin EE' mixin
-
 
        ![Demo](./images/schemamixin4.png)
 
@@ -131,22 +127,29 @@ Go to [https://platform.adobe.com/home](https://platform.adobe.com/home). Follow
 
       ![Demo](./images/schemamixin7.png)
 
-13. Enter "Order Details Mixin EE [your-assigned-number]" as the "Display name" and click "Add Mixin".
+11. Enter "Order Details Mixin EE [your-assigned-number]" as the "Display name" and click "Add Mixin".
     ![Demo](./images/schemamixin8.png)
-14. In the left-hand schema composition menu, click on your newly create Mixin (it should be highlighted now)
+12. In the left-hand schema composition menu, click on your newly create Mixin (it should be highlighted now)
 
 
     <kbd><img src="./images/schemamixin9.png"  /></kdb>
 
-15. Notice that on the Structure view a '+Add Field' appears next to the Schema name, Click it to start adding fields
+13. Notice that on the Structure view a '+Add Field' appears next to the Schema name, Click it to start adding fields
 
 
     <kbd><img src="./images/schemamixin10.png"  /></kdb>
 
-16. On the Field Properties panel to the right add the following  
+<<<<<<< HEAD
+14. On the Field Properties panel to the right add the following  
      FieldName = orderDetails
     Description = Order Details
     Type = Object
+=======
+16. On the Field Properties panel to the right add the following:
+      - FieldName = orderDetails
+      - Description = Order Details
+      - Type = Object
+>>>>>>> 3a3782ec01be6f7badaa45c9a2414f970eb86f68
 
 
     ![Demo](./images/schemamixin11.png)
@@ -157,14 +160,21 @@ Go to [https://platform.adobe.com/home](https://platform.adobe.com/home). Follow
 
     ![Demo](./images/schemaapply.png)
 
-17. Next, we will be adding fields to the 'orderDetails' object Click "+Add Field" next to this object
+15. Next, we will be adding fields to the 'orderDetails' object Click "+Add Field" next to this object
 
     <kbd><img src="./images/schemamixin12.png"  /></kdb>
 
-18) On the Field Properties panel to the right add the following  
-     FieldName = orderFlag
+<<<<<<< HEAD
+16. On the Field Properties panel to the right add the following  
+    FieldName = orderFlag
     Description = Order Flag
     Type = Integer
+=======
+18) On the Field Properties panel to the right, add the following:
+      - FieldName = orderFlag
+      - Description = Order Flag
+      - Type = Integer
+>>>>>>> 3a3782ec01be6f7badaa45c9a2414f970eb86f68
 
 
      ![Demo](./images/schemamixin13.png)
@@ -175,12 +185,12 @@ Go to [https://platform.adobe.com/home](https://platform.adobe.com/home). Follow
 
     ![Demo](./images/schemaapply.png)
 
-19. We will be adding one more field to the 'orderDetails' object Click "+Add Field" next to this object
+17. We will be adding one more field to the 'orderDetails' object Click "+Add Field" next to this object
 
 
     <kbd><img src="./images/schemamixin12.png"  /></kdb>
 
-20. On the Field Properties panel to the right add the following  
+18. On the Field Properties panel to the right add the following  
      FieldName = orderID
     Description = Order ID
     Type = String
