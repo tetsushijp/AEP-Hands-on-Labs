@@ -76,7 +76,7 @@ Instructions:
 
       
       
-4. In the right-hand menu, name it 'Transactions Schema <your-assigned-number>' (Description is optional)
+4. In the right-hand menu, name it "Transactions Schema [your-assigned-number]" (Description is optional)
       
       
       ![Demo](./images/schemaname1.png)
@@ -193,7 +193,7 @@ Instructions:
       ![Demo](./images/schemamixin7.png)
       
       
-13. Enter "Transactions Details Mixin <your-assigned-number>" as the "Display name" and click "Add Mixin".
+13. Enter "Transactions Details Mixin [your-assigned-number]" as the "Display name" and click "Add Mixin".
       
       
     ![Demo](./images/schemamixin8.png)
