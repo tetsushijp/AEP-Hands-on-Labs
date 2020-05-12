@@ -76,7 +76,7 @@ Instructions:
 
       
       
-4. In the right-hand menu, name it "Transactions Schema <your-assigned-number>" (Description is optional)
+4. In the right-hand menu, name it 'Transactions Schema <your-assigned-number>' (Description is optional)
       
       
       ![Demo](./images/schemaname1.png)
@@ -260,7 +260,7 @@ Instructions:
     ![Demo](./images/schemaapply.png)
 
 
-19. We will be adding one more field  to the 'transactionDetails' object Click "+Add Field" next to this object
+19. We will be adding one more field to the 'transactionDetails' object Click "+Add Field" next to this object
 
     <!---
     ![Demo](./images/schemamixin12.png)
