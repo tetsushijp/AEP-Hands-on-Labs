@@ -129,7 +129,7 @@ Instructions:
 
 
 
-8. Next, click and open 'Step 3a - GET Profile by CRMID' and add in the entityId parameter entry the CRMID aassigned to your attendee ID [here](https://raw.githubusercontent.com/adobe/AEP-Hands-on-Labs/master/labs/fsi/unlinked_fsi.md).
+8. Next, click and open 'Step 3a - GET Profile by CRMID' and add in the entityId parameter entry the CRMID assigned to your attendee ID [here](https://raw.githubusercontent.com/adobe/AEP-Hands-on-Labs/master/labs/fsi/unlinked_fsi.md).
 
     <!---
     ![Demo](./images/postmanstep3.png)
