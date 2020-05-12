@@ -161,10 +161,10 @@ Go to [https://platform.adobe.com/home](https://platform.adobe.com/home). Follow
 
     <kbd><img src="./images/schemamixin12.png"  /></kdb>
 
-18) On the Field Properties panel to the right add the following  
-     FieldName = orderFlag
-    Description = Order Flag
-    Type = Integer
+18) On the Field Properties panel to the right, add the following:
+    -FieldName = orderFlag
+    -Description = Order Flag
+    -Type = Integer
 
 
      ![Demo](./images/schemamixin13.png)
