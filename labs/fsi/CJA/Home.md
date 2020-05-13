@@ -26,7 +26,7 @@ This lab will show you how to use data ingested into Adobe Experience Platform w
 
 ### Background
 
-Customer Journey Analytics is an Adobe Experience Platform Application Service that lets you use the power of Analysis Workspace with data from Adobe Experience Platform. It can break down, filter, query, and visualize years' worth of data, and is combined with Platform's ability to hold all kinds of data schemas and types. Using the Experience Data Model (XDM) , data can be uniformly represented and organized, ready for combination and exploration.Experience Query Services in AEP allows you to use SQL-compatible tools and frameworks to query and manipulate all your data.This data can then be imported into CJA for further analysis.
+Customer Journey Analytics is an Adobe Experience Platform Application Service that lets you use the power of Analysis Workspace with data from Adobe Experience Platform. It can break down, filter, query, and visualize years' worth of data, and is combined with Platform's ability to hold all kinds of data schemas and types. Using the Experience Data Model (XDM), data can be uniformly represented and organized, ready for combination and exploration. Experience Query Services in AEP allows you to use SQL-compatible tools and frameworks to query and manipulate all your data. This data can then be imported into CJA for further analysis.
 
 For today’s lab, we will be using 3 datasets from 3 different data sources:
 
