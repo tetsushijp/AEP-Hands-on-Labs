@@ -4,7 +4,7 @@ Lab Attendee Download Packages
 
 | User     | ZIP  | GZ  |
 |------------|---|---|
-| All Attendees  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/travel/assets/all_attendees_travel.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/travel/assets/all_attendees_travel.tar.gz)  |
+| All Attendees -- Please download this packaage  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/travel/assets/all_attendees_travel.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/travel/assets/all_attendees_travel.tar.gz)  |
 
 
 
