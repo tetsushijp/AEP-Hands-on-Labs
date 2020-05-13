@@ -4,31 +4,7 @@ Lab Attendee Download Packages
 
 | User     | ZIP  | GZ  |
 |------------|---|---|
-| Attendee 001  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/travel/assets/001_travel.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/travel/assets/001_travel.tar.gz)  |
-| Attendee 002  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/travel/assets/002_travel.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/travel/assets/002_travel.tar.gz)  |
-| Attendee 003  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/travel/assets/003_travel.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/travel/assets/003_travel.tar.gz)  |
-| Attendee 004  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/travel/assets/004_travel.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/travel/assets/004_travel.tar.gz)  |
-| Attendee 005  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/travel/assets/005_travel.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/travel/assets/005_travel.tar.gz)  |
-| Attendee 006  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/travel/assets/006_travel.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/travel/assets/006_travel.tar.gz)  |
-| Attendee 007  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/travel/assets/007_travel.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/travel/assets/005_travel.tar.gz)  |
-| Attendee 008  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/travel/assets/008_travel.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/travel/assets/008_travel.tar.gz)  |
-| Attendee 009  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/travel/assets/009_travel.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/travel/assets/009_travel.tar.gz)  |
-| Attendee 010  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/travel/assets/010_travel.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/travel/assets/010_travel.tar.gz)  |
-| Attendee 011  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/travel/assets/011_travel.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/travel/assets/011_travel.tar.gz)  |
-| Attendee 012  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/travel/assets/012_travel.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/travel/assets/012_travel.tar.gz)  |
-| Attendee 013  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/travel/assets/013_travel.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/travel/assets/013_travel.tar.gz)  |
-| Attendee 014  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/travel/assets/014_travel.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/travel/assets/014_travel.tar.gz)  |
-| Attendee 015  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/travel/assets/015_travel.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/travel/assets/015_travel.tar.gz)  |
-| Attendee 016  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/travel/assets/016_travel.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/travel/assets/016_travel.tar.gz)  |
-| Attendee 017  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/travel/assets/017_travel.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/travel/assets/017_travel.tar.gz)  |
-| Attendee 018  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/travel/assets/018_travel.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/travel/assets/018_travel.tar.gz)  |
-| Attendee 019  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/travel/assets/019_travel.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/travel/assets/019_travel.tar.gz)  |
-| Attendee 020  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/travel/assets/020_travel.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/travel/assets/020_travel.tar.gz)  |
-| Attendee 021  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/travel/assets/021_travel.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/travel/assets/021_travel.tar.gz)  |
-| Attendee 022  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/travel/assets/022_travel.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/travel/assets/022_travel.tar.gz)  |
-| Attendee 023  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/travel/assets/023_travel.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/travel/assets/023_travel.tar.gz)  |
-| Attendee 024  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/travel/assets/024_travel.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/travel/assets/024_travel.tar.gz)  |
-| Attendee 025  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/travel/assets/025_travel.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/travel/assets/025_travel.tar.gz)  |
+| All Attendees  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/travel/assets/all_attendees_travel.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/travel/assets/all_attendees_travel.tar.gz)  |
 
 
 
