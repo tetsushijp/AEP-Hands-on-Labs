@@ -78,13 +78,13 @@ Go to https://platform.adobe.com/home
       ![Demo](./images/ingestionadddata.png)
       
 
-5. Drag and drop the 'crm_data_xxx.csv' file profiled in the lab downloads. Within a few seconds you will see a preview of the data. Click "Next". 
+5. Drag and drop the 'crm_data_001.csv' file profiled in the lab downloads. Within a few seconds you will see a preview of the data. Click "Next". 
 
 
       ![Demo](./images/ingestionadddata1.png)
       
       
-6. The next step is to select a Destination for this data. Search for "CRM Profile Dataset" , select it and click "Next".
+6. The next step is to select a Destination for this data. Search for "CRM Profile Dataset", select it and click "Next".
 
 
       ![Demo](./images/ingestiondestination.jpg)
