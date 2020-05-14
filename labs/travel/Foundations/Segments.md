@@ -295,7 +295,7 @@ NOTE: Estimate link may not show results if qualified profiles are statistically
 
 7. Under ‘Browse Classes’, drag ‘Marketing Channel (eVar1)’ to the segment canvas.
 
-![Demo](./images/_segments_travel_dyn_mchannel_any.png)
+![Demo](./images/segments_travel_dyn_mchannel_any.png)
 
 8. In the left pane, clear out the Search box
 
@@ -319,9 +319,9 @@ NOTE: Estimate link may not show results if qualified profiles are statistically
 
 15. Select the ‘SKU’ field and drag that into the ‘XDM ExperienceEvent’ container for ‘Checkouts’
 
-16. Change the operator to “exists”
-
 ![Demo](./images/segments_travel_dyn_prodlistitemmenu.png)
+
+16. Change the operator to “exists”
 
 ![Demo](./images/segments_travel_dyn_skuexists.png)
 
