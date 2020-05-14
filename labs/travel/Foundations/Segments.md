@@ -70,7 +70,7 @@
 
 8. Click on ‘callCenterDetails’
 
-9. Drag the ‘Call Selected Reason’ field over to the Segment canvas
+9. Drag the ‘callSelectedReason’ field over to the Segment canvas
 
 ![Demo](./images/segment_travel_callselectedreason.png)
 
