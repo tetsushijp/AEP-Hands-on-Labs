@@ -15,7 +15,7 @@
      </tr>
      <tr width="500">
            <td valign="top"><h3>Prerequisites:</h3></td>
-           <td valign="top"><br><li>download "crm_data_xxx.csv" file</li>
+           <td valign="top"><br><li>download "crm_data_001.csv" file</li>
                             <li>schema in place</li>
                             <li>dataset in place</li>
            </td>
