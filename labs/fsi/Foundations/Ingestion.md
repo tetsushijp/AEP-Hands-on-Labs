@@ -87,7 +87,7 @@ Go to https://platform.adobe.com/home
 6. The next step is to select a Destination for this data. Search for "CRM Profile Dataset" , select it and click "Next".
 
 
-      ![Demo](./images/ingestiondestination.png)
+      ![Demo](./images/ingestiondestination.jpg)
       
       
 7. Next, we need to map the CSV file fields to the XDM fields in the schema. The mapper tried to parse and map fields however there are some that were not mapped or are mis mapped. We will make corrections.
