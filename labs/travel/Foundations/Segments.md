@@ -72,11 +72,11 @@
 
 9. Drag the ‘callSelectedReason’ field over to the Segment canvas
 
-![Demo](./images/segment_travel_callselectedreason.png)
+   ![Demo](./images/segment_travel_callselectedreason.png)
 
 10. In the text box to the right of equals, type “Reservation Place Booking” and press ‘Enter’
 
-![Demo](./images/segment_travel_reservationbooking.png)
+    ![Demo](./images/segment_travel_reservationbooking.png)
 
 11. Ensure ‘Streaming’ is enabled in the right pane.
 
@@ -86,7 +86,7 @@
 
 14. Save the Segment
 
-![Demo](./images/segment_travel_reservationbookingsave.png)
+    ![Demo](./images/segment_travel_reservationbookingsave.png)
 
 NOTE: Estimate link may not show results if qualified profiles are statistically small and not recognized across datset scans
 
@@ -94,7 +94,7 @@ NOTE: Estimate link may not show results if qualified profiles are statistically
 <br>
 <br>
 
-# Lab - Segmentation - Multi-Entity Sequential Segmentation
+# Lab - Segmentation - Sequential Segmentation
 
 <table style="border-collapse: collapse; border: none;" class="tab" cellspacing="0" cellpadding="0">
 
@@ -147,9 +147,13 @@ NOTE: Estimate link may not show results if qualified profiles are statistically
 
 1. Navigate to Segment Builder in the left navigation and select Create segment.
 
+   ![Demo](./images/segment_create.png)
+
 2. Click the gear icon to the right of Fields in the left pane
 
 3. Verify ‘Show full XDM schema’ is selected
+
+   ![Demo](./images/segment_gear.png)
 
 4. Click on the gear icon again to hide the setting
 
@@ -163,20 +167,21 @@ NOTE: Estimate link may not show results if qualified profiles are statistically
 
 9. Start entering ‘Female’ in the text box and when the value displays, select it and press Enter. The ‘Gender’ field is an enum field to limit the values stored in that field.
 
-![Demo](./images/segment_travel_me_gender.png)
+   ![Demo](./images/segment_travel_me_gender.png)
 
 10. Next, select ‘Events’ under Fields in the left pane
+
 11. Under ‘Event Types’ locate the ‘Product Views’ event and drag that to the segment canvas below the Profile attribute just added
 
 12. Under ‘Events’ in the left pane, locate ‘Checkouts’ and drag that to the segment canvas below the ‘Product Views’ event so that they are vertically stacked.
 
 13. Update the operator to ‘Or’ between ‘Product Views’ and ‘Checkouts’
 
-![Demo](./images/segment_travel_me_prodviewcheckout.png)
+    ![Demo](./images/segment_travel_me_prodviewcheckout.png)
 
 14. Under ‘Events in the left pane, locate ‘Purchases’ and drag that to the segment canvas to the right of the ‘Product Views’ and ‘Purchase’ events
 
-![Demo](./images/segment_travel_me_purchase.png)
+    ![Demo](./images/segment_travel_me_purchase.png)
 
 15. Click on ‘Product Views’ in the segment canvas. A container will appear below to Include and XDM ExperienceEvent
 
@@ -186,7 +191,7 @@ NOTE: Estimate link may not show results if qualified profiles are statistically
 
 18. Enter ‘prd1030’ in the text box to the right of SKU = and press ‘Enter’
 
-![Demo](./images/segment_travel_me_pvsku.png)
+    ![Demo](./images/segment_travel_me_pvsku.png)
 
 19. Click on ‘Checkouts’ in the segment canvas. A container will appear below to Include and XDM ExperienceEvent
 
@@ -206,13 +211,13 @@ NOTE: Estimate link may not show results if qualified profiles are statistically
 
 27. Change the container operator to ‘Exclude’ for ‘Purchases’
 
-![Demo](./images/segment_travel_me_purchasesku.png)
+    ![Demo](./images/segment_travel_me_purchasesku.png)
 
 28. At the top of the ‘Events’ canvas, update the time value to ‘This month’
 
 29. In the middle, update the time value to ‘After 1 Hour’ between the ‘Product Views’ and ‘Checkouts’ and ‘Purchases’.
 
-![Demo](./images/segment_travel_me_purchasetime.png)
+    ![Demo](./images/segment_travel_me_purchasetime.png)
 
 30. Ensure ‘Streaming’ is enabled in the right pane
 
@@ -222,7 +227,7 @@ NOTE: Estimate link may not show results if qualified profiles are statistically
 
 33. Save the Segment
 
-![Demo](./images/segment_travel_me_save.png)
+    ![Demo](./images/segment_travel_me_save.png)
 
 <br>
 <br>
@@ -281,9 +286,13 @@ NOTE: Estimate link may not show results if qualified profiles are statistically
 
 1. Navigate to Segment Builder in the left navigation and select Create segment.
 
+   ![Demo](./images/segment_create.png)
+
 2. Click the gear icon to the right of Fields in the left pane
 
 3. Verify ‘Show full XDM schema’ is selected
+
+   ![Demo](./images/segment_gear.png)
 
 4. Click on the gear icon again to hide the setting
 
@@ -291,27 +300,27 @@ NOTE: Estimate link may not show results if qualified profiles are statistically
 
 6. In the search box, enter ‘eVar1’
 
-![Demo](./images/segments_travel_dyn_mchannel.png)
+   ![Demo](./images/segments_travel_dyn_mchannel.png)
 
 7. Under ‘Browse Classes’, drag ‘Marketing Channel (eVar1)’ to the segment canvas.
 
-![Demo](./images/segments_travel_dyn_mchannel_any.png)
+   ![Demo](./images/segments_travel_dyn_mchannel_any.png)
 
 8. In the left pane, clear out the Search box
 
 9. Under ‘Event Types’, locate ‘Checkouts’, and drag this to the segment canvas to the right of the ‘Any’ event
 
-![Demo](./images/segments_travel_dyn_mchannel_email_checkout.png)
+   ![Demo](./images/segments_travel_dyn_mchannel_email_checkout.png)
 
 10. In the left pane, locate ‘Purchases’ and drag this to the segment canvas to the right of the ‘Checkouts’ event.
 
-![Demo](./images/segments_travel_dyn_mchannel_email_purchase.png)
+    ![Demo](./images/segments_travel_dyn_mchannel_email_purchase.png)
 
 11. Click on ‘Any’ in the segment canvas
 
 12. Type ‘Email’ in the text box to the right of ‘Marketing Channel (eVar1)’ equals and press Enter
 
-![Demo](./images/segments_travel_dyn_mchannel_email_purchase.png)
+    ![Demo](./images/segments_travel_dyn_mchannel_email_purchase.png)
 
 13. Click on ‘Checkouts in the segment canvas
 
@@ -319,11 +328,11 @@ NOTE: Estimate link may not show results if qualified profiles are statistically
 
 15. Select the ‘SKU’ field and drag that into the ‘XDM ExperienceEvent’ container for ‘Checkouts’
 
-![Demo](./images/segments_travel_dyn_prodlistitemmenu.png)
+    ![Demo](./images/segments_travel_dyn_prodlistitemmenu.png)
 
 16. Change the operator to “exists”
 
-![Demo](./images/segments_travel_dyn_skuexists.png)
+    ![Demo](./images/segments_travel_dyn_skuexists.png)
 
 17. In the left pane, click on ‘XDM ExperienceEvent’ and ‘Product list items’ in the resulting display
 
@@ -331,13 +340,13 @@ NOTE: Estimate link may not show results if qualified profiles are statistically
 
 19. In the left pane, click on the Events link. You should see ‘Browse Classes’, ‘Event Types’ and ‘Browse Variables’ sections appear
 
-![Demo](./images/segments_travel_dyn_browsevarmenu.png)
+    ![Demo](./images/segments_travel_dyn_browsevarmenu.png)
 
 20. Locate ‘Checkouts1 | Product list items1’ and drag this to the right of ‘SKU equals’ in the ‘XDM Event Container’. Release one the dynamic variable is positioned over the second box displays and drop. The resulting statement should be ‘SKU equals Checkouts1 | Product list items1 XDM ExperienceEvent > Product list items > SKU’
 
-21) Change the ‘XDM ExperienceEvent’ container for ‘Purchases1’ to ‘Exclude’
+21. Change the ‘XDM ExperienceEvent’ container for ‘Purchases1’ to ‘Exclude’
 
-![Demo](./images/segments_travel_dyn_skuexists.png)
+    ![Demo](./images/segments_travel_dyn_skuexists.png)
 
 22. In the segment canvas, update the time value between ‘Any’ and ‘Checkouts’ to ‘Within 3 days’
 
