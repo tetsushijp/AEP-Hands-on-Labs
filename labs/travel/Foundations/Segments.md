@@ -302,7 +302,7 @@ NOTE: Estimate link may not show results if qualified profiles are statistically
 
    ![Demo](./images/segments_travel_dyn_mchannel.png)
 
-7. Under ‘Browse Classes’, drag ‘Marketing Channel (eVar1)’ to the segment canvas.
+7. Drag ‘eVar1’ to the segment canvas and Include eVar1 equlas 'Email'. Note: eVar1 in our implementation contains the Marketing Channel.
 
    ![Demo](./images/segments_travel_dyn_mchannel_any.png)
 
@@ -318,46 +318,64 @@ NOTE: Estimate link may not show results if qualified profiles are statistically
 
 11. Click on ‘Any’ in the segment canvas
 
-12. Type ‘Email’ in the text box to the right of ‘Marketing Channel (eVar1)’ equals and press Enter
+12. Type ‘Email’ in the text box to the right of ‘eVar1’ equals and press Enter
 
-    ![Demo](./images/segments_travel_dyn_mchannel_email_purchase.png)
+![Demo](./images/segments_travel_dyn_mchannel_email_any.png)
 
-13. Click on ‘Checkouts in the segment canvas
+13. Click on ‘Checkouts' in the segment canvas
 
-14. In the left pane, click on ‘XDM ExperienceEvent’ and ‘Product list items’ in the resulting display
+14. In the left pane, search for 'SKU'
 
 15. Select the ‘SKU’ field and drag that into the ‘XDM ExperienceEvent’ container for ‘Checkouts’
 
-    ![Demo](./images/segments_travel_dyn_prodlistitemmenu.png)
+    ![Demo](./images/segments_travel_dyn_checkout_sku.png)
 
 16. Change the operator to “exists”
 
     ![Demo](./images/segments_travel_dyn_skuexists.png)
 
-17. In the left pane, click on ‘XDM ExperienceEvent’ and ‘Product list items’ in the resulting display
+17. Clear the search box. And Select 'Puchases' event.
 
-18. Select the ‘SKU’ field and drag that into the ‘XDM ExperienceEvent’ container for ‘Purchases’
+18. Search for ‘SKU’ and drag that into the ‘XDM ExperienceEvent’ container for ‘Purchases’
 
-19. In the left pane, click on the Events link. You should see ‘Browse Classes’, ‘Event Types’ and ‘Browse Variables’ sections appear
+    ![Demo](./images/segments_travel_dyn_purchase_sku.png)
+
+19. Clear the search box
 
     ![Demo](./images/segments_travel_dyn_browsevarmenu.png)
 
-20. Locate ‘Checkouts1 | Product list items1’ and drag this to the right of ‘SKU equals’ in the ‘XDM Event Container’. Release one the dynamic variable is positioned over the second box displays and drop. The resulting statement should be ‘SKU equals Checkouts1 | Product list items1 XDM ExperienceEvent > Product list items > SKU’
+20. Now, we are going to make this a dynamic segment. We will be using the SKU from previous events to make sure that that same SKU is being checked for the subsequent events in the segment. To make is easy for the users segment builder visualizes these parameters wunder 'Browse Variables' in the left panel.
 
-21. Change the ‘XDM ExperienceEvent’ container for ‘Purchases1’ to ‘Exclude’
+    ![Demo](./images/segments_travel_dyn_browsevarmenu_highlight.png)
 
-    ![Demo](./images/segments_travel_dyn_skuexists.png)
+21. Select the 'Checkout Product List Items Varaibles amd drag and drop the SKU to the condition section that says 'Add to compare operants.
 
-22. In the segment canvas, update the time value between ‘Any’ and ‘Checkouts’ to ‘Within 3 days’
+    ![Demo](./images/segments_travel_dyn_compare_operands.png)
 
-23. Next, update the time value between ‘’Any’ and ‘Purchases’ to ‘Within 1 day’
+22. The dynamic condition should now look like this
 
-24. Ensure ‘Streaming’ is enabled in the right pane
+    ![Demo](./images/segments_travel_dyn_condition.png)
 
-25. Enter the segment name “Email Channel Online Reservation Abandoners”.
+23. Change the ‘XDM ExperienceEvent’ container for ‘Purchases1’ to ‘Exclude’
 
-26. Enter the same value as the description
+    ![Demo](./images/segments_travel_dyn_purchases_exclude.png)
 
-27. Save the Segment
+24. In the segment canvas, update the time value between ‘Any’ and ‘Checkouts’ to ‘Within 3 days’
+
+    ![Demo](./images/segments_travel_dyn_email_checkout_time.png)
+
+25. Next, update the time value between ‘Checkouts’ and ‘Purchases’ to ‘Within 1 day’
+
+    ![Demo](./images/segments_travel_dyn_checkout_purchases_time.png)
+
+26. Ensure ‘Streaming’ is enabled in the right pane
+
+27. Enter the segment name “Email Channel Online Reservation Abandoners”.
+
+28. Enter the same value as the description
+
+29. Save the Segment
+
+    ![Demo](./images/segment_final.png)
 
 Return to [Lab Agenda Directory](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/travel/README.md#lab-agenda)
