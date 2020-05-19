@@ -15,7 +15,7 @@ Lab - Using Data Ingestion API to Stitch customer data.
      </tr>
      <tr width="500">
            <td valign="top"><h3>Prerequisites:</h3></td>
-           <td valign="top"><br>download JSON collection and envirnoment (Shared via Email)
+           <td valign="top"><br>
            </td>
      </tr>
 </tbody>
@@ -116,10 +116,10 @@ Instructions:
 7. Click and open 'Step 2: Listing of tenant Schemas' and hit Send
 
 
-    This API call will get all the schemas in the instance. note we restrict the properties that are returned from the API call to make the repose more manageable to read.
+    This API call will get all the schemas in the instance. Note we restrict the properties that are returned from the API call to make the response more manageable to read.
 
 
-    Try to search for the schema you created during the schema excises.
+    Try to search for the schema you created during the schema exercises.
 
     <!---
     ![Demo](./images/postmanstep2.png)
