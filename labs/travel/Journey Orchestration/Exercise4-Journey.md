@@ -275,7 +275,7 @@ In this exercise, you'll create an Orchestrated Journey by making use of Journey
 
 28. Paste this code in the `Advanced Mode Editor`. Click `OK`.
 
-    `"Hi "+ #{ExperiencePlatform.ProfileFieldGroup.profile.person.name.firstName} +" don't let it rain on your investments, chat with our Advisors now."`
+    `"Hi "+ #{ExperiencePlatform.ProfileFieldGroup.profile.person.name.firstName} +" stuck indoors? plan for your next vacation by taking advantage of out vacation package."`
 
     ![Demo](./images/joa16.png)
 
@@ -313,7 +313,7 @@ In this exercise, you'll create an Orchestrated Journey by making use of Journey
 
 33. Select the below code, copy it, and paste it in the `Advanced Mode Editor`.
 
-    `"Hi "+ #{ExperiencePlatform.ProfileFieldGroup.profile.person.name.firstName} +" don't let it rain on your investments, chat with our Advisors now."`
+    `"Hi "+ #{ExperiencePlatform.ProfileFieldGroup.profile.person.name.firstName} +" stuck indoors? plan for your next vacation by taking advantage of out vacation package."`
 
     ![Demo](./images/joa21.png)
 
@@ -405,7 +405,7 @@ In this exercise, you'll create an Orchestrated Journey by making use of Journey
 
 44. Paste this code in the `Advanced Mode Editor`. Click `OK`.
 
-    `"Hi "+ #{ExperiencePlatform.ProfileFieldGroup.profile.person.name.firstName} +" have a clear path to Retirement, chat with our Advisors now."`
+    `"Hi "+ #{ExperiencePlatform.ProfileFieldGroup.profile.person.name.firstName} +", use our travel card and collect points to book your next vacation."`
 
     ![Demo](./images/joapath216.png)
 
@@ -443,7 +443,7 @@ In this exercise, you'll create an Orchestrated Journey by making use of Journey
 
     Select the below code, copy it, and paste it in the `Advanced Mode Editor`.
 
-    `"Hi "+ #{ExperiencePlatform.ProfileFieldGroup.profile.person.name.firstName} +" have a clear path to Retirement, chat with our Advisors now."`
+    `"Hi "+ #{ExperiencePlatform.ProfileFieldGroup.profile.person.name.firstName} +", use our travel card and collect points to book your next vacation."`
 
     ![Demo](./images/joapath221.png)
 
