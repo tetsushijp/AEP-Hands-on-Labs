@@ -45,9 +45,9 @@ In this exercise, you'll create a custom Event by making use of Journey Orchestr
 
     <kbd><img src="./images/emptyevent.png"  /></kdb>
 
-5. Name the Event **webSignUp{emailAddress}** and replace **{emailAddress}** with your email address name. E.g. **webSignUpPuchadha**.
+5. Name the Event **webSignUp{UserID}** and replace **{UserID}** with with the first portion of your AEP username before '@'. E.g. **webSignUpAepholuser+pot1+001**.
 
-   Set Description to: **Website Sign up Event - {your email name}**
+   Set Description to: **Website Sign up Event - {UserID}**
 
    <!---
    ![Demo](./images/evname.png)
