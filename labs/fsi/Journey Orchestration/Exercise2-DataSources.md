@@ -44,7 +44,7 @@ In this exercise, you'll create a custom External Data Source by making use of J
 
    Back to `Journey Orchestration`, to your empty `External Data Source`-popup.
 
-   Name the Data Source, use **weatherApi{emailAddress}** and replace **emailAddress** with your email address name. E.g. **weatherApiPuchadha**.
+   Name the Data Source, use **weatherApi{userID}** and replace **userID** with your the first part of your AEP User ID. E.g. **weatherApiAepholuser+pot1+001**.
 
    Set Description to: **Access to the Open Weather Map**.
 
@@ -56,7 +56,7 @@ In this exercise, you'll create a custom External Data Source by making use of J
 
    <kbd><img src="./images/dsname.png"  /></kdb>
 
-6. Next, you need to select the Authentication to use. Select from the 'Type' dropd-down.
+6. Next, you need to select the Authentication to use. Select from the 'Type' drop-down and select 'API Key'.
 
    Use the following values for the fields:
 
@@ -75,7 +75,7 @@ In this exercise, you'll create a custom External Data Source by making use of J
 
 7. Finally, you need to define a `FieldGroup`, which is the request you'll be sending to the Weather API.
 
-   In our case, we want to use the ZipCode to request the Current Weather for that Zip.
+   In our case, we want to use the zip code to request the Current Weather for that Zip.
 
      <!---
      ![Demo](./images/fg.png)
@@ -87,7 +87,9 @@ In this exercise, you'll create a custom External Data Source by making use of J
 
    **IMPORTANT**
 
-   The Field group name has to be unique, please rename fieldGroup and use this naming convention: **WeatherByZipemailAddress** so in this case, the name should be **WeatherByZipPuchadha**
+   The Field group name must be unique. Select 'fieldgroup{n}' by highlighting it and rename it using this naming convention: **WeatherByZipUserID** so in this case, the name should be **WeatherByZipAepholuser+pot1+001**
+   
+   In the Dynamic Values section, enter 'zip'.
 
      <!---
      ![Demo](./images/fg1.png)
