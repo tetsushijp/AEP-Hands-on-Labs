@@ -28,7 +28,7 @@ In this exercise, you'll create an Orchestrated Journey by making use of Journey
 
    <kbd><img src="./images/jonew.png"  /></kdb>
 
-4. Name the Journey **Website Registration Journey UserID** and replace **UserID** with the first part of your AEP username. In this example, the Journey Name is **Website Registration Journey Aepholuser+pot1+001**. No other values must be set at this moment.
+4. Name the Journey **Website Registration Journey {Email}** and replace **{Email}** with the first part of your email address before the '@' symbol. In this example, the Journey Name is **Website Registration Journey Pchadha**. No other values must be set at this moment.
 
    <!---
    ![Demo](./images/joname.png)
@@ -99,7 +99,7 @@ In this exercise, you'll create an Orchestrated Journey by making use of Journey
 
     ![Demo](./images/jo8.png)
 
-    You'll then see the `Advanced Editor` which allows code entry. Paste it in `##{weatherApiUserID.WeatherByZipUserID.weather.main} == 'Rain'` (replace both instances of UserID in the template with the first portion of your AEP username before '@')
+    You'll then see the `Advanced Editor` which allows code entry. Paste it in `##{weatherApi{Email}.WeatherByZip{Email}.weather.main} == 'Rain'` (replace both instances of **{Email}** with the first portion of your email address before the '@' symbol)
 
     You'll then see this.
 
@@ -169,7 +169,7 @@ In this exercise, you'll create an Orchestrated Journey by making use of Journey
 
     ![Demo](./images/jo8.png)
 
-    You'll then see the `Advanced Editor` which allows code entry. Paste it in `#{weatherApiUserID.WeatherByZipUserID.weather.main} == 'Clear'` (replace both instances of UserID in the template with the first portion of your AEP username before '@')
+    You'll then see the `Advanced Editor` which allows code entry. Paste it in `#{weatherApi{Email}.WeatherByZip{Email}.weather.main} == 'Clear'` (replace both instances of {Email} in the template with the first portion of your email address before the '@' symbol)
 
     Your expression should look similar to the following.
 
@@ -221,7 +221,7 @@ In this exercise, you'll create an Orchestrated Journey by making use of Journey
 
 23. Click on `Actions` as indicated in the screenshot.
 
-    Select the smsNexmoemailAddress - action (your emailAddress), then drag and drop it after the condition you just added.
+    Select the smsNexmo{Email} - action for your Email, then drag and drop it after the condition you just added.
 
     ![Demo](./images/joa9.png)
 
@@ -291,7 +291,7 @@ In this exercise, you'll create an Orchestrated Journey by making use of Journey
 
     <kbd><img src="./images/joa17.png"  /></kdb>
 
-31. In the left menu, go back to `Actions`, select the Action `slackNotification`, then drag and drop it after the `smsNexmoUserID`-Action.
+31. In the left menu, go back to `Actions`, select the Action `slackNotification`, then drag and drop it after the `smsNexmo{Email}`-Action.
 
     <!---
     ![Demo](./images/joa18.png)
@@ -421,7 +421,7 @@ In this exercise, you'll create an Orchestrated Journey by making use of Journey
 
     <kbd><img src="./images/joapath217.png"  /></kdb>
 
-47. In the left menu, go back to `Actions`, select the Action `slackNotification`, then drag and drop it after the `smsNexmoUserID` Action.
+47. In the left menu, go back to `Actions`, select the Action `slackNotification`, then drag and drop it after the `smsNexmo{Email}` Action.
 
     <!---
     ![Demo](./images/joapath218.png)
