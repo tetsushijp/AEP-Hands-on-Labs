@@ -98,6 +98,7 @@ In this exercise, you'll create a custom Event by making use of Journey Orchestr
 
     Journey Orchestration also needs an Identifier to identify the customer. Since Journey Orchestration is linked to Adobe Experience Platform, the Primary Identifier of a schema is automatically used as the identifier for the Journey.
     The Primary Identifier will also automatically use the full Identity Graph of the Adobe Experience Platform and link all behavior across all available identities, devices and channels to the same profile. The result is that Journey Orchestration is contextual, relevant and consistent.
+    Under parameters, display the namespaces list, and select ECID (ECID).
 
     <!---
     ![Demo](./images/eventidentifier.png)
