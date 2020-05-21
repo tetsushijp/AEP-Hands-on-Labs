@@ -132,7 +132,7 @@ In this exercise, you'll create a custom Event by making use of Journey Orchestr
 
     ![Demo](./images/fieldseyepayloadev.png)
 
-12. Note down the `eventID` as you'll need it in the last exercise to test your configuration.
+12. Copy and paste the `eventID` value in a text file as you'll need it in the last exercise to test your configuration.
 
     In this example, the `eventID` is `e133bb4d5075fe9e0356b2136d6413c723d05d146831c6d165d70a5a0dc4a6b8`.
 
