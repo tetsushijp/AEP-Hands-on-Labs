@@ -329,7 +329,7 @@ In this exercise, you'll create an Orchestrated Journey by making use of Journey
 
     <kbd><img src="./images/joa22.png"  /></kdb>
 
-36. In the left menu, go to `Orchestration`, select `End`, then drag and drop `End` after the `textSlackLdap`-Action.
+36. In the left menu, go to `Orchestration`, select `End`, then drag and drop `End` after the `SlackNotification`-Action.
 
 <!---
     ![Demo](./images/joa23.png)
