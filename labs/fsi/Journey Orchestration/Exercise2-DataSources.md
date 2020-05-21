@@ -87,7 +87,7 @@ In this exercise, you'll create a custom External Data Source by making use of J
 
    **IMPORTANT**
 
-   The Field group name must be unique. Select 'fieldgroup{n}' by highlighting it and rename it using this naming convention: **WeatherByZipUserID** so in this case, the name should be **WeatherByZipAepholuser+pot1+001**
+   The Field group name must be unique. Select 'fieldgroup{n}' by highlighting it and rename it using this naming convention: **WeatherByZip{Email}** and replace **{Email}** with the first portion of your email address before the '@' symbol. E.g. -  **WeatherByZipPchadha**
    
    In the Dynamic Values section, enter 'zip'.
 
