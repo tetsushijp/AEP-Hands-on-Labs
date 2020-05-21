@@ -85,7 +85,7 @@ In this exercise, you'll create a custom Event by making use of Journey Orchestr
    You'll then see a popup-window with a Schema Hierarchy that allows you to select fields.
 
 
-    ![Demo](./images/popup.png)
+    ![Demo](./images/aecjofields.png)
 
 
     Fields such as the ECID and the Orchestration eventID are required, and as such, preselected.
