@@ -28,7 +28,7 @@ In this exercise, you'll create an Orchestrated Journey by making use of Journey
 
    <kbd><img src="./images/jonew.png"  /></kdb>
 
-4. Name the Journey **Website Registration Journey emailAddress** and replace **emailAddress** with LDAP. In this example, the Journey Name is **Website Registration Journey puchadha**. No other values must be set at this moment.
+4. Name the Journey **Website Registration Journey UserID** and replace **UserID** with the first part of your AEP username. In this example, the Journey Name is **Website Registration Journey Aepholuser+pot1+001**. No other values must be set at this moment.
 
    <!---
    ![Demo](./images/joname.png)
@@ -52,7 +52,7 @@ In this exercise, you'll create an Orchestrated Journey by making use of Journey
 
    ![Demo](./images/jo2.png)
 
-   You now see `Orchestration`-capabilities.
+   You now see `Orchestration` events.
 
    ![Demo](./images/jo3.png)
 
@@ -64,7 +64,7 @@ In this exercise, you'll create an Orchestrated Journey by making use of Journey
 
    <kbd><img src="./images/jo4.png"  /></kdb>
 
-8. You now have to define 2 conditions:
+8. We'll define 2 conditions:
 
    - It's Raining
    - It's Clear
@@ -99,7 +99,7 @@ In this exercise, you'll create an Orchestrated Journey by making use of Journey
 
     ![Demo](./images/jo8.png)
 
-    You'll then see the `Advanced Editor` which allows code entry. Paste it in `##{weatherApiemailAddress.WeatherByZipemailAddress.weather.main} == 'Rain'` (replace emailAddress)
+    You'll then see the `Advanced Editor` which allows code entry. Paste it in `##{weatherApiUserID.WeatherByZipUserID.weather.main} == 'Rain'` (replace both instances of UserID in the template with the first portion of your AEP username before '@')
 
     You'll then see this.
 
@@ -169,9 +169,9 @@ In this exercise, you'll create an Orchestrated Journey by making use of Journey
 
     ![Demo](./images/jo8.png)
 
-    You'll then see the `Advanced Editor` which allows code entry. Paste it in `#{weatherApiemailAddress.WeatherByZipemailAddress.weather.main} == 'Clear'` (replace emailAddress)
+    You'll then see the `Advanced Editor` which allows code entry. Paste it in `#{weatherApiUserID.WeatherByZipUserID.weather.main} == 'Clear'` (replace both instances of UserID in the template with the first portion of your AEP username before '@')
 
-    You'll then see this.
+    Your expression should look similar to the following.
 
     ![Demo](./images/jo14.png)
 
@@ -291,7 +291,7 @@ In this exercise, you'll create an Orchestrated Journey by making use of Journey
 
     <kbd><img src="./images/joa17.png"  /></kdb>
 
-31. In the left menu, go back to `Actions`, select the Action `slackNotification`, then drag and drop it after the `smsNexmoemailAddress`-Action (Replace emailAddress).
+31. In the left menu, go back to `Actions`, select the Action `slackNotification`, then drag and drop it after the `smsNexmoUserID`-Action.
 
     <!---
     ![Demo](./images/joa18.png)
@@ -345,7 +345,7 @@ In this exercise, you'll create an Orchestrated Journey by making use of Journey
 
     ![Demo](./images/joapath21.png)
 
-38. Select the smsNexmoemailAddress - action (your emailAddress), then drag and drop it after the condition you just added.
+38. In the left pane under Actions, select the smsNexmoUserID for your AEP Username and drag and drop it after the 'Clear' condition.
 
     <!---
     ![Demo](./images/joapath22.png)
@@ -353,7 +353,7 @@ In this exercise, you'll create an Orchestrated Journey by making use of Journey
 
     <kbd><img src="./images/joapath22.png"  /></kdb>
 
-    You'll see a popup.
+   The Actions configuration panel will display in the right pane.
 
     <!---
     ![Demo](./images/joa10.png)
@@ -361,7 +361,7 @@ In this exercise, you'll create an Orchestrated Journey by making use of Journey
 
     <kbd><img src="./images/joa10.png"  /></kdb>
 
-39. Navigate to the `Action Parameters`.
+39. Next, we'll configure the `Action Parameters`.
 
     <!---
     ![Demo](./images/joa11.png)
@@ -413,7 +413,7 @@ In this exercise, you'll create an Orchestrated Journey by making use of Journey
 
     ![Demo](./images/joocok.png)
 
-46. Click `OK`.
+46. Click `OK` in the upper right corner of the Actions configuration panel.
 
     <!---
     ![Demo](./images/joapath217.png)
@@ -421,7 +421,7 @@ In this exercise, you'll create an Orchestrated Journey by making use of Journey
 
     <kbd><img src="./images/joapath217.png"  /></kdb>
 
-47. In the left menu, go back to `Actions`, select the Action `slackNotification`, then drag and drop it after the `smsNexmoemailAddress`-Action (Replace emailAddress).
+47. In the left menu, go back to `Actions`, select the Action `slackNotification`, then drag and drop it after the `smsNexmoUserID` Action.
 
     <!---
     ![Demo](./images/joapath218.png)
@@ -429,7 +429,7 @@ In this exercise, you'll create an Orchestrated Journey by making use of Journey
 
     <kbd><img src="./images/joapath218.png"  /></kdb>
 
-48. Go to `Action Parameters` and click the `Edit`-icon for the parameter `Message`.
+48. In the right pane for the Action configuration, locate `Action Parameters` and click the `Edit`-icon for the parameter `Message`.
 
     <!---
     ![Demo](./images/joa19.png)
@@ -459,7 +459,7 @@ In this exercise, you'll create an Orchestrated Journey by making use of Journey
 
     <kbd><img src="./images/joapath222.png"  /></kdb>
 
-52. In the left menu, go to `Orchestration`, select `End`, then drag and drop `End` after the `textSlackLdap`-Action.
+52. In the left menu, go to `Orchestration`, select `End`, then drag and drop `End` after the `slackNotification`-Action. Click 'OK' in the Action Configuration panel on the right side.
 
     <!---
     ![Demo](./images/joapath223.png)
