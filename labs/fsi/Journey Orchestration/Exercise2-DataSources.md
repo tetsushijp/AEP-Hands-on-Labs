@@ -44,7 +44,7 @@ In this exercise, you'll create a custom External Data Source by making use of J
 
    Back to `Journey Orchestration`, to your empty `External Data Source`-popup.
 
-   Name the Data Source, use **weatherApi{userID}** and replace **userID** with your the first part of your AEP User ID. E.g. **weatherApiAepholuser+pot1+001**.
+   Name the Data Source, use **weatherApi{Email}** and replace **Email** with your the first part of your Email address before the '@' symbol. E.g. **weatherApiPchadha**.
 
    Set Description to: **Access to the Open Weather Map**.
 
