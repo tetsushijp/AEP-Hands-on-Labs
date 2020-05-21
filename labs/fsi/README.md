@@ -24,7 +24,7 @@ Please download your own attendee [lab content/uploads here](https://github.com/
  - [Events](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/Journey%20Orchestration/Exercise1-Events.md)
  - [Data Sources](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/Journey%20Orchestration/Exercise2-DataSources.md)
  - [Actions](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/Journey%20Orchestration/Exercise3-Action.md)
- - [Journeys](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/Journey%20Orchestration/Exercise4-Journey.md)
+ - [Journeys](https://github.com/adobe/AEP-Hands-on-Labs/tree/master/labs/fsi/Journey%20Orchestration)
 
 ## QuickLinks
 
