@@ -46,7 +46,7 @@ In this exercise, you'll create 2 custom Actions by making use of Journey Orches
 
    <kbd><img src="./images/emptyact.png"  /></kdb>
 
-6. Name the Action, use **smsNexmo{UserID}** and replace **{UserID}** with the first part of your AEP username. E.g. **smsNexmoAepholuser+pot1+001**.
+6. Name the Action, use **smsNexmo{Email}** and replace **{Email}** with the first part of your email address before the '@' symbol. E.g. **smsNexmoPchadha**.
 
    Add the Description: **Send SMS using Nexmo**.
 
