@@ -338,7 +338,7 @@ Lab 3 - Segmentation - Dynamic Segmentation
       <tr width="500">
             <td valign="top"><h3>Objective:</h3></td>
             <td valign="top"><br>In this exercise, we’ll create a segment using Commerce ExperienceEvents and dynamic segmentation. Dynamic segmentation solves the scalability problems marketers traditionally face when building segments for marketing campaigns or other use cases where setting up multiple variations of the same segment was required.</br>
-      <br>On an ongoing basis, a marketer wants to remarket to customers who have clicked through an email offer for an item, started the subscription online in the last 3 days, but have not completed the subscription within 1 day.</br></td>
+      <br>On an ongoing 24 hour basis, a marketer wants to remarket to customers who have clicked through an email offer for an item, started the subscription online within 2 hours, but have not completed the subscription within 6 hours after initiating the subscription.</br></td>
      </tr>
      <tr width="500">
            <td valign="top"><h3>Prerequisites:</h3></td>
@@ -496,19 +496,27 @@ The resulting statement should be ‘SKU equals Checkouts1 | Product list items1
 
       <kbd><img src="./images/segments_retail_xdm_purchase_excludesku.png"  /></kbd>  
       
-23.	In the segment canvas, update the time value between ‘Any’ and ‘Checkouts’ to ‘Within 3 days’
+23.	In the segment canvas, update the time value between ‘Any’ and ‘Checkouts’ to ‘Within 2 hours’
 
 	<kbd><img src="./images/segments_retail_event_time1.png"  /></kbd>  
 
-24.	Next, update the time value between ‘Checkouts’ and ‘Purchases’ to ‘Within 1 day’
+24.	Next, update the time value between ‘Checkouts’ and ‘Purchases’ to ‘After 6 hours’
 
 	<kbd><img src="./images/segments_retail_event_time2.png"  /></kbd> 
+	
+25. 	At the top of the ‘Events’ canvas, update the time value to ‘In last 24 Hour(s)’
+	
+	 <kbd><img src="./images/segment_segment3_events_container_inlast.png"  /></kbd>	
 
-25.	Enter the segment name “Email Channel Online Subscription Abandoners” followed by your Student ID (e.g. “Email Channel Online Subscription Abandoners 025”).  Enter the same value as the description
+26.	Enter the segment name “Email Channel Online Subscription Abandoners” followed by your Student ID (e.g. “Email Channel Online Subscription Abandoners 025”).  Enter the same value as the description
 
 	<kbd><img src="./images/segment_properties_name3.png"  /></kbd>
+
+27. 	 Confirm your final segment is consistent with the screenshot.  
 	
-26.	Save the Segment
+	  <kbd><img src="./images/segment_segment3_final.png"  /></kbd>
+
+28.	Save the Segment
 
 	<kbd><img src="./images/segment_retail_ordersave.png"  /></kbd>   
 
