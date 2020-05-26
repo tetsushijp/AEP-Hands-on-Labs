@@ -182,6 +182,7 @@ Instructions:
 <li>Click on the leftmost event. You will see the rule editor activate below. Enter '1' in the Number field to modify the condition.</li>
 <li>Click on the middle event. You will see the rule editor activate below. Enter '1' in the Number field to modify the condition.</li>
 <li>Click on the last event. Click on the arrow to the right of 'equals' and select 'does not exist' from the list to modify the condition.</li>
+<li>At the top of the ‘Events’ canvas, update the time value to ‘In last 24 Hour(s)’</li>
 <li>In the Segment properties pane, select the ‘Refresh estimate’ link.</li>
 <li>Save your segment</li>
 </ol>    
