@@ -134,7 +134,7 @@ Lab 2 - Segmentation - Multi-Entity Sequential Segmentation
       <tr width="500">
             <td valign="top"><h3>Objective:</h3></td>
             <td valign="top"><br>In this exercise, we’ll create a segment using both a Profile Attribute and ExperienceEvents using a Sequential Segment that compares multiple event conditions</br>
-      <br>A marketer wants to email a promotional discount offer to existing customers who have viewed or started an online subscription for the Premium Plan product but have not completed the subscription after an hour of either online event during their birthday month.</br></td>
+      <br>On an ongoing 24 hour basis, a marketer wants to email a promotional discount offer to existing customers who have viewed or started an online subscription for the Premium Plan product but have not completed the subscription after an hour of either online event during their birthday month.</br></td>
      </tr>
      <tr width="500">
            <td valign="top"><h3>Prerequisites:</h3></td>
