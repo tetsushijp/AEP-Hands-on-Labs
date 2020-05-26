@@ -293,9 +293,9 @@ Instructions:
       
       <kbd><img src="./images/segment_media_excludepurchase.png"  /></kbd>
             
-29.	At the top of the ‘Events’ canvas, update the time value to ‘This month’
+29.	At the top of the ‘Events’ canvas, update the time value to ‘In last 24 Hour(s)’
 	
-	<kbd><img src="./images/segment_events_container_month.png"  /></kbd>
+	<kbd><img src="./images/segment_events_container_inlast.png"  /></kbd>
 
 30.	In the middle, update the time value to ‘After 1 Hour’ between the ‘Product Views’ or ‘Checkouts’ and ‘Purchases’.
       <!--
@@ -308,7 +308,12 @@ Instructions:
 
 	<kbd><img src="./images/segment_properties_name.png"  /></kbd>
 
-32.	Save the Segment
+32.  Confirm your final segment is consistent with the screenshot.  
+	
+	 <kbd><img src="./images/segment_segment2_final.png"  /></kbd>
+	
+	
+33.	Save the Segment.
       <!--
       ![Demo](./images/segment_travel_me_save.png)
       -->
