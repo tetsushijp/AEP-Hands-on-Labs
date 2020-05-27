@@ -137,7 +137,7 @@ Lab 2 - Segmentation - Multi-Entity Sequential Segmentation
       <tr width="500">
             <td valign="top"><h3>Objective:</h3></td>
             <td valign="top"><br>In this exercise, we’ll create a segment using both a Profile Attribute and ExperienceEvents using a Sequential Segment that compares multiple event conditions</br>
-      <br>This month, a retailer wants to email a promotional discount offer to existing female customers who have viewed or begun an online order for their premier product but have not ordered the item after an hour of either online event.</br></td>
+      <br>A retailer wants to email a promotional discount offer to existing female customers who have viewed or begun an online order for their premier product but have not ordered the item after either online event in the last 24 hours.</br></td>
      </tr>
      <tr width="500">
            <td valign="top"><h3>Prerequisites:</h3></td>
@@ -302,17 +302,10 @@ Instructions:
       
       <kbd><img src="./images/segment_travel_me_purchasesku.png"  /></kbd>
             
-26.	At the top of the ‘Events’ canvas, update the time value to ‘This month’
+27.	At the top of the ‘Events’ canvas, update the time value to ‘In last 24 Hour(s)’
 	
-	<kbd><img src="./images/segment_events_container_month.png"  /></kbd>
-
-27.	In the middle, update the time value to ‘After 1 Hour’ between the ‘Product Views’ or ‘Checkouts’ and ‘Purchases’.
-      <!--
-      ![Demo](./images/segment_travel_me_purchasetime.png)
-      -->
-      
-      <kbd><img src="./images/segment_events_purchasetime.png"  /></kbd>      
-      
+	<kbd><img src="./images/segment_events_container_inlast.png"  /></kbd>
+     
 28.	Ensure ‘Streaming’ is enabled in the right pane
 
 	<kbd><img src="./images/segment_properties_streaming.png"  /></kbd> 
@@ -321,7 +314,10 @@ Instructions:
 
 	<kbd><img src="./images/segment_properties_name.png"  /></kbd>
 
-30.	Save the Segment
+30.  	Confirm your final segment is consistent with the screenshot.
+	<kbd><img src="./images/segment_retail_segment2_final.png"  /></kbd>      
+
+31.	Save the Segment
       <!--
       ![Demo](./images/segment_travel_me_save.png)
       -->
