@@ -107,7 +107,7 @@ NOTE: Estimate link may not show results if qualified profiles are statistically
       <tr width="500">
             <td valign="top"><h3>Objective:</h3></td>
             <td valign="top"><br>In this exercise, we’ll create a segment using both a Profile Attribute and ExperienceEvents using a Sequential Segment that compares multiple event conditions</br>
-      <br>This month, a hotelier wants to email a spa package offer to existing female customers who have viewed or begun an online booking for their Lily Suites property but have not booked the property after an hour of either online event.</br></td>
+      <br>A hotelier wants to email a spa package offer to existing female customers who have viewed or begun an online booking for their Lily Suites property but have not booked the property after either online event in the last 24 hours.</br></td>
      </tr>
      <tr width="500">
            <td valign="top"><h3>Prerequisites:</h3></td>
@@ -213,19 +213,15 @@ NOTE: Estimate link may not show results if qualified profiles are statistically
 
     ![Demo](./images/segment_travel_me_purchasesku.png)
 
-28. At the top of the ‘Events’ canvas, update the time value to ‘This month’
+28. At the top of the ‘Events’ canvas, update the time value to ‘In last 24 Hour(s)’
 
-29. In the middle, update the time value to ‘After 1 Hour’ between the ‘Product Views’ and ‘Checkouts’ and ‘Purchases’.
+29. Ensure ‘Streaming’ is enabled in the right pane
 
-    ![Demo](./images/segment_travel_me_purchasetime.png)
+30. Enter the segment name “Lily Suites High Intent Female Bookers”.
 
-30. Ensure ‘Streaming’ is enabled in the right pane
+31. Enter the same value as the description
 
-31. Enter the segment name “Lily Suites High Intent Female Bookers”.
-
-32. Enter the same value as the description
-
-33. Save the Segment
+32. Save the Segment
 
     ![Demo](./images/segment_travel_me_save.png)
 
@@ -360,13 +356,7 @@ NOTE: Estimate link may not show results if qualified profiles are statistically
 
     ![Demo](./images/segments_travel_dyn_purchases_exclude.png)
 
-24. In the segment canvas, update the time value between ‘Any’ and ‘Checkouts’ to ‘Within 3 days’
-
-    ![Demo](./images/segments_travel_dyn_email_checkout_time.png)
-
-25. Next, update the time value between ‘Checkouts’ and ‘Purchases’ to ‘Within 1 day’
-
-    ![Demo](./images/segments_travel_dyn_checkout_purchases_time.png)
+24. At the top of the ‘Events’ canvas, update the time value to ‘In last 24 Hour(s)’
 
 26. Ensure ‘Streaming’ is enabled in the right pane
 
