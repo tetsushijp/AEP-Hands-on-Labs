@@ -500,22 +500,23 @@ The resulting statement should be ‘SKU equals Checkouts1 | Product list items1
 
       <kbd><img src="./images/segments_retail_xdm_purchase_excludesku.png"  /></kbd>  
       
-23.	In the segment canvas, update the time value between ‘Any’ and ‘Checkouts’ to ‘Within 3 days’
+23.	At the top of the ‘Events’ canvas, update the time value to ‘In last 24 Hour(s)’
 
-	<kbd><img src="./images/segments_retail_event_time1.png"  /></kbd>  
-
-24.	Next, update the time value between ‘Checkouts’ and ‘Purchases’ to ‘Within 1 day’
-
-	<kbd><img src="./images/segments_retail_event_time2.png"  /></kbd> 
-
-25.	Ensure ‘Streaming’ is enabled in the right pane
+	<kbd><img src="./images/segment_segment3_events_container_inlast.png"  /></kbd>
+      
+24.	Ensure ‘Streaming’ is enabled in the right pane
 
 	<kbd><img src="./images/segment_properties_streaming.png"  /></kbd>
 
-26.	Enter the segment name “Email Channel Online Order Abandoners” followed by your Student ID (e.g. “Email Channel Online Order Abandoners 025”).  Enter the same value as the description
+25.	Enter the segment name “Email Channel Online Order Abandoners” followed by your Student ID (e.g. “Email Channel Online Order Abandoners 025”).  Enter the same value as the description
 
 	<kbd><img src="./images/segment_properties_name3.png"  /></kbd>
-	
+
+26.	Confirm your final segment is consistent with the screenshot.  
+
+	<kbd><img src="./images/segment_segment3_final.png"  /></kbd>
+
+
 27.	Save the Segment
 
 	<kbd><img src="./images/segment_retail_ordersave.png"  /></kbd>   
