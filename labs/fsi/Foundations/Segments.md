@@ -110,7 +110,7 @@ NOTE: Estimate link may not show results if qualified profiles are statistically
 <br>
 
 
-Lab 6.2 - Segmentation - Profile Attribute with Experience Event Segmentation
+Lab 6.2 - Segmentation - Profile Attribute with Experience Event Segmentation (Multi-Entity Segmentation)
 ==========
 <table style="border-collapse: collapse; border: none;" class="tab" cellspacing="0" cellpadding="0">
 
@@ -169,28 +169,24 @@ Instructions:
 <li>Under 'Browse Attributes', click on 'Adobeamericaspot 1'.</li>
 <li>Expand 'propensityProfileDetails' and drag 'propensityCreditCard' to the segment canvas</li>	
 <li>Select "is greater than" from the condition list box and enter "5" in the text box</li>	
+
 <kbd><img src="./images/seg_propensity.png"  /></kbd>  	
-	
-	
-<li>In the left pane, drill down the 'XDM ExperienceEvent' under Events by clicking on it.</li>
-<li>Scroll the resulting list until you locate 'Experience'.</li>
-<li>Click on 'Experience' to expand the object. </li>
-<li>Click on 'Analytics' to expand the object</li>
-<li>Click on 'Event 1 to 100' to expand the object.</li>
-<li>Click on 'Account Creation: Step 1'. This will display the field value for this event.</li>
-<li>Drag the field to the Segment Canvas.</li>   
-<li>In the left pane, click on the 'Event 1 to 100' link to display the event list again</li>
-<li>Click on 'Account Creation: Step 2'. This will display the field value for this event.</li>     
-<li>Drag the field to the right of the existing event in the Segment Canvas.</li>
-<li>In the left pane, click on the 'Event 1 to 100' link to display the event list again</li>
-<li>Click on 'Account Creation: Step 3'. This will display the field value for this event.</li>     
-<li>Drag the field to the right of the last (second) event in the Segment Canvas.</li>
-<li>You should now see three events positioned horizontally in the Segment Canvas. We're going to configure each event with a rule next.</li>
-<li>Click on the leftmost event. You will see the rule editor activate below. Enter '1' in the Number field to modify the condition.</li>
-<li>Click on the middle event. You will see the rule editor activate below. Enter '1' in the Number field to modify the condition.</li>
-<li>Click on the last event. Click on the arrow to the right of 'equals' and select 'does not exist' from the list to modify the condition.</li>
+
+<li>In the left pane, select 'Events' under 'Fields.</li>
+<li>Click on 'XDM ExperienceEvent' under 'Browse Classes'.</li>
+<li>Click on 'Adobeamericaspot1' to expand the object. </li>
+<li>Click on 'transactionDetails' to expand the object</li>
+<li>Locate 'transactionType' and drag this to the segment canvas.</li>
+<li>Once 'transactionType' appears in the segment canvas, select 'Equals' as the condition and enter 'Savings' in the text box and press 'Enter'.</li>
+
+<kbd><img src="./images/seg_transType.png"  /></kbd>  	
+
+<li>In the left pane, locate 'transactionSKU' and drag this field to the segment canvas underneath 'transactionType' (the first event). The new event should be "stacked" below the first event as shown below</li>
+
+<kbd><img src="./images/seg_transSku.png"  /></kbd>  	
+
+<li>Enter 'prd1076' in the text box to the right of 'transactionSKU =' and press 'Enter'.</li>     
 <li>At the top of the ‘Events’ canvas, update the time value to ‘In last 24 Hour(s)’</li>
-<li>In the Segment properties pane, select the ‘Refresh estimate’ link.</li>
 <li>Save your segment</li>
 </ol>    
  
