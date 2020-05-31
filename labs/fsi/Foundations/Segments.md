@@ -110,7 +110,7 @@ NOTE: Estimate link may not show results if qualified profiles are statistically
 <br>
 
 
-Lab 6.2 - Segmentation - Profile Experience Event Segmentation
+Lab 6.2 - Segmentation - Profile Attribute with Experience Event Segmentation
 ==========
 <table style="border-collapse: collapse; border: none;" class="tab" cellspacing="0" cellpadding="0">
 
@@ -163,8 +163,15 @@ Instructions:
 <ol>
  <li>In the left navigation, select 'Segments' if you are not already there.</li>
 <li>In the upper right corner, select 'Create Segment'.</li>
-<li>In the right pane within the 'Create Segment' interface, enter the segment name 'Account Creation Abandon' following by your Student Number (e.g. 'Account Creation Abandon 001'). Enter the same value in the Description field.</li>
+<li>In the right pane within the 'Create Segment' interface, enter the segment name 'High Credit Card Propensity' following by your Student Number (e.g. 'High Credit Card Propensity 001'). Enter the same value in the Description field.</li>
 <li>If the 'Streaming' toggle is not active, activate it.</li>
+<li>In the left pane, drill down the 'XDM ExperienceEvent' under Attributes by clicking on it.</li>
+<li>Under 'Browse Attributes', click on 'Adobeamericaspot 1'.</li>
+<li>Expand 'propensityProfileDetails' and drag 'propensityCreditCard' to the segment canvas</li>	
+<li>Select "is greater than" from the condition list box and enter "5" in the text box</li>	
+<kbd><img src="./images/seg_propensity.png"  /></kbd>  	
+	
+	
 <li>In the left pane, drill down the 'XDM ExperienceEvent' under Events by clicking on it.</li>
 <li>Scroll the resulting list until you locate 'Experience'.</li>
 <li>Click on 'Experience' to expand the object. </li>
