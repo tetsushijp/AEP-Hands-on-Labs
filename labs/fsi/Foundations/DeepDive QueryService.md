@@ -113,7 +113,7 @@ What are the top 5 pages viewed?
 
 ```sql
 select web.webPageDetails.name, count(*)
-from   fsi_demo_data_midvalues
+from   fsi_demo_data_midvalues_20200512_211355_640
 where  web.webPageDetails.pageViews.value = '1.0'
 group  by web.webPageDetails.name
 order  by 2 desc
@@ -127,13 +127,13 @@ Copy the statement above and execute it in your **PSQL command-line interface**.
 ```text
 all-> limit 5;
 prod:all-> limit 5;
-       name        | count(1)
+       name          | count(1)
 -------------------+----------
- home              |   680022
- purchase: step 1  |   478634
- purchase: step 2  |   347305
- app: launch       |   324601
- voice: app launch |   318831
+ home                |    83743
+ purchase: step 1    |    45325
+ purchase: step 2    |    33328
+ search results      |    22272
+ purchase: thank you |    21227
 (5 rows)
 
 all=>  
