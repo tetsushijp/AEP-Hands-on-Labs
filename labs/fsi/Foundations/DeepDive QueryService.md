@@ -290,7 +290,7 @@ select * from (
                   ORDER BY timestamp
                   ROWS BETWEEN CURRENT ROW AND UNBOUNDED FOLLOWING)
               AS contact_us_after_seconds
-       from   fsi_demo_data_midvalues
+       from   fsi_demo_data_midvalues_20200512_211355_640
        where  web.webPageDetails.name in ('help', 'contact us')
 	   
 ) r
