@@ -75,7 +75,7 @@ How many product views do we have on a daily basis?
 ```sql
 select date_format( timestamp , 'yyyy-MM-dd') AS Day,
        count(*) AS productViews
-from   fsi_demo_data_midvalues
+from   fsi_demo_data_midvalues_20200512_211355_640
 where  web.webPageDetails.pageViews.value = '1.0'
 group by Day
 order by day desc
