@@ -233,10 +233,10 @@ FROM
                              ORDER BY timestamp 
                              ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW) 
                   AS session
-            from   fsi_demo_data_midvalues a
+            from   fsi_demo_data_midvalues_20200512_211355_640 a
             where  a.endUserIDs._experience.mcid.id in ( 
                 select b.endUserIDs._experience.mcid.id
-                from   fsi_demo_data_midvalues b
+                from   fsi_demo_data_midvalues_20200512_211355_640 b
                 where web.webPageDetails.name = 'help' 
 				and b.endUserIDs._experience.mcid.id IS NOT NULL
             )
@@ -255,19 +255,20 @@ Copy the statement above and execute it in your **PSQL command-line interface**.
 
 ```text
 prod:all-> LIMIT 10;
- webPage |         webPage_2          | webPage_3 |  webPage_4   | journeys
----------+----------------------------+-----------+--------------+----------
- home    | edit account details       | help      | home         |       17
- home    | search results             | help      | home         |       17
- home    | no location search results | help      |              |       12
- home    | feedback                   | help      | home         |       10
- home    | edit account details       | help      | subscription |        9
- home    | no location search results | help      | home         |        8
- home    | edit account details       | help      | articles     |        7
- home    | feedback                   | help      |              |        6
- home    | search results             | help      | subscription |        6
- home    | blogs                      | help      |              |        6
-(10 rows)     
+ webPage 	   |         webPage_2          | webPage_3 |  webPage_4   | journeys
+---------+----------------------------+-----------+--------------+--------------------
+ home              | search results             | help      |              |        5
+ home              | no location search results | help      |              |        4
+ home              | edit account details       | help      |              |        4
+ home              | update info                | help      | home         |        2
+ home              | location search results    | help      | home         |        2
+ home              | no location search results | help      | home         |        2
+ home              | location search results    | help      |              |        2
+ home              | tool: toolid22             | help      | articles     |        1
+ location check in | service: service47         | help      |              |        1
+ home              | service: service21         | help      | articles     |        1
+(10 rows)
+    
 
 all=> 
 ```
