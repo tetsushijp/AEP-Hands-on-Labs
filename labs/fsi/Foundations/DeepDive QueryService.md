@@ -146,10 +146,10 @@ all=>
 **SQL**
 
 ```sql
-select distinct _experience.analytics.customDimensions.eVars.eVar9, crm._adobeamericaspot1.emailId as emailAddress
-from   fsi_demo_data_midvalues aa,
-crm_dataset crm
-where crm._adobeamericaspot1.CRMID = aa._experience.analytics.customDimensions.eVars.eVar9
+select distinct _experience.analytics.customDimensions.eVars.eVar9, crm._adobedemoamericas270.identification.Email as emailAddress
+from   fsi_demo_data_midvalues_20200512_211355_640 aa,
+crm_profile_dataset crm
+where crm._adobedemoamericas270.identification.CRMID = aa._experience.analytics.customDimensions.eVars.eVar9
 and web.webPageDetails.name = 'help' 
 and _experience.analytics.customDimensions.eVars.eVar9 IS NOT NULL
 limit 10;
@@ -161,13 +161,19 @@ Copy the statement above and execute it in your **PSQL command-line interface**.
 
 ```text
 prod:all-> limit 10;
-      evar9       |      emailAddress
+      evar9    |      emailAddress
 ------------------+-------------------------
- crmid:8969702846 | deceive2058@yahoo.com
- crmid:1704313209 | barbi1937@live.com
- crmid:2032196723 | sebasic1955@outlook.com
- crmid:6341221130 | larding1999@outlook.com
-(4 rows)
+ crmid:7085099 | tovarish1952@outlook.com
+ crmid:4688992 | achaean1960@yahoo.com
+ crmid:8575361 | colts2054@yandex.com
+ crmid:2206049 | ragdoll1954@outlook.com
+ crmid:2441715 | crureus1884@yahoo.com
+ crmid:4594927 | woodpecker1915@yahoo.com
+ crmid:8223201 | fiducial2045@live.com
+ crmid:7386208 | levotartaric2025@gmail.com
+ crmid:6483069 | achates1899@gmail.com
+ crmid:3636957 | lanson2046@live.com
+(10 rows)
 all=> 
 ```
 
