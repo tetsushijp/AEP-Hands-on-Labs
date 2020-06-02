@@ -338,7 +338,7 @@ Lets include the geographical info, like longitude, lattitude, city, countrycode
 **SQL**
 
 ```sql
-select distinct crm._adobeamericaspot1.crmid,
+select distinct crm._adobedemoamericas270.identification.CRMID,
        r.city,
        r.countrycode,
        r.lat as latitude,
@@ -357,11 +357,11 @@ from (
                   ORDER BY timestamp
                   ROWS BETWEEN CURRENT ROW AND UNBOUNDED FOLLOWING)
               AS contact_us_after_seconds
-       from   fsi_demo_data_midvalues
+       from   fsi_demo_data_midvalues_20200512_211355_640
        where  web.webPageDetails.name in ('help', 'contact us')
 ) r
-, crm_dataset crm
-where crm._adobeamericaspot1.crmid = r.crmid
+, crm_profile_dataset crm
+where crm._adobedemoamericas270.identification.CRMID = r.crmid
 and r.webPage = 'help'
 and  contact_us_after_seconds is not null
 order by seconds_to_contact_us desc
