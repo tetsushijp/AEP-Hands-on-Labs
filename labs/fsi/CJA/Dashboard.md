@@ -59,7 +59,7 @@ Then click on "Experience Cloud"
 
   <kbd><img src="./images/CJA_ex001_access002.png" /></kdb>
 
-Once you've opened the main Experience Platform product screen,  click on the icon "Customer Journey Analytics" (it looks similar to the Adobe Analytics logo) 
+Once you've opened the main Experience Cloud product screen (for provisioned/deployed solutions),  click on the icon "Customer Journey Analytics" (it looks similar to the Adobe Analytics logo) 
 
   <kbd><img src="./images/CJA_ex001_access003.png" /></kdb>
 
@@ -78,31 +78,31 @@ Please follow the instructions below
 1. In the uppoer left-hand nav menu, navigate to "Projects" and choose "Create New Project"
 
 
-      <kbd><img src="./images/datasetshome.png" /></kdb>
+      <kbd><img src="./images/CJA_ex001_step001.png" /></kdb>
       
       
 2. This is a blank project.  On the left-hand side, please type/search for "prod" -- this is filtering into the all aspects of the Data View (Dimensions, Metrics, Filters and Date Ranges).
 
 
-      ![Demo](./images/datasetcreate.png)
+      <kbd><img src="./images/CJA_ex001_step002.png" /></kdb>
       
       
 3. The left-hand pannel can be expanded to make it more legiable -- please do this expansion.
 
 
-      ![Demo](./images/datasetcreate2.png)
+      <kbd><img src="./images/CJA_ex001_step003.png" /></kdb>
  
  
 4. While mousing over "Web Product Name", please click on the small (i) icon that appears.  This show you both the location of the data (with context to the schema) and a preview of the top contents (according to the timeframe conditions)
       
       
-      ![Demo](./images/datasetschema.png)
+      <kbd><img src="./images/CJA_ex001_step004.png" /></kdb>
       
       
 4. Close the preview pop-up.  Left-click on the "Web Product Name" dimension box (these are the product pages that were seen on the website) and drag and drop to the "Freeform Table" area on the right-hand side (this is the Workspace or Project canvas).  DON'T be discouraged if nothing populates -- it's likely the timeframe you're currently using doesn't have data-- this is a aspect of the demo data since it's only a small chunk of time loaded into CJA
       
       
-      ![Demo](./images/datasetname.png) 
+      <kbd><img src="./images/CJA_ex001_step005.png" /></kdb>
  
  
 5. On the right-hand side, locate the current timeframe (likely "This Month") left-click to change the time.  On the drop-down you can type "this year" or "year" and select the "This Year" option.  Your HOL instructor might give another timeframe as well 
