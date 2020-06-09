@@ -31,7 +31,7 @@ Lab 2.1 - Construct a CJA Dashboard
 <tbody valign="top">
       <tr>
             <td valign="middle" height="70"><b>section</b></td>
-            <td valign="middle" height="70"><img src="https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/CJA/images/CJA_ex001_access003.png.png?raw=true" alt="Schemas"></td>
+            <td valign="middle" height="70"><img src="https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/CJA/images/CJA_ex001_access003.png?raw=true" alt="Schemas"></td>
       </tr>
       <tr>
             <td valign="middle" height="70"><b>version</b></td>
@@ -51,10 +51,19 @@ Lab 2.1 - Construct a CJA Dashboard
 
 You first must be logged into the Experience Platform [https://experience.adobe.com/](https://experience.adobe.com/) to gain access to CJA
 
-Click on  ![](./images/CJA_ex001_access001.png|width=70) then click on ![Demo](./images/CJA_ex001_access002.png)
+Click on the 3x3 grid in the upper right-hand navigation
 
-Once you've opened the main Experience Platform product screen,  click on the icon "Customer Journey Analytics" (it looks similar to the Adobe Analytics logo) ![Demo](./images/CJA_ex001_access003.png)
+  <kbd><img src="./images/CJA_ex001_access001.png"  width="40"/></kdb>
 
+Then click on "Experience Cloud"
+
+  <kbd><img src="./images/CJA_ex001_access002.png" /></kdb>
+
+Once you've opened the main Experience Platform product screen,  click on the icon "Customer Journey Analytics" (it looks similar to the Adobe Analytics logo) 
+
+  <kbd><img src="./images/CJA_ex001_access003.png" /></kdb>
+
+You're ready to go
 
 Instructions:
 -----------------
