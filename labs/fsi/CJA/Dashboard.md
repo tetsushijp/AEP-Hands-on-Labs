@@ -51,7 +51,7 @@ Lab 2.1 - Construct a CJA Dashboard
 
 You first must be logged into the Experience Platform [https://experience.adobe.com/](https://experience.adobe.com/) to gain access to CJA
 
-Click on  ![Demo](./images/CJA_ex001_access001.png) then click on ![Demo](./images/CJA_ex001_access002.png)
+Click on  ![Demo](./images/CJA_ex001_access001.png | width=70) then click on ![Demo](./images/CJA_ex001_access002.png)
 
 Once you've opened the main Experience Platform product screen,  click on the icon "Customer Journey Analytics" (it looks similar to the Adobe Analytics logo) ![Demo](./images/CJA_ex001_access003.png)
 
