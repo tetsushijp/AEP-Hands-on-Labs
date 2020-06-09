@@ -99,7 +99,7 @@ Please follow the instructions below
 
    This results in...
 
-      <kbd><img src="./images/CJA_ex001_step005.png" width="200" /></kdb>
+      <kbd><img src="./images/CJA_ex001_step005.png" width="500" /></kdb>
 
 5. Close the preview pop-up (click off it).  Left-click on the "Web Product Name" dimension box (these are the product pages that were seen on the website) and drag and drop to the "Freeform Table" area on the right-hand side (this is the Workspace or Project canvas).  DON'T be discouraged if nothing populates -- it's likely the timeframe you're currently using doesn't have data-- this is a aspect of the demo data since it's only a small chunk of time loaded into CJA
       
@@ -107,31 +107,32 @@ Please follow the instructions below
       <kbd><img src="./images/CJA_ex001_step006.png" width="500" /></kdb>
  
  
-5. On the right-hand side, locate the current timeframe (likely "This Month") left-click to change the time.  On the drop-down you can type "this year" or "year" and select the "This Year" option.  Your HOL instructor might give another timeframe as well 
+6. On the right-hand side, locate the current timeframe (likely "This Month") left-click to change the time.  On the drop-down you can type "this year" or "year" and select the "This Year" option.  Your HOL instructor might give another timeframe as well 
       
       
-      <kbd><img src="./images/CJA_ex001_step006.png" width="500" /></kdb>
-
-
-6. The data within "Web Product Name" should have populated with the metric of "Events" -- Events should be thoughts as "instances" of this value occuring.  Let's add some "Orders" to the canvas-- clear the prior search (click the "x" icon on the right-hand side of the search-box).  Now type "orders"
-
-    On the right panel scroll down until you see the 'Add data' section
-
-
-      <kbd><img src="./images/CJA_ex001_step007.png" /></kdb>
+      <kbd><img src="./images/CJA_ex001_step007.png" width="500" /></kdb>
 
       <kbd><img src="./images/CJA_ex001_step008.png" /></kdb>
+
+7. The data within "Web Product Name" should have populated with the metric of "Events" -- Events should be thoughts as "instances" of this value occuring.  Let's add some "Orders" to the canvas-- clear the prior search (click the "x" icon on the right-hand side of the search-box).  Now type "orders"
+
 
       <kbd><img src="./images/CJA_ex001_step009.png" /></kdb>
       
       <kbd><img src="./images/CJA_ex001_step010.png" /></kdb>
-            
+
+
+6. The data within "Web Product Name" should have populated with the metric of "Events" -- Events should be thoughts as "instances" of this value occuring.  Let's add some "Orders" to the canvas-- clear the prior search (click the "x" icon on the right-hand side of the search-box).  Now type "orders"
+
       <kbd><img src="./images/CJA_ex001_step011.png" /></kdb>
 
       <kbd><img src="./images/CJA_ex001_step012.png" /></kdb>
 
       <kbd><img src="./images/CJA_ex001_step013.png" /></kdb>
-      
+
+
+6. The data within "Web Product Name" should have populated with the metric of "Events" -- Events should be thoughts as "instances" of this value occuring.  Let's add some "Orders" to the canvas-- clear the prior search (click the "x" icon on the right-hand side of the search-box).  Now type "orders"
+
       <kbd><img src="./images/CJA_ex001_step014.png" /></kdb>
 
       <kbd><img src="./images/CJA_ex001_step015.png" /></kdb>
