@@ -67,8 +67,11 @@ Go to [https://platform.adobe.com/home](https://platform.adobe.com/home). Follow
 
     <kbd><img src="./images/schemaname.png"  /></kdb>
 
-4. In the right-hand menu, name it "Transactions Schema [your-assigned-number]" (Description is optional)
-   ![Demo](./images/schemaname1.png)
+4. In the right-hand menu, name it "Transactions Schema [your-assigned-number]" (Description is optional)\
+
+
+    <kbd><img src="./images/schemaname1.png"  /></kdb>
+   
 5. In the left-hand schema composition menu, click on the "Assign" button across from Class
 
    <kbd><img src="./images/schemaclassassign.png"  /></kdb>
@@ -79,7 +82,7 @@ Go to [https://platform.adobe.com/home](https://platform.adobe.com/home). Follow
     - Customer Snapshots (Profile)
 
 
-      ![Demo](./images/schemaclass.png)
+      <kbd><img src="./images/schemaclass.png"  /></kdb>
 
 
       Note: There are other classes available out of the box that represent specific objects needed for Experience Modeling.
@@ -87,7 +90,7 @@ Go to [https://platform.adobe.com/home](https://platform.adobe.com/home). Follow
 6. In this example, choose "XDM ExperienceEvent" and click "Assign class"
 
 
-      ![Demo](./images/schemaclass1.png)
+      <kbd><img src="./images/schemaclass1.png"  /></kdb>
 
 7. Now, click on the "Add" button across from "Mixins" on the left panel
 
@@ -114,7 +117,7 @@ Go to [https://platform.adobe.com/home](https://platform.adobe.com/home). Follow
 
    Repeat the steps for 'Identities Mixin EE' mixin
 
-   ![Demo](./images/schemamixin4.png)
+   <kbd><img src="./images/schemamixin4.png"  /></kdb>
 
 9. Now, we'll also create a new Mixin from scratch. Go back and hit the +Add button on the left panel.
 
@@ -123,10 +126,13 @@ Go to [https://platform.adobe.com/home](https://platform.adobe.com/home). Follow
 10. Click "Create new mixin" at the top.
 
 
-      ![Demo](./images/schemamixin7.png)
+      <kbd><img src="./images/schemamixin7.png"  /></kdb>
 
 11. Enter "Order Details Mixin EE [your-assigned-number]" as the "Display name" and click "Add Mixin".
-    ![Demo](./images/schemamixin8.png)
+
+
+    <kbd><img src="./images/schemamixin8.png"  /></kdb>
+    
 12. In the left-hand schema composition menu, click on your newly create Mixin (it should be highlighted now)
 
 
