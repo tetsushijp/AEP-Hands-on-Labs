@@ -55,12 +55,12 @@ Go to [https://platform.adobe.com/home](https://platform.adobe.com/home). Follow
 1. In the left-hand menu, navigate to "Schemas"
 
 
-      ![Demo](./images/schemahome.png)
+      <kbd><img src="./images/schemahome.png"  /></kdb>
 
 2. Click "Create Schema" on the top right
 
 
-      ![Demo](./images/schemacreate.png)
+      <kbd><img src="./images/schemacreate.png"  /></kdb>
 
 3. Click on "Untitled Schema" in the structure view
 
