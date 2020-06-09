@@ -87,19 +87,19 @@ Please follow the instructions below
       <kbd><img src="./images/CJA_ex001_step002.png" /></kdb>
       
       
-3. The left-hand pannel can be expanded to make it more legiable -- please do this expansion.
+3. Values should be populating below as you type but might be hard to see (with limitied pannel space).  The left-hand pannel can be expanded to make it more legiable -- please do this expansion now (drag to the right).
 
 
       <kbd><img src="./images/CJA_ex001_step003.png" width="500" /></kdb>
  
  
-4. While mousing over "Web Product Name", please click on the small (i) icon that appears.  This show you both the location of the data (with context to the schema) and a preview of the top contents (according to the timeframe conditions)
+4. While mousing over "Web Product Name" card, please click on the small (i) icon that appears.  This show you both the location of the data (with context to the schema) and a preview of the top contents (according to the timeframe conditions)
       
       
       <kbd><img src="./images/CJA_ex001_step004.png" width="500" /></kdb>
       
       
-4. Close the preview pop-up.  Left-click on the "Web Product Name" dimension box (these are the product pages that were seen on the website) and drag and drop to the "Freeform Table" area on the right-hand side (this is the Workspace or Project canvas).  DON'T be discouraged if nothing populates -- it's likely the timeframe you're currently using doesn't have data-- this is a aspect of the demo data since it's only a small chunk of time loaded into CJA
+4. Close the preview pop-up (click off it).  Left-click on the "Web Product Name" dimension box (these are the product pages that were seen on the website) and drag and drop to the "Freeform Table" area on the right-hand side (this is the Workspace or Project canvas).  DON'T be discouraged if nothing populates -- it's likely the timeframe you're currently using doesn't have data-- this is a aspect of the demo data since it's only a small chunk of time loaded into CJA
       
       
       <kbd><img src="./images/CJA_ex001_step005.png" width="500" /></kdb>
