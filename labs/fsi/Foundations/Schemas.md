@@ -60,7 +60,7 @@ Go to [https://platform.adobe.com/home](https://platform.adobe.com/home). Follow
 2. Click "Create Schema" on the top right
 
 
-      <kbd><img src="./images/schemacreate.png" width="324" height="324" /></kdb>
+      <kbd><img src="./images/schemacreate.png" width="324" /></kdb>
 
 3. Click on "Untitled Schema" in the structure view
 
