@@ -97,12 +97,16 @@ Please follow the instructions below
       
       
       <kbd><img src="./images/CJA_ex001_step004.png" width="500" /></kdb>
-      
+
+This results in...
+
+      <kbd><img src="./images/CJA_ex001_step005.png" width="200" /></kdb>
+
       
 4. Close the preview pop-up (click off it).  Left-click on the "Web Product Name" dimension box (these are the product pages that were seen on the website) and drag and drop to the "Freeform Table" area on the right-hand side (this is the Workspace or Project canvas).  DON'T be discouraged if nothing populates -- it's likely the timeframe you're currently using doesn't have data-- this is a aspect of the demo data since it's only a small chunk of time loaded into CJA
       
       
-      <kbd><img src="./images/CJA_ex001_step005.png" width="500" /></kdb>
+      <kbd><img src="./images/CJA_ex001_step006.png" width="500" /></kdb>
  
  
 5. On the right-hand side, locate the current timeframe (likely "This Month") left-click to change the time.  On the drop-down you can type "this year" or "year" and select the "This Year" option.  Your HOL instructor might give another timeframe as well 
