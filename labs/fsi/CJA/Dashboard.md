@@ -63,7 +63,10 @@ Once you've opened the main Experience Platform product screen,  click on the ic
 
   <kbd><img src="./images/CJA_ex001_access003.png" /></kdb>
 
-You're ready to go
+**Excellent** -- Now you're ready to go...
+
+
+
 
 Instructions:
 -----------------
@@ -75,7 +78,7 @@ Please follow the instructions below
 1. In the uppoer left-hand nav menu, navigate to "Projects" and choose "Create New Project"
 
 
-      ![Demo](./images/datasetshome.png)
+      <kbd><img src="./images/datasetshome.png" /></kdb>
       
       
 2. This is a blank project.  On the left-hand side, please type/search for "prod" -- this is filtering into the all aspects of the Data View (Dimensions, Metrics, Filters and Date Ranges).
