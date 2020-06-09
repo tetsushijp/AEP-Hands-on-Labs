@@ -90,25 +90,25 @@ Please follow the instructions below
 3. The left-hand pannel can be expanded to make it more legiable -- please do this expansion.
 
 
-      <kbd><img src="./images/CJA_ex001_step003.png" width="200" /></kdb>
+      <kbd><img src="./images/CJA_ex001_step003.png" width="500" /></kdb>
  
  
 4. While mousing over "Web Product Name", please click on the small (i) icon that appears.  This show you both the location of the data (with context to the schema) and a preview of the top contents (according to the timeframe conditions)
       
       
-      <kbd><img src="./images/CJA_ex001_step004.png" width="200" /></kdb>
+      <kbd><img src="./images/CJA_ex001_step004.png" width="500" /></kdb>
       
       
 4. Close the preview pop-up.  Left-click on the "Web Product Name" dimension box (these are the product pages that were seen on the website) and drag and drop to the "Freeform Table" area on the right-hand side (this is the Workspace or Project canvas).  DON'T be discouraged if nothing populates -- it's likely the timeframe you're currently using doesn't have data-- this is a aspect of the demo data since it's only a small chunk of time loaded into CJA
       
       
-      <kbd><img src="./images/CJA_ex001_step005.png" width="200" /></kdb>
+      <kbd><img src="./images/CJA_ex001_step005.png" width="500" /></kdb>
  
  
 5. On the right-hand side, locate the current timeframe (likely "This Month") left-click to change the time.  On the drop-down you can type "this year" or "year" and select the "This Year" option.  Your HOL instructor might give another timeframe as well 
       
       
-      <kbd><img src="./images/CJA_ex001_step006.png" width="200" /></kdb>
+      <kbd><img src="./images/CJA_ex001_step006.png" width="500" /></kdb>
 
 
 6. The data within "Web Product Name" should have populated with the metric of "Events" -- Events should be thoughts as "instances" of this value occuring.  Let's add some "Orders" to the canvas-- clear the prior search (click the "x" icon on the right-hand side of the search-box).  Now type "orders"
