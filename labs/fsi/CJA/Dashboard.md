@@ -95,13 +95,13 @@ Please follow the instructions below
  
 4. While mousing over "Web Product Name" card, please click on the small (i) icon that appears.  This show you both the location of the data (with context to the schema) and a preview of the top contents (according to the timeframe conditions)
          
-   <kbd><img src="./images/CJA_ex001_step004.png" width="500" /></kdb>
+      <kbd><img src="./images/CJA_ex001_step004.png" width="500" /></kdb>
 
-This results in...
+   This results in...
 
-   <kbd><img src="./images/CJA_ex001_step005.png" width="200" /></kdb>
+      <kbd><img src="./images/CJA_ex001_step005.png" width="200" /></kdb>
 
-4. Close the preview pop-up (click off it).  Left-click on the "Web Product Name" dimension box (these are the product pages that were seen on the website) and drag and drop to the "Freeform Table" area on the right-hand side (this is the Workspace or Project canvas).  DON'T be discouraged if nothing populates -- it's likely the timeframe you're currently using doesn't have data-- this is a aspect of the demo data since it's only a small chunk of time loaded into CJA
+5. Close the preview pop-up (click off it).  Left-click on the "Web Product Name" dimension box (these are the product pages that were seen on the website) and drag and drop to the "Freeform Table" area on the right-hand side (this is the Workspace or Project canvas).  DON'T be discouraged if nothing populates -- it's likely the timeframe you're currently using doesn't have data-- this is a aspect of the demo data since it's only a small chunk of time loaded into CJA
       
       
       <kbd><img src="./images/CJA_ex001_step006.png" width="500" /></kdb>
@@ -118,9 +118,33 @@ This results in...
     On the right panel scroll down until you see the 'Add data' section
 
 
-    ![Demo](./images/datasetadddata.png) 
+      <kbd><img src="./images/CJA_ex001_step007.png" /></kdb>
 
+      <kbd><img src="./images/CJA_ex001_step008.png" /></kdb>
 
+      <kbd><img src="./images/CJA_ex001_step009.png" /></kdb>
+      
+      <kbd><img src="./images/CJA_ex001_step010.png" /></kdb>
+            
+      <kbd><img src="./images/CJA_ex001_step011.png" /></kdb>
+
+      <kbd><img src="./images/CJA_ex001_step012.png" /></kdb>
+
+      <kbd><img src="./images/CJA_ex001_step013.png" /></kdb>
+      
+      <kbd><img src="./images/CJA_ex001_step014.png" /></kdb>
+
+      <kbd><img src="./images/CJA_ex001_step015.png" /></kdb>
+            
+      <kbd><img src="./images/CJA_ex001_step016.png" /></kdb>
+
+      <kbd><img src="./images/CJA_ex001_step017.png" /></kdb>
+
+      <kbd><img src="./images/CJA_ex001_step018.png" /></kdb>
+      
+      <kbd><img src="./images/CJA_ex001_step019.png" /></kdb>
+      
+      
 6. From the lab files you downloaded, drag and drop the 'transactions_data_xxx.json' file into the 'Add Data' sections. You will now see a batch with a 'Loading' status
 
 
