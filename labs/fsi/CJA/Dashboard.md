@@ -107,22 +107,21 @@ Please follow the instructions below
       <kbd><img src="./images/CJA_ex001_step006.png" width="500" /></kdb>
  
  
-6. On the right-hand side, locate the current timeframe (likely "This Month") left-click to change the time.  On the drop-down you can type "this year" or "year" and select the "This Year" option.  Your HOL instructor might give another timeframe as well 
+6. On the right-hand side, locate the current timeframe (likely "This Month") left-click to change the time.  On the drop-down you can type "this year" or "year" and select the "This Year" option.  Your HOL instructor might give another timeframe as well. 
       
       
-      <kbd><img src="./images/CJA_ex001_step007.png" width="500" /></kdb>
+      <kbd><img src="./images/CJA_ex001_step007.png" width="250" /></kdb>
 
       <kbd><img src="./images/CJA_ex001_step008.png" /></kdb>
 
-7. The data within "Web Product Name" should have populated with the metric of "Events" -- Events should be thoughts as "instances" of this value occuring.  Let's add some "Orders" to the canvas-- clear the prior search (click the "x" icon on the right-hand side of the search-box).  Now type "orders"
-
+7. Before we go further, lets resize the Freeform Table so it's not stretched across the screen.  Follow the screenshots below as examples.
 
       <kbd><img src="./images/CJA_ex001_step009.png" /></kdb>
       
       <kbd><img src="./images/CJA_ex001_step010.png" /></kdb>
 
 
-6. The data within "Web Product Name" should have populated with the metric of "Events" -- Events should be thoughts as "instances" of this value occuring.  Let's add some "Orders" to the canvas-- clear the prior search (click the "x" icon on the right-hand side of the search-box).  Now type "orders"
+8. The data within "Web Product Name" should have populated with the metric of "Events" -- Events should be thoughts as "instances" of this value occuring.  Let's add some "Orders" to the canvas-- clear the prior search (click the "x" icon on the right-hand side of the search-box).  Now type "orders"
 
       <kbd><img src="./images/CJA_ex001_step011.png" /></kdb>
 
@@ -131,13 +130,16 @@ Please follow the instructions below
       <kbd><img src="./images/CJA_ex001_step013.png" /></kdb>
 
 
-6. The data within "Web Product Name" should have populated with the metric of "Events" -- Events should be thoughts as "instances" of this value occuring.  Let's add some "Orders" to the canvas-- clear the prior search (click the "x" icon on the right-hand side of the search-box).  Now type "orders"
+9. Now add the "Calls" metric to the visualization
 
       <kbd><img src="./images/CJA_ex001_step014.png" /></kdb>
 
       <kbd><img src="./images/CJA_ex001_step015.png" /></kdb>
             
       <kbd><img src="./images/CJA_ex001_step016.png" /></kdb>
+
+
+10. Steps below....
 
       <kbd><img src="./images/CJA_ex001_step017.png" /></kdb>
 
@@ -146,25 +148,7 @@ Please follow the instructions below
       <kbd><img src="./images/CJA_ex001_step019.png" /></kdb>
       
       
-6. From the lab files you downloaded, drag and drop the 'transactions_data_xxx.json' file into the 'Add Data' sections. You will now see a batch with a 'Loading' status
-
-
-    <!---
-    ![Demo](./images/datasetbatch.png)
-    --->
-
-    <kbd><img src="./images/datasetbatch.png"  /></kdb>
-
-
-7. Adobe Experience Platform will perform the XDM mapping and conversion for JSON format to parquet and make this data available on the data lake and the profile store. This process usually takes a few mins. 
-
-    Once your batch status is 'Success', you can preview the data by hitting the 'Preview Dataset' button on the top right corner.
-
-
-    ![Demo](./images/datasetpreview.png)
-
-
-8. Congratulations !!! you are done with the Dataset exercise.
+11. Congratulations !!! you are done with the Dataset exercise.
 
 
 <br>
