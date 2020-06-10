@@ -49,24 +49,31 @@ Lab 2.1 - Construct a CJA Dashboard
 </tr>
 </table>
 
+Accessing CJA:
+-----------------
+
 You first must be logged into the Experience Platform [https://experience.adobe.com/](https://experience.adobe.com/) to gain access to CJA
 
-Click on the 3x3 grid in the upper right-hand navigation
+1.  Click on the 3x3 grid in the upper right-hand navigation
 
-  <kbd><img src="./images/CJA_ex001_access001.png"  width="40"/></kdb>
+     <kbd><img src="./images/CJA_ex001_access001.png"  width="40"/></kdb>
 
-Then click on "Experience Cloud"
+2.  Then click on "Experience Cloud"
 
-  <kbd><img src="./images/CJA_ex001_access002.png" /></kdb>
+     <kbd><img src="./images/CJA_ex001_access002.png" /></kdb>
 
-Once you've opened the main Experience Cloud product screen (for provisioned/deployed solutions),  click on the icon "Customer Journey Analytics" (it looks similar to the Adobe Analytics logo) 
+3.  Once you've opened the main Experience Cloud product screen (for provisioned/deployed solutions),  click on the icon "Customer Journey Analytics" (it looks similar to the Adobe Analytics logo) 
 
-  <kbd><img src="./images/CJA_ex001_access003.png" /></kdb>
+     <kbd><img src="./images/CJA_ex001_access003.png" /></kdb>
 
 **Excellent** -- Now you're ready to go...
 
 
-
+**DISCLAIMER**
+-----------------
+ - These instructions are based off of the "FSI" dataset -- the labels/results might be different from what your industry/environment looks like today, that's fine
+ - All instructions should work despite slight differences within the data
+ - NOTE: I'm using Connection <here> and Data View <here?
 
 Instructions:
 -----------------
