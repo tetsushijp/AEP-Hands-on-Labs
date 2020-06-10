@@ -137,7 +137,11 @@ Please follow the instructions below
    The reason we have zero calls attributed to web products is because the call records doesn't happen on the same hit/record as the web product row/record -- they happen at different times.  The default attribution (of any timeseries based metric) is going to be at the event level.  We'll apply Attribution IQ to this metric.
    
       <kbd><img src="./images/CJA_ex001_step015.png" /></kdb>
-         
+    
+    Below is an example web + call flow for a customer.  The blue timeline represents the web visit behaviors and the yellow is when they called into the call center.  Note: there needs to be some key that relates these 2 sources together so we can stitch both experiences together.  The call event (in the next instructions) will be related back to 'Product "A" Page'
+    
+      <kbd><img src="./images/CJA_ex001_step015a.png" /></kdb>
+       
 10. We're now going to fix the Calls metric attribution so it relates back into product names -- with your mouse, hover over the top of the Calls metric column and click on the gear icon
 
       <kbd><img src="./images/CJA_ex001_step016.png" /></kdb>
