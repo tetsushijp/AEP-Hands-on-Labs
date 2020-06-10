@@ -134,12 +134,15 @@ Please follow the instructions below
 
       <kbd><img src="./images/CJA_ex001_step014.png" /></kdb>
 
+   The reason we have zero calls attributed to web products is because the call records doesn't happen on the same hit/record as the web product row/record -- they happen at different times.  The default attribution (of any timeseries based metric) is going to be at the event level.  We'll apply Attribution IQ to this metric.
+   
       <kbd><img src="./images/CJA_ex001_step015.png" /></kdb>
-            
+         
+10. We're now going to fix the Calls metric attribution so it relates back into product names -- with your mouse, hover over the top of the Calls metric column and click on the gear icon
+
       <kbd><img src="./images/CJA_ex001_step016.png" /></kdb>
 
-
-10. Steps below....
+12. Steps below....
 
       <kbd><img src="./images/CJA_ex001_step017.png" /></kdb>
 
@@ -148,7 +151,7 @@ Please follow the instructions below
       <kbd><img src="./images/CJA_ex001_step019.png" /></kdb>
       
       
-11. Congratulations !!! you are done with the Dataset exercise.
+13. Congratulations !!! you are done with the Dataset exercise.
 
 
 <br>
