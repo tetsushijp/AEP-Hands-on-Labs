@@ -3,7 +3,7 @@
 | Attendee #   | crmid            | email                          |
 | ------------ | ---------------- | ------------------------------ |
 | attendee 001	|	crmid:8702014485	|	sistering1922@yandex.com		|
-| attendee 002	|	crmid:3615365305	|	baggy2035@outlook.com,Antonia	|
+| attendee 002	|	crmid:3615365305	|	baggy2035@outlook.com			|
 | attendee 003	|	crmid:7306619515	|	ernestine2048@outlook.com		|
 | attendee 004	|	crmid:6599176963	|	dunker1840@live.com				|
 | attendee 005	|	crmid:3445340320	|	gonzo2013@yandex.com			|
