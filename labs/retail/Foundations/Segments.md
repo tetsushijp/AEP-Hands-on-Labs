@@ -245,7 +245,7 @@ Instructions:
 
 	<kbd><img src="./images/segment_prodview_container.png"  /></kbd>
 
-17.	In the left pane, click on ‘XDM ExperienceEvent’ and the click on ‘Product List Items’ in the resulting display
+17.	In the left pane, click on ‘XDM ExperienceEvent’ and then click on ‘Product List Items’ in the resulting display
 
 	<kbd><img src="./images/segment_xdm_prodlist.png"  /></kbd>
 
