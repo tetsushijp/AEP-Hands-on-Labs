@@ -444,9 +444,13 @@ Instructions:
       <!--
       ![Demo](./images/segments_travel_dyn_skuexists.png)
       -->
-      <kbd><img src="./images/segments_travel_dyn_skuexists.png"  /></kbd>          
+      <kbd><img src="./images/segments_travel_dyn_skuexists.png"  /></kbd>
+      
+16.	Click on the folder icon below the search box, and then Click on 'Events'‘
 
-16.	In the left pane, locate ‘Purchases’ and drag this to the segment canvas to the right of the ‘Checkouts’ event.
+	<kbd><img src="./images/segment_retail_dynamic_purchases.png"  /></kbd>
+
+16.	Now, locate ‘Purchases’ under Event Types, and drag this to the segment canvas to the right of the ‘Checkouts’ 		event.
 
 	<kbd><img src="./images/segments_retail_xdm_purchases.png"  /></kbd>
 	
