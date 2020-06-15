@@ -96,23 +96,20 @@ Instructions:
       
       <kbd><img src="./images/segment_retail_callselectedreason.png"  /></kbd>    
       
-11.	In the text box to the right of equals, type “Place Order” and press ‘Enter’
+11.	Change the operator to "contains".
+	In the text box to the right of "contains", type “order” and press ‘Enter’
       <!--
       ![Demo](./images/segment_travel_reservationbooking.png)
       -->
       
-      <kbd><img src="./images/segment_retail_placeorder.png"  /></kbd>  
+      <kbd><img src="./images/segment_retail_order.png"  /></kbd>  
 
-12.	Ensure ‘Streaming’ is NOT enabled in the right pane
-
-      <kbd><img src="./images/segment_retail_streaming.png"  /></kbd>  
-
-13.	Enter the segment name “Call Center Order” followed by your Student ID (e.g. “Call Center Order 025”)
+12.	Enter the segment name “Call Center Order” followed by your Student ID (e.g. “Call Center Order 025”)
 	<br>Enter the same value as the description
       
       <kbd><img src="./images/segment_retail_segmentname.png"  /></kbd>       
            
-14.	Save the Segment
+13.	Save the Segment
       <!--
       ![Demo](./images/segment_travel_reservationbookingsave.png)
       -->
