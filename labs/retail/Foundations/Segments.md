@@ -440,25 +440,25 @@ Instructions:
 
 	<kbd><img src="./images/segment_3_xdm_checkouts_prodsku.png"  /></kbd>
 
-17.	Change the operator to “exists”     
+15.	Change the operator to “exists”     
       <!--
       ![Demo](./images/segments_travel_dyn_skuexists.png)
       -->
       <kbd><img src="./images/segments_travel_dyn_skuexists.png"  /></kbd>          
 
-18.	Click on ‘Purchases' in the Events canvas	
+16.	In the left pane, locate ‘Purchases’ and drag this to the segment canvas to the right of the ‘Checkouts’ event.
+
+	<kbd><img src="./images/segments_retail_xdm_purchases.png"  /></kbd>
+	
+17.	Click on ‘Purchases' in the Events canvas	
 
 	<kbd><img src="./images/segments_retail_events_purchase.png"  /></kbd>
-	
-19.	In the left pane, locate ‘Purchases’ and drag this to the segment canvas to the right of the ‘Checkouts’ event.
 
-	<kbd><img src="./images/segments_retail_xdm_purchases.png"  /></kbd> 
-
-19.	In the left pane, click on ‘XDM ExperienceEvent’ and ‘Product list items’ in the resulting display
+18.	In the left pane, click on ‘XDM ExperienceEvent’ and ‘Product list items’ in the resulting display
 
 	<kbd><img src="./images/segment_xdm_prodlist.png"  /></kbd>
 
-20.	Select the ‘SKU’ field and drag that into the ‘XDM ExperienceEvent’ container for ‘Purchases’
+19.	Select the ‘SKU’ field and drag that into the ‘XDM ExperienceEvent’ container for ‘Purchases’
 
 	<kbd><img src="./images/segment_3_xdm_purchases_prodsku.png"  /></kbd>
 
