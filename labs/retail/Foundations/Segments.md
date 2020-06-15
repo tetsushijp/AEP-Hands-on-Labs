@@ -234,7 +234,7 @@ Instructions:
       -->
       <kbd><img src="./images/segment_travel_me_prodviewcheckout.png"  /></kbd>
       
-15.	Under ‘Events in the left pane, locate ‘Purchases’ and drag that to the segment canvas to the right of the ‘Product Views’ and ‘Purchase’ events
+15.	Under ‘Events in the left pane, locate ‘Purchases’ and drag that to the segment canvas to the right of the ‘Product Views’ and ‘Checkout’ events
       <!--
       ![Demo](./images/segment_travel_me_purchase.png)
       -->
