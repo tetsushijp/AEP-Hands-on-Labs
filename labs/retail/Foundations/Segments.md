@@ -107,7 +107,7 @@ Instructions:
 12.	Enter the segment name “Call Center Order” followed by your Student ID (e.g. “Call Center Order 025”)
 	<br>Enter the same value as the description
       
-      <kbd><img src="./images/segment_retail_segmentname.png"  /></kbd>       
+      <kbd><img src="./images/segment_retail_segmentname_nostream.png"  /></kbd>       
            
 13.	Save the Segment
       <!--
