@@ -264,15 +264,15 @@ Instructions:
 
 	<kbd><img src="./images/segment_xdm_checkout_container.png"  /></kbd>
 
-20.	In the left pane, click on ‘XDM ExperienceEvent’ and ‘Product list items’ in the resulting display
+20.	In the left pane, click on ‘XDM ExperienceEvent’ and then Click ‘Product List Items’ in the resulting display
 
 	<kbd><img src="./images/segment_xdm_prodlist.png"  /></kbd>
 
-21.	Select the 'SKU' field and drag it into the ‘XDM ExperienceEvent’ container for ‘Product Views’
+21.	Select the 'SKU' field and drag it into the ‘XDM ExperienceEvent’ container for ‘Checkouts’
 
 	<kbd><img src="./images/segment_xdm_checkout_prodsku.png"  /></kbd>
 
-22.	Enter ‘prd1030’ in the text box to the right of prodSKU = and press ‘Enter’
+22.	Enter ‘prd1030’ in the text box to the right of 'SKU equals' and press ‘Enter’
 
 	<kbd><img src="./images/segment_xdm_checkout_prodsku_value.png"  /></kbd>
 
@@ -280,15 +280,15 @@ Instructions:
 
 	<kbd><img src="./images/segment_xdm_purchase_container.png"  /></kbd>
 
-23.	In the left pane, click on ‘XDM ExperienceEvent’ and ‘Product list items’ in the resulting display
+23.	In the left pane, click on ‘XDM ExperienceEvent’ and then Click ‘Product List Items’ in the resulting display
 
 	<kbd><img src="./images/segment_xdm_prodlist.png"  /></kbd>
 
-24.	Select the 'SKU' field and drag it into the ‘XDM ExperienceEvent’ container for ‘Product Views’
+24.	Select the 'SKU' field and drag it into the ‘XDM ExperienceEvent’ container for ‘Purchases’
 
 	<kbd><img src="./images/segment_xdm_purchase_prodsku.png"  /></kbd>
 
-25.	Enter ‘prd1030’ in the text box to the right of SKU = and press ‘Enter’
+25.	Enter ‘prd1030’ in the text box to the right of 'SKU equals' and press ‘Enter’
 
 	<kbd><img src="./images/segment_xdm_purchase_container_sku_value.png"  /></kbd>
 
