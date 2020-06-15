@@ -114,7 +114,7 @@ Instructions:
       ![Demo](./images/segment_retail_callcenterorder.png)
       -->
       
-      <kbd><img src="./images/segment_retail_ordersave.png"  /></kbd>  
+      <kbd><img src="./images/segment_retail_callcenterorder.png"  /></kbd>  
       
 NOTE: Estimate link may not show results if qualified profiles are statistically small and not recognized across dataset scans 
 <br>
