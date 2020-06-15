@@ -22,17 +22,9 @@ In this exercise, you'll create an Orchestrated Journey by making use of Journey
 
    You'll then see a new, blank Journey.
 
-   <!---
-   ![Demo](./images/jonew.png)
-   --->
-
    <kbd><img src="./images/jonew.png"  /></kdb>
 
 4. Name the Journey **Website Registration Journey emailAddress** and replace **emailAddress** with LDAP. In this example, the Journey Name is **Website Registration Journey puchadha**. No other values must be set at this moment.
-
-   <!---
-   ![Demo](./images/joname.png)
-   --->
 
    <kbd><img src="./images/joname.png"  /></kdb>
 
@@ -58,10 +50,6 @@ In this exercise, you'll create an Orchestrated Journey by making use of Journey
 
 7. Select `Condition`, then drag and drop it on the Journey Canvas.
 
-   <!---
-   ![Demo](./images/jo4.png)
-   --->
-
    <kbd><img src="./images/jo4.png"  /></kdb>
 
 8. You now have to define 2 conditions:
@@ -75,17 +63,9 @@ In this exercise, you'll create an Orchestrated Journey by making use of Journey
 
    #### Condition 1: It's Raining
 
-   <!---
-   ![Demo](./images/jo5.png)
-   --->
-
    <kbd><img src="./images/jo5.png"  /></kdb>
 
 10. Click on the `Edit`-icon for the expression of Path1.
-
-    <!---
-    ![Demo](./images/jo6.png)
-    --->
 
     <kbd><img src="./images/jo6.png"  /></kdb>
 
@@ -110,10 +90,6 @@ In this exercise, you'll create an Orchestrated Journey by making use of Journey
 
     Click the field `dynamic val: zip` as indicated in the screenshot.
 
-    <!---
-    ![Demo](./images/jo11.png)
-    --->
-
     <kbd><img src="./images/jo11.png"  /></kdb>
 
     You then need to find the field that contains the current zip code of the customer in the AEP Data Sources. Here we are leveraging the unified profile data in AEP to get the profiles zip code.
@@ -129,10 +105,6 @@ In this exercise, you'll create an Orchestrated Journey by making use of Journey
 
 14. Rename the path from path1 to 'Raining'
 
-    <!---
-    ![Demo](./images/jopath1name.png)
-    --->
-
     <kbd><img src="./images/jopath1name.png"  /></kdb>
 
 15. Next, we'll add the 2nd condition.
@@ -141,10 +113,6 @@ In this exercise, you'll create an Orchestrated Journey by making use of Journey
 
     After having added the first condition, you'll see this screen.
 
-    <!---
-    ![Demo](./images/joc2.png)
-    --->
-
     <kbd><img src="./images/joc2.png"  /></kdb>
 
 16. Click `Add Path`.
@@ -152,10 +120,6 @@ In this exercise, you'll create an Orchestrated Journey by making use of Journey
     ![Demo](./images/joadd.png)
 
 17. Click on the `Edit`-icon for the expression of Path1.
-
-    <!---
-    ![Demo](./images/jo6.png)
-    --->
 
     <kbd><img src="./images/jo6.png"  /></kdb>
 
@@ -180,10 +144,6 @@ In this exercise, you'll create an Orchestrated Journey by making use of Journey
 
     Click the field `dynamic val: zip` as indicated in the screenshot.
 
-    <!---
-    ![Demo](./images/jo11.png)
-    --->
-
     <kbd><img src="./images/jo11.png"  /></kdb>
 
     You then need to find the field that contains the current zip code of the customer in the AEP Data Sources. Here we are leveraging the unified profile data in AEP to get the profiles zip code.
@@ -198,10 +158,6 @@ In this exercise, you'll create an Orchestrated Journey by making use of Journey
     ![Demo](./images/jook.png)
 
 21. Rename the path from path1 to 'Clear'
-
-    <!---
-    ![Demo](./images/jopath2name.png)
-    --->
 
     <kbd><img src="./images/jopath2name.png"  /></kdb>
 
@@ -227,17 +183,9 @@ In this exercise, you'll create an Orchestrated Journey by making use of Journey
 
     You'll see a popup.
 
-    <!---
-    ![Demo](./images/joa10.png)
-    --->
-
     <kbd><img src="./images/joa10.png"  /></kdb>
 
 24. Navigate to the `Action Parameters`.
-
-    <!---
-    ![Demo](./images/joa11.png)
-    --->
 
     <kbd><img src="./images/joa11.png"  /></kdb>
 
@@ -258,10 +206,6 @@ In this exercise, you'll create an Orchestrated Journey by making use of Journey
 26. Click `OK`.
 
 27. Click on the `Edit`-icon for the Action Parameter `Message`.
-
-    <!---
-    ![Demo](./images/joa15.png)
-    --->
 
     <kbd><img src="./images/joa15.png"  /></kdb>
 
@@ -285,25 +229,13 @@ In this exercise, you'll create an Orchestrated Journey by making use of Journey
 
 30. Click `OK`.
 
-    <!---
-    ![Demo](./images/joa17.png)
-    --->
-
     <kbd><img src="./images/joa17.png"  /></kdb>
 
 31. In the left menu, go back to `Actions`, select the Action `slackNotification`, then drag and drop it after the `smsNexmoemailAddress`-Action (Replace emailAddress).
 
-    <!---
-    ![Demo](./images/joa18.png)
-    --->
-
     <kbd><img src="./images/joa18.png"  /></kdb>
 
 32. Go to `Action Parameters` and click the `Edit`-icon for the parameter `Message`.
-
-    <!---
-    ![Demo](./images/joa19.png)
-    --->
 
     <kbd><img src="./images/joa19.png"  /></kdb>
 
@@ -323,17 +255,9 @@ In this exercise, you'll create an Orchestrated Journey by making use of Journey
 
 35. Click `OK`.
 
-    <!---
-    ![Demo](./images/joa22.png)
-    --->
-
     <kbd><img src="./images/joa22.png"  /></kdb>
 
 36. In the left menu, go to `Orchestration`, select `End`, then drag and drop `End` after the `textSlackLdap`-Action.
-
-<!---
-    ![Demo](./images/joa23.png)
-    --->
 
     <kbd><img src="./images/joa23.png"  /></kdb>
 
@@ -347,25 +271,14 @@ In this exercise, you'll create an Orchestrated Journey by making use of Journey
 
 38. Select the smsNexmoemailAddress - action (your emailAddress), then drag and drop it after the condition you just added.
 
-    <!---
-    ![Demo](./images/joapath22.png)
-    --->
-
     <kbd><img src="./images/joapath22.png"  /></kdb>
 
     You'll see a popup.
-
-    <!---
-    ![Demo](./images/joa10.png)
-    --->
 
     <kbd><img src="./images/joa10.png"  /></kdb>
 
 39. Navigate to the `Action Parameters`.
 
-    <!---
-    ![Demo](./images/joa11.png)
-    --->
 
     <kbd><img src="./images/joa11.png"  /></kdb>
 
@@ -389,10 +302,6 @@ In this exercise, you'll create an Orchestrated Journey by making use of Journey
 
 43. Click on the `Edit`-icon for the Action Parameter `Message`.
 
-    <!---
-    ![Demo](./images/joa15.png)
-    --->
-
     <kbd><img src="./images/joa15.png"  /></kdb>
 
     You'll see a popup with the `Simple Mode Editor`.
@@ -415,25 +324,13 @@ In this exercise, you'll create an Orchestrated Journey by making use of Journey
 
 46. Click `OK`.
 
-    <!---
-    ![Demo](./images/joapath217.png)
-    --->
-
     <kbd><img src="./images/joapath217.png"  /></kdb>
 
 47. In the left menu, go back to `Actions`, select the Action `slackNotification`, then drag and drop it after the `smsNexmoemailAddress`-Action (Replace emailAddress).
 
-    <!---
-    ![Demo](./images/joapath218.png)
-    --->
-
     <kbd><img src="./images/joapath218.png"  /></kdb>
 
 48. Go to `Action Parameters` and click the `Edit`-icon for the parameter `Message`.
-
-    <!---
-    ![Demo](./images/joa19.png)
-    --->
 
     <kbd><img src="./images/joa19.png"  /></kdb>
 
@@ -453,17 +350,9 @@ In this exercise, you'll create an Orchestrated Journey by making use of Journey
 
 51. Click `OK`.
 
-    <!---
-    ![Demo](./images/joapath222.png)
-    --->
-
     <kbd><img src="./images/joapath222.png"  /></kdb>
 
 52. In the left menu, go to `Orchestration`, select `End`, then drag and drop `End` after the `textSlackLdap`-Action.
-
-    <!---
-    ![Demo](./images/joapath223.png)
-    --->
 
     <kbd><img src="./images/joapath223.png"  /></kdb>
 
