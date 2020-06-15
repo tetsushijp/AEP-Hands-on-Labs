@@ -111,7 +111,7 @@ Instructions:
            
 13.	Save the Segment
       <!--
-      ![Demo](./images/segment_travel_reservationbookingsave.png)
+      ![Demo](./images/segment_retail_callcenterorder.png)
       -->
       
       <kbd><img src="./images/segment_retail_ordersave.png"  /></kbd>  
