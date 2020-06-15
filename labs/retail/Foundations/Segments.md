@@ -303,18 +303,15 @@ Instructions:
 	
 	<kbd><img src="./images/segment_events_container_inlast.png"  /></kbd>
      
-28.	Ensure ‘Streaming’ is enabled in the right pane
-
-	<kbd><img src="./images/segment_properties_streaming.png"  /></kbd> 
 	
-29.	Enter the segment name “Premier Product High Intent Female Purchasers” followed by your Student ID (e.g. “Premier Product High Intent Female Purchasers 005”).  Enter the same value as the description
+28.	Enter the segment name “Premier Product High Intent Female Purchasers” followed by your Student ID (e.g. “Premier Product High Intent Female Purchasers 005”).  Enter the same value as the description
 
-	<kbd><img src="./images/segment_properties_name.png"  /></kbd>
+	<kbd><img src="./images/segment_properties_name_nostream.png"  /></kbd>
 
-30.  	Confirm your final segment is consistent with the screenshot.
+29.  	Confirm your final segment is consistent with the screenshot.
 	<kbd><img src="./images/segment_retail_segment2_final.png"  /></kbd>      
 
-31.	Save the Segment
+30.	Save the Segment
       <!--
       ![Demo](./images/segment_travel_me_save.png)
       -->
