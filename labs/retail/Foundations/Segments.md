@@ -409,42 +409,34 @@ Instructions:
       
       <kbd><img src="./images/segments_retail_search_evar1.png"  /></kbd>      
             
-8.	Under ‘Browse Classes’, find and drag ‘eVar1’ to the segment canvas.  (Be sure it follows this path:  XDM ExperienceEvent > Experience > Analytics > Custom Dimensions > eVars > eVar1) It is usually the second entry listed.
+8.	Under ‘Browse Classes’, find and drag ‘eVar1’ to the segment canvas.  (Be sure it follows this path:  XDM 		ExperienceEvent > Experience > Analytics > Custom Dimensions > eVars > eVar1) It is usually the second entry listed.
 
-	<kbd><img src="./images/segments_retail_evar1.png"  /></kbd>     
-
-9.	In the left pane, clear out the Search box
-
-	<kbd><img src="./images/segments_retail_search_evar1_clear.png"  /></kbd> 
-
-10.	Under ‘Event Types’, locate ‘Checkouts, and drag this to the segment canvas to the right of the ‘Any’ event
-
-	<kbd><img src="./images/segments_retail_xdm_checkouts.png"  /></kbd> 
-
-11.	In the left pane, locate ‘Purchases’ and drag this to the segment canvas to the right of the ‘Checkouts’ event.
-
-	<kbd><img src="./images/segments_retail_xdm_purchases.png"  /></kbd> 
-
-12.	Click on ‘Any’ in the segment canvas
-
-	<kbd><img src="./images/segments_retail_events_any.png"  /></kbd> 
-
-13.	Type ‘Email’ in the text box to the right of ‘eVar1’ equals and press Enter
+	<kbd><img src="./images/segments_retail_evar1.png"  /></kbd>
+	
+9.	Type ‘email’ in the text box to the right of ‘eVar1 equals' and press Enter
       <!--
       ![Demo](./images/segments_travel_dyn_mchannel_email.png)
       -->
       
-      <kbd><img src="./images/segments_retail_dyn_mchannel_email.png"  /></kbd>       
-          
-14.	Click on ‘Checkouts' in the Events canvas
+      <kbd><img src="./images/segments_retail_dyn_mchannel_email.png"  /></kbd>      
+
+10.	In the left pane, clear out the Search box
+
+	<kbd><img src="./images/segments_retail_search_evar1_clear.png"  /></kbd> 
+
+11.	Under ‘Event Types’, locate ‘Checkouts, and drag this to the segment canvas to the right of the ‘Any’ event
+
+	<kbd><img src="./images/segments_retail_xdm_checkouts.png"  /></kbd> 
+     
+12.	Click on ‘Checkouts' in the Events canvas
 
 	<kbd><img src="./images/segments_retail_events_checkouts.png"  /></kbd>       
 
-15.	In the left pane, click on ‘XDM ExperienceEvent’ and ‘Product list items’ in the resulting display
+13.	In the left pane, click on ‘XDM ExperienceEvent’ and ‘Product list items’ in the resulting display
 
 	<kbd><img src="./images/segment_xdm_prodlist.png"  /></kbd>
 
-16.	Select the ‘SKU’ field and drag that into the ‘XDM ExperienceEvent’ container for ‘Checkouts’
+14.	Select the ‘SKU’ field and drag that into the ‘XDM ExperienceEvent’ container for ‘Checkouts’
 
 	<kbd><img src="./images/segment_3_xdm_checkouts_prodsku.png"  /></kbd>
 
@@ -456,7 +448,11 @@ Instructions:
 
 18.	Click on ‘Purchases' in the Events canvas	
 
-	<kbd><img src="./images/segments_retail_events_purchase.png"  /></kbd>    
+	<kbd><img src="./images/segments_retail_events_purchase.png"  /></kbd>
+	
+19.	In the left pane, locate ‘Purchases’ and drag this to the segment canvas to the right of the ‘Checkouts’ event.
+
+	<kbd><img src="./images/segments_retail_xdm_purchases.png"  /></kbd> 
 
 19.	In the left pane, click on ‘XDM ExperienceEvent’ and ‘Product list items’ in the resulting display
 
