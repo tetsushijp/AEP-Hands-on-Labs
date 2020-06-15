@@ -309,6 +309,7 @@ Instructions:
 	<kbd><img src="./images/segment_properties_name_nostream.png"  /></kbd>
 
 29.  	Confirm your final segment is consistent with the screenshot.
+
 	<kbd><img src="./images/segment_retail_segment2_final.png"  /></kbd>      
 
 30.	Save the Segment
