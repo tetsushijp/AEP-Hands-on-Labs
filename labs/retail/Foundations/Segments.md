@@ -480,11 +480,12 @@ Instructions:
 
 	<kbd><img src="./images/segments_retail_browsevarmenu_checkouts.png"  /></kbd>  
 
-23.	Select the 'SKU' field and drag this to the right of ‘SKU equals’ in the ‘XDM Event Container’ for the Purchases 	 event. Release once the dynamic variable is positioned over the second box displays and drop. 
+23.	Select the 'SKU' field and drag this to the right of ‘SKU equals’ in the ‘XDM Event Container’ for the 'Purchases'	  event. 
+	Release once the dynamic variable is positioned over the second box displays and drop. 
 
 	<kbd><img src="./images/segments_retail_browsevarmenu_checkouts_sku.png"  /></kbd>  
 
-	The resulting statement should be ‘SKU equals Checkouts1 | Product list items1 SKU XDM ExperienceEvent > Product 	list items > SKU’
+	The resulting statement should be ‘SKU equals Checkouts1 | Product List Items1 SKU XDM ExperienceEvent > Product 	 List Items > SKU’
 
    	<kbd><img src="./images/segments_retail_xdm_purchase_dyn_checkoutsku.png"  /></kbd> 
 
@@ -499,20 +500,16 @@ Instructions:
 
 	<kbd><img src="./images/segment_segment3_events_container_inlast.png"  /></kbd>
       
-26.	Ensure ‘Streaming’ is enabled in the right pane
-
-	<kbd><img src="./images/segment_properties_streaming.png"  /></kbd>
-
-27.	Enter the segment name “Email Channel Online Order Abandoners” followed by your Student ID (e.g. “Email Channel Online Order Abandoners 025”).  Enter the same value as the description
+26.	Enter the segment name “Email Channel Online Order Abandoners” followed by your Student ID (e.g. “Email Channel 	Online Order Abandoners 025”).  Enter the same value as the description
 
 	<kbd><img src="./images/segment_properties_name3.png"  /></kbd>
 
-28.	Confirm your final segment is consistent with the screenshot.  
+27.	Confirm your final segment is consistent with the screenshot.  
 
 	<kbd><img src="./images/segment_segment3_final.png"  /></kbd>
 
 
-29.	Save the Segment
+28.	Save the Segment
 
 	<kbd><img src="./images/segment_retail_ordersave.png"  /></kbd>   
 
