@@ -124,7 +124,7 @@ NOTE: Estimate link may not show results if qualified profiles are statistically
 <br>
 <br>
 
-Lab 2 - Attribute + Sequential ExperienceEvent Segmentation
+Lab 2 - Attribute + Sequential ExperienceEvents Segmentation
 ==========
 <table style="border-collapse: collapse; border: none;" class="tab" cellspacing="0" cellpadding="0">
 
