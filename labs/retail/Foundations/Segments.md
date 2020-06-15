@@ -409,7 +409,9 @@ Instructions:
       
       <kbd><img src="./images/segments_retail_search_evar1.png"  /></kbd>      
             
-8.	Under ‘Browse Classes’, find and drag ‘eVar1’ to the segment canvas.  (Be sure it follows this path:  XDM 		ExperienceEvent > Experience > Analytics > Custom Dimensions > eVars > eVar1) It is usually the second entry listed.
+8.	Under ‘Browse Classes’, find and drag ‘eVar1’ to the segment canvas.  
+	(Be sure it follows this path:  XDM ExperienceEvent > Experience > Analytics > Custom Dimensions > eVars > eVar1)
+	It is usually the second entry listed.
 
 	<kbd><img src="./images/segments_retail_evar1.png"  /></kbd>
 	
@@ -432,7 +434,7 @@ Instructions:
 
 	<kbd><img src="./images/segments_retail_events_checkouts.png"  /></kbd>       
 
-13.	In the left pane, click on ‘XDM ExperienceEvent’ and ‘Product list items’ in the resulting display
+13.	In the left pane, click on ‘XDM ExperienceEvent’ and ‘Product List Items’ in the resulting display
 
 	<kbd><img src="./images/segment_xdm_prodlist.png"  /></kbd>
 
@@ -446,7 +448,7 @@ Instructions:
       -->
       <kbd><img src="./images/segments_travel_dyn_skuexists.png"  /></kbd>
       
-16.	Click on the folder icon below the search box, and then Click on 'Events'‘
+16.	Click on the folder icon below the search box, and then Click on 'Events'
 
 	<kbd><img src="./images/segment_retail_dynamic_purchases.png"  /></kbd>
 
@@ -458,7 +460,7 @@ Instructions:
 
 	<kbd><img src="./images/segments_retail_events_purchase.png"  /></kbd>
 
-18.	In the left pane, click on ‘XDM ExperienceEvent’ and ‘Product list items’ in the resulting display
+18.	In the left pane, click on ‘XDM ExperienceEvent’ and ‘Product List Items’ in the resulting display
 
 	<kbd><img src="./images/segment_xdm_prodlist.png"  /></kbd>
 
@@ -466,13 +468,11 @@ Instructions:
 
 	<kbd><img src="./images/segment_3_xdm_purchases_prodsku.png"  /></kbd>
 
-21.	In the left pane, click on the Events link. 
-      <!--
-      ![Demo](./images/segments_travel_dyn_browsevarmenu.png)
-      -->
-      <kbd><img src="./images/segments_retail_dyn_backtobrowsemenu.png"  /></kbd>  
+20.	Click on the folder icon below the search box, and then Click on 'Events'
+
+	<kbd><img src="./images/segment_retail_dynamic_purchases.png"  /></kbd> 
       
-      You should see ‘Browse Classes’, ‘Event Types’ and ‘Browse Variables’ sections appear
+      	You should see ‘Browse Classes’, ‘Event Types’ and ‘Browse Variables’ sections appear
       
       <kbd><img src="./images/segments_travel_dyn_browsevarmenu.png"  /></kbd>  
       
