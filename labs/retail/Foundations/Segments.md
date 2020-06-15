@@ -107,14 +107,14 @@ Instructions:
 12.	Enter the segment name “Call Center Order” followed by your Student ID (e.g. “Call Center Order 025”)
 	<br>Enter the same value as the description
       
-      <kbd><img src="./images/segment_retail_segmentname_nostream.png"  /></kbd>       
+      <kbd><img src="./images/segment_retail_callcenterorder.png"  /></kbd>       
            
 13.	Save the Segment
       <!--
       ![Demo](./images/segment_retail_callcenterorder.png)
       -->
       
-      <kbd><img src="./images/segment_retail_callcenterorder.png"  /></kbd>  
+      <kbd><img src="./images/segment_retail_ordersave.png"  /></kbd>  
       
 NOTE: Estimate link may not show results if qualified profiles are statistically small and not recognized across dataset scans 
 <br>
