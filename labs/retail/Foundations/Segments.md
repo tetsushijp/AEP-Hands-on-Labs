@@ -103,7 +103,7 @@ Instructions:
       
       <kbd><img src="./images/segment_retail_placeorder.png"  /></kbd>  
 
-12.	Ensure ‘Streaming’ is enabled in the right pane
+12.	Ensure ‘Streaming’ is NOT enabled in the right pane
 
       <kbd><img src="./images/segment_retail_streaming.png"  /></kbd>  
 
