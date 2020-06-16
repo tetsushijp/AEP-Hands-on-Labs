@@ -52,17 +52,18 @@ In Adobe Experience Platform there's a new feature of visualizing the entire rea
 Instructions:
 -----------------
 <ol>
-      <li>Log in to Adobe Experience Platform by going to this URL: https://platform.adobe.com</li>
-      <li>After logging in, you'll land on the homepage of Adobe Experience Platform.</li>
+<li>Log in to Adobe Experience Platform by going to this URL: https://platform.adobe.com</li>
+<li>After logging in, you'll land on the homepage of Adobe Experience Platform.</li>
+<li>Make sure you are in the 'Prod(VA7)' instance and not in your sandbox instance.</li>
 <li>In the menu on the left side, go to Profiles.</li>
-<li>Click on Find a Profile. By clicking on "Find a Profile", a popup appears in which a namespace and an ID can be entered.</li>
-<li>Next, go to https://americaspot2-publish.adobedemo.com/content/telus/language-masters/en.html in a browser.</li>
+<li>Click on the 'Browse' tab. You will see a UI in which a namespace and an ID can be entered.</li>
+<li>Next, go to https://americaspot5-publish.adobedemo.com/content/ch_robinson/language-masters/en.html in a browser.</li>
 <li>In the left margin, click on the “person” icon. This will display the X-ray panel from this website.</li>
-<li>Expand the Real-time Customer Profile section. </li>
+<li>Expand the 'Real-time Customer Profile section'. </li>
 <li>Observe the identities and their linkage to a namespace.</li>
 <li>Copy the value for ECID</li>
-<li>Go back to the ‘Find a Profile’ view in Experience Platform.</li>
-<li>Select the ECID Namespace and paste the value copied in the step above to view your Profile.</li>
+<li>Go back to Profile view page in Experience Platform.</li>
+<li>Select ECID from the Namespace dropdown and paste the value copied in the step above to view your Profile.</li>
 </ol>
 
 
