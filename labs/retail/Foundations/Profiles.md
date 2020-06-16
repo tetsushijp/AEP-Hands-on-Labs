@@ -51,16 +51,16 @@ In Adobe Experience Platform there's a new feature of visualizing the entire rea
 
 Instructions:
 -----------------
-<ol>
-<li>Log in to Adobe Experience Platform by going to this URL: https://platform.adobe.com</li>
-<li>After logging in, you'll land on the homepage of Adobe Experience Platform.</li>
-<li>Make sure you are in the 'Prod(VA7)' instance and not in your sandbox instance.</li>
-<li>In the menu on the left side, go to Profiles.</li>
-<li>Click on the 'Browse' tab. You will see a UI in which a namespace and an ID can be entered.</li>
-</ol>     
+
+1.    Log in to Adobe Experience Platform by going to this URL: https://platform.adobe.com</li>
+2.    After logging in, you'll land on the homepage of Adobe Experience Platform.</li>
+3.    Make sure you are in the 'Prod(VA7)' instance and not in your sandbox instance.</li>
+4.    In the menu on the left side, go to Profiles.</li>
+5.    Click on the 'Browse' tab. You will see a UI in which a namespace and an ID can be entered.</li>
+    
       <kbd><img src="./images/profile_view.png"  /></kbd>
-      <ol>
-<li>Next, go to https://americaspot5-publish.adobedemo.com/content/ch_robinson/language-masters/en.html in a browser.</li>
+    
+6.    Next, go to https://americaspot5-publish.adobedemo.com/content/ch_robinson/language-masters/en.html in a browser.</li>
 <li>In the left margin, click on the “person” icon. This will display the X-ray panel from this website.</li>
 <li>Expand the 'Real-time Customer Profile section'. </li>
 <li>Observe the identities and their linkage to a namespace.</li>
