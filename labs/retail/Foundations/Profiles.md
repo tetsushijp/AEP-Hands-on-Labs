@@ -52,22 +52,21 @@ In Adobe Experience Platform there's a new feature of visualizing the entire rea
 Instructions:
 -----------------
 
-1.    Log in to Adobe Experience Platform by going to this URL: https://platform.adobe.com</li>
-2.    After logging in, you'll land on the homepage of Adobe Experience Platform.</li>
-3.    Make sure you are in the 'Prod(VA7)' instance and not in your sandbox instance.</li>
-4.    In the menu on the left side, go to Profiles.</li>
-5.    Click on the 'Browse' tab. You will see a UI in which a namespace and an ID can be entered.</li>
+1.    Log in to Adobe Experience Platform by going to this URL: https://platform.adobe.com
+2.    After logging in, you'll land on the homepage of Adobe Experience Platform.
+3.    Make sure you are in the 'Prod(VA7)' instance and not in your sandbox instance.
+4.    In the menu on the left side, go to Profiles.
+5.    Click on the 'Browse' tab. You will see a UI in which a namespace and an ID can be entered.
     
-      <kbd><img src="./images/profile_view.png"  /></kbd>
+<kbd><img src="./images/profile_view.png"  /></kbd>
     
-6.    Next, go to https://americaspot5-publish.adobedemo.com/content/ch_robinson/language-masters/en.html in a browser.</li>
-<li>In the left margin, click on the “person” icon. This will display the X-ray panel from this website.</li>
-<li>Expand the 'Real-time Customer Profile section'. </li>
-<li>Observe the identities and their linkage to a namespace.</li>
-<li>Copy the value for ECID</li>
-<li>Go back to Profile view page in Experience Platform.</li>
-<li>Select ECID from the Namespace dropdown and paste the value copied in the step above to view your Profile.</li>
-</ol>
+6.    Next, go to https://americaspot5-publish.adobedemo.com/content/ch_robinson/language-masters/en.html in a browser.
+7.    In the left margin, click on the “person” icon. This will display the X-ray panel from this website.
+8.    Expand the 'Real-time Customer Profile section'. 
+9.    Observe the identities and their linkage to a namespace.
+10.   Copy the value for ECID</li>
+11.   Go back to Profile view page in Experience Platform.
+12.   Select ECID from the Namespace dropdown and paste the value copied in the step above to view your Profile.
 
 
 Return to [Lab Agenda Directory](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/media/README.md#lab-agenda)
