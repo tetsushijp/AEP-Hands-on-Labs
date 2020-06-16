@@ -58,8 +58,15 @@ Instructions:
 <li>In the menu on the left side, go to Profiles.</li>
 <li>Click on the 'Browse' tab. You will see a UI in which a namespace and an ID can be entered.</li>
 </ol>     
+
       <kbd><img src="./images/profile_view.png"  /></kbd>
-<ol>     
+      
+<ol>
+<li>
+<li>
+<li>
+<li>
+<li>
 <li>Next, go to https://americaspot5-publish.adobedemo.com/content/ch_robinson/language-masters/en.html in a browser.</li>
 <li>In the left margin, click on the “person” icon. This will display the X-ray panel from this website.</li>
 <li>Expand the 'Real-time Customer Profile section'. </li>
