@@ -72,7 +72,7 @@ Congratulations, you applied your first data usage label to a dataset field. Sim
 
    ![Demo](./images/datausagepolicy1.png)
 
-5. Under the Policy details, enter name "Custom Policy". Under Select governance labels, select "I1". On the right-hand side, make sure "Contains all of the labels" radio button is selected. Click "Next" button in the top right corner.
+5. Under the Policy details, enter name "Custom Policy {attendee_id}". Under Select governance labels, select "I1". On the right-hand side, make sure "Contains all of the labels" radio button is selected. Click "Next" button in the top right corner.
 
    ![Demo](./images/datausagepolicy2.png)
 
