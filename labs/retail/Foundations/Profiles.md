@@ -72,7 +72,8 @@ Instructions:
 15.   Click on the 'Registration' tab on the top right of the page.
 16.   Plug in some details and hit 'Register Now'
 17.   Go back to Experience Platform, click on 'Profiles' in the left panel, click on the 'Browse' tab and look up your ECID       again
-18.   Note the CRM Id assigned and linked to your ECID as a result of the registration action.
+18.   Note any changes in the Details, Attributes and Events tab. 
+19.   You will see a CRM Id assigned and linked to your ECID as a result of the registration action.
 
 
 Return to [Lab Agenda Directory](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/media/README.md#lab-agenda)
