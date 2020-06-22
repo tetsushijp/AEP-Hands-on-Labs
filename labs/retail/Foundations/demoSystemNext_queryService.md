@@ -1,4 +1,4 @@
-# Exercise - Queries, queries, queries,... and Data analysis
+# Exercise - Query Service
 
 <table style="border-collapse: collapse; border: none;" class="tab" cellspacing="0" cellpadding="0">
 
