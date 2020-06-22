@@ -75,7 +75,7 @@ How many product views do we have on a daily basis?
 ```sql
 select date_format( timestamp , 'yyyy-MM-dd') AS Day,
        count(*) AS productViews
-from   retail_demo_data_midvalues
+from   demo_system_event_dataset_for_website_retail_v1_1
 where  web.webPageDetails.pageViews.value = '1.0'
 group by Day
 order by day desc
@@ -90,16 +90,16 @@ Copy the statement above and execute it in your **PSQL command-line interface**.
 all-> limit 10;
     Day     | productViews
 ------------+--------------
- 2020-02-18 |        40791
- 2020-02-17 |        29814
- 2020-02-16 |         3482
- 2020-02-15 |        59161
- 2020-02-14 |        44334
- 2020-02-13 |        60469
- 2020-02-12 |        59922
- 2020-02-11 |        60461
- 2020-02-10 |        75166
- 2020-02-09 |       102264
+ 2020-04-01 |           52
+ 2020-03-31 |         1699
+ 2020-03-30 |         3716
+ 2020-03-29 |         1603
+ 2020-03-28 |         1891
+ 2020-03-27 |         1288
+ 2020-03-26 |         1574
+ 2020-03-25 |         2205
+ 2020-03-24 |         1667
+ 2020-03-23 |         2202
 (10 rows)
 
 all=>
@@ -113,7 +113,7 @@ What are the top 5 pages viewed?
 
 ```sql
 select web.webPageDetails.name, count(*)
-from   retail_demo_data_midvalues
+from   demo_system_event_dataset_for_website_retail_v1_1
 where  web.webPageDetails.pageViews.value = '1.0'
 group  by web.webPageDetails.name
 order  by 2 desc
@@ -127,13 +127,13 @@ Copy the statement above and execute it in your **PSQL command-line interface**.
 ```text
 all-> limit 5;
 prod:all-> limit 5;
-         name          | count(1)
------------------------+----------
- home                  |    59777
- OptinToLoyaltyProgram |    37338
- LoyaltyProgramPage    |    35502
- purchase: step 1      |    33348
- ViewProductDetailPage |    30345
+        name         | count(1)
+---------------------+----------
+ home                |     8751
+ purchase: step 1    |     4718
+ purchase: step 2    |     3399
+ search results      |     2321
+ purchase: thank you |     2155
 (5 rows)
 
 all=>
@@ -145,15 +145,15 @@ all=>
 
 ```sql
 select
-_experience.analytics.customDimensions.eVars.eVar9,
-_adobeamericaspot5.identification.Email as Email_Address
+aa._salesvelocity.identification.core.crmId,
+crm._salesvelocity.identification.core.email as Email_Address
 from
-retail_demo_data_midvalues aa,
-crm_profile_dataset crm
+demo_system_event_dataset_for_website_retail_v1_1 aa,
+demo_system_profile_dataset_for_crm_retail_v1_1 crm
 where
-crm._adobeamericaspot5.identification.CRMID = aa._experience.analytics.customDimensions.eVars.eVar9
-and web.webPageDetails.name = 'help'
-and _experience.analytics.customDimensions.eVars.eVar9 IS NOT NULL
+crm._salesvelocity.identification.core.crmId = aa._salesvelocity.identification.core.crmId
+and aa.web.webPageDetails.name = 'help'
+and aa._salesvelocity.identification.core.crmId IS NOT NULL
 limit 10;
 ```
 
@@ -219,23 +219,20 @@ FROM
           AS webPage_4,
         session.depth AS SessionPageDepth
       FROM (
-            select a.endUserIDs._experience.mcid.id as ecid,
+            select a._salesvelocity.identification.core.ecid as ecid,
                    a.timestamp,
-                   web.webPageDetails.name as webPage,
+                   a.web.webPageDetails.name as webPage,
                     SESS_TIMEOUT(timestamp, 60 * 30)
-                       OVER (PARTITION BY a.endUserIDs._experience.mcid.id
+                       OVER (PARTITION BY a._salesvelocity.identification.core.ecid
                              ORDER BY timestamp
                              ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW)
                   AS session
-            from   retail_demo_data_midvalues
- a
-            where  a.endUserIDs._experience.mcid.id in (
-                select b.endUserIDs._experience.mcid.id
-                from   retail_demo_data_midvalues
- b
-                where web.webPageDetails.name = 'help'
-				and b.endUserIDs._experience.mcid.id IS NOT NULL
-            )
+            from   demo_system_event_dataset_for_website_retail_v1_1 a
+            where  a._salesvelocity.identification.core.ecid in (
+                select b._salesvelocity.identification.core.ecid
+                from   demo_system_event_dataset_for_website_retail_v1_1  b
+                where b.web.webPageDetails.name = 'help'
+				and b._salesvelocity.identification.core.ecid IS NOT NULL )
         )
 )
 WHERE SessionPageDepth=1
@@ -250,19 +247,19 @@ Copy the statement above and execute it in your **PSQL command-line interface**.
 **Query Result**
 
 ```text
-prod:all-> LIMIT 10;
-         webPage         |        webPage_2        | webPage_3 |        webPage_4        | journeys
--------------------------+-------------------------+-----------+-------------------------+----------
- home                    | search results          | help      |                         |        8
- home                    | feedback                | help      |                         |        3
- home                    | edit account details    | help      |                         |        3
- home                    | search results          | help      | articles                |        2
- home                    | update info             | help      | service: service41      |        1
- home                    | location search results | help      |                         |        1
- home                    | search results          | help      | help: helpid1046        |        1
- download: downloadid100 | subscription            | help      | download: downloadid149 |        1
- home                    | feedback                | help      | about us                |        1
- events                  | event details           | help      | service: service24      |        1
+prod:all->
+      webPage      |         webPage_2          | webPage_3 |     webPage_4      | journeys
+-------------------+----------------------------+-----------+--------------------+----------
+ home              | location search results    | help      |                    |        2
+ home              | search results             | help      |                    |        2
+ sign in           | edit account details       | help      | service: service35 |        1
+ home              | students                   | help      | service: service1  |        1
+ lead form: step 1 | lead form: step 2          | help      | service: service1  |        1
+ home              | blogs                      | help      | forum              |        1
+ home              | feedback                   | help      | home               |        1
+ home              | no location search results | help      | help: helpid1005   |        1
+ home              | edit account details       | help      | service: service47 |        1
+ home              | staff                      | help      | online chat        |        1
 (10 rows)
 
 all=>
@@ -278,14 +275,14 @@ To answer this kind of query will we will use `TIME_BETWEEN_NEXT_MATCH()` Adobe 
 
 ```sql
 select * from (
-       select endUserIDs._experience.mcid.id as ecid,
+       select _salesvelocity.identification.core.ecid as ecid,
               web.webPageDetails.name as webPage,
               TIME_BETWEEN_NEXT_MATCH(timestamp, web.webPageDetails.name='contact us', 'seconds')
-              OVER(PARTITION BY endUserIDs._experience.mcid.id
+              OVER(PARTITION BY _salesvelocity.identification.core.ecid
                   ORDER BY timestamp
                   ROWS BETWEEN CURRENT ROW AND UNBOUNDED FOLLOWING)
               AS contact_us_after_seconds
-       from   retail_demo_data_midvalues
+       from   demo_system_event_dataset_for_website_retail_v1_1
 
        where  web.webPageDetails.name in ('help', 'contact us')
 
@@ -302,92 +299,13 @@ Copy the statement above and execute it in your **PSQL command-line interface**.
 **Query Result**
 
 ```text
-prod:all-> limit 15;
-                  ecid                  | webPage | contact_us_after_seconds
-----------------------------------------+---------+--------------------------
- 63823469114126614642345387152201006684 | help    |                      -90
- 80754420904774428733506250839143369594 | help    |                      -90
- 88377604148053432058816409689492601363 | help    |                      -97
- 74984852109255501757734972488849276412 | help    |                     -116
- 82687578684200753625403502085298173658 | help    |                     -201
- 60824733890573918241826149831006075370 | help    |                     -873
- 83087872889918868816169465668534057534 | help    |                   -13225
- 64901031099876963442816840090228734226 | help    |                   -24569
- 55022787637403064897181537130490186992 | help    |                   -47743
- 72553521774911701091274051601998328318 | help    |                  -324629
- 69409466322272568198835567698333577467 | help    |                  -381146
- 77778980049255480192820597476957991241 | help    |                  -389988
- 46681180103771127030304438795340301462 | help    |                  -390858
- 50028126323920080091412027150929606017 | help    |                  -445806
- 57977164580347900913210460396295142277 | help    |                  -635993
+prod:all->
+               ecid                | webPage | contact_us_after_seconds
+-----------------------------------+---------+--------------------------
+ 1695A01BBF285DEF-5027C02779607912 | help    |                      -35
+ 1366412EE238A6E1-63F15875707E2BCD | help    |                  -727929
+ 17EBD5EF8FBD92B1-17A21820C7F1D046 | help    |                 -1170316
+ 11DAE916DDDC1EE2-134FB3D00D20CFE2 | help    |                 -1379998
 
 all=>
 ```
-
-### What region are customers visiting from?
-
-Lets include the geographical info, like longitude, lattitude, city, countrycode, captured by the Adobe Experience Platform in order to get some geographical insights about churning customers.
-
-**SQL**
-
-```sql
-select distinct crm._adobeamericaspot5.identification.crmid,
-       r.city,
-       r.countrycode,
-       r.lat as latitude,
-       r.lon as longitude,
-       r.contact_us_after_seconds as seconds_to_contact_us
-from (
-       select endUserIDs._experience.mcid.id ecid,
-			_experience.analytics.customDimensions.eVars.eVar9 as crmid,
-              placeContext.geo._schema.latitude lat,
-              placeContext.geo._schema.longitude lon,
-              placeContext.geo.city,
-              placeContext.geo.countryCode,
-              web.webPageDetails.name as webPage,
-              TIME_BETWEEN_NEXT_MATCH(timestamp, web.webPageDetails.name='contact us', 'seconds')
-              OVER(PARTITION BY endUserIDs._experience.mcid.id
-                  ORDER BY timestamp
-                  ROWS BETWEEN CURRENT ROW AND UNBOUNDED FOLLOWING)
-              AS contact_us_after_seconds
-       from   retail_demo_data_midvalues
-
-       where  web.webPageDetails.name in ('help', 'contact us')
-) r
-, crm_profile_dataset crm
-where crm._adobeamericaspot5.identification.crmid = r.crmid
-and r.webPage = 'help'
-and  contact_us_after_seconds is not null
-order by seconds_to_contact_us desc
-limit 15;
-```
-
-Copy the statement above and execute it in your **PSQL command-line interface**.
-
-**Query Result**
-
-```text
- prod:all-> limit 15;
-      crmid       |        city         | countrycode |      latitude       |      longitude      | seconds_to_contact_us
-------------------+---------------------+-------------+---------------------+---------------------+-------------------------------
- crmid:2133727185 | monterrey           | MX          |  25.667099999999998 | -100.33699999999999 |                            -1
- crmid:8254082663 | perth               | AU          |            -31.9472 |             115.863 |                           -16
- crmid:9754491833 | antwerp             | BE          |             51.2288 |              4.4284 |                           -17
- crmid:3428751886 | copenhagen          | DK          |             55.6862 |             12.5891 |                           -30
- crmid:1886227231 | neuruppin           | DE          |             52.9225 |  12.806099999999999 |                           -34
- crmid:3304427019 | ogaki               | JP          |  35.387699999999995 |             136.629 |                           -41
- crmid:3002654182 | guayaquil           | EC          | -2.2044699999999997 |            -79.8962 |                           -43
- crmid:1853909148 | hong kong           | HK          |             22.2759 |             114.167 |                           -45
- crmid:5068058590 | rabat               | MA          |             34.0121 |            -6.83754 |                           -45
- crmid:2234687986 | chiba               | JP          |  35.626599999999996 |             140.065 |                           -46
- crmid:5994452115 | ?                   | EU          |              53.973 |               22.39 |                           -48
- crmid:5502020663 | parana              | AR          |            -31.7333 |            -60.5333 |                           -51
- crmid:5079558609 | zilina              | SK          |  49.223499999999994 |             18.7393 |                           -55
- crmid:6572225118 | les sables-d'olonne | FR          |                46.5 |            -1.80225 |                           -61
- crmid:2257033580 | budapest            | HU          |             47.4966 |             19.0114 |                           -67
-(15 rows)
-
-all=>
-```
-
-Return to [Lab Agenda Directory](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/media/README.md#lab-agenda)
