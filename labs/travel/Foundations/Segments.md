@@ -78,13 +78,11 @@
 
     ![Demo](./images/segment_travel_reservationbooking.png)
 
-11. Ensure ‘Streaming’ is enabled in the right pane.
+11. Enter the segment name “Call Center Reservation Booking”.
 
-12. Enter the segment name “Call Center Reservation Booking”.
+12. Enter the same value as the description.
 
-13. Enter the same value as the description.
-
-14. Save the Segment
+13. Save the Segment
 
     ![Demo](./images/segment_travel_reservationbookingsave.png)
 
@@ -215,13 +213,11 @@ NOTE: Estimate link may not show results if qualified profiles are statistically
 
 28. At the top of the ‘Events’ canvas, update the time value to ‘In last 24 Hour(s)’
 
-29. Ensure ‘Streaming’ is enabled in the right pane
+29. Enter the segment name “Lily Suites High Intent Female Bookers”.
 
-30. Enter the segment name “Lily Suites High Intent Female Bookers”.
+30. Enter the same value as the description
 
-31. Enter the same value as the description
-
-32. Save the Segment
+31. Save the Segment
 
     ![Demo](./images/segment_travel_me_save.png)
 
@@ -358,11 +354,9 @@ NOTE: Estimate link may not show results if qualified profiles are statistically
 
 24. At the top of the ‘Events’ canvas, update the time value to ‘In last 24 Hour(s)’
 
-26. Ensure ‘Streaming’ is enabled in the right pane
+25. Enter the segment name “Email Channel Online Reservation Abandoners”.
 
-27. Enter the segment name “Email Channel Online Reservation Abandoners”.
-
-28. Enter the same value as the description
+26. Enter the same value as the description
 
 29. Save the Segment
 
