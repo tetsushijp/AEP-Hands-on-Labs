@@ -160,23 +160,13 @@ Please follow the instructions below
 
       <kbd><img src="./images/CJA_ex001_step017.png" /></kdb>
 
-12. Now there's a new pop-up box -- this is where you can design/choose the attribution type to fit your analysis.  Choose theese settings:
-
-   Model : Time Decay
-   Lookback Window : Session
-   Half-life : 15 Minutes
-   
-      <kbd><img src="./images/CJA_ex001_step018.png" /></kdb>
-   
-  
-Click "Apply" so it updates the attribution setting on the metric
+12. Now there's a new pop-up box -- this is where you can design/choose the attribution type to fit your analysis.  Choose theese settings: (1) Model = Time Decay, (2) Lookback Window = Session and (3) Half-life : 15 Minutes
 
       <kbd><img src="./images/CJA_ex001_step018.png" /></kdb>
-            
-     
+ 
+   Click "Apply" so it updates the attribution setting on the metric
       
 13. Congratulations !!! you are done with the Dataset exercise.
-
 
       <kbd><img src="./images/CJA_ex001_step019.png" /></kdb>
 
