@@ -145,7 +145,10 @@ Please follow the instructions below
    
       <kbd><img src="./images/CJA_ex001_step015.png" /></kdb>
     
-    Below is an example web + call flow for a customer.  The blue timeline represents the web visit behaviors and the yellow is when they called into the call center.  Note: there needs to be some key that relates these 2 sources together so we can stitch both experiences together.  The call event (in the next instructions) will be related back to 'Product "A" Page'
+    Below is an example of "web + call flow" for an individual customer.  The blue timeline (starting on the left) represents the web visit behaviors and the yellow is when they called into the call center.
+    
+    
+    Note: there needs to be some key (like customer ID or in this dataset, CRMIDCombo) that relates these 2 sources together so we can stitch both experiences together.  The call event (in the next instructions) will be related back to 'Product "A" Page'
     
       <kbd><img src="./images/CJA_ex001_step015a.png" /></kdb>
        
@@ -153,17 +156,29 @@ Please follow the instructions below
 
       <kbd><img src="./images/CJA_ex001_step016.png" /></kdb>
 
-12. Steps below....
+11. Within this new pop-up, scroll down to the very last item called "Use non-default attribution model" and click the square check-box.
 
       <kbd><img src="./images/CJA_ex001_step017.png" /></kdb>
 
+12. Now there's a new pop-up box -- this is where you can design/choose the attribution type to fit your analysis.  Choose theese settings:
+
+   Model : Time Decay
+   Lookback Window : Session
+   Half-life : 15 Minutes
+   
       <kbd><img src="./images/CJA_ex001_step018.png" /></kdb>
-      
-      <kbd><img src="./images/CJA_ex001_step019.png" /></kdb>
-      
+   
+  
+Click "Apply" so it updates the attribution setting on the metric
+
+      <kbd><img src="./images/CJA_ex001_step018.png" /></kdb>
+            
+     
       
 13. Congratulations !!! you are done with the Dataset exercise.
 
+
+      <kbd><img src="./images/CJA_ex001_step019.png" /></kdb>
 
 <br>
 <br>
