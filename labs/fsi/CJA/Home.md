@@ -99,7 +99,7 @@ Creating a Data View
    ![Demo](images/cja-create-dataview2.png)
 Note: The "Session Timeout" and "Start new visit with event" and filters are configurable as well.
 
-3. Click the "Add All Components" button in the middle of the page and click "Save".
+3. You can limit dimensions and metrics in a Data View, but we'll include everything, so click the "Add All Components" button in the middle of the page and click "Save". 
    ![Demo](images/cja-create-dataview3.png)
 
 You should now be able to see your data view under the "Data View" tab. 
