@@ -15,7 +15,7 @@ This lab will show you how to use data ingested into Adobe Experience Platform w
 ### Key Takeaways
 
 * Understand concepts of CJA
-* Create Connections and data views in CJA
+* Create Connections and Data Views in CJA
 * Analyze data in CJA by creating projects and workspaces
 
 ### Prerequisites
