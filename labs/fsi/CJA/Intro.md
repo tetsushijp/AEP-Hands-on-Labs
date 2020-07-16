@@ -26,7 +26,7 @@ Creating a project
 
 <kbd><img src="./images/create-project.png"/></kdb>
 
-##Analysis Workspace User Interface
+### Analysis Workspace User Interface
 
 The left side rail contains the panel menu (where new panels can be dragged to the project), the visualization menu (where visualizations can be dragged to a panel), and the components menu (where Dimensions, Metrics and Filters are found and can be dragged to the panel visualizations.
 
