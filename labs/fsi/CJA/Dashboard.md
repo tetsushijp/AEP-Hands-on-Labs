@@ -73,16 +73,15 @@ You first must be logged into the Experience Platform [https://experience.adobe.
 -----------------
  - These instructions are based off of the "FSI" dataset -- the labels/results might be different from what your industry/environment looks like today, that's fine
  - All instructions should work despite slight differences within the data
- - NOTE: I'm using Connection <here> and Data View <here?
-
+ 
 Instructions:
 -----------------
 
 You will be creating a brand new CJA dashboard/project.  The focus of this project will be to explore the relationships between researched web products and customer calls that occured in the same session.
 
-Please follow the instructions below
+Please follow the instructions below.
 
-1. In the uppoer left-hand nav menu, navigate to "Projects" and choose "Create New Project"
+1. In the upper left-hand nav menu, navigate to "Projects" and choose "Create New Project"
 
 
       <kbd><img src="./images/CJA_ex001_step001.png" /></kdb>
