@@ -35,11 +35,11 @@ Lab 2.1 - Introduction to Analysis Workspace
       </tr>
       <tr>
             <td valign="middle" height="70"><b>version</b></td>
-            <td valign="middle" height="70">1.0.1</td>
+            <td valign="middle" height="70">1.0</td>
       </tr>
       <tr>
             <td valign="middle" height="70"><b>date</b></td>
-            <td valign="middle" height="70">2020-06-09</td>
+            <td valign="middle" height="70">07/15/2020</td>
       </tr>
 </tbody>
 </table>
