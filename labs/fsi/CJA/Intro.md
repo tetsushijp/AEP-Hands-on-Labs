@@ -49,22 +49,15 @@ Lab 2.1 - Introduction to Analysis Workspace
 </tr>
 </table>
 
-Log In to CJA:
+Log in to CJA:
 -----------------
 
 - Navigate to the Experience Platform [https://experience.adobe.com/](https://experience.adobe.com/).
 - Login with provided credentials.
-- Click on "Customer Journey Analytics" from the Quick access bar.
+- Click on "Customer Journey Analytics" from the Quick access bar. Another option is to navigate to [https://analytics.adobe.com/](https://analytics.adobe.com/)
 
      <kbd><img src="./images/quick-access.png"/></kdb>
 
-2.  Then click on "Experience Cloud"
-
-     <kbd><img src="./images/CJA_ex001_access002.png" /></kdb>
-
-3.  Once you've opened the main Experience Cloud product screen (for provisioned/deployed solutions),  click on the icon "Customer Journey Analytics" (it looks similar to the Adobe Analytics logo) 
-
-     <kbd><img src="./images/CJA_ex001_access003.png" /></kdb>
 
 **Excellent** -- Now you're ready to go...
 
