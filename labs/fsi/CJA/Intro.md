@@ -10,7 +10,7 @@ Understand how to create a dashboard using web, call center and CRM datasets.
 
 ### Exercise 1.1
 
-Log in to CJA and creeate project.
+Log in to CJA and create a project.
 
 1. Navigate to the Experience Platform [https://experience.adobe.com/](https://experience.adobe.com/).
 2. Login with provided credentials.
@@ -30,29 +30,36 @@ Log in to CJA and creeate project.
 
 The left side rail contains the panel menu (where new panels can be dragged to the project), the visualization menu (where visualizations can be dragged to a panel), and the components menu (where Dimensions, Metrics and Filters are found and can be dragged to the panel visualizations.
 
+6. Ensure the "DV 001" Data View is selected in the Data View selector.
+7. Click on the reporting date range and select May 13 - May 20 and click "Apply".
 
-Working with Filters
-----------------
+<kbd><img src="./images/date.png"/></kdb>
+
+8. Drag the "Day" dimension from the Components menu and drop it into the Freeform Table visualization in the Panel.
+9. Drag the "Sessions" metric from the Components menu and "Add" it to the right of the Events metric by hovering to the right of the Events metric until the "+ Add" appears in the Freeform Table visualization in the Panel.
+10. Drag the "People" metric from the Components menu and "Add" it to the right of the Events metric by hovering to the right of the Sessions metric until the "+ Add" appears in the Freeform Table visualization in the Panel.
+
+### Working with Filters
 - Creating a filter
 - Creating a cross-channel filter
 - Applying filters
 
-Working with Metrics
+### Working with Metrics
 ----------------
 - Creating a basic metric
 - Creating a cross-channel metric
 
-Working with Attribution IQ
+### Working with Attribution IQ
 ----------------
 
-Cross-Channel Pathing
+### Cross-Channel Pathing
 ----------------
 - Working with the Flow visualization
 - Working with the Fallout visualization
 - Working with Cohort Tables
 - Working with Sequential Filters
 
-Using the Venn Visualization to measure cross-over
+### Using the Venn Visualization to measure cross-over
 ----------------
 - Creating a basic metric
 - Creating a cross-channel metric
