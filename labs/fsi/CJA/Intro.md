@@ -66,22 +66,15 @@ Log in to CJA:
 Introduction to Analysis Workspace
 ----------------
 - Creating a project
-1. Click "Projects" in the top nav.
-2. Click "Create New Projet".
+      1. Click "Projects" in the top nav.
+      2. Click "Create New Project".
 
      <kbd><img src="./images/create-project.png"/></kdb>
 
--- Analysis Workspace User Interface 
-The left side rail contains the panel menu (where new panels can be dragged to the project), the visualization menu (where visualizations can be dragged to a panel), and the components menu (where Dimensions, Metrics and Filters are found and can be dragged to the panel visualizations
+- Analysis Workspace User Interface
+The left side rail contains the panel menu (where new panels can be dragged to the project), the visualization menu (where visualizations can be dragged to a panel), and the components menu (where Dimensions, Metrics and Filters are found and can be dragged to the panel visualizations.
 
-is a layout of date range, dimensions, 
      <kbd><img src="./images/interface.jpg"/></kdb>
-
-- Date Ranges
-- Dimensions
-- Metrics
-- Filters
-- Visualizations
 
 Working with Filters
 ----------------
