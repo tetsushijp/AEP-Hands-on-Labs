@@ -58,7 +58,7 @@ Instructions:
 
 ![Demo](./images/destinations_travel_destination_edit.png)
  
-4.	In Activate destination wizard, on the Select Segments page, select your version of the “Email Channel Online Reservation Abandoners” segment you created in the previous lab if it exists; otherwise, select any version of this segment.
+4.	In Activate destination wizard, on the Select Segments page, select your version of the “Email Channel Online Order Abandoners” segment you created in the previous lab if it exists; otherwise, select any version of this segment.
 
 ![Demo](./images/destinations_travel_activate_flow_1.png)
  
