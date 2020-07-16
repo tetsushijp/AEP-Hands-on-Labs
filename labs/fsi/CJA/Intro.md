@@ -10,7 +10,7 @@ Understand how to create a dashboard using web, call center and CRM datasets.
 
 ### Exercise 1.1
 
-Log in to CJA
+Log in to CJA and creeate project.
 
 1. Navigate to the Experience Platform [https://experience.adobe.com/](https://experience.adobe.com/).
 2. Login with provided credentials.
@@ -18,11 +18,9 @@ Log in to CJA
 
      <kbd><img src="./images/quick-access.png"/></kdb>
 
-### Exercise 1.2
 
-Creating a project
-1. Click "Projects" in the top nav.
-2. Click "Create New Project".
+4. Click "Projects" in the top nav.
+5. Click "Create New Project".
 
 <kbd><img src="./images/create-project.png"/></kdb>
 
