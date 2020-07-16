@@ -1,77 +1,33 @@
-Lab 2.1 - Introduction to Analysis Workspace
-==========
-<table style="border-collapse: collapse; border: none;" class="tab" cellspacing="0" cellpadding="0">
+# Introduction to Analysis Workspace
 
-<tr style="border: none;">
+## Objective
 
-<div align="left">
-<td width="600" style="border: none;">
-<table>
-<tbody valign="top">
-      <tr width="500">
-            <td valign="top"><h3>Objective:</h3></td>
-            <td valign="top"><br>This lab will show you the how to create a dashboard using data from web, call center and CRM datasets.
-            </td>
-     </tr>
-     <tr width="500">
-           <td valign="top"><h3>Prerequisites:</h3></td>
-           <td valign="top"><br>
-                            <li>Set up CJA Connection and Data View
-           </td>
-     </tr>
-</tbody>
-</table>
-</td>
-</div>
+Create a dashboard
 
-<div align="right">
-<td style="border: none;" valign="top">
+## Lesson Context
 
-<table>
-<tbody valign="top">
-      <tr>
-            <td valign="middle" height="70"><b>section</b></td>
-            <td valign="middle" height="70"><img src="https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/CJA/images/CJA_ex001_access003.png?raw=true" alt="Schemas"></td>
-      </tr>
-      <tr>
-            <td valign="middle" height="70"><b>version</b></td>
-            <td valign="middle" height="70">1.0</td>
-      </tr>
-      <tr>
-            <td valign="middle" height="70"><b>date</b></td>
-            <td valign="middle" height="70">07/15/2020</td>
-      </tr>
-</tbody>
-</table>
-</td>
-</div>
+We will understand how to create a dashboard using web, call center and CRM datasets.
 
-</tr>
-</table>
+### Exercise 1.1
 
-Log in to CJA:
------------------
+Log in to CJA
 
 1. Navigate to the Experience Platform [https://experience.adobe.com/](https://experience.adobe.com/).
 2. Login with provided credentials.
-3. Click on "Customer Journey Analytics" from the Quick access bar. Another option is to navigate to [https://analytics.adobe.com/](https://analytics.adobe.com/)
+3. Click on "Customer Journey Analytics" from the Quick access bar, or navigate to [https://analytics.adobe.com/](https://analytics.adobe.com/).
 
      <kbd><img src="./images/quick-access.png"/></kdb>
 
-**NOTE**
------------------
- - These instructions are based off of FSI datasets -- the labels/results might be different from what your industry/environment looks like today, but that's fine
- - All instructions should work despite slight differences within the data
-
-Introduction to Analysis Workspace
 ----------------
-- Creating a project
- 1. Click "Projects" in the top nav.
- 2. Click "Create New Project".
+### Exercise 1.2
+
+Creating a project
+1. Click "Projects" in the top nav.
+2. Click "Create New Project".
 
      <kbd><img src="./images/create-project.png"/></kdb>
 
-- Analysis Workspace User Interface
+##Analysis Workspace User Interface
 
 The left side rail contains the panel menu (where new panels can be dragged to the project), the visualization menu (where visualizations can be dragged to a panel), and the components menu (where Dimensions, Metrics and Filters are found and can be dragged to the panel visualizations.
 
@@ -104,105 +60,109 @@ Using the Venn Visualization to measure cross-over
 - Creating a cross-channel metric
 
 
-Instructions:
------------------
 
-You will be creating a brand new CJA dashboard/project.  The focus of this project will be to explore the relationships between researched web products and customer calls that occured in the same session.
+# Customer Journey Analytics
 
-Please follow the instructions below.
+## Table of Contents
 
-1. In the upper left-hand nav menu, navigate to "Projects" and choose "Create New Project"
+* [Lab Overview](#lab-overview)
+* [CJA Setup](#CJA-Setup)
 
+## Lab Overview
 
-      <kbd><img src="./images/CJA_ex001_step001.png" /></kdb>
-      
-      
-2. This is a blank project.  On the left-hand side, please type/search for "prod" -- this is filtering into the all aspects of the Data View (Dimensions, Metrics, Filters and Date Ranges).
+Today, most businesses collect mountains of data in their quest to better understand their customers so they can create great products and experiences. But the challenge isn’t just collecting more data, it’s integrating, analyzing, understanding, and sharing that data across the business. It requires the right data, from all channels, working together to paint a holistic picture of the customer journey, as well as the right tools to analyze the journey and quickly activate discovered insights. Customer Journey Analytics provides a toolkit to business intelligence and data science teams that help them stitch and analyze cross-channel data. Its capabilities deliver context and clarity to the complex multichannel customer journey.
 
+This lab will show you how to use data ingested into Adobe Experience Platform within Customer Journey Analytics.
 
-      <kbd><img src="./images/CJA_ex001_step002.png" /></kdb>
-      
-      
-3. Values should be populating below as you type but might be hard to see (with limitied pannel space).  The left-hand pannel can be expanded to make it more legiable -- please do this expansion now (drag to the right).
+### Key Takeaways
 
+* Understand concepts of CJA
+* Create Connections and Data Views in CJA
+* Analyze data in CJA by creating projects and workspaces
 
-      <kbd><img src="./images/CJA_ex001_step003.png" width="500" /></kdb>
- 
- 
-4. While mousing over "Web Product Name" card, please click on the small (i) icon that appears.  This show you both the location of the data (with context to the schema) and a preview of the top contents (according to the timeframe conditions)
-         
-      <kbd><img src="./images/CJA_ex001_step004.png" width="500" /></kdb>
+### Prerequisites
 
-   This results in...
+* High-level understanding of the Adobe Experience Platform
+* Basic knowledge of Adobe Analytics
+* Basic knowledge of Analysis Workspace in Adobe Analytics
 
-      <kbd><img src="./images/CJA_ex001_step005.png" width="500" /></kdb>
+### Background
 
-5. Close the preview pop-up (click off it).  Left-click on the "Web Product Name" dimension box (these are the product pages that were seen on the website) and drag and drop to the "Freeform Table" area on the right-hand side (this is the Workspace or Project canvas).  DON'T be discouraged if nothing populates -- it's likely the timeframe you're currently using doesn't have data-- this is a aspect of the demo data since it's only a small chunk of time loaded into CJA
-      
-      
-      <kbd><img src="./images/CJA_ex001_step006.png" width="500" /></kdb>
- 
- 
-6. On the right-hand side, locate the current timeframe (likely "This Month") left-click to change the time.  On the drop-down you can type "this year" or "year" and select the "This Year" option.  Your HOL instructor might give another timeframe as well. 
-      
-      
-      <kbd><img src="./images/CJA_ex001_step007.png" width="250" /></kdb>
+Customer Journey Analytics is an Adobe Experience Platform Application Service that lets you use the power of Analysis Workspace with data from Adobe Experience Platform. It can break down, filter, query, and visualize years' worth of data, and is combined with Platform's ability to hold all kinds of data schemas and types. Using the Experience Data Model (XDM), data can be uniformly represented and organized, ready for combination and exploration. Experience Query Services in AEP allows you to use SQL-compatible tools and frameworks to query and manipulate all your data. This data can then be imported into CJA for further analysis.
 
-      <kbd><img src="./images/CJA_ex001_step008.png" /></kdb>
+For today’s lab, we will be using 3 datasets from 3 different data sources:
 
-7. Before we go further, lets resize the Freeform Table so it's not stretched across the screen.  Follow the screenshots below as examples.
+1. Reduced Web EE Dataset
+2. Call Center EE Dataset
+3. CRM Data
 
-      <kbd><img src="./images/CJA_ex001_step009.png" /></kdb>
-      
-      <kbd><img src="./images/CJA_ex001_step010.png" /></kdb>
+### Customer Journey Analytics workflow
 
+![Demo](images/cja-steps.gif)
 
-8. The data within "Web Product Name" should have populated with the metric of "Events" -- Events should be thoughts as "instances" of this value occuring.  Let's add some "Orders" to the canvas-- clear the prior search (click the "x" icon on the right-hand side of the search-box).  Now type "orders"
+The schemas and datasets for the data sources have already been set up. These steps were covered in the Foundations session. We will begin this lab with step 3 from above steps.
 
-      <kbd><img src="./images/CJA_ex001_step011.png" /></kdb>
+# CJA Setup
 
-      <kbd><img src="./images/CJA_ex001_step012.png" /></kdb>
+## Objective
 
-      <kbd><img src="./images/CJA_ex001_step013.png" /></kdb>
+1. Create Data Connection
+2. Create Data View
 
+## Lesson Context
 
-9. Now add the "Calls" metric to the visualization
+In this lesson, we will get started with CJA. We will understand how to import the datasets available in AEP into CJA by creating data connections and data views.
 
-      <kbd><img src="./images/CJA_ex001_step014.png" /></kdb>
+### Exercise 1.1
 
-   The reason we have zero calls attributed to web products is because the call records doesn't happen on the same hit/record as the web product row/record -- they happen at different times.  The default attribution (of any timeseries based metric) is going to be at the event level.  We'll apply Attribution IQ to this metric.
-   
-      <kbd><img src="./images/CJA_ex001_step015.png" /></kdb>
-    
-    Below is an example of "web + call flow" for an individual customer.  The blue timeline (starting on the left) represents the web visit behaviors and the yellow is when they called into the call center.
-    
-    
-    Note: there needs to be some key (like customer ID or in this dataset, CRMIDCombo) that relates these 2 sources together so we can stitch both experiences together.  The call event (in the next instructions) will be related back to 'Product "A" Page'
-    
-      <kbd><img src="./images/CJA_ex001_step015a.png" /></kdb>
-       
-10. We're now going to fix the Calls metric attribution so it relates back into product names -- with your mouse, hover over the top of the Calls metric column and click on the gear icon
+Getting Started in CJA
 
-      <kbd><img src="./images/CJA_ex001_step016.png" /></kdb>
+1. Open CJA and ensure you are connected to the correct org.
+ [http://analytics.adobe.com/](http://analytics.adobe.com/)
 
-11. Within this new pop-up, scroll down to the very last item called "Use non-default attribution model" and click the square check-box.
+   You should see the screen as below
+   ![Demo](images/cja-home-screen.png)
 
-      <kbd><img src="./images/CJA_ex001_step017.png" /></kdb>
+### Exercise 1.2
 
-12. Now there's a new pop-up box -- this is where you can design/choose the attribution type to fit your analysis.  Choose theese settings: (1) Model = Time Decay, (2) Lookback Window = Session and (3) Half-life : 15 Minutes
+Creating a Connection
 
-      <kbd><img src="./images/CJA_ex001_step018.png" /></kdb>
- 
-   Click "Apply" so it updates the attribution setting on the metric
-      
-13. Congratulations !!! you are done with the Dataset exercise.
+1. Click on "Connections" tab then click on the "Create new connection" button.
+   ![Demo](images/cja-create-connection1.png)
 
-      <kbd><img src="./images/CJA_ex001_step019.png" /></kdb>
+2. Check the box next to the "Reduced Web EE Dataset", "Call Center EE Dataset" and "CRM Profile Dataset" dataset then click the "Add" button.
+   ![Demo](images/cja-create-connection2.png)
 
-<br>
-<br>
-<br>
+3. For each dataset, click on it and verify the correct "Person ID" is set as per the below table. After you've verified each, click the  "Next" button in the upper-right corner.
 
-Return to [Lab Agenda Directory](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/README.md#lab-agenda)
+    | Dataset | Person ID |
+    | ------- | --------- |
+    | Reduced Web EE Dataset      | CRMIDCombo        |
+    | Call Center EE Dataset      | CRMID        |
+    | CRM Profile Dataset      | CRMID        |
 
+   ![Demo](images/cja-create-connection3-1.png)
+   ![Demo](images/cja-create-connection3-2.png)
+   ![Demo](images/cja-create-connection3-3.png)
+
+ Note: If datasets have more than one identity, you need to go through each dataset and select the appropriate ID as "Person ID".
+
+4. Name your connection (HOL CJA Connection *attendee number*). Click the "Save" button instead of the "Save & create a data view" button by clicking the down icon.
+   ![Demo](images/cja-create-connection4.png)
+
+### Exercise 1.3
+
+Creating a Data View
+
+1. Click "Data Views" in the top navigation then click "+ Add" near the top.
+   ![Demo](images/cja-create-dataview1.png)
+
+2. Select your connection from the "Connection" drop-down. Name your data view (HOL CJA data View *attendee number*). Select your "Time Zone" and click "Add Components".
+   ![Demo](images/cja-create-dataview2.png)
+Note: The "Session Timeout" and "Start new visit with event" and filters are configurable as well.
+
+3. You can limit dimensions and metrics in a Data View, but we'll include everything, so click the "Add All Components" button in the middle of the page and click "Save". 
+   ![Demo](images/cja-create-dataview3.png)
+
+You should now be able to see your data view under the "Data View" tab. 
 
