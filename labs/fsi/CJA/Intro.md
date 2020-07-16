@@ -2,11 +2,11 @@
 
 ## Objective
 
-Create a dashboard
+Create a dashboard in CJA.
 
 ## Lesson Context
 
-We will understand how to create a dashboard using web, call center and CRM datasets.
+Understand how to create a dashboard using web, call center and CRM datasets.
 
 ### Exercise 1.1
 
@@ -18,20 +18,19 @@ Log in to CJA
 
      <kbd><img src="./images/quick-access.png"/></kdb>
 
-----------------
 ### Exercise 1.2
 
 Creating a project
 1. Click "Projects" in the top nav.
 2. Click "Create New Project".
 
-     <kbd><img src="./images/create-project.png"/></kdb>
+<kbd><img src="./images/create-project.png"/></kdb>
 
 ##Analysis Workspace User Interface
 
 The left side rail contains the panel menu (where new panels can be dragged to the project), the visualization menu (where visualizations can be dragged to a panel), and the components menu (where Dimensions, Metrics and Filters are found and can be dragged to the panel visualizations.
 
-     <kbd><img src="./images/interface.jpg"/></kdb>
+<kbd><img src="./images/interface.jpg"/></kdb>
 
 Working with Filters
 ----------------
