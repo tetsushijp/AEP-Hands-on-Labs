@@ -52,21 +52,55 @@ Lab 2.1 - Introduction to Analysis Workspace
 Log in to CJA:
 -----------------
 
-- Navigate to the Experience Platform [https://experience.adobe.com/](https://experience.adobe.com/).
-- Login with provided credentials.
-- Click on "Customer Journey Analytics" from the Quick access bar. Another option is to navigate to [https://analytics.adobe.com/](https://analytics.adobe.com/)
+1. Navigate to the Experience Platform [https://experience.adobe.com/](https://experience.adobe.com/).
+2. Login with provided credentials.
+3. Click on "Customer Journey Analytics" from the Quick access bar. Another option is to navigate to [https://analytics.adobe.com/](https://analytics.adobe.com/)
 
      <kbd><img src="./images/quick-access.png"/></kdb>
 
-
-**Excellent** -- Now you're ready to go...
-
-
-**DISCLAIMER**
+**NOTE**
 -----------------
- - These instructions are based off of the "FSI" dataset -- the labels/results might be different from what your industry/environment looks like today, that's fine
+ - These instructions are based off of FSI datasets -- the labels/results might be different from what your industry/environment looks like today, but that's fine
  - All instructions should work despite slight differences within the data
- 
+
+Introduction to Analysis Workspace
+----------------
+- Creating a project
+- Date Ranges
+- Dimensions
+- Metrics
+- Filters
+- Visualizations
+
+Working with Filters
+----------------
+- Creating a filter
+- Creating a cross-channel filter
+- Applying filters
+
+Working with Metrics
+----------------
+- Creating a basic metric
+- Creating a cross-channel metric
+
+Working with Attribution IQ
+----------------
+
+Cross-Channel Pathing
+----------------
+- Working with the Flow visualization
+- Working with the Fallout visualization
+- Working with Cohort Tables
+- Working with Sequential Filters
+
+Using the Venn Visualization to measure cross-over
+----------------
+- Creating a basic metric
+- Creating a cross-channel metric
+
+1. Navigate to the Experience Platform [https://experience.adobe.com/](https://experience.adobe.com/).
+2. L
+
 Instructions:
 -----------------
 
