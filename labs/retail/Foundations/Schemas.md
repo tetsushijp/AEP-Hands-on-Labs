@@ -75,8 +75,6 @@ Instructions:
     --->
 
     <kbd><img src="./images/schemaname.png"  /></kdb>
-
-
       
       
 4. In the right-hand menu, name it "Orders Schema &lt;your-assigned-number>" (Description is optional)
@@ -88,18 +86,18 @@ Instructions:
       <kbd><img src="./images/schemaname1.png"  /></kdb>
 
       
-5. In the left-hand schema composition menu, click on the "Assign" button across from Class
+5. In the left-hand schema composition menu, notice the class of "XDM ExperienceEvent". This value was set because you selected "XDM ExperienceEvent" after clicking the "Create Schema" button in prior step. If you need to assign of change the class, you would click on the "Assign" button to the right of Class.
 
 
     <!---
     ![Demo](./images/schemaclassassign.png)
     --->
 
-    <kbd><img src="./images/schemaclassassign.png"  /></kdb>
+    <kbd><img src="./images/class.png"  /></kdb>
 
       
       
-    Here's where you can choose your base level schema behavior:
+    If you click on "Assign" you can add or change the base-level schema behavior:
     - Time-based Events (ExperienceEvent)
     - Customer Snapshots (Profile)
      
@@ -112,7 +110,7 @@ Instructions:
 
       Note: There are other classes available out of the box that represent specific objects needed for Experience Modeling.
 
-6. In this example, choose "XDM ExperienceEvent" and click "Assign class"
+6. If you didn't select "XMD ExperienceEvent" when creating your schema, please review above step and choose "XDM ExperienceEvent" and click "Assign class".
 
       <!--
       ![Demo](./images/schemaclass1.png)
@@ -121,7 +119,7 @@ Instructions:
       <kbd><img src="./images/schemaclass1.png"  /></kdb>
        
       
-7. Now, click on the "Add" button across from "Mixins" on the left panel
+7. Click on the "Add" button to the right of "Mixins" in the left panel.
 
 
     <!---
@@ -135,7 +133,7 @@ Instructions:
       Here's where you can build your own Mixin or use a prior/similar Mixin object that conforms to your data.
            
       
-8. In this lab we will be adding three pre-built mixins listed below
+8. In this lab, we will be adding three pre-built mixins listed below:
 
       - Product Details Mixin EE,
       - Store Details Mixin EE,
