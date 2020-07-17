@@ -36,12 +36,15 @@ The left side rail contains the panel menu (where new panels can be dragged to t
 <kbd><img src="./images/date.png"/></kdb>
 
 8. Drag the "Day" dimension from the Components menu and drop it into the Freeform Table visualization in the Panel.
+
 <kbd><img src="./images/day.jpg"/></kdb>
 
 9. Drag the "Sessions" metric from the Components menu and "Add" it to the right of the Events metric by hovering to the right of the Events metric until the "+ Add" appears in the Freeform Table visualization in the Panel.
+
 <kbd><img src="./images/sessions.jpg"/></kdb>
 
 10. Drag the "People" metric from the Components menu and "Add" it to the right of the Events metric by hovering to the right of the Sessions metric until the "+ Add" appears in the Freeform Table visualization in the Panel.
+
 <kbd><img src="./images/people.jpg"/></kdb>
 
 
