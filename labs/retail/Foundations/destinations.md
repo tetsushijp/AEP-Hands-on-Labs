@@ -52,7 +52,9 @@ Instructions:
 1.	In the left navigation of AEP, select Destinations > Browse.
 2.	Click ‘Adobe Americas POT 5’. 
 
+<!---
 ![Demo](./images/act_browse.png)
+--->
 
 3.	Once you select the destination, click on ‘Edit Activation’. This takes you to the Activate flow.
 
