@@ -38,7 +38,7 @@ Lab  - Build an Orders schema (ExperienceEvent)
       </tr>
       <tr>
             <td valign="middle" height="70"><b>date</b></td>
-            <td valign="middle" height="70">2020-01-06</td>
+            <td valign="middle" height="70">2020-07-17</td>
       </tr>
 </tbody>
 </table>
@@ -60,7 +60,7 @@ Instructions:
       
       <kbd><img src="./images/schemahome.png"  /></kbd> 
       
-2. Click "Create Schema" on the top right
+2. Click "Create Schema" on the top right and select "XDM ExperienceEvent".
 
       <!--
       ![Demo](./images/schemacreate.png)
@@ -68,7 +68,7 @@ Instructions:
       
       <kbd><img src="./images/schemacreate.png"  /></kbd>
       
-3. Click on "Untitled Schema" in the structure view
+3. Click on "Untitled Schema" in the Structure view.
 
     <!---
     ![Demo](./images/schemaname.png)
