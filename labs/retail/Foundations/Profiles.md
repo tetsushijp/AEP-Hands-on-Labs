@@ -68,12 +68,15 @@ Instructions:
 11.   Go back to Profile view page in Experience Platform.
 12.   Select ECID from the Namespace dropdown and paste the value copied in the step above to view your Profile.
 13.   Click on each of the tabs you see - Details, Attributes, Events and Segment Membership.
-14.   Now, go back to https://americaspot5-publish.adobedemo.com/content/coka-cola/language-masters/en.html.
-15.   Click on the 'Registration' tab on the top right of the page.
+14.   Go back to https://americaspot5-publish.adobedemo.com/content/coka-cola/language-masters/en.html.
+15.   Click on the 'Registration' in the top navigation of the page.
 16.   Plug in some details and hit 'Register Now'.
 17.   Go back to Experience Platform, click on 'Profiles' in the left panel, click on the 'Browse' tab and look up your ECID again.
-18.   Note any changes in the Details, Attributes and Events tab. 
-19.   You will see a CRM Id assigned and linked to your ECID as a result of the registration action.
+18.   You will see a CRM Id assigned and linked to your ECID as a result of the registration action.
+19.   Go back to https://americaspot5-publish.adobedemo.com/content/coka-cola/language-masters/en.html.
+20.   Click on Login (top right of page).  
+21.   Enter the email address you used during registration and a value in Company Name (you can leave the default for number) and hit 'Login'.
+22.   Go back to Experience Platform, click on 'Profiles' in the left panel, click on the 'Browse' tab and look up your ECID again.
+19.   Note any changes to the customer profile on the Details tab. 
 
-
-Return to [Lab Agenda Directory](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/media/README.md#lab-agenda)
+Return to [Lab Agenda Directory](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/README.md#lab-agenda)
