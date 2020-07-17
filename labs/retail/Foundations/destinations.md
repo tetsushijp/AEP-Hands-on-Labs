@@ -1,4 +1,4 @@
-Lab  - Activation of Segments to a Destination (ExperienceEvent)
+Lab  - Activation of a Segment to a Destination 
 ==========
 <table style="border-collapse: collapse; border: none;" class="tab" cellspacing="0" cellpadding="0">
 
@@ -10,12 +10,12 @@ Lab  - Activation of Segments to a Destination (ExperienceEvent)
 <tbody valign="top">
       <tr width="500">
             <td valign="top"><h3>Objective:</h3></td>
-            <td valign="top"><br>In this exercise, we’ll share a segment created in a previous lab with the Salesforce Marketing Cloud destination configured in AEP.</br>
+            <td valign="top"><br>In this exercise, we’ll share a segment created in a previous lab with the Google Ad Manager destination configured in AEP.</br>
             </td>
      </tr>
      <tr width="500">
            <td valign="top"><h3>Prerequisites:</h3></td>
-           <td valign="top"><br>DSS SFMC S3 Destination</td>
+           <td valign="top"><br>Google Ad Manager Destination</td>
      </tr>
 </tbody>
 </table>
@@ -50,29 +50,28 @@ Lab  - Activation of Segments to a Destination (ExperienceEvent)
 Instructions:
 -----------------
 1.	In the left navigation of AEP, select Destinations > Browse.
-2.	Click ‘DSS SFMC S3 Destination’. 
+2.	Click ‘Adobe Americas POT 5’. 
 
-![Demo](./images/destinations_travel_browse.png)
+![Demo](./images/act_browse.png)
 
 3.	Once you select the destination, click on ‘Edit Activation’. This takes you to the Activate flow.
 
-![Demo](./images/destinations_travel_destination_edit.png)
+![Demo](./images/.png)
  
-4.	In Activate destination wizard, on the Select Segments page, select your version of the “Email Channel Online Order Abandoners” segment you created in the previous lab if it exists; otherwise, select any version of this segment.
+4.	In the Activate destination wizard > Select Segments step, select the checkbox for your version of the “Call Center Order” segment you created in the previous lab.
 
-![Demo](./images/destinations_travel_activate_flow_1.png)
+![Demo](./images/.png)
  
 5.	Select Next in the upper top corner of the workflow
-6.	This step only applies for segments mapped to email marketing destinations.
 
-![Demo](./images/destinations_travel_activate_flow_2.png)
+![Demo](./images/.png)
 
-7.	Click on ‘Add new field’ at the bottom
-8.	Enter ‘homeAddress.stateProvince’
-9.	Click on ‘Next’ in the upper top corner of the workflow
-10.	On the Schedule page, you can see the start date for sending data to the destination, as well as the frequency of sending data to the destination.
-11.	Click on ‘Next’ in the upper top corner of the workflow
-12.	On the Review page, you can see a summary of your selection. Select Finish to confirm your selection and start sending data to the destination.
+6.	On the Segment Schedule page, you can see the start date for sending data to the destination. Some destinations will display the frequency of sending data to the destination. Since we're activating a segment to Google, this will be sent to the destination once per day, and this is the only option for this destination.
+7.	Click on ‘Next’ in the upper top corner of the workflow
+
+![Demo](./images/.png)
+
+8.	On the Review page, you can see a summary of your selection. Please do not select 'Finish' for your segment in the lab; rather, select 'Cancel' to exit out the activation workflow.
 
 <br>
 <br>
