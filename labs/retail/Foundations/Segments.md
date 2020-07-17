@@ -337,6 +337,7 @@ Lab 3 - Dynamic Segmentation
       <tr width="500">
             <td valign="top"><h3>Objective:</h3></td>
             <td valign="top"><br>In this exercise, we’ll create a segment using Commerce ExperienceEvents and dynamic segmentation. Dynamic segmentation solves the scalability problems marketers traditionally face when building segments for marketing campaigns or other use cases where setting up multiple variations of the same segment was required.</br>
+	<br>On an ongoing 24 hour basis, a marketer wants to remarket to customers who have clicked through an email offer for an item, started an online order, but have not completed the order.</br>
       <br></br></td>
      </tr>
      <tr width="500">
