@@ -60,18 +60,18 @@ Instructions:
     
 <kbd><img src="./images/profile_view.png"  /></kbd>
     
-6.    Next, go to https://americaspot5-publish.adobedemo.com/content/ch_robinson/language-masters/en.html in a browser.
+6.    Next, go to https://americaspot5-publish.adobedemo.com/content/coka-cola/language-masters/en.html in a browser.
 7.    In the left margin, click on the “person” icon. This will display the X-ray panel from this website.
 8.    Expand the 'Real-time Customer Profile section'. 
 9.    Observe the identities and their linkage to a namespace.
 10.   Copy the value for ECID and save it to a text editor of your choice</li>
 11.   Go back to Profile view page in Experience Platform.
 12.   Select ECID from the Namespace dropdown and paste the value copied in the step above to view your Profile.
-13.   Click on each of the tabs you see - Details, Attributes, Events and Segment Membership
-14.   Now, go back to https://americaspot5-publish.adobedemo.com/content/ch_robinson/language-masters/en.html
+13.   Click on each of the tabs you see - Details, Attributes, Events and Segment Membership.
+14.   Now, go back to https://americaspot5-publish.adobedemo.com/content/coka-cola/language-masters/en.html.
 15.   Click on the 'Registration' tab on the top right of the page.
-16.   Plug in some details and hit 'Register Now'
-17.   Go back to Experience Platform, click on 'Profiles' in the left panel, click on the 'Browse' tab and look up your ECID       again
+16.   Plug in some details and hit 'Register Now'.
+17.   Go back to Experience Platform, click on 'Profiles' in the left panel, click on the 'Browse' tab and look up your ECID again.
 18.   Note any changes in the Details, Attributes and Events tab. 
 19.   You will see a CRM Id assigned and linked to your ECID as a result of the registration action.
 
