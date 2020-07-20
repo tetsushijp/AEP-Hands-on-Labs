@@ -86,7 +86,7 @@ Instructions:
       <kbd><img src="./images/schemaname1.png"  /></kdb>
 
       
-5. In the left-hand schema composition menu, notice the class of "XDM ExperienceEvent". This value was set because you selected "XDM ExperienceEvent" after clicking the "Create Schema" button in prior step. If you need to assign of change the class, you would click on the "Assign" button to the right of Class.
+5. In the left-hand schema composition menu, notice the class of "XDM ExperienceEvent". This value was set because you selected "XDM ExperienceEvent" after clicking the "Create Schema" button in a prior step. If you need to assign or change the class, you would click on the "+ Assign" button to the right of "Class".
 
 
     <!---
@@ -97,7 +97,7 @@ Instructions:
 
       
       
-    If you click on "Assign" you can add or change the base-level schema behavior:
+    If you click on "Assign", you can add or change the base-level schema behavior:
     - Time-based Events (ExperienceEvent)
     - Customer Snapshots (Profile)
      
@@ -110,7 +110,7 @@ Instructions:
 
       Note: There are other classes available out of the box that represent specific objects needed for Experience Modeling.
 
-6. If you didn't select "XMD ExperienceEvent" when creating your schema, please review above step and choose "XDM ExperienceEvent" and click "Assign class".
+6. If you didn't select "XDM ExperienceEvent" when creating your schema, please review above step and choose "XDM ExperienceEvent" and click "Assign class".
 
       <!--
       ![Demo](./images/schemaclass1.png)
@@ -119,14 +119,14 @@ Instructions:
       <kbd><img src="./images/schemaclass1.png"  /></kdb>
        
       
-7. Click on the "Add" button to the right of "Mixins" in the left panel.
+7. Click on the "+ Add" button to the right of "Mixins" in the left panel.
 
 
     <!---
     ![Demo](./images/schemamixin.png)
     --->
 
-    <kbd><img src="./images/schemamixin.png"  /></kdb>
+    <kbd><img src="./images/mixins.png"  /></kdb>
 
       
       
@@ -140,59 +140,30 @@ Instructions:
       - Identities Mixin EE
      
      
-      Search for 'Product Details Mixin EE'. Select the mixin and hit Assign Mixin
+      Select the 'Product Details Mixin EE', 'Store Details Mixin EE' and 'Identities Mixin EE' mixins, and click "Add mixin" button.
       
      <!-- 
      ![Demo](./images/schemamixin1.png)
      -->
-      <kbd><img src="./images/schemamixin1.png"  /></kdb>
+      <kbd><img src="./images/mixins.png"  /></kdb>
       
-      Your schema will now have the Product Details Mixin EE object and all of the fields within this object
+      Your schema will now have the Product Details Mixin EE object (productDetails), Store Details Mixin EE object (storeDetails) and Identities Mixin EE object (identification) and all of their associated fields in each object.
       
-      <!---
-      ![Demo](./images/schemamixin2.png)
-      --->
-
-      <kbd><img src="./images/schemamixin2.png"  /></kdb>          
-             
-      Hit +Add to go back to the Mixin list
-     
-      <kbd><img src="./images/schemamixin3.png"  /></kdb>     
-    
-             
-      Search for 'Store Details Mixin EE'. Select the mixin and hit Assign Mixin   
-       
-      <kbd><img src="./images/schemamixin16.png"  /></kdb>
-      
-      Your schema will now have the Store Details Mixin EE object and all of the fields within this object
-      
-      <kbd><img src="./images/schemamixin17.png"  /></kdb>
-      
-      Hit +Add to go back to the Mixin list
-      
-      <kbd><img src="./images/schemamixin18.png"  /></kdb>     
-             
-      And, repeat the steps for the Identities Mixin EE.  Search for 'Identities Mixin EE'. Select the mixin and hit Assign Mixin 
-                        
-      <kbd><img src="./images/schemamixin19.png"  /></kdb>     
-       
-      Your schema will now have the Identities Mixin EE object and all of the fields within this object
-      
-      <kbd><img src="./images/schemamixin20.png"  /></kdb>
+      <kbd><img src="./images/mixins-added.png"  /></kdb>
       
         
-9. Now, we'll create a new Mixin from scratch. Go back and hit the +Add button on the left panel.
+9. Now, we'll create a new Mixin from scratch. Go back and hit the "+ Add" button in the left panel.
 
       <kbd><img src="./images/schemamixin6.png"  /></kdb>    
        
       
-10. Select "Create new mixin" on the very top
+10. Select "Create new mixin" at the top.
 
 
       <kbd><img src="./images/schemamixin7.png"  /></kdb>    
       
       
-11. Display name is "Order Details Mixin EE &lt;your-assigned-number>" and then hit 'Add Mixin'
+11. Display name is "Order Details Mixin EE &lt;your-assigned-number>" and then hit 'Add Mixin'.
       
     <!--  
     ![Demo](./images/schemamixin8.png)
@@ -209,7 +180,7 @@ Instructions:
     <kbd><img src="./images/schemamixin9.png"  /></kdb>   
        
 
-13. Notice that on the Structure view a '+Add Field' appears next to the Schema name, Click it to start adding fields 
+13. Notice that on the Structure view a '+ Add Field' appears next to the Schema name, Click it to start adding fields 
 
 
     <!---
