@@ -180,7 +180,7 @@ Instructions:
     <kbd><img src="./images/schemamixin9.png"  /></kdb>   
        
 
-13. Notice that on the Structure view a '+ Add Field' appears next to the Schema name, Click it to start adding fields 
+13. Notice that on the Structure view a '+ Add field' appears next to the Schema name. Click it to start adding fields.
 
 
     <!---
@@ -190,7 +190,7 @@ Instructions:
     <kbd><img src="./images/schemamixin10.png"  /></kdb>   
 
 
-14. On the Field Properties panel to the right add the following  
+14. In the Field properties panel to the right, add the following:  
       - FieldName = orderDetails
       - Description = Order Details
       - Type = Object
@@ -207,7 +207,7 @@ Instructions:
     -->
     <kbd><img src="./images/schemaapply.png"  /></kdb>    
 
-15. Next, we will be adding fields to the 'orderDetails' object. Click "+Add Field" next to this object
+15. Next, we will be adding fields to the 'orderDetails' object. Click "+ Add Field" next to this object
 
     <!---
     ![Demo](./images/schemamixin12.png)
@@ -215,7 +215,7 @@ Instructions:
 
     <kbd><img src="./images/schemamixin12.png"  /></kdb>   
 
-16. On the Field Properties panel to the right add the following  
+16. In the Field properties panel to the right, add the following:
       - FieldName = orderID
       - Description = Order ID
       - Type = String
@@ -232,7 +232,7 @@ Instructions:
     -->
     <kbd><img src="./images/schemaapply.png"  /></kdb>    
 
-17. We will be adding three more fields to the 'orderDetials' object.  Click "+Add Field" next to the object
+17. We will be adding three more fields to the 'orderDetails' object.  Click "+ Add Field" next to the object.
 
     <!---
     ![Demo](./images/schemamixin12.png)
@@ -240,7 +240,7 @@ Instructions:
 
     <kbd><img src="./images/schemamixin12.png"  /></kdb>
 
-18. On the Field Properties panel to the right add the following  
+18. In the Field properties panel to the right, add the following:
       - FieldName = orderType
       - Description = Order Type
       - Type = String
@@ -257,7 +257,7 @@ Instructions:
     -->
     <kbd><img src="./images/schemaapply.png"  /></kdb>
     
-19. Click "+Add Field" next to the 'orderDetails' object.
+19. Click "+ Add Field" next to the 'orderDetails' object.
 
     <!---
     ![Demo](./images/schemamixin12.png)
@@ -265,7 +265,7 @@ Instructions:
 
     <kbd><img src="./images/schemamixin12.png"  /></kdb>
 
-20. On the Field Properties panel to the right add the following  
+20. In the Field properties panel to the right, add the following:
       - FieldName = orderFlag
       - Description = Order Flag
       - Type = Integer
@@ -292,7 +292,7 @@ Instructions:
 
 
 
-22. On the Field Properties panel to the right add the following  
+22. In the Field properties panel to the right, add the following:  
       - FieldName = orderSKUcount
       - Description = Order SKU Count
       - Type = Integer
@@ -310,7 +310,7 @@ Instructions:
     <kbd><img src="./images/schemaapply.png"  /></kdb>
     
     
-23. We are done with modeling the schema. Make sure that your schema structure looks like the one in the screenshot below
+23. We are done with modeling the schema. Make sure your schema structure looks like the one in the screenshot below.
  
      <!---
      ![Demo](./images/schemafinal.png)
