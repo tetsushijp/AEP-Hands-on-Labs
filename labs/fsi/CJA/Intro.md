@@ -44,10 +44,13 @@ The left side rail contains the panel menu (where new panels can be dragged to t
 10. Drag the "People" metric from the Components menu and "Add" it to the right of the Events metric by hovering to the right of the Sessions metric until the "+ Add" appears in the Freeform Table visualization in the Panel.
 <kbd><img src="./images/people.jpg"/></kdb>
 
+11. Click on "Freeform Table" in the top left corner of the table to edit the name of the table. Name it "Base KPIs Trended".
+<kbd><img src="./images/name-table.jpg"/></kdb>
 
-<kbd><img src="./images/kpis.jpg"/></kdb>
+12. Click on "Freeform" in the top left corner of the panel to edit the name of the panel. Name it "Dashboard".
+<kbd><img src="./images/name-panel.jpg"/></kdb>
 
-111. Click on "Freeform Table" in the top left corner of the table to edit the name of the table. Name it "Base KPIs Trended".
+
 ### Working with Filters
 - Creating a filter
 - Creating a cross-channel filter
