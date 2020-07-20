@@ -66,7 +66,7 @@ Instructions:
       ![Demo](./images/schemacreate.png)
       -->
       
-      <kbd><img src="./images/schemacreate.png"  /></kbd>
+      <kbd><img src="./images/create-schemaEE.png"  /></kbd>
       
 3. Click on "Untitled Schema" in the Structure view.
 
