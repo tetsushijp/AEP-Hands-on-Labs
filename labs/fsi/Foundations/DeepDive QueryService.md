@@ -105,10 +105,10 @@ all=>
 **SQL**
 
 ```sql
-select distinct _experience.analytics.customDimensions.eVars.eVar9, crm._adobedemoamericas270.identification.Email as emailAddress
+select distinct _experience.analytics.customDimensions.eVars.eVar9, crm._adobeamericaspot1.identification.Email as emailAddress
 from   fsi_demo_data_midvalues aa,
 crm_profile_dataset crm
-where crm._adobedemoamericas270.identification.CRMID = aa._experience.analytics.customDimensions.eVars.eVar9
+where crm._adobeamericaspot1.identification.CRMID = aa._experience.analytics.customDimensions.eVars.eVar9
 and web.webPageDetails.name = 'help' 
 and _experience.analytics.customDimensions.eVars.eVar9 IS NOT NULL
 limit 10;
@@ -320,7 +320,7 @@ from (
        where  web.webPageDetails.name in ('help', 'contact us')
 ) r
 , crm_profile_dataset crm
-where crm._adobedemoamericas270.identification.CRMID = r.crmid
+where crm._adobeamericaspot1.identification.CRMID = r.crmid
 and r.webPage = 'help'
 and  contact_us_after_seconds is not null
 order by seconds_to_contact_us desc
