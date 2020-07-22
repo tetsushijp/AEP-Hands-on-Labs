@@ -72,7 +72,7 @@ What are the top 5 pages viewed?
 
 ```sql
 select web.webPageDetails.name, count(*)
-from   fsi_demo_data_midvalues_20200512_211355_640
+from   fsi_demo_data_midvalues
 where  web.webPageDetails.pageViews.value = '1.0'
 group  by web.webPageDetails.name
 order  by 2 desc
@@ -192,10 +192,10 @@ FROM
                              ORDER BY timestamp 
                              ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW) 
                   AS session
-            from   fsi_demo_data_midvalues_20200512_211355_640 a
+            from   fsi_demo_data_midvalues a
             where  a.endUserIDs._experience.mcid.id in ( 
                 select b.endUserIDs._experience.mcid.id
-                from   fsi_demo_data_midvalues_20200512_211355_640 b
+                from   fsi_demo_data_midvalues b
                 where web.webPageDetails.name = 'help' 
 				and b.endUserIDs._experience.mcid.id IS NOT NULL
             )
@@ -249,7 +249,7 @@ select * from (
                   ORDER BY timestamp
                   ROWS BETWEEN CURRENT ROW AND UNBOUNDED FOLLOWING)
               AS contact_us_after_seconds
-       from   fsi_demo_data_midvalues_20200512_211355_640
+       from   fsi_demo_data_midvalues
        where  web.webPageDetails.name in ('help', 'contact us')
 	   
 ) r
@@ -316,7 +316,7 @@ from (
                   ORDER BY timestamp
                   ROWS BETWEEN CURRENT ROW AND UNBOUNDED FOLLOWING)
               AS contact_us_after_seconds
-       from   fsi_demo_data_midvalues_20200512_211355_640
+       from   fsi_demo_data_midvalues
        where  web.webPageDetails.name in ('help', 'contact us')
 ) r
 , crm_profile_dataset crm
