@@ -163,8 +163,8 @@ Instructions:
 <ol>
  <li>In the left navigation, select 'Segments' if you are not already there.</li>
 <li>In the upper right corner, select 'Create Segment'.</li>
-<li>In the right pane within the 'Create Segment' interface, enter the segment name 'High Credit Card Propensity' following by your Student Number (e.g. 'High Credit Card Propensity 001'). Enter the same value in the Description field.</li>
-<li>If the 'Streaming' toggle is not active, activate it.</li>
+<li>In the right pane within the 'Create Segment' interface, enter the segment name 'High Credit Card Propensity' following by your Student Number (e.g. 'High Credit Card Propensity 001').</li>
+<li>Enter the same value in the Description field.</li>
 <li>In the left pane, drill down the 'XDM ExperienceEvent' under Attributes by clicking on it.</li>
 <li>Under 'Browse Attributes', click on 'Adobeamericaspot 1'.</li>
 <li>Expand 'propensityProfileDetails' and drag 'propensityCreditCard' to the segment canvas</li>	
