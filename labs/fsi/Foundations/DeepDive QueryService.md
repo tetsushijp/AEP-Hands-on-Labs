@@ -106,7 +106,7 @@ all=>
 
 ```sql
 select distinct _experience.analytics.customDimensions.eVars.eVar9, crm._adobedemoamericas270.identification.Email as emailAddress
-from   fsi_demo_data_midvalues_20200512_211355_640 aa,
+from   fsi_demo_data_midvalues aa,
 crm_profile_dataset crm
 where crm._adobedemoamericas270.identification.CRMID = aa._experience.analytics.customDimensions.eVars.eVar9
 and web.webPageDetails.name = 'help' 
