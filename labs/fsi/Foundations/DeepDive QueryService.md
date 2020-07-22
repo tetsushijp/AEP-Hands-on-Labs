@@ -64,47 +64,6 @@ All queries listed in this chapter will be executed in your **PSQL command-line 
 
 Write basic queries for data analysis
 
-### Timestamp
-
-Data captured in Adobe Experience Platform is time stamped. The "timestamp" attribute allows you to analyze data over time.
-
-How many product views do we have on a daily basis? 
-
-**SQL**
-
-```sql
-select date_format( timestamp , 'yyyy-MM-dd') AS Day,
-       count(*) AS productViews
-from   fsi_demo_data_midvalues_20200512_211355_640
-where  web.webPageDetails.pageViews.value = '1.0'
-group by Day
-order by day desc
-limit 10;
-```
-
-Copy the statement above and execute it in your **PSQL command-line interface**.
-
-**Query Result**
-
-```text
-all-> limit 10;
-    Day     | productViews
-------------+--------------
- 2020-06-02 |        37102
- 2020-06-01 |        54757
- 2020-05-31 |        54371
- 2020-05-30 |        40199
- 2020-05-29 |        40536
- 2020-05-28 |        34541
- 2020-05-27 |        42915
- 2020-05-26 |        31663
- 2020-05-25 |        55336
- 2020-05-24 |        31692
-(10 rows)
-
-all=> 
-```
-
 ### Top 5 pages viewed
 
 What are the top 5 pages viewed?
