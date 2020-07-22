@@ -297,7 +297,7 @@ Lets include the geographical info, like longitude, lattitude, city, countrycode
 **SQL**
 
 ```sql
-select distinct crm._adobedemoamericas270.identification.CRMID,
+select distinct crm._adobeamericaspot1.identification.CRMID,
        r.city,
        r.countrycode,
        r.lat as latitude,
