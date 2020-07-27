@@ -204,28 +204,43 @@ Instructions:
 11.	Select ‘Events’ under Fields
 
        <kbd><img src="./images/segmentevents.png"  /></kbd>
+       
 12.	Click on ‘XDM ExperienceEvent’ under Browse Classes
 
       <kbd><img src="./images/segment_xdm_ee.png"  /></kbd>
       
 13.	Click on ‘Adobeamericaspot 1’ to expand the objects below that namespace
       
-      <kbd><img src="./images/segment_xdm_pot1.png"  /></kbd>
+      <kbd><img src="./images/.png"  /></kbd>
 
 14.	Click on 'transactionDetails'
 
+	<kbd><img src="./images/segment_transactiondetails.png"  /></kbd>
+
 15.	Drag the ‘transactionMethod’ field over to the Segment canvas
+
+	<kbd><img src="./images/segment_transactionmethod.png"  /></kbd>
 
 16.	In the left pane, find 'transactionName' and drag it to the canvas below the 'transactionMethod' event so they are vertically stacked.  The AND operator should remain.
 
+	<kbd><img src="./images/segment_transactionname.png"  /></kbd>
+
 17.	In the segment canvas, select the 'transactionMethod' event. A container will appear below to configure the rule for the event.  In the text box to the right of equals, type “broker” and press ‘Enter’
 
-18.  	In the segment canvas, select the 'transactionName' event.  In the event rule container, change the condition from equals to contains.  In the text box to the right of contains, type "IRA" and press 'Enter'
+	<kbd><img src="./images/transactionmethod_details.png"  /></kbd>
 
-19.  	At the top of the ‘Events’ canvas, update the time value to ‘In last 24 Hour(s)’
+18.  In the segment canvas, select the 'transactionName' event.  In the event rule container, change the condition from equals to contains.  In the text box to the right of contains, type "IRA" and press 'Enter'
+
+       <kbd><img src="./images/transactionname_details.png"  /></kbd>
+
+19.  At the top of the ‘Events’ canvas, update the time value to ‘In last 24 Hour(s)’
+
+	<kbd><img src="./images/segment_segment2_inlast.png"  /></kbd>
 
 20.	Enter the segment name “Female IRA customer working with Broker” followed by your Student ID (e.g. “Female IRA customer working with Broker 025”)
 	<br>Enter the same value as the description   
+	
+	<kbd><img src="./images/segment2_segmentname.png"  /></kbd>
            
 21.	Save the Segment
            
