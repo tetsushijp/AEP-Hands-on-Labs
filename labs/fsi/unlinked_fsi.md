@@ -1,6 +1,6 @@
 | Attendee #     | crmid  | email  |
 |------------|---|---|
-| attendee 001 | crmid:8633308767 | scorch1991@live.com |
+| attendee 001 | crmid:3741584241 | doglike1830@outlook.com |
 | attendee 002 | crmid:1797222984 | starers1977@yandex.com |
 | attendee 003 | crmid:7972677965 | compellable1971@yandex.com |
 | attendee 004 | crmid:6337683940 | alvera1861@yandex.com |
@@ -74,4 +74,3 @@
 | attendee 072 | crmid:6013577314 | polyodontia1916@live.com |
 | attendee 073 | crmid:8127903428 | barit2048@yahoo.com |
 | attendee 074 | crmid:8095895193 | constructor1961@outlook.com |
-| attendee 075 | crmid:3741584241 | doglike1830@outlook.com |
