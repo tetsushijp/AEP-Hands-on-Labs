@@ -122,7 +122,9 @@ Lab 6.2 - Segmentation - Profile Attribute with Experience Event Segmentation (M
 <tbody valign="top">
       <tr width="500">
             <td valign="top"><h3>Objective:</h3></td>
-            <td valign="top"><br>Similar to the prior lab, in this lab you will build a customer segment based on the unified experience event data (from EE Schemas/Datasets) that are streaming into platform</td>
+            <td valign="top"><br>In this exercise, we’ll create a segment using both a Profile Attribute and ExperienceEvents. </br>
+     <br>A marketer wants to create a segment of female customers that performed IRA (Traditional or Roth) transactions with a broker in the last 24 hours.</br>
+     </td>
      </tr>
      <tr width="500">
            <td valign="top"><h3>Prerequisites:</h3></td>
@@ -160,35 +162,46 @@ Lab 6.2 - Segmentation - Profile Attribute with Experience Event Segmentation (M
 
 Instructions:
 -----------------
-<ol>
- <li>In the left navigation, select 'Segments' if you are not already there.</li>
-<li>In the upper right corner, select 'Create Segment'.</li>
-<li>In the right pane within the 'Create Segment' interface, enter the segment name 'High Credit Card Propensity' following by your Student Number (e.g. 'High Credit Card Propensity 001').</li>
-<li>Enter the same value in the Description field.</li>
-<li>In the left pane, drill down the 'XDM ExperienceEvent' under Attributes by clicking on it.</li>
-<li>Under 'Browse Attributes', click on 'Adobeamericaspot 1'.</li>
-<li>Expand 'propensityProfileDetails' and drag 'propensityCreditCard' to the segment canvas</li>	
-<li>Select "is greater than" from the condition list box and enter "5" in the text box</li>	
+1.	Navigate to Segment Builder in the left navigation
 
-<kbd><img src="./images/seg_propensity.png"  /></kbd>  	
+      <kbd><img src="./images/segmenthome.png"  /></kbd>
 
-<li>In the left pane, select 'Events' under 'Fields.</li>
-<li>Click on 'XDM ExperienceEvent' under 'Browse Classes'.</li>
-<li>Click on 'Adobeamericaspot1' to expand the object. </li>
-<li>Click on 'transactionDetails' to expand the object</li>
-<li>Locate 'transactionType' and drag this to the segment canvas.</li>
-<li>Once 'transactionType' appears in the segment canvas, select 'Equals' as the condition and enter 'Savings' in the text box and press 'Enter'.</li>
+2.    Click "Create segment" on the top right.
 
-<kbd><img src="./images/seg_transType.png"  /></kbd>  	
+      <kbd><img src="./images/createsegment.png"  /></kbd>
 
-<li>In the left pane, locate 'transactionSKU' and drag this field to the segment canvas underneath 'transactionType' (the first event). The new event should be "stacked" below the first event as shown below</li>
+3.	Click the gear icon to the right of Fields in the left pane
 
-<kbd><img src="./images/seg_transSku.png"  /></kbd>  	
+      <kbd><img src="./images/segmentfieldsgear.png"  /></kbd>
 
-<li>Enter 'prd1076' in the text box to the right of 'transactionSKU =' and press 'Enter'.</li>     
-<li>At the top of the ‘Events’ canvas, update the time value to ‘In last 24 Hour(s)’</li>
-<li>Save your segment</li>
-</ol>    
+4.	Verify ‘Show full XDM schema’ is selected, and if not, select it
+           
+      <kbd><img src="./images/segment_gear.png"  /></kbd>
+      
+5.	Click on the gear icon again to hide the setting
+
+      <kbd><img src="./images/segmentfieldsgearclose.png"  /></kbd>
+
+6. 	Select ‘Attributes’ under Fields
+
+	<kbd><img src="./images/segmentattributes.png"  /></kbd>
+
+7.	Click on the ‘XDM Individual Profile’ object under Browse Attributes
+
+	<kbd><img src="./images/segmentattributes_xdm.png"  /></kbd>
+
+8.	Click on ‘Person’ 
+
+	<kbd><img src="./images/segmentattributes_xdm_person.png"  /></kbd>
+
+9.	Drag the ‘Gender’ field to the Segment canvas
+
+	<kbd><img src="./images/segmentattributes_xdm_person_gender.png"  /></kbd>
+
+10.	Start entering ‘Female’ in the text box and when the value displays, select it and press Enter. The ‘Gender’ field is an enum field to limit the values stored in that field.
+	<kbd><img src="./images/segment_travel_me_gender.png"  /></kbd>
+      
+
  
 <br>
 <br>
