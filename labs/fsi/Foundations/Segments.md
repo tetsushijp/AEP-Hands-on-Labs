@@ -200,8 +200,36 @@ Instructions:
 
 10.	Start entering ‘Female’ in the text box and when the value displays, select it and press Enter. The ‘Gender’ field is an enum field to limit the values stored in that field.
 	<kbd><img src="./images/segment_travel_me_gender.png"  /></kbd>
-      
 
+11.	Select ‘Events’ under Fields
+
+       <kbd><img src="./images/segmentevents.png"  /></kbd>
+12.	Click on ‘XDM ExperienceEvent’ under Browse Classes
+
+      <kbd><img src="./images/segment_xdm_ee.png"  /></kbd>
+      
+13.	Click on ‘Adobeamericaspot 1’ to expand the objects below that namespace
+      
+      <kbd><img src="./images/segment_xdm_pot1.png"  /></kbd>
+
+14.	Click on 'transactionDetails'
+
+15.	Drag the ‘transactionMethod’ field over to the Segment canvas
+
+16.	In the left pane, find 'transactionName' and drag it to the canvas below the 'transactionMethod' event so they are vertically stacked.  The AND operator should remain.
+
+17.	In the segment canvas, select the 'transactionMethod' event. A container will appear below to configure the rule for the event.  In the text box to the right of equals, type “broker” and press ‘Enter’
+
+18.  	In the segment canvas, select the 'transactionName' event.  In the event rule container, change the condition from equals to contains.  In the text box to the right of contains, type "IRA" and press 'Enter'
+
+19.  	At the top of the ‘Events’ canvas, update the time value to ‘In last 24 Hour(s)’
+
+20.	Enter the segment name “Female IRA customer working with Broker” followed by your Student ID (e.g. “Female IRA customer working with Broker 025”)
+	<br>Enter the same value as the description   
+           
+21.	Save the Segment
+           
+      <kbd><img src="./images/segment_fsi_save.png"  /></kbd>  
  
 <br>
 <br>
