@@ -144,9 +144,9 @@ Go to [https://platform.adobe.com/home](https://platform.adobe.com/home). Follow
     <kbd><img src="./images/schemamixin10.png"  /></kdb>
 
 14. On the Field Properties panel to the right add the following  
-    |FieldName |= orderDetails|
-    |Description |= Order Details|
-    |Type |= Object|
+    - FieldName = orderDetails|
+    - Description = Order Details|
+    - Type = Object|
 
 
     ![Demo](./images/schemamixin11.png)
@@ -162,9 +162,9 @@ Go to [https://platform.adobe.com/home](https://platform.adobe.com/home). Follow
     <kbd><img src="./images/schemamixin12.png"  /></kdb>
 
 16. On the Field Properties panel to the right add the following  
-    FieldName = orderFlag
-    Description = Order Flag
-    Type = Integer
+    - FieldName = orderFlag
+    - Description = Order Flag
+    - Type = Integer
 
 
      ![Demo](./images/schemamixin13.png)
@@ -181,9 +181,9 @@ Go to [https://platform.adobe.com/home](https://platform.adobe.com/home). Follow
     <kbd><img src="./images/schemamixin12.png"  /></kdb>
 
 18. On the Field Properties panel to the right add the following  
-     FieldName = orderID
-    Description = Order ID
-    Type = String
+    - FieldName = orderID
+    - Description = Order ID
+    - Type = String
 
     ![Demo](./images/schemamixin14.png)
 
@@ -198,9 +198,9 @@ Go to [https://platform.adobe.com/home](https://platform.adobe.com/home). Follow
     <kbd><img src="./images/schemamixin15.png"  /></kdb>
 
 20. On the Field Properties panel to the right add the following  
-     FieldName = orderType
-    Description = Order Type
-    Type = String
+    - FieldName = orderType
+    - Description = Order Type
+    - Type = String
 
 
     ![Demo](./images/schemamixin15.png)
