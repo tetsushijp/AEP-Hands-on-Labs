@@ -144,9 +144,9 @@ Go to [https://platform.adobe.com/home](https://platform.adobe.com/home). Follow
     <kbd><img src="./images/schemamixin10.png"  /></kdb>
 
 14. On the Field Properties panel to the right add the following  
-    - FieldName = orderDetails|
-    - Description = Order Details|
-    - Type = Object|
+    - FieldName = orderDetails
+    - Description = Order Details
+    - Type = Object
 
 
     ![Demo](./images/schemamixin11.png)
