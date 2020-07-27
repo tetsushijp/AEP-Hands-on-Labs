@@ -211,7 +211,7 @@ Instructions:
       
 13.	Click on ‘Adobeamericaspot 1’ to expand the objects below that namespace
       
-      <kbd><img src="./images/.png"  /></kbd>
+       <kbd><img src="./images/segment_xdm_pot1.png"  /></kbd>
 
 14.	Click on 'transactionDetails'
 
@@ -235,7 +235,7 @@ Instructions:
 
 19.  At the top of the ‘Events’ canvas, update the time value to ‘In last 24 Hour(s)’
 
-	<kbd><img src="./images/segment_segment2_inlast.png"  /></kbd>
+   <kbd><img src="./images/segment_segment2_inlast.png"  /></kbd>
 
 20.	Enter the segment name “Female IRA customer working with Broker” followed by your Student ID (e.g. “Female IRA customer working with Broker 025”)
 	<br>Enter the same value as the description   
