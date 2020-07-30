@@ -24,6 +24,7 @@ The lab content is designed to cater to different industry verticals:
  - [Retail](https://github.com/adobe/AEP-Hands-on-Labs/tree/master/labs/retail/)
  - [Travel & Hospitality](https://github.com/adobe/AEP-Hands-on-Labs/tree/master/labs/travel/)
  - [FSI](https://github.com/adobe/AEP-Hands-on-Labs/tree/master/labs/fsi/)
+ - [FSI6](https://github.com/adobe/AEP-Hands-on-Labs/tree/master/labs/fsi6/)
  - [Media & Entertainment](https://github.com/adobe/AEP-Hands-on-Labs/tree/master/labs/media/)
  - [Auto](https://github.com/adobe/AEP-Hands-on-Labs/tree/master/labs/auto/) *
  - [High Tech](https://github.com/adobe/AEP-Hands-on-Labs/tree/master/labs/tech/) *
