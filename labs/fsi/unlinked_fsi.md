@@ -1,5 +1,3 @@
-Updated for MFS
-
 | Attendee # | crmid | email |
 |-----|------------------|------------------------------|
 | 001 | crmid:4144955747 | egalites2015@live.com |
