@@ -1,5 +1,5 @@
 | Attendee #     | crmid  | email  |
-|------------|---|---|
+|-----|------------------|------------------------------|
 | 001 | crmid:4144955747 | egalites2015@live.com |
 | 002 | crmid:7107292872 | costard1956@yahoo.com |
 | 003 | crmid:6095864776 | ateles1999@outlook.com |
