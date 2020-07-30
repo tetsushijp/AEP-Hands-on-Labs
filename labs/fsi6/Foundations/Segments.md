@@ -79,7 +79,7 @@ Instructions:
 
       <kbd><img src="./images/segment_xdm_ee.png"  /></kbd>
       
-8.	Click on ‘Adobeamericaspot 1’ to expand the objects below that namespace
+8.	Click on ‘Adobedemoamericas 270’ to expand the objects below that namespace
       
       <kbd><img src="./images/segment_xdm_pot1.png"  /></kbd>
 
@@ -250,6 +250,6 @@ Instructions:
 <br>
 <br>
 
-Return to [Lab Agenda Directory](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/README.md#lab-agenda)
+Return to [Lab Agenda Directory](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi6/README.md#lab-agenda)
  
  
