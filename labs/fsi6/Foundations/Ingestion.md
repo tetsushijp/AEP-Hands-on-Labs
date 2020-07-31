@@ -109,4 +109,3 @@ Once corrected, the mappings should match the screenshot below. Once you have ve
 <br>
 
 Return to [Lab Agenda Directory](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi6/README.md#lab-agenda)
-
