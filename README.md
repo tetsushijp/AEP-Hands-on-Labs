@@ -10,7 +10,7 @@ Hands-on Labs (HOLs) are consultant lead sessions to get in-tool access and exer
 ## Goals
 
 As the general HOL offering will continue to grow over time, so too will the course
-excerises and lab content.  This repo will hold
+exercises and lab content.
 
 ## Non-Goals
 
