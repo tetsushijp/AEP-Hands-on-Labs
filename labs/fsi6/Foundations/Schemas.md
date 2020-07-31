@@ -82,7 +82,7 @@ Reminder: the class defines the smallest set of fields used to build a schema an
     - Record (Profile)
 
 
-      <kbd><img src="./images/schemaclass.png"  /></kdb>
+<kbd><img src="./images/schemaclass.png"  /></kdb>
 
 
       Note: There are other classes available out of the box that represent specific objects needed for Experience Modeling.
@@ -100,9 +100,9 @@ Reminder: the class defines the smallest set of fields used to build a schema an
    - Identities Mixin EE
    - Transaction Details Mixin EE
 
-   Search for 'Transaction Details Mixin EE'. Select the mixin and click "Assign Mixin".
+   Select the "Transaction Details Mixin EE" and "Identities Mixin EE" mixins and click "Add mixin".
 
-   Your schema will now have the identification object and all of the fields within this object.
+   Your schema will now have the "identification" and "transactionDetails" objects and all of the fields within this object.
 
    <kbd><img src="./images/schemamixin2.png"  /></kdb>
 
