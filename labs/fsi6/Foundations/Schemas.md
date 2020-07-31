@@ -125,12 +125,12 @@ Reminder: the class defines the smallest set of fields used to build a schema an
 
     <kbd><img src="./images/schemamixin8.png"  /></kdb>
 
-12. Notice that on the Structure view a '+Add Field' appears next to the Schema name, Click it to start adding fields
+12. Notice that on the Structure view a '+ Add Field' appears next to the Schema name, Click it to start adding fields
 
 
     <kbd><img src="./images/schemamixin10.png"  /></kdb>
 
-13. On the Field Properties panel to the right add the following  
+13. In the Field properties panel on the right, add the following:  
     - FieldName = orderDetails
     - Description = Order Details
     - Type = Object
@@ -139,16 +139,16 @@ Reminder: the class defines the smallest set of fields used to build a schema an
     ![Demo](./images/schemamixin11.png)
 
 
-    Scroll  down and hit Apply
+    Scroll down and click Apply.
 
 
     ![Demo](./images/schemaapply.png)
 
-14. Next, we will be adding fields to the 'orderDetails' object Click "+Add Field" next to this object
+14. Next, we will be adding fields to the 'orderDetails' object Click "+ Add Field" next to this object
 
     <kbd><img src="./images/schemamixin12.png"  /></kdb>
 
-15. On the Field Properties panel to the right add the following  
+15. In the Field properties panel on the right, add the following:  
     - FieldName = orderFlag
     - Description = Order Flag
     - Type = Integer
@@ -157,17 +157,17 @@ Reminder: the class defines the smallest set of fields used to build a schema an
      ![Demo](./images/schemamixin13.png)
 
 
-     Scroll down and hit Apply
+     Scroll down and click Apply.
 
 
     ![Demo](./images/schemaapply.png)
 
-16. We will be adding one more field to the 'orderDetails' object Click "+Add Field" next to this object
+16. We will be adding one more field to the 'orderDetails' object Click "+ Add Field" next to this object
 
 
     <kbd><img src="./images/schemamixin12.png"  /></kdb>
 
-17. On the Field Properties panel to the right add the following  
+17. In the Field properties panel on the right, add the following:  
     - FieldName = orderID
     - Description = Order ID
     - Type = String
@@ -175,16 +175,16 @@ Reminder: the class defines the smallest set of fields used to build a schema an
     ![Demo](./images/schemamixin14.png)
 
 
-    Scroll down and hit Apply
+    Scroll down and click Apply
 
 
     ![Demo](./images/schemaapply.png)
 
-18. Next, We will be adding our final field to the 'orderDetails' object Click "+Add Field" next to this object
+18. Next, We will be adding our final field to the 'orderDetails' object Click "+ Add Field" next to this object
 
     <kbd><img src="./images/schemamixin15.png"  /></kdb>
 
-19. On the Field Properties panel to the right add the following  
+19. In the Field properties panel on the right, add the following:  
     - FieldName = orderType
     - Description = Order Type
     - Type = String
