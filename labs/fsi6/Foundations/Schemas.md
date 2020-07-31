@@ -88,7 +88,7 @@ Reminder: the class defines the smallest set of fields used to build a schema an
     Note: There are other classes available out of the box that represent specific objects needed for Experience Modeling.
 
 
-6. Click on the "Add" button across from "Mixins" in left-hand schema composition menu.
+6. Click on the "+ Add" button across from "Mixins" in left-hand schema composition menu.
 
 
     <kbd><img src="./images/schemamixin.png"  /></kdb>
@@ -104,15 +104,11 @@ Reminder: the class defines the smallest set of fields used to build a schema an
 
    <kbd><img src="./images/schemamixin2.png"  /></kdb>
 
-   Hit +Add to go back to the Mixin list
+   Your schema will now have the "identification" and "transactionDetails" objects and all of the fields within this object.
 
    <kbd><img src="./images/schemamixin3.png"  /></kdb>
 
-   Repeat the steps for 'Identities Mixin EE' mixin
-
-   <kbd><img src="./images/schemamixin4.png"  /></kdb>
-
-8. Now, we'll also create a new Mixin from scratch. Go back and hit the +Add button on the left panel.
+8. Now, we'll create a new Mixin from scratch. Go back and hit the "+ Add" button across from Mixins in the left-hand schema composition menu.
 
    <kbd><img src="./images/schemamixin6.png"  /></kdb>
 
@@ -123,13 +119,11 @@ Reminder: the class defines the smallest set of fields used to build a schema an
 
 10. Enter "Order Details Mixin EE [your-assigned-number]" as the "Display name" and click "Add Mixin".
 
-
-    <kbd><img src="./images/schemamixin8.png"  /></kdb>
     
 11. In the left-hand schema composition menu, click on your newly create Mixin (it should be highlighted now)
 
 
-    <kbd><img src="./images/schemamixin9.png"  /></kdb>
+    <kbd><img src="./images/schemamixin8.png"  /></kdb>
 
 12. Notice that on the Structure view a '+Add Field' appears next to the Schema name, Click it to start adding fields
 
