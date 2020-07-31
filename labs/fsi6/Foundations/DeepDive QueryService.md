@@ -72,7 +72,7 @@ What are the top 5 pages viewed?
 
 ```sql
 select web.webPageDetails.name, count(*)
-from   fsi_demo_data_midvalues
+from   fsi_demo_data_midvalues_20200512_211355_640
 where  web.webPageDetails.pageViews.value = '1.0'
 group  by web.webPageDetails.name
 order  by 2 desc
@@ -105,10 +105,10 @@ all=>
 **SQL**
 
 ```sql
-select distinct _experience.analytics.customDimensions.eVars.eVar9, crm._adobeamericaspot1.identification.Email as emailAddress
-from   fsi_demo_data_midvalues aa,
+select distinct _experience.analytics.customDimensions.eVars.eVar9, crm._adobedemoamericas270.identification.Email as emailAddress
+from   fsi_demo_data_midvalues_20200512_211355_640 aa,
 crm_profile_dataset crm
-where crm._adobeamericaspot1.identification.CRMID = aa._experience.analytics.customDimensions.eVars.eVar9
+where crm._adobedemoamericas270.identification.CRMID = aa._experience.analytics.customDimensions.eVars.eVar9
 and web.webPageDetails.name = 'help' 
 and _experience.analytics.customDimensions.eVars.eVar9 IS NOT NULL
 limit 10;
@@ -192,10 +192,10 @@ FROM
                              ORDER BY timestamp 
                              ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW) 
                   AS session
-            from   fsi_demo_data_midvalues a
+            from   fsi_demo_data_midvalues_20200512_211355_640 a
             where  a.endUserIDs._experience.mcid.id in ( 
                 select b.endUserIDs._experience.mcid.id
-                from   fsi_demo_data_midvalues b
+                from   fsi_demo_data_midvalues_20200512_211355_640 b
                 where web.webPageDetails.name = 'help' 
 				and b.endUserIDs._experience.mcid.id IS NOT NULL
             )
@@ -249,7 +249,7 @@ select * from (
                   ORDER BY timestamp
                   ROWS BETWEEN CURRENT ROW AND UNBOUNDED FOLLOWING)
               AS contact_us_after_seconds
-       from   fsi_demo_data_midvalues
+       from   fsi_demo_data_midvalues_20200512_211355_640
        where  web.webPageDetails.name in ('help', 'contact us')
 	   
 ) r
@@ -297,7 +297,7 @@ Lets include the geographical info, like longitude, lattitude, city, countrycode
 **SQL**
 
 ```sql
-select distinct crm._adobeamericaspot1.identification.CRMID,
+select distinct crm._adobedemoamericas270.identification.CRMID,
        r.city,
        r.countrycode,
        r.lat as latitude,
@@ -316,11 +316,11 @@ from (
                   ORDER BY timestamp
                   ROWS BETWEEN CURRENT ROW AND UNBOUNDED FOLLOWING)
               AS contact_us_after_seconds
-       from   fsi_demo_data_midvalues
+       from   fsi_demo_data_midvalues_20200512_211355_640
        where  web.webPageDetails.name in ('help', 'contact us')
 ) r
 , crm_profile_dataset crm
-where crm._adobeamericaspot1.identification.CRMID = r.crmid
+where crm._adobedemoamericas270.identification.CRMID = r.crmid
 and r.webPage = 'help'
 and  contact_us_after_seconds is not null
 order by seconds_to_contact_us desc
