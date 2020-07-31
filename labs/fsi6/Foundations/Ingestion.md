@@ -15,7 +15,7 @@ Lab - Ingestion - CSV to XDM Mapping
      </tr>
      <tr width="500">
            <td valign="top"><h3>Prerequisites:</h3></td>
-           <td valign="top"><br><li>download "crm_data_xxx.csv" file</li>
+           <td valign="top"><br><li>download "crm_data_001.csv" file</li>
                             <li>schema in place</li>
                             <li>dataset in place</li>
            </td>
@@ -60,7 +60,7 @@ Go to https://platform.adobe.com/home
       ![Demo](./images/ingestionhome.png)
 
 
-2. We will be ingesting an ad hoc CSV file. Please select "Map CSV to XDM schema".
+2. We will be ingesting a CSV file. Please select "Map CSV to XDM schema".
 
 
       ![Demo](./images/ingestcsvtoxdm.png)
@@ -72,19 +72,20 @@ Go to https://platform.adobe.com/home
       ![Demo](./images/ingestcsvtoxdmlaunch.png)
 
 
-4. First step in the workflow is to Add data. 
+4. The first step is to select the Destination, the dataset to which the data will be added. Search for "CRM Profile Dataset", select it and click "Next".
+
+
+      ![Demo](./images/ingestiondestination.jpg)
+            
+
+5. The next step is to Add data. Navigate to, or drag and drop the 'crm_data_001.csv' file, from the lab exercise downloads. Within a few seconds, you will see a preview of the data. Click "Next". 
 
 
       ![Demo](./images/ingestionadddata.png)
-      
-
-5. Drag and drop the 'crm_data_001.csv' file profiled in the lab downloads. Within a few seconds you will see a preview of the data. Click "Next". 
-
-
       ![Demo](./images/ingestionadddata1.png)
       
       
-6. The next step is to select a Destination for this data. Search for "CRM Profile Dataset", select it and click "Next".
+6. The next step is to select a Destination for this data. 
 
 
       ![Demo](./images/ingestiondestination.jpg)
