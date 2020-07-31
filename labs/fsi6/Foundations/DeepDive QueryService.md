@@ -60,6 +60,8 @@ In this exercises you will write queries to analyze product views, product funne
 
 All queries listed in this chapter will be executed in your **PSQL command-line interface**. You should copy (CTRL-c) the statement blocks indicated with **SQL** and paste (CTRL-v)them in the **PSQL command-line interface**. The **Query Result** blocks show the pasted SQL statement and the associated query result.
 
+Please do not use Query Editor in AEP sandboxes to run these queries. They will not return the expected results.
+
 ## Exercise 1
 
 Write basic queries for data analysis
