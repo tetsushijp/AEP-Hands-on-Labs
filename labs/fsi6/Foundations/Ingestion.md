@@ -10,7 +10,7 @@ Lab - Ingestion - CSV to XDM Mapping
 <tbody valign="top">
       <tr width="500">
             <td valign="top"><h3>Objective:</h3></td>
-            <td valign="top"><br>This lab will show you how to add CSV data to the AEP datasets in a manner that will be usable (or conformed) to either the user Profile or Experience Event schema.
+            <td valign="top"><br>This lab will show you how to add CSV data to an exisitng AEP dataset.
             </td>
      </tr>
      <tr width="500">
