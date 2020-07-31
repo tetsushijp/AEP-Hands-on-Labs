@@ -85,7 +85,7 @@ Reminder: the class defines the smallest set of fields used to build a schema an
 <kbd><img src="./images/schemaclass.png"  /></kdb>
 
 
-      Note: There are other classes available out of the box that represent specific objects needed for Experience Modeling.
+    Note: There are other classes available out of the box that represent specific objects needed for Experience Modeling.
 
 
 6. Click on the "Add" button across from "Mixins" in left-hand schema composition menu.
@@ -101,8 +101,6 @@ Reminder: the class defines the smallest set of fields used to build a schema an
    - Transaction Details Mixin EE
 
    Select the "Transaction Details Mixin EE" and "Identities Mixin EE" mixins and click "Add mixin".
-
-   Your schema will now have the "identification" and "transactionDetails" objects and all of the fields within this object.
 
    <kbd><img src="./images/schemamixin2.png"  /></kdb>
 
