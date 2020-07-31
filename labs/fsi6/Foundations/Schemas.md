@@ -67,12 +67,12 @@ Go to [https://platform.adobe.com/home](https://platform.adobe.com/home). Follow
 
     <kbd><img src="./images/schemaname.png"  /></kdb>
 
-4. In the right-hand menu, name it "Transactions Schema [your-assigned-number]" (Description is optional)\
+4. In the right-hand menu, name it "Transactions Schema [your-assigned-number]". Description is optional.
 
 
     <kbd><img src="./images/schemaname1.png"  /></kdb>
    
-5. In the left-hand schema composition menu, click on the "Assign" button across from Class
+5. In the left-hand schema composition menu, notice the Class has been set to XDM ExperienceEvent. The class was assigned based on the option selected after clicking "+ Create Schema" in a prior step.
 
    <kbd><img src="./images/schemaclassassign.png"  /></kdb>
 
