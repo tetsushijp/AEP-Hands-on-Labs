@@ -52,12 +52,12 @@ Go to [https://platform.adobe.com/home](https://platform.adobe.com/home). Follow
 
 ## Instructions:
 
-1. In the left-hand menu, navigate to "Schemas"
+1. In the left-hand menu, navigate to "Schemas".
 
 
       <kbd><img src="./images/schemahome.png"  /></kdb>
 
-2. Click "Create Schema" on the top right
+2. Click "+ Create Schema" in the top right. Select "XDM ExperienceEvent".
 
 
       <kbd><img src="./images/schemacreate.png" /></kdb>
