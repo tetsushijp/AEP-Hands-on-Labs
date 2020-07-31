@@ -4,7 +4,7 @@ Welcome to the FSI HOL front page.
 
 ## First thing first...
 
-Please download [lab exercise files here](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi6/lab_dowloads.md)
+Please download [lab exercise files here](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi6/lab_dowloads.md).
 
 *PLEASE NOTE: Your HOL consultant will assign your attendee number during the session or in your pre-prerequisites email*
 
