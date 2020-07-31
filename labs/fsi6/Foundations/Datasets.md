@@ -10,7 +10,7 @@ Lab 2.1 - Construct a Dataset from Schema
 <tbody valign="top">
       <tr width="500">
             <td valign="top"><h3>Objective:</h3></td>
-            <td valign="top"><br>This short lab will show you the how to quickly convert a schema into a dataset
+            <td valign="top"><br>This short lab will show you the how to create a dataset
             </td>
      </tr>
      <tr width="500">
@@ -49,25 +49,25 @@ Lab 2.1 - Construct a Dataset from Schema
 </tr>
 </table>
 
-Before be begin go to [https://platform.adobe.com/home](https://platform.adobe.com/home). Follow the instructions detailed below.
+Go to [https://platform.adobe.com/home](https://platform.adobe.com/home).
 
 Instructions:
 -----------------
 
-We will be creating a dataset for the schema we created in the previous exercise. Please follow the steps below
-1. In the left-hand menu, navigate to "Datasets"
+We will be creating a dataset for the schema we created in the previous exercise. Please follow the steps below.
+1. In the left-hand menu, navigate to "Datasets".
 
 
       ![Demo](./images/datasetshome.png)
       
       
-2. Hit +Create Dataset 
+2. Click "+ Create dataset".
 
 
       ![Demo](./images/datasetcreate.png)
       
       
-3. Since we will be creating the dataset from a schema definition please select ''Create dataset from schema'
+3. We will be creating the dataset from a schema, so please select "Create dataset from schema".
 
 
       ![Demo](./images/datasetcreate2.png)
@@ -79,13 +79,13 @@ We will be creating a dataset for the schema we created in the previous exercise
       ![Demo](./images/datasetschema.png)
       
       
-3. Next, to configure the dataset we need to give it a name. Please name your dataset "Transactions Dataset [your-assigned-number]' and give it the same description 
+3. Name your dataset "Transactions Dataset [your-assigned-number]" and give it the same description.
       
       
       ![Demo](./images/datasetname.png) 
  
  
-4. Hit Finish to save the dataset
+4. Click Finish to save the dataset.
       
       
       ![Demo](./images/datasetfinish.png) 
@@ -93,13 +93,13 @@ We will be creating a dataset for the schema we created in the previous exercise
 
 5. We have successfully created the dataset, but this dataset has not ingested data. We will now import a file into this dataset. This time we will import a JSON file and it will simply need to be dragged and dropped into the dataset. 
 
-    On the right panel scroll down until you see the 'Add data' section
+    On the right panel, scroll down until you see the 'ADD DATA' section.
 
 
     ![Demo](./images/datasetadddata.png) 
 
 
-6. From the lab files you downloaded, drag and drop the 'transactions_data_xxx.json' file into the 'Add Data' sections. You will now see a batch with a 'Loading' status
+6. From the lab files you downloaded, drag and drop the 'transactions_data_xxx.json' file into the 'ADD DATA' section. You will now see a batch with a 'Loading' status.
 
 
     <!---
@@ -109,15 +109,15 @@ We will be creating a dataset for the schema we created in the previous exercise
     <kbd><img src="./images/datasetbatch.png"  /></kdb>
 
 
-7. Adobe Experience Platform will perform the XDM mapping and conversion for JSON format to parquet and make this data available on the data lake and the profile store. This process usually takes a few mins. 
+7. Adobe Experience Platform will perform the XDM mapping and conversion for JSON format to parquet and make this data available on the data lake and the profile store. This process usually only takes a couple minutes. 
 
-    Once your batch status is 'Success', you can preview the data by hitting the 'Preview Dataset' button on the top right corner.
+    Once your batch status is "Success", you can preview the data by clicking the "Preview Dataset" button on the top right corner.
 
 
     ![Demo](./images/datasetpreview.png)
 
 
-8. Congratulations !!! you are done with the Dataset exercise.
+8. Congratulations! You created a dataset and import JSON file.
 
 
 <br>
