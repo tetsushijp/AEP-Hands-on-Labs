@@ -117,7 +117,7 @@ We will be creating a dataset for the schema we created in the previous exercise
     ![Demo](./images/datasetpreview.png)
 
 
-8. Congratulations! You created a dataset and import JSON file.
+8. Congratulations! You created a dataset and imported a JSON file.
 
 
 <br>
