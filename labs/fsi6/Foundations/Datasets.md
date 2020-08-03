@@ -119,7 +119,6 @@ We will be creating a dataset for the schema we created in the previous exercise
 
 8. Congratulations! You created a dataset and imported a JSON file.
 
-
 <br>
 <br>
 <br>
