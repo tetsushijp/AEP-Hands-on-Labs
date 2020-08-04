@@ -209,7 +209,7 @@ Instructions:
 
       <kbd><img src="./images/segment_xdm_ee.png"  /></kbd>
       
-13.	Click on ‘Adobeamericaspot 1’ to expand the objects below that namespace
+13.	Click on ‘Adobedemoamericas 270’ to expand the objects below that namespace
       
        <kbd><img src="./images/segment_xdm_pot1.png"  /></kbd>
 
