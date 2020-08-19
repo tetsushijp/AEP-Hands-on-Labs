@@ -58,7 +58,7 @@ Instructions:
 
 ![Demo](./images/act_edit.png)
  
-4.	In the Activate destination wizard > Select Segments step, select the checkbox for your version of the “Call Center Order” segment you created in the previous lab.
+4.	In the Activate destination wizard > Select Segments step, select the checkbox for your version of the “Call Center Account Security” segment you created in the previous lab.
 
 ![Demo](./images/act_segment_step1.png)
  
