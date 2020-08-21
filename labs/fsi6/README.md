@@ -20,6 +20,10 @@ Please download [lab exercise files here](https://github.com/adobe/AEP-Hands-on-
  - [Query Service](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi6/Foundations/DeepDive%20QueryService.md)
  - [APIs](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi6/Foundations/APIs.md)
 
+### Adobe Experience Platform - RTCDP
+- [Activate Segment](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi6/Foundations/destinations.md)
+
+
 ### Adobe Experience Platform - Journey Orchestration
  - [Events](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi6/Journey%20Orchestration/Exercise1-Events.md)
  - [Data Sources](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi6/Journey%20Orchestration/Exercise2-DataSources.md)
