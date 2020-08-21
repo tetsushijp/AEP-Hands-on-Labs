@@ -50,7 +50,7 @@ Lab  - Activation of a Segment to a Destination
 Instructions:
 -----------------
 1.	In the left navigation of AEP, select Destinations > Browse.
-2.	Click ‘Adobe Americas POT 6’. 
+2.	Click ‘adobe-demo-americas-270’. 
 
 ![Demo](./images/act_browse.png)
 
