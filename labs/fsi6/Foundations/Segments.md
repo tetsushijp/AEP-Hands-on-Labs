@@ -110,7 +110,7 @@ NOTE: Estimate link may not show results if qualified profiles are statistically
 <br>
 
 
-Lab 6.2 - Segmentation - Profile Attribute with Experience Event Segmentation (Multi-Entity Segmentation)
+Lab 6.2 - Segmentation - Profile Attribute with Experience Event Segmentation
 ==========
 <table style="border-collapse: collapse; border: none;" class="tab" cellspacing="0" cellpadding="0">
 
