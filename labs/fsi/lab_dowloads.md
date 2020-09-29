@@ -3,8 +3,8 @@ Lab Attendee Download Packages
 
 | User     | ZIP  | GZ  |
 |------------|---|---|
-| POT 1 All Attendees -- Please download this package (ZIP or GZ format) | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/fsi/assets/all_attendees_fsi.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/fsi/assets/all_attendees_fsi.tar.gz)  |
-|
+| All Attendees -- Please download this package (ZIP or GZ format) | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/fsi/assets/all_attendees_fsi.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/fsi/assets/all_attendees_fsi.tar.gz)  |
+
 
 
 
