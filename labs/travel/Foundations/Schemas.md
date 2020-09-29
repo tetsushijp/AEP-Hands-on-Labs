@@ -234,13 +234,9 @@ Before we begin go to [https://platform.adobe.com/home](https://platform.adobe.c
     <kbd><img src="./images/schemamixin12.png"  /></kdb>
 
 20) On the Field Properties panel to the right add the following  
-     FieldName = reservationid
-    Description = Reservation ID
-    Type = String
-
-
-    ![Demo](./images/schemamixin14.png)
-
+     FieldName = orderReservationID
+     Description = Order Reservation ID
+     Type = String
 
     Scroll down and hit Apply
 
