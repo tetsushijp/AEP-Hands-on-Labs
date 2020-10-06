@@ -250,7 +250,7 @@ Instructions:
 <br>
 <br>
 
-# Lab - Segmentation - Dynamic Segmentation
+# Lab 6.3 - Segmentation - Dynamic Segmentation
 
 <table style="border-collapse: collapse; border: none;" class="tab" cellspacing="0" cellpadding="0">
 
@@ -263,7 +263,7 @@ Instructions:
       <tr width="500">
             <td valign="top"><h3>Objective:</h3></td>
             <td valign="top"><br>In this exercise, we’ll create a segment using Commerce ExperienceEvents and dynamic segmentation. Dynamic segmentation solves the scalability problems marketers traditionally face when building segments for marketing campaigns or other use cases where setting up multiple variations of the same segment was required.</br>
-      <br>On an ongoing basis, a hotelier wants to remarket to customers who have clicked through an email offer to any property, started the booking online within 3 days, but have not booked the hotel room within 1 day.</br></td>
+      <br>On an ongoing basis, a financial institution wants to remarket to customers who have clicked through an email offer to a mortgage application, started filling out the online form within 3 days, but have not completed the online form within 1 day. The financial institution uses the Checkout and Purchase events for the form events and uses the products variable to capture the form name.</br></td>
      </tr>
      <tr width="500">
            <td valign="top"><h3>Prerequisites:</h3></td>
