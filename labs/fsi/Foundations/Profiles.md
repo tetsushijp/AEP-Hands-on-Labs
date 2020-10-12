@@ -63,7 +63,7 @@ Instructions:
 <li>Copy the value for ECID</li>
 <li>Go back to the ‘Find a Profile’ view in Experience Platform.</li>
 <li>Select the ECID Namespace and paste the value copied in the step above to view your Profile.</li>
-<li>Click the Show Profile button. A profile should be displayed in the Profile listing section of the page. </li>      
+<li>Click the blue Show Profile button. A profile should be displayed in the Profile listing section of the page. </li>      
 <li>Click on the resulting Profile ID. Take a look at your profile.  </li>         
 </ol>
 
