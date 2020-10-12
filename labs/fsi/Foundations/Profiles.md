@@ -55,14 +55,16 @@ Instructions:
       <li>Log in to Adobe Experience Platform by going to this URL: https://platform.adobe.com</li>
       <li>After logging in, you'll land on the homepage of Adobe Experience Platform.</li>
 <li>In the menu on the left side, go to Profiles.</li>
-<li>Click on Find a Profile. By clicking on "Find a Profile", a popup appears in which a namespace and an ID can be entered.</li>
-<li>Next, go to https://americaspot1-publish.adobedemo.com/content/we-finance-pot/language-masters/en.html# in a browser.</li>
+<li>Click on Browse in the Profile navigation.  You will see fields for a namespace and an ID value.</li>
+<li>In a new browser tab, go to https://americaspot1-publish.adobedemo.com/content/we-finance-pot/language-masters/en.html#.</li>
 <li>In the left margin, click on the “person” icon. This will display the X-ray panel from this website.</li>
 <li>Expand the Real-time Customer Profile section. </li>
 <li>Observe the identities and their linkage to a namespace.</li>
 <li>Copy the value for ECID</li>
 <li>Go back to the ‘Find a Profile’ view in Experience Platform.</li>
 <li>Select the ECID Namespace and paste the value copied in the step above to view your Profile.</li>
+<li>Click the Show Profile button. A profile should be displayed in the Profile listing section of the page. </li>      
+<li>Click on the resulting Profile ID. Take a look at your profile.  </li>         
 </ol>
 
 
