@@ -151,12 +151,12 @@ Before we begin go to [https://platform.adobe.com/home](https://platform.adobe.c
     ![Demo](./images/schemamixin11.png)
 
 
-    Scroll  down and hit Apply
+    Scroll  down and click Apply.
 
 
     ![Demo](./images/schemaapply.png)
 
-17. Next, we will be adding fields to the 'orderDetails' object Click "+Add Field" next to this object
+17. Next, we will be adding fields to the 'orderDetails' object. Click "+Add Field" next to this object.
 
     <!---
     ![Demo](./images/schemamixin12.png)
@@ -164,21 +164,19 @@ Before we begin go to [https://platform.adobe.com/home](https://platform.adobe.c
 
     <kbd><img src="./images/schemamixin12.png"  /></kdb>
 
-18) On the Field Properties panel to the right add the following  
+18) On the Field Properties panel to the right, add the following:
 - FieldName = orderID
 - Description = Order ID
 - Type = String
 
-
      ![Demo](./images/schemamixin13.png)
 
-
-     Scroll down and hit Apply
+     Scroll down and click Apply.
 
 
     ![Demo](./images/schemaapply.png)
 
-19. We will be adding one more field to the 'orderDetails' object Click "+Add Field" next to this object
+19. We will be adding another field to the 'orderDetails' object. Click "+Add Field" next to this object.
 
     <!---
     ![Demo](./images/schemamixin12.png)
@@ -186,17 +184,17 @@ Before we begin go to [https://platform.adobe.com/home](https://platform.adobe.c
 
     <kbd><img src="./images/schemamixin12.png"  /></kdb>
 
-20) On the Field Properties panel to the right add the following  
+20) On the Field Properties panel to the right, add the following:
 - FieldName = orderReservationID
 - Description = Order Reservation ID
 - Type = String
 
-    Scroll down and hit Apply
+    Scroll down and click Apply.
 
 
     ![Demo](./images/schemaapply.png)
 
-21. We will be adding one more field to the 'orderDetails' object Click "+Add Field" next to this object
+21. We will be adding one more field to the 'orderDetails' object. Click "+Add Field" next to this object.
 
     <!---
     ![Demo](./images/schemamixin12.png)
@@ -205,20 +203,20 @@ Before we begin go to [https://platform.adobe.com/home](https://platform.adobe.c
     <kbd><img src="./images/schemamixin12.png"  /></kdb>
 
 22) On the Field Properties panel to the right add the following  
-     FieldName = orderType
-    Description = Order Type
-    Type = String
+- FieldName = orderType
+- Description = Order Type
+- Type = String
 
 
     ![Demo](./images/schemamixin15.png)
 
 
-    Scroll down and hit Apply
+    Scroll down and click Apply.
 
 
     ![Demo](./images/schemaapply.png)
 
-23. We are done with modeling the schema. To Save your work hit Save on the top right corner. Make sure that your schema structure looks like the one in the screenshot below
+23. We are done with modeling the schema. Click Save on the top right corner. Make sure  your schema structure looks like the one in the screenshot below
 
 
      <!---
@@ -226,7 +224,7 @@ Before we begin go to [https://platform.adobe.com/home](https://platform.adobe.c
      --->
      <kbd><img src="./images/schemafinal.png"  /></kdb>
 
-24. Congratulations!!! you have constructed your schema.
+24. Congratulations you have constructed a schema.
 
 <br>
 <br>
