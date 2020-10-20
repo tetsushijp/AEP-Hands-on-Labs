@@ -101,10 +101,9 @@ Before we begin go to [https://platform.adobe.com/home](https://platform.adobe.c
     <kbd><img src="./images/schemamixin2.png"  /></kdb>
 
     Click "+Add" to go back to the Mixin list.
-
-       <!---
-       ![Demo](./images/schemamixin3.png)
-       --->
+    <!---
+    ![Demo](./images/schemamixin3.png)
+    --->
 
     <kbd><img src="./images/schemamixin3.png"  /></kdb>
 
@@ -114,9 +113,9 @@ Before we begin go to [https://platform.adobe.com/home](https://platform.adobe.c
 
 7. We'll also create a new Mixin from scratch. Click the "+Add" button on the left panel.
 
-       <!---
-       ![Demo](./images/schemamixin6.png)
-       --->
+      <!---
+      ![Demo](./images/schemamixin6.png)
+      --->
 
     <kbd><img src="./images/schemamixin6.png"  /></kdb>
 
