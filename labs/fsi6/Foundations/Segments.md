@@ -250,6 +250,145 @@ Instructions:
 <br>
 <br>
 
+# Lab 6.3 - Segmentation - Dynamic Segmentation
+
+<table style="border-collapse: collapse; border: none;" class="tab" cellspacing="0" cellpadding="0">
+
+<tr style="border: none;">
+
+<div align="left">
+<td width="600" style="border: none;">
+<table>
+<tbody valign="top">
+      <tr width="500">
+            <td valign="top"><h3>Objective:</h3></td>
+            <td valign="top"><br>In this exercise, we’ll create a segment using Commerce ExperienceEvents and dynamic segmentation. Dynamic segmentation solves the scalability problems marketers traditionally face when building segments for marketing campaigns or other use cases where setting up multiple variations of the same segment was required.</br>
+      <br>On an ongoing basis, a financial institution wants to remarket to customers who have clicked through an email offer to a mortgage application, started filling out the online form, but have not completed the online form. </br><br><i>The financial institution uses the Checkout and Purchase events for the form events and uses the products variable to capture the form name.</i></br></td>
+     </tr>
+     <tr width="500">
+           <td valign="top"><h3>Prerequisites:</h3></td>
+           <td valign="top"><br>none</td>
+     </tr>
+</tbody>
+</table>
+</td>
+</div>
+
+<div align="right">
+<td style="border: none;" valign="top">
+
+<table>
+<tbody valign="top">
+      <tr>
+            <td valign="middle" height="70"><b>section</b></td>
+            <td valign="middle" height="70"><img src="https://github.com/adobe/AEP-Hands-on-Labs/blob/master/assets/images/left_hand_nav_menu_segments.png?raw=true" alt="Segments"></td>
+      </tr>
+      <tr>
+            <td valign="middle" height="70"><b>version</b></td>
+            <td valign="middle" height="70">1.0.1</td>
+      </tr>
+      <tr>
+            <td valign="middle" height="70"><b>date</b></td>
+            <td valign="middle" height="70">2020-01-06</td>
+      </tr>
+</tbody>
+</table>
+</td>
+</div>
+
+</tr>
+</table>
+
+## Instructions:
+
+1. Navigate to Segment Builder in the left navigation and select Create segment.
+
+   ![Demo](./images/segment_create.png)
+
+2. Click the gear icon to the right of Fields in the left pane
+
+3. Verify ‘Show full XDM schema’ is selected
+
+   ![Demo](./images/segment_gear.png)
+
+4. Click on the gear icon again to hide the setting
+
+5. In the left pane, select ‘Events’ under Fields
+
+6. In the search box, enter ‘eVar1’
+
+   ![Demo](./images/segments_travel_dyn_mchannel.png)
+
+7. Drag ‘eVar1’ to the segment canvas and Include eVar1 equlas 'Email'. Note: eVar1 in our implementation contains the Marketing Channel.
+
+   ![Demo](./images/segments_travel_dyn_mchannel_any.png)
+
+8. In the left pane, clear out the Search box
+
+9. Under ‘Event Types’, locate ‘Checkouts’, and drag this to the segment canvas to the right of the ‘Any’ event
+
+   ![Demo](./images/segments_travel_dyn_mchannel_email_checkout.png)
+
+10. In the left pane, locate ‘Purchases’ and drag this to the segment canvas to the right of the ‘Checkouts’ event.
+
+    ![Demo](./images/segments_travel_dyn_mchannel_email_purchase.png)
+
+11. Click on ‘Any’ in the segment canvas
+
+12. Type ‘Email’ in the text box to the right of ‘eVar1’ equals and press Enter
+
+![Demo](./images/segments_travel_dyn_mchannel_email_any.png)
+
+13. Click on ‘Checkouts' in the segment canvas
+
+14. In the left pane, search for 'SKU'
+
+15. Select the ‘SKU’ field and drag that into the ‘XDM ExperienceEvent’ container for ‘Checkouts’
+
+    ![Demo](./images/segments_travel_dyn_checkout_sku.png)
+
+16. Change the operator to “exists”
+
+    ![Demo](./images/segments_travel_dyn_skuexists.png)
+
+17. Clear the search box. And Select 'Puchases' event.
+
+18. Search for ‘SKU’ and drag that into the ‘XDM ExperienceEvent’ container for ‘Purchases’
+
+    ![Demo](./images/segments_travel_dyn_purchase_sku.png)
+
+19. Clear the search box
+
+    ![Demo](./images/segments_travel_dyn_browsevarmenu.png)
+
+20. Now, we are going to make this a dynamic segment. We will be using the SKU from previous events to make sure that that same SKU is being checked for the subsequent events in the segment. To make is easy for the users segment builder visualizes these parameters under 'Browse Variables' in the left panel.
+
+    ![Demo](./images/segments_travel_dyn_browsevarmenu_highlight.png)
+
+21. Select the 'Checkout Product List Items Varaibles amd drag and drop the SKU to the condition section that says 'Add to compare operants.
+
+    ![Demo](./images/segments_travel_dyn_compare_operands.png)
+
+22. The dynamic condition should now look like this
+
+    ![Demo](./images/segments_travel_dyn_condition.png)
+
+23. Change the ‘XDM ExperienceEvent’ container for ‘Purchases1’ to ‘Exclude’
+
+    ![Demo](./images/segments_travel_dyn_purchases_exclude.png)
+
+24. At the top of the ‘Events’ canvas, update the time value to ‘In last 24 Hour(s)’
+
+25. Enter the segment name “Email Channel Online Application Abandoners”.
+
+26. Enter the same value as the description
+
+29. Save the Segment
+
+    ![Demo](./images/segment_final.png)
+<br>
+<br>
+<br>  
 Return to [Lab Agenda Directory](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi6/README.md#lab-agenda)
  
  
