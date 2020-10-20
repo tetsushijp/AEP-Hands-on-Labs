@@ -52,12 +52,12 @@ Before we begin go to [https://platform.adobe.com/home](https://platform.adobe.c
 
 ## Instructions:
 
-1. In the left-hand menu, navigate to "Schemas"
+1. In the left-hand menu, navigate to "Schemas".
 
 
       ![Demo](./images/schemahome.png)
 
-2. Click "Create Schema" on the top right
+2. Click "Create Schema" on the top right. Select "XDM ExperienceEvent".
 
 
       ![Demo](./images/schemacreate.png)
@@ -71,35 +71,10 @@ Before we begin go to [https://platform.adobe.com/home](https://platform.adobe.c
 
     <kbd><img src="./images/schemaname.png"  /></kdb>
 
-4. In the right-hand menu, name it "Bookings EE Schema &lt;your-assigned-number>" (Description is optional)
+4. In the right-hand Schema properties menu, name it "Bookings EE Schema &lt;your-assigned-number>".
    ![Demo](./images/schemaname1.png)
-5. In the left-hand schema composition menu, click on the "Assign" button across from Class
 
-
-    <!---
-    ![Demo](./images/schemaclassassign.png)
-    --->
-
-    <kbd><img src="./images/schemaclassassign.png"  /></kdb>
-
-
-
-    Here's where you can choose your base level schema behavior:
-    - Time-based Events (XDM ExperienceEvent)
-    - Customer Snapshots (XDM Individual Profile)
-
-
-      ![Demo](./images/schemaclass.png)
-
-
-      Note: There are other classes available out of the box that represent specific objects needed for Experience Modeling.
-
-6. In this example, choose "XDM ExperienceEvent" and click "Assign class"
-
-
-      ![Demo](./images/schemaclass1.png)
-
-7. Now, click on the "Add" button across from "Mixins" on the left panel
+5. In the left-hand Composition menu, click on the "+Add" button across from "Mixins".
 
 
     <!---
@@ -108,35 +83,16 @@ Before we begin go to [https://platform.adobe.com/home](https://platform.adobe.c
 
     <kbd><img src="./images/schemamixin.png"  /></kdb>
 
+6. We will be adding two pre-built mixins listed below:
 
+    - Booking Details Mixin EE
+    - Identities Mixin EE
 
-      Here's where you can build your own Mixin or use a prior/similar Mixin object that conforms to your data.
-
-8. There are many out of the box Mixins already available.
-
-
-      ![Demo](./images/schemamixinpreview.png)
-
-     Click on an Adobe pre-built Mixin and hit the "Preview mixin structure" option on the right-hand side to see it's contents of a Mixin
-
-
-      ![Demo](./images/schemamixinpreview1.png)
-
-9. Hit Back to get back to the list of Mixins.
-
-
-      ![Demo](./images/schemamixinback.png)
-
-10. In this lab we will be adding two pre built mixins listed below
-
-    - Booking Details Mixin, and
-    - identities
-
-    Search for 'Booking Details Mixin' Select the mixin and hit Assign Mixin
+    Search for 'Booking Details Mixin EE'. Select the mixin and click "Add mixin".
 
     ![Demo](./images/schemamixin1.png)
 
-    Your schema will now have the Order details object and all of the fields within this object
+    Your schema will now have the bookingDetails object and all of the fields within this object
 
       <!---
       ![Demo](./images/schemamixin2.png)
@@ -144,7 +100,7 @@ Before we begin go to [https://platform.adobe.com/home](https://platform.adobe.c
 
     <kbd><img src="./images/schemamixin2.png"  /></kdb>
 
-    Hit +Add to go back to the Mixin list
+    Click "+Add" to go back to the Mixin list.
 
        <!---
        ![Demo](./images/schemamixin3.png)
@@ -152,11 +108,11 @@ Before we begin go to [https://platform.adobe.com/home](https://platform.adobe.c
 
     <kbd><img src="./images/schemamixin3.png"  /></kdb>
 
-    And, repeat the steps for 'identities' mixin
+    Search for 'Identities Mixin EE'. Select the mixin and click "Add mixin".
 
     ![Demo](./images/schemamixin4.png)
 
-11) Now, we'll also create a new Mixin from scratch. Go back and hit the +Add button on the left panel.
+7. We'll also create a new Mixin from scratch. Click the "+Add" button on the left panel.
 
        <!---
        ![Demo](./images/schemamixin6.png)
@@ -164,14 +120,15 @@ Before we begin go to [https://platform.adobe.com/home](https://platform.adobe.c
 
     <kbd><img src="./images/schemamixin6.png"  /></kdb>
 
-12) Select "Create new mixin" on the very top
+8. Select "Create new mixin" at the top.
 
 
       ![Demo](./images/schemamixin7.png)
 
-13. Display name is "Order Details Mixin &lt;your-assigned-number>" and then hit 'Add Mixin'
+9. Name it "Order Details Mixin &lt;your-assigned-number>" and then click 'Add Mixin'.
+
     ![Demo](./images/schemamixin8.png)
-14. In the left-hand schema composition menu, click on your newly create Mixin (it should be highlighted now)
+10. In the left-hand Composition menu, click on your newly create mixin (it should be highlighted now).
 
 
     <!---
@@ -180,7 +137,7 @@ Before we begin go to [https://platform.adobe.com/home](https://platform.adobe.c
 
     <kbd><img src="./images/schemamixin9.png"  /></kdb>
 
-15. Notice that on the Structure view a '+Add Field' appears next to the Schema name, Click it to start adding fields
+11. Notice that on the Structure view a '+Add Field' appears next to the Schema name, click it to start adding fields.
 
 
     <!---
@@ -189,10 +146,10 @@ Before we begin go to [https://platform.adobe.com/home](https://platform.adobe.c
 
     <kbd><img src="./images/schemamixin10.png"  /></kdb>
 
-16. On the Field Properties panel to the right add the following  
-     FieldName = orderDetails
-    Description = Order Details
-    Type = Object
+16. On the Field Properties panel to the right add the following
+      FieldName | orderDetails
+      Description | Order Details
+      Type | Object
 
 
     ![Demo](./images/schemamixin11.png)
