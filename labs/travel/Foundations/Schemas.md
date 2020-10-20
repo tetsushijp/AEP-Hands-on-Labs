@@ -71,7 +71,7 @@ Before we begin go to [https://platform.adobe.com/home](https://platform.adobe.c
 
     <kbd><img src="./images/schemaname.png"  /></kdb>
 
-4. In the right-hand Schema properties menu, name it "Bookings EE Schema &lt;your-assigned-number>".
+4. In the right-hand Schema properties menu, name it "Bookings Schema EE &lt;your-assigned-number>".
    ![Demo](./images/schemaname1.png)
 
 5. In the left-hand Composition menu, click on the "+Add" button across from "Mixins".
