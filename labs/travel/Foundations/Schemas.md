@@ -130,7 +130,6 @@ Before we begin go to [https://platform.adobe.com/home](https://platform.adobe.c
     ![Demo](./images/schemamixin8.png)
 10. In the left-hand Composition menu, click on your newly create mixin (it should be highlighted now).
 
-
     <!---
     ![Demo](./images/schemamixin9.png)
     --->
@@ -138,7 +137,6 @@ Before we begin go to [https://platform.adobe.com/home](https://platform.adobe.c
     <kbd><img src="./images/schemamixin9.png"  /></kdb>
 
 11. Notice that on the Structure view a '+Add Field' appears next to the Schema name, click it to start adding fields.
-
 
     <!---
     ![Demo](./images/schemamixin10.png)
