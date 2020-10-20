@@ -143,10 +143,10 @@ Before we begin go to [https://platform.adobe.com/home](https://platform.adobe.c
 
     <kbd><img src="./images/schemamixin10.png"  /></kdb>
 
-16. On the Field Properties panel to the right add the following
-      FieldName | orderDetails
-      Description | Order Details
-      Type | Object
+16. On the Field properties panel to the right, add the following:
+      | FieldName | orderDetails   |
+      | Description | Order Details |
+      | Type | Object |
 
 
     ![Demo](./images/schemamixin11.png)
