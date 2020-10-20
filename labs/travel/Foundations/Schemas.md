@@ -38,7 +38,7 @@
       </tr>
       <tr>
             <td valign="middle" height="70"><b>date</b></td>
-            <td valign="middle" height="70">2020-01-06</td>
+            <td valign="middle" height="70">2020-10-20</td>
       </tr>
 </tbody>
 </table>
