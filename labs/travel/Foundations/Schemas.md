@@ -144,10 +144,9 @@ Before we begin go to [https://platform.adobe.com/home](https://platform.adobe.c
     <kbd><img src="./images/schemamixin10.png"  /></kdb>
 
 16. On the Field properties panel to the right, add the following:
-      | FieldName | orderDetails   |
-      | Description | Order Details |
-      | Type | Object |
-
+      - FieldName = orderDetails
+      - Description = Order Details
+      - Type = Object
 
     ![Demo](./images/schemamixin11.png)
 
@@ -166,9 +165,9 @@ Before we begin go to [https://platform.adobe.com/home](https://platform.adobe.c
     <kbd><img src="./images/schemamixin12.png"  /></kdb>
 
 18) On the Field Properties panel to the right add the following  
-     FieldName = orderID
-    Description = Order ID
-    Type = String
+- FieldName = orderID
+- Description = Order ID
+- Type = String
 
 
      ![Demo](./images/schemamixin13.png)
@@ -188,9 +187,9 @@ Before we begin go to [https://platform.adobe.com/home](https://platform.adobe.c
     <kbd><img src="./images/schemamixin12.png"  /></kdb>
 
 20) On the Field Properties panel to the right add the following  
-     FieldName = orderReservationID
-     Description = Order Reservation ID
-     Type = String
+- FieldName = orderReservationID
+- Description = Order Reservation ID
+- Type = String
 
     Scroll down and hit Apply
 
