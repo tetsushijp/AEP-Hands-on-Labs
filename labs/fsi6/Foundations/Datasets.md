@@ -99,7 +99,7 @@ We will be creating a dataset for the schema we created in the previous exercise
     ![Demo](./images/datasetadddata.png) 
 
 
-6. From the lab files you downloaded, drag and drop the 'transactions_data_xxx.json' file into the 'ADD DATA' section. You will now see a batch with a 'Loading' status.
+6. From the lab files you downloaded, drag and drop the 'transactions_data_001.json' file into the 'ADD DATA' section. You will now see a batch with a 'Loading' status.
 
 
     <!---
