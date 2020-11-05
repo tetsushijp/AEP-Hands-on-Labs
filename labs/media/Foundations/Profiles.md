@@ -58,20 +58,26 @@ Instructions:
 4.    In the menu on the left side, go to Profiles.
 5.    Click on the 'Browse' tab. You will see a UI in which a namespace and an ID can be entered.
 
-<ol>
-<li>Log in to Adobe Experience Platform by going to this URL: https://platform.adobe.com</li>
-<li>After logging in, you'll land on the homepage of Adobe Experience Platform.</li>
-<li>In the menu on the left side, go to Profiles.</li>
-<li>Click on the "Browse" tab.</li>
-<li>Next, go to https://americaspot2-publish.adobedemo.com/content/luma/language-masters/en.html in a browser.</li>
-<li>On the left side of the screen, click on the "person" icon. This will display the X-ray panel from this website.</li>
-<li>Expand the Real-time Customer Profile section.</li>
-<li>Observe the identities and their linkage to a namespace.</li>
-<li>Copy the value for ECID.</li>
-<li>Go back to Profiles Browse view in Experience Platform.</li>
-<li>Select "ECID" in the "Identity namespace" dropdown and paste the ECID value copied previously into the Identity value field.</li>
-<li>Click "View" button to view the profile.</li>
-</ol>
+<kbd><img src="./images/profile_view.png"  /></kbd>
+
+6.    Next, go to https://americaspot2-publish.adobedemo.com/content/luma/language-masters/en.html in a browser.
+7.    In the left margin, click on the “person” icon. This will display the X-ray panel from this website.
+8.    Expand the 'Real-time Customer Profile section'. 
+9.    Observe the identities and their linkage to a namespace.
+10.   Copy the value for ECID.</li>
+11.   Go back to Profiles Browse view in Experience Platform.
+12.   Select "ECID" in the "Identity namespace" dropdown and paste the ECID value copied previously into the "Identity value" field.
+13.   Click on each of the tabs you see - Details, Attributes, Events and Segment Membership.
+14.   Go back to https://americaspot2-publish.adobedemo.com/content/luma/language-masters/en.html.
+15.   Click on 'Open an Account' in the top navigation of the page.
+16.   Enter an email address, first name and last name. Click "Register Now".
+17.   Go back to Experience Platform, click on 'Profiles' in the left panel, click on the 'Browse' tab and look up your ECID again.
+18.   You will see a name, Crmid and email tied to linked to your ECID as a result of the registration action.
+19.   Go back to https://americaspot2-publish.adobedemo.com/content/luma/language-masters/en.html.
+20.   Click on Login (top right of page).  
+21.   Enter the email address you used during registration and a value in Company Name (you can leave the default for number) and hit 'Login'.
+22.   Go back to Experience Platform, click on 'Profiles' in the left panel, click on the 'Browse' tab and look up your ECID again.
+19.   Note any changes to the customer profile on the Details tab.
 
 
 Return to [Lab Agenda Directory](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/media/README.md#lab-agenda)
