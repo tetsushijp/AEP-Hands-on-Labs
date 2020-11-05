@@ -51,6 +51,13 @@ In Adobe Experience Platform there's a new feature of visualizing the entire rea
 
 Instructions:
 -----------------
+
+1.    Log in to Adobe Experience Platform by going to this URL: https://platform.adobe.com
+2.    After logging in, you'll land on the homepage of Adobe Experience Platform.
+3.    Make sure you are in the 'Prod(VA7)' instance and not in your sandbox instance.
+4.    In the menu on the left side, go to Profiles.
+5.    Click on the 'Browse' tab. You will see a UI in which a namespace and an ID can be entered.
+
 <ol>
 <li>Log in to Adobe Experience Platform by going to this URL: https://platform.adobe.com</li>
 <li>After logging in, you'll land on the homepage of Adobe Experience Platform.</li>
