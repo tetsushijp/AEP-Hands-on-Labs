@@ -83,8 +83,6 @@ Go to https://platform.adobe.com/home
 6. Next, we need to map the CSV file fields to the XDM fields in the schema. The mapper tried to parse and map fields however, there are some that were not mapped or mapped incorrectly. We will make corrections.
 
 
-![Demo](./images/ingestionmapper.png)
-
 7. To remap a field, click the ![Demo](./images/remap.png) icon to open the schema.
 
 Once corrected, the mappings should match the screenshot below. Once you have verified the mappings are correct, click "Next".
