@@ -15,7 +15,7 @@ Lab - Ingestion - CSV to XDM Mapping
      </tr>
      <tr width="500">
            <td valign="top"><h3>Prerequisites:</h3></td>
-           <td valign="top"><br><li>download "crm_data_xxx.csv" file</li>
+           <td valign="top"><br><li>Download and save the "crm_data.csv" file to a location on your computer</li>
                             <li>schema in place</li>
                             <li>dataset in place</li>
            </td>
