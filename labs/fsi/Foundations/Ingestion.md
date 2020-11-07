@@ -57,70 +57,53 @@ Go to https://platform.adobe.com/home
 1. In the left-hand menu, navigate to "Workflows".
 
 
-      ![Demo](./images/ingestionhome.png)
+![Demo](./images/ingestionhome.png)
+
+2. We will be ingesting a CSV file. Please select "Map CSV to XDM schema".
 
 
-2. We will be ingesting an ad hoc CSV file. Please select "Map CSV to XDM schema".
+![Demo](./images/ingestcsvtoxdm.png)
 
-
-      ![Demo](./images/ingestcsvtoxdm.png)
-      
-      
 3. Click "Launch" to start the workflow.
 
 
-      ![Demo](./images/ingestcsvtoxdmlaunch.png)
+![Demo](./images/ingestcsvtoxdmlaunch.png)
+
+4. The first step is to select the Destination, the dataset to which the data will be added. Search for "CRM Profile Dataset", select it and click "Next".
 
 
-4. First step in the workflow is to Add data. 
+![Demo](./images/ingestiondestination.jpg)
+
+5. The next step is to Add data. Navigate to, or drag and drop the 'crm_data_001.csv' file, from the lab exercise downloads. Within a few seconds, you will see a preview of the data. Click "Next". 
 
 
-      ![Demo](./images/ingestionadddata.png)
-      
-
-5. Drag and drop the 'crm_data_001.csv' file profiled in the lab downloads. Within a few seconds you will see a preview of the data. Click "Next". 
-
-
-      ![Demo](./images/ingestionadddata1.png)
-      
-      
-6. The next step is to select a Destination for this data. Search for "CRM Profile Dataset", select it and click "Next".
-
-
-      ![Demo](./images/ingestiondestination.jpg)
-      
-      
-7. Next, we need to map the CSV file fields to the XDM fields in the schema. The mapper tried to parse and map fields however there are some that were not mapped or are mis mapped. We will make corrections.
-
-
-
-      ![Demo](./images/ingestionmapper.png)
-      
-
-8. To remap a field click the ![Demo](./images/remap.png) icon to open the schema. Remapping the list is left as a exercise for the participant.
-
-Once corrected, the mappings should match the screenshot below. Once you have verified that the mappings are correct, click "Next".
-
-
-    ![Demo](./images/ingestionmapper2.png)
-
-
-9. Finally, we are ready to ingest the data. Click "Ingest".
-
-
-    ![Demo](./images/ingestioningest.png)
-
-
-10. Adobe Experience Platform will start the workflow of converting the CSV file data to XDM format. This process takes a few minutes. Once completed, click "Finish" to complete the workflow.
-
-
-    ![Demo](./images/ingestionfinish.png)
-
-
-
-11. Congratulations! You have imported an adhoc file into Adove Experience Platform.
-
+![Demo](./images/ingestionadddata.png)
+![Demo](./images/ingestionadddata1.png)
  
+6. Next, we need to map the CSV file fields to the XDM fields in the schema. The mapper tried to parse and map fields however, there are some that were not mapped or mapped incorrectly. We will make corrections.
+
+
+![Demo](./images/ingestionmapper.png)
+
+7. To remap a field, click the ![Demo](./images/remap.png) icon to open the schema.
+
+Once corrected, the mappings should match the screenshot below. Once you have verified the mappings are correct, click "Next".
+
+![Demo](./images/ingestionmapper2.png)
+
+8. Finally, we are ready to ingest the data. Click "Ingest".
+
+
+![Demo](./images/ingestioningest.png)
+
+
+9. Adobe Experience Platform will start the workflow of converting the CSV file data to XDM format. This process takes a few minutes. Once completed, click "Finish" to complete the workflow.
+
+
+![Demo](./images/ingestionfinish.png)
+
+10. Congratulations! You have imported a CSV file into Adobe Experience Platform.
+
 <br>
 <br>
 <br>
