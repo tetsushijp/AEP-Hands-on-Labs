@@ -52,77 +52,85 @@ Go to [https://platform.adobe.com/home](https://platform.adobe.com/home). Follow
 
 ## Instructions:
 
-1. In the left-hand menu, navigate to "Schemas"
+1. In the left-hand menu, navigate to "Schemas".
 
 
       <kbd><img src="./images/schemahome.png"  /></kdb>
 
-2. Click "Create Schema" on the top right
+2. Click "+ Create Schema" in the top right. Select "XDM ExperienceEvent".
 
 
       <kbd><img src="./images/schemacreate.png" /></kdb>
 
-3. Select "XDM Experience Event" from the Option List
+3. Click on "Untitled Schema" in the structure view
 
-    <kbd><img src="./images/schema_option.png"  /></kdb>
 
-4. In the right-hand menu, name it "Transactions Schema [your-assigned-number]" (Description is optional)\
+    <kbd><img src="./images/schemaname.png"  /></kdb>
+
+4. In the right-hand menu, name it "Transactions Schema [your-assigned-number]". Description is optional.
 
 
     <kbd><img src="./images/schemaname1.png"  /></kdb>
    
-5. Now, click on the "Add" button across from "Mixins" on the left panel
+5. In the left-hand schema composition menu, notice the Class has been set to XDM ExperienceEvent. The class was assigned based on the option selected after clicking "+ Create Schema" in a prior step.
+
+   <kbd><img src="./images/schemaclassassign.png"  /></kdb>
+
+
+Reminder: the class defines the smallest set of fields used to build a schema and is the base level schema behavior:
+    - Time-series (ExperienceEvent)
+    - Record (Profile)
+
+
+<kbd><img src="./images/schemaclass.png"  /></kdb>
+
+
+    Note: There are other classes available out of the box that represent specific objects needed for Experience Modeling.
+
+
+6. Click on the "+ Add" button across from "Mixins" in left-hand schema composition menu.
 
 
     <kbd><img src="./images/schemamixin.png"  /></kdb>
 
+    Here you can build your own Mixin or use a prior/similar Mixin object that conforms to your data.
 
-      Here's where you can build your own Mixin or use a prior/similar Mixin object that conforms to your data.
-
-6. In this lab, we will be adding two pre-built mixins listed below:
+7. In this lab, we will be adding two pre-built mixins listed below:
 
    - Identities Mixin EE
    - Transaction Details Mixin EE
 
-   Search for 'Transaction Details Mixin EE'. Select the mixin and click "Assign Mixin".
-
-   Your schema will now have the identification object and all of the fields within this object.
+   Select the "Transaction Details Mixin EE" and "Identities Mixin EE" mixins and click "Add mixin".
 
    <kbd><img src="./images/schemamixin2.png"  /></kdb>
 
-   Hit +Add to go back to the Mixin list
+   Your schema will now have the "identification" and "transactionDetails" objects and all of the fields within this object.
 
    <kbd><img src="./images/schemamixin3.png"  /></kdb>
 
-   Repeat the steps for 'Identities Mixin EE' mixin
-
-   <kbd><img src="./images/schemamixin4.png"  /></kdb>
-
-7. Now, we'll also create a new Mixin from scratch. Go back and hit the +Add button on the left panel.
+8. Now, we'll create a new Mixin from scratch. Go back and hit the "+ Add" button across from Mixins in the left-hand schema composition menu.
 
    <kbd><img src="./images/schemamixin6.png"  /></kdb>
 
-8. Click "Create new mixin" at the top.
+9. Click "Create new mixin" at the top.
 
 
       <kbd><img src="./images/schemamixin7.png"  /></kdb>
 
-9. Enter "Order Details Mixin EE [your-assigned-number]" as the "Display name" and click "Add Mixin".
+10. Enter "Order Details Mixin EE [your-assigned-number]" as the "Display name" and click "Add Mixin".
+
+    
+11. In the left-hand schema composition menu, click on your newly create Mixin (it should be highlighted now)
 
 
     <kbd><img src="./images/schemamixin8.png"  /></kdb>
-    
-10. In the left-hand schema composition menu, click on your newly create Mixin (it should be highlighted now)
 
-
-    <kbd><img src="./images/schemamixin9.png"  /></kdb>
-
-11. Notice that on the Structure view a '+Add Field' appears next to the Schema name, Click it to start adding fields
+12. Notice that on the Structure view a '+ Add Field' appears next to the Schema name, Click it to start adding fields
 
 
     <kbd><img src="./images/schemamixin10.png"  /></kdb>
 
-12. On the Field Properties panel to the right add the following  
+13. In the Field properties panel on the right, add the following:  
     - FieldName = orderDetails
     - Description = Order Details
     - Type = Object
@@ -131,16 +139,16 @@ Go to [https://platform.adobe.com/home](https://platform.adobe.com/home). Follow
     ![Demo](./images/schemamixin11.png)
 
 
-    Scroll  down and hit Apply
+    Scroll down and click Apply.
 
 
     ![Demo](./images/schemaapply.png)
 
-13. Next, we will be adding fields to the 'orderDetails' object Click "+Add Field" next to this object
+14. Next, we will be adding fields to the 'orderDetails' object Click "+ Add Field" next to this object
 
     <kbd><img src="./images/schemamixin12.png"  /></kdb>
 
-14. On the Field Properties panel to the right add the following  
+15. In the Field properties panel on the right, add the following:  
     - FieldName = orderFlag
     - Description = Order Flag
     - Type = Integer
@@ -149,17 +157,17 @@ Go to [https://platform.adobe.com/home](https://platform.adobe.com/home). Follow
      ![Demo](./images/schemamixin13.png)
 
 
-     Scroll down and hit Apply
+     Scroll down and click Apply.
 
 
     ![Demo](./images/schemaapply.png)
 
-15. We will be adding one more field to the 'orderDetails' object Click "+Add Field" next to this object
+16. We will be adding one more field to the 'orderDetails' object Click "+ Add Field" next to this object
 
 
     <kbd><img src="./images/schemamixin12.png"  /></kdb>
 
-16. On the Field Properties panel to the right add the following  
+17. In the Field properties panel on the right, add the following:  
     - FieldName = orderID
     - Description = Order ID
     - Type = String
@@ -167,16 +175,16 @@ Go to [https://platform.adobe.com/home](https://platform.adobe.com/home). Follow
     ![Demo](./images/schemamixin14.png)
 
 
-    Scroll down and hit Apply
+    Scroll down and click Apply
 
 
     ![Demo](./images/schemaapply.png)
 
-17. Next, We will be adding our final field to the 'orderDetails' object Click "+Add Field" next to this object
+18. Next, We will be adding our final field to the 'orderDetails' object Click "+ Add Field" next to this object
 
     <kbd><img src="./images/schemamixin15.png"  /></kdb>
 
-18. On the Field Properties panel to the right add the following  
+19. In the Field properties panel on the right, add the following:  
     - FieldName = orderType
     - Description = Order Type
     - Type = String
@@ -190,11 +198,11 @@ Go to [https://platform.adobe.com/home](https://platform.adobe.com/home). Follow
 
     ![Demo](./images/schemaapply.png)
 
-19. We are done with modeling the schema. To Save your work hit Save on the top right corner. Make sure that your schema structure looks like the one in the screenshot below
+20. We are done with modeling the schema. To Save your work hit Save on the top right corner. Make sure that your schema structure looks like the one in the screenshot below
 
     <kbd><img src="./images/schemafinal.png"  /></kdb>
 
-20. Congratulations!!! you have constructed your schema.
+21. Congratulations! You constructed a schema.
 
 <br>
 <br>
