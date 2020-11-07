@@ -62,10 +62,9 @@ Go to [https://platform.adobe.com/home](https://platform.adobe.com/home). Follow
 
       <kbd><img src="./images/schemacreate.png" /></kdb>
 
-3. Click on "Untitled Schema" in the structure view
+3. Select "XDM Experience Event" from the Option List
 
-
-    <kbd><img src="./images/schemaname.png"  /></kdb>
+    <kbd><img src="./images/schema_option.png"  /></kdb>
 
 4. In the right-hand menu, name it "Transactions Schema [your-assigned-number]" (Description is optional)\
 
