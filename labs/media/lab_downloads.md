@@ -1,34 +1,9 @@
 Lab Attendee Download Packages
 ====================================
 
-
 | User     | ZIP  | GZ  |
 |------------|---|---|
-| Attendee 001  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/001_media.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/001_media.tar.gz)  |
-| Attendee 002  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/002_media.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/002_media.tar.gz)  |
-| Attendee 003  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/003_media.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/003_media.tar.gz)  |
-| Attendee 004  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/004_media.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/004_media.tar.gz)  |
-| Attendee 005  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/005_media.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/005_media.tar.gz)  |
-| Attendee 006  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/006_media.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/006_media.tar.gz)  |
-| Attendee 007  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/007_media.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/005_media.tar.gz)  |
-| Attendee 008  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/008_media.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/008_media.tar.gz)  |
-| Attendee 009  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/009_media.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/009_media.tar.gz)  |
-| Attendee 010  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/010_media.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/010_media.tar.gz)  |
-| Attendee 011  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/011_media.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/011_media.tar.gz)  |
-| Attendee 012  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/012_media.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/012_media.tar.gz)  |
-| Attendee 013  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/013_media.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/013_media.tar.gz)  |
-| Attendee 014  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/014_media.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/014_media.tar.gz)  |
-| Attendee 015  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/015_media.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/015_media.tar.gz)  |
-| Attendee 016  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/016_media.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/016_media.tar.gz)  |
-| Attendee 017  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/017_media.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/017_media.tar.gz)  |
-| Attendee 018  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/018_media.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/018_media.tar.gz)  |
-| Attendee 019  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/019_media.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/019_media.tar.gz)  |
-| Attendee 020  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/020_media.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/020_media.tar.gz)  |
-| Attendee 021  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/021_media.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/021_media.tar.gz)  |
-| Attendee 022  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/022_media.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/022_media.tar.gz)  |
-| Attendee 023  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/023_media.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/023_media.tar.gz)  |
-| Attendee 024  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/024_media.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/024_media.tar.gz)  |
-| Attendee 025  | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/025_media.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/025_media.tar.gz)  |
+| All Attendees -- Please download this package (ZIP or GZ format) | [ZIP](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/001_media.zip)  |  [GZ](https://github.com/adobe/AEP-Hands-on-Labs/raw/master/labs/media/assets/001_media.tar.gz)  |
 
 
 File Notes
