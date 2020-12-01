@@ -360,6 +360,10 @@ Copy the statement above and execute it in your **PSQL command-line interface**.
 all=> 
 ```
 
+### More SQL examples?
+
+[Sample Analytics PSQL Queries](https://experienceleague.adobe.com/docs/experience-platform/query/samples/adobe-analytics.html?lang=en#samples)
+
 
 Return to [Lab Agenda Directory](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi6/README.md#lab-agenda)
 
