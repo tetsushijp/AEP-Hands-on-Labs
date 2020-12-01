@@ -362,7 +362,7 @@ all=>
 
 ### More SQL examples?
 
-[Sample Analytics PSQL Queries](https://experienceleague.adobe.com/docs/experience-platform/query/samples/adobe-analytics.html?lang=en#samples)
+ - [Sample Analytics PSQL Queries](https://experienceleague.adobe.com/docs/experience-platform/query/samples/adobe-analytics.html?lang=en#samples)
 
 
 
