@@ -149,7 +149,7 @@ The majority of the business logic requires gathering the touchpoints for a cust
 Adobe has added a set of **Adobe Defined Functions** to the standard SQL syntax that allow you to better understand your experience data. In the next couple of queries you will learn about these ADF functions. You can find more information and the complete list via
 [Adobe Experience League](https://experienceleague.adobe.com/docs/experience-platform/query/sql/adobe-defined-functions.html?lang=en#sql).
 
-[comment]: <> ( broken link removed -> [Adobe IO](https://www.adobe.io/apis/experienceplatform/home/services/query-service/query-service.html#!acpdr/end-user/markdown/query-service/qs-queries-adobefunctions.md))
+[//]: <> (broken link removed -> Adobe IO https://www.adobe.io/apis/experienceplatform/home/services/query-service/query-service.html#!acpdr/end-user/markdown/query-service/qs-queries-adobefunctions.md)
 
 ### What do people do on the site before reaching the "help" page as the 3rd page in a session?
 
