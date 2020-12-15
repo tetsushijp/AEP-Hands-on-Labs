@@ -123,7 +123,7 @@
 
     <kbd><img src="./images/postmanstep2.png"  /></kdb>
 
-8. Next, click and open 'Step 3a - GET Profile by CRMID' and add in the entityId parameter entry the CRMID aassigned to your attendee ID [here](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/unlinked.md).
+8. Next, click and open 'Step 3a - GET Profile by CRMID' and add in the entityId parameter entry the CRMID aassigned to your attendee ID [here](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/unlinked_retail.md).
 
    <!---
    ![Demo](./images/postmanstep3.png)
