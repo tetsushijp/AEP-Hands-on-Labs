@@ -2,7 +2,7 @@
 Welcome Marketer / DBA / Soon-To-Be AEP Genius...
 =============================
 __\[The scene opens...\]__
-Imagine that you're wearing many hats at a leading Media Company, likely not too dissimalar from your day-to-day responsibilites in the real world.  You've been tasked to both deploy and understand how to build out the upon your AEP deployment -- the deployment has already started so the system should be considered ".  This guide/document here (meant to be reviewed before your HOL session) will give you a detailed look and analysis of the data you're currently loading into your system.
+Imagine that you're wearing many hats at a leading Media Company (we'll call them HOLDEN Media Company -- its fake), likely not too dissimalar from your day-to-day responsibilites in the real world.  You've been tasked to both deploy and understand how to build out the upon your AEP deployment -- the deployment has already started so the system should be considered ".  This guide/document here (meant to be reviewed before your HOL session) will give you a detailed look and analysis of the data you're currently loading into your system.
 
 OBJECTIVES:
 ==============
@@ -180,7 +180,7 @@ Subscription Data
 
 #### Info
 
-This has some data aBOUT X Y Z
+This data represents new/renewed subscriptions for services from the fake HOLDEN Media Company.  Subscriptions can happen on web, call center or other customer interaction channels
 
 #### Table
 
@@ -250,11 +250,25 @@ CRM Data
 
 #### Info
 
-This has some data aBOUT X Y Z
+This represents the fake CRM data of customers known to HOLDEN Media Company -- like real CRM data, some parts could be blank or unknown.  This data is sent to "Profile" and tend to be flat customer attributes.
 
 #### Table
 
-here
+| Number | FieldName         | DataType<sup>[info](#here)</sup>  | Mixin + Path <sup>[info](#here)</sup> | Example | Notes |
+|--------|-------------------|-----------------------|---------------------------------------|---------------------|-----|
+| 01     | crmid             |  string               | {{tenantid}}.identification.CRMID     | crmid:3572904408    |  -  |
+| 02     | email             |  string               | {{tenantid}}.identification.Email     | leese1838@yahoo.com |  -  |
+| 03     | first_name        |  string               | person.name.firstName                 | Roscoe              |  -  |
+| 04     | last_name         |  string               | person.name.lastName                  | Lawrence            |  -  |
+| 05     | gender            |  enum (string)        | person.gender                         | female              |  -  |
+| 06     | mobile_telephone  |  string               | mobilePhone.number                    | 531-075-8094        |  -  |
+| 07     | city              |  string               | homeAddress.city                      | Wauwatosa           |  -  |
+| 08     | country           |  string               | homeAddress.country                   | United States       |  -  |
+| 09     | zip               |  string               | homeAddress.postalCode                | 88430               |  -  |
+| 10     | state             |  string               | homeAddress.stateProvince             | Hawaii              |  -  |
+| 11     | street_address    |  string               | homeAddress.street1                   | 744 Fratessa        |  -  |
+| 12     | birthday          |  string (date)        | person.birthDate                      | 8/17/1972           |  -  |
+| 13     | genre             |  string               | interestProfileDetails.interestGenre  | Sci-Fi              |  -  |
 
 #### JSON Preview
 
@@ -311,11 +325,43 @@ Reduced Web Data
 
 #### Info
 
-This has some data aBOUT X Y Z
+This is a snapshot of the Web data collected from HOLDEN Media Company -- technically it's a reduction of the Adobe Analytics web data (that has hundreds of values).  This data has been intentionally reduced for lab compreshension and usage.
 
 #### Table
 
-  here
+## Default values/fields on EE Schemas
+
+| Number | FieldName             | DataType<sup>[info](#here)</sup>  | Mixin + Path <sup>[info](#here)</sup> | Example | Notes |
+|--------|-----------------------|-----------------------|---------------------------------------|---------------------|-----|
+| 01     | \_id                  |  string               | \_id                                  | 485ee26b-84d9-11ea-b95a-b88a60e194fb   |  -  |
+| 02     | timestamp             |    timestamp            | timestamp                             | 2020-03-30T07:29:59.000Z |  -  |
+| 03     | eventType             |  string ?enum         | eventType                             | web - pageview      |  -  |
+| 04     | \_adobeamericaspot2   |  string               | tenantId (gloabl)                     | \_adobeamericaspot2            |  -  |
+
+
+## Specific Web Reduced values/fields
+
+NOTE: {{tenantid}} short hand is {{tid}}
+
+| Number | FieldName             | DataType<sup>[info](#here)</sup>  | Mixin + Path <sup>[info](#here)</sup> | Example | Notes |
+|--------|-----------------------|-----------------------|---------------------------------------|---------------------|-----|
+| 01     | CRMID            |  string               | {{tenantid}}.identification.CRMID                                 | 485ee26b-84d9-11ea-b95a-b88a60e194fb   |  -  |
+| 02     | Cookie           |  string               | {{tenantid}}.identification.Cookie                            | 2020-03-30T07:29:59.000Z |  -  |
+| 03     | CRMIDCombo       |  string               | {{tenantid}}.identification.CRMIDCombo                             | web - pageview      |  -  |
+| 04     | webProductSKU    |  string               | {{tid}}.webProductDetails.webProductSKU                  | \_adobeamericaspot2            |  -  |
+| 05     | webProductName   |  enum (string)        | {{tid}}.webProductDetails.webProductName                          | female              |  -  |
+| 06     | webProductType   |  string               | {{tid}}.webProductDetails.webProductType                     | 531-075-8094        |  -  |
+| 07     | webProductLength |  string               | {{tid}}.webProductDetails.webProductLength                       | Wauwatosa           |  -  |
+| 08     | webProductFlag   |  string               | {{tid}}.webProductDetails.webProductFlag                   | United States       |  -  |
+| 09     | webFlag          |  string               | homeAddress.postalCode                | 88430               |  -  |
+| 10     | webHitID         |  string               | homeAddress.stateProvince             | Hawaii              |  -  |
+| 11     | webPagename      |  string               | homeAddress.street1                   | 744 Fratessa        |  -  |
+| 12     | webUserPersona   |  string (date)        | person.birthDate                      | 8/17/1972           |  -  |
+| 13     | webUserTier      |  string               | interestProfileDetails.interestGenre  | Sci-Fi              |  -  |
+| 14     | postalCode       |  string               | homeAddress.street1                   | 744 Fratessa        |  -  |
+| 15     | latitude         |  string (date)        | person.birthDate                      | 8/17/1972           |  -  |
+| 16     | longitude        |  string               | interestProfileDetails.interestGenre  | Sci-Fi              |  -  |
+
 
 #### JSON Preview--
 
@@ -369,7 +415,7 @@ Propensity Data
 
 #### Info
 
-This has some data aBOUT X Y Z
+This has propensity scores applied back to the profile.
 
 #### Table
   
@@ -410,9 +456,12 @@ Call Center Data
 -----------------------------------
 
 #### Info
-This has some data aBOUT X Y Z
+
+This has the call center agent data for HOLDEN Media Company so see what actions/behaviors occured in an offline channel.  This data is unified with we data (in the CJA lab) with the keys "CRMID" and "CRMIDCcombo" to look at online + offline pathways.
 
 #### Table
+
+here
 
 #### JSON Preview
 
