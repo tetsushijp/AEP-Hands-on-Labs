@@ -432,11 +432,3 @@ XDM - Data Type Definitions
 
 For more info, please look (here)[https://github.com/adobe/xdm/blob/master/docs/data_types.md]
 
-Doug Notes:
- - The above examples would be for each data source (not shown yet, its being drafted right now)
- - I'd add the "id" , "eventtype" and "timestamp" as built-ins to the schema
- - I'm gonna add schema and mixin screenshots to show how things are composed
- - I'm going to explain the Mixin + Path with a screenshot (so it helps show what that means)
- - I'm going to add the real mixin, schema and dataset names and IDs -- helpful for query service
- 
- **Pulkit -- please let me know what else you think would be rad here!**
