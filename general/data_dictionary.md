@@ -61,6 +61,21 @@ Understanding the dataset and schema is a central concept within AEP -- let me p
   
    <kbd><img src="./images/001_dataset_and_schemas.png"  /></kbd>
 
+
+##### Default Values/fields on Experience Event (EE) Schemas
+
+The table below table show certain default values that will inherit (or be present) within an Experience Event (EE) Schema.  The Exp. Event Schema (or class) should be thought as temporal records; a timestamp of when the action/record occured.  The "\_id" value is used as a merchanism to ensure the record/row is unique -- it is not a user identification ID.  The "tenantId" is specific to the IMS Org -- this will be different according to the company provisioned within AEP.  The "eventType" is used within unified profile and Segementation as an event value -- custom values can be created as well.
+
+
+| Number | FieldName             | DataType<sup>[info](#here)</sup>  | Mixin + Path <sup>[info](#here)</sup> | Example | Notes |
+|--------|-----------------------|-----------------------|---------------------------------------|---------------------|-----|
+| 01     | \_id                  |  string               | \_id                                  | 485ee26b-84d9-11ea-b95a-b88a60e194fb   |  -  |
+| 02     | timestamp             |  timestamp            | timestamp                             | 2020-03-30T07:29:59.000Z               |  -  |
+| 03     | eventType             |  string ?enum         | eventType                             | web - pageview                         |  -  |
+| 04     | \_adobeamericaspot2   |  string               | tenantId (global)                     | \_adobeamericaspot2                    |  -  |
+
+
+
 CRM Data - version 002 - added Notes column (small links would go here to "more info about X")
 -----------------------------
 
@@ -329,38 +344,30 @@ This is a snapshot of the Web data collected from HOLDEN Media Company -- techni
 
 #### Table
 
-## Default values/fields on EE Schemas
+
+
+###### Specific Web Reduced values/fields
+
+NOTE: {{tenantid}} will be short-handed as {{tid}}
 
 | Number | FieldName             | DataType<sup>[info](#here)</sup>  | Mixin + Path <sup>[info](#here)</sup> | Example | Notes |
 |--------|-----------------------|-----------------------|---------------------------------------|---------------------|-----|
-| 01     | \_id                  |  string               | \_id                                  | 485ee26b-84d9-11ea-b95a-b88a60e194fb   |  -  |
-| 02     | timestamp             |    timestamp            | timestamp                             | 2020-03-30T07:29:59.000Z |  -  |
-| 03     | eventType             |  string ?enum         | eventType                             | web - pageview      |  -  |
-| 04     | \_adobeamericaspot2   |  string               | tenantId (gloabl)                     | \_adobeamericaspot2            |  -  |
-
-
-## Specific Web Reduced values/fields
-
-NOTE: {{tenantid}} short hand is {{tid}}
-
-| Number | FieldName             | DataType<sup>[info](#here)</sup>  | Mixin + Path <sup>[info](#here)</sup> | Example | Notes |
-|--------|-----------------------|-----------------------|---------------------------------------|---------------------|-----|
-| 01     | CRMID            |  string               | {{tenantid}}.identification.CRMID                                 | 485ee26b-84d9-11ea-b95a-b88a60e194fb   |  -  |
-| 02     | Cookie           |  string               | {{tenantid}}.identification.Cookie                            | 2020-03-30T07:29:59.000Z |  -  |
-| 03     | CRMIDCombo       |  string               | {{tenantid}}.identification.CRMIDCombo                             | web - pageview      |  -  |
-| 04     | webProductSKU    |  string               | {{tid}}.webProductDetails.webProductSKU                  | \_adobeamericaspot2            |  -  |
-| 05     | webProductName   |  enum (string)        | {{tid}}.webProductDetails.webProductName                          | female              |  -  |
-| 06     | webProductType   |  string               | {{tid}}.webProductDetails.webProductType                     | 531-075-8094        |  -  |
-| 07     | webProductLength |  string               | {{tid}}.webProductDetails.webProductLength                       | Wauwatosa           |  -  |
-| 08     | webProductFlag   |  string               | {{tid}}.webProductDetails.webProductFlag                   | United States       |  -  |
-| 09     | webFlag          |  string               | homeAddress.postalCode                | 88430               |  -  |
-| 10     | webHitID         |  string               | homeAddress.stateProvince             | Hawaii              |  -  |
-| 11     | webPagename      |  string               | homeAddress.street1                   | 744 Fratessa        |  -  |
-| 12     | webUserPersona   |  string (date)        | person.birthDate                      | 8/17/1972           |  -  |
-| 13     | webUserTier      |  string               | interestProfileDetails.interestGenre  | Sci-Fi              |  -  |
-| 14     | postalCode       |  string               | homeAddress.street1                   | 744 Fratessa        |  -  |
-| 15     | latitude         |  string (date)        | person.birthDate                      | 8/17/1972           |  -  |
-| 16     | longitude        |  string               | interestProfileDetails.interestGenre  | Sci-Fi              |  -  |
+| 01     | CRMID            |  string               | {{tenantid}}.identification.CRMID           | crmid:123456789                    |  -  |
+| 02     | Cookie           |  string               | {{tenantid}}.identification.Cookie          | 497A76D0301EB581-44F48C9F3F294CF4  |  -  |
+| 03     | CRMIDCombo       |  string               | {{tenantid}}.identification.CRMIDCombo      | crmid:[497A76D0301EB581]           |  -  |
+| 04     | webProductSKU    |  string               | {{tid}}.webProductDetails.webProductSKU     | prd1188                            |  -  |
+| 05     | webProductName   |  enum (string)        | {{tid}}.webProductDetails.webProductName    | Premium Plan: Month-to-Month       |  -  |
+| 06     | webProductType   |  string               | {{tid}}.webProductDetails.webProductType    | Premium Plan                       |  -  |
+| 07     | webProductLength |  string               | {{tid}}.webProductDetails.webProductLength  | Month-to-Month                     |  -  |
+| 08     | webProductFlag   |  string               | {{tid}}.webProductDetails.webProductFlag    | United States                      |  -  |
+| 09     | webFlag          |  string               | {{tid}}.webDetails.webFlag                  | 1                                  |  -  |
+| 10     | webHitID         |  string               | {{tid}}.webDetails.webHitID                 | 2F40CFFB85158000-401286A4671D62F9  |  -  |
+| 11     | webPagename      |  string               | {{tid}}.webDetails.webPagename              | purchase: step 2                   |  -  |
+| 12     | webUserPersona   |  string (date)        | {{tid}}.webDetails.webUserPersona           | persona3                           |  -  |
+| 13     | webUserTier      |  string               | {{tid}}.webDetails.webUserTier              | persona3                           |  -  |
+| 14     | postalCode       |  string               | placeContext.geo.postalCode                 | 35410                              |  -  |
+| 15     | latitude         |  string (date)        | placeContext.geo.\_schema.latitude          | 38.32                              |  -  |
+| 16     | longitude        |  string               | placeContext.geo.\_schema.longitude         | 27.13                              |  -  |
 
 
 #### JSON Preview--
@@ -419,7 +426,12 @@ This has propensity scores applied back to the profile.
 
 #### Table
   
- Hi there ppl
+| Number | FieldName             | DataType<sup>[info](#here)</sup>  | Mixin + Path <sup>[info](#here)</sup> | Example | Notes |
+|--------|-----------------------|-----------------------|---------------------------------------|---------------------|-----|
+| 01     | CRMID               |  string               | {{tid}}.identification.CRMID                         | crmid:123456789 |  -  |
+| 02     | propensityPremium   |  double               | {{tid}}.propensityProfileDetails.propensityPremium   | 7               |  -  |
+| 03     | propensityHighSpeed |  double               | {{tid}}.propensityProfileDetails.propensityHighSpeed | 5               |  -  |
+
 
 #### JSON Preview
 
@@ -461,7 +473,19 @@ This has the call center agent data for HOLDEN Media Company so see what actions
 
 #### Table
 
-here
+| Number | FieldName             | DataType<sup>[info](#here)</sup>  | Mixin + Path <sup>[info](#here)</sup> | Example | Notes |
+|--------|-----------------------|-----------------------|---------------------------------------|---------------------|-----|
+| 01     | CRMID               |  string               | {{tid}}.identification.CRMID                 | crmid:8127612             |  -  |
+| 02     | callAgentID         |  string               | {{tid}}.callCenterDetails.callAgentID        | agentid:451               |  -  |
+| 03     | callCenterName      |  string               | {{tid}}.callCenterDetails.callCenterName     | callcenter:4              |  -  |
+| 04     | callEndtime         |  string               | {{tid}}.callCenterDetails.callEndtime        | 2020-03-23T13:05:31.000Z  |  -  |
+| 05     | callFlag            |  double               | {{tid}}.callCenterDetails.callFlag           | 1                         |  -  |
+| 06     | callID              |  string               | {{tid}}.callCenterDetails.callID             | 372889423                 |  -  |
+| 07     | callLength          |  double               | {{tid}}.callCenterDetails.callLength         | 42                        |  -  |
+| 08     | callSelectedReason  |  string               | {{tid}}.callCenterDetails.callSelectedReason | Payment Question          |  -  |
+| 09     | callStarttime       |  string               | {{tid}}.callCenterDetails.callStarttime      | 2020-03-23T13:12:02.000Z  |  -  |
+| 10     | callSurveyScore     |  string               | {{tid}}.callCenterDetails.callSurveyScore    | 9                         |  -  |
+
 
 #### JSON Preview
 
