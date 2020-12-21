@@ -85,11 +85,11 @@ Now lets take a look at each source in detail...
 Subscription Data
 -----------------------------------
 
-#### Info
+#### [Info]
 
 This data represents new/renewed subscriptions for services from the fake HOLDEN Media Company.  Subscriptions can happen on web, call center or other customer interaction channels
 
-#### Table
+#### [Table]
 
 
 
@@ -109,7 +109,7 @@ This data represents new/renewed subscriptions for services from the fake HOLDEN
 | 12     | accountOriginChannel        |  string (date)        | {{tid}}.accountDetails.accountOriginChannel        | website               |  -  |
 | 13     | accountStatus               |  string               | {{tid}}.accountDetails.accountStatus               | renewed               |  -  |
 
-#### JSON Preview
+#### [JSON Preview]
 
 ```json
 {
@@ -142,7 +142,7 @@ This data represents new/renewed subscriptions for services from the fake HOLDEN
 
 
 
-#### CSV Preview
+#### [CSV Preview]
 
 ```
 id,eventtype,subscriptionid,crmid,timestamp,accountstatus,subscriptionsku,subscriptionname,subscriptiontype,subscriptionlength,subscriptionpayment,subscriptionmethod,subscriptionamount,subscriptionflag,accountcurrentcontractmonth,accountoriginchannel
@@ -155,11 +155,11 @@ c263737f-84d8-11ea-8271-b88a60e194fb,subscription - website,subscriptionid:85233
 CRM Data
 -----------------------------------
 
-#### Info
+#### [Info]
 
 This represents the fake CRM data of customers known to HOLDEN Media Company -- like real CRM data, some parts could be blank or unknown.  This data is sent to "Profile" and tend to be flat customer attributes.
 
-#### Table
+#### [Table]
 
 | Number | FieldName         | DataType<sup>[info](#here)</sup>  | Mixin + Path <sup>[info](#here)</sup> | Example | Notes |
 |--------|-------------------|-----------------------|---------------------------------------|---------------------|-----|
@@ -177,7 +177,7 @@ This represents the fake CRM data of customers known to HOLDEN Media Company -- 
 | 12     | birthday          |  string (date)        | person.birthDate                      | 8/17/1972           |  -  |
 | 13     | genre             |  string               | interestProfileDetails.interestGenre  | Sci-Fi              |  -  |
 
-#### JSON Preview
+#### [JSON Preview]
 
 ```json
 {
@@ -217,7 +217,7 @@ This represents the fake CRM data of customers known to HOLDEN Media Company -- 
 
 ```
 
-#### CSV Preview
+#### [CSV Preview]
 
 ```
 crmid,email,first_name,last_name,gender,mobile_telephone,city,country,zip,state,street_address,birthday,genre
@@ -230,11 +230,11 @@ crmid:9999425,barite2000@yandex.aephandson.com,Leo,Dejesus,,847-223-9855,Melbour
 Reduced Web Data
 -----------------------------------
 
-#### Info
+#### [Info]
 
 This is a snapshot of the Web data collected from HOLDEN Media Company -- technically it's a reduction of the Adobe Analytics web data (that has hundreds of values).  This data has been intentionally reduced for lab compreshension and usage.
 
-#### Table
+#### [Table]
 
 | Number | FieldName             | DataType<sup>[info](#here)</sup>  | Mixin + Path <sup>[info](#here)</sup> | Example | Notes |
 |--------|-----------------------|-----------------------|---------------------------------------|---------------------|-----|
@@ -256,7 +256,7 @@ This is a snapshot of the Web data collected from HOLDEN Media Company -- techni
 | 16     | longitude        |  string               | placeContext.geo.\_schema.longitude         | 27.13                              |  -  |
 
 
-#### JSON Preview--
+#### [JSON Preview]
 
 ```json
 
@@ -306,11 +306,11 @@ This is a snapshot of the Web data collected from HOLDEN Media Company -- techni
 Propensity Data
 -----------------------------------
 
-#### Info
+#### [Info]
 
 This has propensity scores applied back to the profile.
 
-#### Table
+#### [Table]
   
 | Number | FieldName             | DataType<sup>[info](#here)</sup>  | Mixin + Path <sup>[info](#here)</sup> | Example | Notes |
 |--------|-----------------------|-----------------------|---------------------------------------|---------------------|-----|
@@ -319,7 +319,7 @@ This has propensity scores applied back to the profile.
 | 03     | propensityHighSpeed |  double               | {{tid}}.propensityProfileDetails.propensityHighSpeed | 5               |  -  |
 
 
-#### JSON Preview
+#### [JSON Preview]
 
 ```json
 {
@@ -338,7 +338,7 @@ This has propensity scores applied back to the profile.
 ```
 
 
-#### CSV Preview
+#### [CSV Preview]
 
 ```
 id,crmid,propensity_premium,propensity_high_speed
@@ -353,11 +353,11 @@ c2639a8c-84d8-11ea-ac72-b88a60e194fb,crmid:9999463,7,4
 Call Center Data
 -----------------------------------
 
-#### Info
+#### [Info]
 
 This has the call center agent data for HOLDEN Media Company so see what actions/behaviors occured in an offline channel.  This data is unified with we data (in the CJA lab) with the keys "CRMID" and "CRMIDCcombo" to look at online + offline pathways.
 
-#### Table
+#### [Table]
 
 | Number | FieldName             | DataType<sup>[info](#here)</sup>  | Mixin + Path <sup>[info](#here)</sup> | Example | Notes |
 |--------|-----------------------|-----------------------|---------------------------------------|---------------------|-----|
@@ -373,7 +373,7 @@ This has the call center agent data for HOLDEN Media Company so see what actions
 | 10     | callSurveyScore     |  string               | {{tid}}.callCenterDetails.callSurveyScore    | 9                         |  -  |
 
 
-#### JSON Preview
+#### [JSON Preview]
 
 ```json
 {
@@ -400,7 +400,7 @@ This has the call center agent data for HOLDEN Media Company so see what actions
 ```
 
 
-#### CSV Preview
+#### [CSV Preview]
 
 
 ```
