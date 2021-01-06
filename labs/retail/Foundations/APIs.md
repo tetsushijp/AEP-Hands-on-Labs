@@ -15,7 +15,7 @@
      </tr>
      <tr width="500">
            <td valign="top"><h3>Prerequisites:</h3></td>
-           <td valign="top"><br>download JSON collection and envirnoment (Shared via Email)
+           <td valign="top"><br>download JSON collection and environment (Shared via Email)
            </td>
      </tr>
 </tbody>
