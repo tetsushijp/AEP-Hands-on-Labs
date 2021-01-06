@@ -129,4 +129,4 @@ Preview: Propensity data
 Unlinked Profiles
 ----------------------------
 
-Here's the list of [Unlinked Profiles](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/unlinked_travel.md)
+Here's the list of [Unlinked Profiles](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/unlinked_retail.md)
