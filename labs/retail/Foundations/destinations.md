@@ -1,4 +1,4 @@
-Lab  - Activation of a Segment to a Destination 
+Lab  - Destination/Segment Activation Workflow  
 ==========
 <table style="border-collapse: collapse; border: none;" class="tab" cellspacing="0" cellpadding="0">
 
