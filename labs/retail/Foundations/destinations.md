@@ -71,7 +71,7 @@ Instructions:
 
 ![Demo](./images/act_segment_review_step3.png)
 
-8.	On the Review page, you can see a summary of your selection. Please do not select 'Finish' for your segment in the lab; rather, select 'Cancel' to exit out the activation workflow.
+8.	On the Review page, you can see a summary of your selection. <b>Please do not select 'Finish' for your segment in the lab</b>; rather, select 'Cancel' to exit out the activation workflow. This is to demonstrate the workflow for segment activation only.
 
 <br>
 <br>
