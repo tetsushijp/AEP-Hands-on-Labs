@@ -21,6 +21,7 @@ Please download your own attendee [lab content/uploads here](https://github.com/
 
 ### Adobe Experience Platform - RTCDP
 - [Review Destination/Segment Activation Workflow](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/Foundations/destinations.md)
+- [Bi-direction Segments (AEP > Target) ](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/Foundations/BidirectionalTarget.md)
 
 ### Adobe Experience Platform - Journey Orchestration
  - [Events](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/Journey%20Orchestration/Exercise1-Events.md)
