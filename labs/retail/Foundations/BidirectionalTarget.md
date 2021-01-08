@@ -67,7 +67,7 @@ Instructions:
 
 7.    Expand the X-ray panel and view the Segment Membership details
 
-<kbd><img src="./images/equipment_hero.png"  /></kbd>
+<kbd><img src="./images/xray_segment.png"  /></kbd>
 
 8.    Additionally, expand the Journey (ExperienceEvents) details to explore the event information sent into platform for your user journey.
 
