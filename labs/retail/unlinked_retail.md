@@ -1,6 +1,6 @@
 | Attendee #     | crmid  | email  |
 |------------|---|---|
-| attendee 001 | crmid:8699296768 | cephalotripsy1973@yandex.com |
+| attendee 001 | crmid:6013577314 | algicides2038@outlook.com |
 | attendee 002 | crmid:7796859046 | abroad2024@gmail.com |
 | attendee 003 | crmid:1758426727 | dutiful1865@live.com |
 | attendee 004 | crmid:3698415911 | confers1832@yandex.com |
@@ -20,7 +20,7 @@
 | attendee 018 | crmid:2694124175 | auroras1912@gmail.com |
 | attendee 019 | crmid:8991537546 | crataegus1845@outlook.com |
 | attendee 020 | crmid:2034548045 | cohesion2056@yandex.com |
-| attendee 021 | crmid:2746549864 | brockman1863@outlook.com |
-| attendee 022 | crmid:7565445491 | saintdom1884@outlook.com |
-| attendee 023 | crmid:6013577314 | algicides2038@outlook.com |
+| attendee 021 | crmid:7565445491 | saintdom1884@outlook.com |
+| attendee 022 | crmid:2746549864 | brockman1863@outlook.com |
+| attendee 023 | crmid:8699296768 | cephalotripsy1973@yandex.com |
 | attendee 024 | crmid:8127903428 | collaborationists2065@yandex.com |
