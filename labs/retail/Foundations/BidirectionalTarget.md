@@ -11,7 +11,7 @@ Bi-directional Segment Sharing - AEP > Target Review
 <tbody valign="top">
       <tr width="500">
             <td valign="top"><h3>Objective:</h3></td>
-            <td valign="top"><br>In this lab, you will see a Target experience using an AEM segment.
+            <td valign="top"><br>In this lab, you will see a Target experience using an AEP segment.
             </td>
      </tr>
      <tr width="500">
