@@ -55,7 +55,7 @@ Instructions:
 ```sql
 SELECT concat(placeContext.geo.stateProvince, ' - ', placeContext.geo.city) AS state_city, 
        Count(timestamp) AS Count
-FROM   media_demo_data_postvalues
+FROM   retail_demo_data_midvalues
 WHERE  _acp_year = 2019
        AND _acp_month = 11
        AND _acp_day = 03
