@@ -56,6 +56,7 @@ Instructions:
 SELECT concat(placeContext.geo.stateProvince, ' - ', placeContext.geo.city) AS state_city, 
        Count(timestamp) AS Count
 FROM   retail_demo_data_midvalues
+WHERE timestamp BETWEEN '2021-01-10T20:00:01.000Z' AND '2021-01-11T20:00:01.000Z'
 GROUP BY state_city
 ORDER BY Count DESC
 LIMIT  10;
