@@ -18,9 +18,4 @@
 | attendee 016 | crmid:1283311893 | constructor1961@outlook.com |
 | attendee 017 | crmid:8174385429 | doglike1830@outlook.com |
 | attendee 018 | crmid:2694124175 | auroras1912@gmail.com |
-| attendee 019 | crmid:8991537546 | crataegus1845@outlook.com |
-| attendee 020 | crmid:2034548045 | cohesion2056@yandex.com |
-| attendee 021 | crmid:7565445491 | saintdom1884@outlook.com |
-| attendee 022 | crmid:2746549864 | brockman1863@outlook.com |
-| attendee 023 | crmid:8699296768 | cephalotripsy1973@yandex.com |
-| attendee 024 | crmid:8127903428 | collaborationists2065@yandex.com |
+
