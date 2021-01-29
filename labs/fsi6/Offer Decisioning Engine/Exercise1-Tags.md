@@ -9,19 +9,20 @@ To create a Tag, follow these steps:
 
 1.	Click on Tags within the Offers navigation.
 
-    ![Demo](/images/navigate_to_tags.png)
+    ![Demo](images/navigate_to_tags.png)
 
 2. Click on `Create Tag`.
 
-    ![Demo](/images/create_tag.png)
+    ![Demo](images/create_tag.png)
     
 3.	Specify the tag’s name (Promotion + your sandbox number. Ex: Promotion24), then click Save.
 
 4.	Once the tag is created, it displays in the list, where you can select it to display its properties and edit or delete it. 
+
+![Demo](images/edit_tag.png)
 **Note:** You may need to refresh your browser.
 *Please do not edit/delete existing tags as it may break the offers workflow built for demo purposes.*
 
-    ![Demo](/images/edit_tag.png)
     
  ---
 
