@@ -26,4 +26,4 @@ To create a Tag, follow these steps:
     
  ---
 
-Next Step: [Exercise 3 - Define a Placement](Exercise2-Placements.md)
+Next Step: [Exercise 3 - Define a Placement](Exercise3-Placements.md)
