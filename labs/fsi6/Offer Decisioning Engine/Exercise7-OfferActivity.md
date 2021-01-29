@@ -1,4 +1,4 @@
-## Exercise 7 - Create a Collection
+## Exercise 7 - Create an Offer Activity
 
 Offer activities are containers for your offers that will leverage the Offer Decision Engine in order to pick the best offer to deliver, depending on the target of the delivery.
 The list of offer activities is accessible in the Activities menu. Filters are available to help you retrieve activities according to their status or start and end dates.
