@@ -15,7 +15,7 @@ To create an activity, follow these steps:
 
 2.	 Define a start and end date, and time. Start date = today. End date = 1 year from today, then click `Next`
 
-    ![Demo](images/createActivity2.png)
+![Demo](images/createActivity2.png)
     
 3.	Drag and drop or click on the “+” to add the placements for the banner, email text and mobile text from the list to add it to the activity. 
 
