@@ -54,7 +54,7 @@ You should now see the Email Banner Representation
 
 You should now see a representation for your Email Banner placement and your Email Text placement
 
-    ![Demo](images/personolizedOffer7.png)
+![Demo](images/personolizedOffer7.png)
 
 ### Create a Mobile Text Representation
 1.	Click on Add representation
@@ -73,7 +73,7 @@ You should now see a representation for your Email Banner placement and your Ema
     
 You should now see a representation for your Email Banner placement, Email Text and Mobile Text placement
 
-    ![Demo](images/personolizedOffer10.png)
+![Demo](images/personolizedOffer10.png)
  
 9.	Click `Next` to define the eligibility criteria
 
@@ -152,7 +152,7 @@ You should now see a representation for your Email Banner placement and your Ema
 
 You should now see a representation for your Email Banner placement, Email Text and Mobile Text placement
 
-     ![Demo](images/personolizedOfferWM5.png)
+![Demo](images/personolizedOfferWM5.png)
 
 9.	Click `Next` to define the eligibility criteria
 
