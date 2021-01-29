@@ -41,7 +41,8 @@ In this exercise, we are creating 2 rules.
      
 Once the rule is created, it displays in the Rules list. You can select it to display its properties and edit or delete it.
 
-     ![Demo](images/create_rule5.png)  
+![Demo](images/create_rule5.png)  
+     
 
 ## Create an ”Affluent Customer” Decision Rule using a Profile Attribute
 
