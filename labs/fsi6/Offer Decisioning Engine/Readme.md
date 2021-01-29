@@ -17,13 +17,13 @@ We now understand our customer's behaviors and we want to deliver the right pers
 
 Definitions of the terms you will be exposed to in the lab exercises.
 
-### [Exercise 1 - Define a Tag](./Exercise1-Tags.md)
-
-In this exercise, you'll learn how to define a tag.
-
 ### [Working with the Offer UI](./OfferUI.md)
 
 Accessing the Offers UI within Experience Platform.
+
+### [Exercise 1 - Define a Tag](./Exercise1-Tags.md)
+
+In this exercise, you'll learn how to define a tag.
 
 ### [Exercise 2 - Define an Placement](./Exercise2-Placements.md)
 
