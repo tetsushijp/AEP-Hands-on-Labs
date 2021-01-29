@@ -7,7 +7,7 @@ In this lab you'll use the Offers Decisioning Engine to create 2 offers. One for
 
 ## Use Case
 As a brand, we've invested heavily in personalizing customer experiences. Now, we want to be as contextual and relevant with offers for our customers.
-We now understand our customer's behaviour and we want to deliver the right personalized offer and the right time from a central library of marketing offers.
+We now understand our customer's behaviors and we want to deliver the right personalized offer and the right time from a central library of marketing offers.
 
 
 
@@ -15,7 +15,7 @@ We now understand our customer's behaviour and we want to deliver the right pers
 
 ### [Glossary of Terms](./Glossary.md)
 
-Definitions of the terms you will be exposed to in the lab excercises.
+Definitions of the terms you will be exposed to in the lab exercises.
 
 ### [Exercise 1 - Define a Tag](./Exercise1-Tags.md)
 
@@ -39,7 +39,7 @@ In this exercise, you'll create a default offer that will be displayed when an e
 
 ### [Exercise 6 - Create a Collection](./Exercise6-Collections.md)
 
-In this exercise, you'll create a collection, which is subset, or group of offers based on predefined conditions defined by a marketer, such as category of the offer. Today we will define a collection using the Tag we created in excercise 1.
+In this exercise, you'll create a collection, which is subset, or group of offers based on predefined conditions defined by a marketer, such as category of the offer. Today we will define a collection using the Tag we created in exercise 1.
 
 ### [Exercise 7 - Create a Offer Activity](./Exercise7-OfferActivity.md)
 
