@@ -81,14 +81,14 @@ You should now see a representation for your Email Banner placement, Email Text 
 
 1.	Select the `Decision Rule` radio button to see the Decision Rules you built earlier
 
-    ![Demo](images/eligibilityCriteria.png)
+    ![Demo](images/eligibilityCriteria2.png)
     
 2.	Because this is the Auto Loan offer, select the “Loan Eligibility” rule you created
     - Add or drag and drop from the decision rules panel
     - Set the priority to 100 for the purposes of our lab **Note: Priority is a number used to rank offers that meet all constraints such as eligibility, dates, and capping.**
     - Set capping to 3
 
-    ![Demo](images/eligibilityCriteria2.png)
+
     
 3.	Click, `Next` to review a summary of your Auto Loan Offer
 4.	Click, `Finish` and `Save and Approve` to save your offer
