@@ -17,7 +17,7 @@ We now understand our customer's behaviors and we want to deliver the right pers
 
 Definitions of the terms you will be exposed to in the lab exercises.
 
-### [Working with the Offer UI](OfferUI.md)
+### [Working with the Offer UI](OffersUI.md)
 
 Accessing the Offers UI within Experience Platform.
 
