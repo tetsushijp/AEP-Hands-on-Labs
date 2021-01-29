@@ -174,6 +174,7 @@ You should now see a representation for your Email Banner placement, Email Text 
 4.	Click`Finish` and `Save and Approve` to save your offer
 
 
+ ---
 
-
+Next Step: [Exercise 5 - Create a Fallback Offer](Exercise5-FallbackOffer.md)
 
