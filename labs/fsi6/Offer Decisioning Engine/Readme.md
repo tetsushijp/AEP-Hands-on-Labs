@@ -21,6 +21,10 @@ Definitions of the terms you will be exposed to in the lab exercises.
 
 In this exercise, you'll learn how to define a tag.
 
+### [Working with the Offer UI](./OfferUI.md)
+
+Accessing the Offers UI within Experience Platform.
+
 ### [Exercise 2 - Define an Placement](./Exercise2-Placements.md)
 
 In this exercise, you'll learn how to define a placement or location in which an offer appears for an end-user.
