@@ -58,7 +58,8 @@ Once the rule is created, it displays in the Rules list. You can select it to di
     ![Demo](images/create_rule6.png)
     
 3.	Select the first “Birth date” attribute and drag to the segment builder canvas on the right
-*NOTE: You may need to expand your browser window to see the rules options.*
+
+ ** *NOTE: You may need to expand your browser window to see the rules options.* **
     - Change the “Today” to “Rolling Range” and add 50 to the input field
     - Change “Day(s)” to “Year(s)
     - Click on “+to” and change 50 to 100 in the input field
