@@ -51,7 +51,7 @@ We will now create representations for both the email text and SMS text fallback
 
 You should now see your Fallback offer 
 
-     ![Demo](images/FallbackOffer5.png)
+   ![Demo](images/FallbackOffer5.png)
      
  ---
 
