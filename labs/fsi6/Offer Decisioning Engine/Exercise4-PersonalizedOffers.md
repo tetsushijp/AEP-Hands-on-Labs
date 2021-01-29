@@ -8,20 +8,20 @@ To create a personalized offer, follow these steps:
 
 1.	In the Browse tab, click `Create offer` then select `Personalized offer`
 
-    ![Demo](images/personalizedOffer.png)
+    ![Demo](images/personolizedOffer.png)
 
 2.	Name the Rule with the following naming convention. (“AutoLoanOffer  + your sandbox number.” Ex: “AutoLoanOffer24”)
 3.	Start date = today. End date 1 year from now
 4.	Add the tag you created earlier (“Promotion + your sandbox number.” Ex: “Promotion24”)
 ***Note: Offer Attributes are key value pairs associated with the offer and can be used for reporting and analysis. You can skip this optional step today.***
 
-    ![Demo](images/personalizedOffer2.png)
+    ![Demo](images/personolizedOffer2.png)
 
 5.	Click `Next` to add content representations
 6.	Select `Email` as the channel
 7.	Select the Placement you created earlier EX: “EmailBannerPlacement24”
 
-    ![Demo](images/personalizedOffer3.png)
+    ![Demo](images/personolizedOffer3.png)
     
 8.	Click `Add content`
 9.	Name the Content with the following naming convention. (“EmailBanner  + your sandbox number.” Ex: “EmailBanner24”)
@@ -29,7 +29,7 @@ To create a personalized offer, follow these steps:
 11.	Add the Destination Link: https://americaspot6-publish.adobedemo.com/content/we-finance-pot/language-masters/en.html
 12.	Select “English (United States”) for Language
 
-    ![Demo](images/personalizedOffer4.png)
+    ![Demo](images/personolizedOffer4.png)
     
 13.	Click `Save` 
 
@@ -41,27 +41,27 @@ You should now see the Email Banner Representation
 2.	Select `Email` as the channel
 3.	Select the Placement you created earlier EX: “EmailTextPlacement24”
 
-    ![Demo](images/personalizedOffer5.png)
+    ![Demo](images/personolizedOffer5.png)
 
 4.	Click `Next` to advance to the “Add content” screen
 5.	Name your content with the following naming convention. (“EmailText  + your sandbox number.” Ex: “EmailText24”)
 6.	Select `Custom Text` and add “Ready for your next ride?” in the Content field
 7.	Select “English (United States”) for Language
 
-    ![Demo](images/personalizedOffer6.png)
+    ![Demo](images/personolizedOffer6.png)
     
 8.	Click `Save` 
 
 You should now see a representation for your Email Banner placement and your Email Text placement
 
-    ![Demo](images/personalizedOffer7.png)
+    ![Demo](images/personolizedOffer7.png)
 
 ### Create a Mobile Text Representation
 1.	Click on Add representation
 2.	Select `Mobile` as the channel
 3.	Select the “MobileTextPlacement + your sandbox number” Ex. “MobileTextPlacement24” 
 
-    ![Demo](images/personalizedOffer8.png)
+    ![Demo](images/personolizedOffer8.png)
     
 4.	Click `Next` to advance to the “Add Content” screen
 5.	Name the Content with the following naming convention. (MobileText  + your sandbox number. Ex: “MobileText24”)
@@ -69,11 +69,11 @@ You should now see a representation for your Email Banner placement and your Ema
 7.	Select “English (United States”) for Language
 8.	Click `Save` 
 
-    ![Demo](images/personalizedOffer9.png)
+    ![Demo](images/personolizedOffer9.png)
     
 You should now see a representation for your Email Banner placement, Email Text and Mobile Text placement
 
-    ![Demo](images/personalizedOffer10.png)
+    ![Demo](images/personolizedOffer10.png)
  
 9.	Click `Next` to define the eligibility criteria
 
@@ -168,6 +168,9 @@ You should now see a representation for your Email Banner placement, Email Text 
     - Set capping to 3
  
 3.	Click`Next` to review a summary of your Wealth Management Offer
+
+    ![Demo](images/personolizedOfferWM6.png)
+
 4.	Click`Finish` and `Save and Approve` to save your offer
 
 
