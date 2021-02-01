@@ -18,7 +18,6 @@ Before we get started, make sure your offers status is set to “Approved” and
 
 4.	From the dropdown in the top-left, select your assigned sandbox
  
-
    ![Demo](images/testActivity4.png)
 
 5.	Select “Previewer from the left navigation
