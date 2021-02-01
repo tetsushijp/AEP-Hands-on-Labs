@@ -1,4 +1,4 @@
-## WIP - Exercise 8 - Validate Your Offer
+## Exercise 8 - Validate Your Offer
 
 In this exercise, you'll validate that your offers are rendering the right content based on the placements and rules you have defined.
 
