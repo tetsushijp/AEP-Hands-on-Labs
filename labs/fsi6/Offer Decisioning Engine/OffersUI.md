@@ -20,4 +20,4 @@
   
 ---
 
-Next Step: [Exercise 2 - Define a Tag](./Exercise1-Tags.md)
+Next Step: [Exercise 1 - Define a Tag](./Exercise1-Tags.md)
