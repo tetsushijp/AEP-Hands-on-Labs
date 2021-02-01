@@ -55,4 +55,4 @@ You should now see your Fallback offer
      
  ---
 
-Next Step: [Exercise 6 - Create a Collection](Exercise6-Collections.md.md)
+Next Step: [Exercise 6 - Create a Collection](Exercise6-Collections.md)
