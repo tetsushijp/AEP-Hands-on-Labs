@@ -3,7 +3,7 @@
 A placement helps ensure that the right offer content shows up in the right location with your message. When you add content to an offer, you will be asked to select a placement where that content can be shown.
 In the example below, there are three placements, corresponding to different types of content (image, text, HTML).
 
-    ![Demo](images/offers_placement_schema.png)
+   ![Demo](images/offers_placement_schema.png)
 
 We are going to create a placement for an email hero banner using an image, text for an email and text for a Mobile SMS Message.
 
