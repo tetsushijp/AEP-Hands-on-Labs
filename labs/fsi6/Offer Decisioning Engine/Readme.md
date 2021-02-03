@@ -2,12 +2,12 @@
 
 ## Lab Overview
 
-In this lab you'll use the Offers Decisioning Engine to create 2 offers. One for wealth management and one for an auto loan. Both of these offers will have representations for an email banner, text email and a mobile text. We will define rules to present the “best product” offer to a customer across multiple channels.
+In this lab you'll use the Offers Decisioning Engine to create 2 offers. One for wealth management and one for an auto loan. Both of these offers will have representations for an email banner, text email and a mobile text. Using profile data from Experience Platform, we will define rules based on customer attributes to present the “best product” offer to a customer across multiple channels.
 
 
 ## Use Case
-As a brand, we've invested heavily in personalizing customer experiences. Now, we want to be as contextual and relevant with offers for our customers.
-We now understand our customer's behaviors and we want to deliver the right personalized offer and the right time from a central library of marketing offers.
+As a Financial Institution, we've invested heavily in the ability to personalize customer experiences. Now, we want to be as contextual and relevant with offers for our customers.
+We understand our customer's behaviors and we want to deliver the right personalized Auto loan or Wealth Mangement offer at the right time from a central library of marketing offers.
 
 
 
