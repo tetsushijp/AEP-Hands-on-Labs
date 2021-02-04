@@ -7,7 +7,7 @@ In this lab you'll use the Offers Decisioning Engine to create 2 offers. One for
 
 ## Use Case
 As a Financial Institution, we've invested heavily in the ability to personalize customer experiences. Now, we want to be as contextual and relevant with offers for our customers.
-We understand our customer's behaviors and we want to deliver the right personalized Auto loan or Wealth Mangement offer at the right time from a central library of marketing offers.
+We understand our customer's behaviors and we want to deliver the right personalized Auto loan or Wealth Management offer at the right time from a central library of marketing offers.
 
 
 
