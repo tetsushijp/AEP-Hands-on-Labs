@@ -142,7 +142,7 @@ Instructions:
     This API call is part of the profile API and will return the profile object associated with an identity. 
 
 
-9. Next, click and open 'Step 3b - GET Profile by emailID' and add in the entityId parameter entry the emailID aassigned to your attendee ID [here](https://raw.githubusercontent.com/adobe/AEP-Hands-on-Labs/master/labs/fsi/unlinked_fsi.md).
+9. Next, click and open 'Step 3b - GET Profile by emailID' and add in the entityId parameter entry the emailID aassigned to your attendee ID [here](https://raw.githubusercontent.com/adobe/AEP-Hands-on-Labs/master/labs/fsi6/unlinked_fsi.md).
     <!---
     ![Demo](./images/postmanstep3b.png)
     --->
