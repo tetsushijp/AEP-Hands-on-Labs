@@ -36,8 +36,12 @@ To create a Placement, follow these steps:
 
 Next, follow steps 1-3 to create placements for an Email Text Placement and a Mobile Text Placement, using the following naming convention.
 * EmailTextPlacement  + your sandbox number. Ex: EmailTextPlacement24
+   - Channel Type: Email
+   - Content Type: Text
    - Description: “Email text placement”
 * MobileTextPlacement  + your sandbox number. Ex: MobileTextPlacement24
+   - Channel Type: Mobile
+   - Content Type: Text
    - Description: “Description: “Mobile text placement””  
    
 
