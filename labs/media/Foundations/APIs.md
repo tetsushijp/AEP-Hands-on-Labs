@@ -115,7 +115,7 @@
     This API call will get all the schemas in the instance. Note we restrict the properties that are returned from the API call to make the response more manageable to read.
 
 
-    Try to search for the schema you created during the schema exercises.
+    Try to search for the 'CRM Profile Schema'.
 
     <!---
     ![Demo](./images/postmanstep2.png)
@@ -134,7 +134,7 @@
 
     This API call is part of the profile API and will return the profile object associated with an identity.
 
-9. Next, click and open 'Step 3b - GET Profile by emailID' and add in the entityId parameter entry the emailID aassigned to your attendee ID [here](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/unlinked.md).
+9. Next, click and open 'Step 3b - GET Profile by emailID' and add in the entityId parameter entry the emailID aassigned to your attendee ID [here](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/media/unlinked.md).
    <!---
    ![Demo](./images/postmanstep3b.png)
    --->
