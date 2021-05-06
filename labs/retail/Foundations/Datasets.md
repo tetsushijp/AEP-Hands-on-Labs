@@ -106,7 +106,10 @@ We will be creating a dataset for the schema we created in the previous exercise
     -->
     <kbd><img src="./images/datasetadddata.png"  /></kbd> 
 
-8. From the lab files you downloaded, drag and drop the 'order_data_&lt;your-assigned-number>.json' file into the 'ADD DATA' section. You will now see a batch with a 'Loading' status.
+8. From the lab files you downloaded, drag and drop the 'order_data_&lt;your-assigned-number>.json' file into the 'ADD DATA' section. 
+
+
+      You will now see a batch with a 'Processing' status.
 
 
     <!---
