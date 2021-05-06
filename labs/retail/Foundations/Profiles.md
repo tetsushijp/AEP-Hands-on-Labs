@@ -60,7 +60,7 @@ Instructions:
     
 <kbd><img src="./images/profile_view.png"  /></kbd>
     
-6.    Next, go to https://americaspot5-publish.adobedemo.com/content/we-retail/language-masters/en.html# in a browser.
+6.    Next, go to https://americaspot5-publish.adobedemo.com/content/we-retail/language-masters/en.html# in a browser and click into a category page 
 7.    In the left margin, click on the “person” icon. This will display the X-ray panel from this website.
 
 <kbd><img src="./images/person_icon.png"  /></kbd>
@@ -73,16 +73,28 @@ Instructions:
 10.   Copy the value for ECID and save it to a text editor of your choice</li>
 11.   Go back to Profile view page in Experience Platform.
 12.   Select ECID from the Namespace dropdown and paste the value copied in the step above to view your Profile.
+
+<kbd><img src="./images/profile_view.png"  /></kbd>
+
 13.   Click on each of the tabs you see - Details, Attributes, Events and Segment Membership.
+
+<kbd><img src="./images/profiles_tabs.png"  /></kbd>
+
 14.   Go back to https://americaspot5-publish.adobedemo.com/content/we-retail/language-masters/en.html#.
-15.   Click on the 'Registration' in the top navigation of the page.
+15.   Click on the 'Registration' at the bottom right of the page.
 16.   Plug in some details and hit 'Register Now'.
 17.   Go back to Experience Platform, click on 'Profiles' in the left panel, click on the 'Browse' tab and look up your ECID again.
 18.   You will see a CRM Id assigned and linked to your ECID as a result of the registration action.
+
+<kbd><img src="./images/profiles_ecid_crmid.png"  /></kbd>
+
 19.   Go back to https://americaspot5-publish.adobedemo.com/content/we-retail/language-masters/en.html#.
 20.   Click on Login (top right of page).  
 21.   Enter the email address you used during registration and a value in Company Name (you can leave the default for number) and hit 'Login'.
 22.   Go back to Experience Platform, click on 'Profiles' in the left panel, click on the 'Browse' tab and look up your ECID again.
 19.   Note any changes to the customer profile on the Details tab. 
+
+<kbd><img src="./images/completed_linked profile.png"  /></kbd>
+
 
 Return to [Lab Agenda Directory](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/README.md#lab-agenda)
