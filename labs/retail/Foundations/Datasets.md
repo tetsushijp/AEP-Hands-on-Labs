@@ -112,10 +112,6 @@ We will be creating a dataset for the schema we created in the previous exercise
 
 You will now see a batch with a 'Processing' status.
 
-
-    <!---
-    ![Demo](./images/datasetbatch.png)
-    --->
 <kbd><img src="./images/datasetbatch.png"  /></kdb>
 
 
