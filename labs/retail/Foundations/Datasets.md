@@ -116,8 +116,7 @@ You will now see a batch with a 'Processing' status.
     <!---
     ![Demo](./images/datasetbatch.png)
     --->
-
-    <kbd><img src="./images/datasetbatch.png"  /></kdb>
+<kbd><img src="./images/datasetbatch.png"  /></kdb>
 
 
 9. Adobe Experience Platform will perform the XDM mapping and conversion for JSON format to parquet and make this data available on the data lake and the profile store. Refresh the screen. This process only takes a few seconds.
