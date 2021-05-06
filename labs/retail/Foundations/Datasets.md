@@ -110,7 +110,7 @@ We will be creating a dataset for the schema we created in the previous exercise
 
 <kbd><img src="./images/datasetbatchdragdrop.png"  /></kdb>
 
-      You will now see a batch with a 'Processing' status.
+You will now see a batch with a 'Processing' status.
 
 
     <!---
