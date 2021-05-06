@@ -163,7 +163,7 @@ Instructions:
       <kbd><img src="./images/schemamixin7.png"  /></kdb>    
       
       
-11. Display name is "Order Details Mixin EE &lt;your-assigned-number>" and then hit 'Add Field group'.
+11. Display name is "Order Details Mixin EE &lt;your-assigned-number>" and then hit 'create new field group'.
       
     <!--  
     ![Demo](./images/schemamixin8.png)
