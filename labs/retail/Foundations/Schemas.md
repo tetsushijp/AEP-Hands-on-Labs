@@ -119,7 +119,7 @@ Instructions:
       <kbd><img src="./images/schemaclass1.png"  /></kdb>
        
       
-7. Click on the "+ Add" button to the right of "Field group" in the left panel.
+7. Click on the "+ Add" button to the right of "Field groups" in the left panel.
 
 
     <!---
@@ -133,7 +133,7 @@ Instructions:
       Here's where you can build your own Field group or use a prior/similar Field group object that conforms to your data.
            
       
-8. In this lab, we will be adding three pre-built Field group listed below:
+8. In this lab, we will be adding three pre-built Field groups listed below:
 
       - Product Details Mixin EE,
       - Store Details Mixin EE,
