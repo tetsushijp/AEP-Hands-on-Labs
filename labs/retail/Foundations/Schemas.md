@@ -119,7 +119,7 @@ Instructions:
       <kbd><img src="./images/schemaclass1.png"  /></kdb>
        
       
-7. Click on the "+ Add" button to the right of "Mixins" in the left panel.
+7. Click on the "+ Add" button to the right of "Field group" in the left panel.
 
 
     <!---
@@ -130,10 +130,10 @@ Instructions:
 
       
       
-      Here's where you can build your own Mixin or use a prior/similar Mixin object that conforms to your data.
+      Here's where you can build your own Field group or use a prior/similar Field group object that conforms to your data.
            
       
-8. In this lab, we will be adding three pre-built mixins listed below:
+8. In this lab, we will be adding three pre-built Field group listed below:
 
       - Product Details Mixin EE,
       - Store Details Mixin EE,
@@ -152,25 +152,25 @@ Instructions:
       <kbd><img src="./images/mixins-added.png"  /></kdb>
       
         
-9. Now, we'll create a new Mixin from scratch. Go back and hit the "+ Add" button in the left panel.
+9. Now, we'll create a new Field group from scratch. Go back and hit the "+ Add" button in the left panel.
 
       <kbd><img src="./images/schemamixin6.png"  /></kdb>    
        
       
-10. Select "Create new mixin" at the top.
+10. Select "Create new Field group" at the top.
 
 
       <kbd><img src="./images/schemamixin7.png"  /></kdb>    
       
       
-11. Display name is "Order Details Mixin EE &lt;your-assigned-number>" and then hit 'Add Mixin'.
+11. Display name is "Order Details Mixin EE &lt;your-assigned-number>" and then hit 'Add Field group'.
       
     <!--  
     ![Demo](./images/schemamixin8.png)
     --> 
     <kbd><img src="./images/schemamixin8.png"  /></kdb>     
      
-12. In the left-hand schema composition menu, click on your newly create Mixin (it should be highlighted now)
+12. In the left-hand schema composition menu, click on your newly create Field group (it should be highlighted now)
 
 
     <!---
