@@ -157,7 +157,7 @@ Instructions:
       <kbd><img src="./images/schemamixin6.png"  /></kdb>    
        
       
-10. Select "Create new Field group" at the top.
+10. Select "Create new field group" at the top.
 
 
       <kbd><img src="./images/schemamixin7.png"  /></kdb>    
