@@ -140,7 +140,7 @@ Instructions:
       - Identities Mixin EE
      
      
-      Select the 'Product Details Mixin EE', 'Store Details Mixin EE' and 'Identities Mixin EE' mixins, and click "Add mixin" button.
+      Select the 'Product Details Mixin EE', 'Store Details Mixin EE' and 'Identities Mixin EE' mixins, and click "Add field group" button.
       
      <!-- 
      ![Demo](./images/schemamixin1.png)
