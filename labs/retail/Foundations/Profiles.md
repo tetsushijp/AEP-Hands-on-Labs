@@ -62,7 +62,13 @@ Instructions:
     
 6.    Next, go to https://americaspot5-publish.adobedemo.com/content/we-retail/language-masters/en.html# in a browser.
 7.    In the left margin, click on the “person” icon. This will display the X-ray panel from this website.
+
+<kbd><img src="./images/person_icon.png"  /></kbd>
+
 8.    Expand the 'Real-time Customer Profile section'. 
+
+<kbd><img src="./images/person_panel.png"  /></kbd>
+
 9.    Observe the identities and their linkage to a namespace.
 10.   Copy the value for ECID and save it to a text editor of your choice</li>
 11.   Go back to Profile view page in Experience Platform.
