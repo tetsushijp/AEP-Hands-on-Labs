@@ -126,7 +126,7 @@ Instructions:
     ![Demo](./images/schemamixin.png)
     --->
 
-    <kbd><img src="./images/mixins.png"  /></kdb>
+    <kbd><img src="./images/mixins0.png"  /></kdb>
 
       
       
