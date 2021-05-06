@@ -74,7 +74,7 @@ Instructions:
 11.   Go back to Profile view page in Experience Platform.
 12.   Select ECID from the Namespace dropdown and paste the value copied in the step above to view your Profile.
 
-<kbd><img src="./images/profile_view.png"  /></kbd>
+<kbd><img src="./images/identities-ECID AEP.png"  /></kbd>
 
 13.   Click on each of the tabs you see - Details, Attributes, Events and Segment Membership.
 
