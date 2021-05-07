@@ -59,28 +59,34 @@ Instructions:
 
 2. Please ensure that you are in your alloted sandbox for this exercise
 
-3. In the left-hand menu, navigate to "Services" and click "Open" within the Customer AI section
+3. In the left-hand menu, navigate to **Services** and click **Open** within the **Customer AI** section
+
+      ![Demo](./images/1.png)
+      
+4. Click **Create instance**. 
 
 
-      ![Demo](./images/services.png)
+
+      ![Demo](./images/2.png)
       
       
-3. Click "+ Create dataset".
-
-
-      ![Demo](./images/datasetcreate.png)
+      This will take you to the Setup stage of the Customer AI workflow.
       
+4. Enter a name for this instance. Let's call it "Propensity to Buy" followed by your sandbox number. eg: **Propensity to buy 001**
+5. Set Propensity type to **Conversion**
+6. Set Dataset to **FSI Demo Data midValues**. This is a prepopulated Adobe Analytics dataset.
+7. Leave the eligible population as is and include the entire population.
+8. Click **Next** on the top right of your screen.
       
-4. We will be creating the dataset from a schema, so please select "Create dataset from schema".
 
-
-      ![Demo](./images/datasetcreate2.png)
+      ![Demo](./images/3.png)
+      
+ This will take you to the Define Goal stage of the Customer AI workflow.
  
- 
-4. On the "Select schema" page, search for "Transactions Schema [your-assigned-number]" then select the schema and click "Next".
+9. Enter the term **purchaseid** inside the *Enter field name* section and select **commerce.order.purchaseid** -> **exists** as your conversion event.     
       
       
-      ![Demo](./images/datasetschema.png)
+      ![Demo](./images/4.png)
       
       
 3. Name your dataset "Transactions Dataset [your-assigned-number]" and give it the same description.
