@@ -67,7 +67,7 @@ Instructions:
 
 
 
-      ![Demo](./images/2.png)
+    ![Demo](./images/2.png)
       
       
       This will take you to the Setup stage of the Customer AI workflow.
@@ -79,7 +79,7 @@ Instructions:
 8. Click **Next** on the top right of your screen.
       
 
-      ![Demo](./images/3.png)
+      <img src= "./images/3.png" width="1800" height="400">
       
  This will take you to the Define Goal stage of the Customer AI workflow.
  
