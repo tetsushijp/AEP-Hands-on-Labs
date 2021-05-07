@@ -83,19 +83,22 @@ Instructions:
       
  This will take you to the Define Goal stage of the Customer AI workflow.
  
-9. Enter the term **purchaseid** inside the *Enter field name* section and select **commerce.order.purchaseid** -> **exists** as your conversion event.     
+9. Enter the term **purchaseid** inside the *Enter field name* section and select **commerce.order.purchaseid** -> **exists** as your conversion event.
+10. Leave Timeframe as is to 30 days     
       
       
       ![Demo](./images/4.png)
       
+      This will take you to the Advanced  stage of the Customer AI workflow.
       
-3. Name your dataset "Transactions Dataset [your-assigned-number]" and give it the same description.
+11. Set scoring to run **Weekly on Mondays at 12:00 am Eastern**.
+12. Leave Exclusion Population as is
       
       
-      ![Demo](./images/datasetname.png) 
+      ![Demo](./images/5.png) 
  
  
-4. Click Finish to save the dataset.
+4. Click **Finish** on the top right of your screen to save the instance.
       
       
-      ![Demo](./images/datasetfinish.png) 
+  
