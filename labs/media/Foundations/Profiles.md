@@ -64,13 +64,13 @@ Instructions:
  
 <kbd><img src="./images/person_panel_media.png"  /></kbd>
  
-8.	Expand the 'Real-time Customer Profile section'.
+8.	Expand the 'Real-time Customer Profile section' and observe the identities and their linkage to a namespace
  
 <kbd><img src="./images/identities-ECID.png"  /></kbd>
  
-9.	Observe the identities and their linkage to a namespace.
-10.	Copy the value for ECID and go back to Profiles Browse view in Experience Platform.
-11.	Select "ECID" in the "Identity namespace" dropdown and paste the ECID value copied previously into the "Identity value" field.
+9.	Copy the ECID value & go back to Profiles Browse view
+10.	Select "ECID" in the "Identity namespace" dropdown and paste the ECID value copied previously into the "Identity value" field.
+11.	Click into Profile ID
  
 <kbd><img src="./images/identities-ECID AEP.png"  /></kbd>
  
