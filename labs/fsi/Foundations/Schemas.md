@@ -117,7 +117,7 @@ Reminder: the class defines the smallest set of fields used to build a schema an
 
       <kbd><img src="./images/schemamixin7.png"  /></kdb>
 
-10. Enter "Order Details Mixin EE [your-assigned-number]" as the "Display name" and click "Add field groups".
+10. Enter "Order Details Field Group EE [your-assigned-number]" as the "Display name" and click "Add field groups".
 
     
 11. In the left-hand schema composition menu, click on your newly create Mixin (it should be highlighted now)
