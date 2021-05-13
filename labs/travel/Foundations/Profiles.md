@@ -73,6 +73,8 @@ Instructions:
 11.	Click into Profile ID
  
 <kbd><img src="./images/identities-ECID AEP.png"  /></kbd>
+
+
  <kbd><img src="./images/completed_linked profile_travel.png"  /></kbd>
 
 Return to [Lab Agenda Directory](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/travel/README.md#lab-agenda)
