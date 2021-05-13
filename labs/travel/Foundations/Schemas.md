@@ -93,7 +93,7 @@ Before we begin go to [https://platform.adobe.com/home](https://platform.adobe.c
     ![Demo](./images/schemamixin1.png)
 
     
-7. We'll also create a new Mixin from scratch. Click the "+Add" button on the left panel.
+7. We'll also create a new Field Group from scratch. Click the "+Add" button on the left panel.
 
       <!---
       ![Demo](./images/schemamixin6.png)
@@ -101,15 +101,15 @@ Before we begin go to [https://platform.adobe.com/home](https://platform.adobe.c
 
     <kbd><img src="./images/schemamixin6.png"  /></kdb>
 
-8. Select "Create new mixin" at the top.
+8. Select "Create new Field Group" at the top.
 
 
       ![Demo](./images/schemamixin7.png)
 
-9. Name it "Order Details Mixin &lt;your-assigned-number>" and then click 'Add Mixin'.
+9. Name it "Order Details Field Group &lt;your-assigned-number>" and then click 'Add field groups'.
 
     ![Demo](./images/schemamixin8.png)
-10. In the left-hand Composition menu, click on your newly create mixin (it should be highlighted now).
+10. In the left-hand Composition menu, click on your newly create Field Group (it should be highlighted now).
 
     <!---
     ![Demo](./images/schemamixin9.png)
