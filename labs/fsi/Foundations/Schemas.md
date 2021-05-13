@@ -93,7 +93,7 @@ Reminder: the class defines the smallest set of fields used to build a schema an
 
     <kbd><img src="./images/schemamixin.png"  /></kdb>
 
-    Here you can build your own Mixin or use a prior/similar Mixin object that conforms to your data.
+    Here you can build your own Field Group or use a prior/similar Mixin object that conforms to your data.
 
 7. In this lab, we will be adding two pre-built Field Groups listed below:
 
