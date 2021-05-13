@@ -63,7 +63,7 @@ Instructions:
 <kbd><img src="./images/profile_view.png"  /></kbd>
     
 6.    Next, go to https://americaspot1-publish.adobedemo.com/content/we-finance-pot/language-masters/en.html#.</li>
-7.    In the left margin, click on the “person” icon. This will display the X-ray panel from this website.
+7.    Click into a category page and in the left margin, click on the “person” icon. This will display the X-ray panel from this website.
  
 <kbd><img src="./images/person_panel_FSI.png"  /></kbd>
  
