@@ -88,7 +88,7 @@ Before we begin go to [https://platform.adobe.com/home](https://platform.adobe.c
     - Booking Details Mixin EE
     - Identities Mixin EE
 
-    Search for 'Booking Details Mixin EE'. Select the mixin and click "Add mixin".
+    Search for 'Booking Details Mixin EE'. Select the mixin and click "Add field groups".
 
     ![Demo](./images/schemamixin1.png)
 
