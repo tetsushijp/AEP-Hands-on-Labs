@@ -51,7 +51,7 @@ In Adobe Experience Platform there's a new feature of visualizing the entire rea
 
 Instructions:
 -----------------
-<ol>
+
      
  
 1.    Log in to Adobe Experience Platform by going to this URL: https://platform.adobe.com
@@ -98,5 +98,4 @@ Instructions:
  
 <kbd><img src="./images/completed_linked profile.png"  /></kbd>
 
-Return to [Lab Agenda Directory](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/README.md#lab-agenda)
-![image](https://user-images.githubusercontent.com/83657101/118174452-b032cf00-b3e3-11eb-8224-1cd51dbaae69.png)
+Return to [Lab Agenda Directory](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/README.md#lab-agenda)
