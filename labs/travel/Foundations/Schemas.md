@@ -92,25 +92,7 @@ Before we begin go to [https://platform.adobe.com/home](https://platform.adobe.c
 
     ![Demo](./images/schemamixin1.png)
 
-    Your schema will now have the bookingDetails object and all of the fields within this object
-
-      <!---
-      ![Demo](./images/schemamixin2.png)
-      --->
-
-    <kbd><img src="./images/schemamixin2.png"  /></kdb>
-
-    Click "+Add" to go back to the Mixin list.
-    <!---
-    ![Demo](./images/schemamixin3.png)
-    --->
-
-    <kbd><img src="./images/schemamixin3.png"  /></kdb>
-
-    Search for 'Identities Mixin EE'. Select the mixin and click "Add mixin".
-
-    ![Demo](./images/schemamixin4.png)
-
+    
 7. We'll also create a new Mixin from scratch. Click the "+Add" button on the left panel.
 
       <!---
