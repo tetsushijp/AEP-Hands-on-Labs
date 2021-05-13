@@ -69,6 +69,7 @@ Instructions:
  
 8.    Expand the 'Real-time Customer Profile section'. 
  
+
 <kbd><img src="./images/identities-ECID.png"  /></kbd>
  
 9.    Observe the identities and their linkage to a namespace.
