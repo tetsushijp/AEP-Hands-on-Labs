@@ -96,8 +96,5 @@ Instructions:
 
 
 
-From <https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/media/Foundations/Profiles.md> 
-![image](https://user-images.githubusercontent.com/83657101/118183092-934fc900-b3ee-11eb-9f5b-a6d61d3329cc.png)
-
 
 Return to [Lab Agenda Directory](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/media/README.md#lab-agenda)
