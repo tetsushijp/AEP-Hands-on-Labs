@@ -51,19 +51,28 @@ In Adobe Experience Platform there's a new feature of visualizing the entire rea
 
 Instructions:
 -----------------
-<ol>
-      <li>Log in to Adobe Experience Platform by going to this URL: https://platform.adobe.com</li>
-      <li>After logging in, you'll land on the homepage of Adobe Experience Platform.</li>
-<li>In the menu on the left side, go to Profiles.</li>
-<li>Click on Find a Profile. By clicking on "Find a Profile", a popup appears in which a namespace and an ID can be entered.</li>
-<li>Next, go to https://americaspot3-publish.adobedemo.com/content/we-travel/language-masters/en.html#  in a browser.</li>
-<li>In the left margin, click on the “person” icon. This will display the X-ray panel from this website.</li>
-<li>Expand the Real-time Customer Profile section. </li>
-<li>Observe the identities and their linkage to a namespace.</li>
-<li>Copy the value for ECID</li>
-<li>Go back to the ‘Find a Profile’ view in Experience Platform.</li>
-<li>Select the ECID Namespace and paste the value copied in the step above to view your Profile.</li>
-</ol>
-
+1. 	Log in to Adobe Experience Platform by going to this URL: https://platform.adobe.com
+2.	After logging in, you'll land on the homepage of Adobe Experience Platform.
+3.	Make sure you are in the 'Prod(VA7)' instance and not in your sandbox instance.
+4.	In the menu on the left side, go to Profiles.
+5.	Click on the 'Browse' tab. You will see a UI in which a namespace and an ID can be entered.
+ 
+<kbd><img src="./images/profile_view.png"  /></kbd>
+ 
+6.	Next, go to https://americaspot3-publish.adobedemo.com/content/we-travel/language-masters/en.html# in a browser and click into a category page
+7.	In the left margin, click on the “person” icon. This will display the X-ray panel from this website.
+ 
+<kbd><img src="./images/person_panel_travel.png"  /></kbd>
+ 
+8.	Expand the 'Real-time Customer Profile section' and observe the identities and their linkage to a namespace
+ 
+<kbd><img src="./images/identities-ECID.png"  /></kbd>
+ 
+9.	Copy the ECID value & go back to Profiles Browse view
+10.	Select "ECID" in the "Identity namespace" dropdown and paste the ECID value copied previously into the "Identity value" field.
+11.	Click into Profile ID
+ 
+<kbd><img src="./images/identities-ECID AEP.png"  /></kbd>
+ <kbd><img src="./images/completed_linked profile_travel.png"  /></kbd>
 
 Return to [Lab Agenda Directory](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/travel/README.md#lab-agenda)
