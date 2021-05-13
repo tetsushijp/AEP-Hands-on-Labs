@@ -88,19 +88,19 @@ Reminder: the class defines the smallest set of fields used to build a schema an
     Note: There are other classes available out of the box that represent specific objects needed for Experience Modeling.
 
 
-6. Click on the "+ Add" button across from "Mixins" in left-hand schema composition menu.
+6. Click on the "+ Add" button across from "Field Group" in left-hand schema composition menu.
 
 
     <kbd><img src="./images/schemamixin.png"  /></kdb>
 
     Here you can build your own Mixin or use a prior/similar Mixin object that conforms to your data.
 
-7. In this lab, we will be adding two pre-built mixins listed below:
+7. In this lab, we will be adding two pre-built Field Groups listed below:
 
    - Identities Mixin EE
    - Transaction Details Mixin EE
 
-   Select the "Transaction Details Mixin EE" and "Identities Mixin EE" mixins and click "Add mixin".
+   Select the "Transaction Details Mixin EE" and "Identities Mixin EE" mixins and click "Add field groups".
 
    <kbd><img src="./images/schemamixin2.png"  /></kdb>
 
@@ -108,16 +108,16 @@ Reminder: the class defines the smallest set of fields used to build a schema an
 
    <kbd><img src="./images/schemamixin3.png"  /></kdb>
 
-8. Now, we'll create a new Mixin from scratch. Go back and hit the "+ Add" button across from Mixins in the left-hand schema composition menu.
+8. Now, we'll create a new Field Group from scratch. Go back and hit the "+ Add" button across from Field Groups in the left-hand schema composition menu.
 
    <kbd><img src="./images/schemamixin6.png"  /></kdb>
 
-9. Click "Create new mixin" at the top.
+9. Click "Create new field group" at the top.
 
 
       <kbd><img src="./images/schemamixin7.png"  /></kdb>
 
-10. Enter "Order Details Mixin EE [your-assigned-number]" as the "Display name" and click "Add Mixin".
+10. Enter "Order Details Mixin EE [your-assigned-number]" as the "Display name" and click "Add field groups".
 
     
 11. In the left-hand schema composition menu, click on your newly create Mixin (it should be highlighted now)
