@@ -73,36 +73,35 @@ Instructions:
 <kbd><img src="./images/identities-ECID.png"  /></kbd>
  
  
-9.    Observe the identities and their linkage to a namespace.
-10.   Copy the value for ECID and save it to a text editor of your choice</li>
-11.   Go back to Profile view page in Experience Platform.
-12.   Select ECID from the Namespace dropdown and paste the value copied in the step above to view your Profile.
+9.    Observe the identities and their linkage to a namespace and copy the value for ECID and save it to a text editor of your choice</li>
+10.   Go back to Profile view page in Experience Platform.
+11.   Select ECID from the Namespace dropdown and paste the value copied in the step above to view your Profile.
  
  
 <kbd><img src="./images/identities-ECID AEP.png"  /></kbd>
  
  
-13.   Click on each of the tabs you see - Details, Attributes, Events and Segment Membership.
+12.   Click on each of the tabs you see - Details, Attributes, Events and Segment Membership.
  
  
 <kbd><img src="./images/profiles_tabs.png"  /></kbd>
  
  
-14.   Go back to  https://americaspot1-publish.adobedemo.com/content/we-finance-pot/language-masters/en.html#.</li>
-15.   Click on the 'Registration' at the bottom right of the page.
-16.   Plug in some details and hit 'Register Now'.
-17.   Go back to Experience Platform, click on 'Profiles' in the left panel, click on the 'Browse' tab and look up your ECID again.
-18.   You will see a CRM Id assigned and linked to your ECID as a result of the registration action.
+13.   Go back to  https://americaspot1-publish.adobedemo.com/content/we-finance-pot/language-masters/en.html#.</li>
+14.   Click on the 'Registration' at the bottom right of the page.
+15.   Plug in some details and hit 'Register Now'.
+16.   Go back to Experience Platform, click on 'Profiles' in the left panel, click on the 'Browse' tab and look up your ECID again.
+17.   You will see a CRM Id assigned and linked to your ECID as a result of the registration action.
  
  
 <kbd><img src="./images/profiles_ecid_crmid.png"  /></kbd>
  
  
-19.   Go back to  https://americaspot1-publish.adobedemo.com/content/we-finance-pot/language-masters/en.html#.</li>
-20.   Click on Login (top right of page).  
-21.   Enter the email address you used during registration and a value in Company Name (you can leave the default for number) and hit 'Login'.
+18.   Go back to  https://americaspot1-publish.adobedemo.com/content/we-finance-pot/language-masters/en.html#.</li>
+19.   Click on Login (top right of page).  
+20.   Enter the email address you used during registration and a value in Company Name (you can leave the default for number) and hit 'Login'.
 22.   Go back to Experience Platform, click on 'Profiles' in the left panel, click on the 'Browse' tab and look up your ECID again.
-19.   Note any changes to the customer profile on the Details tab. 
+23.   Note any changes to the customer profile on the Details tab. 
  
 <kbd><img src="./images/completed_linked profile.png"  /></kbd>
 
