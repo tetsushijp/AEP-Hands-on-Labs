@@ -88,7 +88,7 @@ Instructions:
  
  
 13.   Go back to  https://americaspot1-publish.adobedemo.com/content/we-finance-pot/language-masters/en.html#.</li>
-14.   Click on the 'Registration' at the bottom right of the page.
+14.   Click on the 'Registration' at the top right of the page.
 15.   Plug in some details and hit 'Register Now'.
 16.   Go back to Experience Platform, click on 'Profiles' in the left panel, click on the 'Browse' tab and look up your ECID again.
 17.   You will see a CRM Id assigned and linked to your ECID as a result of the registration action.
