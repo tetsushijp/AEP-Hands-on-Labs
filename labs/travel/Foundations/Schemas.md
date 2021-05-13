@@ -74,7 +74,7 @@ Before we begin go to [https://platform.adobe.com/home](https://platform.adobe.c
 4. In the right-hand Schema properties menu, name it "Bookings Schema EE &lt;your-assigned-number>".
    ![Demo](./images/schemaname1.png)
 
-5. In the left-hand Composition menu, click on the "+Add" button across from "Mixins".
+5. In the left-hand Composition menu, click on the "+Add" button across from "Field Groups".
 
 
     <!---
@@ -83,7 +83,7 @@ Before we begin go to [https://platform.adobe.com/home](https://platform.adobe.c
 
     <kbd><img src="./images/schemamixin.png"  /></kdb>
 
-6. We will be adding two pre-built mixins listed below:
+6. We will be adding two pre-built Field Group listed below:
 
     - Booking Details Mixin EE
     - Identities Mixin EE
