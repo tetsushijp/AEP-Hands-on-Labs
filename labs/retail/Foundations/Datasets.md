@@ -62,7 +62,7 @@ We will be creating a dataset for the schema we created in the previous exercise
       -->
       <kbd><img src="./images/datasetshome.png"  /></kbd>
       
-2. Hit + Create Dataset on the top right
+2. Hit "+ Create Dataset" on the top right
 
       <!--
       ![Demo](./images/datasetcreate.png)
