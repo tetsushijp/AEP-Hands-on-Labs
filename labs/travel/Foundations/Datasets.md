@@ -85,7 +85,7 @@ We will be creating a dataset for the schema we created in the previous exercise
 
    ![Demo](./images/datasetadddata.png)
 
-8. From the lab files you downloaded, drag and drop the "bookings_data_001.json" file into the "ADD DATA" sections:
+8. From the lab files you downloaded, drag and drop the "bookings_data_001.json" file into the "ADD DATA" section:
 
    ![Demo](./images/datasetbatchdragdrop.png)
 
