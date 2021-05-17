@@ -55,61 +55,60 @@ Instructions:
 -----------------
 
 We will be creating a dataset for the schema we created in the previous exercise. Please follow the steps below.
-1. In the left-hand menu, navigate to "Datasets".
+1. In the left-hand menu, navigate to "Datasets"
 
 
       ![Demo](./images/datasetshome.png)
       
       
-2. Click "+ Create dataset".
+2. Click "+ Create dataset" on the top right
 
 
       ![Demo](./images/datasetcreate.png)
       
       
-3. We will be creating the dataset from a schema, so please select "Create dataset from schema".
+3. Since we will be creating the dataset from a schema definition, please select "Create dataset from schema"
 
 
       ![Demo](./images/datasetcreate2.png)
  
  
-4. On the "Select schema" page, search for "Transactions Schema [your-assigned-number]" then select the schema and click "Next".
+4. On the "Select schema" page, search for "Transactions Schema [your-assigned-number]" then select the schema and click "Next"
       
       
       ![Demo](./images/datasetschema.png)
       
       
-3. Name your dataset "Transactions Dataset [your-assigned-number]" and give it the same description.
+5. Next, to configure the dataset we need to give it a name. Please name your dataset "Transactions Dataset [your-assigned-number]" and give it the same description
       
       
       ![Demo](./images/datasetname.png) 
  
  
-4. Click Finish to save the dataset.
+6. Click "Finish" to save the dataset.
       
       
       ![Demo](./images/datasetfinish.png) 
 
 
-5. We have successfully created the dataset, but this dataset has not ingested data. We will now import a file into this dataset. This time we will import a JSON file and it will simply need to be dragged and dropped into the dataset. 
+7. We have successfully created the dataset, but this dataset has not ingested data. We will now import a file into this dataset. This time we will import a JSON file and it will simply need to be dragged and dropped into the dataset. 
 
-    On the right panel, scroll down until you see the 'ADD DATA' section.
+    On the right panel, scroll down until you see the "ADD DATA" section.
 
 
     ![Demo](./images/datasetadddata.png) 
 
 
-6. From the lab files you downloaded, drag and drop the 'transactions_data_001.json' file into the 'ADD DATA' section. You will now see a batch with a 'Loading' status.
+8. From the lab files you downloaded, drag and drop the "transactions_data_001.json" file into the "ADD DATA" section. 
+
+      ![Demo](./images/datasetbatchdragdrop.png)
+
+      You will now see a batch with a "Processing" status
+
+      <kbd><img src="./images/datasetbatch.png"  /></kdb>
 
 
-    <!---
-    ![Demo](./images/datasetbatch.png)
-    --->
-
-    <kbd><img src="./images/datasetbatch.png"  /></kdb>
-
-
-7. Adobe Experience Platform will perform the XDM mapping and conversion for JSON format to parquet and make this data available on the data lake and the profile store. This process usually only takes a couple minutes. 
+9. Adobe Experience Platform will perform the XDM mapping and conversion for JSON format to parquet and make this data available on the data lake and the profile store. This process usually only takes a couple minutes. 
 
     Once your batch status is "Success", you can preview the data by clicking the "Preview Dataset" button on the top right corner.
 
@@ -117,7 +116,7 @@ We will be creating a dataset for the schema we created in the previous exercise
     ![Demo](./images/datasetpreview.png)
 
 
-8. Congratulations! You created a dataset and imported a JSON file.
+10. Congratulations! You created a dataset and imported a JSON file.
 
 <br>
 <br>
