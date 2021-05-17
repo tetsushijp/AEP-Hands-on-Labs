@@ -470,8 +470,6 @@ Instructions:
 
 21.	look on the left hand side to find ‘Browse Classes’, ‘Event Types’ and ‘Browse Variables’ sections
 
-
-	<kbd><img src="./images/segment_retail_dynamic_purchases.png"  /></kbd> 
       
       
       <kbd><img src="./images/segments_travel_dyn_browsevarmenu.png"  /></kbd>  
