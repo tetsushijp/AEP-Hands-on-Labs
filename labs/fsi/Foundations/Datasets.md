@@ -106,8 +106,6 @@ We will be creating a dataset for the schema we created in the previous exercise
 
       ![Demo](./images/datasetbatch.png)
 
-      <kbd><img src="./images/datasetbatch.png"  /></kdb>
-
 
 9. Adobe Experience Platform will perform the XDM mapping and conversion for JSON format to parquet and make this data available on the data lake and the profile store. This process usually takes a few mins. 
 
