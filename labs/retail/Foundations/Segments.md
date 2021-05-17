@@ -449,9 +449,8 @@ Instructions:
       -->
       <kbd><img src="./images/segments_travel_dyn_skuexists.png"  /></kbd>
       
-16.	Click on the folder icon below the search box, and then Click on 'Events'
+16.	Click on 'Events'
 
-	<kbd><img src="./images/segment_retail_dynamic_purchases.png"  /></kbd>
 
 17.	Now, locate ‘Purchases’ under Event Types, and drag this to the segment canvas to the right of the ‘Checkouts’ 		event.
 
@@ -469,11 +468,11 @@ Instructions:
 
 	<kbd><img src="./images/segment_3_xdm_purchases_prodsku.png"  /></kbd>
 
-21.	Click on the folder icon below the search box, and then Click on 'Events'
+21.	look on the left hand side to find ‘Browse Classes’, ‘Event Types’ and ‘Browse Variables’ sections
+
 
 	<kbd><img src="./images/segment_retail_dynamic_purchases.png"  /></kbd> 
       
-      	You should see ‘Browse Classes’, ‘Event Types’ and ‘Browse Variables’ sections appear
       
       <kbd><img src="./images/segments_travel_dyn_browsevarmenu.png"  /></kbd>  
       
