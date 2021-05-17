@@ -55,48 +55,51 @@ Before be begin go to [https://platform.adobe.com/home](https://platform.adobe.c
 
 We will be creating a dataset for the schema we created in the previous exercise. Please follow the steps below
 
-1. In the left-hand menu, navigate to "Datasets".
+1. In the left-hand menu, navigate to "Datasets":
 
    ![Demo](./images/datasetshome.png)
 
-2. Click “Create Dataset”.
+2. Click “Create dataset”:
 
    ![Demo](./images/datasetcreate.png)
 
-3. Since we will be creating the dataset from a schema definition please select 'Create dataset from schema'.
+3. Since we will be creating the dataset from a schema definition, please select "Create dataset from schema":
 
    ![Demo](./images/datasetcreate2.png)
 
-4. On the Select schema page, search for "Bookings Schema EE &lt;your-assigned-number>" then select the schema and click Next.
+4. On the "Select schema" page, search for "Bookings Schema EE [your-assigned-number]" then select the schema and click "Next":
 
    ![Demo](./images/datasetschema.png)
 
-5. Next, to configure the dataset we need to give it a name. Please name your dataset "Bookings Dataset EE <your-assigned-number>' and give it the same description.
+5. Next, to configure the dataset we need to give it a name. Please name your dataset "Bookings Dataset EE [your-assigned-number]" and give it the same description:
 
    ![Demo](./images/datasetname.png)
 
-4) Click Finish to save the dataset.
+6. Click "Finish" to save the dataset:
 
    ![Demo](./images/datasetfinish.png)
 
-5. We have successfully created the dataset, but this dataset has not ingested data. We will now import a file into this dataset. This time we will import a JSON file and it will simply need to be dragged and dropped into the dataset.
+7. We have successfully created the dataset, but this dataset has not ingested data. We will now import a file into this dataset. This time we will import a JSON file and it will simply need to be dragged and dropped into the dataset.
 
-   On the right panel, scroll down until you see the 'Add data' section.
+   On the right panel, scroll down until you see the "ADD DATA" section:
 
    ![Demo](./images/datasetadddata.png)
 
-6. From the lab files you downloaded, drag and drop the 'bookings_data_001.json' file into the 'Add Data' sections. You will now see a batch with a 'Loading' status.
+8. From the lab files you downloaded, drag and drop the "bookings_data_001.json" file into the "ADD DATA" sections:
 
-   <kbd><img src="./images/datasetbatch.png"  /></kdb>
+   ![Demo](./images/datasetbatchdragdrop.png)
 
-7. Adobe Experience Platform will perform the XDM mapping and conversion for JSON format to parquet and make this data available on the data lake and the profile store. Refresh the screen This process only takes afew seconds.
+      You will now see a batch with a "Processing" status:
+      
+      <kbd><img src="./images/datasetbatch.png"  /></kdb>
 
-   Once your batch status is 'Success', you can preview the data by hitting the 'Preview Dataset' button on the top right corner.
+9. Adobe Experience Platform will perform the XDM mapping and conversion for JSON format to parquet and make this data available on the data lake and the profile store. Refresh the screen. This process usually only takes a couple minutes.
 
+   Once your batch status is "Success", you can preview the data by clicking the "Preview Dataset" button on the top right corner:
 
     ![Demo](./images/datasetpreview.png)
 
-8. Congratulations you created a dataset and ingested a JSON file.
+10. Congratulations! You created a dataset and ingested a JSON file.
 
 <br>
 <br>
