@@ -67,7 +67,7 @@ We will be creating a dataset for the schema we created in the previous exercise
       ![Demo](./images/datasetcreate.png)
       
       
-3. Since we will be creating the dataset from a schema definition please select "Create dataset from schema"
+3. Since we will be creating the dataset from a schema definition, please select "Create dataset from schema"
 
 
       ![Demo](./images/datasetcreate2.png)
