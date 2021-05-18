@@ -319,9 +319,7 @@ Instructions:
 
    ![Demo](./images/segments_travel_dyn_mchannel.png)
 
-7. Drag ‘eVar1’ to the segment canvas and Include eVar1 equlas 'Email'. Note: eVar1 in our implementation contains the Marketing Channel.
-
-   ![Demo](./images/segments_travel_dyn_mchannel_any.png)
+7. Drag ‘eVar1’ to the segment canvas 
 
 8. In the left pane, clear out the Search box
 
@@ -337,7 +335,7 @@ Instructions:
 
 12. Type ‘Email’ in the text box to the right of ‘eVar1’ equals and press Enter
 
-![Demo](./images/segments_travel_dyn_mchannel_email_any.png)
+   ![Demo](./images/segments_travel_dyn_mchannel_any.png)
 
 13. Click on ‘Checkouts' in the segment canvas
 
