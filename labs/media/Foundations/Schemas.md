@@ -148,17 +148,6 @@ Instructions:
 
       <kbd><img src="./images/schemamixin2.png"  /></kdb>          
              
-      Hit +Add to go back to the Mixin list
-     
-      <kbd><img src="./images/schemamixin3.png"  /></kdb>            
-                 
-      And, repeat the steps for the Identities Mixin EE.  Search for 'Identities Mixin EE'. Select the mixin and hit Assign Mixin 
-                        
-      <kbd><img src="./images/schemamixin19.png"  /></kdb>     
-       
-      Your schema will now have the Identities Mixin EE object and all of the fields within this object
-      
-      <kbd><img src="./images/schemamixin20.png"  /></kdb>
       
         
 9. Now, we'll create a new Mixin from scratch. Go back and hit the +Add button on the left panel.
