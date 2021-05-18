@@ -133,7 +133,8 @@ Instructions:
       - Subscription Details Mixin EE,
       - Identities Mixin EE
      
-      Search for 'Subscription Details Mixin EE'. Select the mixin and hit Assign Mixin
+      Search for 'Subscription Details Mixin EE'. Select the mixin and hit Assign Mixin.
+      
       Repeat same step for 'Identities Mixin EE'.
       
      <!-- 
