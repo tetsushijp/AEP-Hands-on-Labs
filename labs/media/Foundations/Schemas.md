@@ -60,7 +60,7 @@ Instructions:
       
       <kbd><img src="./images/schemahome.png"  /></kbd> 
       
-2. Click "Create Schema" on the top right
+2. Click "Create Schema" and select XDMexperienceEvent on the top right
 
       <!--
       ![Demo](./images/schemacreate.png)
@@ -112,13 +112,6 @@ Instructions:
 
       Note: There are other classes available out of the box that represent specific objects needed for Experience Modeling.
 
-6. In this example, choose "XDM ExperienceEvent" and click "Assign class"
-
-      <!--
-      ![Demo](./images/schemaclass1.png)
-      -->
-      
-      <kbd><img src="./images/schemaclass1.png"  /></kdb>
        
       
 7. Now, click on the "Add" button across from "Mixins" on the left panel
