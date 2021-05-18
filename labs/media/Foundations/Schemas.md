@@ -137,7 +137,7 @@ Instructions:
      
       Search for 'Subscription Details Mixin EE' and check the box. Repeat same step for 'Identities Mixin EE'.
       
-      Hit Assign field groups.
+      Hit Add field groups.
       
      <!-- 
      ![Demo](./images/schemamixin1.png)
