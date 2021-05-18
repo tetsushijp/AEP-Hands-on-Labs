@@ -60,7 +60,7 @@ Instructions:
       
       <kbd><img src="./images/schemahome.png"  /></kbd> 
       
-2. Click "Create Schema" and select XDMexperienceEvent on the top right
+2. Click "Create Schema" and select XDM Experience Event on the top right
 
       <!--
       ![Demo](./images/schemacreate.png)
