@@ -211,7 +211,7 @@ Instructions:
       
 13.	Click on ‘Adobedemoamericas 270’ to expand the objects below that namespace
       
-       <kbd><img src="./images/segment_xdm_pot1.png"  /></kbd>
+       <kbd><img src="./images/segment_xdm_pot5.png"  /></kbd>
 
 14.	Click on 'transactionDetails'
 
