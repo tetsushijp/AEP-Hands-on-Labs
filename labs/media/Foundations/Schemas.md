@@ -111,10 +111,12 @@ Instructions:
 
 
       Note: There are other classes available out of the box that represent specific objects needed for Experience Modeling.
+      
+      Exit out of this view.
 
        
       
-7. Now, click on the "Add" button across from "Mixins" on the left panel
+7. Now, click on the "Add" button across from "Field Groups" on the left panel
 
 
     <!---
@@ -125,17 +127,17 @@ Instructions:
 
       
       
-      Here's where you can build your own Mixin or use a prior/similar Mixin object that conforms to your data.
+      Here's where you can build your own Field Group or use a prior/similar Field Group objects that conforms to your data.
            
       
-8. In this lab we will be adding two pre-built mixins listed below
+8. In this lab we will be adding two pre-built Field Groups listed below
 
       - Subscription Details Mixin EE,
       - Identities Mixin EE
      
       Search for 'Subscription Details Mixin EE' and check the box. Repeat same step for 'Identities Mixin EE'.
       
-      Hit Assign Mixin.
+      Hit Assign field groups.
       
      <!-- 
      ![Demo](./images/schemamixin1.png)
@@ -152,25 +154,25 @@ Instructions:
              
       
         
-9. Now, we'll create a new Mixin from scratch. Go back and hit the +Add button on the left panel.
+9. Now, we'll create a new Field Group from scratch. Go back and hit the +Add button on the left panel.
 
       <kbd><img src="./images/schemamixin6.png"  /></kdb>    
        
       
-10. Select "Create new mixin" on the very top
+10. Select "Create new Field Group" on the very top
 
 
       <kbd><img src="./images/schemamixin7.png"  /></kdb>    
       
       
-11. Display name is "Account Details Mixin EE &lt;your-assigned-number>" and then hit 'Add Mixin'
+11. Display name is "Account Details Mixin EE &lt;your-assigned-number>" and then hit 'Add field groups'
       
     <!--  
     ![Demo](./images/schemamixin8.png)
     --> 
     <kbd><img src="./images/schemamixin8.png"  /></kdb>     
      
-12. In the left-hand schema composition menu, click on your newly create Mixin (it should be highlighted now)
+12. In the left-hand schema composition menu, click on your newly create Field Group (it should be highlighted now)
 
 
     <!---
