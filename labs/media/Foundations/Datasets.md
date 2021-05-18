@@ -55,42 +55,42 @@ Instructions:
 -----------------
 
 We will be creating a dataset for the schema we created in the previous exercise. Please follow the steps below
-1. In the left-hand menu, navigate to "Datasets"
+1. In the left-hand menu, navigate to "Datasets":
 
       <!--
       ![Demo](./images/datasetshome.png)
       -->
       <kbd><img src="./images/datasetshome.png"  /></kbd>
       
-2. Hit +Create Dataset 
+2. Click "+Create Dataset": 
 
       <!--
       ![Demo](./images/datasetcreate.png)
       -->
       <kbd><img src="./images/datasetcreate.png"  /></kbd>
       
-3. Since we will be creating the dataset from a schema definition please select 'Create dataset from schema'
+3. Since we will be creating the dataset from a schema definition, please select "Create dataset from schema":
 
       <!--
       ![Demo](./images/datasetcreate2.png)
       -->
       <kbd><img src="./images/datasetcreate2.png"  /></kbd>
  
-4. On the Select Schema page search for "Subscription Schema &lt;your-assigned-number>" then select the schema and hit Next
+4. On the Select Schema page search for "Subscription Schema [your-assigned-number]" then select the schema and click "Next":
       
       <!--
       ![Demo](./images/datasetschema.png)
       -->
       <kbd><img src="./images/datasetschema.png"  /></kbd>
       
-5. Next, to configure the dataset we need to give it a name. Please name your dataset "Subscription Dataset <your-assigned-number>' and give it the same description 
+5. Next, to configure the dataset we need to give it a name. Please name your dataset "Subscription Dataset [your-assigned-number]" and give it the same description: 
       
       <!--
       ![Demo](./images/datasetname.png) 
       -->
       <kbd><img src="./images/datasetname.png"  /></kbd>
  
-6. Hit Finish to save the dataset
+6. Click "Finish" to save the dataset:
       
       <!--
       ![Demo](./images/datasetfinish.png) 
@@ -99,16 +99,17 @@ We will be creating a dataset for the schema we created in the previous exercise
 
 7. We have successfully created the dataset, but this dataset has not ingested data. We will now import a file into this dataset. This time we will import a JSON file and it will simply need to be dragged and dropped into the dataset. 
 
-    On the right panel scroll down until you see the 'Add data' section
-
+    On the right panel scroll down until you see the "ADD DATA" section:
     <!--  
     ![Demo](./images/datasetadddata.png) 
     -->
     <kbd><img src="./images/datasetadddata.png"  /></kbd> 
 
-8. From the lab files you downloaded, drag and drop the 'subscription_data_&lt;your-assigned-number>.json' file into the 'Add Data' sections. You will now see a batch with a 'Loading' status
+8. From the lab files you downloaded, drag and drop the "subscription_data_001.json" file into the "ADD DATA" section:
 
+      <kbd><img src="./images/datasetbatch.png"  /></kdb>
 
+      You will now see a batch with a "Processing" status:
     <!---
     ![Demo](./images/datasetbatch.png)
     --->
@@ -126,7 +127,7 @@ We will be creating a dataset for the schema we created in the previous exercise
      
     <kbd><img src="./images/datasetpreview.png"  /></kdb>
 
-10. Congratulations!!! You are done with the Dataset exercise.
+10. Congratulations!!! You created a dataset and ingested a JSON file.
 
 
 <br>
