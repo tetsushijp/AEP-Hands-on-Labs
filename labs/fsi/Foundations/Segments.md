@@ -79,7 +79,7 @@ Instructions:
 
       <kbd><img src="./images/segment_xdm_ee.png"  /></kbd>
       
-8.	Click on ‘Adobeamericaspot 1’ to expand the objects below that namespace
+8.	Click on ‘Adobedemoamericas 270’ to expand the objects below that namespace
       
       <kbd><img src="./images/segment_xdm_pot1.png"  /></kbd>
 
@@ -110,7 +110,7 @@ NOTE: Estimate link may not show results if qualified profiles are statistically
 <br>
 
 
-Lab 6.2 - Segmentation - Profile Attribute with Experience Event Segmentation (Multi-Entity Segmentation)
+Lab 6.2 - Segmentation - Profile Attribute with Experience Event Segmentation
 ==========
 <table style="border-collapse: collapse; border: none;" class="tab" cellspacing="0" cellpadding="0">
 
@@ -209,7 +209,7 @@ Instructions:
 
       <kbd><img src="./images/segment_xdm_ee.png"  /></kbd>
       
-13.	Click on ‘Adobeamericaspot 1’ to expand the objects below that namespace
+13.	Click on ‘Adobedemoamericas 270’ to expand the objects below that namespace
       
        <kbd><img src="./images/segment_xdm_pot1.png"  /></kbd>
 
@@ -319,9 +319,7 @@ Instructions:
 
    ![Demo](./images/segments_travel_dyn_mchannel.png)
 
-7. Drag ‘eVar1’ to the segment canvas and Include eVar1 equlas 'Email'. Note: eVar1 in our implementation contains the Marketing Channel.
-
-   ![Demo](./images/segments_travel_dyn_mchannel_any.png)
+7. Drag ‘eVar1’ to the segment canvas 
 
 8. In the left pane, clear out the Search box
 
@@ -337,7 +335,7 @@ Instructions:
 
 12. Type ‘Email’ in the text box to the right of ‘eVar1’ equals and press Enter
 
-![Demo](./images/segments_travel_dyn_mchannel_email_any.png)
+   ![Demo](./images/segments_travel_dyn_mchannel_any.png)
 
 13. Click on ‘Checkouts' in the segment canvas
 
@@ -379,14 +377,13 @@ Instructions:
 
 24. At the top of the ‘Events’ canvas, update the time value to ‘In last 24 Hour(s)’
 
-25. Enter the segment name “Email Channel Online Reservation Abandoners”.
+25. Enter the segment name “Email Channel Online Application Abandoners”.
 
 26. Enter the same value as the description
 
 29. Save the Segment
 
     ![Demo](./images/segment_final.png)
-
 
 Return to [Lab Agenda Directory](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/README.md#lab-agenda)
  
