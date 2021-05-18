@@ -140,7 +140,7 @@ Instructions:
      -->
       <kbd><img src="./images/schemamixin1.png"  /></kdb>
       
-      Your schema will now have the Subscription Details Mixin EE object and all of the fields within this object
+      Your schema will now have the Subscription Details Mixin EE and Identities Mixin EE objects and all of the fields within these objects
       
       <!---
       ![Demo](./images/schemamixin2.png)
