@@ -107,15 +107,13 @@ We will be creating a dataset for the schema we created in the previous exercise
 
 8. From the lab files you downloaded, drag and drop the "subscription_data_001.json" file into the "ADD DATA" section:
 
-      <kbd><img src="./images/datasetbatch.png"  /></kdb>
+      ![Demo](./images/datasetbatchdragdrop.png)
 
       You will now see a batch with a "Processing" status:
     <!---
     ![Demo](./images/datasetbatch.png)
     --->
-
     <kbd><img src="./images/datasetbatch.png"  /></kdb>
-
 
 9. Adobe Experience Platform will perform the XDM mapping and conversion for JSON format to parquet and make this data available on the data lake and the profile store. Refresh the screen This process only takes afew seconds.
 
