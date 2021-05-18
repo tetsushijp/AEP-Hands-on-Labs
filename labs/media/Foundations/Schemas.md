@@ -133,9 +133,9 @@ Instructions:
       - Subscription Details Mixin EE,
       - Identities Mixin EE
      
-      Search for 'Subscription Details Mixin EE'. Repeat same step for 'Identities Mixin EE'.
+      Search for 'Subscription Details Mixin EE' and check the box. Repeat same step for 'Identities Mixin EE'.
       
-      Select the mixins and hit Assign Mixin.
+      Hit Assign Mixin.
       
      <!-- 
      ![Demo](./images/schemamixin1.png)
