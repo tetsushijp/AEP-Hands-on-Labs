@@ -74,7 +74,7 @@ Instructions:
       
 4. Enter a name for this instance. Let's call it "Propensity to Buy" followed by your sandbox number. eg: **Propensity to buy 001**
 5. Set Propensity type to **Conversion**
-6. Set Dataset to **FSI Demo Data midValues**. This is a prepopulated Adobe Analytics dataset.
+6. Set Dataset to **Retail Demo Data midValues**. This is a prepopulated Adobe Analytics dataset.
 7. Leave the eligible population as is and include the entire population.
 8. Click **Next** on the top right of your screen.
       
