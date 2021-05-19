@@ -1,4 +1,4 @@
-Lab  - Activation Workflow  
+Lab  - Create Attribution AI Instance  
 ==========
 <table style="border-collapse: collapse; border: none;" class="tab" cellspacing="0" cellpadding="0">
 
@@ -55,47 +55,59 @@ Instructions:
 
 ![Demo](./images/aai_services_open.png)
 
-4. Click Create Instance
+4. Click Create Instance. This will take you to the setup stage of the Attribution AI workflow. 
 
 ![Demo](./images/aai_createinstance.png)
 
+5. Enter a name for this instance. Call it “Purchase Model” follow by your sandbox number. E.g. Purchase Model 001
+6. Set your Data Source to Consumer Experience Events. *** 
+7. Set the Dataset to CEE with Analytics Dataset. *** 
+8. ShapeShapeShapeShapeClick Next on the top right of your screen
 
+![Demo](./images/aai_setup.png)
 
+9.  Enter Orders for the Conversion Name. 
+10. Below the Conversion Name, make sure that All of is selected. 
+11. Then search for and select commerce.order.purchaseID.  
+12. To the right of commerce.order.purchaseID, make sure that exists is selected. 
+13. The default in the Define Lookback Window is 56 days prior to a conversion event and we will keep the default.
 
+![Demo](./images/aai_events.png)
 
+14. Scroll down to Define Touchpoints. 
+15. Enter Email for the Touchpoint Name. 
+16. Below the Touchpoint name, select All of and type in channel.typeAtSource. 
+17. To the right of channel.typeAtSource, click on exists and change to equals then search for and select Email.  
+18. Click on Add touchpoint at the bottom of the Email touchpoint.
+19. At this point we will create a few more touchpoints. 
+20. Enter Social Campaigns for the Touchpoint Name. 
+21. Below the Touchpoint name, select All of and type in channel.typeAtSource. 
+22. To the right of channel.typeAtSource, click on exists and change to equals then search for and select Social Campaigns. 
+23. Click on Add touchpoint at the bottom of the Email touchpoint.
 
-3.	Select 'Activate'. You have two choices for Account type: 'Existing account' and 'New account'. Keep the default selection for 'Existing account'. Select the radio button to the left of the Amazon S3 destination and click 'Next' in the upper right corner.
+![Demo](./images/aai_touchpoint_social.png)
 
-![Demo](./images/account_existing.png)
- 
-4.	In the 'Authentication' screen, enter the following values: 
-      Name: AEP Activation 
-      Description: Activation to S3
-      Bucket-name: rtcdp-lab
-      Folder-path: /rtcdp-lab/pot5
-      Marketing actions: Export to third party
+ 24. Enter Social Networks for the Touchpoint Name. 
+ 25. Below the Touchpoint name, select All of and type in channel.typeAtSource. 
+ 26. To the right of channel.typeAtSource, click on exists and change to equals then search for and select Social Networks.  
+ 27. Click on Add touchpoint at the bottom of the Email touchpoint.
+ 28. Enter Paid Search for the Touchpoint Name. 
+ 29. Below the Touchpoint name, select All of and type in channel.typeAtSource. 
+ 30. To the right of channel.typeAtSource, click on exists and change to equals then search for and select Paid Search.
 
-![Demo](./images/destination_authenticate.png)
- 
-5.	Select 'Create destination'. Then select 'Next' in the upper right corner.
+![Demo](./images/aai_touchpoint_ps.png)
 
-6.	On the 'Select segments' screen, select the segments you created in the previous lab (Segments).
+31. Once you have Defined all of your Touchpoints click on Next in the top right of your screen.
 
-![Demo](./images/select_segments.png)
+![Demo](./images/aai_touchpoints_complete.png)
 
-8.	Click on ‘Next’ in the upper right corner of the workflow. This will take you to the 'Scheduling' step. Open the 'Schedule' settings and select 'Export incremental files'. Select the current date in the calendar.
+32. This will take you the Advanced page for Attribution AI. Take a second to review the options on this page.  
+33. Let’s make a weekly schedule for this Attribution AI Model. Select Monday at 5:00am. 
+34. Once you have reviewed the Advanced page click on Finish in the top right of your screen.
 
-![Demo](./images/scheduling.png)
+![Demo](./images/aai_schedule.png.png)
 
-9.	Click on 'Next' in the upper right corner of the workflow. Clear all fields. Add two new fields:
-      person.gender
-      personalEmail.address
-
-![Demo](./images/attributes.png)
-
-10.   Click on 'Next' in the upper right corner of the workflow. This will take you to the the 'Review' step. Select 'Finish' to complete the Profile Activation.
-
-![Demo](./images/dest_review.png)
+35. Congratulations! You have created an Attribution AI model. 
 
 <br>
 <br>
