@@ -24,7 +24,7 @@ Please download your own attendee [lab content/uploads here](https://github.com/
 - [Bi-direction Segments (AEP > Target) ](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/Foundations/BidirectionalTarget.md)
 
 ### Adobe Experience Platform - Intelligent Services
-- [Create an Attribution AI Instance] (https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/Foundations/attributionai.md)
+- [Create an Attribution AI Instance](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/Foundations/attributionai.md)
 
 ### Adobe Experience Platform - Journey Orchestration
  - [Events](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/Journey%20Orchestration/Exercise1-Events.md)
