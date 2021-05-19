@@ -215,7 +215,7 @@ Instructions:
 
 14.	Click on 'transactionDetails'
 
-	<kbd><img src="./images/segment_transactiondetails.png"  /></kbd>
+	<kbd><img src="./images/segment_transactiondetails_pot1.png"  /></kbd>
 
 15.	Drag the ‘transactionMethod’ field over to the Segment canvas
 
