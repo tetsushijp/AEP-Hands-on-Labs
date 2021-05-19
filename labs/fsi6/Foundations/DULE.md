@@ -54,37 +54,37 @@ Before we begin go to [https://platform.adobe.com/home](https://platform.adobe.c
 
 ## Instructions:
 
-1. In the left-hand menu, navigate to "Datasets". Verify you're on the "Browse" tab. Scroll down and select the "CRM Profile Dataset" dataset.
+1. On the left-hand menu, navigate to "Datasets". Verify you're on the "Browse" tab. Scroll down and select the dataset called "CRM Profile Dataset":
 
    ![Demo](./images/datausagelabel-1.png)
 
-2. Click "Data governance" tab. Select "address" in the FIELD NAME list. Click "Edit governance labels".
+2. Click "Data governance" tab. Select "address" in the FIELD NAME list. Click "Edit governance labels":
 
    ![Demo](./images/datausagelabel-2.png)
 
-3. In the Edit governance labels overlay, expand "IDENTITY LABELS". Select "I1" and click the "Save changes" button.
+3. In the Edit governance labels overlay, expand "IDENTITY LABELS". Select "I1" and click the "Save changes" button:
 
    ![Demo](./images/datausagelabel-3.png)
 
 Congratulations, you applied your first data usage label to a dataset field. Simple, right?
 
-4. In the left-hand menu, navigate to Policies. Verify you're on the "Browse" tab. Click "+ Create policy" in top right corner.
+4. On the left-hand menu, navigate to Policies (in the PRIVACY dropdown). Verify you're on the "Browse" tab. Click "+ Create policy" in top right corner:
 
    ![Demo](./images/datausagepolicy1.png)
 
-5. Under the Policy details, enter name "Custom Policy". Under Select governance labels, select "I1". On the right-hand side, make sure "Contains all of the labels" radio button is selected. Click "Next" button in the top right corner.
+5. Under the Policy details, enter name "Custom Policy [attendee id]". Under Select governance labels, select "I1". On the right-hand side, make sure "Contains all of the labels" radio button is selected. Click the "Next" button in the top right corner:
 
    ![Demo](./images/datausagepolicy2.png)
 
-6. Select "Export to Third Party". Click "Next" button in the top right corner.
+6. Select "Export to Third Party" and click the "Next" button in the top right corner:
 
    ![Demo](./images/datausagepolicy3.png)
 
-7. Review the policy and click "Finish"
+7. Review the policy and click "Finish":
 
    ![Demo](./images/datausagepolicy4.png)
 
-Congratulations, you created a custom data usage policy.
+Congratulations! You created a custom data usage policy.
 <br>
 <br>
 <br>
