@@ -105,7 +105,7 @@ Instructions:
 33. Let’s make a weekly schedule for this Attribution AI Model. Select Monday at 5:00am. 
 34. Once you have reviewed the Advanced page click on Finish in the top right of your screen.
 
-![Demo](./images/aai_schedule.png.png)
+![Demo](./images/aai_schedule.png)
 
 35. Congratulations! You have created an Attribution AI model. 
 
