@@ -23,6 +23,9 @@ Please download [lab exercise files here](https://github.com/adobe/AEP-Hands-on-
 ### Adobe Experience Platform - RTCDP
 - [Activate Segment](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi6/Foundations/destinations.md)
 
+### Adobe Experience Platform - Intelligent Services
+- [Create an Attribution AI Instance](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/Foundations/attributionai.md)
+- [Create a Customer AI Instance](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi6/Intelligent%20Services/Customer%20AI.md)
 
 ### Adobe Experience Platform - Journey Orchestration
  - [Events](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi6/Journey%20Orchestration/Exercise1-Events.md)
