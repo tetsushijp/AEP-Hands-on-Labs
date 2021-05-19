@@ -81,11 +81,11 @@ Instructions:
       
 8.	Click on ‘Adobedemoamericas 270’ to expand the objects below that namespace
       
-      <kbd><img src="./images/segment_xdm_pot1.png"  /></kbd>
+      <kbd><img src="./images/segment_xdm_pot6.png"  /></kbd>
 
 9.	Click on ‘callcenterDetails’
    
-      <kbd><img src="./images/segment_xdm_calldetails.png"  /></kbd>      
+      <kbd><img src="./images/segment_xdm_calldetails_pot6.png"  /></kbd>      
 
 10.	Drag the ‘callSelectedReason’ field over to the Segment canvas
             
