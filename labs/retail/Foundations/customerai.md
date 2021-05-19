@@ -61,13 +61,13 @@ Instructions:
 
 3. In the left-hand menu, navigate to **Services** and click **Open** within the **Customer AI** section
 
-      ![Demo](./images/1.png)
+      ![Demo](./images/cai_services.png)
       
 4. Click **Create instance**. 
 
 
 
-    ![Demo](./images/2.png)
+    ![Demo](./images/cai_create.png)
       
       
       This will take you to the Setup stage of the Customer AI workflow.
@@ -79,7 +79,7 @@ Instructions:
 8. Click **Next** on the top right of your screen.
       
 
-      <img src= "./images/3.png" width="1800" height="400">
+      <img src= "./images/cai_setup.png" width="1800" height="400">
       
  This will take you to the Define Goal stage of the Customer AI workflow.
  
@@ -87,7 +87,7 @@ Instructions:
 10. Leave Timeframe as is to 30 days     
       
       
-      ![Demo](./images/4.png)
+      ![Demo](./images/cai_goal.png)
       
       This will take you to the Advanced  stage of the Customer AI workflow.
       
@@ -95,7 +95,7 @@ Instructions:
 12. Leave Exclusion Population as is
       
       
-      ![Demo](./images/5.png) 
+      ![Demo](./images/cai_schedule.png) 
  
  
 13. Click **Finish** on the top right of your screen to save the instance.
