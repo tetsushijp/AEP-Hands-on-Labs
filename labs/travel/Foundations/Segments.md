@@ -67,8 +67,13 @@
 6. Click on ‘XDM ExperienceEvent’ under Browse Classes.
  
 7. Click on ‘Adobeamericaspot 3’ to expand the objects below that namespace.
- 
+
+ ![Demo](./images//images/segment_xdm_pot3.png)
+
 8. Click on ‘callCenterDetails’
+9. 
+   ![Demo](./images//images/segment_xdm_calldetails_pot3.png)
+
  
 9. Drag the ‘callSelectedReason’ field over to the Segment canvas
  
@@ -145,13 +150,13 @@ NOTE: Estimate link may not show results if qualified profiles are statistically
  
 1. Navigate to Segment Builder in the left navigation and select Create segment.
  
-   ![Demo](./images/segment_create.png)
+![Demo](./images/segment_create.png)
  
 2. Click the gear icon to the right of Fields in the left pane
  
 3. Verify ‘Show full XDM schema’ is selected
  
-   ![Demo](./images/segment_gear.png)
+![Demo](./images/segment_gear.png)
  
 4. Click on the gear icon again to hide the setting
  
