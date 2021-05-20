@@ -71,8 +71,8 @@
  ![Demo](./images//images/segment_xdm_pot3.png)
 
 8. Click on ‘callCenterDetails’
-9. 
-   ![Demo](./images//images/segment_xdm_calldetails_pot3.png)
+
+  (./images//images/segment_xdm_calldetails_pot3.png)
 
  
 9. Drag the ‘callSelectedReason’ field over to the Segment canvas
