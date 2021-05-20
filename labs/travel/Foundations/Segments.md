@@ -58,7 +58,7 @@
  
 3. Verify ‘Show full XDM schema’ is selected, and if not, select it
  
-   ![Demo](./images/segment_gear.png)
+  ![Demo](./images/segment_gear.png)
  
 4. Click on the gear icon again to hide the setting.
  
@@ -68,20 +68,20 @@
  
 7. Click on ‘Adobeamericaspot 3’ to expand the objects below that namespace.
 
- ![Demo](./images//images/segment_xdm_pot3.png)
+  ![Demo](./images/images/segment_xdm_pot3.png)
 
 8. Click on ‘callCenterDetails’
 
-  (./images//images/segment_xdm_calldetails_pot3.png)
+  ![Demo](./images/segment_xdm_calldetails_pot3.png)
 
  
 9. Drag the ‘callSelectedReason’ field over to the Segment canvas
  
-   ![Demo](./images/segment_travel_callselectedreason.png)
+  ![Demo](./images/segment_travel_callselectedreason.png)
  
 10. In the text box to the right of equals, type “Reservation Place Booking” and press ‘Enter’
  
-    ![Demo](./images/segment_travel_reservationbooking.png)
+  ![Demo](./images/segment_travel_reservationbooking.png)
  
 11. Enter the segment name “Call Center Reservation Booking”.
  
@@ -89,7 +89,7 @@
  
 13. Save the Segment
  
-    ![Demo](./images/segment_travel_reservationbookingsave.png)
+  ![Demo](./images/segment_travel_reservationbookingsave.png)
  
 NOTE: Estimate link may not show results if qualified profiles are statistically small and not recognized across datset scans
  
@@ -161,25 +161,27 @@ NOTE: Estimate link may not show results if qualified profiles are statistically
 4. Click on the gear icon again to hide the setting
  
 5. Select ‘Attributes’ under Fields
- ![Demo](./images/segmentattributes.png)
+![Demo](./images/segmentattributes.png)
  
 6. Click on the ‘XDM Individual Profile’ object under Browse Attributes
  
- ![Demo](./images/segmentattributes_xdm.png)
+![Demo](./images/segmentattributes_xdm.png)
  
 7. Click on ‘Person’
- ![Demo](./images/segmentattributes_xdm_person.png)
+
+![Demo](./images/segmentattributes_xdm_person.png)
  
 8. Drag the ‘Gender’ field to the Segment canvas
  
- ![Demo](./images/segmentattributes_xdm_person_gender.png)
+![Demo](./images/segmentattributes_xdm_person_gender.png)
  
 9. Start entering ‘Female’ in the text box and when the value displays, select it and press Enter. The ‘Gender’ field is an enum field to limit the values stored in that field.
  
- ![Demo](./images/segment_travel_me_gender.png)
+![Demo](./images/segment_travel_me_gender.png)
  
 10. Next, select ‘Events’ under Fields in the left pane
- ![Demo](./images/segmentevents.png)
+
+![Demo](./images/segmentevents.png)
  
 11. Under ‘Event Types’ locate the ‘Product Views’ event and drag that to the segment canvas below the Profile attribute just added
  
@@ -187,15 +189,15 @@ NOTE: Estimate link may not show results if qualified profiles are statistically
  
 13. Update the operator to ‘Or’ between ‘Product Views’ and ‘Checkouts’
  
-    ![Demo](./images/segment_travel_or.png)
+![Demo](./images/segment_travel_or.png)
  
 14. Under ‘Events in the left pane, locate ‘Purchases’ and drag that to the segment canvas to the right of the ‘Product Views’ and ‘Purchase’ events
  
-    ![Demo](./images/segment_travel_me_purchase.png)
+![Demo](./images/segment_travel_me_purchase.png)
  
 15. Click on ‘Product Views’ in the segment canvas. A container will appear below to Include and XDM ExperienceEvent
  
-    ![Demo](./images/segment_prodview_container.png)
+![Demo](./images/segment_prodview_container.png)
  
 16. In the left pane, click on ‘XDM ExperienceEvent’ and ‘Product list items’ in the resulting display
  
@@ -204,7 +206,7 @@ NOTE: Estimate link may not show results if qualified profiles are statistically
  
 18. Enter ‘prd1030’ in the text box to the right of SKU = and press ‘Enter’
  
-    ![Demo](./images/segment_xdm_prodsku.png)
+![Demo](./images/segment_xdm_prodsku.png)
  
 19. Click on ‘Checkouts’ in the segment canvas. A container will appear below to Include and XDM ExperienceEvent
  
@@ -232,11 +234,11 @@ NOTE: Estimate link may not show results if qualified profiles are statistically
  
 26. Enter ‘prd1030’ in the text box to the right of SKU = and press ‘Enter’
  
-![Demo] (./images/segment_xdm_purchase_container_sku_value.png)
+![Demo](./images/segment_xdm_purchase_container_sku_value.png)
  
 27. Change the container operator to ‘Exclude’ for ‘Purchases’
  
-  ![Demo](./images/segment_travel_me_purchasesku2.png)
+![Demo](./images/segment_travel_me_purchasesku2.png)
  
 28. At the top of the ‘Events’ canvas, update the time value to ‘In last 24 Hour(s)’
  
@@ -333,7 +335,7 @@ NOTE: Estimate link may not show results if qualified profiles are statistically
  
 10. In the left pane, locate ‘Purchases’ and drag this to the segment canvas to the right of the ‘Checkouts’ event.
  
-    ![Demo](./images/segments_travel_dyn_mchannel_email_purchase.png)
+   ![Demo](./images/segments_travel_dyn_mchannel_email_purchase.png)
  
 11. Click on ‘Any’ in the segment canvas
  
