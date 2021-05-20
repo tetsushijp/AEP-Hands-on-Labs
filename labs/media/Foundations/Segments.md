@@ -50,7 +50,7 @@ Lab 1 - Segmentation - Simple ExperienceEvent Segmentation
 
 Instructions:
 -----------------
-1.	Navigate to Segment Builder in the left navigation
+1.	Navigate to "Segments" in the left navigation (in CUSTOMER section)
 
       <kbd><img src="./images/segmenthome.png"  /></kbd>
 
@@ -172,7 +172,7 @@ Lab 2 - Segmentation - Multi-Entity Sequential Segmentation
 
 Instructions:
 -----------------
-1.	Navigate to Segment Builder in the left navigation
+1.	Navigate to "Segments" in the left navigation (in the CUSTOMER section)
 
       <kbd><img src="./images/segmenthome.png"  /></kbd>
 
@@ -370,7 +370,7 @@ Lab 3 - Segmentation - Dynamic Segmentation
 
 Instructions:
 -----------------
-1.	Navigate to Segment Builder in the left navigation
+1.	Navigate to "Segments" in the left navigation (in the CUSTOMER section)
 
       <kbd><img src="./images/segmenthome.png"  /></kbd>
 
