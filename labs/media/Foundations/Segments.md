@@ -410,7 +410,7 @@ Instructions:
 
 	<kbd><img src="./images/segments_retail_evar1.png"  /></kbd>     
 
-9.	In the left pane, clear out the Search box
+9.	In the left pane, clear out the Search box by clicking the "X"
 
 	<kbd><img src="./images/segments_retail_search_evar1_clear.png"  /></kbd> 
 
