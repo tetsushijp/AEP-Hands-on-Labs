@@ -205,7 +205,7 @@ Instructions:
 
 	<kbd><img src="./images/segmentattributes_xdm_person.png"  /></kbd>
 
-9.	Drag the ‘Birth date’ field to the Segment canvas
+9.	Drag the ‘Birth date’ field to the Segment canvas. Note that there are two different "Birth Date" fileds availble to select from. Please choose the first one (when hovering over the name it should say "The full date a person was born."
 
 	<kbd><img src="./images/segmentattributes_xdm_person_bday.png"  /></kbd>
 
