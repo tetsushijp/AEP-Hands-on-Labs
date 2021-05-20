@@ -404,7 +404,9 @@ Instructions:
       
       <kbd><img src="./images/segments_retail_search_evar1.png"  /></kbd>      
             
-8.	Under ‘Browse Classes’, drag ‘eVar1’ to the segment canvas.  (Be sure it follows this path:  XDM ExperienceEvent > Experience > Analytics > Custom Dimensions > eVars > eVar1)
+8.	Under ‘Browse Classes’, drag ‘eVar1’ to the segment canvas.
+	Be sure it follows this path:  XDM ExperienceEvent > Experience > Analytics > Custom Dimensions > eVars > eVar1
+	You can click on the bar graph icon to expand the path
 
 	<kbd><img src="./images/segments_retail_evar1.png"  /></kbd>     
 
