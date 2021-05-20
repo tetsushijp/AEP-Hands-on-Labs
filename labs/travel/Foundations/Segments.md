@@ -156,14 +156,14 @@ NOTE: Estimate link may not show results if qualified profiles are statistically
 4. Click on the gear icon again to hide the setting
  
 5. Select ‘Attributes’ under Fields
- ![Demo](./images/ segmentattributes.png)
+ ![Demo](./images/segmentattributes.png)
  
 6. Click on the ‘XDM Individual Profile’ object under Browse Attributes
  
- ![Demo](./images/ segmentattributes_xdm.png)
+ ![Demo](./images/segmentattributes_xdm.png)
  
 7. Click on ‘Person’
- ![Demo](./images/ segmentattributes_xdm_person.png)
+ ![Demo](./images/segmentattributes_xdm_person.png)
  
 8. Drag the ‘Gender’ field to the Segment canvas
  
