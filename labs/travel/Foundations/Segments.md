@@ -63,7 +63,7 @@
 4. Click on the gear icon again to hide the setting.
  
 5. Select ‘Events’ under Fields.
-6. 
+
 ![Demo](./images/segmentevents.png)
 
  
@@ -355,7 +355,7 @@ NOTE: Estimate link may not show results if qualified profiles are statistically
  
 16. Change the operator to “exists”
  
-    ![Demo](./images/segments_travel_dyn_skuexists.png)
+    ![Demo](./images/segments_travel_dyn_skuexists (1).png)
  
 17. Clear the search box. And Select 'Puchases' event.
  
