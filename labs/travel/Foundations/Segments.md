@@ -361,7 +361,7 @@ NOTE: Estimate link may not show results if qualified profiles are statistically
  
 16. Change the operator to “exists”
  
-    ![Demo](./images/segments_travel_dyn_skuexists (1).png)
+    ![Demo](./images/segments_travel_dyn_skuexists.png)
  
 17. Clear the search box. And Select 'Puchases' event.
  
