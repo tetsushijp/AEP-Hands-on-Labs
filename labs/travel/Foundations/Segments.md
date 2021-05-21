@@ -63,6 +63,9 @@
 4. Click on the gear icon again to hide the setting.
  
 5. Select ‘Events’ under Fields.
+6. 
+![Demo](./images/segmentevents.png)
+
  
 6. Click on ‘XDM ExperienceEvent’ under Browse Classes.
  
@@ -161,6 +164,7 @@ NOTE: Estimate link may not show results if qualified profiles are statistically
 4. Click on the gear icon again to hide the setting
  
 5. Select ‘Attributes’ under Fields
+
 ![Demo](./images/segmentattributes.png)
  
 6. Click on the ‘XDM Individual Profile’ object under Browse Attributes
@@ -357,7 +361,7 @@ NOTE: Estimate link may not show results if qualified profiles are statistically
  
 18. Search for ‘SKU’ and drag that into the ‘XDM ExperienceEvent’ container for ‘Purchases’
  
-    ![Demo](./images/segments_travel_dyn_purchase_sku.png)
+    ![Demo](./images/segment_3_xdm_purchases_prodsku.png)
  
 19. Clear the search box
  
