@@ -188,8 +188,14 @@ NOTE: Estimate link may not show results if qualified profiles are statistically
 ![Demo](./images/segmentevents.png)
  
 11. Under ‘Event Types’ locate the ‘Product Views’ event and drag that to the segment canvas below the Profile attribute just added
+
+![Demo](./images/segmentevents_prodview.png)
+
  
 12. Under ‘Events’ in the left pane, locate ‘Checkouts’ and drag that to the segment canvas below the ‘Product Views’ event so that they are vertically stacked.
+
+![Demo](./images/segmentevents_checkout.png)
+
  
 13. Update the operator to ‘Or’ between ‘Product Views’ and ‘Checkouts’
  
