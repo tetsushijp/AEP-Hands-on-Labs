@@ -437,41 +437,41 @@ Instructions:
 
 	<kbd><img src="./images/segments_retail_events_checkouts.png"  /></kbd>       
 
-15.	In the left pane, click on ‘XDM ExperienceEvent’ under BROWSE CLASSES, then click on ‘Product List Items’ in the resulting display.
+15.	In the left pane, click on ‘XDM ExperienceEvent’ under BROWSE CLASSES, then click on ‘Product List Items’ in the resulting display:
 
 	<kbd><img src="./images/segment_xdm_prodlist.png"  /></kbd>
 
-16.	Select the ‘SKU’ field and drag that into the ‘XDM ExperienceEvent’ container for ‘Checkouts’
+16.	Select the ‘SKU’ field and drag that into the ‘XDM ExperienceEvent’ container for ‘Checkouts’:
 
 	<kbd><img src="./images/segment_3_xdm_checkouts_prodsku.png"  /></kbd>
 
-17.	Change the operator to “exists”     
+17.	Change the operator to “exists”:
       <!--
       ![Demo](./images/segments_travel_dyn_skuexists.png)
       -->
       <kbd><img src="./images/segments_travel_dyn_skuexists.png"  /></kbd>          
 
-18.	Click on ‘Purchases' in the Events canvas	
+18.	Click on ‘Purchases' in the Events canvas:	
 
 	<kbd><img src="./images/segments_retail_events_purchase.png"  /></kbd>    
 
-19.	In the left pane, click on ‘XDM ExperienceEvent’ and ‘Product list items’ in the resulting display
+19.	In the left pane, click on ‘XDM ExperienceEvent’ and ‘Product list items’ in the resulting display:
 
 	<kbd><img src="./images/segment_xdm_prodlist.png"  /></kbd>
 
-20.	Select the ‘SKU’ field and drag that into the ‘XDM ExperienceEvent’ container for ‘Purchases’
+20.	Select the ‘SKU’ field and drag that into the ‘XDM ExperienceEvent’ container for ‘Purchases’:
 
 	<kbd><img src="./images/segment_3_xdm_purchases_prodsku.png"  /></kbd>
 
-21.	In the left pane, click on the Events link. 
+21.	In the left pane, click on the Events link:
       <!--
       ![Demo](./images/segments_travel_dyn_browsevarmenu.png)
       -->
       <kbd><img src="./images/segments_retail_dyn_backtobrowsemenu.png"  /></kbd>  
       
-      You should see ‘Browse Classes’, ‘Event Types’ and ‘Browse Variables’ sections appear
-      
-      <kbd><img src="./images/segments_travel_dyn_browsevarmenu.png"  /></kbd>  
+     You should see ‘Browse Classes’, ‘Event Types’ and ‘Browse Variables’ sections appear:
+     
+      	<kbd><img src="./images/segments_travel_dyn_browsevarmenu.png"  /></kbd>  
       
 22.	Under ‘Browse Variables’ click on ‘Checkouts1 | Product List Items1’
 
