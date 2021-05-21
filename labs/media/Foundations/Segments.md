@@ -473,11 +473,11 @@ Instructions:
       
       <kbd><img src="./images/segments_travel_dyn_browsevarmenu.png"  /></kbd>  
       
-22.	Under ‘Browse Variables’ click on ‘Checkouts1 | Product list items1’
+22.	Under ‘Browse Variables’ click on ‘Checkouts1 | Product List Items1’
 
 	<kbd><img src="./images/segments_retail_browsevarmenu_checkouts.png"  /></kbd>  
 
-23.	Select the 'SKU' field and drag this to the right of ‘SKU equals’ in the ‘XDM Event Container’ for the Purchases event. Release once the dynamic variable is positioned over the second box displays and drop. 
+23.	Select the 'SKU' field and drag this to the right of ‘SKU equals’ in the ‘XDM Event Container’ for the Purchases event. When you see the “Add to compare operands” box show up, release the SKU field.
 
 	<kbd><img src="./images/segments_retail_browsevarmenu_checkouts_sku.png"  /></kbd>  
 
