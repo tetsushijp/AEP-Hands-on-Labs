@@ -370,34 +370,34 @@ Lab 3 - Segmentation - Dynamic Segmentation
 
 Instructions:
 -----------------
-1.	Navigate to "Segments" in the left navigation (in the CUSTOMER section)
+1.	Navigate to "Segments" in the left navigation (in the CUSTOMER section):
 
       <kbd><img src="./images/segmenthome.png"  /></kbd>
 
-2.    Click "Create segment" on the top right.
+2.    Click "Create segment" on the top right:
 
       <kbd><img src="./images/createsegment.png"  /></kbd>
 
-3.	Click the gear icon to the right of Fields in the left pane
+3.	Click the gear icon to the right of Fields in the left pane:
 
       <kbd><img src="./images/segmentfieldsgear.png"  /></kbd>
 
-4.	Verify ‘Show full XDM schema’ is selected, and if not, select it
+4.	Verify ‘Show full XDM schema’ is selected, and if not, select it:
       <!--
       ![Demo](./images/segment_gear.png)
       -->
       
       <kbd><img src="./images/segment_gear.png"  /></kbd>
       
-5.	Click on the gear icon again to hide the setting
+5.	Click on the gear icon again to hide the setting:
 
       <kbd><img src="./images/segmentfieldsgearclose.png"  /></kbd>
 
-6.	Select ‘Events’ under Fields
+6.	Select ‘Events’ under Fields:
 
       <kbd><img src="./images/segmentevents.png"  /></kbd>
       
-7.	In the search box, enter ‘evar1’
+7.	In the search box, enter ‘evar1’:
       <!--
       ![Demo](./images/segments_travel_dyn_mchannel.png)
       -->
@@ -406,34 +406,34 @@ Instructions:
             
 8.	Under ‘Browse Classes’, drag ‘eVar1’ to the segment canvas.
 	Be sure it follows this path:  XDM ExperienceEvent > Experience > Analytics > Custom Dimensions > eVars > eVar1
-	(you can click on the bar graph icon to expand the path)
+	(you can click on the bar graph icon to expand the path):
 
 	<kbd><img src="./images/segments_retail_evar1.png"  /></kbd>     
 
-9.	In the left pane, clear out the Search box by clicking the "X"
+9.	In the left pane, clear out the Search box by clicking the "X":
 
 	<kbd><img src="./images/segments_retail_search_evar1_clear.png"  /></kbd> 
 
-10.	Under ‘Event Types’, locate ‘Checkouts, and drag this to the segment canvas to the right of the ‘Any’ event
+10.	Under ‘Event Types’, locate ‘Checkouts, and drag this to the segment canvas to the right of the ‘Any’ event:
 
 	<kbd><img src="./images/segments_retail_xdm_checkouts.png"  /></kbd> 
 
-11.	In the left pane, locate ‘Purchases’ and drag this to the segment canvas to the right of the ‘Checkouts’ event.
+11.	In the left pane, locate ‘Purchases’ and drag this to the segment canvas to the right of the ‘Checkouts’ event:
 
 	<kbd><img src="./images/segments_retail_xdm_purchases.png"  /></kbd> 
 
-12.	Click on ‘Any’ in the segment canvas
+12.	Click on ‘Any’ in the segment canvas:
 
 	<kbd><img src="./images/segments_retail_events_any.png"  /></kbd> 
 
-13.	Type ‘Email’ in the text box to the right of ‘eVar1’ equals and press Enter. You will see 'Email' added to the right side of the text box.
+13.	Type ‘Email’ in the text box to the right of ‘eVar1’ equals and press Enter. You will see 'Email' added to the right side of the text box:
       <!--
       ![Demo](./images/segments_travel_dyn_mchannel_email.png)
       -->
       
       <kbd><img src="./images/segments_retail_dyn_mchannel_email.png"  /></kbd>       
           
-14.	Click on ‘Checkouts' in the Events canvas
+14.	Click on ‘Checkouts' in the Events canvas:
 
 	<kbd><img src="./images/segments_retail_events_checkouts.png"  /></kbd>       
 
@@ -469,42 +469,42 @@ Instructions:
       -->
       <kbd><img src="./images/segments_retail_dyn_backtobrowsemenu.png"  /></kbd>  
       
-     You should see ‘Browse Classes’, ‘Event Types’ and ‘Browse Variables’ sections appear:
+     You should see ‘BROWSE CLASSES’, ‘EVENT TYPES’ and ‘BROWSE VARIABLES’ sections appear:
      
       	<kbd><img src="./images/segments_travel_dyn_browsevarmenu.png"  /></kbd>  
       
-22.	Under ‘Browse Variables’ click on ‘Checkouts1 | Product List Items1’
+22.	Under ‘BROWSE VARIABLES’ click on ‘Checkouts1 | Product List Items1’:
 
 	<kbd><img src="./images/segments_retail_browsevarmenu_checkouts.png"  /></kbd>  
 
-23.	Select the 'SKU' field and drag this to the right of ‘SKU equals’ in the ‘XDM Event Container’ for the Purchases event. When you see the “Add to compare operands” box show up, release the SKU field.
+23.	Select the 'SKU' field and drag this to the right of ‘SKU equals’ in the ‘XDM Event Container’ for the Purchases event. When you see the “Add to compare operands” box show up, release the SKU field:
 
 	<kbd><img src="./images/segments_retail_browsevarmenu_checkouts_sku.png"  /></kbd>  
 
-The resulting statement should be ‘SKU equals Checkouts1 | Product list items1 SKU XDM ExperienceEvent > Product list items > SKU’
+	The resulting statement should be ‘SKU equals Checkouts1 | Product list items1 SKU XDM ExperienceEvent > Product list items > SKU’:
 
-   <kbd><img src="./images/segments_retail_xdm_purchase_dyn_checkoutsku.png"  /></kbd> 
+   	<kbd><img src="./images/segments_retail_xdm_purchase_dyn_checkoutsku.png"  /></kbd> 
 
-24.	Change the ‘XDM ExperienceEvent’ container for ‘Purchases1’ to ‘Exclude’
+24.	Change the ‘XDM ExperienceEvent’ container for ‘Purchases1’ to ‘Exclude’:
       <!--
       ![Demo](./images/segments_travel_dyn_skuexists.png)
       -->
 
       <kbd><img src="./images/segments_retail_xdm_purchase_excludesku.png"  /></kbd>  
       
-25. 	At the top of the ‘Events’ canvas, update the time value from "Any time" to ‘In last 24 Hour(s)’
+25. 	At the top of the ‘Events’ canvas, update the time value from "Any time" to ‘In last 24 Hour(s)’:
 	
 	 <kbd><img src="./images/segment_segment3_events_container_inlast.png"  /></kbd>	
 
-26.	Type in the segment name field “Email Channel Online Subscription [your assigned number]”. Enter the same value as the description.
+26.	Type in the segment name field “Email Channel Online Subscription [your assigned number]”. Enter the same value as the description:
 
 	<kbd><img src="./images/segment_properties_name3.png"  /></kbd>
 
-27. 	 Confirm your final segment is consistent with the screenshot.  
+27. 	 Confirm your final segment is consistent with the screenshot:
 	
 	  <kbd><img src="./images/segment_segment3_final.png"  /></kbd>
 
-28.	Save the Segment
+28.	Save the Segment:
 
 	<kbd><img src="./images/segment_retail_ordersave.png"  /></kbd>   
 
