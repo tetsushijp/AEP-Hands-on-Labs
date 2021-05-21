@@ -68,7 +68,7 @@
  
 7. Click on ‘Adobeamericaspot 3’ to expand the objects below that namespace.
 
-  ![Demo](./images/images/segment_xdm_pot3.png)
+  ![Demo](./images/segment_xdm_pot3.png)
 
 8. Click on ‘callCenterDetails’
 
