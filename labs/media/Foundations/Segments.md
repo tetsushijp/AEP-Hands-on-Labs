@@ -492,11 +492,11 @@ The resulting statement should be ‘SKU equals Checkouts1 | Product list items1
 
       <kbd><img src="./images/segments_retail_xdm_purchase_excludesku.png"  /></kbd>  
       
-25. 	At the top of the ‘Events’ canvas, update the time value to ‘In last 24 Hour(s)’
+25. 	At the top of the ‘Events’ canvas, update the time value from "Any time" to ‘In last 24 Hour(s)’
 	
 	 <kbd><img src="./images/segment_segment3_events_container_inlast.png"  /></kbd>	
 
-26.	Enter the segment name “Email Channel Online Subscription Abandoners” followed by your Student ID (e.g. “Email Channel Online Subscription Abandoners 025”).  Enter the same value as the description
+26.	Type in the segment name field “Email Channel Online Subscription [your assigned number]”. Enter the same value as the description.
 
 	<kbd><img src="./images/segment_properties_name3.png"  /></kbd>
 
