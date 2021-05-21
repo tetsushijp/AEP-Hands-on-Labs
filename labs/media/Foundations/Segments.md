@@ -473,11 +473,11 @@ Instructions:
       
       <kbd><img src="./images/segments_travel_dyn_browsevarmenu.png"  /></kbd>  
       
-21.	Click on ‘Checkouts1 | Product list items1’
+22.	Under ‘Browse Variables’ click on ‘Checkouts1 | Product list items1’
 
 	<kbd><img src="./images/segments_retail_browsevarmenu_checkouts.png"  /></kbd>  
 
-22.	Select the 'SKU' field and drag this to the right of ‘SKU equals’ in the ‘XDM Event Container’ for the Purchases event. Release once the dynamic variable is positioned over the second box displays and drop. 
+23.	Select the 'SKU' field and drag this to the right of ‘SKU equals’ in the ‘XDM Event Container’ for the Purchases event. Release once the dynamic variable is positioned over the second box displays and drop. 
 
 	<kbd><img src="./images/segments_retail_browsevarmenu_checkouts_sku.png"  /></kbd>  
 
@@ -485,26 +485,26 @@ The resulting statement should be ‘SKU equals Checkouts1 | Product list items1
 
    <kbd><img src="./images/segments_retail_xdm_purchase_dyn_checkoutsku.png"  /></kbd> 
 
-22.	Change the ‘XDM ExperienceEvent’ container for ‘Purchases1’ to ‘Exclude’
+24.	Change the ‘XDM ExperienceEvent’ container for ‘Purchases1’ to ‘Exclude’
       <!--
       ![Demo](./images/segments_travel_dyn_skuexists.png)
       -->
 
       <kbd><img src="./images/segments_retail_xdm_purchase_excludesku.png"  /></kbd>  
       
-23. 	At the top of the ‘Events’ canvas, update the time value to ‘In last 24 Hour(s)’
+25. 	At the top of the ‘Events’ canvas, update the time value to ‘In last 24 Hour(s)’
 	
 	 <kbd><img src="./images/segment_segment3_events_container_inlast.png"  /></kbd>	
 
-24.	Enter the segment name “Email Channel Online Subscription Abandoners” followed by your Student ID (e.g. “Email Channel Online Subscription Abandoners 025”).  Enter the same value as the description
+26.	Enter the segment name “Email Channel Online Subscription Abandoners” followed by your Student ID (e.g. “Email Channel Online Subscription Abandoners 025”).  Enter the same value as the description
 
 	<kbd><img src="./images/segment_properties_name3.png"  /></kbd>
 
-25. 	 Confirm your final segment is consistent with the screenshot.  
+27. 	 Confirm your final segment is consistent with the screenshot.  
 	
 	  <kbd><img src="./images/segment_segment3_final.png"  /></kbd>
 
-26.	Save the Segment
+28.	Save the Segment
 
 	<kbd><img src="./images/segment_retail_ordersave.png"  /></kbd>   
 
