@@ -38,7 +38,7 @@ Lab  - Build a CJA Dashboard
       </tr>
       <tr>
             <td valign="middle" height="70"><b>date</b></td>
-            <td valign="middle" height="70">2020-07-17</td>
+            <td valign="middle" height="70">2021-05-24</td>
       </tr>
 </tbody>
 </table>
