@@ -93,5 +93,20 @@ Click on the Lookback window drop-down and select “Person (Reporting Window)�
 **Notes on Lookback window selection**: Selecting “Session” means that we will only give credit to touches that occur prior to a conversion within a Session.
 “Person” means Touches across Sessions can be given credit within the Reporting Timeframe of the Panel. We’ve selected “Person” because a person may have multiple marketing interactions across multiple Sessions on their path to a conversion.
 
+3. We can now understand the influence that Marketing Channels have on driving conversions
+
+<kbd><img src="./images/cja-attributioniq-linearmodelview.png"  /></kbd>
+   
+  We could also easily turn this freeform table into a nice pretty visualization if we wanted.
+  
+Let's switch gears and use Attribution IQ to score pages based on their influence on driving calls into the call center. 
+
+4. Add another table to your Attribution IQ freeform panel. Drag the “Web page name” dimension & drop it into the panel, then add in the “Web Sessions” & “Calls” metrics:
+
+<kbd><img src="./images/cja-attributioniq-createpanel2-calls.png"  /></kbd>
+
+As expected, the “Calls” metric reports all 0's because there are no Call events that occur on the same event as a Page View.
+Let's use Attribution IQ to configure how attribution works for this metric.
+
 
 
