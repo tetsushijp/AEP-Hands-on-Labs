@@ -76,7 +76,7 @@ Let's start with the marketing use case.
 
 1. Create a new panel with a Freeform Table and title it “Attribution IQ”. Ensure your date range for POT5 is March 18-30, 2020. Drag the “Web Marketing Channel” dimension & drop it into the panel, then add in the “Sessions” & “Online Purchases” metrics:
 
-<kbd><img src="./images/cja-attributioniq-createpanel.png"  /></kbd>
+      <kbd><img src="./images/cja-attributioniq-createpanel1.png"  /></kbd>
 
 This table shows the performance of these Marketing Channels on driving Online Purchases from a Last Touch perspective. This is because the Marketing Channel dimension is setup to use a default attribution model of Last Touch. But using Attribution IQ, users can dynamically change the model being used on the fly. Let's change the model being used now.
 
@@ -86,7 +86,7 @@ From here we can select the Attribution Model and Lookback Window.
 Click on the Model drop-down list to access all the attribution models available and select “Linear”
 Click on the Lookback window drop-down and select “Person (Reporting Window)” and click Apply
 
-<kbd><img src="./images/cja-attributioniq-adjustmodel.png"  /></kbd>
+   <kbd><img src="./images/cja-attributioniq-adjustmodel.png"  /></kbd>
 
 **Notes on Attribution Model selection**: Let's say that as a business we've determined that the Linear Model is the model that makes the most sense to use because it splits the credit across all the touches that a customer has leading up to a conversion, opposed to just one touch. Depending on the analysis scenario, we may want to use different Attribution Models. Attribution IQ provides the flexibility to select the model that makes the most sense for the job.
 
