@@ -67,3 +67,13 @@ If you're familiar with Adobe Analytics Workspace Analysis, you'll notice severa
 - Visit containers are now known as 'Session' containers
 - Visitor containers are now known as 'Person' containers
 
+
+**ATTRIBUTION IQ**
+
+Attribution IQ can be used to dig a bit deeper into this analysis use case. Attribution IQ allows users to measure the influence that any data point has on driving an event of interest.
+In most cases, people think of measuring the influence of marketing touches on driving conversions when talking about attribution. Attribution IQ supports this use case very well, but it can also be used for many other use cases. For example, measuring the influence of web pages on driving calls.
+Let's start with the marketing use case.
+
+1. Create a new panel with a Freeform Table and title it “Attribution IQ”. Ensure your date range for POT5 is March 18-30, 2020. Drag the “Web Marketing Channel” dimension & drop it into the panel, then add in the “Sessions” & “Online Purchases” metrics:
+
+
