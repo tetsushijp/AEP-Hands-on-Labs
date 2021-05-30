@@ -80,11 +80,11 @@ Let's start with the marketing use case.
 
 This table shows the performance of these Marketing Channels on driving Online Purchases from a Last Touch perspective. This is because the Marketing Channel dimension is setup to use a default attribution model of Last Touch. But using Attribution IQ, users can dynamically change the model being used on the fly. Let's change the model being used now.
 
-2. Hover over the “Online Purchases" metric in the table and click on the gear icon when it appears. This will open column settings. 
-In column settings, click on the "Use non-default attribution model" checkbox down in the Data settings section to enable Attribution IQ on this metric. This will open the Attribution IQ configuration window. 
-From here we can select the Attribution Model and Lookback Window.
-Click on the Model drop-down list to access all the attribution models available and select “Linear”
-Click on the Lookback window drop-down and select “Person (Reporting Window)” and click Apply
+2. Hover over the “Online Purchases" metric in the table and click on the gear icon when it appears. This will open column settings.
+- In column settings, click on the "Use non-default attribution model" checkbox down in the Data settings section to enable Attribution IQ on this metric. This will open the Attribution IQ configuration window.
+- From here we can select the Attribution Model and Lookback Window.
+- Click on the Model drop-down list to access all the attribution models available and select “Linear”
+- Click on the Lookback window drop-down and select “Person (Reporting Window)” and click Apply
 
    <kbd><img src="./images/cja-attributioniq-adjustmodel.png"  /></kbd>
 
@@ -101,11 +101,13 @@ Click on the Lookback window drop-down and select “Person (Reporting Window)�
   
 Let's switch gears and use Attribution IQ to score pages based on their influence on driving calls into the call center. 
 
-4. Add another table to your Attribution IQ freeform panel. Drag the “Web page name” dimension & drop it into the panel, then add in the “Web Sessions” & “Calls” metrics:
+4. Add another table to your Attribution IQ freeform panel.
+- In your new table, drag the “Web page name” dimension & drop it into the panel, then add in the “Web Sessions” & “Calls” metrics:
 
 <kbd><img src="./images/cja-attributioniq-createpanel2-calls.png"  /></kbd>
 
 As expected, the “Calls” metric reports all 0's because there are no Call events that occur on the same event as a Page View.
+
 Let's use Attribution IQ to configure how attribution works for this metric.
 
 5. Click on the gear to the right of the Calls metric in the table and click the checkbox to "use non-default attribution model".
