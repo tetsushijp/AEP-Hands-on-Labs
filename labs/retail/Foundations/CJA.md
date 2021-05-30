@@ -108,5 +108,32 @@ Let's switch gears and use Attribution IQ to score pages based on their influenc
 As expected, the “Calls” metric reports all 0's because there are no Call events that occur on the same event as a Page View.
 Let's use Attribution IQ to configure how attribution works for this metric.
 
+5. Click on the gear to the right of the Calls metric in the table and click the checkbox to "use non-default attribution model".
+Select the Time Decay model and configure a 15-Minute Half-life. Set the Lookback window to “Person (Reporting Window)”.
 
+<kbd><img src="./images/cja-attributioniq-modelsettings-timedecay.png"  /></kbd>
+
+This is a perfect model for what we're trying to do. Typically, customers will try to do something online for a while before they give up and call into the call center. This means that they may hit a couple of pages before they call. We don't just want to give credit to the last page for driving the call. But we probably do want to give the most credit to the last page for driving the call.
+We configured the time decay model to look back from the call event up to 15 minutes and give the most credit to the last page that a person saw prior to a call, and then incrementally less credit to each page behind that, up to 15 minutes prior to the call.
+Click "Apply" and look at the resulting table.
+
+<kbd><img src="./images/cja-attributioniq-calls-timedecay.png"  /></kbd>
+
+Based on this table, we can see the top pages that are driving calls into the call center. Lets go deeper.
+
+6. In the Components menu, search for the “Call reason" dimension and click on the arrow to the right to see the items within that dimension.
+Click "Show items from last X months" until values show.
+Select the top 4 call reasons.
+
+<kbd><img src="./images/cja-attributioniq-callreasons.png"  /></kbd>
+
+Now drag them under the "Calls" metric until it says "Filter By" in blue and drop them
+
+<kbd><img src="./images/cja-attributioniq-callreasons-top4.png"  /></kbd>
+
+The result is a table that uses a 15-Minute Time Decay model to give credit to pages for driving calls, broken out by the top 4 Call Reason types.
+
+<kbd><img src="./images/cja-attributioniq-timedecay-top4callreasons.png"  /></kbd>
+
+Clients typically use this data to uncover the top pages driving calls and testing different versions of those pages (Adobe Target is a great option here) until they find a version that works best at keeping people in the cheaper, online channel.
 
