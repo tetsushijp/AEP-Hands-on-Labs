@@ -111,13 +111,14 @@ As expected, the “Calls” metric reports all 0's because there are no Call ev
 Let's use Attribution IQ to configure how attribution works for this metric.
 
 5. Click on the gear to the right of the Calls metric in the table and click the checkbox to "use non-default attribution model".
-Select the Time Decay model and configure a 15-Minute Half-life. Set the Lookback window to “Person (Reporting Window)”.
+- In attribution model settings, select the Time Decay model and configure a 15-Minute Half-life. Set the Lookback window to “Person (Reporting Window)”.
 
 <kbd><img src="./images/cja-attributioniq-modelsettings-timedecay.png"  /></kbd>
 
 This is a perfect model for what we're trying to do. Typically, customers will try to do something online for a while before they give up and call into the call center. This means that they may hit a couple of pages before they call. We don't just want to give credit to the last page for driving the call. But we probably do want to give the most credit to the last page for driving the call.
+
 We configured the time decay model to look back from the call event up to 15 minutes and give the most credit to the last page that a person saw prior to a call, and then incrementally less credit to each page behind that, up to 15 minutes prior to the call.
-Click "Apply" and look at the resulting table.
+- Click "Apply" and look at the resulting table.
 
 <kbd><img src="./images/cja-attributioniq-calls-timedecay.png"  /></kbd>
 
