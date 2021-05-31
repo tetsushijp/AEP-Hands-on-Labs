@@ -204,12 +204,13 @@ Let's go back to the use case that we've been working on: Understanding how cust
 One very powerful capability the Flow visualization supports is the ability to mix and match the dimensions being used.
 
 7. Drag the “Web page name" dimension and drop it to the left of the “Call Reason" values on the left side of the visualization when you get the blue "Add" box.
-- The result is a view into the top pages customers interact with prior to a call, broken out by call type:
+The result is a view into the top pages customers interact with prior to a call, broken out by call type:
 
 <kbd><img src="./images/CJA-flow-callreason-pagename.png"  /></kbd>
 
+8. Drill into the "home" page to see what customers interact with prior to that on their path to a call.
 
+<kbd><img src="./images/CJA-flow-callreason-pagename-priorpages.png"  /></kbd>
 
-
-
+Hopefully, you can see how this can be very powerful in understanding customer journeys across channels.
 
