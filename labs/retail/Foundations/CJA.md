@@ -156,6 +156,24 @@ The Flow visualization is a very powerful visualization for understanding custom
 - Dropping a dimension as the Exit point will show the top last values seen for a dimension at a Session or Person level.
 - Dropping a dimension or a dimensional element in the middle will show you how often that element is the entry or exit, as well as the top elements a person saw prior or after from a pathing perspective. This can also be configured at the Session or Person level.
 
+Let's try this from a Web Pathing perspective to start with.
 
+2. From the Components menu, click on the arrow to the right of the “Web page name” dimension.
+- Click on “Show items from last X months” until the values show up.
+- Drag the “home” page and drop it into the center drop zone for the Flow visualization:
+
+<kbd><img src="./images/CJA-flow-config-addhomepage.png"  /></kbd>
+
+This is what your panel should look like now:
+
+<kbd><img src="./images/CJA-flow-homepageflow.png"  /></kbd>
+
+_(If you get 0 results make sure you're using the correct date range and that you're in the DV 001 Data View)_
+
+This view allows you to see 
+- how many people enter the site at the home page 
+- how many people exit the site at the home page 
+- the top pages that drive customers to the home page
+- the top pages that customers go to from the home page
 
 
