@@ -67,6 +67,7 @@ If you're familiar with Adobe Analytics Workspace Analysis, you'll notice severa
 - Visit containers are now known as 'Session' containers
 - Visitor containers are now known as 'Person' containers
 
+-----
 
 **ATTRIBUTION IQ**
 
@@ -140,6 +141,7 @@ The result is a table that uses a 15-Minute Time Decay model to give credit to p
 
 Clients typically use this data to uncover the top pages driving calls and testing different versions of those pages (Adobe Target is a great option here) until they find a version that works best at keeping people in the cheaper, online channel.
 
+-----
 
 **FLOW**
 
@@ -213,4 +215,14 @@ The result is a view into the top pages customers interact with prior to a call,
 <kbd><img src="./images/CJA-flow-callreason-pagename-priorpages.png"  /></kbd>
 
 Hopefully, you can see how this can be very powerful in understanding customer journeys across channels.
+
+-----
+
+**FALLOUT**
+
+The Fallout visualization is a very powerful visualization for understanding customer paths when there are specific points or events you want to understand. For example, measuring a process on the site.
+
+1. Create a new panel, title it “Fallout” and ensure your date range for POT5 is March 18-30, 2020. Select the Fallout visualization as the starting point of the panel.
+
+
 
