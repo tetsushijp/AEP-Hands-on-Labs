@@ -140,3 +140,22 @@ The result is a table that uses a 15-Minute Time Decay model to give credit to p
 
 Clients typically use this data to uncover the top pages driving calls and testing different versions of those pages (Adobe Target is a great option here) until they find a version that works best at keeping people in the cheaper, online channel.
 
+
+**FLOW**
+
+The Flow visualization is a very powerful visualization for understanding customer journeys in a single channel, or across channels. This lends itself nicely to what we're analyzing so far.
+
+1. Click the "+" beneath the last panel that you created to create a new panel.
+- Title it “Flow” and ensure your date range for POT5 is March 18-30, 2020
+- Select the Flow visualization and this will bring you to the Flow visualization configuration view:
+
+<kbd><img src="./images/CJA-flow-dimensionconfig.png"  /></kbd>
+
+**Notes on Dimension configuration:** 
+- Dropping a dimension as the Entry point will show the top first values seen in that dimension either at a Session or Person level.
+- Dropping a dimension as the Exit point will show the top last values seen for a dimension at a Session or Person level.
+- Dropping a dimension or a dimensional element in the middle will show you how often that element is the entry or exit, as well as the top elements a person saw prior or after from a pathing perspective. This can also be configured at the Session or Person level.
+
+
+
+
