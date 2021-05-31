@@ -170,10 +170,46 @@ This is what your panel should look like now:
 
 _(If you get 0 results make sure you're using the correct date range and that you're in the DV 001 Data View)_
 
-This view allows you to see 
+This view allows you to see:
 - how many people enter the site at the home page 
 - how many people exit the site at the home page 
 - the top pages that drive customers to the home page
 - the top pages that customers go to from the home page
+
+3. Click on the "search results" page on the branch on the right to see where customers go to from there.
+- Then right-click on the "events" node within the branch to the right to see the various options as it relates to digging deeper into this data.
+
+<kbd><img src="./images/CJA-flow-homepage-searchresults.png"  /></kbd>
+
+   One option that is very interesting is the "Create filter for this path" option, which will create a filter based on customers that follow that specific path. This becomes an    interesting way to do further analysis around the types of customers that follow a specific path.
+
+4. Click the gear in the top right of the visualization to bring up the Flow Settings menu. From here we can define if we want to see paths at a Session or Person level.
+
+<kbd><img src="./images/CJA-flow-settingsmenu.png"  /></kbd>
+
+_No action needed in this view_
+
+5. From the Visualizations menu, drag a Flow visualization beneath the Flow visualization we just built and drop it in the panel we're working on.
+
+<kbd><img src="./images/CJA-flow-addanotherflow.png"  /></kbd>
+
+Let's go back to the use case that we've been working on: Understanding how customers navigate from Web to the Call Center. We want to understand the journey that customers are taking from the web site into the call center. To do this, we will start with call reason.
+
+6. Drag the “Call reason" dimension and drop it in the Exit drop zone:
+
+<kbd><img src="./images/CJA-flow-callreason-exitflow.png"  /></kbd>
+
+  This shows us the top Call Reasons for customer calls into the call center.
+
+One very powerful capability the Flow visualization supports is the ability to mix and match the dimensions being used.
+
+7. Drag the “Web page name" dimension and drop it to the left of the “Call Reason" values on the left side of the visualization when you get the blue "Add" box.
+- The result is a view into the top pages customers interact with prior to a call, broken out by call type:
+
+<kbd><img src="./images/CJA-flow-callreason-pagename.png"  /></kbd>
+
+
+
+
 
 
