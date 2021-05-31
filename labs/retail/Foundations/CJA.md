@@ -125,12 +125,12 @@ We configured the time decay model to look back from the call event up to 15 min
 Based on this table, we can see the top pages that are driving calls into the call center. Lets go deeper.
 
 6. In the Components menu, search for the “Call reason" dimension and click on the arrow to the right to see the items within that dimension.
-Click "Show items from last X months" until values show.
-Select the top 4 call reasons.
+- In the "Call reason Items" view, click "Show items from last X months" until values show.
+- Select the top 4 call reasons.
 
 <kbd><img src="./images/cja-attributioniq-callreasons.png"  /></kbd>
 
-Now drag them under the "Calls" metric until it says "Filter By" in blue and drop them
+Now drag them under the "Calls" metric in your table until the "Filter By" prompt in blue appears, then drop them.
 
 <kbd><img src="./images/cja-attributioniq-callreasons-top4.png"  /></kbd>
 
