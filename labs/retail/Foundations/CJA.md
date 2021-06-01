@@ -82,10 +82,10 @@ Let's start with the marketing use case.
 This table shows the performance of these Marketing Channels on driving Online Purchases from a Last Touch perspective. This is because the Marketing Channel dimension is setup to use a default attribution model of Last Touch. But using Attribution IQ, users can dynamically change the model being used on the fly. Let's change the model being used now.
 
 2. Hover over the “Online Purchases" metric in the table and click on the gear icon when it appears. This will open column settings.
-- In column settings, click on the "Use non-default attribution model" checkbox down in the Data settings section to enable Attribution IQ on this metric. This will open the Attribution IQ configuration window.
-- From here we can select the Attribution Model and Lookback Window.
-- Click on the Model drop-down list to access all the attribution models available and select “Linear”
-- Click on the Lookback window drop-down and select “Person (Reporting Window)” and click Apply
+      - In column settings, click on the "Use non-default attribution model" checkbox down in the Data settings section to enable Attribution IQ on this metric. This will open the Attribution IQ configuration window.
+      - From here we can select the Attribution Model and Lookback Window.
+      - Click on the Model drop-down list to access all the attribution models available and select “Linear”
+      - Click on the Lookback window drop-down and select “Person (Reporting Window)” and click Apply
 
    <kbd><img src="./images/cja-attributioniq-adjustmodel.png"  /></kbd>
 
@@ -97,13 +97,13 @@ This table shows the performance of these Marketing Channels on driving Online P
 3. We can now understand the influence that Marketing Channels have on driving conversions
 
 <kbd><img src="./images/cja-attributioniq-linearmodelview.png"  /></kbd>
-   
-  We could also easily turn this freeform table into a nice pretty visualization if we wanted.
+
+   We could also easily turn this freeform table into a nice pretty visualization if we wanted.
   
 Let's switch gears and use Attribution IQ to score pages based on their influence on driving calls into the call center. 
 
 4. Add another table to your Attribution IQ freeform panel.
-- In your new table, drag the “Web page name” dimension & drop it into the panel, then add in the “Web Sessions” & “Calls” metrics:
+      - In your new table, drag the “Web page name” dimension & drop it into the panel, then add in the “Web Sessions” & “Calls” metrics:
 
 <kbd><img src="./images/cja-attributioniq-createpanel2-calls.png"  /></kbd>
 
@@ -112,22 +112,22 @@ As expected, the “Calls” metric reports all 0's because there are no Call ev
 Let's use Attribution IQ to configure how attribution works for this metric.
 
 5. Click on the gear to the right of the Calls metric in the table and click the checkbox to "use non-default attribution model".
-- In attribution model settings, select the Time Decay model and configure a 15-Minute Half-life. Set the Lookback window to “Person (Reporting Window)”.
+      - In attribution model settings, select the Time Decay model and configure a 15-Minute Half-life. Set the Lookback window to “Person (Reporting Window)”.
 
 <kbd><img src="./images/cja-attributioniq-modelsettings-timedecay.png"  /></kbd>
 
-This is a perfect model for what we're trying to do. Typically, customers will try to do something online for a while before they give up and call into the call center. This means that they may hit a couple of pages before they call. We don't just want to give credit to the last page for driving the call. But we probably do want to give the most credit to the last page for driving the call.
+   This is a perfect model for what we're trying to do. Typically, customers will try to do something online for a while before they give up and call into the call center. This means that they may hit a couple of pages before they call. We don't just want to give credit to the last page for driving the call. But we probably do want to give the most credit to the last page for driving the call.
 
 We configured the time decay model to look back from the call event up to 15 minutes and give the most credit to the last page that a person saw prior to a call, and then incrementally less credit to each page behind that, up to 15 minutes prior to the call.
-- Click "Apply" and look at the resulting table.
+      - Click "Apply" and look at the resulting table.
 
 <kbd><img src="./images/cja-attributioniq-calls-timedecay.png"  /></kbd>
 
 Based on this table, we can see the top pages that are driving calls into the call center. Lets go deeper.
 
 6. In the Components menu, search for the “Call reason" dimension and click on the arrow to the right to see the items within that dimension.
-- In the "Call reason Items" view, click "Show items from last X months" until values show.
-- Select the top 4 call reasons.
+      - In the "Call reason Items" view, click "Show items from last X months" until values show.
+      - Select the top 4 call reasons.
 
 <kbd><img src="./images/cja-attributioniq-callreasons.png"  /></kbd>
 
@@ -145,11 +145,11 @@ Clients typically use this data to uncover the top pages driving calls and testi
 
 **FLOW**
 
-The Flow visualization is a very powerful visualization for understanding customer journeys in a single channel, or across channels. This lends itself nicely to what we're analyzing so far.
+The Flow visualization is a very powerful for understanding customer journeys in a single channel, or across channels. This lends itself nicely to what we're analyzing so far.
 
 1. Click the "+" beneath the last panel that you created to create a new panel.
-- Title it “Flow” and ensure your date range for POT5 is March 18-30, 2020
-- Select the Flow visualization and this will bring you to the Flow visualization configuration view:
+      - Title it “Flow” and ensure your date range for POT5 is March 18-30, 2020
+      - Select the Flow visualization and this will bring you to the Flow visualization configuration view:
 
 <kbd><img src="./images/CJA-flow-dimensionconfig.png"  /></kbd>
 
@@ -161,8 +161,8 @@ The Flow visualization is a very powerful visualization for understanding custom
 Let's try this from a Web Pathing perspective to start with.
 
 2. From the Components menu, click on the arrow to the right of the “Web page name” dimension.
-- Click on “Show items from last X months” until the values show up.
-- Drag the “home” page and drop it into the center drop zone for the Flow visualization:
+      - Click on “Show items from last X months” until the values show up.
+      - Drag the “home” page and drop it into the center drop zone for the Flow visualization:
 
 <kbd><img src="./images/CJA-flow-config-addhomepage.png"  /></kbd>
 
@@ -173,13 +173,13 @@ This is what your panel should look like now:
 _(If you get 0 results make sure you're using the correct date range and that you're in the DV 001 Data View)_
 
 This view allows you to see:
-- how many people enter the site at the home page 
-- how many people exit the site at the home page 
-- the top pages that drive customers to the home page
-- the top pages that customers go to from the home page
+      - how many people enter the site at the home page 
+      - how many people exit the site at the home page 
+      - the top pages that drive customers to the home page
+      - the top pages that customers go to from the home page
 
 3. Click on the "search results" page on the branch on the right to see where customers go to from there.
-- Then right-click on the "events" node within the branch to the right to see the various options as it relates to digging deeper into this data.
+      - Then right-click on the "events" node within the branch to the right to see the various options as it relates to digging deeper into this data.
 
 <kbd><img src="./images/CJA-flow-homepage-searchresults.png"  /></kbd>
 
@@ -214,13 +214,13 @@ The result is a view into the top pages customers interact with prior to a call,
 
 <kbd><img src="./images/CJA-flow-callreason-pagename-priorpages.png"  /></kbd>
 
-Hopefully, you can see how this can be very powerful in understanding customer journeys across channels.
+This can be very powerful in understanding customer journeys across channels.
 
 -----
 
 **FALLOUT**
 
-The Fallout visualization is a very powerful visualization for understanding customer paths when there are specific points or events you want to understand. For example, measuring a process on the site.
+The Fallout visualization is great for understanding customer paths when there are specific points or events you want to account for. For example, measuring a process on the site.
 
 1. Create a new panel, title it “Fallout” and ensure your date range for POT5 is March 18-30, 2020. Select the Fallout visualization as the starting point of the panel.
 
@@ -229,23 +229,23 @@ The Fallout visualization is a very powerful visualization for understanding cus
 The Fallout visualization requires touchpoints in the process you want to measure fall-through as well as fall-out for.
 
 2. From the Components menu, click on the arrow to the right of the “Web page name" dimension, click on “Show items from the last X months” until the values show up, and search for “account".
-- Drag "create account: step 1" into the Add Touchpoint drop zone.
+      - Drag "create account: step 1" into the Add Touchpoint drop zone.
 
 <kbd><img src="./images/CJA-fallout-accountcreate-dragdrop.png"  /></kbd>
 
 We can see that 2,327 people have started the process of creating an account.
 
 4. Next,
-- Drag "create account: step 2" into the Add Touchpoint drop zone.
-- Drag "create account: step 3" into the Add Touchpoint drop zone.
-- Drag "create account: thank you" into the Add Touchpoint drop zone.
+      - Drag "create account: step 2" into the Add Touchpoint drop zone.
+      - Drag "create account: step 3" into the Add Touchpoint drop zone.
+      - Drag "create account: thank you" into the Add Touchpoint drop zone.
 
 <kbd><img src="./images/CJA-fallout-accountcreate-allsteps.png"  /></kbd>
 
-This is interesting analysis. We can see that out of 2,327 people who started the account creation process, 834 made it to the end goal
+We can see that out of 2,327 people who started the account creation process, 834 made it to the end goal
 
 5. Right-click on “step 3” in the Fallout and review all the options you have to drill deeper into analysis.
-- Of particular interest is the ability to see where people go next after Step 3, if they **fall-through** (make it to the Thank You page) or **fall-out** (don't make it to the Thank You page).
+      - Of particular interest is the ability to see where people go next after Step 3, if they **fall-through** (make it to the Thank You page) or **fall-out** (don't make it to the Thank You page).
 
 <kbd><img src="./images/CJA-fallout-analysisoptions.png"  /></kbd>
 _(no action needed on this view)_
@@ -253,7 +253,7 @@ _(no action needed on this view)_
 Let's see how many of these people call into the call center.
 
 6. Remove the last step in the fallout by clicking on the "x" to the right of the last step.
-- Now drag the "Calls" metric and drop it into the Touchpoint drop zone.
+      - Now drag the "Calls" metric and drop it into the Touchpoint drop zone.
 
 <kbd><img src="./images/CJA-fallout-callsadded1.png"  /></kbd>
 
