@@ -373,8 +373,8 @@ Lets configure this to be at the Person level.
 
 <kbd><img src="./images/CJA-venn-pencil.png"  /></kbd>
 
-4.Change the "Include Event" to "Include Person" and Click Save.
-      - Do the same for the next 2 filters and review the resulting Venn visualization
+4. Change the "Include Event" to "Include Person" and Click Save.
+      - Do the same for the next 2 filters and review the resulting Venn visualization:
 
 <kbd><img src="./images/CJA-venn-filterbuilder-includeperson.png"  /></kbd>
 
