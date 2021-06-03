@@ -109,6 +109,50 @@ We'll start with a metric we'll call "Web Sessions" that represents Sessions whe
 
 <kbd><img src="./images/CJA-metrics-builder-crosschannelsessions.png"  /></kbd>
 
+Now that we've built these metrics, we can do some more interesting analysis.
+For example, a Dashboard could be created that uses these metrics to measure the number of Web Sessions, Call Sessions, and Cross-Channel Sessions we're getting. Let's build it.
+
+5. Create a new panel below the last panel we just worked on, title it “Metrics”, ensure your date range for POT5 is March 18-30, 2020 and select Freeform table.
+      - Create a table with the “Day” dimension and the new Calculated Metrics we just created (Web Sessions, Call Sessions & Cross-Channel Sessions)
+
+<kbd><img src="./images/CJA-metrics-daytable.png"  /></kbd>
+
+6. Create another table with the “Web page name” dimension (instead of the “Day” dimension) and the same new Calculated Metrics we just created:
+
+<kbd><img src="./images/CJA-metrics-pagenametable.png"  /></kbd>
+
+This is an interesting view of the data because it allows us to understand what pages customers view in the same sessions where they also call into the call center. This is starting to give us a view into the pages that may be worthy of optimizing if we want to try to reduce calls into the call center by increasing self-service functionality on the website. We can go a level deeper here.
+
+Let say we want to be able to see what pages customers interact with in the sessions where they call into the call center, broken out by the various call reasons. We can use the “Call reason" dimension to do that.
+
+7. The top call reason for POT5 is “Order Created”, so lets add that to the panel filter drop zone to filter by those call types:
+      - In the Components menu, click on the arrow to the right of the “Call reason” dimension to see the items within that dimension.
+      - Click "Show items from last X months" until values show.
+      - Drag & drop “Order Created” into the filter drop zone
+
+<kbd><img src="./images/CJA-metrics-addordercreated.png"  /></kbd>
+
+All data is now bucketed into a “No value” page in the table using the “Web page name" dimension. 
+The reason for this: when you drop a filter into the filter drop zone, it creates an **Event-based** filter by default. Because there are no instances where someone can have a "Page View" event and "Call" event in the same Event (that would be impossible), no actual values populate within the "Web page name" table view. Since we are trying to find the Sessions where someone had a specific call type and see the pages they touched in those sessions, we need to change this filter to be **Session-based** instead of Event-based.
+
+8. Hover over the Call Reason filter in the table 
+      - Click on the "i“
+      - Then click the pencil icon to edit the Event-based virtual filter that was created by default
+
+<kbd><img src="./images/CJA-metrics-editordercreated.png"  /></kbd>
+
+This brings us into the Filter Builder with the details of the virtual filter loaded.
+
+9. Change the level of the filter to "Include" **Sessions** instead of **Events**. This will make it a session-based filter.
+      - Click Save and view the impact it has on the Panel.
+
+<kbd><img src="./images/CJA-metrics-editordercreated-session.png"  /></kbd>
+
+We can now see the pages customers see in the sessions that they call with an "Order Created" reason
+
+<kbd><img src="./images/CJA-metrics-ordercreated-sessionbased.png"  /></kbd>
+
+
 -----
 
 **ATTRIBUTION IQ**
