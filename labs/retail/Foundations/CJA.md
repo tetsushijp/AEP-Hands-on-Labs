@@ -133,7 +133,8 @@ Let say we want to be able to see what pages customers interact with in the sess
 
 <kbd><img src="./images/CJA-metrics-addordercreated.png"  /></kbd>
 
-All data is now bucketed into a “No value” page in the table using the “Web page name" dimension. 
+All data is now bucketed into a “No value” page item in the table using the “Web page name" dimension.
+
 The reason for this: when you drop a filter into the filter drop zone, it creates an **Event-based** filter by default. Because there are no instances where someone can have a "Page View" event and "Call" event in the same Event (that would be impossible), no actual values populate within the "Web page name" table view. Since we are trying to find the Sessions where someone had a specific call type and see the pages they touched in those sessions, we need to change this filter to be **Session-based** instead of Event-based.
 
 8. Hover over the Call Reason filter in the table 
