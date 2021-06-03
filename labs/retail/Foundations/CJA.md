@@ -72,20 +72,16 @@ DASHBOARD
 
 **1. Add Freeform Panel**
 Let's jump right in and start building a dashboard. 
-      •	Ensure that the "DV 001" Data View is selected in the Data View selector
-      •	Set Reporting Date Range to March 18-30, 2020 from table below and click "Apply".
+      • Ensure that the "DV 001" Data View is selected in the Data View selector
+      • Set Reporting Date Range to March 18-30, 2020 from table below and click "Apply".
 
 <kbd><img src="./images/CJA-FIGURE1.png"  /></kbd>
-
-
       •	Drag the "Day" dimension from the Components menu and drop it into the Freeform Table visualization in the Panel.
  
 <kbd><img src="./images/CJA-FIGURE2.png"  /></kbd>
-
       •	Drag the "Sessions" metric from the Components menu and "Add" it to the right of the "Events" metric by hovering to the right of the "Events" metric until the "+ Add" appears in the Freeform Table visualization in the Panel.
  
 <kbd><img src="./images/CJA-FIGURE3.png"  /></kbd>
-
       •	Do the same for the "People" metric from the Components menu 
       •	Click on "Freeform Table" in the top left corner of the table and change the name to "Base KPIs Trended".
       •	Click on "Freeform" in the top left corner of the panel and change the name to "Dashboard".
@@ -93,7 +89,6 @@ Let's jump right in and start building a dashboard.
 <kbd><img src="./images/CJA-FIGURE4.png"  /></kbd>
 
 **2. Add Line Visualization**
-
       •	Click on Visualizations in the left menu and drag the Line visualization to the Dashboard panel above the Base KPIs Trended table.
  
 <kbd><img src="./images/CJA-FIGURE5.png"  /></kbd>
@@ -106,11 +101,9 @@ The Line visualization will automatically connect to the Base KPIs Trended table
 <kbd><img src="./images/CJA-FIGURE7.png"  /></kbd>
 
 **3. Add Summary Number Visualization**
-
       •	Right-click on the number under the "Events" metric in the "Base KPIs Trended" table to bring up a menu with several options, including adding a visualization tied to that metric.
 
  <kbd><img src="./images/CJA-FIGURE8.png"  /></kbd>
-
       •	Click on the Visualize option and scroll down to and select Summary Number.
  
  <kbd><img src="./images/CJA-FIGURE9.png"  /></kbd>
@@ -122,13 +115,10 @@ The Summary Number visualization will be added to the panel. This visualization 
 
 This visualization is not "Locked" which means if any selections are made in the Base KPIs Trended table, the Summary Number visualization will change to the new selection.
 **4. Lock Selection**
-
       •	Click on the number under Sessions and watch what happens to the Summary Number visualization.
       •	Scroll up to the Base KPIs Trended Line visualization and notice it is impacted by the selection in the table.
  
  <kbd><img src="./images/CJA-FIGURE11.png"  /></kbd>
-
-
       •	Select the number under the "Events" metric again and click on the round dot in the top left corner of the Summary Number visualization to bring up the "Data Sources Settings" menu.
       •	Click on Lock Selection to lock the visualization to the "Events" metric in the table.
       •	Click on "Summary Number" in the Summary Number visualization and name it "Total Events".
@@ -152,7 +142,6 @@ We could go through the same process, but instead we'll duplicate the Total Sess
 
 
 We now have 3 instances of the "Total Events" summary number visualization.
-
       •     Drag one copy to the right of the first instance and drag the other copy next to that one.
       •	Click on the number under the "Sessions" metric in the Base KPIs Trended table.
       •	Click on the round dot in the top left corner of the Total Events (2) Summary Number visualization to bring up the Data Sources Settings menu.
@@ -196,20 +185,15 @@ The table will default to the "Events" metric, but let's say we want to see the 
       •	Drag the "Sessions" metric from the Components menu and replace the "Events" metric with it, by hovering over the "Events" metric until it says "Replace" and then dropping it.
  
  <kbd><img src="./images/CJA-FIGURE19.png"  /></kbd>
-
-
       •	Drag the "Online Purchases" metric from the Components menu and "Add" it to the right of the "Sessions" metric you just added to the table.
       •	We now have a table with the dimension and metrics we want to represent in the Donut visualization. Rename the "Freeform Table (2)" table to "Marketing Channel Performance".
 
  
  <kbd><img src="./images/CJA-FIGURE20.png"  /></kbd>
-
-
       •	Drag the Donut visualization from the Visualizations menu and drop it above the "Marketing Channel Performance" table.
 
 The Donut visualization automatically connects to the last table that was added to the project, but if we wanted it to connect to a different table we could by clicking the round dot in the top left corner of the visualization to Manage Data Sources and selecting the table that we want the visualization tied to.
 We'll keep it tied to the Marketing Channel Performance table.
-
       •	Rename the Donut visualization to "Marketing Channel Performance".
       
 The Donut visualization will automatically show the top 6 items in the table it is tied to, but this can be customized.
@@ -230,7 +214,6 @@ In the Marketing Channel Performance table, select the following channels:
             6.	web natural search
 
  <kbd><img src="./images/CJA-FIGURE22.png"  /></kbd>
-
       •	Click on the round dot in the top left corner of the Donut visualization to bring up the Data Source Settings menu and click the "Lock Selection" checkbox.
 
 Under the "Lock Selection" checkbox is a drop-down list that defaults to "Selected Positions". This means that the Donut visualization is tied to the elements in the selected positions in the table. That's not what we want because these channels of interest may move around in the table over time based on performance.
