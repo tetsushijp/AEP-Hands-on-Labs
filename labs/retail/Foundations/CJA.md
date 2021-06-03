@@ -69,6 +69,48 @@ If you're familiar with Adobe Analytics Workspace Analysis, you'll notice severa
 
 -----
 
+**METRICS**
+
+There are obviously metrics that come out of the box, but there will be a need to create new custom metrics that measure more specific types of things. That's where **Calculated Metrics** come into play. Calculated Metrics allow you to build off of the base metrics and create much more specific metrics.
+
+Let's build some Calculated Metrics using the filters we just created.
+We'll start with a metric we'll call "Web Sessions" that represents Sessions where Web pages were touched.
+
+1. Click on the "+" to the right of Metrics in the Components menu to bring up the Calculated Metric Builder.
+      - Name the Calculated Metric "Web Sessions".
+      - Drag the Web Sessions filter into the Definition drop zone.
+      - Drag the "Sessions" metric into the drop zone. This is what we are counting within the Calculated Metric we are creating.
+      - Click Save.
+      This formula will calculate the Sessions where a customer touched at least one page.
+
+<kbd><img src="./images/CJA-metrics-builder-websessions.png"  /></kbd>
+
+2. We'll do the same thing to create a “Call Sessions" metric:
+      - Click on the "i" to the right of the “Web Sessions” metric that we just created
+      - Click the pencil to edit that metric in the Calculated Metric builder.
+
+<kbd><img src="./images/CJA-metrics-editcalcmetric.png"  /></kbd>
+
+3. Once you’re in the Calculated Metric builder settings:
+      - Change the name of the Calculated Metric to "Call Sessions"
+      - Click the "x" to the right of the “Web Sessions” Filter in the formula to remove that Filter.
+      - Drop the “Call Sessions” Filter where the “Web Sessions” filter was to filter Sessions by Sessions where a Call exists.
+      - Click **Save As** to save the “Call Sessions" metric (and to not override the Web Sessions Calculated Metric we just created)
+
+<kbd><img src="./images/CJA-metrics-builder-callsessions.png"  /></kbd>
+
+4. We'll do the same thing to create a “Cross-Channel Sessions" metric:
+      - Click on the "i" to the right of the “Call Sessions” metric that we just created
+      - Click the pencil to edit that metric in the Calculated Metric builder.
+      - Change the name of the Calculated Metric from "Call Sessions“ to “Cross-Channel Sessions”
+      - Click the "x" to the right of the “Call Sessions” Filter in the formula to remove that Filter.
+      - Drop the “Cross-Channel Sessions” Filter where the “Call Sessions” filter was to filter Sessions by Sessions where a Cross-Channel session exists.
+      - Click **Save As** to save the “Cross-Channel Sessions" metric (and to not override the Call Sessions Calculated Metric we just created)
+
+<kbd><img src="./images/CJA-metrics-builder-crosschannelsessions.png"  /></kbd>
+
+-----
+
 **ATTRIBUTION IQ**
 
 Attribution IQ can be used to dig a bit deeper into this analysis use case. Attribution IQ allows users to measure the influence that any data point has on driving an event of interest.
