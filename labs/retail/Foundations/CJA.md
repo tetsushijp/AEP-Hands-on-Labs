@@ -264,3 +264,13 @@ Let's see how many of these people call into the call center.
 <kbd><img src="./images/CJA-fallout-callsadded2.png"  /></kbd>
 
   We can see that 228 people make it to step 2 and then call.
+  
+  -----
+
+**COHORT**
+
+The Cohort Table allows us to measure downstream behavior after an event of interest.
+In this case, we want to understand customer call behaviors. Specifically, we want to understand the repeat call behaviors of those customers.
+
+1. Create a new panel below the last panel we just worked on, title it “Cohort”, ensure your date range for POT5 is March 18-30, 2020 and select the Cohort Table visualization.
+
