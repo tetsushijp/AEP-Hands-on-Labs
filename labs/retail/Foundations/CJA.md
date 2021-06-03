@@ -303,6 +303,7 @@ There aren't a lot of people with repeat calls, but there are some.
 
 To dig deeper, you could also add Call Reason filters to the Inclusion and Return Criteria to see if they are calling for the same or different reasons. Go on and try it!
 
+-----
 
 **SEQUENTIAL FILTERING**
 
@@ -339,7 +340,7 @@ This filter will find people who hit the first step of the Account Creation proc
 <kbd><img src="./images/CJA-sequentialfilter-callsvsstep1calls.png"  /></kbd>
 
 Now we can see the volume of Calls vs. the volume Calls that also made it to step 1 of the Account Creation process. This is a great way to understand what People who made it to step 1 are calling about.
-      - Most of them call about a Payment Issue or Account Password Help
+      - We can see from our filter that most of them call about a Payment Issue or Account Password Help
 
 
 
