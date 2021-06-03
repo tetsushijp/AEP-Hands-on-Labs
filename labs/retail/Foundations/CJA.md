@@ -77,34 +77,34 @@ Let's build some Calculated Metrics using the filters we just created.
 We'll start with a metric we'll call "Web Sessions" that represents Sessions where Web pages were touched.
 
 1. Click on the "+" to the right of Metrics in the Components menu to bring up the Calculated Metric Builder.
-      - Name the Calculated Metric "Web Sessions".
-      - Drag the Web Sessions filter into the Definition drop zone.
-      - Drag the "Sessions" metric into the drop zone. This is what we are counting within the Calculated Metric we are creating.
-      - Click Save.
+      - Name the Calculated Metric "Web Sessions"
+      - Drag the Web Sessions filter into the Definition drop zone
+      - Drag the "Sessions" metric into the drop zone. This is what we are counting within the Calculated Metric we are creating
+      - Click Save
       This formula will calculate the Sessions where a customer touched at least one page.
 
 <kbd><img src="./images/CJA-metrics-builder-websessions.png"  /></kbd>
 
 2. We'll do the same thing to create a “Call Sessions" metric:
       - Click on the "i" to the right of the “Web Sessions” metric that we just created
-      - Click the pencil to edit that metric in the Calculated Metric builder.
+      - Click the pencil to edit that metric in the Calculated Metric builder
 
 <kbd><img src="./images/CJA-metrics-editcalcmetric.png"  /></kbd>
 
 3. Once you’re in the Calculated Metric builder settings:
       - Change the name of the Calculated Metric to "Call Sessions"
-      - Click the "x" to the right of the “Web Sessions” Filter in the formula to remove that Filter.
-      - Drop the “Call Sessions” Filter where the “Web Sessions” filter was to filter Sessions by Sessions where a Call exists.
+      - Click the "x" to the right of the “Web Sessions” filter in the formula to remove that filter
+      - Drop the “Call Sessions” filter where the “Web Sessions” filter was to filter Sessions by Sessions where a Call exists.
       - Click **Save As** to save the “Call Sessions" metric (and to not override the Web Sessions Calculated Metric we just created)
 
 <kbd><img src="./images/CJA-metrics-builder-callsessions.png"  /></kbd>
 
 4. We'll do the same thing to create a “Cross-Channel Sessions" metric:
       - Click on the "i" to the right of the “Call Sessions” metric that we just created
-      - Click the pencil to edit that metric in the Calculated Metric builder.
+      - Click the pencil to edit that metric in the Calculated Metric builder
       - Change the name of the Calculated Metric from "Call Sessions“ to “Cross-Channel Sessions”
-      - Click the "x" to the right of the “Call Sessions” Filter in the formula to remove that Filter.
-      - Drop the “Cross-Channel Sessions” Filter where the “Call Sessions” filter was to filter Sessions by Sessions where a Cross-Channel session exists.
+      - Click the "x" to the right of the “Call Sessions” filter in the formula to remove that filter
+      - Drop the “Cross-Channel Sessions” filter where the “Call Sessions” filter was to filter Sessions by Sessions where a Cross-Channel session exists
       - Click **Save As** to save the “Cross-Channel Sessions" metric (and to not override the Call Sessions Calculated Metric we just created)
 
 <kbd><img src="./images/CJA-metrics-builder-crosschannelsessions.png"  /></kbd>
@@ -113,7 +113,7 @@ Now that we've built these metrics, we can do some more interesting analysis.
 For example, a Dashboard could be created that uses these metrics to measure the number of Web Sessions, Call Sessions, and Cross-Channel Sessions we're getting. Let's build it.
 
 5. Create a new panel below the last panel we just worked on, title it “Metrics”, ensure your date range for POT5 is March 18-30, 2020 and select Freeform table.
-      - Create a table with the “Day” dimension and the new Calculated Metrics we just created (Web Sessions, Call Sessions & Cross-Channel Sessions)
+      - Create a table with the “Day” dimension and the new Calculated Metrics we just created (Web Sessions, Call Sessions & Cross-Channel Sessions):
 
 <kbd><img src="./images/CJA-metrics-daytable.png"  /></kbd>
 
@@ -123,11 +123,11 @@ For example, a Dashboard could be created that uses these metrics to measure the
 
 This is an interesting view of the data because it allows us to understand what pages customers view in the same sessions where they also call into the call center. This is starting to give us a view into the pages that may be worthy of optimizing if we want to try to reduce calls into the call center by increasing self-service functionality on the website. We can go a level deeper here.
 
-Let say we want to be able to see what pages customers interact with in the sessions where they call into the call center, broken out by the various call reasons. We can use the “Call reason" dimension to do that.
+Let say we want to be able to see what pages customers interact with in the sessions where they call into the call center, broken out by the various call reasons. We can use the “Call reason" dimension to do this.
 
 7. The top call reason for POT5 is “Order Created”, so lets add that to the panel filter drop zone to filter by those call types:
-      - In the Components menu, click on the arrow to the right of the “Call reason” dimension to see the items within that dimension.
-      - Click "Show items from last X months" until values show.
+      - In the Components menu, click on the arrow to the right of the “Call reason” dimension to see the items within that dimension
+      - Click "Show items from last X months" until values show
       - Drag & drop “Order Created” into the filter drop zone
 
 <kbd><img src="./images/CJA-metrics-addordercreated.png"  /></kbd>
@@ -136,7 +136,7 @@ All data is now bucketed into a “No value” page in the table using the “We
 The reason for this: when you drop a filter into the filter drop zone, it creates an **Event-based** filter by default. Because there are no instances where someone can have a "Page View" event and "Call" event in the same Event (that would be impossible), no actual values populate within the "Web page name" table view. Since we are trying to find the Sessions where someone had a specific call type and see the pages they touched in those sessions, we need to change this filter to be **Session-based** instead of Event-based.
 
 8. Hover over the Call Reason filter in the table 
-      - Click on the "i“
+      - Click on the "i"
       - Then click the pencil icon to edit the Event-based virtual filter that was created by default
 
 <kbd><img src="./images/CJA-metrics-editordercreated.png"  /></kbd>
@@ -144,7 +144,7 @@ The reason for this: when you drop a filter into the filter drop zone, it create
 This brings us into the Filter Builder with the details of the virtual filter loaded.
 
 9. Change the level of the filter to "Include" **Sessions** instead of **Events**. This will make it a session-based filter.
-      - Click Save and view the impact it has on the Panel.
+      - Click Save and view the impact it has on the Panel
 
 <kbd><img src="./images/CJA-metrics-editordercreated-session.png"  /></kbd>
 
@@ -169,7 +169,7 @@ This table shows the performance of these Marketing Channels on driving Online P
 
 2. Hover over the “Online Purchases" metric in the table and click on the gear icon when it appears. This will open column settings.
       - In column settings, click on the "Use non-default attribution model" checkbox down in the Data settings section to enable Attribution IQ on this metric. This will open the Attribution IQ configuration window.
-      - From here we can select the Attribution Model and Lookback Window.
+      - From here we can select the Attribution Model and Lookback Window
       - Click on the Model drop-down list to access all the attribution models available and select “Linear”
       - Click on the Lookback window drop-down and select “Person (Reporting Window)” and click Apply
 
@@ -198,22 +198,22 @@ As expected, the “Calls” metric reports all 0's because there are no Call ev
 Let's use Attribution IQ to configure how attribution works for this metric.
 
 5. Click on the gear to the right of the Calls metric in the table and click the checkbox to "use non-default attribution model".
-      - In attribution model settings, select the Time Decay model and configure a 15-Minute Half-life. Set the Lookback window to “Person (Reporting Window)”.
+      - In attribution model settings, select the Time Decay model and configure a 15-Minute Half-life. Set the Lookback window to “Person (Reporting Window)”
 
 <kbd><img src="./images/cja-attributioniq-modelsettings-timedecay.png"  /></kbd>
 
    This is a perfect model for what we're trying to do. Typically, customers will try to do something online for a while before they give up and call into the call center. This means that they may hit a couple of pages before they call. We don't just want to give credit to the last page for driving the call. But we probably do want to give the most credit to the last page for driving the call.
 
 We configured the time decay model to look back from the call event up to 15 minutes and give the most credit to the last page that a person saw prior to a call, and then incrementally less credit to each page behind that, up to 15 minutes prior to the call.
-      - Click "Apply" and look at the resulting table.
+      - Click "Apply" and look at the resulting table
 
 <kbd><img src="./images/cja-attributioniq-calls-timedecay.png"  /></kbd>
 
 Based on this table, we can see the top pages that are driving calls into the call center. Lets go deeper.
 
 6. In the Components menu, search for the “Call reason" dimension and click on the arrow to the right to see the items within that dimension.
-      - In the "Call reason Items" view, click "Show items from last X months" until values show.
-      - Select the top 4 call reasons.
+      - In the "Call reason Items" view, click "Show items from last X months" until values show
+      - Select the top 4 call reasons
 
 <kbd><img src="./images/cja-attributioniq-callreasons.png"  /></kbd>
 
@@ -240,14 +240,14 @@ The Flow visualization is a very powerful for understanding customer journeys in
 <kbd><img src="./images/CJA-flow-dimensionconfig.png"  /></kbd>
 
 **Notes on Dimension configuration:** 
-- Dropping a dimension as the Entry point will show the top first values seen in that dimension either at a Session or Person level.
-- Dropping a dimension as the Exit point will show the top last values seen for a dimension at a Session or Person level.
+- Dropping a dimension as the Entry point will show the top first values seen in that dimension either at a Session or Person level
+- Dropping a dimension as the Exit point will show the top last values seen for a dimension at a Session or Person level
 - Dropping a dimension or a dimensional element in the middle will show you how often that element is the entry or exit, as well as the top elements a person saw prior or after from a pathing perspective. This can also be configured at the Session or Person level.
 
 Let's try this from a Web Pathing perspective to start with.
 
 2. From the Components menu, click on the arrow to the right of the “Web page name” dimension.
-      - Click on “Show items from last X months” until the values show up.
+      - Click on “Show items from last X months” until the values show up
       - Drag the “home” page and drop it into the center drop zone for the Flow visualization:
 
 <kbd><img src="./images/CJA-flow-config-addhomepage.png"  /></kbd>
@@ -265,7 +265,7 @@ This view allows you to see:
       - the top pages that customers go to from the home page
 
 3. Click on the "search results" page on the branch on the right to see where customers go to from there.
-      - Then right-click on the "events" node within the branch to the right to see the various options as it relates to digging deeper into this data.
+      - Then right-click on the "events" node within the branch to the right to see the various options as it relates to digging deeper into this data
 
 <kbd><img src="./images/CJA-flow-homepage-searchresults.png"  /></kbd>
 
@@ -315,23 +315,23 @@ The Fallout visualization is great for understanding customer paths when there a
 The Fallout visualization requires touchpoints in the process you want to measure fall-through as well as fall-out for.
 
 2. From the Components menu, click on the arrow to the right of the “Web page name" dimension, click on “Show items from the last X months” until the values show up, and search for “account".
-      - Drag "create account: step 1" into the Add Touchpoint drop zone.
+      - Drag "create account: step 1" into the Add Touchpoint drop zone
 
 <kbd><img src="./images/CJA-fallout-accountcreate-dragdrop.png"  /></kbd>
 
 We can see that 2,327 people have started the process of creating an account.
 
 4. Next,
-      - Drag "create account: step 2" into the Add Touchpoint drop zone.
-      - Drag "create account: step 3" into the Add Touchpoint drop zone.
-      - Drag "create account: thank you" into the Add Touchpoint drop zone.
+      - Drag "create account: step 2" into the Add Touchpoint drop zone
+      - Drag "create account: step 3" into the Add Touchpoint drop zone
+      - Drag "create account: thank you" into the Add Touchpoint drop zone
 
 <kbd><img src="./images/CJA-fallout-accountcreate-allsteps.png"  /></kbd>
 
 We can see that out of 2,327 people who started the account creation process, 834 made it to the end goal
 
 5. Right-click on “step 3” in the Fallout and review all the options you have to drill deeper into analysis.
-      - Of particular interest is the ability to see where people go next after Step 3, if they **fall-through** (make it to the Thank You page) or **fall-out** (don't make it to the Thank You page).
+      - Of particular interest is the ability to see where people go next after Step 3, if they **fall-through** (make it to the Thank You page) or **fall-out** (don't make it to the Thank You page)
 
 <kbd><img src="./images/CJA-fallout-analysisoptions.png"  /></kbd>
 _(no action needed on this view)_
@@ -339,7 +339,7 @@ _(no action needed on this view)_
 Let's see how many of these people call into the call center.
 
 6. Remove the last step in the fallout by clicking on the "x" to the right of the last step.
-      - Now drag the "Calls" metric and drop it into the Touchpoint drop zone.
+      - Now drag the "Calls" metric and drop it into the Touchpoint drop zone
 
 <kbd><img src="./images/CJA-fallout-callsadded1.png"  /></kbd>
 
@@ -375,8 +375,8 @@ The Cohort table configuration should look like this:
 Let's say we want to measure people that call and then understand if they call again in the future. In that case, the Inclusion Criteria as well as the Return Criteria will be the Calls metric.
 
 2. Drag the "Calls" metrics to the "Inclusion Criteria Metrics" and "Return Criteria Metrics" drop zones.
-      - Set the granularity to "Day" since we want to see the data over days.
-      - Click "Build".
+      - Set the granularity to "Day" since we want to see the data over days
+      - Click "Build"
 
 <kbd><img src="./images/CJA-cohort-config-calls.png"  /></kbd>
 
@@ -403,14 +403,14 @@ Let's say that we want to dig deeper into the Account Creation Process we were m
 We want to create a Filter that allows us to measure the People that hit Step 1 of the Account Creation process and then call within 1 day.
 
 2. Lets configure the filter:
-      - Drag the “Web page name" dimension from the Components menu into the drop zone
-      - Type in  "create account: step 1“ into the select value field
-      - Drag the "Calls" metric and drop it under the criteria for the "webPagename".
-      - Change the "equals 1" for Calls to "exists".
-      - Click on the "And" between the two and change it to "Then".
-      - Click on the clock image to the right of "Then" and select "within".
-      - Change the "Week(s)" to Day(s).
-      - Change the Include from "Event" to Person".
+      - Drag the "Web page name" dimension from the Components menu into the drop zone
+      - Type in "create account: step 1" into the select value field
+      - Drag the "Calls" metric and drop it under the criteria for the "webPagename"
+      - Change the "equals 1" for Calls to "exists"
+      - Click on the "And" between the two and change it to "Then"
+      - Click on the clock image to the right of "Then" and select "within"
+      - Change the "Week(s)" to Day(s)
+      - Change the Include from "Event" to Person"
       - Give the Filter a name of "Account Creation Start - Call within 1 Day“
       - Click “Save”
 
