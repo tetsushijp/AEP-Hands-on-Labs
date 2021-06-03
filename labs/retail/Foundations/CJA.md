@@ -69,46 +69,49 @@ If you're familiar with Adobe Analytics Workspace Analysis, you'll notice severa
 
 -----
 DASHBOARD
+
 **1. Add Freeform Panel**
 Let's jump right in and start building a dashboard. 
-•	Ensure that the "DV 001" Data View is selected in the Data View selector
-•	Set Reporting Date Range to March 18-30, 2020 from table below and click "Apply".
+      •	Ensure that the "DV 001" Data View is selected in the Data View selector
+      •	Set Reporting Date Range to March 18-30, 2020 from table below and click "Apply".
 
 <kbd><img src="./images/CJA-FIGURE1.png"  /></kbd>
 
 
-•	Drag the "Day" dimension from the Components menu and drop it into the Freeform Table visualization in the Panel.
+      •	Drag the "Day" dimension from the Components menu and drop it into the Freeform Table visualization in the Panel.
  
 <kbd><img src="./images/CJA-FIGURE2.png"  /></kbd>
 
-•	Drag the "Sessions" metric from the Components menu and "Add" it to the right of the "Events" metric by hovering to the right of the "Events" metric until the "+ Add" appears in the Freeform Table visualization in the Panel.
+      •	Drag the "Sessions" metric from the Components menu and "Add" it to the right of the "Events" metric by hovering to the right of the "Events" metric until the "+ Add" appears in the Freeform Table visualization in the Panel.
  
 <kbd><img src="./images/CJA-FIGURE3.png"  /></kbd>
 
-•	Do the same for the "People" metric from the Components menu 
-•	Click on "Freeform Table" in the top left corner of the table and change the name to "Base KPIs Trended".
-•	Click on "Freeform" in the top left corner of the panel and change the name to "Dashboard".
+      •	Do the same for the "People" metric from the Components menu 
+      •	Click on "Freeform Table" in the top left corner of the table and change the name to "Base KPIs Trended".
+      •	Click on "Freeform" in the top left corner of the panel and change the name to "Dashboard".
  
 <kbd><img src="./images/CJA-FIGURE4.png"  /></kbd>
 
-2. Add Line Visualization
-•	Click on Visualizations in the left menu and drag the Line visualization to the Dashboard panel above the Base KPIs Trended table.
+**2. Add Line Visualization**
+
+      •	Click on Visualizations in the left menu and drag the Line visualization to the Dashboard panel above the Base KPIs Trended table.
  
 <kbd><img src="./images/CJA-FIGURE5.png"  /></kbd>
  
 <kbd><img src="./images/CJA-FIGURE6.png"  /></kbd>
 
 The Line visualization will automatically connect to the Base KPIs Trended table and will visualize the dimensions and metrics in that table. The dimension is the x-axis and the metrics are trended. You can click individual metrics to disable them in the visualization.
-•	Click on "Line" in the top left corner of the Line visualization and change the name to "Base KPIs Trended".
+      •	Click on "Line" in the top left corner of the Line visualization and change the name to "Base KPIs Trended".
  
 <kbd><img src="./images/CJA-FIGURE7.png"  /></kbd>
 
 **3. Add Summary Number Visualization**
-•	Right-click on the number under the "Events" metric in the "Base KPIs Trended" table to bring up a menu with several options, including adding a visualization tied to that metric.
+
+      •	Right-click on the number under the "Events" metric in the "Base KPIs Trended" table to bring up a menu with several options, including adding a visualization tied to that metric.
 
  <kbd><img src="./images/CJA-FIGURE8.png"  /></kbd>
 
-•	Click on the Visualize option and scroll down to and select Summary Number.
+      •	Click on the Visualize option and scroll down to and select Summary Number.
  
  <kbd><img src="./images/CJA-FIGURE9.png"  /></kbd>
 
@@ -119,16 +122,17 @@ The Summary Number visualization will be added to the panel. This visualization 
 
 This visualization is not "Locked" which means if any selections are made in the Base KPIs Trended table, the Summary Number visualization will change to the new selection.
 **4. Lock Selection**
-•	Click on the number under Sessions and watch what happens to the Summary Number visualization.
-•	Scroll up to the Base KPIs Trended Line visualization and notice it is impacted by the selection in the table.
+
+      •	Click on the number under Sessions and watch what happens to the Summary Number visualization.
+      •	Scroll up to the Base KPIs Trended Line visualization and notice it is impacted by the selection in the table.
  
  <kbd><img src="./images/CJA-FIGURE11.png"  /></kbd>
 
 
-•	Select the number under the "Events" metric again and click on the round dot in the top left corner of the Summary Number visualization to bring up the "Data Sources Settings" menu.
-•	Click on Lock Selection to lock the visualization to the "Events" metric in the table.
-•	Click on "Summary Number" in the Summary Number visualization and name it "Total Events".
-•	Drag the right bottom corner of the Total Events visualization to make it smaller. Make it about 1/3 of the width of the screen.
+      •	Select the number under the "Events" metric again and click on the round dot in the top left corner of the Summary Number visualization to bring up the "Data Sources Settings" menu.
+      •	Click on Lock Selection to lock the visualization to the "Events" metric in the table.
+      •	Click on "Summary Number" in the Summary Number visualization and name it "Total Events".
+      •	Drag the right bottom corner of the Total Events visualization to make it smaller. Make it about 1/3 of the width of the screen.
  
  <kbd><img src="./images/CJA-FIGURE12.png"  /></kbd>
 
@@ -137,72 +141,77 @@ This visualization is not "Locked" which means if any selections are made in the
 
 
 **5. Duplicate Summary Visualizations**
+
 Now let's create a Summary Number visualization for the "Sessions" and "People" metrics.
 We could go through the same process, but instead we'll duplicate the Total Sessions summary number visualization, rename it and lock it to the desired metric. 
-•	Hover your mouse over the top center of the "Total Session" summary number visualization and right-click when you see the mouse change to the crosshairs icon, to bring up the menu.
-•	Click on Duplicate Visualization to make a duplicate copy of the "Summary Number" visualization that we just created.
-•	Duplicate it again.
+      •	Hover your mouse over the top center of the "Total Session" summary number visualization and right-click when you see the mouse change to the crosshairs icon, to bring up the menu.
+      •	Click on Duplicate Visualization to make a duplicate copy of the "Summary Number" visualization that we just created.
+      •	Duplicate it again.
  
  <kbd><img src="./images/CJA-FIGURE14.png"  /></kbd>
 
 
 We now have 3 instances of the "Total Events" summary number visualization.
-•     Drag one copy to the right of the first instance and drag the other copy next to that one.
-•	Click on the number under the "Sessions" metric in the Base KPIs Trended table.
-•	Click on the round dot in the top left corner of the Total Events (2) Summary Number visualization to bring up the Data Sources Settings menu.
-•	Deselect the "Lock Selection" to unlock it from the "Events" metric.
+
+      •     Drag one copy to the right of the first instance and drag the other copy next to that one.
+      •	Click on the number under the "Sessions" metric in the Base KPIs Trended table.
+      •	Click on the round dot in the top left corner of the Total Events (2) Summary Number visualization to bring up the Data Sources Settings menu.
+      •	Deselect the "Lock Selection" to unlock it from the "Events" metric.
 
 Because the "Sessions" metric is selected in the "Base KPIs Trended" table, and the duplicated Summary Number has been unlocked, the Summary Number visualization will now be tied to the "Sessions" metric.
-•	Click on the "Lock Selection" checkbox again to now lock it to the "Sessions" metric.
-•	Click on "Total Events (2)" in the duplicated Summary Number visualization and name it "Total Sessions" to match the metric it represents.
-•	Click on the number under the "Sessions" metric in the Base KPIs Trended table.
-•	Then click on the round dot in the top left corner of the Total Events (2) Summary Number visualization to bring up the Data Sources Settings menu.
-•	Deselect the "Lock Selection" to unlock it from the "Events" metric.
+      •	Click on the "Lock Selection" checkbox again to now lock it to the "Sessions" metric.
+      •	Click on "Total Events (2)" in the duplicated Summary Number visualization and name it "Total Sessions" to match the metric it represents.
+      •	Click on the number under the "Sessions" metric in the Base KPIs Trended table.
+      •	Then click on the round dot in the top left corner of the Total Events (2) Summary Number visualization to bring up the Data Sources Settings menu.
+      •	Deselect the "Lock Selection" to unlock it from the "Events" metric.
 
 Because the People metric is selected in the Base KPIs Trended table, and the duplicated Summary Number has been unlocked, the Summary Number visualization will now be tied to the People metric.
-•	Click on the "Lock Selection" checkbox again to now lock it to the People metric.
-•	Click on "Total Events (3)" in the duplicated Summary Number visualization and name it "Total People" to match the metric it represents.
+      •	Click on the "Lock Selection" checkbox again to now lock it to the People metric.
+      •	Click on "Total Events (3)" in the duplicated Summary Number visualization and name it "Total People" to match the metric it represents.
  
  <kbd><img src="./images/CJA-FIGURE15.png"  /></kbd>
 
-6. Save Project
-•	Now would be a good time to save this Project so we don't lose any of our work.
-•	Click on Project and then Save to open the Save Project window.
-•	Name the project "Hands-on Lab Working Project" and click Save Project.
+**6. Save Project**
+      •	Now would be a good time to save this Project so we don't lose any of our work.
+      •	Click on Project and then Save to open the Save Project window.
+      •	Name the project "Hands-on Lab Working Project" and click Save Project.
  
  <kbd><img src="./images/CJA-FIGURE16.png"  /></kbd>
 
-7. Donut Visualization
+**7. Donut Visualization**
+
 Now let's add a Donut visualization to this panel that is built off another dimension of data (other than Day). The Donut visualization, like the Line visualization is tied to a table, so we need to add a table with the dimension and metrics that we want to visualize in the Donut visualization.
-•	Click on Visualizations in the left menu and drag a Freeform Table and drop it in the project above the "Base KPIs Trended" table.
+      •	Click on Visualizations in the left menu and drag a Freeform Table and drop it in the project above the "Base KPIs Trended" table.
  
  <kbd><img src="./images/CJA-FIGURE17.png"  /></kbd>
 
 
 The dimension that we want to work with in this case is the Web Marketing Channel that we looked at when we built the Data View, and configured to have a default attribution model of Last Touch at a Person level.
-•	Drag the "Web Marketing Channel" from the Components menu into the Freeform Table you added to the panel. If you can't find it in the Components menu, you can search for it at the top.
+      •	Drag the "Web Marketing Channel" from the Components menu into the Freeform Table you added to the panel. If you can't find it in the Components menu, you can search for it at the top.
  
  <kbd><img src="./images/CJA-FIGURE18.png"  /></kbd>
 
 
 The table will default to the "Events" metric, but let's say we want to see the Sessions driven by each Web Marketing Channel as well as the conversions that each of these Marketing Channels are driving from a Last Touch perspective.
-•	Drag the "Sessions" metric from the Components menu and replace the "Events" metric with it, by hovering over the "Events" metric until it says "Replace" and then dropping it.
+      •	Drag the "Sessions" metric from the Components menu and replace the "Events" metric with it, by hovering over the "Events" metric until it says "Replace" and then dropping it.
  
  <kbd><img src="./images/CJA-FIGURE19.png"  /></kbd>
 
 
-•	Drag the "Online Purchases" metric from the Components menu and "Add" it to the right of the "Sessions" metric you just added to the table.
-•	We now have a table with the dimension and metrics we want to represent in the Donut visualization. Rename the "Freeform Table (2)" table to "Marketing Channel Performance".
+      •	Drag the "Online Purchases" metric from the Components menu and "Add" it to the right of the "Sessions" metric you just added to the table.
+      •	We now have a table with the dimension and metrics we want to represent in the Donut visualization. Rename the "Freeform Table (2)" table to "Marketing Channel Performance".
 
  
  <kbd><img src="./images/CJA-FIGURE20.png"  /></kbd>
 
 
-•	Drag the Donut visualization from the Visualizations menu and drop it above the "Marketing Channel Performance" table.
+      •	Drag the Donut visualization from the Visualizations menu and drop it above the "Marketing Channel Performance" table.
 
 The Donut visualization automatically connects to the last table that was added to the project, but if we wanted it to connect to a different table we could by clicking the round dot in the top left corner of the visualization to Manage Data Sources and selecting the table that we want the visualization tied to.
 We'll keep it tied to the Marketing Channel Performance table.
-•	Rename the Donut visualization to "Marketing Channel Performance".
+
+      •	Rename the Donut visualization to "Marketing Channel Performance".
+      
 The Donut visualization will automatically show the top 6 items in the table it is tied to, but this can be customized.
  
  <kbd><img src="./images/CJA-FIGURE21.png"  /></kbd>
@@ -212,7 +221,7 @@ If we wanted to show specific channels instead of the top 6. We can select those
 
 
 **8. Lock Selected Items in Donut Visualization**
-•	In the Marketing Channel Performance table, select the following channels:
+In the Marketing Channel Performance table, select the following channels:
             1.	partner offer
             2.	email
             3.	social
@@ -222,10 +231,10 @@ If we wanted to show specific channels instead of the top 6. We can select those
 
  <kbd><img src="./images/CJA-FIGURE22.png"  /></kbd>
 
-•	Click on the round dot in the top left corner of the Donut visualization to bring up the Data Source Settings menu and click the "Lock Selection" checkbox.
+      •	Click on the round dot in the top left corner of the Donut visualization to bring up the Data Source Settings menu and click the "Lock Selection" checkbox.
 
 Under the "Lock Selection" checkbox is a drop-down list that defaults to "Selected Positions". This means that the Donut visualization is tied to the elements in the selected positions in the table. That's not what we want because these channels of interest may move around in the table over time based on performance.
-•	Click on the drop-down and select "Selected Items" instead of "Selected Positions". This will tie the Donut visualization to the specific channels of interest.
+      •	Click on the drop-down and select "Selected Items" instead of "Selected Positions". This will tie the Donut visualization to the specific channels of interest.
  
  <kbd><img src="./images/CJA-FIGURE23.png"  /></kbd>
 
@@ -234,13 +243,13 @@ The number of items the Donut visualization will show can be configured by click
 
 **9. Dashboard Cleanup**
 Let's say these visualizations represent all the data points you hope to have in your dashboard. We can now clean up the dashboard to look as we desire.
-•	Drag the Base KPIs Trended Line Graph below the Summary Number visualizations.
-•	Drag the right side of the Line Graph and change the size of the visualization to cover just the left half of the project.
-•	Scroll down and drag the left side of the Donut visualization so it pops up to the right side of the Line Graph.
+      •	Drag the Base KPIs Trended Line Graph below the Summary Number visualizations.
+      •	Drag the right side of the Line Graph and change the size of the visualization to cover just the left half of the project.
+      •	Scroll down and drag the left side of the Donut visualization so it pops up to the right side of the Line Graph.
 The tables the visualizations are built from can now be minimized or even hidden since we're only interested in the visualizations.
-•	Click on the small downward facing arrow in the top right corner of the "Marketing Channel Performance" and "Base KPIs Trended" tables to minimize them.
+      •	Click on the small downward facing arrow in the top right corner of the "Marketing Channel Performance" and "Base KPIs Trended" tables to minimize them.
 The tables have now been minimized.
-•	To fully hide the tables, click on the Data Sources Settings round dot for any visualization that uses that table and deselect the checkbox for "Show Data Source".
+      •	To fully hide the tables, click on the Data Sources Settings round dot for any visualization that uses that table and deselect the checkbox for "Show Data Source".
  
 The tables are now fully hidden.
 
