@@ -81,7 +81,8 @@ We'll start with a metric we'll call "Web Sessions" that represents Sessions whe
       - Drag the Web Sessions filter into the Definition drop zone
       - Drag the "Sessions" metric into the drop zone. This is what we are counting within the Calculated Metric we are creating
       - Click Save
-      This formula will calculate the Sessions where a customer touched at least one page.
+
+This formula will calculate the Sessions where a customer touched at least one page.
 
 <kbd><img src="./images/CJA-metrics-builder-websessions.png"  /></kbd>
 
