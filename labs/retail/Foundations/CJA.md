@@ -124,7 +124,9 @@ If you're familiar with Adobe Analytics Workspace Analysis, you'll notice severa
 
 1.	Click on the number under Sessions and watch what happens to the Summary Number visualization.
 2.	Scroll up to the Base KPIs Trended Line visualization and notice it is impacted by the selection in the table.
+
 <kbd><img src="./images/CJA-FIGURE11.png"  /></kbd>
+
 3.	Select the number under the "Events" metric again and click on the round dot in the top left corner of the Summary Number visualization to bring up the "Data Sources Settings" menu.
 4.	Click on Lock Selection to lock the visualization to the "Events" metric in the table.
 5.	Click on "Summary Number" in the Summary Number visualization and name it "Total Events".
