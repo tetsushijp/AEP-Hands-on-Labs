@@ -18,7 +18,6 @@ Please download your own attendee [lab content/uploads here](https://github.com/
  - [Segments](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/Foundations/Segments.md)
   - [Query Service](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/Foundations/DeepDive%20QueryService.md)
  - [APIs](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/Foundations/APIs.md)
- - [CJA](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/Foundations/CJA.md)
 
 ### Adobe Experience Platform - RTCDP
 - [Activation Workflow](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/Foundations/destinations.md)
@@ -33,6 +32,10 @@ Please download your own attendee [lab content/uploads here](https://github.com/
  - [Data Sources](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/Journey%20Orchestration/Exercise2-DataSources.md)
  - [Actions](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/Journey%20Orchestration/Exercise3-Action.md)
  - [Journeys](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/Journey%20Orchestration/Exercise4-Journey.md)
+
+### Adobe Experience Platform - Customer Journey Analytics 
+
+ - [CJA](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/Foundations/CJA.md)
 
 ## QuickLinks
 
