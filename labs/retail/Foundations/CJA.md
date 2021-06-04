@@ -135,21 +135,21 @@ Duplicate Summary Visualizations
 
 <kbd><img src="./images/CJA-FIGURE14.png"  /></kbd>
 3.	We now have 3 instances of the "Total Events" summary number visualization.
-      a.	Drag one copy to the right of the first instance and drag the other copy next to that one.
-      b.	Click on the number under the "Sessions" metric in the Base KPIs Trended table.
-      c.	Click on the round dot in the top left corner of the Total Events (2) Summary Number visualization to bring up the Data Sources Settings menu.
-      d.	Deselect the "Lock Selection" to unlock it from the "Events" metric.
+      a.Drag one copy to the right of the first instance and drag the other copy next to that one.
+      b.Click on the number under the "Sessions" metric in the Base KPIs Trended table.
+      c.Click on the round dot in the top left corner of the Total Events (2) Summary Number visualization to bring up the Data Sources Settings menu.
+      d.Deselect the "Lock Selection" to unlock it from the "Events" metric.
 
 4.	Because the "Sessions" metric is selected in the "Base KPIs Trended" table, and the duplicated Summary Number has been unlocked, the Summary Number visualization will now be tied to the "Sessions" metric.
-      a.	Click on the "Lock Selection" checkbox again to now lock it to the "Sessions" metric.
-      b.	Click on "Total Events (2)" in the duplicated Summary Number visualization and name it "Total Sessions" to match the metric it represents.
-      c.	Click on the number under the "Sessions" metric in the Base KPIs Trended table.
-      d.	Then click on the round dot in the top left corner of the Total Events (2) Summary Number visualization to bring up the Data Sources Settings menu.
-      e.	Deselect the "Lock Selection" to unlock it from the "Events" metric.
+      a.Click on the "Lock Selection" checkbox again to now lock it to the "Sessions" metric.
+      b.Click on "Total Events (2)" in the duplicated Summary Number visualization and name it "Total Sessions" to match the metric it represents.
+      c.Click on the number under the "Sessions" metric in the Base KPIs Trended table.
+      d.Then click on the round dot in the top left corner of the Total Events (2) Summary Number visualization to bring up the Data Sources Settings menu.
+      e.Deselect the "Lock Selection" to unlock it from the "Events" metric.
 
 5.	Because the People metric is selected in the Base KPIs Trended table, and the duplicated Summary Number has been unlocked, the Summary Number visualization will now be tied to the People metric.
-      a.	Click on the "Lock Selection" checkbox again to now lock it to the People metric.
-      b.	Click on "Total Events (3)" in the duplicated Summary Number visualization and name it "Total People" to match the metric it represents.
+      a.Click on the "Lock Selection" checkbox again to now lock it to the People metric.
+      b.Click on "Total Events (3)" in the duplicated Summary Number visualization and name it "Total People" to match the metric it represents.
 
 <kbd><img src="./images/CJA-FIGURE15.png"  /></kbd>
 
@@ -163,19 +163,19 @@ Save Project
 Donut Visualization
 
 1.	Now let's add a Donut visualization to this panel that is built off another dimension of data (other than Day). The Donut visualization, like the Line visualization is tied to a table, so we need to add a table with the dimension and metrics that we want to visualize in the Donut visualization.
-      a.	Click on Visualizations in the left menu and drag a Freeform Table and drop it in the project above the "Base KPIs Trended" table.
+      a.Click on Visualizations in the left menu and drag a Freeform Table and drop it in the project above the "Base KPIs Trended" table.
 
 <kbd><img src="./images/CJA-FIGURE17.png"  /></kbd>
 
 
 2.	The dimension that we want to work with in this case is the Web Marketing Channel that we looked at when we built the Data View, and configured to have a default attribution model of Last Touch at a Person level.
-      a.	Drag the "Web Marketing Channel" from the Components menu into the Freeform Table you added to the panel. If you can't find it in the Components menu, you can search for it at the top.
+      a.Drag the "Web Marketing Channel" from the Components menu into the Freeform Table you added to the panel. If you can't find it in the Components menu, you can search for it at the top.
 
 <kbd><img src="./images/CJA-FIGURE18.png"  /></kbd>
 
 
 3.	The table will default to the "Events" metric, but let's say we want to see the Sessions driven by each Web Marketing Channel as well as the conversions that each of these Marketing Channels are driving from a Last Touch perspective.
-      a.	Drag the "Sessions" metric from the Components menu and replace the "Events" metric with it, by hovering over the "Events" metric until it says "Replace" and then dropping it.
+      a.Drag the "Sessions" metric from the Components menu and replace the "Events" metric with it, by hovering over the "Events" metric until it says "Replace" and then dropping it.
 
 <kbd><img src="./images/CJA-FIGURE19.png"  /></kbd>
 4.	Drag the "Online Purchases" metric from the Components menu and "Add" it to the right of the "Sessions" metric you just added to the table.
@@ -201,18 +201,18 @@ a.	Rename the Donut visualization to "Marketing Channel Performance".
 
 Lock Selected Items in Donut Visualization
 1.	In the Marketing Channel Performance table, select the following channels:
-      a.	partner offer
-      b.	email
-      c.	social
-      d.	mobile sms
-      e.	web sem
-      f.	web natural search
+      a.partner offer
+      b.email
+      c.social
+      d.mobile sms
+      e.web sem
+      f.web natural search
 
 <kbd><img src="./images/CJA-FIGURE22.png"  /></kbd>
 2.	Click on the round dot in the top left corner of the Donut visualization to bring up the Data Source Settings menu and click the "Lock Selection" checkbox.
 
 3.	Under the "Lock Selection" checkbox is a drop-down list that defaults to "Selected Positions". This means that the Donut visualization is tied to the elements in the selected positions in the table. That's not what we want because these channels of interest may move around in the table over time based on performance.
-      a.	Click on the drop-down and select "Selected Items" instead of "Selected Positions". This will tie the Donut visualization to the specific channels of interest.
+      a.Click on the drop-down and select "Selected Items" instead of "Selected Positions". This will tie the Donut visualization to the specific channels of interest.
 
 <kbd><img src="./images/CJA-FIGURE23.png"  /></kbd>
 
