@@ -10,7 +10,7 @@ Lab  - Filters
 <tbody valign="top">
       <tr width="500">
             <td valign="top"><h3>Objective:</h3></td>
-            <td valign="top"><br>This lab will show you how to construct a CJA Dashboard.
+            <td valign="top"><br>This lab will show you how to use filters for CJA analyses.
             </td>
      </tr>
      <tr width="500">
