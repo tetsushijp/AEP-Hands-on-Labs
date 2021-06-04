@@ -99,7 +99,7 @@ If you're familiar with Adobe Analytics Workspace Analysis, you'll notice severa
 <kbd><img src="./images/CJA-FIGURE6.png"  /></kbd>
 
 2.	The Line visualization will automatically connect to the Base KPIs Trended table and will visualize the dimensions and metrics in that table. The dimension is the x-axis and the metrics are trended. You can click individual metrics to disable them in the visualization.<p>
-      a.	Click on "Line" in the top left corner of the Line visualization and change the name to "Base KPIs Trended".
+      - Click on "Line" in the top left corner of the Line visualization and change the name to "Base KPIs Trended".
 
 <kbd><img src="./images/CJA-FIGURE7.png"  /></kbd>
 
@@ -139,28 +139,28 @@ If you're familiar with Adobe Analytics Workspace Analysis, you'll notice severa
 
 1.	Now let's create a Summary Number visualization for the "Sessions" and "People" metrics.
 <p> 2.      We could go through the same process, but instead we'll duplicate the Total Sessions summary number visualization, rename it and lock it to the desired metric. </p>
-   <p>   a.	Hover your mouse over the top center of the "Total Session" summary number visualization and right-click when you see the mouse change to the crosshairs icon, to bring up the menu.</P>
-   <p>   b.	Click on Duplicate Visualization to make a duplicate copy of the "Summary Number" visualization that we just created.</p>
-    <p>  c.	Duplicate it again.</p>
+      -	Hover your mouse over the top center of the "Total Session" summary number visualization and right-click when you see the mouse change to the crosshairs icon, to bring up the menu.
+      - Click on Duplicate Visualization to make a duplicate copy of the "Summary Number" visualization that we just created.
+      - Duplicate it again.
 
 <kbd><img src="./images/CJA-FIGURE14.png"  /></kbd>
 
 3.	We now have 3 instances of the "Total Events" summary number visualization.</p>
-      a. Drag one copy to the right of the first instance and drag the other copy next to that one.</p>
-      b. Click on the number under the "Sessions" metric in the Base KPIs Trended table.</p>
-      c. Click on the round dot in the top left corner of the Total Events (2) Summary Number visualization to bring up the Data Sources Settings menu.<p>
-      d. Deselect the "Lock Selection" to unlock it from the "Events" metric.
+      - Drag one copy to the right of the first instance and drag the other copy next to that one.</p>
+      - Click on the number under the "Sessions" metric in the Base KPIs Trended table.</p>
+      - Click on the round dot in the top left corner of the Total Events (2) Summary Number visualization to bring up the Data Sources Settings menu.<p>
+      - Deselect the "Lock Selection" to unlock it from the "Events" metric.
 
 4.	Because the "Sessions" metric is selected in the "Base KPIs Trended" table, and the duplicated Summary Number has been unlocked, the Summary Number visualization will now be tied to the "Sessions" metric.
-      a. Click on the "Lock Selection" checkbox again to now lock it to the "Sessions" metric.
-      b. Click on "Total Events (2)" in the duplicated Summary Number visualization and name it "Total Sessions" to match the metric it represents.<p>
-      c. Click on the number under the "Sessions" metric in the Base KPIs Trended table.
-      d. Then click on the round dot in the top left corner of the Total Events (2) Summary Number visualization to bring up the Data Sources Settings menu.<p>
-      e. Deselect the "Lock Selection" to unlock it from the "Events" metric.
+      - Click on the "Lock Selection" checkbox again to now lock it to the "Sessions" metric.
+      - Click on "Total Events (2)" in the duplicated Summary Number visualization and name it "Total Sessions" to match the metric it represents.<p>
+      - Click on the number under the "Sessions" metric in the Base KPIs Trended table.
+      - Then click on the round dot in the top left corner of the Total Events (2) Summary Number visualization to bring up the Data Sources Settings menu.<p>
+      - Deselect the "Lock Selection" to unlock it from the "Events" metric.
 
 5.	Because the People metric is selected in the Base KPIs Trended table, and the duplicated Summary Number has been unlocked, the Summary Number visualization will now be tied to the People metric.
-      a. Click on the "Lock Selection" checkbox again to now lock it to the People metric.<p>
-      b. Click on "Total Events (3)" in the duplicated Summary Number visualization and name it "Total People" to match the metric it represents.<p>
+      - Click on the "Lock Selection" checkbox again to now lock it to the People metric.<p>
+      - Click on "Total Events (3)" in the duplicated Summary Number visualization and name it "Total People" to match the metric it represents.<p>
 
 <kbd><img src="./images/CJA-FIGURE15.png"  /></kbd>
 
@@ -175,26 +175,28 @@ If you're familiar with Adobe Analytics Workspace Analysis, you'll notice severa
 **Donut Visualization**
 
 1.	Now let's add a Donut visualization to this panel that is built off another dimension of data (other than Day). The Donut visualization, like the Line visualization is tied to a table, so we need to add a table with the dimension and metrics that we want to visualize in the Donut visualization.<p>
-      a. Click on Visualizations in the left menu and drag a Freeform Table and drop it in the project above the "Base KPIs Trended" table.
+      - Click on Visualizations in the left menu and drag a Freeform Table and drop it in the project above the "Base KPIs Trended" table.
 
 <kbd><img src="./images/CJA-FIGURE17.png"  /></kbd>
 
 
 2.	The dimension that we want to work with in this case is the Web Marketing Channel that we looked at when we built the Data View, and configured to have a default attribution model of Last Touch at a Person level.<p>
-      a. Drag the "Web Marketing Channel" from the Components menu into the Freeform Table you added to the panel. If you can't find it in the Components menu, you can search for it at the top.
+      - Drag the "Web Marketing Channel" from the Components menu into the Freeform Table you added to the panel. If you can't find it in the Components menu, you can search for it at the top.
 
 <kbd><img src="./images/CJA-FIGURE18.png"  /></kbd>
 
 
 3.	The table will default to the "Events" metric, but let's say we want to see the Sessions driven by each Web Marketing Channel as well as the conversions that each of these Marketing Channels are driving from a Last Touch perspective.<p>
-      a. Drag the "Sessions" metric from the Components menu and replace the "Events" metric with it, by hovering over the "Events" metric until it says "Replace" and then dropping it.
+      - Drag the "Sessions" metric from the Components menu and replace the "Events" metric with it, by hovering over the "Events" metric until it says "Replace" and then dropping it.
 
 <kbd><img src="./images/CJA-FIGURE19.png"  /></kbd>
+
 4.	Drag the "Online Purchases" metric from the Components menu and "Add" it to the right of the "Sessions" metric you just added to the table.
 5.	We now have a table with the dimension and metrics we want to represent in the Donut visualization. Rename the "Freeform Table (2)" table to "Marketing Channel Performance".
 
 
 <kbd><img src="./images/CJA-FIGURE20.png"  /></kbd>
+
 6.	Drag the Donut visualization from the Visualizations menu and drop it above the "Marketing Channel Performance" table.
 
 7.	The Donut visualization automatically connects to the last table that was added to the project, but if we wanted it to connect to a different table we could by clicking the round dot in the top left corner of the visualization to Manage Data Sources and selecting the table that we want the visualization tied to.
@@ -214,19 +216,19 @@ If you're familiar with Adobe Analytics Workspace Analysis, you'll notice severa
 **Lock Selected Items in Donut Visualization**
 
 1.	In the Marketing Channel Performance table, select the following channels:<p>
-      a. partner offer
-      b. email
-      c. social
-      d. mobile sms
-      e. web sem
-      f. web natural search
+      - partner offer
+      - email
+      - social
+      - mobile sms
+      - web sem
+      - web natural search
 
 <kbd><img src="./images/CJA-FIGURE22.png"  /></kbd>
 
 2.	Click on the round dot in the top left corner of the Donut visualization to bring up the Data Source Settings menu and click the "Lock Selection" checkbox.
 
 3.	Under the "Lock Selection" checkbox is a drop-down list that defaults to "Selected Positions". This means that the Donut visualization is tied to the elements in the selected positions in the table. That's not what we want because these channels of interest may move around in the table over time based on performance.
-      a. Click on the drop-down and select "Selected Items" instead of "Selected Positions". This will tie the Donut visualization to the specific channels of interest.
+      - Click on the drop-down and select "Selected Items" instead of "Selected Positions". This will tie the Donut visualization to the specific channels of interest.
 
 <kbd><img src="./images/CJA-FIGURE23.png"  /></kbd>
 
@@ -300,19 +302,18 @@ Let's go a bit deeper into the types of analysis that we can do with CJA.
 To do that we'll build some Filters that allow us to look at Sessions and break them into different types of sessions.
 - The data we're working with has Web Analytics data as well as Call Center data and some CRM data. We want to break the "Sessions" metric apart so we can see Web Sessions, Call - Sessions and Sessions where a customer touches both Web and Call (Cross-Channel Sessions).
 
-
 1. We'll do this by creating some Filters we can then apply against the data as well as use in metrics.
-- Click the + sign below the Panel we were working on to create a new Panel.
+      - Click the + sign below the Panel we were working on to create a new Panel.
  
 <kbd><img src="./images/CJA-FIGURE31.png"  /></kbd> 
 
-- This creates a new Panel in the Project we're working on, that asks where we want to start.
+This creates a new Panel in the Project we're working on, that asks where we want to start.
 
 2. We want start with a Freeform Table, so click on Freeform Table.
  
 <kbd><img src="./images/CJA-FIGURE32.png"  /></kbd> 
 
-- Ensure you're using the "DV 001" Data View and that the Date Range is set to the correct date range: March 18-30, 2020
+Ensure you're using the "DV 001" Data View and that the Date Range is set to the correct date range: March 18-30, 2020
 
 3. Drag the "Day" dimension into the table.
  
@@ -324,8 +325,8 @@ To do that we'll build some Filters that allow us to look at Sessions and break 
  
 <kbd><img src="./images/CJA-FIGURE34.png"  /></kbd> 
 
-- The "Calls" metric represents rows of data that come from the Call dataset.
-- The "Page Views" metric represents rows of data from the Web Analytics data.
+The "Calls" metric represents rows of data that come from the Call dataset.
+      - The "Page Views" metric represents rows of data from the Web Analytics data.
 
 7. Hover at the top of the Freeform table we were just working on until your mouse turns into the crosshairs and right-click to duplicate that visualization.
  
@@ -335,13 +336,13 @@ To do that we'll build some Filters that allow us to look at Sessions and break 
  
 <kbd><img src="./images/CJA-FIGURE36.png"  /></kbd> 
 
-- You'll see in the resulting data that there are Events and Sessions associated with each page and there are Page Views associated with each page (which equals the "Events" metric), but there are no Calls associated with each Page.
-- This is because there are no rows that are both Web and Call rows.
+You'll see in the resulting data that there are Events and Sessions associated with each page and there are Page Views associated with each page (which equals the "Events" metric), but there are no Calls associated with each Page.
+      - This is because there are no rows that are both Web and Call rows.
  
 <kbd><img src="./images/CJA-FIGURE37.png"  /></kbd> 
 
 9. Duplicate this table again and replace the “webPagename” dimension with the “callSelectedReason” dimension. This is the reason for a call that a call center agent entered when they spoke with a customer on the phone.
-- Notice how there are now Call Reasons that have Events and Sessions and Calls associated with them but no Page Views. Again, this makes sense.
+      - Notice how there are now Call Reasons that have Events and Sessions and Calls associated with them but no Page Views. Again, this makes sense.
  
 <kbd><img src="./images/CJA-FIGURE38.png"  /></kbd> 
 
@@ -361,9 +362,10 @@ To do that we'll build some Filters that allow us to look at Sessions and break 
  
 <kbd><img src="./images/CJA-FIGURE41.png"  /></kbd> 
 
-- This Filter will allow us to filter by Sessions that have at least one Page View in them.
+This Filter will allow us to filter by Sessions that have at least one Page View in them.
+
 6. Click Save.
-- Notice the new Web Sessions Filter in the Components menu.
+      - Notice the new Web Sessions Filter in the Components menu.
 
 7. Hover over the Web Sessions filter in the Components menu and click on the "i" to see details of the filter.
  
@@ -380,10 +382,10 @@ To do that we'll build some Filters that allow us to look at Sessions and break 
 
 <kbd><img src="./images/CJA-FIGURE44.png"  /></kbd> 
 
-- This filter will find sessions where a customer had at least one Page View and at least one Call in a session.
+This filter will find sessions where a customer had at least one Page View and at least one Call in a session.
 
 13. Click on Save As to save a new filter called "Cross-Channel Sessions".
-- We now have a Web Sessions filter and a Cross-Channel Sessions filter.
+      - We now have a Web Sessions filter and a Cross-Channel Sessions filter.
 
 14. Hover over the Cross-Channel Sessions filter in the Components menu, click on the "i" next to the filter and click on the pencil icon.
  
@@ -393,10 +395,10 @@ To do that we'll build some Filters that allow us to look at Sessions and break 
  
 <kbd><img src="./images/CJA-FIGURE46.png"  /></kbd> 
 
-- We now have the 3 filters we need to do some interesting cross -channel analysis.
+We now have the 3 filters we need to do some interesting cross -channel analysis.
 
 16. Duplicate the last table you built again and multi-select the 3 filters you just built and drag them over the “callSelectedReason” dimension in the duplicated copy of the table and "Replace" that dimension with those 3 filters.
-- This provides an interesting view. We can see there are Web Sessions with Calls, and Call Sessions with Page Views.
+      - This provides an interesting view. We can see there are Web Sessions with Calls, and Call Sessions with Page Views.
  
 <kbd><img src="./images/CJA-FIGURE47.png"  /></kbd> 
 
@@ -405,7 +407,7 @@ To do that we'll build some Filters that allow us to look at Sessions and break 
  
 <kbd><img src="./images/CJA-FIGURE48.png"  /></kbd> 
 
-- We can now filter by the various Sessions for which we built filters. 
+We can now filter by the various Sessions for which we built filters. 
 
 19. Click on the Filter drop-down and select "No filter" to ensure no filters are being applied.
  
