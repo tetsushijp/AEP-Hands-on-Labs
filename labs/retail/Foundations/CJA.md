@@ -140,7 +140,7 @@ If you're familiar with Adobe Analytics Workspace Analysis, you'll notice severa
 **Duplicate Summary Visualizations**
 
 1.	Now let's create a Summary Number visualization for the "Sessions" and "People" metrics.
-2.      We could go through the same process, but instead we'll duplicate the Total Sessions summary number visualization, rename it and lock it to the desired metric
+2.    We could go through the same process, but instead we'll duplicate the Total Sessions summary number visualization, rename it and lock it to the desired metric
       - Hover your mouse over the top center of the "Total Session" summary number visualization and right-click when you see the mouse change to the crosshairs icon, to bring up the menu.
       - Click on Duplicate Visualization to make a duplicate copy of the "Summary Number" visualization that we just created.
       - Duplicate it again.
