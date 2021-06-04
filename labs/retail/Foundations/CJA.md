@@ -292,7 +292,7 @@ Instead of dragging individual item, we can create a Filter drop-down that allow
 
 1. Grab male" again and hover over "female" in the Filter drop zone. When it highlights "Replace (press shift to create a drop-down)", hold shift and drop "male".
 This will create a drop-down menu that can be used to slice the project by either male or female customers. Any number of dropdowns can be created.
-- If you select multiple dropdowns at the same time, they act as an AND clause. By default, any filter applied in the Filter drop zone is an event-based filter, but that can be modified.
+      - If you select multiple dropdowns at the same time, they act as an AND clause. By default, any filter applied in the Filter drop zone is an event-based filter, but that can be modified.
 
 <kbd><img src="./images/CJA-FIGURE30.png"  /></kbd> 
 
@@ -300,7 +300,7 @@ This will create a drop-down menu that can be used to slice the project by eithe
 
 Let's go a bit deeper into the types of analysis that we can do with CJA.
 To do that we'll build some Filters that allow us to look at Sessions and break them into different types of sessions.
-- The data we're working with has Web Analytics data as well as Call Center data and some CRM data. We want to break the "Sessions" metric apart so we can see Web Sessions, Call - Sessions and Sessions where a customer touches both Web and Call (Cross-Channel Sessions).
+      - The data we're working with has Web Analytics data as well as Call Center data and some CRM data. We want to break the "Sessions" metric apart so we can see Web Sessions, Call Sessions and Sessions where a customer touches both Web and Call (Cross-Channel Sessions).
 
 1. We'll do this by creating some Filters we can then apply against the data as well as use in metrics.
       - Click the + sign below the Panel we were working on to create a new Panel.
