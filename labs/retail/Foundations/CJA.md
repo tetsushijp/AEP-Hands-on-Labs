@@ -68,25 +68,28 @@ If you're familiar with Adobe Analytics Workspace Analysis, you'll notice severa
 - Visitor containers are now known as 'Person' containers
 -----
 DASHBOARD
-Add Freeform Panel
+**Add Freeform Panel**
 1.	Let's jump right in and start building a dashboard. 
 2.	Ensure that the "DV 001" Data View is selected in the Data View selector
 3.	Set Reporting Date Range to March 18-30, 2020 from table below and click "Apply".
 
 <kbd><img src="./images/CJA-FIGURE1.png"  /></kbd>
+
 4.	Drag the "Day" dimension from the Components menu and drop it into the Freeform Table visualization in the Panel.
 
 <kbd><img src="./images/CJA-FIGURE2.png"  /></kbd>
+
 5.	Drag the "Sessions" metric from the Components menu and "Add" it to the right of the "Events" metric by hovering to the right of the "Events" metric until the "+ Add" appears in the Freeform Table visualization in the Panel.
 
 <kbd><img src="./images/CJA-FIGURE3.png"  /></kbd>
+
 6.	Do the same for the "People" metric from the Components menu 
 7.	Click on "Freeform Table" in the top left corner of the table and change the name to "Base KPIs Trended".
 8.	Click on "Freeform" in the top left corner of the panel and change the name to "Dashboard".
 
 <kbd><img src="./images/CJA-FIGURE4.png"  /></kbd>
 
-Add Line Visualization
+**Add Line Visualization**
 1.	Click on Visualizations in the left menu and drag the Line visualization to the Dashboard panel above the Base KPIs Trended table.
 
 <kbd><img src="./images/CJA-FIGURE5.png"  /></kbd>
@@ -98,10 +101,11 @@ Add Line Visualization
 
 <kbd><img src="./images/CJA-FIGURE7.png"  /></kbd>
 
-Add Summary Number Visualization
+**Add Summary Number Visualization**
 1.	Right-click on the number under the "Events" metric in the "Base KPIs Trended" table to bring up a menu with several options, including adding a visualization tied to that metric.
 
 <kbd><img src="./images/CJA-FIGURE8.png"  /></kbd>
+
 2.	Click on the Visualize option and scroll down to and select Summary Number.
 
 <kbd><img src="./images/CJA-FIGURE9.png"  /></kbd>
@@ -113,7 +117,7 @@ Add Summary Number Visualization
 
 4.	This visualization is not "Locked" which means if any selections are made in the Base KPIs Trended table, the Summary Number visualization will change to the new selection.
 
-<p>Lock Selection</p>
+<p>**Lock Selection**</p>
 1.	Click on the number under Sessions and watch what happens to the Summary Number visualization.
 2.	Scroll up to the Base KPIs Trended Line visualization and notice it is impacted by the selection in the table.
 <kbd><img src="./images/CJA-FIGURE11.png"  /></kbd>
@@ -127,7 +131,7 @@ Add Summary Number Visualization
 
 <kbd><img src="./images/CJA-FIGURE13.png"  /></kbd>
 
-Duplicate Summary Visualizations
+**Duplicate Summary Visualizations**
 1.	Now let's create a Summary Number visualization for the "Sessions" and "People" metrics.
 <p> 2.      We could go through the same process, but instead we'll duplicate the Total Sessions summary number visualization, rename it and lock it to the desired metric. </p>
    <p>   a.	Hover your mouse over the top center of the "Total Session" summary number visualization and right-click when you see the mouse change to the crosshairs icon, to bring up the menu.</P>
@@ -155,14 +159,14 @@ Duplicate Summary Visualizations
 
 <kbd><img src="./images/CJA-FIGURE15.png"  /></kbd>
 
-Save Project
+**Save Project**
 1.	Now would be a good time to save this Project so we don't lose any of our work.
 2.	Click on Project and then Save to open the Save Project window.
 3.	Name the project "Hands-on Lab Working Project" and click Save Project.
 
 <kbd><img src="./images/CJA-FIGURE16.png"  /></kbd>
 
-Donut Visualization
+**Donut Visualization**
 
 1.	Now let's add a Donut visualization to this panel that is built off another dimension of data (other than Day). The Donut visualization, like the Line visualization is tied to a table, so we need to add a table with the dimension and metrics that we want to visualize in the Donut visualization.<p>
       a. Click on Visualizations in the left menu and drag a Freeform Table and drop it in the project above the "Base KPIs Trended" table.
@@ -201,7 +205,7 @@ Donut Visualization
 10.	If we wanted to show specific channels instead of the top 6. We can select those channels in the table and lock the Donut visualization to those selections.
 
 
-Lock Selected Items in Donut Visualization
+**Lock Selected Items in Donut Visualization**
 1.	In the Marketing Channel Performance table, select the following channels:<p>
       a. partner offer
       b. email
@@ -221,7 +225,7 @@ Lock Selected Items in Donut Visualization
 
 4.	The number of items the Donut visualization will show can be configured by clicking on the gear in the top right corner of the Donut visualization and increasing or decreasing the "Limit Max Items" setting.
 
-Dashboard Cleanup
+**Dashboard Cleanup**
 1.	Let's say these visualizations represent all the data points you hope to have in your dashboard. We can now clean up the dashboard to look as we desire.
 2.	Drag the Base KPIs Trended Line Graph below the Summary Number visualizations.
 3.	Drag the right side of the Line Graph and change the size of the visualization to cover just the left half of the project.
