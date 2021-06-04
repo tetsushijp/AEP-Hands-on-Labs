@@ -67,7 +67,8 @@ If you're familiar with Adobe Analytics Workspace Analysis, you'll notice severa
 - Visit containers are now known as 'Session' containers
 - Visitor containers are now known as 'Person' containers
 -----
-DASHBOARD
+**DASHBOARD**
+
 **Add Freeform Panel**
 
 1.	Let's jump right in and start building a dashboard. 
