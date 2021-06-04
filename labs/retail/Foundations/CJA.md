@@ -67,7 +67,7 @@ If you're familiar with Adobe Analytics Workspace Analysis, you'll notice severa
 - Visit containers are now known as 'Session' containers
 - Visitor containers are now known as 'Person' containers
 -----
-**DASHBOARD**
+DASHBOARD
  
 **1. Add Freeform Panel**
 Let's jump right in and start building a dashboard. 
@@ -225,7 +225,7 @@ The number of items the Donut visualization will show can be configured by click
  
 **9. Dashboard Cleanup**
 Let's say these visualizations represent all the data points you hope to have in your dashboard. We can now clean up the dashboard to look as we desire.
-     -    Drag the Base KPIs Trended Line Graph below the Summary Number visualizations.
+      -    Drag the Base KPIs Trended Line Graph below the Summary Number visualizations.
       -    Drag the right side of the Line Graph and change the size of the visualization to cover just the left half of the project.
       -    Scroll down and drag the left side of the Donut visualization so it pops up to the right side of the Line Graph.
 The tables the visualizations are built from can now be minimized or even hidden since we're only interested in the visualizations.
@@ -235,7 +235,8 @@ The tables have now been minimized.
  
 The tables are now fully hidden.
  
-<kbd><img src="./images/CJA-FIGURE24.png"  /></kbd>
+ <kbd><img src="./images/CJA-FIGURE24.png"  /></kbd>
+ ![image](https://user-images.githubusercontent.com/83657101/120750212-d5829c80-c4ba-11eb-942d-75d965d020ec.png)
 
 
 -----
