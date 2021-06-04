@@ -227,6 +227,8 @@ Dashboard Cleanup
 6.	Click on the small downward facing arrow in the top right corner of the "Marketing Channel Performance" and "Base KPIs Trended" tables to minimize them.
 7.	The tables have now been minimized.
 8.	To fully hide the tables, click on the Data Sources Settings round dot for any visualization that uses that table and deselect the checkbox for "Show Data Source".
+ 
+<kbd><img src="./images/CJA-FIGUREx.png"  /></kbd> 
 
 9.	The tables are now fully hidden.
 
