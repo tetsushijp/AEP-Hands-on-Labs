@@ -67,7 +67,7 @@ If you're familiar with Adobe Analytics Workspace Analysis, you'll notice severa
 - Visit containers are now known as 'Session' containers
 - Visitor containers are now known as 'Person' containers
 -----
-DASHBOARD
+**DASHBOARD**
  
 **1. Add Freeform Panel**
 Let's jump right in and start building a dashboard. 
@@ -80,29 +80,29 @@ Let's jump right in and start building a dashboard.
 <kbd><img src="./images/CJA-FIGURE2.png"/></kbd>
 	- Drag the "Sessions" metric from the Components menu and "Add" it to the right of the "Events" metric by hovering to the right of the "Events" metric until the "+ Add" appears in the Freeform Table visualization in the Panel.
  
-<kbd><img src="./images/CJA-FIGURE3.png"  /></kbd>
+<kbd><img src="./images/CJA-FIGURE3.png"/></kbd>
       -    Do the same for the "People" metric from the Components menu 
       -    Click on "Freeform Table" in the top left corner of the table and change the name to "Base KPIs Trended".
       -    Click on "Freeform" in the top left corner of the panel and change the name to "Dashboard".
  
-<kbd><img src="./images/CJA-FIGURE4.png"  /></kbd>
+<kbd><img src="./images/CJA-FIGURE4.png"/></kbd>
  
 **2. Add Line Visualization**
       -    Click on Visualizations in the left menu and drag the Line visualization to the Dashboard panel above the Base KPIs Trended table.
  
-<kbd><img src="./images/CJA-FIGURE5.png"  /></kbd>
+<kbd><img src="./images/CJA-FIGURE5.png"/></kbd>
  
 <kbd><img src="./images/CJA-FIGURE6.png"  /></kbd>
  
 The Line visualization will automatically connect to the Base KPIs Trended table and will visualize the dimensions and metrics in that table. The dimension is the x-axis and the metrics are trended. You can click individual metrics to disable them in the visualization.
       -    Click on "Line" in the top left corner of the Line visualization and change the name to "Base KPIs Trended".
  
-<kbd><img src="./images/CJA-FIGURE7.png"  /></kbd>
+<kbd><img src="./images/CJA-FIGURE7.png"/></kbd>
  
 **3. Add Summary Number Visualization**
       -    Right-click on the number under the "Events" metric in the "Base KPIs Trended" table to bring up a menu with several options, including adding a visualization tied to that metric.
  
- <kbd><img src="./images/CJA-FIGURE8.png"  /></kbd>
+ <kbd><img src="./images/CJA-FIGURE8.png"/></kbd>
       -    Click on the Visualize option and scroll down to and select Summary Number.
  
  <kbd><img src="./images/CJA-FIGURE9.png"  /></kbd>
