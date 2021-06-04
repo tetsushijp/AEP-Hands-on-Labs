@@ -69,6 +69,7 @@ If you're familiar with Adobe Analytics Workspace Analysis, you'll notice severa
 -----
 DASHBOARD
 **Add Freeform Panel**
+
 1.	Let's jump right in and start building a dashboard. 
 2.	Ensure that the "DV 001" Data View is selected in the Data View selector
 3.	Set Reporting Date Range to March 18-30, 2020 from table below and click "Apply".
@@ -102,6 +103,7 @@ DASHBOARD
 <kbd><img src="./images/CJA-FIGURE7.png"  /></kbd>
 
 **Add Summary Number Visualization**
+
 1.	Right-click on the number under the "Events" metric in the "Base KPIs Trended" table to bring up a menu with several options, including adding a visualization tied to that metric.
 
 <kbd><img src="./images/CJA-FIGURE8.png"  /></kbd>
@@ -117,7 +119,8 @@ DASHBOARD
 
 4.	This visualization is not "Locked" which means if any selections are made in the Base KPIs Trended table, the Summary Number visualization will change to the new selection.
 
-<p>**Lock Selection**</p>
+**Lock Selection**
+
 1.	Click on the number under Sessions and watch what happens to the Summary Number visualization.
 2.	Scroll up to the Base KPIs Trended Line visualization and notice it is impacted by the selection in the table.
 <kbd><img src="./images/CJA-FIGURE11.png"  /></kbd>
@@ -132,6 +135,7 @@ DASHBOARD
 <kbd><img src="./images/CJA-FIGURE13.png"  /></kbd>
 
 **Duplicate Summary Visualizations**
+
 1.	Now let's create a Summary Number visualization for the "Sessions" and "People" metrics.
 <p> 2.      We could go through the same process, but instead we'll duplicate the Total Sessions summary number visualization, rename it and lock it to the desired metric. </p>
    <p>   a.	Hover your mouse over the top center of the "Total Session" summary number visualization and right-click when you see the mouse change to the crosshairs icon, to bring up the menu.</P>
@@ -160,6 +164,7 @@ DASHBOARD
 <kbd><img src="./images/CJA-FIGURE15.png"  /></kbd>
 
 **Save Project**
+
 1.	Now would be a good time to save this Project so we don't lose any of our work.
 2.	Click on Project and then Save to open the Save Project window.
 3.	Name the project "Hands-on Lab Working Project" and click Save Project.
@@ -206,6 +211,7 @@ DASHBOARD
 
 
 **Lock Selected Items in Donut Visualization**
+
 1.	In the Marketing Channel Performance table, select the following channels:<p>
       a. partner offer
       b. email
@@ -226,6 +232,7 @@ DASHBOARD
 4.	The number of items the Donut visualization will show can be configured by clicking on the gear in the top right corner of the Donut visualization and increasing or decreasing the "Limit Max Items" setting.
 
 **Dashboard Cleanup**
+
 1.	Let's say these visualizations represent all the data points you hope to have in your dashboard. We can now clean up the dashboard to look as we desire.
 2.	Drag the Base KPIs Trended Line Graph below the Summary Number visualizations.
 3.	Drag the right side of the Line Graph and change the size of the visualization to cover just the left half of the project.
