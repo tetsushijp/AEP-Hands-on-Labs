@@ -74,10 +74,10 @@ Let's jump right in and start building a dashboard.
 	- Ensure that the "DV 001" Data View is selected in the Data View selector
 	- Set Reporting Date Range to March 18-30, 2020 from table below and click "Apply".
  
-<kbd><img src="./images/CJA-FIGURE1.png"  /></kbd>
+<kbd><img src="./images/CJA-FIGURE1.png"/></kbd>
     -   Drag the "Day" dimension from the Components menu and drop it into the Freeform Table visualization in the Panel.
  
-<kbd><img src="./images/CJA-FIGURE2.png"  /></kbd>
+<kbd><img src="./images/CJA-FIGURE2.png"/></kbd>
 	- Drag the "Sessions" metric from the Components menu and "Add" it to the right of the "Events" metric by hovering to the right of the "Events" metric until the "+ Add" appears in the Freeform Table visualization in the Panel.
  
 <kbd><img src="./images/CJA-FIGURE3.png"  /></kbd>
@@ -183,7 +183,7 @@ The dimension that we want to work with in this case is the Web Marketing Channe
 The table will default to the "Events" metric, but let's say we want to see the Sessions driven by each Web Marketing Channel as well as the conversions that each of these Marketing Channels are driving from a Last Touch perspective.
       -    Drag the "Sessions" metric from the Components menu and replace the "Events" metric with it, by hovering over the "Events" metric until it says "Replace" and then dropping it.
  
- <kbd><img src="./images/CJA-FIGURE19.png"  /></kbd>
+ <kbd><img src="./images/CJA-FIGURE19.png"/></kbd>
       -    Drag the "Online Purchases" metric from the Components menu and "Add" it to the right of the "Sessions" metric you just added to the table.
       -    We now have a table with the dimension and metrics we want to represent in the Donut visualization. Rename the "Freeform Table (2)" table to "Marketing Channel Performance".
  
