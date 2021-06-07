@@ -35,7 +35,7 @@ Please download your own attendee [lab content/uploads here](https://github.com/
 
 ### Adobe Experience Platform - Customer Journey Analytics 
 
- - [Dashboards](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/Foundations/CJA.md)
+ - [Dashboards](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/Foundations/CJA-Dashboards.md)
  - [Filters](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/Foundations/CJA-Filters.md)
  - [Metrics](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/Foundations/CJA-Metrics.md)
  - [Attribution IQ](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/Foundations/CJA-AttributionIQ.md)
