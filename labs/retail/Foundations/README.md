@@ -7,7 +7,7 @@
  - [Segments](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/Foundations/Segments.md)
  - [QueryService](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/Foundations/DeepDive%20QueryService.md)
  - [APIs](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/Foundations/APIs.md)
- - 
+ 
  - [Customer Journey Analytics]
  - [Dashboards](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/Foundations/CJA-Dashboards.md)
  - [Filters](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/Foundations/CJA-Filters.md)
