@@ -9,7 +9,7 @@
  - [APIs](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/Foundations/APIs.md)
  
  - #### Customer Journey Analytics
-  -  [Dashboards](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/Foundations/CJA-Dashboards.md)
+        - [Dashboards](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/Foundations/CJA-Dashboards.md)
  - [Filters](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/Foundations/CJA-Filters.md)
  - [Metrics](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/Foundations/CJA-Metrics.md)
  - [Attribution IQ](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/Foundations/CJA-AttributionIQ.md)
