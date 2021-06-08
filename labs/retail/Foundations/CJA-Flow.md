@@ -10,7 +10,7 @@ Lab  - Flow Visualization
 <tbody valign="top">
       <tr width="500">
             <td valign="top"><h3>Objective:</h3></td>
-            <td valign="top"><br>This lab will show you how to understand customer journeys through Flow visualizations
+            <td valign="top"><br>This lab will show how to analyze customer journeys with Flow visualizations
             </td>
      </tr>
      <tr width="500">
@@ -130,3 +130,6 @@ The result is a view into the top pages customers interact with prior to a call,
 
 This can be very powerful in understanding customer journeys across channels.
 
+
+### This completes the Flow Visualization excercise in CJA
+Next we will review how to create [Fallout] charts (https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/Foundations/CJA-Fallout.md)
