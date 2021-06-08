@@ -10,7 +10,7 @@ Lab  - Venn Visualization
 <tbody valign="top">
       <tr width="500">
             <td valign="top"><h3>Objective:</h3></td>
-            <td valign="top"><br>This lab will show you how to create Venn Visualizations to understand cross-over performance between two groups, metrics or events</td>
+            <td valign="top"><br>This lab shows how to understand cross-over performance with Venn Visualizations</td>
      </tr>
      <tr width="500">
            <td valign="top"><h3>Prerequisites:</h3></td>
