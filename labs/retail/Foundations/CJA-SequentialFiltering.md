@@ -29,7 +29,7 @@ Lab  - Sequential Filtering
 <tbody valign="top">
       <tr>
             <td valign="middle" height="70"><b>section</b></td>
-            <td valign="middle" height="70"><img src="https://github.com/adobe/AEP-Hands-on-Labs/blob/master/assets/images/left_hand_nav_menu_schemas.png?raw=true" alt="Identities"></td>
+             <td valign="middle" height="70">CJA</td>
       </tr>
       <tr>
             <td valign="middle" height="70"><b>version</b></td>
@@ -94,3 +94,6 @@ This filter will find people who hit the first step of the Account Creation proc
 Now we can see the volume of Calls vs. the volume Calls that also made it to step 1 of the Account Creation process. This is a great way to understand what People who made it to step 1 are calling about.
       - We can see from our filter that most of them call about a Payment Issue or Account Password Help
 
+
+### This completes the Sequential Filtering excercise in CJA
+Next we will review how to create [Venn Visualizations](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/Foundations/CJA-Venn.md)
