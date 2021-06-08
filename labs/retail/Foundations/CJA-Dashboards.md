@@ -254,4 +254,4 @@ If you're familiar with Adobe Analytics Workspace Analysis, you'll notice severa
 <kbd><img src="./images/CJA-FIGURE24.png"  /></kbd>
 
 ### This completes the Dashboard building excercise in CJA  
-Next we will review how to create Filters
+Next we will review how to create and apply [Filters](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/Foundations/CJA-Filters.md)
