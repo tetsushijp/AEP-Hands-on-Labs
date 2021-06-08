@@ -10,8 +10,7 @@ Lab  - Attribution IQ
 <tbody valign="top">
       <tr width="500">
             <td valign="top"><h3>Objective:</h3></td>
-            <td valign="top"><br>This lab will show you how to measure 
-                  the influence of any data point through Attribution IQ
+            <td valign="top"><br>This lab will show you how to measure the influence of any data point through Attribution IQ
             </td>
      </tr>
      <tr width="500">
@@ -129,3 +128,6 @@ The result is a table that uses a 15-Minute Time Decay model to give credit to p
 <kbd><img src="./images/cja-attributioniq-timedecay-top4callreasons.png"  /></kbd>
 
 Clients typically use this data to uncover the top pages driving calls and testing different versions of those pages (Adobe Target is a great option here) until they find a version that works best at keeping people in the cheaper, online channel.
+
+### This completes the excercise on Attribution IQ in CJA
+Next we will review [Flow Visualizations](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/Foundations/CJA-Flow.md)
