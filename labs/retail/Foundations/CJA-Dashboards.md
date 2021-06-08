@@ -253,4 +253,4 @@ If you're familiar with Adobe Analytics Workspace Analysis, you'll notice severa
 
 <kbd><img src="./images/CJA-FIGURE24.png"  /></kbd>
 
-This completes the Dashboard building excercise in CJA  
+### This completes the Dashboard building excercise in CJA  
