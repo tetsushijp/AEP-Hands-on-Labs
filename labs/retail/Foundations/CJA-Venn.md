@@ -104,4 +104,4 @@ You can hover over the Venn circles to see the exact overlap:
 **NOTE:** If you want to hide the table from view, click on the round dot in the top left corner of the Venn visualization and deselect the checkbox to “Show Data Source”
 
 
-### WEll done, this completes the last section of the CJA lab!
+### Well done, this completes the last section of the CJA lab!
