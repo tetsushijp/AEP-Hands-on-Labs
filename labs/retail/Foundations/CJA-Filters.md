@@ -230,3 +230,6 @@ We can now filter by the various Sessions for which we built filters.
 
 This will break out the "Sessions" metric by the various Session types the filters represent. A great way to analyze the types of Sessions customers are having.
 Using the knowledge from the earlier exercises you can imagine the types of dashboards you could create with this data.
+
+### This completes the Filter creation excercise in CJA  
+Next we will review how to build calculated [Metrics](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/Foundations/CJA-Metrics.md)
