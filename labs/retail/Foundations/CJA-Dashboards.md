@@ -30,8 +30,7 @@ Lab  - Build a CJA Dashboard
 <tbody valign="top">
       <tr>
             <td valign="middle" height="70"><b>section</b></td>
-            <td valign="top"><br>CJA
-            </td>
+            <td valign="middle" height="70">CJA</td>
       </tr>
       <tr>
             <td valign="middle" height="70"><b>version</b></td>
