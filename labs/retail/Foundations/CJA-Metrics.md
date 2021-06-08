@@ -151,3 +151,6 @@ We can now see the pages customers see in the sessions that they call with an "O
 
 <kbd><img src="./images/CJA-metrics-ordercreated-sessionbased.png"  /></kbd>
 
+
+### This completes the Metrics section of the CJA lab  
+Next we will review [Attribution IQ](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/Foundations/CJA-AttributionIQ.md)
