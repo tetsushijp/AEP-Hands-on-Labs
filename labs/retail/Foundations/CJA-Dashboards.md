@@ -30,7 +30,8 @@ Lab  - Build a CJA Dashboard
 <tbody valign="top">
       <tr>
             <td valign="middle" height="70"><b>section</b></td>
-            <td valign="middle" height="70"><img src="https://github.com/adobe/AEP-Hands-on-Labs/blob/master/assets/images/left_hand_nav_menu_schemas.png?raw=true" alt="Identities"></td>
+            <td valign="top"><br>CJA
+            </td>
       </tr>
       <tr>
             <td valign="middle" height="70"><b>version</b></td>
