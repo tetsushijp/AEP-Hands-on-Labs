@@ -48,25 +48,7 @@ Lab  - Filters
 </tr>
 </table>
 
-Before we begin:
-1. Navigate to [https://experience.adobe.com](https://experience.adobe.com)
-2. Login with provided credentials
-3. Click on "Customer Journey Analytics" from the Quick Access bar, or navigate to 
-4. Click "Projects" in the top navigation
-5. Click "Create New Project"
 
-Introduction to Analysis Workspace Interface:
------------------
-The left side rail contains the Panel menu (where new panels can be dragged to the project), the Visualization menu (where visualizations can be dragged to a panel), and the Components menu (where Dimensions, Metrics and Filters are found and can be dragged to the panel visualizations).
-If you're familiar with Adobe Analytics Workspace Analysis, you'll notice several features in CJA have been renamed to align with industry standards. Some updated names include:
-- Segments are now known as 'Filters'
-- Virtual Report Suites are now known as 'Data Views'
-- Classifications are now known as 'Lookup datasets'
-- Customer attributes are now known as 'Profile datasets'
-- Hit containers are now known as 'Event' containers
-- Visit containers are now known as 'Session' containers
-- Visitor containers are now known as 'Person' containers
------
 After completing the Dashboard Lab, the Dashboard now looks exactly how we want it, but we do want to also be able to filter this Dashboard by the Gender of the customers. One of the sources loaded was CRM data and Gender was one of the attributes included in the CRM data.
 
 There are a couple ways to apply Filters.
