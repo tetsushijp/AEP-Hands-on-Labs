@@ -171,7 +171,7 @@ This Filter will allow us to filter by Sessions that have at least one Page View
 9. We're going to make a few changes and save as a new Cross-Channel Sessions filter.
 10. Change the name from "Web Sessions" to "Cross-Channel  Sessions".
 11. Drag the "Calls" metric and drop it below the Page Views metric.
-12. Change the criteria for the Calls metric form "equals 1" to "exists".
+12. Change the criteria for the Calls metric from "equals 1" to "exists".
 
 <kbd><img src="./images/CJA-FIGURE44.png"  /></kbd> 
 
