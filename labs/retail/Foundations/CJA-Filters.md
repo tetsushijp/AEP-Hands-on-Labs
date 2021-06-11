@@ -49,7 +49,7 @@ Lab  - Filters
 </table>
 
 
-After completing the Dashboard Lab, the Dashboard now looks exactly how we want it, but we do want to also be able to filter this Dashboard by the Gender of the customers. One of the sources loaded was CRM data and Gender was one of the attributes included in the CRM data.
+After completing the Dashboard Lab, the Dashboard now looks exactly how we want it. Next we would like to be able to filter this Dashboard by the Gender of the customers. One of the sources loaded was CRM data and Gender was one of the attributes included in the CRM data.
 
 There are a couple ways to apply Filters.
 1. Drag a filter in one at a time
@@ -93,7 +93,7 @@ This will create a drop-down menu that can be used to slice the project by eithe
 
 Let's go a bit deeper into the types of analysis that we can do with CJA.
 To do that we'll build some Filters that allow us to look at Sessions and break them into different types of sessions.
-      - The data we're working with has Web Analytics data as well as Call Center data and some CRM data. We want to break the "Sessions" metric apart so we can see Web Sessions, Call Sessions and Sessions where a customer touches both Web and Call (Cross-Channel Sessions).
+      - The data we're working with has Web Analytics data as well as Call Center data and some CRM data. We want to break the "Sessions" metric apart so we can see Web Sessions, Call Sessions, and Sessions where a customer touches both Web and Call (Cross-Channel Sessions).
 
 1. We'll do this by creating some Filters we can then apply against the data as well as use in metrics.
       - Click the + sign below the Panel we were working on to create a new Panel.
@@ -145,7 +145,7 @@ You'll see in the resulting data that there are Events and Sessions associated w
  
 <kbd><img src="./images/CJA-FIGURE39.png"  /></kbd> 
 
-2. We'll build a Filter for Web Sessions first.Name it "Web Sessions".
+2. We'll build a Filter for Web Sessions first: name it "Web Sessions".
 3. Drag the Page Views metric into the drop zone.
 4. Change the criteria from Page Views = 1 to "exists".
  
@@ -188,7 +188,7 @@ This filter will find sessions where a customer had at least one Page View and a
  
 <kbd><img src="./images/CJA-FIGURE46.png"  /></kbd> 
 
-We now have the 3 filters we need to do some interesting cross -channel analysis.
+We now have the 3 filters we need to do some interesting cross-channel analysis.
 
 16. Duplicate the last table you built again and multi-select the 3 filters you just built and drag them over the “callSelectedReason” dimension in the duplicated copy of the table and "Replace" that dimension with those 3 filters.
       - This provides an interesting view. We can see there are Web Sessions with Calls, and Call Sessions with Page Views.
