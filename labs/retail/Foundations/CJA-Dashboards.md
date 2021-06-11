@@ -140,7 +140,7 @@ If you're familiar with Adobe Analytics Workspace Analysis, you'll notice severa
 **Duplicate Summary Visualizations**
 
 1.	Now let's create a Summary Number visualization for the "Sessions" and "People" metrics.
-2.    We could go through the same process, but instead we'll duplicate the Total Sessions summary number visualization, rename it and lock it to the desired metric
+2.    We could go through the same process, but instead we'll duplicate the Total Sessions summary number visualization, rename it, and lock it to the desired metric
       - Hover your mouse over the top center of the "Total Session" summary number visualization and right-click when you see the mouse change to the crosshairs icon, to bring up the menu.
       - Click on Duplicate Visualization to make a duplicate copy of the "Summary Number" visualization that we just created.
       - Duplicate it again.
@@ -154,14 +154,14 @@ If you're familiar with Adobe Analytics Workspace Analysis, you'll notice severa
       - Deselect the "Lock Selection" to unlock it from the "Events" metric.
 
 4.	Because the "Sessions" metric is selected in the "Base KPIs Trended" table, and the duplicated Summary Number has been unlocked, the Summary Number visualization will now be tied to the "Sessions" metric.
-      - Click on the "Lock Selection" checkbox again to now lock it to the "Sessions" metric.
+      - Click on the "Lock Selection" checkbox again to lock it to the "Sessions" metric.
       - Click on "Total Events (2)" in the duplicated Summary Number visualization and name it "Total Sessions" to match the metric it represents.<p>
       - Click on the number under the "Sessions" metric in the Base KPIs Trended table.
       - Then click on the round dot in the top left corner of the Total Events (2) Summary Number visualization to bring up the Data Sources Settings menu.<p>
       - Deselect the "Lock Selection" to unlock it from the "Events" metric.
 
 5.	Because the People metric is selected in the Base KPIs Trended table, and the duplicated Summary Number has been unlocked, the Summary Number visualization will now be tied to the People metric.
-      - Click on the "Lock Selection" checkbox again to now lock it to the People metric.<p>
+      - Click on the "Lock Selection" checkbox again to  lock it to the People metric.<p>
       - Click on "Total Events (3)" in the duplicated Summary Number visualization and name it "Total People" to match the metric it represents.<p>
 
 <kbd><img src="./images/CJA-FIGURE15.png"  /></kbd>
@@ -238,7 +238,7 @@ If you're familiar with Adobe Analytics Workspace Analysis, you'll notice severa
 
 **Dashboard Cleanup**
 
-1.	Let's say these visualizations represent all the data points you hope to have in your dashboard. We can now clean up the dashboard to look as we desire.
+1.	We can now clean up the dashboard to look more organized.
 2.	Drag the Base KPIs Trended Line Graph below the Summary Number visualizations.
 3.	Drag the right side of the Line Graph and change the size of the visualization to cover just the left half of the project.
 4.	Scroll down and drag the left side of the Donut visualization so it pops up to the right side of the Line Graph.
