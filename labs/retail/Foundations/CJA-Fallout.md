@@ -48,14 +48,9 @@ Lab  - Fallout
 </tr>
 </table>
 
-Before we begin:
-1. Navigate to [https://experience.adobe.com](https://experience.adobe.com)
-2. Login with provided credentials
-3. Click on "Customer Journey Analytics" from the Quick Access bar, or navigate to 
-4. Click "Projects" in the top navigation
-5. Click "Create New Project"
 
------
+Now that we've reviewed Flow visualizations, let's move on to Fallouts.
+
 
 **FALLOUT**
 
