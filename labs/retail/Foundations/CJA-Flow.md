@@ -90,7 +90,7 @@ This view allows you to see:
 
 <kbd><img src="./images/CJA-flow-homepage-searchresults.png"  /></kbd>
 
-   One option that is very interesting is the "Create filter for this path" option, which will create a filter based on customers that follow that specific path. This becomes an    interesting way to do further analysis around the types of customers that follow a specific path.
+   Selecting "Create filter for this path" will create a filter based on customers that follow that specific path. This becomes an interesting way to do further analysis around the types of customers that follow a specific path.
 
 4. Click the gear in the top right of the visualization to bring up the Flow Settings menu. From here we can define if we want to see paths at a Session or Person level.
 
