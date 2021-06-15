@@ -11,7 +11,6 @@ Please download your own attendee [lab content/uploads here](https://github.com/
 ## Lab Agenda
 
 ### Adobe Experience Platform - Foundations
- - [Ingestion](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/Foundations/Ingestion.md)
  - [Schemas](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/Foundations/Schemas.md)
  - [Datasets](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/Foundations/Datasets.md)
  - [DULE](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/Foundations/DULE.md)
