@@ -49,7 +49,7 @@ Lab  - Sequential Filtering
 
 
 
-We just reviewed the Cohorts lab, now let's review Sequential Filtering.
+We just completed the Cohorts lab, now let's review Sequential Filtering.
 
 
 **SEQUENTIAL FILTERING**
