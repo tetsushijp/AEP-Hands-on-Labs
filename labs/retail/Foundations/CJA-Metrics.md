@@ -48,7 +48,7 @@ Lab  - Metrics
 </tr>
 </table>
 
-After completing the Filters Lab let's review Calculated metrics.
+After completing the Filters Lab let's review Calculated Metrics.
 
 There are obviously metrics that come out of the box, but there will be a need to create new custom metrics that measure more specific types of things. That's where **Calculated Metrics** come into play. Calculated Metrics allow you to build off of the base metrics and create much more specific metrics.
 
