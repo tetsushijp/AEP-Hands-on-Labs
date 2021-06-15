@@ -54,7 +54,7 @@ We just completed the Calculated Metrics lab, now let's review Attribution IQ.
 
 **ATTRIBUTION IQ**
 
-Attribution IQ can be used to dig a bit deeper into this analysis use case. Attribution IQ allows users to measure the influence that any data point has on driving an event of interest.
+Attribution IQ can be used to dig a bit deeper into our use case. Attribution IQ allows users to measure the influence that any data point has on driving an event of interest.
 In most cases, people think of measuring the influence of marketing touches on driving conversions when talking about attribution. Attribution IQ supports this use case very well, but it can also be used for many other use cases. For example, measuring the influence of web pages on driving calls.
 Let's start with the marketing use case.
 
