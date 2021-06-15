@@ -11,7 +11,6 @@ Please download [lab exercise files here](https://github.com/adobe/AEP-Hands-on-
 ## Lab Agenda
 
 ### Adobe Experience Platform - Foundations
- - [Ingestion](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi6/Foundations/Ingestion.md)
  - [Schemas](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi6/Foundations/Schemas.md)
  - [Datasets](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi6/Foundations/Datasets.md)
  - [DULE](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi6/Foundations/DULE.md)
