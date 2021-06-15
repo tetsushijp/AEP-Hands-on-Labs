@@ -52,7 +52,7 @@ Now that we completed the Attribution IQ lab let's review Flow Visualizations.
 
 **FLOW**
 
-The Flow visualization is a very powerful for understanding customer journeys in a single channel, or across channels. This lends itself nicely to what we're analyzing so far.
+The Flow visualization is very powerful for understanding customer journeys in a single channel or across channels. This lends itself nicely to what we're analyzing so far.
 
 1. Click the "+" beneath the last panel that you created to create a new panel.
       - Title it “Flow” and ensure your date range for POT5 is March 18-30, 2020
