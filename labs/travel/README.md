@@ -11,7 +11,6 @@ Please download your own attendee [lab content/uploads here](https://github.com/
 ## Lab Agenda
 
 ### Adobe Experience Platform - Foundations
- - [Ingestion](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/travel/Foundations/Ingestion.md)
  - [Datasets](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/travel/Foundations/Datasets.md)
  - [Schemas](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/travel/Foundations/Schemas.md)
  - [Data Usage Labeling Enforcement (DULE)](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/travel/Foundations/DULE.md)
