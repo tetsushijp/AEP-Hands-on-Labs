@@ -34,7 +34,7 @@ Please download [lab exercise files here](https://github.com/adobe/AEP-Hands-on-
 
 
 ### Adobe Experience Platform - Customer Journey Analytics
- - [Data Connections and Data Views](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi6/CJA/Connections and Data Views.md.md)
+ - [Data Connections and Data Views](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi6/CJA/ConnectionsandDataViews.md)
  - [Dashboards](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi6/CJA/Dashboards.md)
  - [Filters](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi6/CJA/Filters.md)
  - [Metrics](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi6/CJA/Metrics.md)
