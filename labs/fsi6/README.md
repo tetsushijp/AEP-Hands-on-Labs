@@ -35,15 +35,15 @@ Please download [lab exercise files here](https://github.com/adobe/AEP-Hands-on-
 
 ### Adobe Experience Platform - Customer Journey Analytics
  - [Data Connections and Data Views](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi6/CJA/Home.md)
- - [Data Connections and Data Views](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi6/CJA/Dashboards.md)
- - [Data Connections and Data Views](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi6/CJA/Filters.md)
- - [Data Connections and Data Views](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi6/CJA/Metrics.md)
- - [Data Connections and Data Views](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi6/CJA/Attribution IQ.md)
- - [Data Connections and Data Views](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi6/CJA/Flow.md)
- - [Data Connections and Data Views](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi6/CJA/Fallout.md)
- - [Data Connections and Data Views](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi6/CJA/Cohort.md)
- - [Data Connections and Data Views](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi6/CJA/Seqeuntial Filtering.md)
- - [Data Connections and Data Views](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi6/CJA/Venn.md)
+ - [Dashboards](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi6/CJA/Dashboards.md)
+ - [Filters](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi6/CJA/Filters.md)
+ - [Metrics](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi6/CJA/Metrics.md)
+ - [Attribution IQ](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi6/CJA/Attribution IQ.md)
+ - [Flow](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi6/CJA/Flow.md)
+ - [Fallout](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi6/CJA/Fallout.md)
+ - [Cohort](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi6/CJA/Cohort.md)
+ - [Sequential Filtering](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi6/CJA/Seqeuntial Filtering.md)
+ - [Venn](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi6/CJA/Venn.md)
  
 ## QuickLinks
 
