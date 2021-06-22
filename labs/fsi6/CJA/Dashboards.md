@@ -75,7 +75,7 @@ If you're familiar with Adobe Analytics Workspace Analysis, you'll notice severa
 2.	Ensure that the "DV 001" Data View is selected in the Data View selector
 3.	Set Reporting Date Range to March 18-30, 2020 from table below and click "Apply".
 
-<kbd><img src="./images/CJA-FIGURE1.png"  /></kbd>
+<kbd><img src="./foundations/images/CJA-FIGURE1.png"  /></kbd>
 
 4.	Drag the "Day" dimension from the Components menu and drop it into the Freeform Table visualization in the Panel.
 
