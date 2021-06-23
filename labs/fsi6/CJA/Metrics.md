@@ -92,7 +92,7 @@ This formula will calculate the Sessions where a customer touched at least one p
 Now that we've built these metrics, we can do some more interesting analysis.
 For example, a Dashboard could be created that uses these metrics to measure the number of Web Sessions, Call Sessions, and Cross-Channel Sessions we're getting. Let's build it.
 
-5. Create a new panel below the last panel we just worked on, title it “Metrics”, ensure your date range for POT5 is March 18-30, 2020 and select Freeform table.
+5. Create a new panel below the last panel we just worked on, title it “Metrics”, ensure your date range for POT6 is May 13-20, 2020 and select Freeform table.
       - Create a table with the “Day” dimension and the new Calculated Metrics we just created (Web Sessions, Call Sessions & Cross-Channel Sessions):
 
 <kbd><img src="./images/CJA-metrics-daytable.png"  /></kbd>
