@@ -73,7 +73,7 @@ If you're familiar with Adobe Analytics Workspace Analysis, you'll notice severa
 
 1.	Let's start building a dashboard. 
 2.	Ensure that the "DV 001" Data View is selected in the Data View selector
-3.	Set Reporting Date Range to March 18-30, 2020 from table below and click "Apply".
+3.	Set Reporting Date Range to May 13-20, 2020 from table below and click "Apply".
 
 <kbd><img src="./images/CJA-FIGURE1.png"  /></kbd>
 
