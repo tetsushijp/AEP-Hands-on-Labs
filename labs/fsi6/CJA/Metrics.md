@@ -129,7 +129,7 @@ This brings us into the Filter Builder with the details of the virtual filter lo
 
 <kbd><img src="./images/CJA-metrics-editordercreated-session.png"  /></kbd>
 
-We can now see the pages customers see in the sessions that they call with an "Order Created" reason
+We can now see the pages customers see in the sessions that they call with an "Account Open" reason
 
 <kbd><img src="./images/CJA-metrics-ordercreated-sessionbased.png"  /></kbd>
 
