@@ -105,10 +105,10 @@ This is an interesting view of the data because it allows us to understand what 
 
 Let say we want to be able to see what pages customers interact with in the sessions where they call into the call center, broken out by the various call reasons. We can use the “Call reason" dimension to do this.
 
-7. The top call reason for POT5 is “Order Created”, so lets add that to the panel filter drop zone to filter by those call types:
+7. The top call reason for POT6 is “Account Open”, so lets add that to the panel filter drop zone to filter by those call types:
       - In the Components menu, click on the arrow to the right of the “Call reason” dimension to see the items within that dimension
       - Click "Show items from last X months" until values show
-      - Drag & drop “Order Created” into the filter drop zone
+      - Drag & drop “Account Open” into the filter drop zone
 
 <kbd><img src="./images/CJA-metrics-addordercreated.png"  /></kbd>
 
