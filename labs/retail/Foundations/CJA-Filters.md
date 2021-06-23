@@ -106,7 +106,7 @@ This creates a new Panel in the Project we're working on, that asks where we wan
  
 <kbd><img src="./images/CJA-FIGURE32.png"  /></kbd> 
 
-Ensure you're using the "DV 001" Data View and that the Date Range is set to the correct date range: May 13-20, 2020
+Ensure you're using the "DV 001" Data View and that the Date Range is set to the correct date range: March 18-30, 2020
 
 3. Drag the "Day" dimension into the table.
  
