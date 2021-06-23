@@ -103,7 +103,7 @@ For example, a Dashboard could be created that uses these metrics to measure the
 
 This is an interesting view of the data because it allows us to understand what pages customers view in the same sessions where they also call into the call center. This is starting to give us a view into the pages that may be worthy of optimizing if we want to try to reduce calls into the call center by increasing self-service functionality on the website. We can go a level deeper here.
 
-Let say we want to be able to see what pages customers interact with in the sessions where they call into the call center, broken out by the various call reasons. We can use the “Call reason" dimension to do this.
+Let say we want to be able to see what pages customers interact with in the sessions where they call into the call center, broken out by the various call reasons. We can use the “Call selected reason" dimension to do this.
 
 7. The top call reason for POT6 is “Account Open”, so lets add that to the panel filter drop zone to filter by those call types:
       - In the Components menu, click on the arrow to the right of the “Call reason” dimension to see the items within that dimension
