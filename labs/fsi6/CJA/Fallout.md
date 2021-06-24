@@ -67,7 +67,7 @@ The Fallout visualization requires touchpoints in the process you want to measur
 
 <kbd><img src="./images/CJA-fallout-accountcreate-dragdrop.png"  /></kbd>
 
-We can see that 2,327 people have started the process of creating an account.
+We can see that 654 people have started the process of creating an account.
 
 4. Next,
       - Drag "create account: step 2" into the Add Touchpoint drop zone
@@ -76,7 +76,7 @@ We can see that 2,327 people have started the process of creating an account.
 
 <kbd><img src="./images/CJA-fallout-accountcreate-allsteps.png"  /></kbd>
 
-We can see that out of 2,327 people who started the account creation process, 834 made it to the end goal
+We can see that out of 654 people who started the account creation process, 24 made it to the end goal
 
 5. Right-click on “step 3” in the Fallout and review all the options you have to drill deeper into analysis.
       - Of particular interest is the ability to see where people go next after Step 3, if they **fall-through** (make it to the Thank You page) or **fall-out** (don't make it to the Thank You page)
