@@ -104,7 +104,7 @@ _No action needed in this view_
 
 Let's go back to the use case that we've been working on: Understanding how customers navigate from Web to the Call Center. We want to understand the journey that customers are taking from the web site into the call center. To do this, we will start with call reason.
 
-6. Drag the “Call reason" dimension and drop it in the Exit drop zone:
+6. Drag the “New Accounts" dimension and drop it in the Exit drop zone:
 
 <kbd><img src="./images/CJA-flow-callreason-exitflow.png"  /></kbd>
 
