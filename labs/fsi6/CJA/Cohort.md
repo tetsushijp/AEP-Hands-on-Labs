@@ -83,7 +83,7 @@ The resulting Cohort Table shows the number of people who called by day as well 
 <kbd><img src="./images/CJA-cohort-calls-table.png"  /></kbd>
 
 There aren't a lot of people with repeat calls, but there are some.
-- For example, there were 234 calls on March 18. By March 30 (12 days later), 13 of those calls were repeat callers
+- For example, there were 384 calls on May 13. By May 16 (3 days later), 3 of those calls were repeat callers
 
 To dig deeper, you could also add Call Reason filters to the Inclusion and Return Criteria to see if they are calling for the same or different reasons. Go on and try it!
 
