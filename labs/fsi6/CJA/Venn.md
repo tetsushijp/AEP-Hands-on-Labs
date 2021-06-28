@@ -56,7 +56,7 @@ Now that we've completed the Sequential Filtering lab, let's review Venn diagram
 The Venn Visualization is great for measuring cross-over between events, sessions, or people, as it allows us to visually represent the cross-over. Let's use it to measure the crossover between different call reasons. We'll take the top 3 reasons and create a Venn Visualization that allows us to see cross-over at a Person level.
 
 1. Create a new panel below the last panel we just worked on, title it “Venn”, ensure your date range for POT6 is May 13-20, 2020 and select the Venn visualization
-      - Drag the top 3 “Call reason” individually into the Filters zone
+      - Drag the top 3 “Call selected reason” individually into the Filters zone
       - From the “Add One Metric” dropdown, select the "Calls" metric (alternatively, you can drag & drop the Calls metric from Components into the Metric drop zone)
       - Click "Build"
 
