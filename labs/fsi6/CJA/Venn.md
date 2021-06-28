@@ -89,10 +89,7 @@ Although there isn't a lot of overlap, there is some:
 
 <kbd><img src="./images/CJA-venn-personoverlap.png"  /></kbd>
 
-You can hover over the Venn circles to see the exact overlap:
-- 95 Calls where the reason was Payment Issue & Account Password Help
-- 84 Calls where the reason was Account Password Help & Order Created
-- 84 Calls where the reason was Payment Issue & Order Created
+You can hover over the Venn circles to see the exact overlap: 6 calls with Password Help and Payment Issue
 
 **NOTE:** If you want to hide the table from view, click on the round dot in the top left corner of the Venn visualization and deselect the checkbox to “Show Data Source”
 
