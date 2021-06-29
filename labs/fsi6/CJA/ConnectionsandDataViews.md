@@ -103,3 +103,4 @@ Note: The "Session Timeout" and "Start new visit with event" and filters are con
    ![Demo](images/cja-create-dataview3.png)
 
 You should now be able to see your data view under the "Data View" tab. 
+This completes our intro to Connections and Data Views, next we will start creating a CJA project by adding a new [Dashboard](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi6/CJA/Dashboards.md)
