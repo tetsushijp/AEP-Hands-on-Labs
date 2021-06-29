@@ -214,5 +214,5 @@ This will break out the "Sessions" metric by the various Session types the filte
 Using the knowledge from the earlier exercises you can imagine the types of dashboards you could create with this data.
 
 ### This completes the Filter creation excercise in CJA  
-Next we will review how to build calculated [Metrics](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/Foundations/CJA-Metrics.md)
+Next we will review how to build calculated [Metrics](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi6/CJA/Metrics.md)
 
