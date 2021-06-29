@@ -101,6 +101,6 @@ Let's see how many of these people call into the call center.
   
   
 ### This completes the Fallout excercise in CJA
-Next we will review how to create [Cohort](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/Foundations/CJA-Cohort.md) tables
+Next we will review how to create [Cohort](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi6/CJA/Cohort.md) tables
 
 
