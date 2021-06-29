@@ -89,5 +89,5 @@ To dig deeper, you could also add Call Reason filters to the Inclusion and Retur
 
 
 ### This completes the excercise on Cohorts
-Next we will review [Sequential Filtering](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/Foundations/CJA-SequentialFiltering.md)
+Next we will review [Sequential Filtering](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi6/CJA/SequentialFiltering.md)
 
