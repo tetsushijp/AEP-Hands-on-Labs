@@ -91,5 +91,5 @@ Now we can see the volume of Calls vs. the volume Calls that also made it to ste
 
 
 ### This completes the Sequential Filtering excercise in CJA
-Next we will review how to create [Venn Visualizations](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/Foundations/CJA-Venn.md)
+Next we will review how to create [Venn Visualizations](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi6/CJA/Venn.md)
 
