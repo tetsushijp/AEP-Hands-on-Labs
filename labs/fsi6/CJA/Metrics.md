@@ -135,5 +135,5 @@ We can now see the pages customers see in the sessions that they call with an "A
 
 
 ### This completes the Metrics section of the CJA lab  
-Next we will review [Attribution IQ](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/Foundations/CJA-AttributionIQ.md)
+Next we will review [Attribution IQ](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi6/CJA/AttributionIQ.md)
 
