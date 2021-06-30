@@ -251,7 +251,7 @@ Instructions:
 
 18.	Select the 'SKU' field and drag it into the ‘XDM ExperienceEvent’ container for ‘Product Views’
 
-	<kbd><img src="./images/segment_xdm_prodsku.png"  /></kbd>
+	<kbd><img src="./images/segment_xdm_prodsku.jpg"  /></kbd>
 
 19.	Enter ‘prd1030’ in the text box to the right of 'SKU equals' and press ‘Enter’
       <!--
