@@ -1,4 +1,4 @@
-Lab  - Activation of a Segment to a Destination 
+Lab  - Activation Workflow 
 ==========
 <table style="border-collapse: collapse; border: none;" class="tab" cellspacing="0" cellpadding="0">
 
@@ -10,12 +10,12 @@ Lab  - Activation of a Segment to a Destination
 <tbody valign="top">
       <tr width="500">
             <td valign="top"><h3>Objective:</h3></td>
-            <td valign="top"><br>In this exercise, we’ll share a segment created in a previous lab with the Google Ad Manager destination configured in AEP.</br>
+            <td valign="top"><br>In this exercise, we’ll share segments created in a previous lab with an S3 destination.</br>
             </td>
      </tr>
      <tr width="500">
            <td valign="top"><h3>Prerequisites:</h3></td>
-           <td valign="top"><br>Google Ad Manager Destination</td>
+           <td valign="top"><br>S3 Destination</td>
      </tr>
 </tbody>
 </table>
@@ -33,11 +33,11 @@ Lab  - Activation of a Segment to a Destination
       </tr>
       <tr>
             <td valign="middle" height="70"><b>version</b></td>
-            <td valign="middle" height="70">2</td>
+            <td valign="middle" height="70">3</td>
       </tr>
       <tr>
-            <td valign="middle" height="70"><b>date</b></td>
-            <td valign="middle" height="70">2020-07-17</td>
+            <td valign="middle" height="70"><b>Date</b></td>
+            <td valign="middle" height="70">2021-07-14</td>
       </tr>
 </tbody>
 </table>
@@ -49,29 +49,43 @@ Lab  - Activation of a Segment to a Destination
 
 Instructions:
 -----------------
-1.	In the left navigation of AEP, select Destinations > Browse.
-2.	Click ‘Adobe Americas POT 1’. 
+1.	In the left navigation of AEP, select Destinations.
+2.	Select the 'My destinations’ radio button in the Catalog view. Verify you see an Amazon S3 Connection 
 
-![Demo](./images/act_browse.png)
+![Demo](./images/mydestinations.png)
 
-3.	Once you select the destination, click on ‘Edit Activation’. This takes you to the Activate flow.
+3.	Select 'Activate'. You have two choices for Account type: 'Existing account' and 'New account'. Keep the default selection for 'Existing account'. Select the radio button to the left of the Amazon S3 destination and click 'Next' in the upper right corner.
 
-![Demo](./images/act_edit.png)
+![Demo](./images/account_existing.png)
  
-4.	In the Activate destination wizard > Select Segments step, select the checkbox for your version of the “Call Center Account Security” segment you created in the previous lab.
+4.	In the 'Authentication' screen, enter the following values: 
+      Name: AEP Activation 
+      Description: Activation to S3
+      Bucket-name: rtcdp-lab
+      Folder-path: /rtcdp-lab/pot1
+      Marketing actions: Export to third party
 
-![Demo](./images/act_segment_step1.png)
+![Demo](./images/destination_authenticate_pot1.png)
  
-5.	Select Next in the upper top corner of the workflow
+5.	Select 'Create destination'. Then select 'Next' in the upper right corner.
 
-![Demo](./images/act_segment_schedule_step2.png)
+6.	On the 'Select segments' screen, select the segments you created in the previous lab (Segments).
 
-6.	On the Segment Schedule page, you can see the start date for sending data to the destination. Some destinations will display the frequency of sending data to the destination. Since we're activating a segment to Google, this will be sent to the destination once per day, and this is the only option for this destination.
-7.	Click on ‘Next’ in the upper top corner of the workflow
+![Demo](./images/select_segments.png)
 
-![Demo](./images/act_segment_review_step3.png)
+8.	Click on ‘Next’ in the upper right corner of the workflow. This will take you to the 'Scheduling' step. Open the 'Schedule' settings and select 'Export incremental files'. Select the current date in the calendar.
 
-8.	On the Review page, you can see a summary of your selection. Please do not select 'Finish' for your segment in the lab; rather, select 'Cancel' to exit out the activation workflow.
+![Demo](./images/scheduling.png)
+
+9.	Click on 'Next' in the upper right corner of the workflow. Clear all fields. Add two new fields:
+      person.gender
+      personalEmail.address
+
+![Demo](./images/attributes.png)
+
+10.   Click on 'Next' in the upper right corner of the workflow. This will take you to the the 'Review' step. Select 'Finish' to complete the Profile Activation.
+
+![Demo](./images/dest_review.png)
 
 <br>
 <br>
