@@ -62,10 +62,10 @@ Instructions:
       Name: AEP Activation 
       Description: Activation to S3
       Bucket-name: rtcdp-lab
-      Folder-path: /rtcdp-lab/pot1
+      Folder-path: /rtcdp-lab/pot6
       Marketing actions: Export to third party
 
-![Demo](./images/destination_authenticate_pot1.png)
+![Demo](./images/destination_authenticate_pot6.png)
  
 5.	Select 'Create destination'. Then select 'Next' in the upper right corner.
 
