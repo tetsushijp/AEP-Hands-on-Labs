@@ -20,7 +20,7 @@ Please download your own attendee [lab content/uploads here](https://github.com/
  - [APIs](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/Foundations/APIs.md)
 
 ### Adobe Experience Platform - RTCDP
-- [Activate Segment](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/Foundations/destinations.md)
+- [Activation Workflow](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/Foundations/destinations.md)
 
 ### Adobe Experience Platform - Journey Orchestration
  - [Events](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/Journey%20Orchestration/Exercise1-Events.md)
