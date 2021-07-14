@@ -20,7 +20,7 @@ Please download [lab exercise files here](https://github.com/adobe/AEP-Hands-on-
  - [APIs](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi6/Foundations/APIs.md)
 
 ### Adobe Experience Platform - RTCDP
-- [Activate Segment](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi6/Foundations/destinations.md)
+- [Activation Workflow](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi6/Foundations/destinations.md)
 
 ### Adobe Experience Platform - Intelligent Services
 - [Create an Attribution AI Instance](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi6/Intelligent%20Services/attributionai.md)
