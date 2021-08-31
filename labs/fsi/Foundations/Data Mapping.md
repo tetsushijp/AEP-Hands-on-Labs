@@ -72,7 +72,7 @@ Before we begin, make sure you have downloaded the exercise files from [HERE](ht
 6)	Once the file has loaded, a preview will appear on the right. Select “Next” to proceed.
 ![Demo](https://github.com/adobe/AEP-Hands-on-Labs/blob/0a72496b0e4376b87b335fd43d1cbc988737a952/labs/fsi/Foundations/images/Data_preview.png)
 
-7)	Now we will begin to map our file to the XDM schema structure. Based on source attribute names, Platform will take a best guess at choosing target field mappings for you. In this case, the mappings for “country” and “email” need to be corrected. Hit the minus sign to the right of the “faxPhone.countryCode” and “emailFormat” mapping suggestion to remove this mapping. 
+7)	Now we will begin to map our file to the XDM schema structure. Based on source attribute names, Platform automatically provides intelligent recommendations for field mappings based on the dataset that you selected. In this case, the mappings for “country” and “email” need to be corrected. Hit the minus sign to the right of the “faxPhone.countryCode” and “emailFormat” mapping suggestion to remove this mapping. 
 ![Demo](https://github.com/adobe/AEP-Hands-on-Labs/blob/0a72496b0e4376b87b335fd43d1cbc988737a952/labs/fsi/Foundations/images/mapping_1st_screen_edit.png)
 
 8)	After those have been removed, select the “+” sign beside the empty mapping to select a new target field. In the following pop up window, select “homeAddress > country” and “Save” to select the mapping for “country”. Repeat the same process for email and select “personalEmail > address” for the new target mapping.
