@@ -39,7 +39,7 @@ Optional Exercise - Data Prep and Mapping to XDM Schema
       </tr>
       <tr>
             <td valign="middle" height="70"><b>date</b></td>
-            <td valign="middle" height="70">2020-01-06</td>
+            <td valign="middle" height="70">2021-09-01</td>
       </tr>
 </tbody>
 </table>
