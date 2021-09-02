@@ -55,7 +55,7 @@ Instructions:
 -----------------
 
 In this exercise, we will be demonstrating the CSV to XDM mapping functionality by mapping a CSV file to a previously created schema and creating some custom mapping functions for data prep.
-Before we begin, make sure you have downloaded the exercise files from [HERE](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/lab_dowloads.md).
+Before we begin, make sure you have downloaded the exercise files from [HERE](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi6/lab_downloads.md).
 
 
 1)	From the left hand menu, navigate to “Workflows”
