@@ -18,6 +18,7 @@ Please download your own attendee [lab content/uploads here](https://github.com/
  - [Segments](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/media/Foundations/Segments.md)
   - [Query Service](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/media/Foundations/DeepDive%20QueryService.md)
  - [APIs](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/media/Foundations/APIs.md)
+ - [Data Mapping](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/media/Foundations/Data%20Mapping.md)
 
 ### Adobe Experience Platform - RTCDP
 - [Activate Segment](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/media/Foundations/destinations.md)
