@@ -18,6 +18,7 @@ Please download [lab exercise files here](https://github.com/adobe/AEP-Hands-on-
  - [Segments](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi6/Foundations/Segments.md)
  - [Query Service](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi6/Foundations/DeepDive%20QueryService.md)
  - [APIs](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi6/Foundations/APIs.md)
+ - [Data Mapping](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi6/Foundations/Data%20Mapping.md)
 
 ### Adobe Experience Platform - RTCDP
 - [Activation Workflow](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi6/Foundations/destinations.md)
