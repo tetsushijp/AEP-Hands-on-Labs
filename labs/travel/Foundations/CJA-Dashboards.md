@@ -218,12 +218,13 @@ If you're familiar with Adobe Analytics Workspace Analysis, you'll notice severa
 **Lock Selected Items in Donut Visualization**
 
 1.	In the Marketing Channel Performance table, select the following channels:<p>
-      - partner offer
-      - email
-      - social
-      - mobile sms
-      - web sem
-      - web natural search
+     - email
+     - social
+     - mobile sms
+     - web sem
+     - web natural search
+     - print mailer
+
 
 <kbd><img src="./images/CJA-FIGURE22.png"  /></kbd>
 
