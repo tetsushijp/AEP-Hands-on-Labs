@@ -73,7 +73,7 @@ If you're familiar with Adobe Analytics Workspace Analysis, you'll notice severa
 
 1.	Let's start building a dashboard. 
 2.	Ensure that the "DV 001" Data View is selected in the Data View selector
-3.	Set Reporting Date Range to May 13-20, 2020 from table below and click "Apply".
+3.	Set Reporting Date Range to March 18-30, 2020 from table below and click "Apply".
 
 <kbd><img src="./images/CJA-FIGURE1.png"  /></kbd>
 
@@ -218,12 +218,12 @@ If you're familiar with Adobe Analytics Workspace Analysis, you'll notice severa
 **Lock Selected Items in Donut Visualization**
 
 1.	In the Marketing Channel Performance table, select the following channels:<p>
-      - partner offer
+      - display
       - email
       - social
       - mobile sms
-      - web sem
-      - web natural search
+      - sem
+      - seo
 
 <kbd><img src="./images/CJA-FIGURE22.png"  /></kbd>
 
