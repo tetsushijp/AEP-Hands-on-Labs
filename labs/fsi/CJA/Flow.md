@@ -55,7 +55,7 @@ Now that we completed the Attribution IQ lab let's review Flow Visualizations.
 The Flow visualization is very powerful for understanding customer journeys in a single channel or across channels. This analysis is perfect for our use-case.
 
 1. Click the "+" beneath the last panel that you created to create a new panel.
-      - Title it “Flow” and ensure your date range for POT6 is May 13-20, 2020
+      - Title it “Flow” and ensure your date range for POT1 is March 18-30, 2020.
       - Select the Flow visualization and this will bring you to the Flow visualization configuration view:
 
 <kbd><img src="./images/CJA-flow-dimensionconfig.png"  /></kbd>
@@ -125,6 +125,6 @@ This can be very powerful in understanding customer journeys across channels.
 
 
 ### This completes the Flow Visualization excercise in CJA
-Next we will review how to create [Fallout](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi6/CJA/Fallout.md) charts
+Next we will review how to create [Fallout](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/CJA/Fallout.md) charts
 
 
