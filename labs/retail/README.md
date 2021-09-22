@@ -21,7 +21,7 @@ Please download your own attendee [lab content/uploads here](https://github.com/
  - [Data Mapping](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/Foundations/Data%20Mapping.md)
 
 ### Adobe Experience Platform - RTCDP
-- [Activation Workflow (Destinations)] (https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/Foundations/destinations.md)
+- [Activation Workflow / Destinations] (https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/Foundations/destinations.md)
 - [Bi-direction Segments (AEP > Target) ](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/Foundations/BidirectionalTarget.md)
 
 ### Adobe Experience Platform - Intelligent Services
