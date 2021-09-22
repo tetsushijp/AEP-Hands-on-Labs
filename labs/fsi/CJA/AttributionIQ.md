@@ -58,13 +58,13 @@ Attribution IQ can be used to dig a bit deeper into our use case. Attribution IQ
 In most cases, people think of measuring the influence of marketing touches on driving conversions when talking about attribution. Attribution IQ supports this use case very well, but it can also be used for many other use cases. For example, measuring the influence of web pages on driving calls.
 Let's start with the marketing use case.
 
-1. Create a new panel with a Freeform Table and title it “Attribution IQ”. Ensure your date range for POT1 is March 18-30, 2020. Drag the “Web Marketing Channel” dimension & drop it into the panel, then add in the “Sessions” & “New Accounts” metrics:
+1. Create a new panel with a Freeform Table and title it “Attribution IQ”. Ensure your date range for POT1 is March 18-30, 2020. Drag the “Web Marketing Channel” dimension & drop it into the panel, then add in the “Sessions” & “Account Open” metrics:
 
       <kbd><img src="./images/cja-attributioniq-createpanel1.png"  /></kbd>
 
-This table shows the performance of these Marketing Channels on driving New Accounts from a Last Touch perspective. This is because the Marketing Channel dimension is setup to use a default attribution model of Last Touch. But using Attribution IQ, users can dynamically change the model being used on the fly. Let's change the model being used now.
+This table shows the performance of these Marketing Channels on driving Account Open from a Last Touch perspective. This is because the Marketing Channel dimension is setup to use a default attribution model of Last Touch. But using Attribution IQ, users can dynamically change the model being used on the fly. Let's change the model being used now.
 
-2. Hover over the “New Accounts" metric in the table and click on the gear icon when it appears. This will open column settings.
+2. Hover over the “Account Open" metric in the table and click on the gear icon when it appears. This will open column settings.
       - In column settings, click on the "Use non-default attribution model" checkbox down in the Data settings section to enable Attribution IQ on this metric. This will open the Attribution IQ configuration window.
       - From here we can select the Attribution Model and Lookback Window
       - Click on the Model drop-down list to access all the attribution models available and select “Linear”
