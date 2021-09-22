@@ -31,7 +31,16 @@ Please download your own attendee [lab content/uploads here](https://github.com/
 
 
 ### Adobe Experience Platform - Customer Journey Analytics
- - [Data Connections and Data Views](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/CJA/Home.md)
+ - [Data Connections and Data Views](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/CJA/ConnectionsandDataViews.md)
+ - [Dashboards](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/CJA/Dashboards.md)
+ - [Filters](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/CJA/Filters.md)
+ - [Metrics](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/CJA/Metrics.md)
+ - [Attribution IQ](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/CJA/AttributionIQ.md)
+ - [Flow](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/CJA/Flow.md)
+ - [Fallout](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/CJA/Fallout.md)
+ - [Cohort](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/CJA/Cohort.md)
+ - [Sequential Filtering](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/CJA/SeqeuntialFiltering.md)
+ - [Venn](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/CJA/Venn.md)
  
 ## QuickLinks
 
