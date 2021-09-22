@@ -106,7 +106,7 @@ This creates a new Panel in the Project we're working on, that asks where we wan
  
 <kbd><img src="./images/CJA-FIGURE32.png"  /></kbd> 
 
-Ensure you're using the "DV 001" Data View and that the Date Range is set to the correct date range: May 13-20, 2020
+Ensure you're using the "DV 001" Data View and that the Date Range is set to the correct date range: March 18-30, 2020
 
 3. Drag the "Day" dimension into the table.
  
@@ -214,6 +214,6 @@ This will break out the "Sessions" metric by the various Session types the filte
 Using the knowledge from the earlier exercises you can imagine the types of dashboards you could create with this data.
 
 ### This completes the Filter creation excercise in CJA  
-Next we will review how to build calculated [Metrics](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi6/CJA/Metrics.md)
+Next we will review how to build calculated [Metrics](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/CJA/Metrics.md)
 
 
