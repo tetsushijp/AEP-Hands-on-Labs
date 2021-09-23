@@ -76,7 +76,7 @@ We can see that 2,327 people have started the process of creating an account.
 
 <kbd><img src="./images/CJA-fallout-accountcreate-allsteps.png"  /></kbd>
 
-We can see that out of 2,327 people who started the account creation process, 350 made it to the end goal
+We can see that out of 2,327 people who started the account creation process, [UPDATE VALUE] made it to the end goal
 
 5. Right-click on “step 3” in the Fallout and review all the options you have to drill deeper into analysis.
       - Of particular interest is the ability to see where people go next after Step 3, if they **fall-through** (make it to the Thank You page) or **fall-out** (don't make it to the Thank You page)
@@ -91,7 +91,7 @@ Let's see how many of these people call into the call center.
 
 <kbd><img src="./images/CJA-fallout-callsadded1.png"  /></kbd>
 
-  We can see that there are 350 people that make it to step 3 and then call into the call center
+  We can see that there are [UPDATE VALUE] people that make it to step 3 and then call into the call center
 
 7. Remove step 3 in the fallout by clicking the "x" to the right of step 3.
 
