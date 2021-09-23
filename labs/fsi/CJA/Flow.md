@@ -102,9 +102,9 @@ _No action needed in this view_
 
 <kbd><img src="./images/CJA-flow-addanotherflow.png"  /></kbd>
 
-Let's go back to the use case that we've been working on: Understanding how customers navigate from Web to the Call Center. We want to understand the journey that customers are taking from the web site into the call center. To do this, we will start with call reason.
+Let's go back to the use case that we've been working on: Understanding how customers navigate from Web to the Call Center. We want to understand the journey that customers are taking from the web site into the call center. To do this, we will start with callSelectedReason.
 
-6. Drag the “Call Reasons" dimension and drop it in the Exit drop zone:
+6. Drag the “callSelectedReason" dimension and drop it in the Exit drop zone:
 
 <kbd><img src="./images/CJA-flow-callreason-exitflow.png"  /></kbd>
 
@@ -112,7 +112,7 @@ Let's go back to the use case that we've been working on: Understanding how cust
 
 One very powerful capability the Flow visualization supports is the ability to mix and match the dimensions being used.
 
-7. Drag the “webPagename" dimension and drop it to the left of the “Call Reason" values on the left side of the visualization when you get the blue "Add" box.
+7. Drag the “webPagename" dimension and drop it to the left of the “callSelectedReason" values on the left side of the visualization when you get the blue "Add" box.
 The result is a view into the top pages customers interact with prior to a call, broken out by call type:
 
 <kbd><img src="./images/CJA-flow-callreason-pagename.png"  /></kbd>
