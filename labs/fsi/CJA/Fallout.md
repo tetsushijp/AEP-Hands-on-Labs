@@ -62,7 +62,7 @@ The Fallout visualization is great for understanding customer paths when there a
 
 The Fallout visualization requires touchpoints in the process you want to measure fall-through as well as fall-out for.
 
-2. From the Components menu, click on the arrow to the right of the “Web page name" dimension, click on “Show items from the last X months” until the values show up, and search for “account".
+2. From the Components menu, click on the arrow to the right of the “webPageName" dimension, click on “Show items from the last X months” until the values show up, and search for “account".
       - Drag "create account: step 1" into the Add Touchpoint drop zone
 
 <kbd><img src="./images/CJA-fallout-accountcreate-dragdrop.png"  /></kbd>
