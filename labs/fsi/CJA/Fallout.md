@@ -91,7 +91,7 @@ Let's see how many of these people call into the call center.
 
 <kbd><img src="./images/CJA-fallout-callsadded1.png"  /></kbd>
 
-  We can see that there are 24 people that make it to step 3 and then call into the call center
+  We can see that there are 350 people that make it to step 3 and then call into the call center
 
 7. Remove step 3 in the fallout by clicking the "x" to the right of step 3.
 
