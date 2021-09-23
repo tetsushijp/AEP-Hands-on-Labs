@@ -67,7 +67,7 @@ The Flow visualization is very powerful for understanding customer journeys in a
 
 Let's try this from a Web Pathing perspective to start with.
 
-2. From the Components menu, click on the arrow to the right of the “Web page name” dimension.
+2. From the Components menu, click on the arrow to the right of the “webPagename” dimension.
       - Click on “Show items from last X months” until the values show up
       - Drag the “home” page and drop it into the center drop zone for the Flow visualization:
 
@@ -112,7 +112,7 @@ Let's go back to the use case that we've been working on: Understanding how cust
 
 One very powerful capability the Flow visualization supports is the ability to mix and match the dimensions being used.
 
-7. Drag the “Web page name" dimension and drop it to the left of the “Call Reason" values on the left side of the visualization when you get the blue "Add" box.
+7. Drag the “webPagename" dimension and drop it to the left of the “Call Reason" values on the left side of the visualization when you get the blue "Add" box.
 The result is a view into the top pages customers interact with prior to a call, broken out by call type:
 
 <kbd><img src="./images/CJA-flow-callreason-pagename.png"  /></kbd>
