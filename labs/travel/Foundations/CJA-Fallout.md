@@ -56,7 +56,7 @@ Now that we've reviewed Flow visualizations, let's move on to Fallouts.
 
 The Fallout visualization is great for understanding customer paths when there are specific points or events you want to account for. For example, measuring a process on the site.
 
-1. Create a new panel, title it “Fallout” and ensure your date range for POT5 is March 18-30, 2020. Select the Fallout visualization as the starting point of the panel.
+1. Create a new panel, title it “Fallout” and ensure your date range for POT3 is March 18-30, 2020. Select the Fallout visualization as the starting point of the panel.
 
 <kbd><img src="./images/CJA-fallout-newfallout.png"  /></kbd>
 
@@ -101,6 +101,6 @@ Let's see how many of these people call into the call center.
   
   
 ### This completes the Fallout excercise in CJA
-Next we will review how to create [Cohort](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/Foundations/CJA-Cohort.md) tables
+Next we will review how to create [Cohort](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/travel/Foundations/CJA-Cohort.md) tables
 
 
