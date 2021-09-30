@@ -56,7 +56,7 @@ We just reviewed Fallout visualizations, now let's move onto Cohorts.
 The Cohort Table allows us to measure downstream behavior after an event of interest.
 In this case, we want to understand customer call behaviors. Specifically, we want to understand the repeat call behaviors of those customers.
 
-1. Create a new panel below the last panel we just worked on, title it “Cohort”, ensure your date range for POT5 is March 18-30, 2020 and select the Cohort Table visualization.
+1. Create a new panel below the last panel we just worked on, title it “Cohort”, ensure your date range for POT3 is March 18-30, 2020 and select the Cohort Table visualization.
 
 <kbd><img src="./images/CJA-cohort-newcohort.png"  /></kbd>
 
@@ -89,5 +89,5 @@ To dig deeper, you could also add Call Reason filters to the Inclusion and Retur
 
 
 ### This completes the excercise on Cohorts
-Next we will review [Sequential Filtering](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/Foundations/CJA-SequentialFiltering.md)
+Next we will review [Sequential Filtering](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/travel/Foundations/CJA-SequentialFiltering.md)
 
