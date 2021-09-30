@@ -76,7 +76,7 @@ We can see that 2,327 people have started the process of creating an account.
 
 <kbd><img src="./images/CJA-fallout-accountcreate-allsteps.png"  /></kbd>
 
-We can see that out of 2,327 people who started the account creation process, 834 made it to the end goal
+We can see that out of 71,869 people who started the account creation process, 2,327 made it to the end goal
 
 5. Right-click on “step 3” in the Fallout and review all the options you have to drill deeper into analysis.
       - Of particular interest is the ability to see where people go next after Step 3, if they **fall-through** (make it to the Thank You page) or **fall-out** (don't make it to the Thank You page)
