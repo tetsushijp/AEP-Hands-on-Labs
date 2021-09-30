@@ -193,7 +193,7 @@ If you're familiar with Adobe Analytics Workspace Analysis, you'll notice severa
 
 <kbd><img src="./images/CJA-FIGURE19.png"  /></kbd>
 
-4.	Drag the "Online Purchases" metric from the Components menu and "Add" it to the right of the "Sessions" metric you just added to the table.
+4.	Drag the "New Accounts" metric from the Components menu and "Add" it to the right of the "Sessions" metric you just added to the table.
 5.	We now have a table with the dimension and metrics we want to represent in the Donut visualization. Rename the "Freeform Table (2)" table to "Marketing Channel Performance".
 
 
