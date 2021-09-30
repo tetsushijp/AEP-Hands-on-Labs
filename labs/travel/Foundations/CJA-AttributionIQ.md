@@ -58,7 +58,7 @@ Attribution IQ can be used to dig a bit deeper into our use case. Attribution IQ
 In most cases, people think of measuring the influence of marketing touches on driving conversions when talking about attribution. Attribution IQ supports this use case very well, but it can also be used for many other use cases. For example, measuring the influence of web pages on driving calls.
 Let's start with the marketing use case.
 
-1. Create a new panel with a Freeform Table and title it “Attribution IQ”. Ensure your date range for POT5 is March 18-30, 2020. Drag the “Web Marketing Channel” dimension & drop it into the panel, then add in the “Sessions” & “Online Purchases” metrics:
+1. Create a new panel with a Freeform Table and title it “Attribution IQ”. Ensure your date range for POT3 is March 18-30, 2020. Drag the “Web Marketing Channel” dimension & drop it into the panel, then add in the “Sessions” & “Online Purchases” metrics:
 
       <kbd><img src="./images/cja-attributioniq-createpanel1.png"  /></kbd>
 
@@ -125,5 +125,5 @@ The result is a table that uses a 15-Minute Time Decay model to give credit to p
 Clients typically use this data to uncover the top pages driving calls and testing different versions of those pages (Adobe Target is a great option here) until they find a version that works best at keeping people in the cheaper, online channel.
 
 ### This completes the excercise on Attribution IQ in CJA
-Next we will review [Flow Visualizations](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/Foundations/CJA-Flow.md)
+Next we will review [Flow Visualizations](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/travel/Foundations/CJA-Flow.md)
 
