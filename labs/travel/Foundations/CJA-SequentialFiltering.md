@@ -79,7 +79,7 @@ We want to create a Filter that allows us to measure the People that hit Step 1 
 
 This filter will find people who hit the first step of the Account Creation process and made a call within 1 day
 
-3. Now create a new panel below the last panel we just worked on, title it “Sequential Filtering”, ensure your date range for POT5 is March 18-30, 2020 and select the Freeform table.
+3. Now create a new panel below the last panel we just worked on, title it “Sequential Filtering”, ensure your date range for POT3 is March 18-30, 2020 and select the Freeform table.
       - Drag the “Call reason" dimension into the table
       - Drag the “People” metric into the table, twice so that they’re side by side (you’ll have 2 identical “People” metrics next to each other)
       - Now drag the new filter we just created underneath one the "People" metrics to "Filter" the metric by those people
@@ -91,5 +91,5 @@ Now we can see the volume of Calls vs. the volume Calls that also made it to ste
 
 
 ### This completes the Sequential Filtering excercise in CJA
-Next we will review how to create [Venn Visualizations](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/Foundations/CJA-Venn.md)
+Next we will review how to create [Venn Visualizations](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/travel/Foundations/CJA-Venn.md)
 
