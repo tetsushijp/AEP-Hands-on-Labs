@@ -97,7 +97,7 @@ Let's see how many of these people call into the call center.
 
 <kbd><img src="./images/CJA-fallout-callsadded2.png"  /></kbd>
 
-  We can see that 228 people make it to step 2 and then call.
+  We can see that 1,729 people make it to step 2 and then call.
   
   
 ### This completes the Fallout excercise in CJA
