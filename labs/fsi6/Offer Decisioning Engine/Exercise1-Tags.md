@@ -7,7 +7,7 @@ Let’s create a Tag that we will use for our Lab today.
 To create a Tag, follow these steps:
 
 
-1.	Click on Tags within the Offers navigation.
+1.	Click on Tags within the Decision Management -> Components navigation.
 
     ![Demo](images/navigate_to_tags.png)
 
