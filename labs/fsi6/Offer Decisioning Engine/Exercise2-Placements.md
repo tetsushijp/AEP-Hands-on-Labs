@@ -11,7 +11,7 @@ We are going to create a placement for an email hero banner using an image, text
 To create a Placement, follow these steps:
 
 
-1.	Go to the Placements tab, then click `Create placement`.
+1.	Go to the Placements tab within Decision Management -> Components, then click `Create placement`.
 
     ![Demo](images/create_placement.png)
 
