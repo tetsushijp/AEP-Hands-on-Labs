@@ -2,7 +2,7 @@
 
 To create an activity/decision, follow these steps:
 
-1.	Select the Decisions within Decision Management -> Offers, then click `Create decision`
+1.	Select Decisions within Decision Management -> Offers, then click `Create decision`
 
     ![Demo](images/createActivity.png)
     
