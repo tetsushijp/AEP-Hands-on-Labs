@@ -6,7 +6,8 @@ Now that we have created a Tag, Placements and Decision Rules, let’s create ou
 
 To create a personalized offer, follow these steps:
 
-1.	In the Browse tab, click `Create offer` then select `Personalized offer`
+1.	Navigate to Decision Management -> Offers
+2.	In the Browse tab, click `Create offer` then select `Personalized offer`
 
     ![Demo](images/personolizedOffer.png)
 
