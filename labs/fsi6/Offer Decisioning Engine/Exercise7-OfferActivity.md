@@ -4,9 +4,9 @@ To create an activity/decision, follow these steps:
 
 1.	Select Decisions within Decision Management -> Offers, then click `Create decision`
 
-    ![Demo](images/createActivity.png)
+    ![Demo](images/createDecision.png)
     
-  - Specify the activity’s name. For the purposes of the lab, please use this naming convention. (“UpsellActivity + your sandbox number. Ex: AutoLoanUpsellActivity24”)
+  - Specify a name for this Decision. For the purposes of the lab, please use this naming convention. (“Upsell + your sandbox number. Ex: AutoLoanUpsell24”)
 
 2.	 Define a start and end date, and time. Start date = today. End date = 1 year from today, then click `Next`
 
