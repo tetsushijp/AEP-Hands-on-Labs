@@ -13,7 +13,7 @@ In this exercise, we are creating 2 rules.
 
 ## Create a ”Loan Eligibility” Decision Rule using a Profile Attribute
 
-1.	Go to the Rules tab, then click `Create rule`.
+1.	Go to the Rules tab within Decision Management -> Components, then click `Create rule`.
 
     ![Demo](images/create_rule.png)
     
