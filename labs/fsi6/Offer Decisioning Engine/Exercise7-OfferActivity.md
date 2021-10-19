@@ -10,7 +10,7 @@ To create an activity/decision, follow these steps:
 
 2.	 Define a start and end date, and time. Start date = today. End date = 1 year from today, then click `Next`
 
-![Demo](images/createDecision2.png)
+    ![Demo](images/createDecision2.png)
     
 3.	Drag and drop or click on the “+” to add the placements for the banner, email text and mobile text from the list to add it to the canvas. 
 
@@ -25,7 +25,7 @@ To create an activity/decision, follow these steps:
 7.	Click `Next` to confirm.
 8.	Select the Fallback offer that will be presented as a last resort to the customers that do not match the offers eligibility rules and constraints
 
- ![Demo](images/createDecision5.png) 
+    ![Demo](images/createDecision5.png) 
  
 10.	Click `Next` to review a summary of your offer decision. You should see 3 decisions, each containing 2 offer types (Auto loan and Wealth management,) and a fallback offer.
  
