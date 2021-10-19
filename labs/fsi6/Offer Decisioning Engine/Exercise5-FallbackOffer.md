@@ -4,7 +4,7 @@ Fallback offers are default offers which are shown to customers who don’t qual
 
 To create a fall back offer, follow these steps:
 
-1.	In the Browse tab, click “Create offer,” then select “Fallback offer.”
+1.	Within Decision Management -> Offers, click “Create offer,” then select “Fallback offer.”
 
     ![Demo](images/FallbackOffer.png)
 
