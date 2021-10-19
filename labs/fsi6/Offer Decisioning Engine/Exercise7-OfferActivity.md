@@ -6,11 +6,11 @@ To create an activity/decision, follow these steps:
 
     ![Demo](images/createDecision.png)
     
-  - Specify a name for this Decision. For the purposes of the lab, please use this naming convention. (“Upsell + your sandbox number. Ex: AutoLoanUpsell24”)
+  - Specify a name for this Decision. For the purposes of the lab, please use this naming convention. (“Upsell + your sandbox number. Ex: Upsell24”)
 
 2.	 Define a start and end date, and time. Start date = today. End date = 1 year from today, then click `Next`
 
-![Demo](images/createActivity2.png)
+![Demo](images/createDecision2.png)
     
 3.	Drag and drop or click on the “+” to add the placements for the banner, email text and mobile text from the list to add it to the activity. 
 
