@@ -12,7 +12,7 @@ To create an activity/decision, follow these steps:
 
 ![Demo](images/createDecision2.png)
     
-3.	Drag and drop or click on the “+” to add the placements for the banner, email text and mobile text from the list to add it to the activity. 
+3.	Drag and drop or click on the “+” to add the placements for the banner, email text and mobile text from the list to add it to the canvas. 
 
     ![Demo](images/createDecision3.png) 
     
@@ -27,7 +27,7 @@ To create an activity/decision, follow these steps:
 
  ![Demo](images/createDecision5.png) 
  
-10.	Click `Next` to review a summary of you offer activity. You should see 3 decisions, each containing 2 offer types (Auto loan and Wealth management,) and a fallback offer.
+10.	Click `Next` to review a summary of your offer decision. You should see 3 decisions, each containing 2 offer types (Auto loan and Wealth management,) and a fallback offer.
  
     ![Demo](images/createDecision6.png) 
     
