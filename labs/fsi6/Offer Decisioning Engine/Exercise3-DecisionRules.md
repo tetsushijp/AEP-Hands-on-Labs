@@ -7,9 +7,9 @@ For example, you can specify that you only want a ‘Loan Eligibility Offer’ t
 In this exercise, we are creating 2 rules.
 
 1. Loan Eligibility
-    - Conditions: A customer with a FICO score greater than or equal to 2000 and propensity to ReFi greater than or equal to 7
+    - Conditions: A customer with a "creditRating" score greater than or equal to 2000 and "propensity to ReFi" greater than or equal to 7
 2. Affluent Customers
-    - Conditions: Customers with a FICO score greater than 700, household income greater than $100k and between the ages of 30 -50
+    - Conditions: Customers with a "creditRating" score greater than or equal to 2000, "propensity to ReFi" greater than or equal to 7 and "above 50 years of age"
 
 ## Create a ”Loan Eligibility” Decision Rule using a Profile Attribute
 
