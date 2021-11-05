@@ -1,4 +1,4 @@
-**B2B Profile Exercise **
+**B2B Profile Exercise**
 ==========
 
 Overview: Look up a profile, view associated account and opportunities. Traverse to account record, show opportunities and people related to account. 
