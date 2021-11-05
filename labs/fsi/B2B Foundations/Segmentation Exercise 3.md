@@ -15,7 +15,7 @@ Overview: Create a segment of all contacts who are directly involved on an oppor
 
 4)	In the left pane, select ‘Attributes’ under Fields.
    
-![Demo](./images/4_Click_Attrib.png)
+![Demo](./images/4_ClickAttrib.png)
 
 5)	Click on ‘XDM Individual Profile’ under Browse Attributes. 
    
