@@ -10,7 +10,7 @@ Please download your own attendee [lab content/uploads here](https://github.com/
 
 ## Lab Agenda
 
-### Adobe Experience Platform - Foundations
+### Adobe Experience Platform - B2C Foundations
  - [Schemas](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/Foundations/Schemas.md)
  - [Datasets](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/Foundations/Datasets.md)
  - [DULE](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/Foundations/DULE.md)
@@ -18,6 +18,16 @@ Please download your own attendee [lab content/uploads here](https://github.com/
  - [Segments](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/Foundations/Segments.md)
  - [Query Service](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/Foundations/DeepDive%20QueryService.md)
  - [APIs](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/Foundations/APIs.md)
+ - [Data Mapping](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/Foundations/Data%20Mapping.md)
+
+### Adobe Experience Platform - B2B Foundations
+ - [Schemas](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/Foundations/Schemas_b2b.md)
+ - [Datasets](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/Foundations/Datasets_b2b.md)
+ - [DULE](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/Foundations/DULE_b2b.md)
+ - [Profiles & Identities](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/Foundations/Profiles_b2b.md)
+ - [Segments](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/Foundations/Segments_b2b.md)
+ - [Query Service](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/Foundations/DeepDive%20QueryService.md)
+ - [APIs](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/Foundations/APIs_b2b.md)
  - [Data Mapping](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/Foundations/Data%20Mapping.md)
 
 ### Adobe Experience Platform - RTCDP
