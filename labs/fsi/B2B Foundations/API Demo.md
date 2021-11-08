@@ -30,15 +30,15 @@ Postman Workspace: B2B RTCDP Streaming API
 
 ![Demo](./images/api/7_updates.png) 
 
-   a.	Inlet ID in the POST URL. You can find this from the UI under Sources > Accounts tab, clicking the ‘HTTP streaming connection’ record, and copying the ID at the end of the ‘Streaming endpoint’. 
+    * Inlet ID in the POST URL. You can find this from the UI under Sources > Accounts tab, clicking the ‘HTTP streaming connection’ record, and copying the ID at the end of the ‘Streaming endpoint’. 
     
    ![Demo](./images/api/7a_endpoint.png)
     
-   b.	Dataset ID from step 4.
+    * Dataset ID from step 4.
     
-   c.	Schema ID URL from step 6.
+    * Schema ID URL from step 6.
     
-   d.	Person details to match the record you want to ingest.
+    * Person details to match the record you want to ingest.
  
 8)	Send the ‘Call Data Inlet’ request. 
 
