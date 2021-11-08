@@ -2,7 +2,7 @@
 ==========
 Overview: Walk through how to set up a streaming data connection using APIs in POSTMAN. Stream a CRM profile record into the dataset. View the profile in the UI.
 
-Postman Workspace: B2B RTCDP Streaming API
+**Postman Workspace:** B2B RTCDP Streaming API
 
 1)	Run 2 calls in order in Authentication folder to establish connection.
 
