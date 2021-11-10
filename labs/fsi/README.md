@@ -21,13 +21,15 @@ Please download your own attendee [lab content/uploads here](https://github.com/
  - [Data Mapping](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/Foundations/Data%20Mapping.md)
 
 ### Adobe Experience Platform - B2B Foundations
- - [Schemas](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/Foundations/Schemas_b2b.md)
- - [Datasets](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/Foundations/Datasets_b2b.md)
- - [DULE](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/Foundations/DULE_b2b.md)
- - [Profiles & Identities](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/Foundations/Profiles_b2b.md)
- - [Segments](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/Foundations/Segments_b2b.md)
+ - [Schemas](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/B2B%20Foundations/Schemas_b2b.md)
+ - [Datasets](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/B2B%20Foundations/Datasets_b2b.md)
+ - [DULE](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/B2B%20Foundations/DULE.md)
+ - [Profiles & Identities](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/B2B%20Foundations/B2B%20Profile.md)
+ - [Segments Exercise 1](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/B2B%20Foundations/Segmentation%20Exercise%201.md)
+ - [Segments Exercise 2](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/B2B%20Foundations/Segmentation%20Exercise%202.md)
+ - [Segments Exercise 3](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/B2B%20Foundations/Segmentation%20Exercise%203.md)
  - [Query Service](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/Foundations/DeepDive%20QueryService.md)
- - [APIs](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/Foundations/APIs_b2b.md)
+ - [APIs](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/B2B%20Foundations/API%20Demo.md)
  - [Data Mapping](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/Foundations/Data%20Mapping.md)
 
 ### Adobe Experience Platform - RTCDP
