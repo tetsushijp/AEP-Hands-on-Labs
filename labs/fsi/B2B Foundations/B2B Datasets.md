@@ -33,7 +33,7 @@
 
 We have successfully created the dataset, but this dataset has not ingested data. We will now import a file into this dataset. This time we will import a JSON file and it will simply need to be dragged and dropped into the dataset.
 
-6. On the right panel, scroll down until you see the **ADD DATA** section. Then either Choose files or simply drag and drop the downloaded lab file - [B2B_Account_Data_Lab2-1.json](.assets/B2B/B2B_Account_Data_Lab2-1.json)
+6. On the right panel, scroll down until you see the **ADD DATA** section. Then either Choose files or simply drag and drop the downloaded lab file - [B2B_Account_Data_Lab2-1.json](https://github.com/adobe/AEP-Hands-on-Labs/blob/646b37ad228daa464e6f2d05b914f93dd6fedcad/labs/fsi/assets/B2B/B2B_Account_Data_Lab2-1.json)
 
 ![Demo](./images/datasets/B2B_Lab2_5.jpg)
 
