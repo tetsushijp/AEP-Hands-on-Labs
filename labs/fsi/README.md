@@ -21,8 +21,8 @@ Please download your own attendee [lab content/uploads here](https://github.com/
  - [Data Mapping](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/Foundations/Data%20Mapping.md)
 
 ### Adobe Experience Platform - B2B Foundations
- - [Schemas](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/B2B%20Foundations/Schemas_b2b.md)
- - [Datasets](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/B2B%20Foundations/Datasets_b2b.md)
+ - [Schemas](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/B2B%20Foundations/B2B%20Schemas.md)
+ - [Datasets](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/B2B%20Foundations/B2B%20Datasets.md)
  - [DULE](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/B2B%20Foundations/DULE.md)
  - [Profiles & Identities](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/B2B%20Foundations/B2B%20Profile.md)
  - [Segments Exercise 1](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi/B2B%20Foundations/Segmentation%20Exercise%201.md)
