@@ -34,11 +34,11 @@ Lab  - Build a CJA Dashboard
       </tr>
       <tr>
             <td valign="middle" height="70"><b>version</b></td>
-            <td valign="middle" height="70">1.0.10</td>
+            <td valign="middle" height="70">2.0.00</td>
       </tr>
       <tr>
             <td valign="middle" height="70"><b>date</b></td>
-            <td valign="middle" height="70">2021-05-24</td>
+            <td valign="middle" height="70">2021-12-09</td>
       </tr>
 </tbody>
 </table>
@@ -75,48 +75,48 @@ If you're familiar with Adobe Analytics Workspace Analysis, you'll notice severa
 2.	Ensure that the "DV 001" Data View is selected in the Data View selector
 3.	Set Reporting Date Range to March 18-30, 2020 from table below and click "Apply".
 
-<kbd><img src="../images/CJA-FIGURE1.png"  /></kbd>
+<kbd><img src="../Foundations/images/CJA-FIGURE1.png"  /></kbd>
 
 4.	Drag the "Day" dimension from the Components menu and drop it into the Freeform Table visualization in the Panel.
 
-<kbd><img src="../images/CJA-FIGURE2.png"  /></kbd>
+<kbd><img src="../Foundations/images/CJA-FIGURE2.png"  /></kbd>
 
 5.	Drag the "Sessions" metric from the Components menu and "Add" it to the right of the "Events" metric by hovering to the right of the "Events" metric until the "+ Add" appears in the Freeform Table visualization in the Panel.
 
-<kbd><img src="../images/CJA-FIGURE3.png"  /></kbd>
+<kbd><img src="../Foundations/images/CJA-FIGURE3.png"  /></kbd>
 
 6.	Do the same for the "People" metric from the Components menu. Also add page views, in store purchases and online purchases  
 7.	Click on "Freeform Table" in the top left corner of the table and change the name to "Base KPIs Trended".
 8.	Click on "Freeform" in the top left corner of the panel and change the name to "Dashboard".
 
-<kbd><img src="../images/CJA-FIGURE4.png"  /></kbd>
+<kbd><img src="../Foundations/images/CJA-FIGURE4.png"  /></kbd>
 
 **Add Line Visualization**
 1.	Click on Visualizations in the left menu and drag the Line visualization to the Dashboard panel above the Base KPIs Trended table.
 
-<kbd><img src="../images/CJA-FIGURE5.png"  /></kbd>
+<kbd><img src="../Foundations/images/CJA-FIGURE5.png"  /></kbd>
 
-<kbd><img src="../images/CJA-FIGURE6.png"  /></kbd>
+<kbd><img src="../Foundations/images/CJA-FIGURE6.png"  /></kbd>
 
 2.	The Line visualization will automatically connect to the Base KPIs Trended table and will visualize the dimensions and metrics in that table. The dimension is the x-axis and the metrics are trended. You can click individual metrics to disable them in the visualization.<p>
       - Click on "Line" in the top left corner of the Line visualization and change the name to "Base KPIs Trended".
 
-<kbd><img src="../images/CJA-FIGURE7.png"  /></kbd>
+<kbd><img src="../Foundations/images/CJA-FIGURE7.png"  /></kbd>
 
 **Add Summary Number Visualization**
 
 1.	Right-click on the number under the "Page views" metric in the "Base KPIs Trended" table to bring up a menu with several options, including adding a visualization tied to that metric.
 
-<kbd><img src="../images/CJA-FIGURE8.png"  /></kbd>
+<kbd><img src="../Foundations/images/CJA-FIGURE8.png"  /></kbd>
 
 2.	Click on the Visualize option and scroll down to and select Summary Number.
 
-<kbd><img src="../images/CJA-FIGURE9.png"  /></kbd>
+<kbd><img src="../Foundations/images/CJA-FIGURE9.png"  /></kbd>
 
 
 3.	The Summary Number visualization will be added to the panel. This visualization is showing the total number of Events for the reporting timeframe.
 
-<kbd><img src="../images/CJA-FIGURE10.png"  /></kbd>
+<kbd><img src="../Foundations/images/CJA-FIGURE10.png"  /></kbd>
 
 4.	This visualization is not "Locked" which means if any selections are made in the Base KPIs Trended table, the Summary Number visualization will change to the new selection.
 
@@ -125,17 +125,17 @@ If you're familiar with Adobe Analytics Workspace Analysis, you'll notice severa
 1.	Click on the number under Sessions and watch what happens to the Summary Number visualization.
 2.	Scroll up to the Base KPIs Trended Line visualization and notice it is impacted by the selection in the table.
 
-<kbd><img src="../images/CJA-FIGURE11.png"  /></kbd>
+<kbd><img src="../Foundations/images/CJA-FIGURE11.png"  /></kbd>
 
 3.	Select the number under the "Page views" metric again and click on the round dot in the top left corner of the Summary Number visualization to bring up the "Data Sources Settings" menu.
 4.	Click on Lock Selection to lock the visualization to the "Page views" metric in the table.
 5.	Click on "Summary Number" in the Summary Number visualization and name it "Page views".
 6.	Drag the right bottom corner of the Total Events visualization to make it smaller. Make it about 1/3 of the width of the screen.
 
-<kbd><img src="../images/CJA-FIGURE12.png"  /></kbd>
+<kbd><img src="../Foundations/images/CJA-FIGURE12.png"  /></kbd>
 
 
-<kbd><img src="../images/CJA-FIGURE13.png"  /></kbd>
+<kbd><img src="../Foundations/images/CJA-FIGURE13.png"  /></kbd>
 
 **Duplicate Summary Visualizations**
 
@@ -145,7 +145,7 @@ If you're familiar with Adobe Analytics Workspace Analysis, you'll notice severa
       - Click on Duplicate Visualization to make a duplicate copy of the "Summary Number" visualization that we just created.
       - Duplicate it again.
 
-<kbd><img src="../images/CJA-FIGURE14.png"  /></kbd>
+<kbd><img src="../Foundations/images/CJA-FIGURE14.png"  /></kbd>
 
 3.	We now have 3 instances of the "Page views" summary number visualization.</p>
       - Drag one copy to the right of the first instance and drag the other copy next to that one.</p>
@@ -159,7 +159,7 @@ If you're familiar with Adobe Analytics Workspace Analysis, you'll notice severa
       
 5.	Do the same to display Online purchase for the third summary number.<p>
 
-<kbd><img src="../images/CJA-FIGURE15.png"  /></kbd>
+<kbd><img src="../Foundations/images/CJA-FIGURE15.png"  /></kbd>
 
 **Save Project**
 
@@ -167,32 +167,32 @@ If you're familiar with Adobe Analytics Workspace Analysis, you'll notice severa
 2.	Click on Project and then Save to open the Save Project window.
 3.	Name the project "Hands-on Lab Working Project" and click Save Project.
 
-<kbd><img src="../images/CJA-FIGURE16.png"  /></kbd>
+<kbd><img src="../Foundations/images/CJA-FIGURE16.png"  /></kbd>
 
 **Donut Visualization**
 
 1.	Now let's add a Donut visualization to this panel that is built off another dimension of data (other than Day). The Donut visualization, like the Line visualization is tied to a table, so we need to add a table with the dimension and metrics that we want to visualize in the Donut visualization.<p>
       - Click on Visualizations in the left menu and drag a Freeform Table and drop it in the project above the "Base KPIs Trended" table.
 
-<kbd><img src="../images/CJA-FIGURE17.png"  /></kbd>
+<kbd><img src="../Foundations/images/CJA-FIGURE17.png"  /></kbd>
 
 
 2.	The dimension that we want to work with in this case is the Web Marketing Channel that we looked at when we built the Data View, and configured to have a default attribution model of Last Touch at a Person level.<p>
       - Drag the "Web Marketing Channel" from the Components menu into the Freeform Table you added to the panel. If you can't find it in the Components menu, you can search for it at the top.
 
-<kbd><img src="../images/CJA-FIGURE18.png"  /></kbd>
+<kbd><img src="../Foundations/images/CJA-FIGURE18.png"  /></kbd>
 
 
 3.	The table will default to the "Events" metric, but let's say we want to see the Sessions driven by each Web Marketing Channel as well as the conversions that each of these Marketing Channels are driving from a Last Touch perspective.<p>
       - Drag the "Sessions" metric from the Components menu and replace the "Events" metric with it, by hovering over the "Events" metric until it says "Replace" and then dropping it.
 
-<kbd><img src="../images/CJA-FIGURE19.png"  /></kbd>
+<kbd><img src="../Foundations/images/CJA-FIGURE19.png"  /></kbd>
 
 4.	Drag the "Online Purchases" metric from the Components menu and "Add" it to the right of the "Sessions" metric you just added to the table.
 5.	We now have a table with the dimension and metrics we want to represent in the Donut visualization. Rename the "Freeform Table (2)" table to "Marketing Channel Performance".
 
 
-<kbd><img src="../images/CJA-FIGURE20.png"  /></kbd>
+<kbd><img src="../Foundations/images/CJA-FIGURE20.png"  /></kbd>
 
 6.	Drag the Donut visualization from the Visualizations menu and drop it above the "Marketing Channel Performance" table.
 
@@ -204,7 +204,7 @@ If you're familiar with Adobe Analytics Workspace Analysis, you'll notice severa
 
 9.	The Donut visualization will automatically show the top 6 items in the table it is tied to, but this can be customized.
 
-<kbd><img src="../images/CJA-FIGURE21.png"  /></kbd>
+<kbd><img src="../Foundations/images/CJA-FIGURE21.png"  /></kbd>
 
 
 10.	If we wanted to show specific channels instead of the top 6. We can select those channels in the table and lock the Donut visualization to those selections.
@@ -220,14 +220,14 @@ If you're familiar with Adobe Analytics Workspace Analysis, you'll notice severa
       - web sem
       - web natural search
 
-<kbd><img src="../images/CJA-FIGURE22.png"  /></kbd>
+<kbd><img src="../Foundations/images/CJA-FIGURE22.png"  /></kbd>
 
 2.	Click on the round dot in the top left corner of the Donut visualization to bring up the Data Source Settings menu and click the "Lock Selection" checkbox.
 
 3.	Under the "Lock Selection" checkbox is a drop-down list that defaults to "Selected Positions". This means that the Donut visualization is tied to the elements in the selected positions in the table. That's not what we want because these channels of interest may move around in the table over time based on performance.
       - Click on the drop-down and select "Selected Items" instead of "Selected Positions". This will tie the Donut visualization to the specific channels of interest.
 
-<kbd><img src="../images/CJA-FIGURE23.png"  /></kbd>
+<kbd><img src="../Foundations/images/CJA-FIGURE23.png"  /></kbd>
 
 4.	The number of items the Donut visualization will show can be configured by clicking on the gear in the top right corner of the Donut visualization and increasing or decreasing the "Limit Max Items" setting.
 
@@ -242,11 +242,11 @@ If you're familiar with Adobe Analytics Workspace Analysis, you'll notice severa
 7.	The tables have now been minimized.
 8.	To fully hide the tables, click on the Data Sources Settings round dot for any visualization that uses that table and deselect the checkbox for "Show Data Source".
  
-<kbd><img src="../images/CJA-FIGUREx.png"  /></kbd> 
+<kbd><img src="../Foundations/images/CJA-FIGUREx.png"  /></kbd> 
 
 9.	The tables are now fully hidden.
 
-<kbd><img src="../images/CJA-FIGURE24.png"  /></kbd>
+<kbd><img src="../Foundations/images/CJA-FIGURE24.png"  /></kbd>
 
 ### This completes the Dashboard building excercise in CJA  
 Next we will review how to create and apply [Filters](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/CJA/CJA-Filters.md)
