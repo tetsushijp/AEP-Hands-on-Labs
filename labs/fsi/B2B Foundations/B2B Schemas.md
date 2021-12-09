@@ -68,7 +68,7 @@ Then exit by selecting "Add field groups"
 13. Add new fields under the new &quot;otherAccountDetails&quot; by selecting ![Demo](./images/schemas/B2B_Lab1_9.jpg) button next to &quot;otherAccountDetails&quot;and fill in the details and then click **Apply** :
   - Field Name = _fortune1000_
   - Display Name = _Is Fortune 1000_
-  - Type = _Object_
+  - Type = _Boolean_
 
 ![Demo](./images/schemas/B2B_Lab1_10.jpg)
 
