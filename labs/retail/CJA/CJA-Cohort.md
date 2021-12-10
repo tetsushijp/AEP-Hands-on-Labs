@@ -58,13 +58,13 @@ In this case, we want to understand customer call behaviors. Specifically, we wa
 
 1. Create a new panel below the last panel we just worked on, title it “Cohort”, ensure your date range for POT5 is March 18-30, 2020 and select the Cohort Table visualization.
 
-<kbd><img src="./images/CJA-cohort-newcohort.png"  /></kbd>
+<kbd><img src="../Foundations/images/CJA-cohort-newcohort.png"  /></kbd>
 
    The Cohort table is a sophisticated visualization with many different configuration options. We’ll use it for a basic analysis use-case in this exercise, but know that it can support much more complex use-cases.
    
 The Cohort table configuration should look like this:
 
-<kbd><img src="./images/CJA-cohort-config.png"  /></kbd>
+<kbd><img src="../Foundations/images/CJA-cohort-config.png"  /></kbd>
 
 - The **Inclusion Criteria** allows you to set a metric as Day 0. Anyone that has this event will fall into Day 0. Filters can be applied to be very specific about the event criteria.
  
@@ -76,11 +76,11 @@ Let's say we want to measure people that call and then understand if they call a
       - Set the granularity to "Day" since we want to see the data over days
       - Click "Build"
 
-<kbd><img src="./images/CJA-cohort-config-calls.png"  /></kbd>
+<kbd><img src="../Foundations/images/CJA-cohort-config-calls.png"  /></kbd>
 
 The resulting Cohort Table shows the number of people who called by day as well as the number of people that called back in the + Days after that call:
 
-<kbd><img src="./images/CJA-cohort-calls-table.png"  /></kbd>
+<kbd><img src="../Foundations/images/CJA-cohort-calls-table.png"  /></kbd>
 
 There aren't a lot of people with repeat calls, but there are some.
 - For example, there were 234 calls on March 18. By March 30 (12 days later), 13 of those calls were repeat callers

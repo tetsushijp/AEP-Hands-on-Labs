@@ -58,7 +58,7 @@ The Flow visualization is very powerful for understanding customer journeys in a
       - Title it “Flow” and ensure your date range for POT5 is March 18-30, 2020
       - Select the Flow visualization and this will bring you to the Flow visualization configuration view:
 
-<kbd><img src="./images/CJA-flow-dimensionconfig.png"  /></kbd>
+<kbd><img src="../images/CJA-flow-dimensionconfig.png"  /></kbd>
 
 **Notes on Dimension configuration:** 
 - Dropping a dimension as the Entry point will show the top first values seen in that dimension either at a Session or Person level
@@ -71,11 +71,11 @@ Let's try this from a Web Pathing perspective to start with.
       - Click on “Show items from last X months” until the values show up
       - Drag the “home” page and drop it into the center drop zone for the Flow visualization:
 
-<kbd><img src="./images/CJA-flow-config-addhomepage.png"  /></kbd>
+<kbd><img src="../images/CJA-flow-config-addhomepage.png"  /></kbd>
 
 This is what your panel should look like now:
 
-<kbd><img src="./images/CJA-flow-homepageflow.png"  /></kbd>
+<kbd><img src="../images/CJA-flow-homepageflow.png"  /></kbd>
 
 _(If you get 0 results make sure you're using the correct date range and that you're in the DV 001 Data View)_
 
@@ -88,25 +88,25 @@ This view allows you to see:
 3. Click on the "search results" page on the branch on the right to see where customers go to from there.
       - Then right-click on the "events" node within the branch to the right to see the various options as it relates to digging deeper into this data
 
-<kbd><img src="./images/CJA-flow-homepage-searchresults.png"  /></kbd>
+<kbd><img src="../images/CJA-flow-homepage-searchresults.png"  /></kbd>
 
    Selecting "Create filter for this path" will create a filter based on customers that follow that specific path. This becomes an interesting way to do further analysis around the types of customers that follow a specific path.
 
 4. Click the gear in the top right of the visualization to bring up the Flow Settings menu. From here we can define if we want to see paths at a Session or Person level.
 
-<kbd><img src="./images/CJA-flow-settingsmenu.png"  /></kbd>
+<kbd><img src="../images/CJA-flow-settingsmenu.png"  /></kbd>
 
 _No action needed in this view_
 
 5. From the Visualizations menu, drag a Flow visualization beneath the Flow visualization we just built and drop it in the panel we're working on.
 
-<kbd><img src="./images/CJA-flow-addanotherflow.png"  /></kbd>
+<kbd><img src="../images/CJA-flow-addanotherflow.png"  /></kbd>
 
 Let's go back to the use case that we've been working on: Understanding how customers navigate from Web to the Call Center. We want to understand the journey that customers are taking from the web site into the call center. To do this, we will start with call reason.
 
 6. Drag the “Call reason" dimension and drop it in the Exit drop zone:
 
-<kbd><img src="./images/CJA-flow-callreason-exitflow.png"  /></kbd>
+<kbd><img src="../images/CJA-flow-callreason-exitflow.png"  /></kbd>
 
   This shows us the top Call Reasons for customer calls into the call center.
 
@@ -115,11 +115,11 @@ One very powerful capability the Flow visualization supports is the ability to m
 7. Drag the “Web page name" dimension and drop it to the left of the “Call Reason" values on the left side of the visualization when you get the blue "Add" box.
 The result is a view into the top pages customers interact with prior to a call, broken out by call type:
 
-<kbd><img src="./images/CJA-flow-callreason-pagename.png"  /></kbd>
+<kbd><img src="../images/CJA-flow-callreason-pagename.png"  /></kbd>
 
 8. Drill into the "home" page to see what customers interact with prior to that on their path to a call.
 
-<kbd><img src="./images/CJA-flow-callreason-pagename-priorpages.png"  /></kbd>
+<kbd><img src="../images/CJA-flow-callreason-pagename-priorpages.png"  /></kbd>
 
 This can be very powerful in understanding customer journeys across channels.
 

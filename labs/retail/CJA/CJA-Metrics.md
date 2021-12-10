@@ -61,7 +61,7 @@ For example, we may want to compare the average number of purchase per week or m
       - The format should be decimal. Select the number of digit you want to display. for example "2"
       - Click Save
 
-<kbd><img src="../Foundation/images/CJA-METRIC1v2.JPG"  /></kbd>
+<kbd><img src="../Foundations/images/CJA-METRIC1v2.JPG"  /></kbd>
 
 Now that we've built these metrics, we can do some more interesting analysis.
 For example, We can analyze if we have different customer behaviour by location, loyaty status, brand etc. 
@@ -70,17 +70,17 @@ For example, We can analyze if we have different customer behaviour by location,
       - Create a table with the “State” dimension.
       - By default the freeform display the event, let's replace it with the new Calculated Metric we just created
 
-<kbd><img src="../Foundation/images/CJA-METRIC2v2.JPG"  /></kbd>
+<kbd><img src="../Foundations/images/CJA-METRIC2v2.JPG"  /></kbd>
 
 In our data, there is not that much difference between stae, but let's dig dipper. 
 
 6. Select the 2 filters "mens" and "women shoppers" we created previously, then drag and drop them in one of the state row 
 
-<kbd><img src="../Foundation/images/CJA-METRIC1v3.JPG"  /></kbd>
+<kbd><img src="../Foundations/images/CJA-METRIC1v3.JPG"  /></kbd>
 
 6. You know have a breakdown of number of purchase per person, per state and product category purchasers.  
 
-<kbd><img src="../Foundation/images/CJA-METRIC4v2.JPG"  /></kbd>
+<kbd><img src="../Foundations/images/CJA-METRIC4v2.JPG"  /></kbd>
 
 
 ### This completes the Metrics section of the CJA lab  

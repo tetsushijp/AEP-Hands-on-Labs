@@ -121,17 +121,17 @@ We want understand if our customers shop only in one brand or one product catego
 
 1. Click on the "+" icon to the right of Filters in the Components menu to open up the Filter Builder.
  
-<kbd><img src="./Foundations/images/CJA-FIGURE39.png"  /></kbd> 
+<kbd><img src="../Foundations/images/CJA-FIGURE39.png"  /></kbd> 
 
 2. We'll build a Filter for people who shoped for men product: name it "Men shoppers".
 3. Drag the "webProductCategory" Views metric into the drop zone.
 4. Change the criteria from webProductCategory equal Men.
  
-<kbd><img src="./Foundations/images/CJA-FIGURE40v2.JPG"  /></kbd> 
+<kbd><img src="../Foundations/images/CJA-FIGURE40v2.JPG"  /></kbd> 
 
 5. Change the "Include" drop-down from "Event" to "Person".
  
-<kbd><img src="./Foundations/images/CJA-FIGURE41v2.JPG"  /></kbd> 
+<kbd><img src="../Foundations/images/CJA-FIGURE41v2.JPG"  /></kbd> 
 
 This Filter will allow us to filter by People that have at least one Page View or product purchase in category Men.
 
@@ -140,7 +140,7 @@ This Filter will allow us to filter by People that have at least one Page View o
 
 7. Hover over the Men shopper filter in the Components menu and click on the "i" to see details of the filter.
  
-<kbd><img src="./Foundations/images/CJA-FIGURE42v2.JPG"  /></kbd> 
+<kbd><img src="../Foundations/images/CJA-FIGURE42v2.JPG"  /></kbd> 
 
 8. Click on the pencil icon to bring up the Filter Builder with the same metric we just built.
  
@@ -156,7 +156,7 @@ This Filter will allow us to filter by People that have at least one Page View o
 
 14. Select the 2 filters just created, drag them under "event" metric until the blue pop-up says "Filter By", and drop the filters. 
 
-<kbd><img src="./Foundations/images/CJA-FIGURE48v2.png"  /></kbd> 
+<kbd><img src="../Foundations/images/CJA-FIGURE48v2.png"  /></kbd> 
 
 
 ### This completes the Filter creation excercise in CJA  

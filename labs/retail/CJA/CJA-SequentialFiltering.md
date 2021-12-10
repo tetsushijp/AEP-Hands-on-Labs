@@ -58,7 +58,7 @@ Filters can be used to understand customers who follow a particular path or jour
 
 1. Open the Filter Builder by clicking on the "+" to the right of Filters in the Components menu. This will bring you to the filter configuration screen
 
-<kbd><img src="./images/CJA-sequentialfilter-filterbuilder.png"  /></kbd>
+<kbd><img src="../Foundations/images/CJA-sequentialfilter-filterbuilder.png"  /></kbd>
 
 Let's say that we want to dig deeper into the Account Creation Process we were measuring with the Fallout visualization earlier.
 We want to create a Filter that allows us to measure the People that hit Step 1 of the Account Creation process and then call within 1 day.
@@ -75,7 +75,7 @@ We want to create a Filter that allows us to measure the People that hit Step 1 
       - Give the Filter a name of "Account Creation Start - Call within 1 Day“
       - Click “Save”
 
-<kbd><img src="./images/CJA-sequentialfilter-step1calls.png"  /></kbd>
+<kbd><img src="../Foundations/images/CJA-sequentialfilter-step1calls.png"  /></kbd>
 
 This filter will find people who hit the first step of the Account Creation process and made a call within 1 day
 
@@ -84,7 +84,7 @@ This filter will find people who hit the first step of the Account Creation proc
       - Drag the “People” metric into the table, twice so that they’re side by side (you’ll have 2 identical “People” metrics next to each other)
       - Now drag the new filter we just created underneath one the "People" metrics to "Filter" the metric by those people
 
-<kbd><img src="./images/CJA-sequentialfilter-callsvsstep1calls.png"  /></kbd>
+<kbd><img src="../Foundations/images/CJA-sequentialfilter-callsvsstep1calls.png"  /></kbd>
 
 Now we can see the volume of Calls vs. the volume Calls that also made it to step 1 of the Account Creation process. This is a great way to understand what People who made it to step 1 are calling about.
       - We can see from our filter that most of them call about a Payment Issue or Account Password Help

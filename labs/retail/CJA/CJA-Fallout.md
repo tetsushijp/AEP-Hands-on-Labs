@@ -65,7 +65,7 @@ The Fallout visualization requires touchpoints in the process you want to measur
 2. From the Components menu, click on the arrow to the right of the “Web page name" dimension, click on “Show items from the last X months” until the values show up, and search for “account".
       - Drag "Purchase: step 1" into the Add Touchpoint drop zone
 
-<kbd><img src="./Foundations/images/CJA-fallout-accountcreate-dragdrop.png"  /></kbd>
+<kbd><img src="../Foundations/images/CJA-fallout-accountcreate-dragdrop.png"  /></kbd>
 
 We can see that 38,061 people have started the process of online purchase.
 
@@ -73,14 +73,14 @@ We can see that 38,061 people have started the process of online purchase.
       - Drag "Purchase: step 2" into the Add Touchpoint drop zone
       - Drag "Purchase: thank you" into the Add Touchpoint drop zone
       - 
-<kbd><img src="./Foundations/images/CJA-fallout3.JPG"  /></kbd>
+<kbd><img src="../Foundations/images/CJA-fallout3.JPG"  /></kbd>
 
 We can see that out of 38,061 people who started the account creation process, 19,246 made it to the end goal
 
 5. Right-click on “step 3” in the Fallout and review all the options you have to drill deeper into analysis.
       - Of particular interest is the ability to see where people go next after Step 3, if they **fall-through** (make it to the Thank You page) or **fall-out** (don't make it to the Thank You page)
 
-<kbd><img src="./images/CJA-fallout-analysisoptions.png"  /></kbd>
+<kbd><img src="../Foundations/images/CJA-fallout-analysisoptions.png"  /></kbd>
 _(no action needed on this view)_
 
 Let's see how many of these people call into the call center.
@@ -88,7 +88,7 @@ Let's see how many of these people call into the call center.
 6. Remove the last step in the fallout by clicking on the "x" to the right of the last step.
       - Now drag the "Calls" metric and drop it into the Touchpoint drop zone
 
-<kbd><img src="./images/CJA-fallout-callsadded1.png"  /></kbd>
+<kbd><img src="./Foundations/images/CJA-fallout-callsadded1.png"  /></kbd>
 
   We can see that there are 3,788 people that make it to step 2 and then call into the call center
 

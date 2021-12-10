@@ -60,11 +60,11 @@ The Venn Visualization is great for measuring cross-over between events, session
       - From the “Add One Metric” dropdown, select the "person" metric (alternatively, you can drag & drop the Session metric from Components into the Metric drop zone)
       - Click "Build"
 
-<kbd><img src="../foubdations/images/CJA-Venn1.JPG"  /></kbd>
+<kbd><img src="../Foundations/images/CJA-Venn1.JPG"  /></kbd>
 
 The Venn visualization will show number of profile who browse category Y and Z in the period considered.
 
-<kbd><img src="../foubdations/images/CJA-Venn2.JPG"  /></kbd>
+<kbd><img src="../Foundations/images/CJA-Venn2.JPG"  /></kbd>
 
 
 
