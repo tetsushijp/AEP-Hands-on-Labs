@@ -156,7 +156,7 @@ This Filter will allow us to filter by People that have at least one Page View o
 
 14. Select the 2 filters just created, drag them under "event" metric until the blue pop-up says "Filter By", and drop the filters. 
 
-<kbd><img src="../Foundations/images/CJA-FIGURE48v2.png"  /></kbd> 
+<kbd><img src="../Foundations/images/CJA-FIGURE48v2.JPG"  /></kbd> 
 
 
 ### This completes the Filter creation excercise in CJA  

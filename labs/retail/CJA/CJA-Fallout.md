@@ -62,10 +62,10 @@ The Fallout visualization is great for understanding customer paths when there a
 
 The Fallout visualization requires touchpoints in the process you want to measure fall-through as well as fall-out for.
 
-2. From the Components menu, click on the arrow to the right of the “Web page name" dimension, click on “Show items from the last X months” until the values show up, and search for “account".
+2. From the Components menu, click on the arrow to the right of the “Web page name" dimension, click on “Show items from the last X months” until the values show up, and search for "Purchase".
       - Drag "Purchase: step 1" into the Add Touchpoint drop zone
 
-<kbd><img src="../Foundations/images/CJA-fallout-accountcreate-dragdrop.png"  /></kbd>
+<kbd><img src="../Foundations/images/CJA-Falloutstep1.JPG"  /></kbd>
 
 We can see that 38,061 people have started the process of online purchase.
 
@@ -88,7 +88,7 @@ Let's see how many of these people call into the call center.
 6. Remove the last step in the fallout by clicking on the "x" to the right of the last step.
       - Now drag the "Calls" metric and drop it into the Touchpoint drop zone
 
-<kbd><img src="./Foundations/images/CJA-fallout-callsadded1.png"  /></kbd>
+<kbd><img src="../Foundations/images/CJA-fallout-callsadded1.png"  /></kbd>
 
   We can see that there are 3,788 people that make it to step 2 and then call into the call center
 

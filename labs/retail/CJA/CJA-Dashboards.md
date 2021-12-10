@@ -89,7 +89,7 @@ If you're familiar with Adobe Analytics Workspace Analysis, you'll notice severa
 7.	Click on "Freeform Table" in the top left corner of the table and change the name to "Base KPIs Trended".
 8.	Click on "Freeform" in the top left corner of the panel and change the name to "Dashboard".
 
-<kbd><img src="../Foundations/images/CJA-FIGURE4.png"  /></kbd>
+<kbd><img src="../Foundations/images/CJA-FIGURE4v2.JPG"  /></kbd>
 
 **Add Line Visualization**
 1.	Click on Visualizations in the left menu and drag the Line visualization to the Dashboard panel above the Base KPIs Trended table.
@@ -159,7 +159,7 @@ If you're familiar with Adobe Analytics Workspace Analysis, you'll notice severa
       
 5.	Do the same to display Online purchase for the third summary number.<p>
 
-<kbd><img src="../Foundations/images/CJA-FIGURE15.png"  /></kbd>
+<kbd><img src="../Foundations/images/CJA-FIGURE15v2.JPG"  /></kbd>
 
 **Save Project**
 

@@ -60,7 +60,7 @@ Let's start with the marketing use case.
 
 1. Create a new panel with a Freeform Table and title it “Attribution IQ”. Ensure your date range for POT5 is March 18-30, 2020. Drag the “Web Marketing Channel” dimension & drop it into the panel, then add in the “Sessions” & “Online Purchases” metrics:
 
-      <kbd><img src="../images/cja-attributioniq-createpanel1.png"  /></kbd>
+      <kbd><img src="../Foundations/images/cja-attributioniq-createpanel1.png"  /></kbd>
 
 This table shows the performance of these Marketing Channels on driving Online Purchases from a Last Touch perspective. This is because the Marketing Channel dimension is setup to use a default attribution model of Last Touch. But using Attribution IQ, users can dynamically change the model being used on the fly. Let's change the model being used now.
 
@@ -70,7 +70,7 @@ This table shows the performance of these Marketing Channels on driving Online P
       - Click on the Model drop-down list to access all the attribution models available and select “Linear”
       - Click on the Lookback window drop-down and select “Person (Reporting Window)” and click Apply
 
-   <kbd><img src="../images/cja-attributioniq-adjustmodel.png"  /></kbd>
+   <kbd><img src="../Foundations/images/cja-attributioniq-adjustmodel.png"  /></kbd>
 
 **Notes on Attribution Model selection**: Let's say that as a business we've determined that the Linear Model is the model that makes the most sense to use because it splits the credit across all the touches that a customer has leading up to a conversion, opposed to just one touch. Depending on the analysis scenario, we may want to use different Attribution Models. Attribution IQ provides the flexibility to select the model that makes the most sense for the job.
 
@@ -79,7 +79,7 @@ This table shows the performance of these Marketing Channels on driving Online P
 
 3. We can now understand the influence that Marketing Channels have on driving conversions
 
-<kbd><img src="../images/cja-attributioniq-linearmodelview.png"  /></kbd>
+<kbd><img src="../Foundations/images/cja-attributioniq-linearmodelview.png"  /></kbd>
 
    We could also easily turn this freeform table into a nice pretty visualization if we wanted.
   
@@ -88,7 +88,7 @@ Let's switch gears and use Attribution IQ to score pages based on their influenc
 4. Add another table to your Attribution IQ freeform panel.
       - In your new table, drag the “Web page name” dimension & drop it into the panel, then add in the “Web Sessions” & “Calls” metrics:
 
-<kbd><img src="../images/cja-attributioniq-createpanel2-calls.png"  /></kbd>
+<kbd><img src="../Foundations/images/cja-attributioniq-createpanel2-calls.png"  /></kbd>
 
 As expected, the “Calls” metric reports all 0's because there are no Call events that occur on the same event as a Page View.
 
@@ -97,14 +97,14 @@ Let's use Attribution IQ to configure how attribution works for this metric.
 5. Click on the gear to the right of the Calls metric in the table and click the checkbox to "use non-default attribution model".
       - In attribution model settings, select the Time Decay model and configure a 15-Minute Half-life. Set the Lookback window to “Person (Reporting Window)”
 
-<kbd><img src="../images/cja-attributioniq-modelsettings-timedecay.png"  /></kbd>
+<kbd><img src="../Foundations/images/cja-attributioniq-modelsettings-timedecay.png"  /></kbd>
 
    This is a perfect model for what we're trying to do. Typically, customers will try to do something online for a while before they give up and call into the call center. This means that they may hit a couple of pages before they call. We don't just want to give credit to the last page for driving the call. But we probably do want to give the most credit to the last page for driving the call.
 
 We configured the time decay model to look back from the call event up to 15 minutes and give the most credit to the last page that a person saw prior to a call, and then incrementally less credit to each page behind that, up to 15 minutes prior to the call.
       - Click "Apply" and look at the resulting table
 
-<kbd><img src="../images/cja-attributioniq-calls-timedecay.png"  /></kbd>
+<kbd><img src="../Foundations/images/cja-attributioniq-calls-timedecay.png"  /></kbd>
 
 Based on this table, we can see the top pages that are driving calls into the call center. Lets go deeper.
 
@@ -112,15 +112,15 @@ Based on this table, we can see the top pages that are driving calls into the ca
       - In the "Call reason Items" view, click "Show items from last X months" until values show
       - Select the top 4 call reasons
 
-<kbd><img src="../images/cja-attributioniq-callreasons.png"  /></kbd>
+<kbd><img src="../Foundations/images/cja-attributioniq-callreasons.png"  /></kbd>
 
 Now drag them under the "Calls" metric in your table until the "Filter By" prompt in blue appears, then drop them.
 
-<kbd><img src="../images/cja-attributioniq-callreasons-top4.png"  /></kbd>
+<kbd><img src="../Foundations/images/cja-attributioniq-callreasons-top4.png"  /></kbd>
 
 The result is a table that uses a 15-Minute Time Decay model to give credit to pages for driving calls, broken out by the top 4 Call Reason types.
 
-<kbd><img src="../images/cja-attributioniq-timedecay-top4callreasons.png"  /></kbd>
+<kbd><img src="../Foundations/images/cja-attributioniq-timedecay-top4callreasons.png"  /></kbd>
 
 Clients typically use this data to uncover the top pages driving calls and testing different versions of those pages (Adobe Target is a great option here) until they find a version that works best at keeping people in the cheaper, online channel.
 
