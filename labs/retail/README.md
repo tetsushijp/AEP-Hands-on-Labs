@@ -39,7 +39,7 @@ Please download your own attendee [lab content/uploads here](https://github.com/
  - [Dashboards](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/CJA/CJA-Dashboards.md)
  - [Filters](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/CJA/CJA-Filters.md)
  - [Metrics](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/CJA/CJA-Metrics.md)
- - [Attribution IQ](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/CJA/Foundations/CJA-AttributionIQ.md)
+ - [Attribution IQ](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/CJA/CJA-AttributionIQ.md)
  - [Flow](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/CJA/CJA-Flow.md)
  - [Fallout](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/CJA/CJA-Fallout.md)
  - [Cohort](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/CJA/CJA-Cohort.md)

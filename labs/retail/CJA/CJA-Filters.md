@@ -158,6 +158,7 @@ This Filter will allow us to filter by People that have at least one Page View o
 
 <kbd><img src="../Foundations/images/CJA-FIGURE48v2.JPG"  /></kbd> 
 
+Result will show you from the number of age view on a specific categry, how many are done from people who also viewed a Men or Women product. 
 
 ### This completes the Filter creation excercise in CJA  
 Next we will review how to build calculated [Metrics](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/retail/CJA/CJA-Metrics.md)
