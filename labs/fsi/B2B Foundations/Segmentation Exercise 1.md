@@ -71,11 +71,11 @@ Exercise 1 - Create a segment for all contacts who have a position of "VP" who w
  
 18)	Change the operator to "contains", and in the text box to the right, type “/products” and hit Enter.
 
-![Demo](./images/18_addurlval.png)
+![Demo](./images/18_addurlval2.png)
  
 19)	At the top of the ‘Events’ canvas, update the time value to ‘In Last 7 Days’
 
-![Demo](./images/19_InLast7Days.png)
+![Demo](./images/19_InLast7Days2.png)
  
 20)	Enter the segment name “VP Product Page Viewers at Yacero” followed by your lab attendee number. (Ex – “VP Product Page Viewers at Yacero 014”). 
 
