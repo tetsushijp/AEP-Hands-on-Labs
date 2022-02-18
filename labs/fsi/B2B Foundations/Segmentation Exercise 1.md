@@ -69,7 +69,7 @@ Exercise 1 - Create a segment for all contacts who have a position of "VP" who w
 
 ![Demo](./images/17_DragURL.png)
  
-18)	In the text box to the right of equals, type “yacero.com/products” and hit Enter.
+18)	Change the operator to "contains", and in the text box to the right, type “/products” and hit Enter.
 
 ![Demo](./images/18_addurlval.png)
  
