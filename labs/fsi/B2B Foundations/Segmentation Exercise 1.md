@@ -75,7 +75,7 @@ Exercise 1 - Create a segment for all contacts who have a position of "VP" who w
  
 19)	At the top of the ‘Events’ canvas, update the time value to ‘In Last 7 Days’
 
-![Demo](./images/19_InLast7Days2.png)
+![Demo](./images/19_InLast7Days.png)
  
 20)	Enter the segment name “VP Product Page Viewers at Yacero” followed by your lab attendee number. (Ex – “VP Product Page Viewers at Yacero 014”). 
 
