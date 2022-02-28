@@ -85,7 +85,7 @@ If you're familiar with Adobe Analytics Workspace Analysis, you'll notice severa
 
 <kbd><img src="../Foundations/images/CJA-FIGURE3.png"  /></kbd>
 
-6.	Do the same for the "People" metric from the Components menu. Also add page views, in store purchases and online purchases  
+6.	Do the same for the "People" metric from the Components menu. Also add "page views", "in store purchases", and "online purchases"  
 7.	Click on "Freeform Table" in the top left corner of the table and change the name to "Base KPIs Trended".
 8.	Click on "Freeform" in the top left corner of the panel and change the name to "Dashboard".
 
