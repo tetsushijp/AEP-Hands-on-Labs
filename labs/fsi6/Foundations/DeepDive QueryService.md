@@ -200,7 +200,7 @@ FROM
             from   fsi_demo_data_pot_6_midvalues a
             where  a.endUserIDs._experience.mcid.id in ( 
                 select b.endUserIDs._experience.mcid.id
-                from   fsi_demo_data_midvalues_20200512_211355_640 b
+                from   fsi_demo_data_pot_6_midvalues b
                 where web.webPageDetails.name = 'help' 
 				and b.endUserIDs._experience.mcid.id IS NOT NULL
             )
