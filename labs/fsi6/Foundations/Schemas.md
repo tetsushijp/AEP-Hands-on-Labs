@@ -30,7 +30,7 @@
 <tbody valign="top">
       <tr>
             <td valign="middle" height="70"><b>section</b></td>
-            <td valign="middle" height="70"><img src="https://github.com/adobe/AEP-Hands-on-Labs/blob/master/assets/images/left_hand_nav_menu_schemas.png?raw=true" alt="Identities"></td>
+            <td valign="middle" height="70"><img src="https://github.com/tetsushijp/AEP-Hands-on-Labs/blob/master/assets/images/left_hand_nav_menu_schemas.png?raw=true" alt="Identities"></td>
       </tr>
       <tr>
             <td valign="middle" height="70"><b>version</b></td>
@@ -52,32 +52,32 @@ Go to [https://platform.adobe.com/home](https://platform.adobe.com/home). Follow
 
 ## Instructions:
 
-1. In the left-hand menu, navigate to "Schemas".
+1. 左側のメニューで、「**Schema**」に移動します。
 
 
       <kbd><img src="./images/schemahome.png"  /></kdb>
 
-2. Click "+ Create Schema" in the top right. Select "XDM ExperienceEvent".
+2. 右上の「**＋Create Schema**」をクリックします。"**XDM ExperienceEvent**"を選択します。
 
 
       <kbd><img src="./images/schemacreate.png" /></kdb>
 
-3. Click on "Untitled Schema" in the structure view
+3. Structure Viewで「**Untitled Schema**」をクリックします。
 
 
-    <kbd><img src="./images/schemaname.png"  /></kdb>
+    <kbd><img src="./images/schemaname2.png"  /></kdb>
 
-4. In the right-hand menu, name it "Transactions Schema [your-assigned-number]". Description is optional.
+4. 右側のメニューで、「**Transactions Schema [自分の番号]**」と名前を付けます。説明は任意です。
 
 
     <kbd><img src="./images/schemaname1.png"  /></kdb>
    
-5. In the left-hand schema composition menu, notice the Class has been set to XDM ExperienceEvent. The class was assigned based on the option selected after clicking "+ Create Schema" in a prior step.
+5. 左側のスキーマ構成メニューで、クラスが **XDM ExperienceEvent** に設定されていることに注意してください。このクラスは、前のステップで「**+ スキーマの作成**」をクリックした後に選択したオプションに基づいて割り当てられました。
 
    <kbd><img src="./images/schemaclassassign.png"  /></kdb>
 
 
-Reminder: the class defines the smallest set of fields used to build a schema and is the base level schema behavior:
+    注意: クラスはスキーマを構築するために使用されるフィールドの最小セットを定義し、ベースレベルのスキーマの動作となります。例:
     - Time-series (ExperienceEvent)
     - Record (Profile)
 
@@ -85,70 +85,72 @@ Reminder: the class defines the smallest set of fields used to build a schema an
 <kbd><img src="./images/schemaclass.png"  /></kdb>
 
 
-    Note: There are other classes available out of the box that represent specific objects needed for Experience Modeling.
+    Note: 他にもエクスペリエンス・モデリングに必要な特定のオブジェクトを表すクラスが事前に用意されています。
 
 
-6. Click on the "+ Add" button across from "Field Groups" in left-hand schema composition menu.
+6. 左側のスキーマ構成メニューの「**Field Group**」の向かいにある「**＋Add**」ボタンをクリックします。
 
 
     <kbd><img src="./images/schemamixin.png"  /></kdb>
 
-    Here you can build your own Field Group or use a prior/similar Field Group object that conforms to your data.
+    ここでは、独自のField Groupを作成するか、データに適合する類似のField Groupオブジェクトを使用することができます。
 
-7. In this lab, we will be adding two pre-built Field Groups listed below:
+7. このラボでは、以下の2つの事前定義されたフィールドグループを追加する予定です。:
 
    - Identities Mixin EE
    - Transaction Details Mixin EE
 
-   Select the "Transaction Details Mixin EE" and "Identities Mixin EE" mixins and click "Add field groups".
+   "**Transaction Details Mixin EE**" と "**Identities Mixin EE**" のMixinを選択し、"**Add field groups**" をクリックします。.
 
    <kbd><img src="./images/schemamixin2.png"  /></kdb>
 
-   Your schema will now have the "identification" and "transactionDetails" objects and all of the fields within this object.
+   これで、スキーマには「**identification**」と「**transactionDetails**」オブジェクトと、このオブジェクト内のすべてのフィールドが含まれることになります。
 
    <kbd><img src="./images/schemamixin3.png"  /></kdb>
 
-8. Now, we'll create a new Field Group from scratch. Go back and hit the "+ Add" button across from Field Groups in the left-hand schema composition menu.
+8. ここで、ゼロから新しいField Groupを作成します。左側のスキーマ構成メニューの**Field Groups**の向かいにある「**＋Add**」ボタンを押します。
 
    <kbd><img src="./images/schemamixin6.png"  /></kdb>
 
-9. Click "Create new field group" at the top.
+9. 上部にある「**Create new field group**」をクリックします。
 
 
       <kbd><img src="./images/schemamixin7.png"  /></kdb>
 
-10. Enter "Order Details Field Group EE [your-assigned-number]" as the "Display name" and click "Add field groups".
+10. Displa Nameに「**Order Details Field Group EE [自分の番号]**」を入力し、「**Add field groups**」をクリックします。
+      <kbd><img src="./images/schemamixin7createFG.png"  /></kdb>
 
     
-11. In the left-hand schema composition menu, click on your newly created Field Group (it should be highlighted now)
+11. 左側のスキーマ構成メニューで、新しく作成したフィールドグループをクリックします（現在ハイライトされているはずです）。
 
 
     <kbd><img src="./images/schemamixin8.png"  /></kdb>
 
-12. Notice that on the Structure view a '+ Add Field' appears next to the Schema name, Click it to start adding fields
+12. 構造ビューのスキーマ名の横に「**＋フィールドの追加**」 アイコンが表示されていることに注目し、クリックします。
 
 
     <kbd><img src="./images/schemamixin10.png"  /></kdb>
 
-13. In the Field properties panel on the right, add the following:  
-    - FieldName = orderDetails
-    - Description = Order Details
-    - Type = Object
+13. 右側のフィールドプロパティパネルで、以下を追加します。:  
+    - **FieldName** = orderDetails
+    - **DisplayName** = orderDetails
+    - **Type** = Object
+    - **Assign field group** = Order Detail EE [自分の番号]
 
 
     ![Demo](./images/schemamixin11.png)
 
 
-    Scroll down and click Apply.
+    下にスクロールして、[**Apply**]をクリックします。
 
 
     ![Demo](./images/schemaapply.png)
 
-14. Next, we will be adding fields to the 'orderDetails' object Click "+ Add Field" next to this object
+14. 次に、'orderDetails' オブジェクトにフィールドを追加します。 このオブジェクトの横にある "**＋ Add Field**" をクリックします。
 
     <kbd><img src="./images/schemamixin12.png"  /></kdb>
 
-15. In the Field properties panel on the right, add the following:  
+15. 右側のフィールドプロパティパネルで、以下を追加します。:  
     - FieldName = orderFlag
     - Description = Order Flag
     - Type = Integer
@@ -157,17 +159,17 @@ Reminder: the class defines the smallest set of fields used to build a schema an
      ![Demo](./images/schemamixin13.png)
 
 
-     Scroll down and click Apply.
+     下にスクロールして、[**Apply**]をクリックします。
 
 
     ![Demo](./images/schemaapply.png)
 
-16. We will be adding one more field to the 'orderDetails' object Click "+ Add Field" next to this object
+16. '**orderDetails**' オブジェクトにフィールドをさらにもう一つ追加します。 このオブジェクトの横にある "**+ Add Field**" をクリックします。
 
 
     <kbd><img src="./images/schemamixin12.png"  /></kdb>
 
-17. In the Field properties panel on the right, add the following:  
+17. 右側のフィールドプロパティパネルで、以下を追加します。:  
     - FieldName = orderID
     - Description = Order ID
     - Type = String
@@ -175,16 +177,16 @@ Reminder: the class defines the smallest set of fields used to build a schema an
     ![Demo](./images/schemamixin14.png)
 
 
-    Scroll down and click Apply
+    下にスクロールして、[**Apply**]をクリックします。
 
 
     ![Demo](./images/schemaapply.png)
 
-18. Next, We will be adding our final field to the 'orderDetails' object Click "+ Add Field" next to this object
+18. 最後に３つ目のフィールドを '**orderDetails**' オブジェクトに追加します。 このオブジェクトの横にある "**＋ Add Field**" をクリックします。
 
     <kbd><img src="./images/schemamixin15.png"  /></kdb>
 
-19. In the Field properties panel on the right, add the following:  
+19. 右側のフィールドプロパティパネルで、以下を追加します。:  
     - FieldName = orderType
     - Description = Order Type
     - Type = String
@@ -193,19 +195,19 @@ Reminder: the class defines the smallest set of fields used to build a schema an
     ![Demo](./images/schemamixin15.png)
 
 
-    Scroll down and hit Apply
+    下にスクロールして、[**Apply**]をクリックします。
 
 
     ![Demo](./images/schemaapply.png)
 
-20. We are done with modeling the schema. To Save your work hit Save on the top right corner. Make sure that your schema structure looks like the one in the screenshot below
+20. スキーマのモデリングは終了です。作業内容を保存するには、右上の「 **Save** 」をクリックしてください。スキーマの構造が以下のスクリーンショットのようになっていることを確認してください。
 
     <kbd><img src="./images/schemafinal.png"  /></kdb>
 
-21. Congratulations! You constructed a schema.
+21. おめでとうございます。スキーマを構築できました。
 
 <br>
 <br>
 <br>
 
-Return to [Lab Agenda Directory](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi6/README.md#lab-agenda)
+Return to [Lab Agenda Directory](https://github.com/tetsushijp/AEP-Hands-on-Labs/blob/master/labs/fsi6/README.md#lab-agenda)
