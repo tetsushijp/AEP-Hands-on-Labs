@@ -10,12 +10,12 @@ Lab 5.1 - Profiles - UPS Review
 <tbody valign="top">
       <tr width="500">
             <td valign="top"><h3>Objective:</h3></td>
-            <td valign="top"><br>In this lab, you will look up your Customer Profile.
+            <td valign="top"><br>このラボでは、顧客プロファイルを調べます。
             </td>
      </tr>
      <tr width="500">
            <td valign="top"><h3>Prerequisites:</h3></td>
-           <td valign="top"><br>none</td>
+           <td valign="top"><br>なし</td>
      </tr>
 </tbody>
 </table>
@@ -47,23 +47,23 @@ Lab 5.1 - Profiles - UPS Review
 </tr>
 </table>
 
-In Adobe Experience Platform there's a new feature of visualizing the entire real-time customer profile. This one feature is what all of our customer's have been trying to get for years: a single view of the customer.
+このラボでは、カスタマー・プロファイルを調べます。 この機能は、私たちのすべてのお客様が何年も前から手に入れようとしていたもので、顧客情報を一元的に見ることができるのです。
 
 Instructions:
 -----------------
-1. 	Log in to Adobe Experience Platform by going to this URL: https://platform.adobe.com
-2.	After logging in, you'll land on the homepage of Adobe Experience Platform.
-3.	Make sure you are in the 'Prod(VA7)' instance and not in your sandbox instance.
-4.	In the menu on the left side, go to Profiles.
-5.	Click on the 'Browse' tab. You will see a UI in which a namespace and an ID can be entered.
+1. 	このURLにアクセスして、Adobe Experience Platformにログインします。: https://platform.adobe.com
+2.	ログインすると、Adobe Experience Platformのトップページが表示されます。
+3.	サンドボックスインスタンスではなく、「 **Prod(VA7)** 」インスタンスであることを確認してください。
+4.	左側のメニューから、「　**Profiles** 」を選択します。
+5. 「 **Browse** 」タブをクリックします。名前空間を入力するUIが表示されます。
  
-<kbd><img src="./images/profile_view.png"  /></kbd>
+<kbd><img src="./images/profile_view2.png"  /></kbd>
  
-6.	Next, go to https://americaspot6-publish.adobedemo.com/content/we-finance-pot/language-masters/en.html# in a browser and click into a category page
-7.	In the left margin, click on the “person” icon. This will display the X-ray panel from this website.
+6.	次に、ブラウザで https://americaspot6-publish.adobedemo.com/content/we-finance-pot/language-masters/en.html# にアクセスします。
+7.	左の余白にある、**「 人 」のアイコン**をクリックします。本サイトのX-Rayパネルが表示されます。
  
  
-8.	Expand the 'Real-time Customer Profile section' and observe the identities and their linkage to a namespace
+8.	"**REAL TIME CUSTOMER PROFILE**" セクションを展開し、IDを確認します。
  
 <kbd><img src="./images/identities-ECID.png"  /></kbd>
  

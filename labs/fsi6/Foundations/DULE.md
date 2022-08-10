@@ -16,7 +16,7 @@
      </tr>
      <tr width="500">
            <td valign="top"><h3>Prerequisites:</h3></td>
-           <td valign="top"><br><li>dataset in place</li>
+           <td valign="top"><br><li>データセットが設定されている事</li>
            </td>
      </tr>
 </tbody>
