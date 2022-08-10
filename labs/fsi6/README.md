@@ -1,6 +1,6 @@
 # FSI 6 Hands-on Lab
 
-Welcome to the FSI HOL front page.
+FSI HOLのトップページへようこそ。
 
 ## First thing first...
 

@@ -11,7 +11,7 @@
       <tr width="500">
             <td valign="top"><h3>Objective:</h3>
             </td>
-            <td valign="top"><br>This lab will show you how to apply a data usage labels to a dataset field and create a custom data usage policy.
+            <td valign="top"><br>この実習では、データセット フィールドにデータ使用ラベルを適用する方法と、カスタム データ使用ポリシーを作成する方法を説明します。
             </td>
      </tr>
      <tr width="500">
@@ -50,41 +50,45 @@
 </tr>
 </table>
 
-Before we begin go to [https://platform.adobe.com/home](https://platform.adobe.com/home). Follow the instructions detailed below.
+まず "[https://platform.adobe.com/home](https://platform.adobe.com/home)"にアクセスしてください。 その後、次の手順に従ってください。
 
 ## Instructions:
 
-1. On the left-hand menu, navigate to "Datasets". Verify you're on the "Browse" tab. Scroll down and select the dataset called "CRM Profile Dataset":
+1. 左側のメニューから、「 **Datasets** 」に移動します。「 **Browse** 」タブが表示されていることを確認します。スクロールダウンして、"**CRM Profile Dataset** "というデータセットを選択します。:
 
    ![Demo](./images/datausagelabel-1.png)
 
-2. Click "Data governance" tab. Select "address" in the FIELD NAME list. Click "Edit governance labels":
+2. 「**Data governance**」タブをクリックします。「 **Search**」フィールドに" **address** "を入力して絞り込みます。「FIELD NAME」リストにある「 **address** 」を選択し" **Edit governance labels** "をクリック:
 
-   ![Demo](./images/datausagelabel-2.png)
+   ![Demo](./images/datausagelabel-2-2.png)
 
-3. In the Edit governance labels overlay, expand "IDENTITY LABELS". Select "I1" and click the "Save changes" button:
+3. Edit governance labels オーバーレイで、"**IDENTITY LABELS** "を展開します。「 **I1** 」を選択し、「 **Save changes** 」ボタンをクリックします。:
 
    ![Demo](./images/datausagelabel-3.png)
 
-Congratulations, you applied your first data usage label to a dataset field. Simple, right?
+   おめでとうございます。データセットフィールドに初めて「**data usage label**」を適用しました。簡単でしょう？
 
-4. On the left-hand menu, navigate to Policies (in the PRIVACY dropdown). Verify you're on the "Browse" tab. Click "+ Create policy" in top right corner:
+4. 左側のメニューから「 **Policies** 」（「**PRIVACY**」ドロップダウン内）に移動します。「 **Browse** 」タブにいることを確認します。右上の「 **＋ Create policy **」をクリックします。:
 
    ![Demo](./images/datausagepolicy1.png)
 
-5. Under the Policy details, enter name "Custom Policy [attendee id]". Under Select governance labels, select "I1". On the right-hand side, make sure "Contains all of the labels" radio button is selected. Click the "Next" button in the top right corner:
+   "**Data governance policy**"を選択し"**Continue**"を選択:
+   
+   ![Demo](./images/datausagepolicy1-2.png)
+
+5. **Policy Details**で、Nameに「 **Custom Policy[自分の番号]** 」を入力します。リストから" **I1** "ガバナンスレベルを選択します。右側の「 **Contains all of the labels** 」ラジオボタンが選択されていることを確認します。右上の "**Next** "ボタンをクリックします。:
 
    ![Demo](./images/datausagepolicy2.png)
 
-6. Select "Export to Third Party" and click the "Next" button in the top right corner:
+6. " **Export to Third Party** "を選択し、右上の " **Next** "ボタンをクリックします。:
 
    ![Demo](./images/datausagepolicy3.png)
 
-7. Review the policy and click "Finish":
+7. ポリシーを確認し、" **Finish** "をクリックします。:
 
    ![Demo](./images/datausagepolicy4.png)
 
-Congratulations! You created a custom data usage policy.
+おめでとうございます。カスタムデータ使用ポリシーを作成しました。
 <br>
 <br>
 <br>

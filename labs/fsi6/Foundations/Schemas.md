@@ -10,12 +10,12 @@
 <tbody valign="top">
       <tr width="500">
             <td valign="top"><h3>Objective:</h3></td>
-            <td valign="top"><br>This  lab will show you how to construct an XDM schema
+            <td valign="top"><br>このラボでは、XDM スキーマを構築する方法を紹介します。
             </td>
      </tr>
      <tr width="500">
            <td valign="top"><h3>Prerequisites:</h3></td>
-           <td valign="top"><br>none
+           <td valign="top"><br>なし
            </td>
      </tr>
 </tbody>
