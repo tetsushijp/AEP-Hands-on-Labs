@@ -67,9 +67,9 @@ Instructions:
  
 <kbd><img src="./images/identities-ECID.png"  /></kbd>
  
-9.	Copy the ECID value & go back to Profiles Browse view
-10.	Select "ECID" in the "Identity namespace" dropdown and paste the ECID value copied previously into the "Identity value" field.
-11.	Click into Profile ID
+9.	ECIDの値をコピーし、Profiles Browseビューに戻る。
+10.	「**Identity namespace**」で「ECID」を入力し、「**Identity value**」フィールドに前回コピーしたECIDの値を貼り付ける。
+11.	"**PROFILE ID**"をクリック
  
 <kbd><img src="./images/identities-ECID AEP.png"  /></kbd>
 
@@ -77,4 +77,4 @@ Instructions:
  <kbd><img src="./images/completed_linked profile_travel.png"  /></kbd>
 
 
-Return to [Lab Agenda Directory](https://github.com/adobe/AEP-Hands-on-Labs/blob/master/labs/fsi6/README.md#lab-agenda)
+Return to [Lab Agenda Directory](https://github.com/tetsushijp/AEP-Hands-on-Labs/blob/master/labs/fsi6/README.md#lab-agenda)

@@ -2,9 +2,9 @@
 
 FSI HOLのトップページへようこそ。
 
-## First thing first...
+## まず最初に...
 
-Please download [lab exercise files here](https://github.com/tetsushijp/AEP-Hands-on-Labs/blob/master/labs/fsi6/lab_downloads.md).
+このファイルをダウンロードしてください。 [lab exercise files here](https://github.com/tetsushijp/AEP-Hands-on-Labs/blob/master/labs/fsi6/lab_downloads.md).
 
 *PLEASE NOTE: Your HOL consultant will assign your attendee number during the session or in your pre-prerequisites email*
 
