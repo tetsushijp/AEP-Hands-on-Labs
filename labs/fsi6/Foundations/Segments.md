@@ -18,7 +18,7 @@ Lab 6.1 - Segmentation - Profile Attribute Segmentation
      </tr>
      <tr width="500">
            <td valign="top"><h3>Prerequisites:</h3></td>
-           <td valign="top"><br>none</td>
+           <td valign="top"><br>なし</td>
      </tr>
 </tbody>
 </table>
@@ -52,56 +52,56 @@ Lab 6.1 - Segmentation - Profile Attribute Segmentation
 
 Instructions:
 -----------------
-1.	Navigate to Segment Builder in the left navigation
+1.	左のナビゲーションからSegment Builderに移動します。
 
       <kbd><img src="./images/segmenthome.png"  /></kbd>
 
-2.    Click "Create segment" on the top right.
+2.    右上の「 **Create segment** 」をクリックします。
 
       <kbd><img src="./images/createsegment.png"  /></kbd>
 
-3.	Click the gear icon to the right of Fields in the left pane
+3.	左ペインの「 **Fields** 」の右側にある歯車アイコンをクリックします。
 
       <kbd><img src="./images/segmentfieldsgear.png"  /></kbd>
 
-4.	Verify ‘Show full XDM schema’ is selected, and if not, select it
+4.	「 **Show full XDM schema** 」が選択されていることを確認し、選択されていない場合は、選択します。
            
       <kbd><img src="./images/segment_gear.png"  /></kbd>
       
-5.	Click on the gear icon again to hide the setting
+5.	歯車のアイコンをもう一度クリックすると、設定が非表示になります
 
       <kbd><img src="./images/segmentfieldsgearclose.png"  /></kbd>
 
-6.	Select ‘Events’ under Fields
+6.	フィールドの下にある「 **Events** 」を選択します。
 
       <kbd><img src="./images/segmentevents.png"  /></kbd>
 
-7.	Click on ‘XDM ExperienceEvent’ under Browse Classes
+7.	ブラウズクラスの下にある「 **XDM ExperienceEvent** 」をクリックします。
 
       <kbd><img src="./images/segment_xdm_ee.png"  /></kbd>
       
-8.	Click on ‘Adobedemoamericas 270’ to expand the objects below that namespace
+8.	「 **Adobedemoamericas 270** 」をクリックすると、そのネームスペースの下にあるオブジェクトが展開されます。
       
       <kbd><img src="./images/segment_xdm_pot6.png"  /></kbd>
 
-9.	Click on ‘callcenterDetails’
+9.	" **callcenterDetails** "をクリックします。
    
       <kbd><img src="./images/segment_xdm_calldetails_pot6.png"  /></kbd>      
 
-10.	Drag the ‘callSelectedReason’ field over to the Segment canvas
+10.	" **callSelectedReason** " フィールドをセグメントキャンバスにドラッグします。
             
       <kbd><img src="./images/segment_fsi_callselectedreason.png"  /></kbd>    
       
-11.	In the text box to the right of equals, type “Account Security Issue” and press ‘Enter’
+11.	"**equals**"の右にあるテキストボックスに「**Account Security Issue**」と入力し、「 **Enter** 」キーを押します。
            
       <kbd><img src="./images/segment_fsi_account_security_issue.png"  /></kbd>  
 
-12.	Enter the segment name “Call Center Account Security” followed by your Student ID (e.g. “Call Center Account Security 025”)
-	<br>Enter the same value as the description
+12.	セグメント名「 **Call Center Account Security** 」の後にご自身の番号（例：「Call Center Account Security 025」）を入力してください。
+	<br>説明にも同じ値を入力してください
       
       <kbd><img src="./images/segment_fsi_segmentname.png"  /></kbd>       
            
-13.	Save the Segment
+13.	セグメントを保存します
            
       <kbd><img src="./images/segment_fsi_save.png"  /></kbd>  
       
