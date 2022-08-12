@@ -10,9 +10,10 @@ Lab 6.1 - Segmentation - Profile Attribute Segmentation
 <tbody valign="top">
       <tr width="500">
             <td valign="top"><h3>Objective:</h3></td>
-            <td valign="top"><br>In this exercise, we’ll create a basic segment using a single field in Call Center ExperienceEvent.
+            <td valign="top"><br>この演習では、Call Center ExperienceEvent の 1 つのフィールドを使用して、基本的なセグメントを作成します。
+
 </br>
-<br>A marketer wants to create a basic segment for customers who report Account security issues with a Call Center representative.</br>
+<br>あるマーケティング担当者は、コールセンターの担当者にアカウントセキュリティの問題を報告した顧客を対象とした基本セグメントを作成したいと考えています。</br>
             </td>
      </tr>
      <tr width="500">
