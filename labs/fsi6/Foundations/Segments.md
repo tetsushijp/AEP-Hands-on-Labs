@@ -105,13 +105,13 @@ Instructions:
            
       <kbd><img src="./images/segment_fsi_save.png"  /></kbd>  
       
-NOTE: Estimate link may not show results if qualified profiles are statistically small and not recognized across datset scans 
+NOTE: 統計的に小さいプロファイルやデータセットスキャンで認識されないプロファイルは、推定リンクで結果が表示されないことがあります。
 <br>
 <br>
 <br>
 
 
-Lab 6.2 - Segmentation - Profile Attribute with Experience Event Segmentation
+Lab 6.2 - セグメンテーション - プロファイル属性とエクスペリエンスイベントのセグメンテーション
 ==========
 <table style="border-collapse: collapse; border: none;" class="tab" cellspacing="0" cellpadding="0">
 
@@ -123,13 +123,13 @@ Lab 6.2 - Segmentation - Profile Attribute with Experience Event Segmentation
 <tbody valign="top">
       <tr width="500">
             <td valign="top"><h3>Objective:</h3></td>
-            <td valign="top"><br>In this exercise, we’ll create a segment using both a Profile Attribute and ExperienceEvents. </br>
-     <br>A marketer wants to create a segment of female customers that performed IRA (Traditional or Roth) transactions with a broker in the last 24 hours.</br>
+            <td valign="top"><br>このエクササイズでは、Profile Attribute と ExperienceEvents の両方を使用して、セグメントを作成します。 </br>
+     <br>あるマーケティング担当者は、過去24時間以内に証券会社でIRA（トラディショナルまたはロート）の取引を行った女性顧客のセグメントを作成したいと考えています。</br>
      </td>
      </tr>
      <tr width="500">
            <td valign="top"><h3>Prerequisites:</h3></td>
-           <td valign="top"><br>none</td>
+           <td valign="top"><br>なし</td>
      </tr>
 </tbody>
 </table>
@@ -163,46 +163,46 @@ Lab 6.2 - Segmentation - Profile Attribute with Experience Event Segmentation
 
 Instructions:
 -----------------
-1.	Navigate to Segment Builder in the left navigation
+1.	左のナビゲーションからSegment Builderに移動します。
 
       <kbd><img src="./images/segmenthome.png"  /></kbd>
 
-2.    Click "Create segment" on the top right.
+2.    右上の「 **Create segment** 」をクリックします。
 
       <kbd><img src="./images/createsegment.png"  /></kbd>
 
-3.	Click the gear icon to the right of Fields in the left pane
+3.	左ペインの「 **Fields** 」の右側にある歯車アイコンをクリックします。
 
       <kbd><img src="./images/segmentfieldsgear.png"  /></kbd>
 
-4.	Verify ‘Show full XDM schema’ is selected, and if not, select it
+4.	「 **Show full XDM schema** 」が選択されていることを確認し、選択されていない場合は、選択します。
            
       <kbd><img src="./images/segment_gear.png"  /></kbd>
       
-5.	Click on the gear icon again to hide the setting
+5.	歯車のアイコンをもう一度クリックすると、設定が非表示になります
 
       <kbd><img src="./images/segmentfieldsgearclose.png"  /></kbd>
 
-6. 	Select ‘Attributes’ under Fields
+1. 	"**Fiedls**"下にある ‘**Attributes**’ を選択
 
 	<kbd><img src="./images/segmentattributes.png"  /></kbd>
 
-7.	Click on the ‘XDM Individual Profile’ object under Browse Attributes
+7.	**Browse Attributes**の下にある「 **XDM Individual Profile** 」オブジェクトをクリックします。
 
 	<kbd><img src="./images/segmentattributes_xdm.png"  /></kbd>
 
-8.	Click on ‘Person’ 
+8.	' **Person** 'をクリック 
 
 	<kbd><img src="./images/segmentattributes_xdm_person.png"  /></kbd>
 
-9.	Drag the ‘Gender’ field to the Segment canvas
+9.	「 **Gender** 」フィールドをセグメント・キャンバスにドラッグします。
 
 	<kbd><img src="./images/segmentattributes_xdm_person_gender.png"  /></kbd>
 
-10.	Start entering ‘Female’ in the text box and when the value displays, select it and press Enter. The ‘Gender’ field is an enum field to limit the values stored in that field.
+10.	テキストボックスに「 **Female** 」の入力を開始し、値が表示されたら、それを選択してEnterキーを押してください。「 **Gender** 」フィールドは、そのフィールドに格納される値を制限するための**列挙型**フィールドです。
 	<kbd><img src="./images/segment_travel_me_gender.png"  /></kbd>
 
-11.	Select ‘Events’ under Fields
+11.	**Fields**下の ‘Events’ を選択します。
 
        <kbd><img src="./images/segmentevents.png"  /></kbd>
        
@@ -230,11 +230,11 @@ Instructions:
 
 	<kbd><img src="./images/transactionmethod_details.png"  /></kbd>
 
-18.  In the segment canvas, select the 'transactionName' event.  In the event rule container, change the condition from equals to contains.  In the text box to the right of contains, type "IRA" and press 'Enter'
+1.   In the segment canvas, select the 'transactionName' event.  In the event rule container, change the condition from equals to contains.  In the text box to the right of contains, type "IRA" and press 'Enter'
 
        <kbd><img src="./images/transactionname_details.png"  /></kbd>
 
-19.  At the top of the ‘Events’ canvas, update the time value to ‘In last 24 Hour(s)’
+2.   At the top of the ‘Events’ canvas, update the time value to ‘In last 24 Hour(s)’
 
    <kbd><img src="./images/segment_segment2_inlast.png"  /></kbd>
 
