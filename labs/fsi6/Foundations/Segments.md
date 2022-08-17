@@ -206,7 +206,7 @@ Instructions:
 
        <kbd><img src="./images/segmentevents.png"  /></kbd>
        
-12.	Click on ‘XDM ExperienceEvent’ under Browse Classes
+12.	「**BROWSE CLASSES**」の下にある「**XDM ExperienceEvent**」をクリックします
 
       <kbd><img src="./images/segment_xdm_ee.png"  /></kbd>
       
